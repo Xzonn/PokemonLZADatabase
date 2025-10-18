@@ -6,10 +6,12 @@ import PokemonDetailPage from "./pages/PokemonDetailPage";
 import MoveDetailPage from "./pages/MoveDetailPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import SearchBar from "./components/SearchBar";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
         {/* 导航栏 */}
         <nav className="bg-white shadow-lg border-b-4 border-primary">

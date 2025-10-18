@@ -1,4 +1,7 @@
-@tailwind base;
+@layer tailwind-base, antd;
+@layer tailwind-base {
+  @tailwind base;
+}
 @tailwind components;
 @tailwind utilities;
 
@@ -33,6 +36,7 @@
   display: flex;
   align-items: center;
   gap: 1em;
+  white-space: nowrap;
 
   .icon-pokemon {
     margin: 0;

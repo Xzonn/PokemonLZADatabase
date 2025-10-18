@@ -8,7 +8,7 @@ import { PokemonDataByName } from "../data/pokemon";
 import StatBar from "../components/StatBar";
 import { useRequest } from "ahooks";
 import { Move, MoveLevelUp, Pokemon, PokemonFull } from "../types";
-import { Table, TableColumnsType } from "antd";
+import { Descriptions, DescriptionsProps, Table, TableColumnsType } from "antd";
 import { MoveDataById } from "../data/move";
 import PokemonIcon from "../components/PokemonIcon";
 
@@ -69,6 +69,44 @@ const columnsLevelUp: TableColumnsType<MoveLevelUp & Move> = [
 
 const columnsTM: TableColumnsType<Move> = [...(columnsMove as TableColumnsType<Move>)];
 
+const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): DescriptionsProps["items"] => [
+  {
+    key: "types",
+    label: "属性",
+    children: renderTypes(pokemon.types),
+  },
+  {
+    key: "expGrowth",
+    label: "经验值",
+    children: pokemonFull?.expGrowth || "—",
+  },
+  {
+    key: "catchRate",
+    label: "捕获率",
+    children: pokemonFull?.catchRate || "—",
+  },
+  {
+    key: "catchRate",
+    label: "捕获率",
+    children: pokemonFull?.catchRate || "—",
+  },
+  {
+    key: "baseFriendship",
+    label: "基础友好度",
+    children: pokemonFull?.baseFriendship || "—",
+  },
+  {
+    key: "evoStage",
+    label: "进化阶段",
+    children: pokemonFull?.evoStage || "—",
+  },
+  {
+    key: "description",
+    label: "图鉴描述",
+    children: pokemonFull?.description || "—",
+  },
+];
+
 const PokemonDetailPage: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
   const { data: pokemonFull = null } = useRequest(
     async () => {
@@ -108,14 +146,20 @@ const PokemonDetailPage: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
           pokemon={pokemon}
           size={128}
         />
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">{pokemon.name}</h1>
-        <div className="flex  justify-center space-x-2 mb-6 text-xl text-gray-600">
+        <h1 className="text-4xl font-bold text-gray-900 my-2">{pokemon.name}</h1>
+        <div className="flex justify-center space-x-2 mb-6 text-xl text-gray-600">
           <div>{pokemon.japanese}</div>
           <div>{pokemon.english}</div>
         </div>
         <div className="text-xl text-gray-600 mb-4">{pokemon.formName}</div>
-        <div className="flex justify-center space-x-2 mb-6">{renderTypes(pokemon.types)}</div>
-        <p className="text-gray-600 max-w-2xl mx-auto px-6 mb-6">{pokemonFull?.description}</p>
+      </div>
+
+      <div className="px-8 py-8">
+        <h3 className="text-xl font-semibold text-gray-800 my-4">基本信息</h3>
+        <Descriptions
+          bordered
+          items={getDescriptions(pokemon, pokemonFull)}
+        />
       </div>
 
       {/* 能力值 */}
@@ -135,14 +179,24 @@ const PokemonDetailPage: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
       {/* 可学习招式 */}
       <div className="px-8 py-8">
         <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">可学习招式</h2>
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">等级提升</h3>
+        <h3 className="text-xl font-semibold text-gray-800 my-4">等级提升</h3>
         <Table
+          scroll={{
+            scrollToFirstRowOnChange: true,
+            x: true,
+          }}
+          sticky={{ offsetHeader: 0 }}
           columns={columnsLevelUp}
           dataSource={movesLevelUp}
           pagination={false}
         />
         <h3 className="text-xl font-semibold text-gray-800 my-4">招式学习器</h3>
         <Table
+          scroll={{
+            scrollToFirstRowOnChange: true,
+            x: true,
+          }}
+          sticky={{ offsetHeader: 0 }}
           columns={columnsTM}
           dataSource={movesTM}
           pagination={false}

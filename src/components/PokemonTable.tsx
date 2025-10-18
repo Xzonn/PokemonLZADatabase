@@ -84,6 +84,11 @@ const PokemonTable = <T,>({ data, showStats, extraColumns }: IPokemonTableProps<
 
   return (
     <Table
+      scroll={{
+        scrollToFirstRowOnChange: true,
+        x: true,
+      }}
+      sticky={{ offsetHeader: 0 }}
       columns={fullColumns}
       dataSource={data}
       pagination={paginationConfig}

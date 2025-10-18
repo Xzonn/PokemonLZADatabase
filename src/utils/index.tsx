@@ -39,7 +39,7 @@ export const renderTypes = (types: [PokemonType, PokemonType]): ReactNode => {
 };
 
 export const getPokemonFullName = (pokemon: Pokemon): string => {
-  return pokemon.formName ? `${pokemon.name}-${pokemon.formName}` : pokemon.name;
+  return pokemon.form > 0 ? `${pokemon.name}-${pokemon.form}` : pokemon.name;
 };
 
 export const getPokemonFullId = (pokemon: Pokemon): PokemonForm => {
