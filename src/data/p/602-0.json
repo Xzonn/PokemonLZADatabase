@@ -1,0 +1,61 @@
+{
+  "internal": 602,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 39,
+      "method": 4,
+      "argument": 0,
+      "target": 603,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 86
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 209
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 209
+    }
+  ],
+  "description": "因为只能发出很弱的电，所以要许多麻麻小鱼聚集起来，才能放出强力的电来。"
+}

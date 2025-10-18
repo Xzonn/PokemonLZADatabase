@@ -1,0 +1,178 @@
+{
+  "internal": 353,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 225,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 37,
+      "method": 4,
+      "argument": 0,
+      "target": 354,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 122
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 109
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 282
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 261
+    },
+    {
+      "level": 19,
+      "levelPlus": 22,
+      "move": 425
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 421
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 174
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 247
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 14
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 566
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 441
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 122
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "据说会用头部的角吃掉怨恨和嫉妒的感情。在深夜非常活跃。"
+}

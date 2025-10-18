@@ -1,0 +1,236 @@
+{
+  "internal": 780,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 70,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 239
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 182
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 137
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 219
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 225
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 196
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 34
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 133
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 406
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 113
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 19
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 304
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 200
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 407
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 18
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 137
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 239
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 542
+    },
+    {
+      "move": 583
+    }
+  ],
+  "description": "心地非常善良。可一旦被激怒，就会用非常猛烈的气息把周围破坏殆尽。"
+}

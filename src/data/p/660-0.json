@@ -1,0 +1,192 @@
+{
+  "internal": 660,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 127,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 23,
+      "move": 523
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 341
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 98
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 693
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 91
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 340
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 36
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 162
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 89
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 162
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "大大的耳朵拥有轻松举起超过１吨重的岩石的力量。在施工现场非常活跃。"
+}

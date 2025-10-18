@@ -1,0 +1,190 @@
+{
+  "internal": 719,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 20,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 88
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 591
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 133
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 313
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 577
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 157
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 113
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 408
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 446
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 444
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 585
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 591
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "小碎钻的突变体。闪着粉红色光辉的身体被赞为全世界最美。"
+}

@@ -1,0 +1,185 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "064-0",
+      "level": 45
+    },
+    {
+      "fullId": "065-0",
+      "level": 45
+    },
+    {
+      "fullId": "065-1",
+      "level": 45
+    },
+    {
+      "fullId": "080-0",
+      "level": 45
+    },
+    {
+      "fullId": "080-1",
+      "level": 45
+    },
+    {
+      "fullId": "080-2",
+      "level": 45
+    },
+    {
+      "fullId": "150-0",
+      "level": 88
+    },
+    {
+      "fullId": "150-1",
+      "level": 88
+    },
+    {
+      "fullId": "150-2",
+      "level": 88
+    },
+    {
+      "fullId": "196-0",
+      "level": 55
+    },
+    {
+      "fullId": "199-0",
+      "level": 45
+    },
+    {
+      "fullId": "199-1",
+      "level": 45
+    },
+    {
+      "fullId": "280-0",
+      "level": 58
+    },
+    {
+      "fullId": "281-0",
+      "level": 58
+    },
+    {
+      "fullId": "282-0",
+      "level": 58
+    },
+    {
+      "fullId": "282-1",
+      "level": 58
+    },
+    {
+      "fullId": "359-0",
+      "level": 48
+    },
+    {
+      "fullId": "359-1",
+      "level": 48
+    },
+    {
+      "fullId": "475-0",
+      "level": -2
+    },
+    {
+      "fullId": "475-1",
+      "level": -2
+    },
+    {
+      "fullId": "655-0",
+      "level": -2
+    },
+    {
+      "fullId": "655-1",
+      "level": -2
+    },
+    {
+      "fullId": "678-1",
+      "level": 50
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "064-0"
+    },
+    {
+      "fullId": "065-0"
+    },
+    {
+      "fullId": "065-1"
+    },
+    {
+      "fullId": "080-0"
+    },
+    {
+      "fullId": "080-1"
+    },
+    {
+      "fullId": "080-2"
+    },
+    {
+      "fullId": "150-0"
+    },
+    {
+      "fullId": "150-1"
+    },
+    {
+      "fullId": "150-2"
+    },
+    {
+      "fullId": "196-0"
+    },
+    {
+      "fullId": "199-0"
+    },
+    {
+      "fullId": "199-1"
+    },
+    {
+      "fullId": "280-0"
+    },
+    {
+      "fullId": "281-0"
+    },
+    {
+      "fullId": "282-0"
+    },
+    {
+      "fullId": "282-1"
+    },
+    {
+      "fullId": "359-0"
+    },
+    {
+      "fullId": "359-1"
+    },
+    {
+      "fullId": "475-0"
+    },
+    {
+      "fullId": "475-1"
+    },
+    {
+      "fullId": "655-0"
+    },
+    {
+      "fullId": "655-1"
+    },
+    {
+      "fullId": "678-1"
+    },
+    {
+      "fullId": "686-0"
+    },
+    {
+      "fullId": "687-0"
+    },
+    {
+      "fullId": "687-1"
+    },
+    {
+      "fullId": "707-0"
+    },
+    {
+      "fullId": "720-0"
+    },
+    {
+      "fullId": "720-1"
+    }
+  ]
+}

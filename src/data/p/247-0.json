@@ -1,0 +1,198 @@
+{
+  "internal": 247,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 55,
+      "method": 4,
+      "argument": 0,
+      "target": 248,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 334
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 88
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 44
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 328
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 157
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 103
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 242
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 89
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 444
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 350
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    }
+  ],
+  "description": "身体如岩盘一样坚硬。会喷射压缩气体，如同火箭一样飞出去。"
+}

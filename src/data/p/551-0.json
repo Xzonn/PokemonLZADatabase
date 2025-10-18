@@ -1,0 +1,174 @@
+{
+  "internal": 551,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 180,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 29,
+      "method": 4,
+      "argument": 0,
+      "target": 552,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 328
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 44
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 91
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 36
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 242
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 231
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 89
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 38
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    }
+  ],
+  "description": "潜伏在沙子里，露出眼睛和鼻子移动。黑色的膜保护着眼睛。"
+}

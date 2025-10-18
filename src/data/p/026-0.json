@@ -1,0 +1,206 @@
+{
+  "internal": 26,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 9
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 598
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 86
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 609
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 209
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 204
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 85
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 268
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 113
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 87
+    },
+    {
+      "level": 99,
+      "levelPlus": 100,
+      "move": 344
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 9
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 209
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 344
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 598
+    },
+    {
+      "move": 609
+    }
+  ],
+  "description": "如果储存的电力过多，肌肉就会受到刺激，它也会变得比平时更具攻击性。"
+}

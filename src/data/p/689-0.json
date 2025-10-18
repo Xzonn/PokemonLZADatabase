@@ -1,0 +1,216 @@
+{
+  "internal": 689,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 611
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 88
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 61
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 350
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 523
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 163
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 334
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 400
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 280
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 710
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 444
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 611
+    },
+    {
+      "move": 612
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "手脚也有大脑，可以随意活动。但通常会听从头部龟足巨铠的命令。"
+}

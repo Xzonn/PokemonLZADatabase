@@ -1,0 +1,193 @@
+{
+  "internal": 229,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 417
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 33
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 46
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 44
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 555
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 36
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 424
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 399
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 53
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 242
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 315
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 555
+    }
+  ],
+  "description": "愤怒时从嘴里喷出的火焰中还混合着毒素，被灼伤的话，就会疼痛不止。"
+}

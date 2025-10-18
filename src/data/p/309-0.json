@@ -1,0 +1,199 @@
+{
+  "internal": 309,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 26,
+      "method": 4,
+      "argument": 0,
+      "target": 310,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 84
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 86
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 209
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 44
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 598
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 422
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 46
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 555
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 268
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 85
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 528
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 87
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 209
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 555
+    },
+    {
+      "move": 598
+    }
+  ],
+  "description": "会将静电储存在体毛中进行放电。暴风雨临近时，会从全身散发出火花。"
+}

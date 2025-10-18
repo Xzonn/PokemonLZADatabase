@@ -1,0 +1,181 @@
+{
+  "internal": 686,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 28,
+      "argument": 0,
+      "target": 687,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 95
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 313
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 282
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 60
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 163
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 400
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 427
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 473
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 576
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 64
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 427
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 576
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "通过光的闪烁让来袭击的敌人战意全消。就在那空当隐藏自己的身体。"
+}

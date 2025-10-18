@@ -1,0 +1,221 @@
+{
+  "internal": 657,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [
+    {
+      "level": 36,
+      "method": 4,
+      "argument": 0,
+      "target": 658,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 55
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 98
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 122
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 61
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 108
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 332
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 425
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 164
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 400
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 340
+    },
+    {
+      "level": 51,
+      "levelPlus": 54,
+      "move": 104
+    },
+    {
+      "level": 57,
+      "levelPlus": 60,
+      "move": 56
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 122
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "灵巧的身体不输给任何人。只需１分钟就能登上超过６００米高的塔顶。"
+}

@@ -1,0 +1,194 @@
+{
+  "internal": 5,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 36,
+      "method": 4,
+      "argument": 0,
+      "target": 6,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 52
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 108
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 225
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 424
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 83
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 53
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 407
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 394
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 424
+    }
+  ],
+  "description": "会先挥舞尾巴扫倒对手，然后再用利爪将其撕成碎片。"
+}

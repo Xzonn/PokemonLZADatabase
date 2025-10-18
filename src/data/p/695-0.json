@@ -1,0 +1,199 @@
+{
+  "internal": 695,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 86
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 129
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 570
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 523
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 521
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 784
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 234
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 85
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 268
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 87
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 234
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 570
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "会张开颈伞发电。１只光电伞蜥就能制造出一栋高层建筑所必需的电。"
+}

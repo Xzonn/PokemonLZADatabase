@@ -1,0 +1,227 @@
+{
+  "internal": 197,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 555
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 36
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 38
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 129
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 273
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 574
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 109
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 236
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 282
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 399
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 103
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 242
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 236
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 555
+    },
+    {
+      "move": 574
+    }
+  ],
+  "description": "月光改变了伊布的遗传基因。会潜伏在黑暗中等待猎物。"
+}

@@ -1,0 +1,222 @@
+{
+  "internal": 208,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 25,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 231
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 88
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 242
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 225
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 174
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 157
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 784
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 328
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 446
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 484
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 91
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 444
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 38
+    },
+    {
+      "level": 62,
+      "levelPlus": 65,
+      "move": 457
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 457
+    },
+    {
+      "move": 484
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "用磁力操控剥落的坚硬的身体表面，防御对手的攻击。"
+}

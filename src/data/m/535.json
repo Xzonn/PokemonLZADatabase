@@ -1,0 +1,48 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "322-0",
+      "level": 55
+    },
+    {
+      "fullId": "323-0",
+      "level": 55
+    },
+    {
+      "fullId": "323-1",
+      "level": 55
+    },
+    {
+      "fullId": "500-0",
+      "level": -3
+    },
+    {
+      "fullId": "500-1",
+      "level": -3
+    },
+    {
+      "fullId": "721-0",
+      "level": 30
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "322-0"
+    },
+    {
+      "fullId": "323-0"
+    },
+    {
+      "fullId": "323-1"
+    },
+    {
+      "fullId": "500-0"
+    },
+    {
+      "fullId": "500-1"
+    },
+    {
+      "fullId": "721-0"
+    }
+  ]
+}

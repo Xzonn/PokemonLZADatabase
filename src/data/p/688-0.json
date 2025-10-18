@@ -1,0 +1,196 @@
+{
+  "internal": 688,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 39,
+      "method": 4,
+      "argument": 0,
+      "target": 689,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 611
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 88
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 61
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 350
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 523
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 163
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 334
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 400
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 710
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 444
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 611
+    },
+    {
+      "move": 612
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "２只龟脚脚生活在一块岩石上。如果吵架了，就会有某只转移到其他岩石上去。"
+}

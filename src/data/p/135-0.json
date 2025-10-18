@@ -1,0 +1,240 @@
+{
+  "internal": 135,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 36
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 38
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 129
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 273
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 598
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 574
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 86
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 29
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 422
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 42
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 85
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 313
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 87
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 42
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 598
+    }
+  ],
+  "description": "能够吸入空气中的负离子，吐出大约有１００００伏特的高压电。"
+}

@@ -1,0 +1,210 @@
+{
+  "internal": 168,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 25,
+      "move": 14
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 81
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 116
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 71
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 611
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 425
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 404
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 103
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 564
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 42
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 94
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 398
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 405
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 141
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 679
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 224
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 40
+    },
+    {
+      "move": 42
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 71
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 141
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 405
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 564
+    },
+    {
+      "move": 611
+    },
+    {
+      "move": 679
+    }
+  ],
+  "description": "不仅会从臀部，还会从口中吐出丝来，所以仅凭眼睛看，无法分清哪边才是头。"
+}

@@ -1,0 +1,184 @@
+{
+  "internal": 710,
+  "form": 3,
+  "expGrowth": 0,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 5,
+      "argument": 0,
+      "target": 711,
+      "form": 3
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 567
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 425
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 109
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 75
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 73
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 331
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 693
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 95
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 247
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 595
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 438
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 438
+    },
+    {
+      "move": 567
+    },
+    {
+      "move": 595
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "配合自己身体的尺寸，将巨大尺寸的灵魂带往另一个世界的品种。"
+}

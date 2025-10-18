@@ -1,0 +1,166 @@
+{
+  "internal": 677,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 25,
+      "method": 23,
+      "argument": 0,
+      "target": 678,
+      "form": 0
+    },
+    {
+      "level": 25,
+      "method": 34,
+      "argument": 0,
+      "target": 678,
+      "form": 1
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 574
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 93
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 313
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 129
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 60
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 113
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 115
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 473
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 583
+    }
+  ],
+  "description": "为了不让强大的精神力量漏出，用耳朵捂住释放力量的器官。"
+}

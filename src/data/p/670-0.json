@@ -1,0 +1,171 @@
+{
+  "internal": 670,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 120,
+  "gender": [
+    2,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 7,
+      "target": 671,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 22,
+      "move": 585
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 22
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 584
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 219
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 75
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 577
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 273
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 345
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 204
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 235
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 412
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 76
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 22
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 584
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "会通过红色的波长把自己的能量传递给花，以激发花的潜在能力。"
+}

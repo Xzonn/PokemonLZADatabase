@@ -1,0 +1,193 @@
+{
+  "internal": 705,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 50,
+      "method": 31,
+      "argument": 1,
+      "target": 706,
+      "form": 1
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 43,
+      "move": 334
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 71
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 151
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 55
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 204
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 225
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 182
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 341
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 352
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 406
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 36
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 174
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 34
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 57
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 71
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 151
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    }
+  ],
+  "description": "在饮用水所含的铁成分的作用下，壳变成了金属。晴天时不会冒出来。"
+}

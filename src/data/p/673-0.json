@@ -1,0 +1,222 @@
+{
+  "internal": 673,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 35,
+      "move": 332
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 74
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 22
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 39
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 73
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 75
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 341
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 235
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 36
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 523
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 532
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 339
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 38
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 348
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 224
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 89
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 22
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 348
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 532
+    },
+    {
+      "move": 583
+    }
+  ],
+  "description": "从握角的细微差异就能读取训练家的心情，所以会心灵一体奔跑。"
+}

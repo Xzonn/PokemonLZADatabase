@@ -1,0 +1,165 @@
+{
+  "internal": 127,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 116
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 249
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 693
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 197
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 36
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 404
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 679
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 14
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 679
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "超级进化后变得可以飞行了。或许是因为太过高兴，它几乎不会降落到地面上。"
+}

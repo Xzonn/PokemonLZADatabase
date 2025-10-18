@@ -1,0 +1,201 @@
+{
+  "internal": 319,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 33,
+      "move": 163
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 400
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 453
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 116
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 44
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 812
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 242
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 97
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 36
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 710
+    },
+    {
+      "level": 51,
+      "levelPlus": 54,
+      "move": 340
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 38
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 453
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "长在头部的尖刺是牙齿变化而来的。即使受伤折断，也能无数次地立刻长回来。"
+}

@@ -1,0 +1,150 @@
+import React, { useState } from "react";
+import { Input } from "antd";
+import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
+import { getPokemonFullId, getPokemonFullName, getTypeColor, renderType, renderTypes } from "../utils";
+import { SearchResult } from "../types";
+import { useDebounceFn } from "ahooks";
+import { Link } from "react-router-dom";
+import { PokemonData } from "../data/pokemon";
+import { MoveData } from "../data/move";
+
+const searchAll = (keyword: string): SearchResult => {
+  if (!keyword.trim()) {
+    return {
+      isEmpty: true,
+      pokemon: [],
+      moves: [],
+    };
+  }
+
+  const pokemonResults = PokemonData.filter(
+    (pokemon) => pokemon.english.toLowerCase().includes(keyword.toLowerCase()) || pokemon.name.includes(keyword),
+  ).slice(0, 10);
+
+  const moveResults =
+    pokemonResults.length < 10
+      ? MoveData.filter(
+          (move) => move.english.toLowerCase().includes(keyword.toLowerCase()) || move.name.includes(keyword),
+        ).slice(0, 10 - pokemonResults.length)
+      : [];
+
+  return {
+    isEmpty: pokemonResults.length === 0 && moveResults.length === 0,
+    pokemon: pokemonResults,
+    moves: moveResults,
+  };
+};
+
+const renderSearchResult = (result: SearchResult | undefined, onClick: () => void) => {
+  const { isEmpty = true } = result || {};
+
+  if (!result || isEmpty) {
+    return (
+      <div
+        key="empty"
+        className="px-4 py-3 text-gray-500"
+      >
+        没有找到相关结果
+      </div>
+    );
+  }
+
+  return (
+    <div key="results">
+      {result.pokemon.map((pokemon) => (
+        <Link
+          key={`pokemon-${getPokemonFullId(pokemon)}`}
+          to={`/p/${getPokemonFullName(pokemon)}`}
+          onClick={onClick}
+          className="flex items-center p-3 hover:bg-gray-50 border-b border-gray-100 cursor-pointer"
+        >
+          <div className="flex-1">
+            <div className="font-semibold text-gray-900">{getPokemonFullName(pokemon)}</div>
+            <div className="text-sm text-gray-500">{pokemon.english}</div>
+            <div className="flex space-x-1 mt-1">{renderTypes(pokemon.types)}</div>
+          </div>
+        </Link>
+      ))}
+      {result.moves.map((move) => (
+        <Link
+          key={`move-${move.id}`}
+          to={`/m/${move.name}`}
+          onClick={onClick}
+          className="flex items-center p-3 hover:bg-gray-50 border-b border-gray-100 cursor-pointer"
+        >
+          <div className={`w-12 h-12 rounded-full mr-3 flex items-center justify-center ${getTypeColor(move.type)}`}>
+            <i className="fa fa-magic text-white text-xl"></i>
+          </div>
+          <div className="flex-1">
+            <div className="font-semibold text-gray-900">{move.name}</div>
+            <div className="text-sm text-gray-500">{move.english}</div>
+            <div className="flex items-center space-x-2 mt-1">
+              {renderType(move.type)}
+              <span className="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded">{move.category}</span>
+            </div>
+          </div>
+        </Link>
+      ))}
+    </div>
+  );
+};
+
+const SearchBar: React.FC = () => {
+  const [searchKeyword, setSearchKeyword] = useState("");
+  const [searchResult, setSearchResult] = useState<SearchResult>();
+  const [showSearchResults, setShowSearchResults] = useState(false);
+
+  const { run: debounceSearch } = useDebounceFn(
+    () => {
+      const result = searchAll(searchKeyword);
+      setSearchResult(result);
+      setShowSearchResults(true);
+    },
+    { wait: 300 },
+  );
+
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const keyword = e.target.value;
+    setSearchKeyword(keyword);
+
+    if (keyword.length > 0) {
+      debounceSearch();
+    } else {
+      setShowSearchResults(false);
+    }
+  };
+
+  const handleClearSearch = () => {
+    setSearchKeyword("");
+    setShowSearchResults(false);
+  };
+
+  return (
+    <div className="relative">
+      <Input
+        placeholder="搜索宝可梦或招式..."
+        value={searchKeyword}
+        onChange={handleSearch}
+        prefix={<SearchOutlined className="text-gray-400" />}
+        suffix={
+          searchKeyword && (
+            <CloseOutlined
+              className="text-gray-400 cursor-pointer"
+              onClick={handleClearSearch}
+            />
+          )
+        }
+        className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:ring-2 focus:ring-primary focus:border-transparent"
+      />
+
+      {/* 搜索结果下拉框 */}
+      {showSearchResults && (
+        <div className="absolute z-10 mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
+          {renderSearchResult(searchResult, handleClearSearch)}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default SearchBar;

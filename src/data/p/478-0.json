@@ -1,0 +1,237 @@
+{
+  "internal": 478,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    2,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 577
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 182
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 242
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 423
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 556
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 29
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 104
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 420
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 109
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 196
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 313
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 114
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 58
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 247
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 261
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 59
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 566
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 174
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 420
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 556
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 577
+    }
+  ],
+  "description": "吐出零下５０度的冷气让对手冻结。看起来像是躯体的部分，其实里面是空的。"
+}

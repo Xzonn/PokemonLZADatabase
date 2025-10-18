@@ -1,0 +1,61 @@
+{
+  "internal": 664,
+  "form": 4,
+  "expGrowth": 0,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 9,
+      "method": 4,
+      "argument": 0,
+      "target": 665,
+      "form": 4
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 81
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 78
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 78
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 182
+    }
+  ],
+  "description": "覆盖身体的粉末能调节体温，所以无论在什么地域和气候下都能生活。"
+}

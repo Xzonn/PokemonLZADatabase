@@ -1,0 +1,220 @@
+{
+  "internal": 655,
+  "form": 1,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 39,
+      "move": 595
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 247
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 248
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 52
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 204
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 60
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 83
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 113
+    },
+    {
+      "level": 31,
+      "levelPlus": 34,
+      "move": 473
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 53
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 261
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 94
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 97
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 126
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 595
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "会操控燃起火焰的枝条让对手变得神魂颠倒，再用大火球将其燃烧殆尽。"
+}

@@ -1,0 +1,208 @@
+{
+  "internal": 672,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 200,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 32,
+      "method": 4,
+      "argument": 0,
+      "target": 673,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 74
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 22
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 39
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 73
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 75
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 341
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 235
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 36
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 523
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 532
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 339
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 38
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 348
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 224
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 22
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 348
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 532
+    },
+    {
+      "move": 583
+    }
+  ],
+  "description": "如果有水和阳光，就能用背上的叶子制造能量，所以即使不吃食物也没事。"
+}

@@ -1,0 +1,175 @@
+{
+  "internal": 618,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 70,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 203
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 341
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 317
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 268
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 209
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 89
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 435
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 340
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 598
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 482
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 209
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 598
+    }
+  ],
+  "description": "会埋进海边的泥里等待猎物。猎物一旦碰到，就会放出电来使其麻痹。"
+}

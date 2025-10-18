@@ -1,0 +1,193 @@
+{
+  "internal": 1,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 16,
+      "method": 4,
+      "argument": 0,
+      "target": 2,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 22
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 74
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 73
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 75
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 77
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 79
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 36
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 345
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 235
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 133
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 482
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 38
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 76
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 22
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 77
+    },
+    {
+      "move": 79
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 526
+    }
+  ],
+  "description": "据说在它出生的时候，背上就种有一个会和它身体一同成长的神奇种子。"
+}

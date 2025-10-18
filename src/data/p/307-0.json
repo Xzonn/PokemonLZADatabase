@@ -1,0 +1,199 @@
+{
+  "internal": 307,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 180,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 37,
+      "method": 4,
+      "argument": 0,
+      "target": 308,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 526
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 197
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 203
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 249
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 418
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 60
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 347
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 428
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 36
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 105
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 223
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 105
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 223
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 418
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "１天只吃１个树果。会通过忍饥挨饿来磨砺己心。"
+}

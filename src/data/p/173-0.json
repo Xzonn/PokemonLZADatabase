@@ -1,0 +1,233 @@
+{
+  "internal": 173,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 150,
+  "gender": [
+    0,
+    75
+  ],
+  "baseFriendship": 140,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 1,
+      "argument": 0,
+      "target": 35,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 150
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 584
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 574
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 204
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 577
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 345
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 118
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 61
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 236
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 133
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 595
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 585
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 38
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 150
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 236
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 584
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 595
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "根据当地的传说，皮宝宝经常出没的地方就是流星陨落之处。"
+}

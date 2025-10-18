@@ -1,0 +1,188 @@
+{
+  "internal": 158,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 18,
+      "method": 4,
+      "argument": 0,
+      "target": 159,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 55
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 44
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 61
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 453
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 784
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 103
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 710
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 56
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 200
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 453
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 784
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "个子虽小，却是个粗暴的家伙。只要眼前有东西在动，就会上去先咬一口再说。"
+}

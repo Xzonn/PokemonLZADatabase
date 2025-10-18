@@ -1,0 +1,184 @@
+{
+  "internal": 656,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 16,
+      "method": 4,
+      "argument": 0,
+      "target": 657,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 55
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 98
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 122
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 61
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 108
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 164
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 400
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 340
+    },
+    {
+      "level": 51,
+      "levelPlus": 54,
+      "move": 104
+    },
+    {
+      "level": 57,
+      "levelPlus": 60,
+      "move": 56
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 122
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "用细腻的泡泡包住身体，保护皮肤。装得无忧无虑的，实则很精明地窥视着四周。"
+}

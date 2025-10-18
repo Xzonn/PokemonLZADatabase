@@ -1,0 +1,235 @@
+{
+  "internal": 121,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 60,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 36
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 55
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 109
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 453
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 129
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 61
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 60
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 113
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 408
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 94
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 710
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 57
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 105
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 56
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 105
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 453
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 605
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "它会从位于身体中间的红色核心那里向夜空发射神秘的电波。"
+}

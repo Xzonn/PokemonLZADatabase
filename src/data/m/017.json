@@ -1,0 +1,146 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "016-0",
+      "level": 21
+    },
+    {
+      "fullId": "017-0",
+      "level": 21
+    },
+    {
+      "fullId": "018-0",
+      "level": 21
+    },
+    {
+      "fullId": "018-1",
+      "level": 21
+    },
+    {
+      "fullId": "123-0",
+      "level": 12
+    },
+    {
+      "fullId": "142-0",
+      "level": 10
+    },
+    {
+      "fullId": "142-1",
+      "level": 10
+    },
+    {
+      "fullId": "149-0",
+      "level": -2
+    },
+    {
+      "fullId": "149-1",
+      "level": -2
+    },
+    {
+      "fullId": "212-0",
+      "level": 12
+    },
+    {
+      "fullId": "212-1",
+      "level": 12
+    },
+    {
+      "fullId": "227-0",
+      "level": 20
+    },
+    {
+      "fullId": "227-1",
+      "level": 20
+    },
+    {
+      "fullId": "587-0",
+      "level": 22
+    },
+    {
+      "fullId": "662-0",
+      "level": -3
+    },
+    {
+      "fullId": "663-0",
+      "level": 1
+    },
+    {
+      "fullId": "701-0",
+      "level": 4
+    },
+    {
+      "fullId": "701-1",
+      "level": 4
+    },
+    {
+      "fullId": "714-0",
+      "level": 16
+    },
+    {
+      "fullId": "715-0",
+      "level": 16
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "016-0"
+    },
+    {
+      "fullId": "017-0"
+    },
+    {
+      "fullId": "018-0"
+    },
+    {
+      "fullId": "018-1"
+    },
+    {
+      "fullId": "123-0"
+    },
+    {
+      "fullId": "142-0"
+    },
+    {
+      "fullId": "142-1"
+    },
+    {
+      "fullId": "149-0"
+    },
+    {
+      "fullId": "149-1"
+    },
+    {
+      "fullId": "212-0"
+    },
+    {
+      "fullId": "212-1"
+    },
+    {
+      "fullId": "227-0"
+    },
+    {
+      "fullId": "227-1"
+    },
+    {
+      "fullId": "587-0"
+    },
+    {
+      "fullId": "662-0"
+    },
+    {
+      "fullId": "663-0"
+    },
+    {
+      "fullId": "701-0"
+    },
+    {
+      "fullId": "701-1"
+    },
+    {
+      "fullId": "714-0"
+    },
+    {
+      "fullId": "715-0"
+    }
+  ]
+}

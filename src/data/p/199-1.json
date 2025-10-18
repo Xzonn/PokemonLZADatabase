@@ -1,0 +1,270 @@
+{
+  "internal": 199,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 70,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 92
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 174
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 408
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 417
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 45
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 55
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 60
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 352
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 29
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 428
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 133
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 57
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 482
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 94
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 248
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "受到进化的冲击和毒素的影响，大舌贝的智力飙升到了可以控制呆呆王的程度。"
+}

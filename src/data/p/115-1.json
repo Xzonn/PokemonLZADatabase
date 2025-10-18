@@ -1,0 +1,216 @@
+{
+  "internal": 115,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    2,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 45
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 44
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 116
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 29
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 36
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 242
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 203
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 200
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 223
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 223
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "它的孩子因受到超级进化的能量影响而急速成长。亲子二人的合作搭配不容小觑。"
+}

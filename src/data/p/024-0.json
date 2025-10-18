@@ -1,0 +1,193 @@
+{
+  "internal": 24,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 25,
+      "move": 242
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 40
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 44
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 137
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 693
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 103
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 92
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 141
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 398
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 114
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 441
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 40
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 137
+    },
+    {
+      "move": 141
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "在展开胸部威吓对手时，能从口中漏出恐怖的空气声来吓唬对手。"
+}

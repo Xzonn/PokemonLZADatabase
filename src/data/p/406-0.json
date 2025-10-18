@@ -1,0 +1,108 @@
+{
+  "internal": 406,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 2,
+      "argument": 0,
+      "target": 315,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 71
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 74
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 78
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 204
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 71
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 78
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "如果沐浴到温暖的阳光，花苞就会打开，飞散出花粉。住在清澈的水边。"
+}

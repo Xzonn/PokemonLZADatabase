@@ -1,0 +1,241 @@
+{
+  "internal": 134,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 36
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 38
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 129
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 273
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 574
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 61
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 114
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 196
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 392
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 57
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 151
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 56
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 151
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 392
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "进化出了适应水中生活的身体。如果和水融为一体就无法看见它了。"
+}

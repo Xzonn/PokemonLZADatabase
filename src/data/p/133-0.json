@@ -1,0 +1,201 @@
+{
+  "internal": 133,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 6,
+      "target": 470,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 52,
+      "target": 471,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 4,
+      "target": 135,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 5,
+      "target": 134,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 3,
+      "target": 136,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 29,
+      "argument": 17,
+      "target": 700,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 2,
+      "argument": 0,
+      "target": 196,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 3,
+      "argument": 0,
+      "target": 197,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 574
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 129
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 44
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 273
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 36
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 204
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 38
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 574
+    }
+  ],
+  "description": "由于不稳定的遗传基因，蕴含着各种各样进化可能性的特殊宝可梦。"
+}

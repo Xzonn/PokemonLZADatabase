@@ -1,0 +1,41 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "181-0",
+      "level": 50
+    },
+    {
+      "fullId": "181-1",
+      "level": 50
+    },
+    {
+      "fullId": "603-0",
+      "level": 48
+    },
+    {
+      "fullId": "604-0",
+      "level": 48
+    },
+    {
+      "fullId": "604-1",
+      "level": 48
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "181-0"
+    },
+    {
+      "fullId": "181-1"
+    },
+    {
+      "fullId": "603-0"
+    },
+    {
+      "fullId": "604-0"
+    },
+    {
+      "fullId": "604-1"
+    }
+  ]
+}

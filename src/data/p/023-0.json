@@ -1,0 +1,184 @@
+{
+  "internal": 23,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 250,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 22,
+      "method": 4,
+      "argument": 0,
+      "target": 24,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 40
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 44
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 137
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 693
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 103
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 92
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 141
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 398
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 114
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 441
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 40
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 137
+    },
+    {
+      "move": 141
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "身体会随着年龄增长不断变长。每到夜里，它会一圈圈地将身体缠绕在树枝上休息。"
+}

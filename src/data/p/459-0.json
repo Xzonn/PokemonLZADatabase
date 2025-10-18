@@ -1,0 +1,161 @@
+{
+  "internal": 459,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 40,
+      "method": 4,
+      "argument": 0,
+      "target": 460,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 670
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 54
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 420
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 75
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 196
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 74
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 73
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 452
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 59
+    },
+    {
+      "level": 53,
+      "levelPlus": 56,
+      "move": 437
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 54
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 420
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 452
+    },
+    {
+      "move": 670
+    }
+  ],
+  "description": "到了春天，肚子的周围会生长出口感好似冰棍的树果。"
+}

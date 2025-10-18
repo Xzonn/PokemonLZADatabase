@@ -1,0 +1,166 @@
+{
+  "internal": 692,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 225,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 37,
+      "method": 4,
+      "argument": 0,
+      "target": 693,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 150
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 61
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 453
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 341
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 352
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 14
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 396
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 399
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 340
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 406
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 56
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 150
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 396
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 453
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "像手枪一样把压缩过的水从大大的钳子里射出，击落飞着的猎物。"
+}

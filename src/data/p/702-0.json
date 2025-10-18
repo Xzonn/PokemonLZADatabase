@@ -1,0 +1,175 @@
+{
+  "internal": 702,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 180,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 609
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 268
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 204
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 570
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 598
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 521
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 583
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 85
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 162
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 87
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 9
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 162
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 570
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 598
+    },
+    {
+      "move": 605
+    },
+    {
+      "move": 609
+    }
+  ],
+  "description": "胡子起着天线的作用。用它来收发电波，与远处的伙伴保持联络。"
+}

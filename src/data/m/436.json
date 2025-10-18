@@ -1,0 +1,34 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "136-0",
+      "level": 40
+    },
+    {
+      "fullId": "322-0",
+      "level": 22
+    },
+    {
+      "fullId": "323-0",
+      "level": 22
+    },
+    {
+      "fullId": "323-1",
+      "level": 22
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "136-0"
+    },
+    {
+      "fullId": "322-0"
+    },
+    {
+      "fullId": "323-0"
+    },
+    {
+      "fullId": "323-1"
+    }
+  ]
+}

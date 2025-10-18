@@ -1,0 +1,170 @@
+{
+  "internal": 180,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 4,
+      "argument": 0,
+      "target": 181,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 84
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 86
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 268
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 109
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 538
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 408
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 85
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 113
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 87
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 538
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "体毛中蓄满电力后，尾巴就会发光。会射出碰到就会被电麻的体毛。"
+}

@@ -1,0 +1,238 @@
+{
+  "internal": 715,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 406
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 71
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 236
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 16
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 48
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 104
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 17
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 44
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 141
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 18
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 162
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 403
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 103
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 542
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 586
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 16
+    },
+    {
+      "move": 17
+    },
+    {
+      "move": 18
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 48
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 71
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 141
+    },
+    {
+      "move": 162
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 236
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 542
+    },
+    {
+      "move": 586
+    }
+  ],
+  "description": "飞行在连月光都没有的黑夜里，袭击那些疏忽大意的猎物。在黑暗的战斗中所向无敌。"
+}

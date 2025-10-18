@@ -1,0 +1,149 @@
+{
+  "internal": 679,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 180,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 35,
+      "method": 4,
+      "argument": 0,
+      "target": 680,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 425
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 332
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 319
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 163
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 427
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 421
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 334
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 442
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 14
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 427
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    }
+  ],
+  "description": "好像是死者的灵魂寄宿在古剑上转生而成。会附在人类身上吸食生命。"
+}

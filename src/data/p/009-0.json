@@ -1,0 +1,221 @@
+{
+  "internal": 9,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 39,
+      "move": 56
+    },
+    {
+      "level": -3,
+      "levelPlus": 39,
+      "move": 430
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 55
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 44
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 61
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 196
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 392
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 453
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 334
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 710
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 392
+    },
+    {
+      "move": 396
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 453
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "身体很重，压住对手后就能让对手昏厥。遇到危险时会躲进壳里。"
+}

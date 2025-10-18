@@ -1,0 +1,53 @@
+{
+  "internal": 13,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 7,
+      "method": 4,
+      "argument": 0,
+      "target": 14,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 81
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 40
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 527
+    }
+  ],
+  "description": "大量栖息在森林或草地里。头顶上长着约５厘米的尖锐小毒针。"
+}

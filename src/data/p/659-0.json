@@ -1,0 +1,174 @@
+{
+  "internal": 659,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 250,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 20,
+      "method": 4,
+      "argument": 0,
+      "target": 660,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 341
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 98
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 693
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 91
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 340
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 36
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 162
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 89
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 162
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "用大大的耳朵挖掘地面制造巢穴。可以整晚不休息连续不停地挖。"
+}

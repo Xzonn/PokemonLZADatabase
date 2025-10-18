@@ -1,0 +1,207 @@
+{
+  "internal": 227,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 25,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 403
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 232
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 328
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 17
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 211
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 400
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 529
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 319
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 191
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 334
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 413
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 17
+    },
+    {
+      "move": 18
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 64
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 211
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 413
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 529
+    },
+    {
+      "move": 542
+    }
+  ],
+  "description": "会在荆棘丛里筑巢。伴随着刺伤成长起来的雏鸟翅膀会变得坚硬无比。"
+}

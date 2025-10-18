@@ -1,0 +1,178 @@
+{
+  "internal": 609,
+  "form": 1,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 108
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 114
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 109
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 151
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 261
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 83
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 53
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 247
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 172
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 174
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 377
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 315
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 151
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 172
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    }
+  ],
+  "description": "两只眼睛中的一只是连接这个世界和另一个世界的窗口。会吸取怨念并将其化为力量。"
+}

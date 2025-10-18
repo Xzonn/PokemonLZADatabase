@@ -1,0 +1,264 @@
+{
+  "internal": 306,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 232
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 317
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 46
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 29
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 182
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 157
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 442
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 319
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 36
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 231
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 334
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 484
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 38
+    },
+    {
+      "level": 66,
+      "levelPlus": 69,
+      "move": 457
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 457
+    },
+    {
+      "move": 484
+    },
+    {
+      "move": 523
+    }
+  ],
+  "description": "会把一整座山都当做自己领地。伤痕越多的波士可多拉经历的战斗就越多，所以不能轻视。"
+}

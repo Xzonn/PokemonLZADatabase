@@ -1,0 +1,140 @@
+{
+  "internal": 225,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 196
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 332
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 420
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 403
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 297
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 8
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 573
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 59
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 64
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 297
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 420
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 573
+    }
+  ],
+  "description": "会把食物裹在尾巴里搬运。有把食物分给山中受困者的习性。"
+}

@@ -1,0 +1,64 @@
+{
+  "internal": 14,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 10,
+      "method": 4,
+      "argument": 0,
+      "target": 15,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 81
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 106
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 40
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 527
+    }
+  ],
+  "description": "虽然只靠自己几乎无法行动，但在遇到危险的时候，好像会让外壳变硬并以此来保护自己。"
+}

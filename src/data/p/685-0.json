@@ -1,0 +1,170 @@
+{
+  "internal": 685,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 140,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 584
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 577
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 313
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 133
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 81
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 538
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 412
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 273
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 583
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 564
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 538
+    },
+    {
+      "move": 564
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 584
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "拥有即便是细微气味也能区分的敏锐嗅觉，是西点师傅的好帮手。"
+}

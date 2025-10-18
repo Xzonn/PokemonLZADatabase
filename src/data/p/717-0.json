@@ -1,0 +1,178 @@
+{
+  "internal": 717,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 16
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 104
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 269
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 555
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 403
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 399
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 94
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 613
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 566
+    },
+    {
+      "level": 65,
+      "levelPlus": 68,
+      "move": 407
+    },
+    {
+      "level": 70,
+      "levelPlus": 73,
+      "move": 542
+    },
+    {
+      "level": 75,
+      "levelPlus": 78,
+      "move": 411
+    },
+    {
+      "level": 85,
+      "levelPlus": 88,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 16
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 542
+    },
+    {
+      "move": 555
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 613
+    }
+  ],
+  "description": "听说，寿命终结时，会吸光所有生物的生命，返回到茧的样子。"
+}

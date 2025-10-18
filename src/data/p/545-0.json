@@ -1,0 +1,199 @@
+{
+  "internal": 545,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 334
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 205
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 182
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 611
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 103
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 42
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 36
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 398
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 92
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 231
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 404
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 97
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 38
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 224
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 40
+    },
+    {
+      "move": 42
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 205
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 611
+    }
+  ],
+  "description": "用颈部的爪子夹住猎物，让对方动弹不得之后，施以剧毒，一击毙命。"
+}

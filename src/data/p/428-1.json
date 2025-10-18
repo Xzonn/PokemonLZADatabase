@@ -1,0 +1,218 @@
+{
+  "internal": 428,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 140,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 150
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 612
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 183
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 104
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 577
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 98
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 97
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 204
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 693
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 29
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 231
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 538
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 340
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 223
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 150
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 183
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 223
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 538
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 612
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "像鞭子一样挥动耳朵鞭打敌人。脾气暴躁又好战。"
+}

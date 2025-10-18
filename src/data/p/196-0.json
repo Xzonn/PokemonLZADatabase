@@ -1,0 +1,227 @@
+{
+  "internal": 196,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 36
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 38
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 129
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 273
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 574
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 60
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 234
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 377
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 94
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 313
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 248
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 234
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "会通过全身细细的体毛来感受空气的流动，预测敌人的想法和天气。"
+}

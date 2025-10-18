@@ -1,0 +1,218 @@
+{
+  "internal": 718,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 255,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 225
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 523
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 614
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 615
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 616
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 687
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 114
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 91
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 219
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 242
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 406
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 784
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 137
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 482
+    },
+    {
+      "level": 70,
+      "levelPlus": 73,
+      "move": 245
+    },
+    {
+      "level": 80,
+      "levelPlus": 83,
+      "move": 89
+    },
+    {
+      "level": 88,
+      "levelPlus": 91,
+      "move": 200
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 34
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 137
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 245
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 614
+    },
+    {
+      "move": 615
+    },
+    {
+      "move": 616
+    },
+    {
+      "move": 687
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "据说，生活在洞窟的深处，一直在监视着破坏生态系统者的一举一动。"
+}

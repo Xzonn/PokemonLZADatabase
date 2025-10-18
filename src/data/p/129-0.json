@@ -1,0 +1,53 @@
+{
+  "internal": 129,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 20,
+      "method": 4,
+      "argument": 0,
+      "target": 130,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 150
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 33
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 150
+    }
+  ],
+  "description": "力量和速度几乎都不行。是世界上最弱最可怜的宝可梦。"
+}

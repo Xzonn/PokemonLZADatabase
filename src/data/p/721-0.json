@@ -1,0 +1,230 @@
+{
+  "internal": 721,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 20,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 100,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 83
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 592
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 43
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 341
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 352
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 535
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 36
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 54
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 114
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 484
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 56
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 394
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 315
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 153
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 54
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 153
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 484
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 535
+    },
+    {
+      "move": 592
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "从背上的手臂里喷射出体内的水蒸气。有着把整座山一下子吹飞的威力。"
+}

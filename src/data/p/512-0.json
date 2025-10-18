@@ -1,0 +1,193 @@
+{
+  "internal": 512,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 73
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 526
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 43
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 122
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 22
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 331
+    },
+    {
+      "level": 19,
+      "levelPlus": 22,
+      "move": 44
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 345
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 29
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 437
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 242
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 411
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 22
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 122
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "性格粗暴，会挥动着带有尖刺的尾巴战斗。头上的叶子非常苦。"
+}

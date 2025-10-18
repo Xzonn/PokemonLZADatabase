@@ -1,0 +1,160 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "135-0",
+      "level": 45
+    },
+    {
+      "fullId": "196-0",
+      "level": 45
+    },
+    {
+      "fullId": "303-0",
+      "level": 5
+    },
+    {
+      "fullId": "303-1",
+      "level": 5
+    },
+    {
+      "fullId": "361-0",
+      "level": 25
+    },
+    {
+      "fullId": "362-0",
+      "level": 25
+    },
+    {
+      "fullId": "362-1",
+      "level": 25
+    },
+    {
+      "fullId": "478-0",
+      "level": 25
+    },
+    {
+      "fullId": "478-1",
+      "level": 25
+    },
+    {
+      "fullId": "677-0",
+      "level": 13
+    },
+    {
+      "fullId": "678-0",
+      "level": 13
+    },
+    {
+      "fullId": "678-1",
+      "level": 13
+    },
+    {
+      "fullId": "682-0",
+      "level": 8
+    },
+    {
+      "fullId": "683-0",
+      "level": 8
+    },
+    {
+      "fullId": "684-0",
+      "level": 15
+    },
+    {
+      "fullId": "685-0",
+      "level": 15
+    },
+    {
+      "fullId": "686-0",
+      "level": 6
+    },
+    {
+      "fullId": "687-0",
+      "level": 6
+    },
+    {
+      "fullId": "687-1",
+      "level": 6
+    },
+    {
+      "fullId": "700-0",
+      "level": 45
+    },
+    {
+      "fullId": "719-0",
+      "level": 14
+    },
+    {
+      "fullId": "719-1",
+      "level": 14
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "135-0"
+    },
+    {
+      "fullId": "196-0"
+    },
+    {
+      "fullId": "303-0"
+    },
+    {
+      "fullId": "303-1"
+    },
+    {
+      "fullId": "361-0"
+    },
+    {
+      "fullId": "362-0"
+    },
+    {
+      "fullId": "362-1"
+    },
+    {
+      "fullId": "478-0"
+    },
+    {
+      "fullId": "478-1"
+    },
+    {
+      "fullId": "677-0"
+    },
+    {
+      "fullId": "678-0"
+    },
+    {
+      "fullId": "678-1"
+    },
+    {
+      "fullId": "682-0"
+    },
+    {
+      "fullId": "683-0"
+    },
+    {
+      "fullId": "684-0"
+    },
+    {
+      "fullId": "685-0"
+    },
+    {
+      "fullId": "686-0"
+    },
+    {
+      "fullId": "687-0"
+    },
+    {
+      "fullId": "687-1"
+    },
+    {
+      "fullId": "700-0"
+    },
+    {
+      "fullId": "719-0"
+    },
+    {
+      "fullId": "719-1"
+    }
+  ]
+}

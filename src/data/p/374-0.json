@@ -1,0 +1,57 @@
+{
+  "internal": 374,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 20,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 35,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 20,
+      "method": 4,
+      "argument": 0,
+      "target": 375,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 442
+    }
+  ],
+  "description": "通过磁力的波动和伙伴交流。成群的铁哑铃会有条不紊地进行行动。"
+}

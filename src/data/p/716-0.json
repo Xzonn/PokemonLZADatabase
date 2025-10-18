@@ -1,0 +1,174 @@
+{
+  "internal": 716,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 113
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 400
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 532
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 36
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 601
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 585
+    },
+    {
+      "level": 70,
+      "levelPlus": 73,
+      "move": 224
+    },
+    {
+      "level": 75,
+      "levelPlus": 78,
+      "move": 370
+    },
+    {
+      "level": 80,
+      "levelPlus": 83,
+      "move": 200
+    },
+    {
+      "level": 85,
+      "levelPlus": 88,
+      "move": 416
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 532
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 601
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "据说，当头上的角闪着七色光时，会分享永恒的生命。"
+}

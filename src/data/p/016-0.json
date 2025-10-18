@@ -1,0 +1,163 @@
+{
+  "internal": 16,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 18,
+      "method": 4,
+      "argument": 0,
+      "target": 17,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 16
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 98
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 239
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 17
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 18
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 97
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 403
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 297
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 542
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 413
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 16
+    },
+    {
+      "move": 17
+    },
+    {
+      "move": 18
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 239
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 297
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 413
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 542
+    }
+  ],
+  "description": "虽然它性情温和不喜战斗，但要是随意对它出手的话，就会受到它强烈的反击。"
+}

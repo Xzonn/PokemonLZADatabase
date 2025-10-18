@@ -1,0 +1,178 @@
+{
+  "internal": 703,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 60,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 88
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 36
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 605
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 334
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 408
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 113
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 430
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 157
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 446
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 585
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 444
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "在地下深处高温高压的环境中出生。从头部的石头里放出能量。"
+}

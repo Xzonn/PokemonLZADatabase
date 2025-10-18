@@ -1,0 +1,221 @@
+{
+  "internal": 376,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 20,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 35,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 153
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 484
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 232
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 418
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 428
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 430
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 36
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 427
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 94
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 693
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 442
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 334
+    },
+    {
+      "level": 58,
+      "levelPlus": 61,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 153
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 418
+    },
+    {
+      "move": 427
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 484
+    },
+    {
+      "move": 612
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "由金属怪组合生成。拥有４个大脑的巨金怪有着堪比超级计算机的智商。"
+}

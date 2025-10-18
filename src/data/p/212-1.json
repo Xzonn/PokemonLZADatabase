@@ -1,0 +1,208 @@
+{
+  "internal": 212,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 25,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 418
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 17
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 104
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 211
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 693
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 116
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 404
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 405
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 403
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 334
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 14
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 679
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 442
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 17
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 211
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 405
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 418
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 679
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "受超级进化的影响，钳子变化成了会把夹住的东西都撕成碎片的凶恶形态。"
+}

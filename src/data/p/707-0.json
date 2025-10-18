@@ -1,0 +1,146 @@
+{
+  "internal": 707,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 584
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 232
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 319
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 577
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 430
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 583
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 605
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 377
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 584
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "对于喜欢的钥匙绝对不放手，所以为了防止盗窃，会让它拿着金库的钥匙。"
+}

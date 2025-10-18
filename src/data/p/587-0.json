@@ -1,0 +1,183 @@
+{
+  "internal": 587,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 200,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 609
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 104
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 84
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 268
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 17
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 598
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 209
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 403
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 521
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 113
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 435
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 17
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 209
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 598
+    },
+    {
+      "move": 609
+    }
+  ],
+  "description": "将脸颊的电力袋制造出的电储藏在膜的内侧，一边滑翔一边放电。"
+}

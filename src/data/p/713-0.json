@@ -1,0 +1,188 @@
+{
+  "internal": 713,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 55,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 484
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 33
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 174
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 196
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 182
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 44
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 423
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 334
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 105
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 242
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 36
+    },
+    {
+      "level": 39,
+      "levelPlus": 42,
+      "move": 556
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 38
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 59
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 105
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 484
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 556
+    }
+  ],
+  "description": "冻住的身体像钢铁一样坚硬。用巨大身躯压碎挡道的东西移动。"
+}

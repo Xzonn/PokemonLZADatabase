@@ -1,0 +1,194 @@
+{
+  "internal": 696,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 39,
+      "method": 32,
+      "argument": 0,
+      "target": 697,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 46
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 88
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 204
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 44
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 350
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 157
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 242
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 337
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 89
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 583
+    }
+  ],
+  "description": "从化石复活而来的宝可梦。如果有不喜欢的事情，就会大动肝火大闹一场。"
+}

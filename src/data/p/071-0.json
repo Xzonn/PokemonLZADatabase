@@ -1,0 +1,198 @@
+{
+  "internal": 71,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 188
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 22
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 74
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 679
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 611
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 75
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 79
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 77
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 78
+    },
+    {
+      "level": 19,
+      "levelPlus": 22,
+      "move": 282
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 345
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 390
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 398
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 141
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 482
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 438
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 437
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 22
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 77
+    },
+    {
+      "move": 78
+    },
+    {
+      "move": 79
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 141
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 438
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 611
+    },
+    {
+      "move": 679
+    }
+  ],
+  "description": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。"
+}

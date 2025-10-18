@@ -1,0 +1,172 @@
+{
+  "internal": 681,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 588
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 425
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 332
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 319
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 163
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 427
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 421
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 334
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 442
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 14
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 457
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 427
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 457
+    },
+    {
+      "move": 588
+    }
+  ],
+  "description": "好像能看出哪个人有成为国王的潜质。据说，被它认可的人最终会成为国王。"
+}

@@ -1,0 +1,193 @@
+{
+  "internal": 663,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 38,
+      "move": 413
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 17
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 98
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 52
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 297
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 18
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 172
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 211
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 403
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 97
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 394
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 17
+    },
+    {
+      "move": 18
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 64
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 172
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 211
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 297
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 413
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 542
+    }
+  ],
+  "description": "因激烈的战斗而兴奋的话，会从全身的羽毛缝隙里喷出火花飞行。"
+}

@@ -1,0 +1,166 @@
+{
+  "internal": 870,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 182
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 249
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 116
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 29
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 339
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 203
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 442
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 280
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 748
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 334
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 370
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 224
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 748
+    }
+  ],
+  "description": "仅限拥有牢固牵绊的头头和跟班才能组成的究极阵形。"
+}

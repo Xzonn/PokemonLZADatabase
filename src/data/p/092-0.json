@@ -1,0 +1,173 @@
+{
+  "internal": 92,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 25,
+      "method": 4,
+      "argument": 0,
+      "target": 93,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 109
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 122
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 95
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 93
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 425
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 174
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 114
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 196
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 399
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 247
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 195
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 85
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 114
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 122
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 195
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "从气体中诞生的生命体。如果被含毒的气体状身体裹住的话，不管是谁都会昏迷过去。"
+}

@@ -1,0 +1,165 @@
+{
+  "internal": 674,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 220,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 32,
+      "method": 30,
+      "argument": 0,
+      "target": 675,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 269
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 280
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 526
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 197
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 575
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 242
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 34
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 575
+    }
+  ],
+  "description": "拼命做出可怕的表情瞪着对手，但只要被摸到头，就会忍不住一下子笑起来。"
+}

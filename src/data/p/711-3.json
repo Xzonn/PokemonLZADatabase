@@ -1,0 +1,212 @@
+{
+  "internal": 711,
+  "form": 3,
+  "expGrowth": 0,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 567
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 585
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 425
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 109
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 75
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 73
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 331
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 693
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 95
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 247
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 595
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 566
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 438
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 153
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 153
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 438
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 567
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 595
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "特大尺寸的南瓜怪人不管对方是谁，都会强行把他们带往那一个世界。"
+}

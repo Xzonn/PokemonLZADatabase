@@ -1,0 +1,180 @@
+{
+  "internal": 709,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 73
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 109
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 261
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 74
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 532
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 421
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 571
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 566
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 452
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 174
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 452
+    },
+    {
+      "move": 532
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 571
+    }
+  ],
+  "description": "用根茎代替神经操纵森林里的树木。对住在它身体里的宝可梦很亲切。"
+}

@@ -1,0 +1,170 @@
+{
+  "internal": 318,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 225,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 4,
+      "argument": 0,
+      "target": 319,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 453
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 116
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 44
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 812
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 242
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 36
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 710
+    },
+    {
+      "level": 51,
+      "levelPlus": 54,
+      "move": 340
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 38
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 453
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "栖息于流经丛林的大河中。会成群结队袭击进入自己领地的猎物。"
+}

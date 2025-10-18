@@ -1,0 +1,171 @@
+{
+  "internal": 228,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 24,
+      "method": 4,
+      "argument": 0,
+      "target": 229,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 33
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 46
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 44
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 36
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 424
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 53
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 242
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 417
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 424
+    }
+  ],
+  "description": "黎明时分，会用响彻附近一带的恐怖长嚎来宣示它们自己的领地。"
+}

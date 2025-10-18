@@ -1,0 +1,176 @@
+{
+  "internal": 15,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 13,
+      "move": 42
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 81
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 116
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 693
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 404
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 405
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 390
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 679
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 398
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 529
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 40
+    },
+    {
+      "move": 42
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 405
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 529
+    },
+    {
+      "move": 679
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "双脚也变化为毒针。用手脚的针猛刺之后，以尾部的毒针给出最后一击。"
+}

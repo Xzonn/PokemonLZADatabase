@@ -1,0 +1,209 @@
+{
+  "internal": 553,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 784
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 328
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 44
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 91
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 36
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 242
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 231
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 89
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 38
+    },
+    {
+      "level": 58,
+      "levelPlus": 61,
+      "move": 200
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "遇见它的猎物无处可逃。拥有可以咬烂汽车车身的强力颚部。"
+}

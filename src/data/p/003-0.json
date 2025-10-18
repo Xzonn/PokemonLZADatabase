@@ -1,0 +1,211 @@
+{
+  "internal": 3,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 35,
+      "move": 438
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 22
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 74
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 73
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 75
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 77
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 79
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 36
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 345
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 235
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 133
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 482
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 38
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 76
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 22
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 77
+    },
+    {
+      "move": 79
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 438
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 526
+    }
+  ],
+  "description": "雨后第二天，它背上花朵的香味会愈加浓郁。宝可梦会被香味引诱而聚拢过来。"
+}

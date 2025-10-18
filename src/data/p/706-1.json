@@ -1,0 +1,253 @@
+{
+  "internal": 706,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 784
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 71
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 151
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 334
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 55
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 204
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 225
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 182
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 341
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 352
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 406
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 36
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 174
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 231
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 34
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 484
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 57
+    },
+    {
+      "level": 58,
+      "levelPlus": 61,
+      "move": 482
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 71
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 151
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 484
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "一不高兴就会缩在壳里，如橡胶球一般跳来跳去，横扫树木，把山掏得千疮百孔。"
+}

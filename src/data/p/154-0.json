@@ -1,0 +1,209 @@
+{
+  "internal": 154,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 35,
+      "move": 348
+    },
+    {
+      "level": -2,
+      "levelPlus": 19,
+      "move": 202
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 670
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 574
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 75
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 73
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 34
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 115
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 219
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 235
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 76
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 113
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 437
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 348
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 605
+    },
+    {
+      "move": 670
+    }
+  ],
+  "description": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。"
+}

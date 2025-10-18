@@ -1,0 +1,166 @@
+{
+  "internal": 529,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 31,
+      "method": 4,
+      "argument": 0,
+      "target": 530,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 341
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 232
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 328
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 523
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 91
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 157
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 14
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 529
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 89
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 529
+    }
+  ],
+  "description": "通过让身体旋转，就能保持５０公里的时速笔直地掘入地面前进。"
+}

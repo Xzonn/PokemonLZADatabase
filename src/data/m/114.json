@@ -1,0 +1,146 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "023-0",
+      "level": 41
+    },
+    {
+      "fullId": "024-0",
+      "level": 41
+    },
+    {
+      "fullId": "092-0",
+      "level": 24
+    },
+    {
+      "fullId": "093-0",
+      "level": 24
+    },
+    {
+      "fullId": "094-0",
+      "level": 24
+    },
+    {
+      "fullId": "094-1",
+      "level": 24
+    },
+    {
+      "fullId": "134-0",
+      "level": 25
+    },
+    {
+      "fullId": "478-0",
+      "level": 30
+    },
+    {
+      "fullId": "478-1",
+      "level": 30
+    },
+    {
+      "fullId": "607-0",
+      "level": 10
+    },
+    {
+      "fullId": "608-0",
+      "level": 10
+    },
+    {
+      "fullId": "609-0",
+      "level": 10
+    },
+    {
+      "fullId": "609-1",
+      "level": 10
+    },
+    {
+      "fullId": "718-0",
+      "level": 8
+    },
+    {
+      "fullId": "718-1",
+      "level": 8
+    },
+    {
+      "fullId": "718-2",
+      "level": 8
+    },
+    {
+      "fullId": "718-3",
+      "level": 8
+    },
+    {
+      "fullId": "718-4",
+      "level": 8
+    },
+    {
+      "fullId": "718-5",
+      "level": 8
+    },
+    {
+      "fullId": "721-0",
+      "level": 40
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "023-0"
+    },
+    {
+      "fullId": "024-0"
+    },
+    {
+      "fullId": "092-0"
+    },
+    {
+      "fullId": "093-0"
+    },
+    {
+      "fullId": "094-0"
+    },
+    {
+      "fullId": "094-1"
+    },
+    {
+      "fullId": "134-0"
+    },
+    {
+      "fullId": "478-0"
+    },
+    {
+      "fullId": "478-1"
+    },
+    {
+      "fullId": "607-0"
+    },
+    {
+      "fullId": "608-0"
+    },
+    {
+      "fullId": "609-0"
+    },
+    {
+      "fullId": "609-1"
+    },
+    {
+      "fullId": "718-0"
+    },
+    {
+      "fullId": "718-1"
+    },
+    {
+      "fullId": "718-2"
+    },
+    {
+      "fullId": "718-3"
+    },
+    {
+      "fullId": "718-4"
+    },
+    {
+      "fullId": "718-5"
+    },
+    {
+      "fullId": "721-0"
+    }
+  ]
+}

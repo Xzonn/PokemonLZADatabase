@@ -1,0 +1,205 @@
+{
+  "internal": 530,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 319
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 341
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 232
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 328
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 350
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 523
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 404
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 91
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 157
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 14
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 529
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 89
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 224
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 224
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 529
+    }
+  ],
+  "description": "在地下１００米掘出如迷宫般的巢穴。一不小心就会把地铁隧道凿穿。"
+}

@@ -1,0 +1,202 @@
+{
+  "internal": 407,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 71
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 74
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 78
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 75
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 42
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 73
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 345
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 79
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 390
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 202
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 398
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 235
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 92
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 437
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 40
+    },
+    {
+      "move": 42
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 71
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 78
+    },
+    {
+      "move": 79
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 437
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "用甜甜的香气引诱猎物，并用双臂的毒刺鞭刺入或勒紧，以了结对方。"
+}

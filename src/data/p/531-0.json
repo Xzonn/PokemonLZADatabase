@@ -1,0 +1,207 @@
+{
+  "internal": 531,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 250,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 574
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 196
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 577
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 428
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 133
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 36
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 273
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 304
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 38
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 605
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "用耳朵上的触角碰到对方的话，就能通过心跳声了解对方的身体状况和情绪。"
+}

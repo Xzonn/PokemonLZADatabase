@@ -1,0 +1,178 @@
+{
+  "internal": 720,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 20,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 100,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 113
+    },
+    {
+      "level": 19,
+      "levelPlus": 22,
+      "move": 60
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 282
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 566
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 428
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 247
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 417
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 94
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 593
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 593
+    }
+  ],
+  "description": "会使用圆环把自己喜欢的东西收集到秘密的住所中。会钻入环里瞬间移动。"
+}

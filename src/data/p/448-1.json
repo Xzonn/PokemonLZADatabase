@@ -1,0 +1,250 @@
+{
+  "internal": 448,
+  "form": 1,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 197
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 182
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 203
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 418
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 232
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 526
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 249
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 396
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 523
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 319
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 14
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 406
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 245
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 245
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 396
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 418
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "超级进化的能量和波导混合在一起来回乱窜，将全身刻满了黑色的痕迹。"
+}

@@ -1,0 +1,204 @@
+{
+  "internal": 678,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    1,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 574
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 93
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 313
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 129
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 204
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 60
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 113
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 115
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 473
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 94
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 377
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 273
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 583
+    }
+  ],
+  "description": "如果危险逼近，就会竖起耳朵，释放出能拧碎１０吨重卡车的精神力量。"
+}

@@ -1,0 +1,132 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "092-0",
+      "level": 1
+    },
+    {
+      "fullId": "093-0",
+      "level": 1
+    },
+    {
+      "fullId": "094-0",
+      "level": 1
+    },
+    {
+      "fullId": "094-1",
+      "level": 1
+    },
+    {
+      "fullId": "353-0",
+      "level": 1
+    },
+    {
+      "fullId": "354-0",
+      "level": 1
+    },
+    {
+      "fullId": "354-1",
+      "level": 1
+    },
+    {
+      "fullId": "511-0",
+      "level": 7
+    },
+    {
+      "fullId": "512-0",
+      "level": 7
+    },
+    {
+      "fullId": "513-0",
+      "level": 7
+    },
+    {
+      "fullId": "514-0",
+      "level": 7
+    },
+    {
+      "fullId": "515-0",
+      "level": 7
+    },
+    {
+      "fullId": "516-0",
+      "level": 7
+    },
+    {
+      "fullId": "656-0",
+      "level": 10
+    },
+    {
+      "fullId": "657-0",
+      "level": 10
+    },
+    {
+      "fullId": "658-0",
+      "level": 10
+    },
+    {
+      "fullId": "658-1",
+      "level": 10
+    },
+    {
+      "fullId": "658-3",
+      "level": 10
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "092-0"
+    },
+    {
+      "fullId": "093-0"
+    },
+    {
+      "fullId": "094-0"
+    },
+    {
+      "fullId": "094-1"
+    },
+    {
+      "fullId": "353-0"
+    },
+    {
+      "fullId": "354-0"
+    },
+    {
+      "fullId": "354-1"
+    },
+    {
+      "fullId": "511-0"
+    },
+    {
+      "fullId": "512-0"
+    },
+    {
+      "fullId": "513-0"
+    },
+    {
+      "fullId": "514-0"
+    },
+    {
+      "fullId": "515-0"
+    },
+    {
+      "fullId": "516-0"
+    },
+    {
+      "fullId": "656-0"
+    },
+    {
+      "fullId": "657-0"
+    },
+    {
+      "fullId": "658-0"
+    },
+    {
+      "fullId": "658-1"
+    },
+    {
+      "fullId": "658-3"
+    }
+  ]
+}

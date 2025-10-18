@@ -1,0 +1,221 @@
+{
+  "internal": 499,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 36,
+      "method": 4,
+      "argument": 0,
+      "target": 500,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 20,
+      "move": 612
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 52
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 205
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 108
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 172
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 83
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 116
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 53
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 36
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 339
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 394
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 457
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 172
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 205
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 315
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 457
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "吃得越多，可供燃烧的东西就越多，胃里的火会增强，力量也会源源不断地溢出。"
+}

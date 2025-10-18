@@ -1,0 +1,209 @@
+{
+  "internal": 79,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 37,
+      "method": 4,
+      "argument": 0,
+      "target": 80,
+      "form": 0
+    },
+    {
+      "level": 0,
+      "method": 6,
+      "argument": 221,
+      "target": 199,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 174
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 45
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 55
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 60
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 352
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 29
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 428
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 133
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 57
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 94
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "一直在水边发呆。就算有什么东西咬住了尾巴，它也一整天不会注意到。"
+}

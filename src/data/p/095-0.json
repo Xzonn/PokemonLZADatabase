@@ -1,0 +1,184 @@
+{
+  "internal": 95,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 6,
+      "argument": 233,
+      "target": 208,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 88
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 225
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 174
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 157
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 784
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 328
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 446
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 91
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 231
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 444
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 38
+    },
+    {
+      "level": 62,
+      "levelPlus": 65,
+      "move": 457
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 328
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 457
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "平时住在地里。会以８０公里的时速在地下一边挖掘一边寻找食物。"
+}

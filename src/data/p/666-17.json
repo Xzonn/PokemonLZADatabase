@@ -1,0 +1,211 @@
+{
+  "internal": 666,
+  "form": 17,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 15,
+      "move": 16
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 81
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 182
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 77
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 78
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 79
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 611
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 113
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 577
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 48
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 60
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 369
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 403
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 405
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 219
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 542
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 18
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 16
+    },
+    {
+      "move": 18
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 48
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 77
+    },
+    {
+      "move": 78
+    },
+    {
+      "move": 79
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 405
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 542
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 605
+    },
+    {
+      "move": 611
+    }
+  ],
+  "description": "身上的花纹会受到出生地的气候和风土的影响而改变。在热带雨林的地方能见到这种样子。"
+}

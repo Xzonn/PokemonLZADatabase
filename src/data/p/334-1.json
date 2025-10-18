@@ -1,0 +1,224 @@
+{
+  "internal": 334,
+  "form": 1,
+  "expGrowth": 1,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 38,
+      "move": 406
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 574
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 54
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 225
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 219
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 538
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 239
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 36
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 585
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 297
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 413
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 407
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 195
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 19
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 54
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 64
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 195
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 239
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 297
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 413
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 538
+    },
+    {
+      "move": 542
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "羽毛有溶化般的触感，只需几根就能吊起翻斗车，十分强韧。"
+}

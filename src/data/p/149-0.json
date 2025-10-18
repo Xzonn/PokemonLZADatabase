@@ -1,0 +1,270 @@
+{
+  "internal": 149,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 58,
+      "move": 542
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 7
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 9
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 17
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 403
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 239
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 86
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 36
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 784
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 693
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 407
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 219
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 245
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 200
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 17
+    },
+    {
+      "move": 18
+    },
+    {
+      "move": 19
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 239
+    },
+    {
+      "move": 245
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 542
+    },
+    {
+      "move": 693
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "据说它的住处就在这广阔大海的某处。会将遇难的船只引导到陆地边上。"
+}

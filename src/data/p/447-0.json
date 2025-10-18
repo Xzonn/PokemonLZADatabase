@@ -1,0 +1,174 @@
+{
+  "internal": 447,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 75,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 2,
+      "argument": 0,
+      "target": 448,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 203
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 418
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 232
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 526
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 249
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 197
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 523
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 14
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 418
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 526
+    }
+  ],
+  "description": "从体内发出的波导会在害怕或悲伤时变强，并向伙伴传递危险的信号。"
+}

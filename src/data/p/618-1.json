@@ -1,0 +1,180 @@
+{
+  "internal": 618,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 103
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 232
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 203
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 341
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 317
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 319
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 334
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 89
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 340
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 482
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 242
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 446
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 103
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 232
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 319
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 523
+    }
+  ],
+  "description": "栖息于富含铁质的泥巴里，因此获得了结实坚固的钢铁身躯。"
+}

@@ -1,0 +1,224 @@
+{
+  "internal": 281,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 4,
+      "argument": 0,
+      "target": 282,
+      "form": 0
+    },
+    {
+      "level": 30,
+      "method": 17,
+      "argument": 93,
+      "target": 475,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 574
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 93
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 95
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 577
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 100
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 60
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 345
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 109
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 204
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 104
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 347
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 94
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 595
+    },
+    {
+      "level": 58,
+      "levelPlus": 61,
+      "move": 248
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 100
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 595
+    }
+  ],
+  "description": "训练家开朗的情绪是精神力量的源泉。开心时会旋转着跳舞。"
+}

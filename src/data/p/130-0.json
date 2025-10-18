@@ -1,0 +1,224 @@
+{
+  "internal": 130,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 23,
+      "move": 44
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 250
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 150
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 239
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 127
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 242
+    },
+    {
+      "level": 33,
+      "levelPlus": 37,
+      "move": 442
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 340
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 542
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 407
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 56
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 150
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 239
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 340
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 542
+    }
+  ],
+  "description": "在古书里留有它将发生纷争的村庄整个烧光的记录。"
+}

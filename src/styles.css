@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 滚动条样式 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1a1;
+}
+
+.icon-pokemon {
+  display: block;
+  margin: 0 auto;
+  flex: 0 0 auto;
+  background-image: url("/public/assets/images/pokemon.webp");
+}
+
+.cell-pokemon {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  .icon-pokemon {
+    margin: 0;
+  }
+
+  .pokemon-form {
+    font-size: 0.8em;
+    color: #6b7280; /* Tailwind CSS gray-500 */
+  }
+}

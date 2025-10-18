@@ -1,0 +1,227 @@
+{
+  "internal": 136,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 36
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 38
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 129
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 273
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 98
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 574
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 108
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 172
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 83
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 424
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 436
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 394
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 98
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 172
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 257
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 394
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 436
+    },
+    {
+      "move": 574
+    }
+  ],
+  "description": "体内有着火袋，深吸气后会吐出１７００度的火焰。"
+}

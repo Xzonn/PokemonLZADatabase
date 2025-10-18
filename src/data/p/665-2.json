@@ -1,0 +1,93 @@
+{
+  "internal": 665,
+  "form": 2,
+  "expGrowth": 0,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 12,
+      "method": 4,
+      "argument": 0,
+      "target": 666,
+      "form": 2
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 12,
+      "move": 182
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 77
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 81
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 78
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 611
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 77
+    },
+    {
+      "move": 78
+    },
+    {
+      "move": 81
+    },
+    {
+      "move": 106
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 611
+    }
+  ],
+  "description": "隐藏在繁茂的树荫中生活。一旦被敌人袭击，就会尖尖地竖起体毛威吓对方。"
+}

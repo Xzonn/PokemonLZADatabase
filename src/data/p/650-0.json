@@ -1,0 +1,194 @@
+{
+  "internal": 650,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 16,
+      "method": 4,
+      "argument": 0,
+      "target": 651,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 22
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 74
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 205
+    },
+    {
+      "level": 11,
+      "levelPlus": 14,
+      "move": 44
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 73
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 42
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 36
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 280
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 34
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 452
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 9
+    },
+    {
+      "move": 22
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 42
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 73
+    },
+    {
+      "move": 74
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 205
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 452
+    },
+    {
+      "move": 523
+    }
+  ],
+  "description": "头部的刺平时很柔软，如果注入了力量，就会变尖锐，硬得连岩石也能刺穿。"
+}

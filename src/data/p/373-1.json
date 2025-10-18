@@ -1,0 +1,221 @@
+{
+  "internal": 373,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 53,
+      "move": 19
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 182
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 225
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 29
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 242
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 337
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 428
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 116
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 53
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 200
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 38
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 403
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 19
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 52
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 116
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 225
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 403
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 424
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 542
+    }
+  ],
+  "description": "会将前脚收拢在外壳的间隙中，变为飞行的姿势。即使是复杂的地形也能以高速飞来飞去。"
+}

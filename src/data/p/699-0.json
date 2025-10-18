@@ -1,0 +1,208 @@
+{
+  "internal": 699,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 88
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 196
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 36
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 54
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 350
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 86
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 573
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 58
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 113
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 59
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 54
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 88
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 414
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 523
+    },
+    {
+      "move": 573
+    }
+  ],
+  "description": "从身上的菱形结晶里放出零下１５０度的冷气，把敌人包住并冰封起来。"
+}

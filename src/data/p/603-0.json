@@ -1,0 +1,171 @@
+{
+  "internal": 603,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 4,
+      "target": 604,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 42,
+      "move": 242
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 29
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 86
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 209
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 36
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 435
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 598
+    },
+    {
+      "level": 39,
+      "levelPlus": 42,
+      "move": 268
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 85
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 528
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 192
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 162
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 162
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 192
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 209
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 369
+    },
+    {
+      "move": 422
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 598
+    }
+  ],
+  "description": "缠住对手，从圆圆的斑点放出电流通过对方身体，使其麻痹后啃食。"
+}

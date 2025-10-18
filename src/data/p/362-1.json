@@ -1,0 +1,180 @@
+{
+  "internal": 362,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 45,
+      "move": 573
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 29
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 420
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 182
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 196
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 313
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 423
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 104
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 556
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 242
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 59
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 153
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 44
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 153
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 420
+    },
+    {
+      "move": 423
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 556
+    },
+    {
+      "move": 573
+    }
+  ],
+  "description": "如果从破碎的嘴里吐出可怕的冷气，会让周围陷入一片白茫茫之中。"
+}

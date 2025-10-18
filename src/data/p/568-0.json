@@ -1,0 +1,173 @@
+{
+  "internal": 568,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 36,
+      "method": 4,
+      "argument": 0,
+      "target": 569,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 29
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 108
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 133
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 205
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 390
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 693
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 36
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 398
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 188
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 92
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 120
+    },
+    {
+      "level": 39,
+      "levelPlus": 42,
+      "move": 482
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 441
+    },
+    {
+      "level": 53,
+      "levelPlus": 56,
+      "move": 153
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 120
+    },
+    {
+      "move": 133
+    },
+    {
+      "move": 153
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 191
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 205
+    },
+    {
+      "move": 331
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 350
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 693
+    }
+  ],
+  "description": "垃圾袋通过与工业垃圾发生化学变化，转而诞生了宝可梦。"
+}

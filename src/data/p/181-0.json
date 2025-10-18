@@ -1,0 +1,218 @@
+{
+  "internal": 181,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 33,
+      "move": 9
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 598
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 84
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 86
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 268
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 109
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 538
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 408
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 85
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 113
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 784
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 87
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 192
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 84
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 192
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 268
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 435
+    },
+    {
+      "move": 521
+    },
+    {
+      "move": 527
+    },
+    {
+      "move": 528
+    },
+    {
+      "move": 538
+    },
+    {
+      "move": 598
+    },
+    {
+      "move": 605
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "尾巴的前端闪耀着光芒。这光能传播到很远的地方，成为迷途者的路标。"
+}

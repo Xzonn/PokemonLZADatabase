@@ -1,0 +1,223 @@
+{
+  "internal": 560,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 29
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 612
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 317
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 182
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 575
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 280
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 197
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 242
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 231
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 223
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 457
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 38
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 46
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 174
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 223
+    },
+    {
+      "move": 231
+    },
+    {
+      "move": 242
+    },
+    {
+      "move": 249
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 334
+    },
+    {
+      "move": 337
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 457
+    },
+    {
+      "move": 526
+    },
+    {
+      "move": 575
+    },
+    {
+      "move": 612
+    }
+  ],
+  "description": "在超级进化的影响下，皮肤变得又白又硬且有弹性。气势当然是十足的。"
+}

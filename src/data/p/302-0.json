@@ -1,0 +1,250 @@
+{
+  "internal": 302,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 425
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 36
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 197
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 421
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 109
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 282
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 60
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 400
+    },
+    {
+      "level": 39,
+      "levelPlus": 42,
+      "move": 408
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 428
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 247
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 105
+    },
+    {
+      "level": 53,
+      "levelPlus": 56,
+      "move": 575
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 566
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 91
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 105
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 197
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 408
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 425
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 566
+    },
+    {
+      "move": 575
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "潜伏于洞窟的阴暗处。在吃宝石的过程中，眼睛变成了宝石。"
+}

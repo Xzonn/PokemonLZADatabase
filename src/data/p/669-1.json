@@ -1,0 +1,160 @@
+{
+  "internal": 669,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 225,
+  "gender": [
+    2,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 19,
+      "method": 4,
+      "argument": 0,
+      "target": 670,
+      "form": 1
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 22
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 584
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 219
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 75
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 577
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 273
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 345
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 204
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 235
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 412
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 76
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 22
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 75
+    },
+    {
+      "move": 76
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 202
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 235
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 584
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "乘着黄花的花蓓蓓。在它找到花并获其力量之前都会毫无防备，暴露在危险中。"
+}

@@ -1,0 +1,194 @@
+{
+  "internal": 687,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 80,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 95
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 313
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 282
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 60
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 163
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 400
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 427
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 473
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 576
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 29
+    },
+    {
+      "move": 33
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 64
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 157
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 399
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 427
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 446
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 576
+    },
+    {
+      "move": 710
+    }
+  ],
+  "description": "会用颜色鲜艳的光覆盖对手的人格和记忆，将其按自己的意愿操纵。"
+}

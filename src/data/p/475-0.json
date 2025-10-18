@@ -1,0 +1,312 @@
+{
+  "internal": 475,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    1,
+    0
+  ],
+  "baseFriendship": 35,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 163
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 94
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 109
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 204
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 248
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 345
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 347
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 400
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 577
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 595
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 60
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 95
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 574
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 93
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 100
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 332
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 182
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 104
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 14
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 427
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 348
+    },
+    {
+      "level": 58,
+      "levelPlus": 61,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 7
+    },
+    {
+      "move": 8
+    },
+    {
+      "move": 9
+    },
+    {
+      "move": 14
+    },
+    {
+      "move": 34
+    },
+    {
+      "move": 45
+    },
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 89
+    },
+    {
+      "move": 93
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 100
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 109
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 163
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 196
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 248
+    },
+    {
+      "move": 261
+    },
+    {
+      "move": 269
+    },
+    {
+      "move": 280
+    },
+    {
+      "move": 282
+    },
+    {
+      "move": 304
+    },
+    {
+      "move": 317
+    },
+    {
+      "move": 332
+    },
+    {
+      "move": 339
+    },
+    {
+      "move": 345
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 348
+    },
+    {
+      "move": 370
+    },
+    {
+      "move": 396
+    },
+    {
+      "move": 400
+    },
+    {
+      "move": 404
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 421
+    },
+    {
+      "move": 427
+    },
+    {
+      "move": 428
+    },
+    {
+      "move": 444
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 595
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "用伸缩自如的肘刀战斗。是居合术高手。是非常重视礼仪的宝可梦。"
+}

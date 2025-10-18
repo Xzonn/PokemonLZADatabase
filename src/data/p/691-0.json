@@ -1,0 +1,186 @@
+{
+  "internal": 691,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 55,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 55
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 108
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 39
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 341
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 61
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 104
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 92
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 352
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 398
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 406
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 188
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 56
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 482
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 39
+    },
+    {
+      "move": 55
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 61
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 92
+    },
+    {
+      "move": 104
+    },
+    {
+      "move": 108
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 188
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 247
+    },
+    {
+      "move": 341
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 390
+    },
+    {
+      "move": 398
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 411
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 441
+    },
+    {
+      "move": 482
+    },
+    {
+      "move": 583
+    },
+    {
+      "move": 710
+    },
+    {
+      "move": 812
+    }
+  ],
+  "description": "会不顾一切地向入侵领地者吐出能够腐蚀油轮船体的剧毒。"
+}

@@ -1,0 +1,20 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "701-0",
+      "level": 36
+    },
+    {
+      "fullId": "701-1",
+      "level": 36
+    }
+  ],
+  "pokemonTM": [
+    {
+      "fullId": "701-0"
+    },
+    {
+      "fullId": "701-1"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "internal": 683,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 140,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 584
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 313
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 574
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 577
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 273
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 60
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 605
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 204
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 347
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 585
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 94
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 377
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 95
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 60
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 94
+    },
+    {
+      "move": 95
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 115
+    },
+    {
+      "move": 118
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 204
+    },
+    {
+      "move": 273
+    },
+    {
+      "move": 313
+    },
+    {
+      "move": 347
+    },
+    {
+      "move": 377
+    },
+    {
+      "move": 412
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 417
+    },
+    {
+      "move": 430
+    },
+    {
+      "move": 473
+    },
+    {
+      "move": 574
+    },
+    {
+      "move": 577
+    },
+    {
+      "move": 584
+    },
+    {
+      "move": 585
+    },
+    {
+      "move": 605
+    }
+  ],
+  "description": "因为气味过于强烈，如果不是相当喜爱它的训练家，要带着走路都相当困难。"
+}

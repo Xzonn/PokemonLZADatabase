@@ -1,0 +1,196 @@
+{
+  "internal": 148,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 35,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 55,
+      "method": 4,
+      "argument": 0,
+      "target": 149,
+      "form": 0
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 239
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 86
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 36
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 784
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 693
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 407
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 219
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 245
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 200
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "move": 33
+    },
+    {
+      "move": 36
+    },
+    {
+      "move": 43
+    },
+    {
+      "move": 53
+    },
+    {
+      "move": 56
+    },
+    {
+      "move": 57
+    },
+    {
+      "move": 58
+    },
+    {
+      "move": 59
+    },
+    {
+      "move": 63
+    },
+    {
+      "move": 83
+    },
+    {
+      "move": 85
+    },
+    {
+      "move": 86
+    },
+    {
+      "move": 87
+    },
+    {
+      "move": 97
+    },
+    {
+      "move": 113
+    },
+    {
+      "move": 126
+    },
+    {
+      "move": 127
+    },
+    {
+      "move": 129
+    },
+    {
+      "move": 164
+    },
+    {
+      "move": 182
+    },
+    {
+      "move": 200
+    },
+    {
+      "move": 203
+    },
+    {
+      "move": 219
+    },
+    {
+      "move": 239
+    },
+    {
+      "move": 245
+    },
+    {
+      "move": 250
+    },
+    {
+      "move": 352
+    },
+    {
+      "move": 406
+    },
+    {
+      "move": 407
+    },
+    {
+      "move": 416
+    },
+    {
+      "move": 434
+    },
+    {
+      "move": 442
+    },
+    {
+      "move": 693
+    },
+    {
+      "move": 784
+    }
+  ],
+  "description": "在水晶一样的珠子里，好像蕴含着能自由操纵天气的能力。"
+}
