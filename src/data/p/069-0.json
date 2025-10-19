@@ -105,79 +105,56 @@
   ],
   "movesTM": [
     {
-      "move": 14
-    },
-    {
-      "move": 22
-    },
-    {
-      "move": 74
-    },
-    {
-      "move": 75
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 77
-    },
-    {
-      "move": 78
-    },
-    {
-      "move": 79
-    },
-    {
+      "index": 7,
       "move": 92
     },
     {
-      "move": 115
-    },
-    {
-      "move": 141
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 202
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 282
-    },
-    {
-      "move": 331
-    },
-    {
-      "move": 345
-    },
-    {
-      "move": 390
-    },
-    {
-      "move": 398
-    },
-    {
+      "index": 26,
       "move": 412
     },
     {
-      "move": 437
+      "index": 30,
+      "move": 14
     },
     {
-      "move": 438
+      "index": 31,
+      "move": 115
     },
     {
-      "move": 482
+      "index": 35,
+      "move": 203
     },
     {
-      "move": 611
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 89,
+      "move": 390
     }
   ],
   "description": "虽然体型瘦弱，但捕捉猎物时的动作却快到肉眼无法看清。"

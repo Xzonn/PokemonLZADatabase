@@ -97,115 +97,100 @@
   ],
   "movesTM": [
     {
-      "move": 33
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 73
-    },
-    {
-      "move": 75
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 83
-    },
-    {
-      "move": 94
-    },
-    {
-      "move": 95
-    },
-    {
-      "move": 109
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 120
-    },
-    {
-      "move": 126
-    },
-    {
-      "move": 153
-    },
-    {
+      "index": 12,
       "move": 157
     },
     {
-      "move": 164
+      "index": 16,
+      "move": 113
     },
     {
-      "move": 174
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 188
-    },
-    {
-      "move": 202
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 219
-    },
-    {
-      "move": 247
-    },
-    {
-      "move": 261
-    },
-    {
-      "move": 331
-    },
-    {
-      "move": 399
-    },
-    {
+      "index": 26,
       "move": 412
     },
     {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 48,
+      "move": 120
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 417
+      "index": 57,
+      "move": 261
     },
     {
+      "index": 61,
       "move": 421
     },
     {
-      "move": 425
+      "index": 62,
+      "move": 53
     },
     {
-      "move": 438
+      "index": 63,
+      "move": 94
     },
     {
-      "move": 566
+      "index": 64,
+      "move": 76
     },
     {
-      "move": 567
+      "index": 72,
+      "move": 83
     },
     {
-      "move": 585
+      "index": 74,
+      "move": 247
     },
     {
-      "move": 595
+      "index": 83,
+      "move": 417
     },
     {
-      "move": 693
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
     }
   ],
   "description": "小尺寸的南瓜怪人会扮成小孩子，趁大人失去防备时把他们带往另一个世界。"

@@ -95,100 +95,108 @@
   ],
   "movesTM": [
     {
-      "move": 7
-    },
-    {
-      "move": 8
-    },
-    {
-      "move": 9
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 89
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 116
-    },
-    {
-      "move": 118
-    },
-    {
-      "move": 126
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 197
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 223
-    },
-    {
+      "index": 4,
       "move": 249
     },
     {
+      "index": 10,
       "move": 280
     },
     {
-      "move": 282
-    },
-    {
-      "move": 317
-    },
-    {
+      "index": 11,
       "move": 339
     },
     {
-      "move": 370
+      "index": 12,
+      "move": 157
     },
     {
-      "move": 398
+      "index": 16,
+      "move": 113
     },
     {
-      "move": 411
+      "index": 17,
+      "move": 182
     },
     {
-      "move": 418
-    },
-    {
-      "move": 523
-    },
-    {
-      "move": 526
-    },
-    {
+      "index": 18,
       "move": 612
     },
     {
-      "move": 693
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 99,
+      "move": 118
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 107,
+      "move": 370
     }
   ],
   "description": "会活用自己那单手举翻斗车的力量，代替并帮助人们做些力气活的宝可梦。"

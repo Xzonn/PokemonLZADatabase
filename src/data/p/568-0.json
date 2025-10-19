@@ -100,73 +100,64 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 36
-    },
-    {
+      "index": 7,
       "move": 92
     },
     {
-      "move": 108
-    },
-    {
-      "move": 120
-    },
-    {
-      "move": 133
-    },
-    {
-      "move": 153
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 188
-    },
-    {
-      "move": 191
-    },
-    {
-      "move": 202
-    },
-    {
+      "index": 35,
       "move": 203
     },
     {
-      "move": 205
-    },
-    {
+      "index": 40,
       "move": 331
     },
     {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 46,
       "move": 341
     },
     {
-      "move": 350
+      "index": 48,
+      "move": 120
     },
     {
-      "move": 390
+      "index": 53,
+      "move": 188
     },
     {
+      "index": 77,
       "move": 398
     },
     {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 90,
       "move": 399
     },
     {
+      "index": 100,
       "move": 441
-    },
-    {
-      "move": 482
-    },
-    {
-      "move": 693
     }
   ],
   "description": "垃圾袋通过与工业垃圾发生化学变化，转而诞生了宝可梦。"

@@ -85,70 +85,68 @@
   ],
   "movesTM": [
     {
-      "move": 14
-    },
-    {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 103
-    },
-    {
-      "move": 115
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 163
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
+      "index": 10,
       "move": 280
     },
     {
-      "move": 319
+      "index": 12,
+      "move": 157
     },
     {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 22,
       "move": 332
     },
     {
-      "move": 334
+      "index": 30,
+      "move": 14
     },
     {
-      "move": 370
+      "index": 31,
+      "move": 115
     },
     {
+      "index": 34,
       "move": 400
     },
     {
-      "move": 421
+      "index": 35,
+      "move": 203
     },
     {
-      "move": 425
+      "index": 58,
+      "move": 442
     },
     {
-      "move": 427
-    },
-    {
+      "index": 59,
       "move": 428
     },
     {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 84,
       "move": 430
     },
     {
-      "move": 442
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 107,
+      "move": 370
     }
   ],
   "description": "进化后分裂为２把。通过心灵感应对话，用配合攻击砍碎敌人。"

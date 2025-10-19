@@ -117,124 +117,108 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 39
-    },
-    {
-      "move": 44
-    },
-    {
-      "move": 45
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 55
-    },
-    {
-      "move": 56
-    },
-    {
-      "move": 57
-    },
-    {
-      "move": 58
-    },
-    {
-      "move": 59
-    },
-    {
-      "move": 61
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 98
-    },
-    {
-      "move": 114
-    },
-    {
-      "move": 127
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 151
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 196
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 204
-    },
-    {
-      "move": 231
-    },
-    {
-      "move": 247
-    },
-    {
-      "move": 250
-    },
-    {
-      "move": 269
-    },
-    {
-      "move": 273
-    },
-    {
-      "move": 304
-    },
-    {
+      "index": 6,
       "move": 347
     },
     {
+      "index": 9,
+      "move": 812
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 41,
       "move": 352
     },
     {
-      "move": 392
+      "index": 44,
+      "move": 63
     },
     {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 574
+      "index": 56,
+      "move": 38
     },
     {
+      "index": 70,
+      "move": 250
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 76,
       "move": 710
     },
     {
-      "move": 812
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 96,
+      "move": 56
+    },
+    {
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 105,
+      "move": 59
     }
   ],
   "description": "进化出了适应水中生活的身体。如果和水融为一体就无法看见它了。"

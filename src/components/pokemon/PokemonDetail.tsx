@@ -1,8 +1,15 @@
 import React, { useEffect, useMemo } from "react";
-import { DefaultTitle, DescriptionsCommonProps, getPokemonFullId, getPokemonFullName, renderTypes } from "../../utils";
+import {
+  DefaultTitle,
+  DescriptionsCommonProps,
+  getPokemonFullId,
+  getPokemonFullName,
+  renderMoveLevel,
+  renderTypes,
+} from "../../utils";
 import StatBar from "../StatBar";
 import { useRequest } from "ahooks";
-import { Move, MoveLevelUp, Pokemon, PokemonFull } from "../../types";
+import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "../../types";
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import { MoveDataById } from "../../data/move";
 import PokemonIcon from "./PokemonIcon";
@@ -24,10 +31,20 @@ const columnsLevelUp: TableColumnsType<MoveLevelUp & Move> = [
   {
     title: "等级",
     dataIndex: "level",
+    render: renderMoveLevel,
+    sorter: (a, b) => a.level - b.level,
   },
   {
     title: "加强等级",
     dataIndex: "levelPlus",
+    sorter: (a, b) => a.levelPlus - b.levelPlus,
+  },
+];
+const columnsTM: TableColumnsType<MoveTM & Move> = [
+  {
+    title: "编号",
+    dataIndex: "index",
+    sorter: (a, b) => a.index - b.index,
   },
 ];
 
@@ -50,7 +67,7 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
   {
     key: "expGrowth",
     label: "成长速率",
-    children: pokemonFull?.expGrowth ? ExpGrowth[pokemonFull?.expGrowth] || "—" : "—",
+    children: ExpGrowth[pokemonFull?.expGrowth ?? 0] || "—",
   },
   {
     key: "catchRate",
@@ -81,6 +98,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
       return realData as PokemonFull;
     },
     {
+      refreshDeps: [pokemon],
       onError: () => null,
     },
   );
@@ -124,7 +142,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
             shiny
           />
         </div>
-        <h1 className="text-4xl font-bold text-gray-900 my-4">{pokemon.name}</h1>
+        <h1>{pokemon.name}</h1>
         <div className="flex justify-center space-x-2 my-4 text-xl text-gray-600">
           <div lang="ja">{pokemon.japanese}</div>
           <div>{pokemon.english}</div>
@@ -133,28 +151,32 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
       </div>
 
       <div className="px-8 py-8">
-        <h3 className="text-xl font-semibold text-gray-800 my-4">基本信息</h3>
+        <h3>基本信息</h3>
         <Spin spinning={loading}>
           <Descriptions
             {...DescriptionsCommonProps}
             items={getDescriptions(pokemon, pokemonFull)}
           />
         </Spin>
-        <h3 className="text-xl font-semibold text-gray-800 my-4">属性相克</h3>
+        <h3>属性相克</h3>
         <TypeEffectiveness types={pokemon.types} />
         {pokemonFull?.evolutions ? (
           <>
-            {/* <h3 className="text-xl font-semibold text-gray-800 my-4">进化</h3>
+            {/* <h3>进化</h3>
             <pre>{JSON.stringify(pokemonFull.evolutions, null, 2)}</pre> */}
           </>
         ) : null}
-        <h3 className="text-xl font-semibold text-gray-800 my-4">全部形态</h3>
-        <PokemonTable data={allForms} />
+        {allForms.length > 1 ? (
+          <>
+            <h3>全部形态</h3>
+            <PokemonTable data={allForms} />
+          </>
+        ) : null}
       </div>
 
       <div className="px-8 py-6 bg-gray-50">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">能力值</h2>
-        <div className="text-center">总和：{pokemon.base.reduce((a, b) => a + b, 0)}</div>
+        <h2>能力值</h2>
+        <div className="text-center mb-4">总和：{pokemon.base.reduce((a, b) => a + b, 0)}</div>
         <div className="max-w-3xl mx-auto space-y-4">
           {["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat, index) => (
             <StatBar
@@ -167,15 +189,16 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
       </div>
 
       <div className="px-8 py-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">可学习招式</h2>
-        <h3 className="text-xl font-semibold text-gray-800 my-4">等级提升</h3>
+        <h2>可学习的招式</h2>
+        <h3>等级提升</h3>
         <MoveTable<MoveLevelUp>
           extraColumns={columnsLevelUp}
           loading={loading}
           data={movesLevelUp}
         />
-        <h3 className="text-xl font-semibold text-gray-800 my-4">招式学习器</h3>
+        <h3>招式学习器</h3>
         <MoveTable
+          extraColumns={columnsTM}
           loading={loading}
           data={movesTM}
         />

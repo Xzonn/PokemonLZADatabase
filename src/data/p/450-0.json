@@ -77,91 +77,96 @@
   ],
   "movesTM": [
     {
-      "move": 18
-    },
-    {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 44
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 63
-    },
-    {
-      "move": 89
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 133
-    },
-    {
+      "index": 12,
       "move": 157
     },
     {
-      "move": 164
-    },
-    {
-      "move": 174
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 304
-    },
-    {
-      "move": 317
-    },
-    {
-      "move": 328
-    },
-    {
-      "move": 414
-    },
-    {
-      "move": 416
-    },
-    {
-      "move": 422
-    },
-    {
-      "move": 423
-    },
-    {
+      "index": 14,
       "move": 424
     },
     {
-      "move": 442
+      "index": 15,
+      "move": 423
     },
     {
-      "move": 444
+      "index": 17,
+      "move": 182
     },
     {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
       "move": 446
     },
     {
-      "move": 484
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 94,
+      "move": 18
     }
   ],
   "description": "会从身体的孔洞里向上喷出体内储存的沙子，制造出巨大龙卷风进行攻击。"

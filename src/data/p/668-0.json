@@ -97,103 +97,116 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 43
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 52
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 83
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 126
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 257
-    },
-    {
-      "move": 261
-    },
-    {
-      "move": 269
-    },
-    {
-      "move": 304
-    },
-    {
-      "move": 315
-    },
-    {
-      "move": 394
-    },
-    {
-      "move": 399
-    },
-    {
-      "move": 414
-    },
-    {
-      "move": 416
-    },
-    {
-      "move": 422
-    },
-    {
+      "index": 14,
       "move": 424
     },
     {
-      "move": 526
+      "index": 17,
+      "move": 182
     },
     {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 50,
+      "move": 315
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 72,
+      "move": 83
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
       "move": 528
     },
     {
-      "move": 555
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 104,
+      "move": 394
     }
   ],
   "description": "群体中，拥有最大火焰鬃毛的雄性会作为首领率领着伙伴。"

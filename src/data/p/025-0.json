@@ -95,100 +95,96 @@
   ],
   "movesTM": [
     {
-      "move": 9
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 39
-    },
-    {
-      "move": 45
-    },
-    {
-      "move": 57
-    },
-    {
-      "move": 84
-    },
-    {
-      "move": 85
-    },
-    {
+      "index": 8,
       "move": 86
     },
     {
-      "move": 87
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 98
-    },
-    {
-      "move": 104
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 115
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 204
-    },
-    {
-      "move": 209
-    },
-    {
-      "move": 231
-    },
-    {
-      "move": 268
-    },
-    {
+      "index": 10,
       "move": 280
     },
     {
-      "move": 344
+      "index": 16,
+      "move": 113
     },
     {
-      "move": 417
+      "index": 17,
+      "move": 182
     },
     {
-      "move": 435
-    },
-    {
-      "move": 521
-    },
-    {
-      "move": 527
-    },
-    {
-      "move": 528
-    },
-    {
+      "index": 20,
       "move": 583
     },
     {
-      "move": 609
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
+      "move": 435
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "脸颊两边有着小小的电力袋。遇到危险时就会放电。"

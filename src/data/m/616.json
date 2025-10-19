@@ -25,24 +25,5 @@
       "level": 1
     }
   ],
-  "pokemonTM": [
-    {
-      "fullId": "718-0"
-    },
-    {
-      "fullId": "718-1"
-    },
-    {
-      "fullId": "718-2"
-    },
-    {
-      "fullId": "718-3"
-    },
-    {
-      "fullId": "718-4"
-    },
-    {
-      "fullId": "718-5"
-    }
-  ]
+  "pokemonTM": []
 }

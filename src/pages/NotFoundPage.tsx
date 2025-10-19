@@ -17,7 +17,7 @@ const NotFoundPage: React.FC = () => {
       <div className="bg-red-100 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6">
         <PokemonIcon pokemon={PokemonDataById["718-4"]} />
       </div>
-      <h1 className="text-4xl font-bold text-gray-900 mb-4">页面未找到</h1>
+      <h1>页面未找到</h1>
       <p className="text-xl text-gray-600 mb-8">您访问的页面不存在或已被删除。</p>
       <Link
         to="/"

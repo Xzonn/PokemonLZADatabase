@@ -87,109 +87,120 @@
   ],
   "movesTM": [
     {
-      "move": 17
-    },
-    {
-      "move": 18
-    },
-    {
-      "move": 19
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 44
-    },
-    {
-      "move": 46
-    },
-    {
-      "move": 48
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 89
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 126
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 211
-    },
-    {
-      "move": 231
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 257
-    },
-    {
-      "move": 269
-    },
-    {
-      "move": 317
-    },
-    {
+      "index": 2,
       "move": 337
     },
     {
-      "move": 350
+      "index": 5,
+      "move": 46
     },
     {
-      "move": 406
+      "index": 12,
+      "move": 157
     },
     {
-      "move": 414
-    },
-    {
-      "move": 416
-    },
-    {
-      "move": 422
-    },
-    {
-      "move": 423
-    },
-    {
+      "index": 14,
       "move": 424
     },
     {
-      "move": 442
+      "index": 15,
+      "move": 423
     },
     {
-      "move": 444
+      "index": 17,
+      "move": 182
     },
     {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
       "move": 446
     },
     {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 43,
+      "move": 19
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 79,
       "move": 542
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 94,
+      "move": 18
+    },
+    {
+      "index": 95,
+      "move": 269
     }
   ],
   "description": "从残留在琥珀中的恐龙遗传基因复活而来。会一边高声鸣叫一边飞行。"

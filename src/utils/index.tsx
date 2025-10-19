@@ -1,10 +1,18 @@
 import { Pokemon, PokemonType, PokemonForm, EPokemonType, EMoveCategory, MoveCategory } from "../types";
 import { ColumnFilterItem } from "antd/es/table/interface";
 import { DescriptionsProps, TableProps } from "antd";
+import Link from "../components/Link";
 
 export const DefaultTitle = "宝可梦传说 Z-A 数据库";
 
-export const renderType = (type: PokemonType) => <span className={`badge-type bg-${type}`}>{type}</span>;
+export const renderType = (type: PokemonType) => (
+  <Link
+    to={`/t/${type}`}
+    className={`badge-type bg-${type}`}
+  >
+    {type}
+  </Link>
+);
 
 export const renderCategory = (category: MoveCategory) => (
   <span className={`badge-category bg-${category}`}>{category}</span>
@@ -46,4 +54,15 @@ export const DescriptionsCommonProps: Partial<DescriptionsProps> = {
   size: "small",
   bordered: true,
   column: { xs: 1, sm: 1, md: 3, lg: 3, xl: 3, xxl: 3 },
+};
+
+export const renderMoveLevel = (level: number): string => {
+  switch (level) {
+    case 1:
+      return "—";
+    case -3:
+      return "进化";
+    default:
+      return level.toString();
+  }
 };

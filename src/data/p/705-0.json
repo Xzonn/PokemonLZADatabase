@@ -100,79 +100,76 @@
   ],
   "movesTM": [
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 55
-    },
-    {
-      "move": 57
-    },
-    {
-      "move": 58
-    },
-    {
-      "move": 59
-    },
-    {
-      "move": 71
-    },
-    {
-      "move": 85
-    },
-    {
-      "move": 87
-    },
-    {
+      "index": 7,
       "move": 92
     },
     {
-      "move": 151
-    },
-    {
+      "index": 12,
       "move": 157
     },
     {
-      "move": 164
+      "index": 13,
+      "move": 58
     },
     {
-      "move": 174
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 188
+      "index": 33,
+      "move": 34
     },
     {
-      "move": 200
-    },
-    {
+      "index": 35,
       "move": 203
     },
     {
-      "move": 204
-    },
-    {
-      "move": 225
-    },
-    {
-      "move": 341
-    },
-    {
+      "index": 41,
       "move": 352
     },
     {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 54,
+      "move": 434
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 75,
       "move": 406
     },
     {
-      "move": 434
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "４只角是高性能的雷达。取代耳朵和鼻子，感知声音和气味。"

@@ -107,91 +107,68 @@
   ],
   "movesTM": [
     {
-      "move": 14
-    },
-    {
-      "move": 22
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 74
-    },
-    {
-      "move": 75
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 77
-    },
-    {
-      "move": 78
-    },
-    {
-      "move": 79
-    },
-    {
+      "index": 7,
       "move": 92
     },
     {
-      "move": 115
-    },
-    {
-      "move": 141
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 188
-    },
-    {
-      "move": 202
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 282
-    },
-    {
-      "move": 331
-    },
-    {
-      "move": 345
-    },
-    {
-      "move": 390
-    },
-    {
-      "move": 398
-    },
-    {
+      "index": 26,
       "move": 412
     },
     {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 437
+      "index": 64,
+      "move": 76
     },
     {
-      "move": 438
+      "index": 77,
+      "move": 398
     },
     {
-      "move": 482
+      "index": 85,
+      "move": 164
     },
     {
-      "move": 611
-    },
-    {
-      "move": 679
+      "index": 89,
+      "move": 390
     }
   ],
   "description": "被它吞进体内的东西不管有多硬，都会被溶解液不留痕迹地溶化掉。"

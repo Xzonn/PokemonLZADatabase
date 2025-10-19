@@ -105,94 +105,88 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 44
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 53
-    },
-    {
-      "move": 84
-    },
-    {
-      "move": 85
-    },
-    {
+      "index": 8,
       "move": 86
     },
     {
-      "move": 87
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 98
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 174
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 209
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 268
-    },
-    {
-      "move": 422
-    },
-    {
-      "move": 423
-    },
-    {
+      "index": 14,
       "move": 424
     },
     {
+      "index": 15,
+      "move": 423
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
       "move": 435
     },
     {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 66,
       "move": 521
     },
     {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
       "move": 528
     },
     {
-      "move": 555
+      "index": 91,
+      "move": 174
     },
     {
-      "move": 598
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "会将静电储存在体毛中进行放电。暴风雨临近时，会从全身散发出火花。"

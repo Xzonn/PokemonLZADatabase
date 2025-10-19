@@ -35,22 +35,24 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
+      "index": 47,
       "move": 97
     },
     {
-      "move": 334
+      "index": 58,
+      "move": 442
     },
     {
+      "index": 59,
       "move": 428
     },
     {
-      "move": 442
+      "index": 80,
+      "move": 334
     }
   ],
   "description": "通过磁力的波动和伙伴交流。成群的铁哑铃会有条不紊地进行行动。"

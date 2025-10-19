@@ -90,82 +90,72 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 39
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 52
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 83
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 104
-    },
-    {
-      "move": 108
-    },
-    {
-      "move": 116
-    },
-    {
-      "move": 126
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 172
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
       "move": 203
     },
     {
-      "move": 205
+      "index": 38,
+      "move": 126
     },
     {
-      "move": 257
-    },
-    {
-      "move": 261
-    },
-    {
-      "move": 269
-    },
-    {
+      "index": 50,
       "move": 315
     },
     {
-      "move": 394
+      "index": 57,
+      "move": 261
     },
     {
-      "move": 457
+      "index": 62,
+      "move": 53
     },
     {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 72,
+      "move": 83
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 103,
       "move": 526
     },
     {
-      "move": 528
+      "index": 104,
+      "move": 394
     }
   ],
   "description": "可以轻巧地躲避敌人的攻击，从鼻子里射出火球来。会用火烤树果吃。"

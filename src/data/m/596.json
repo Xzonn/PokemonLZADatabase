@@ -9,12 +9,5 @@
       "level": -3
     }
   ],
-  "pokemonTM": [
-    {
-      "fullId": "652-0"
-    },
-    {
-      "fullId": "652-1"
-    }
-  ]
+  "pokemonTM": []
 }

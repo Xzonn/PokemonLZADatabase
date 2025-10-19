@@ -92,118 +92,120 @@
   ],
   "movesTM": [
     {
-      "move": 7
-    },
-    {
-      "move": 8
-    },
-    {
-      "move": 9
-    },
-    {
-      "move": 14
-    },
-    {
-      "move": 33
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 44
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 85
-    },
-    {
-      "move": 86
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 92
-    },
-    {
-      "move": 95
-    },
-    {
-      "move": 104
-    },
-    {
-      "move": 109
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 116
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 162
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 197
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 231
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 247
-    },
-    {
+      "index": 4,
       "move": 249
     },
     {
+      "index": 7,
+      "move": 92
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 40,
       "move": 331
     },
     {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 46,
       "move": 341
     },
     {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 417
+      "index": 56,
+      "move": 38
     },
     {
+      "index": 59,
       "move": 428
     },
     {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 100,
       "move": 441
     },
     {
+      "index": 103,
       "move": 526
-    },
-    {
-      "move": 612
     }
   ],
   "description": "用体内的发光物质让眼珠和身体闪闪发光，使来袭的敌人畏缩。"

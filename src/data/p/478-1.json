@@ -122,115 +122,116 @@
   ],
   "movesTM": [
     {
-      "move": 8
-    },
-    {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 34
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 44
-    },
-    {
-      "move": 58
-    },
-    {
-      "move": 59
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 85
-    },
-    {
+      "index": 8,
       "move": 86
     },
     {
-      "move": 87
+      "index": 13,
+      "move": 58
     },
     {
-      "move": 94
-    },
-    {
-      "move": 104
-    },
-    {
-      "move": 109
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 114
-    },
-    {
-      "move": 115
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 174
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 191
-    },
-    {
-      "move": 196
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 247
-    },
-    {
-      "move": 261
-    },
-    {
-      "move": 269
-    },
-    {
-      "move": 313
-    },
-    {
-      "move": 352
-    },
-    {
-      "move": 377
-    },
-    {
-      "move": 416
-    },
-    {
-      "move": 417
-    },
-    {
-      "move": 420
-    },
-    {
+      "index": 15,
       "move": 423
     },
     {
-      "move": 556
+      "index": 16,
+      "move": 113
     },
     {
-      "move": 566
+      "index": 17,
+      "move": 182
     },
     {
-      "move": 577
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 41,
+      "move": 352
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "散发出带有幽灵能量的诡异冷气，连火和风等没有形状的东西也能冻住。"

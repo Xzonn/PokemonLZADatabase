@@ -90,73 +90,60 @@
   ],
   "movesTM": [
     {
-      "move": 16
-    },
-    {
-      "move": 17
-    },
-    {
-      "move": 18
-    },
-    {
-      "move": 19
-    },
-    {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 45
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 98
-    },
-    {
-      "move": 104
-    },
-    {
-      "move": 115
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 203
-    },
-    {
-      "move": 239
-    },
-    {
-      "move": 257
-    },
-    {
-      "move": 297
-    },
-    {
+      "index": 22,
       "move": 332
     },
     {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 43,
+      "move": 19
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 79,
+      "move": 542
+    },
+    {
+      "index": 82,
       "move": 369
     },
     {
-      "move": 403
+      "index": 85,
+      "move": 164
     },
     {
-      "move": 413
+      "index": 94,
+      "move": 18
     },
     {
+      "index": 103,
       "move": 526
-    },
-    {
-      "move": 542
     }
   ],
   "description": "有着广阔的领地。要是有哪个讨厌鬼胆敢入侵，就会被它狠狠地啄击。"

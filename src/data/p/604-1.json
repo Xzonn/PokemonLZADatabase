@@ -92,130 +92,140 @@
   ],
   "movesTM": [
     {
-      "move": 7
-    },
-    {
-      "move": 9
-    },
-    {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 85
-    },
-    {
-      "move": 86
-    },
-    {
-      "move": 87
-    },
-    {
-      "move": 109
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 127
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 162
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 192
-    },
-    {
-      "move": 200
-    },
-    {
-      "move": 202
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 209
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 268
-    },
-    {
-      "move": 317
-    },
-    {
+      "index": 2,
       "move": 337
     },
     {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 11,
       "move": 339
     },
     {
-      "move": 369
+      "index": 12,
+      "move": 157
     },
     {
-      "move": 370
+      "index": 16,
+      "move": 113
     },
     {
-      "move": 406
+      "index": 17,
+      "move": 182
     },
     {
-      "move": 416
-    },
-    {
+      "index": 21,
       "move": 422
     },
     {
-      "move": 428
+      "index": 23,
+      "move": 9
     },
     {
-      "move": 430
+      "index": 25,
+      "move": 242
     },
     {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 39,
       "move": 435
     },
     {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 66,
       "move": 521
     },
     {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 78,
       "move": 523
     },
     {
-      "move": 527
+      "index": 82,
+      "move": 369
     },
     {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
       "move": 528
     },
     {
-      "move": 598
+      "index": 93,
+      "move": 200
     },
     {
-      "move": 710
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 106,
+      "move": 87
+    },
+    {
+      "index": 107,
+      "move": 370
     }
   ],
   "description": "发电量是超级进化前的１０倍。会从由粘液构成的假麻麻鳗那里放电。"

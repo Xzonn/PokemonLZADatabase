@@ -8,6 +8,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import SearchBar from "./components/search/SearchBar";
 import ScrollToTop from "./components/ScrollToTop";
 import { Footer } from "./components";
+import TypeDetailPage from "./pages/TypeDetailPage";
 
 const App: React.FC = () => {
   return (
@@ -20,9 +21,9 @@ const App: React.FC = () => {
               <div className="flex items-center">
                 <Link
                   to="/"
-                  className="flex items-center"
+                  className="flex items-center text-2xl font-bold text-primary"
                 >
-                  <h1 className="text-2xl font-bold text-primary">Z-A 数据库</h1>
+                  Z-A 数据库
                 </Link>
               </div>
 
@@ -47,6 +48,10 @@ const App: React.FC = () => {
             <Route
               path="/m/:name"
               element={<MoveDetailPage />}
+            />
+            <Route
+              path="/t/:name"
+              element={<TypeDetailPage />}
             />
             <Route
               path="*"

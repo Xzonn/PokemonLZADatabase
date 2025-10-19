@@ -29,27 +29,5 @@
       "level": 1
     }
   ],
-  "pokemonTM": [
-    {
-      "fullId": "007-0"
-    },
-    {
-      "fullId": "008-0"
-    },
-    {
-      "fullId": "009-0"
-    },
-    {
-      "fullId": "009-1"
-    },
-    {
-      "fullId": "134-0"
-    },
-    {
-      "fullId": "515-0"
-    },
-    {
-      "fullId": "516-0"
-    }
-  ]
+  "pokemonTM": []
 }

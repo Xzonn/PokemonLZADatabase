@@ -42,6 +42,7 @@ export interface MoveLevelUp {
 }
 
 export interface MoveTM {
+  index: number;
   move: number;
 }
 

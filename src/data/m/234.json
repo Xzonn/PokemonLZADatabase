@@ -13,15 +13,5 @@
       "level": 32
     }
   ],
-  "pokemonTM": [
-    {
-      "fullId": "196-0"
-    },
-    {
-      "fullId": "694-0"
-    },
-    {
-      "fullId": "695-0"
-    }
-  ]
+  "pokemonTM": []
 }

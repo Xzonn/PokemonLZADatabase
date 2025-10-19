@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from "react";
-import { DefaultTitle, DescriptionsCommonProps, renderCategory, renderType } from "../../utils";
+import { DefaultTitle, DescriptionsCommonProps, renderCategory, renderMoveLevel, renderType } from "../../utils";
 import { PokemonDataById } from "../../data/pokemon";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "../../types";
 import { useRequest } from "ahooks";
@@ -10,6 +10,7 @@ const columnsLevelUp: TableColumnsType<Pokemon & PokemonLevelUp> = [
   {
     title: "等级",
     dataIndex: "level",
+    render: renderMoveLevel,
     sorter: (a, b) => a.level - b.level,
   },
 ];
@@ -55,6 +56,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
       return realData as MoveFull;
     },
     {
+      refreshDeps: [move],
       onError: () => null,
     },
   );
@@ -62,6 +64,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
   const pokemonLevelUp = useMemo(
     () =>
       moveFull?.pokemonLevelUp
+        .filter((pokemon) => PokemonDataById[pokemon.fullId])
         .map((pokemon) => ({
           ...pokemon,
           ...PokemonDataById[pokemon.fullId],
@@ -72,6 +75,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
   const pokemonTM = useMemo(
     () =>
       moveFull?.pokemonTM
+        .filter((pokemon) => PokemonDataById[pokemon.fullId])
         .map((pokemon) => ({
           ...pokemon,
           ...PokemonDataById[pokemon.fullId],
@@ -86,7 +90,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
       className="bg-white rounded-2xl shadow-xl overflow-hidden"
     >
       <div className="pt-12 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">{move.name}</h1>
+        <h1>{move.name}</h1>
         <div className="flex justify-center space-x-2 mb-6 text-xl text-gray-600">
           <div lang="ja">{move.japanese}</div>
           <div>{move.english}</div>
@@ -94,7 +98,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
       </div>
 
       <div className="px-8 py-8">
-        <h3 className="text-xl font-semibold text-gray-800 my-4">基本信息</h3>
+        <h3>基本信息</h3>
         <Descriptions
           items={getDescriptions(move)}
           {...DescriptionsCommonProps}
@@ -102,18 +106,22 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
       </div>
 
       <div className="px-8 py-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">可学习的宝可梦</h2>
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">等级提升</h3>
+        <h2>可学习的宝可梦</h2>
+        <h3>等级提升</h3>
         <PokemonTable<PokemonLevelUp>
           loading={loading}
           data={pokemonLevelUp}
           extraColumns={columnsLevelUp}
         />
-        <h3 className="text-xl font-semibold text-gray-800 mb-4">招式学习器</h3>
-        <PokemonTable
-          loading={loading}
-          data={pokemonTM}
-        />
+        {(pokemonTM?.length || 0) > 0 ? (
+          <>
+            <h3>招式学习器</h3>
+            <PokemonTable
+              loading={loading}
+              data={pokemonTM}
+            />
+          </>
+        ) : null}
       </div>
     </div>
   );

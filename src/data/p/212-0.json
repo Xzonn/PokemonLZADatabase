@@ -102,106 +102,96 @@
   ],
   "movesTM": [
     {
-      "move": 14
-    },
-    {
-      "move": 17
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 98
-    },
-    {
-      "move": 104
-    },
-    {
-      "move": 113
-    },
-    {
-      "move": 116
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 163
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 174
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 211
-    },
-    {
-      "move": 219
-    },
-    {
+      "index": 10,
       "move": 280
     },
     {
-      "move": 282
+      "index": 16,
+      "move": 113
     },
     {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 22,
       "move": 332
     },
     {
-      "move": 334
+      "index": 27,
+      "move": 129
     },
     {
-      "move": 369
+      "index": 30,
+      "move": 14
     },
     {
-      "move": 370
+      "index": 32,
+      "move": 104
     },
     {
+      "index": 34,
       "move": 400
     },
     {
-      "move": 403
+      "index": 35,
+      "move": 203
     },
     {
-      "move": 404
+      "index": 44,
+      "move": 63
     },
     {
-      "move": 405
+      "index": 45,
+      "move": 282
     },
     {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 418
+      "index": 56,
+      "move": 38
     },
     {
-      "move": 430
-    },
-    {
+      "index": 58,
       "move": 442
     },
     {
-      "move": 679
+      "index": 80,
+      "move": 334
     },
     {
-      "move": 693
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 107,
+      "move": 370
     }
   ],
   "description": "有着钢铁之躯。会举起带有眼珠花纹的钳子威吓对手。"

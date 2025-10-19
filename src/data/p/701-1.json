@@ -87,112 +87,112 @@
   ],
   "movesTM": [
     {
-      "move": 7
-    },
-    {
-      "move": 9
-    },
-    {
-      "move": 14
-    },
-    {
-      "move": 17
-    },
-    {
-      "move": 19
-    },
-    {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 197
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 269
-    },
-    {
+      "index": 10,
       "move": 280
     },
     {
-      "move": 297
-    },
-    {
-      "move": 317
-    },
-    {
-      "move": 332
-    },
-    {
+      "index": 11,
       "move": 339
     },
     {
-      "move": 340
+      "index": 12,
+      "move": 157
     },
     {
-      "move": 369
+      "index": 17,
+      "move": 182
     },
     {
-      "move": 370
+      "index": 22,
+      "move": 332
     },
     {
-      "move": 398
+      "index": 23,
+      "move": 9
     },
     {
-      "move": 403
+      "index": 27,
+      "move": 129
     },
     {
-      "move": 404
+      "index": 28,
+      "move": 91
     },
     {
-      "move": 411
+      "index": 29,
+      "move": 7
     },
     {
-      "move": 413
+      "index": 30,
+      "move": 14
     },
     {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 43,
+      "move": 19
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 428
-    },
-    {
+      "index": 58,
       "move": 442
     },
     {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 65,
       "move": 444
     },
     {
-      "move": 560
+      "index": 77,
+      "move": 398
     },
     {
-      "move": 679
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 107,
+      "move": 370
     }
   ],
   "description": "会利用因超级进化而激增的浑身肌肉炫耀自己强而有力。"

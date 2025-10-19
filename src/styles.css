@@ -17,6 +17,18 @@
   overflow-x: auto;
 }
 
+h1 {
+  @apply text-4xl font-bold text-gray-900 my-4 text-center;
+}
+
+h2 {
+  @apply text-2xl font-bold text-gray-900 my-4 text-center;
+}
+
+h3 {
+  @apply text-xl font-semibold text-gray-800 my-4;
+}
+
 /** 宝可梦小图标 */
 .icon-pokemon {
   display: block;
@@ -44,12 +56,22 @@
 .badge-type,
 .badge-category {
   display: inline-block;
-  color: white;
+  color: #fff;
   border-radius: 0.5em;
   font-weight: 600;
   width: 4em;
   text-align: center;
   white-space: nowrap;
+}
+
+a.badge-type {
+  transition: opacity 0.2s;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+    color: #fff;
+  }
 }
 
 .badges {
@@ -227,7 +249,8 @@
     font-weight: 600;
   }
 
-  .badge-type {
+  .badge-type,
+  .badge-category {
     font-size: 0.8em;
   }
 }

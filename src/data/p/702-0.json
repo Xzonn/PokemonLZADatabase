@@ -87,88 +87,80 @@
   ],
   "movesTM": [
     {
-      "move": 9
-    },
-    {
-      "move": 33
-    },
-    {
-      "move": 39
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 84
-    },
-    {
-      "move": 85
-    },
-    {
+      "index": 8,
       "move": 86
     },
     {
-      "move": 87
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 97
-    },
-    {
+      "index": 16,
       "move": 113
     },
     {
-      "move": 129
-    },
-    {
-      "move": 162
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 203
-    },
-    {
-      "move": 204
-    },
-    {
-      "move": 268
-    },
-    {
-      "move": 369
-    },
-    {
-      "move": 416
-    },
-    {
-      "move": 435
-    },
-    {
-      "move": 521
-    },
-    {
-      "move": 528
-    },
-    {
-      "move": 570
-    },
-    {
+      "index": 20,
       "move": 583
     },
     {
-      "move": 598
+      "index": 23,
+      "move": 9
     },
     {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
+      "move": 435
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 92,
       "move": 605
     },
     {
-      "move": 609
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "胡子起着天线的作用。用它来收发电波，与远处的伙伴保持联络。"

@@ -85,85 +85,88 @@
   ],
   "movesTM": [
     {
-      "move": 7
-    },
-    {
-      "move": 8
-    },
-    {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 45
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 84
-    },
-    {
-      "move": 85
-    },
-    {
+      "index": 8,
       "move": 86
     },
     {
-      "move": 87
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 109
-    },
-    {
+      "index": 16,
       "move": 113
     },
     {
-      "move": 115
-    },
-    {
-      "move": 129
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 203
-    },
-    {
-      "move": 268
-    },
-    {
+      "index": 19,
       "move": 408
     },
     {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
       "move": 435
     },
     {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 66,
       "move": 521
     },
     {
-      "move": 527
+      "index": 67,
+      "move": 85
     },
     {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
       "move": 528
     },
     {
-      "move": 538
+      "index": 92,
+      "move": 605
     },
     {
-      "move": 605
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "体毛中蓄满电力后，尾巴就会发光。会射出碰到就会被电麻的体毛。"

@@ -102,97 +102,96 @@
   ],
   "movesTM": [
     {
-      "move": 14
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 40
-    },
-    {
-      "move": 42
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 89
-    },
-    {
-      "move": 91
-    },
-    {
+      "index": 7,
       "move": 92
     },
     {
-      "move": 97
-    },
-    {
-      "move": 103
-    },
-    {
+      "index": 12,
       "move": 157
     },
     {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 188
+      "index": 28,
+      "move": 91
     },
     {
-      "move": 191
+      "index": 30,
+      "move": 14
     },
     {
+      "index": 35,
       "move": 203
     },
     {
-      "move": 205
-    },
-    {
-      "move": 224
-    },
-    {
-      "move": 231
-    },
-    {
+      "index": 36,
       "move": 317
     },
     {
-      "move": 334
+      "index": 44,
+      "move": 63
     },
     {
-      "move": 369
+      "index": 47,
+      "move": 97
     },
     {
-      "move": 390
+      "index": 53,
+      "move": 188
     },
     {
-      "move": 398
-    },
-    {
-      "move": 404
-    },
-    {
+      "index": 55,
       "move": 416
     },
     {
-      "move": 441
+      "index": 56,
+      "move": 38
     },
     {
-      "move": 611
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 100,
+      "move": 441
     }
   ],
   "description": "用颈部的爪子夹住猎物，让对方动弹不得之后，施以剧毒，一击毙命。"

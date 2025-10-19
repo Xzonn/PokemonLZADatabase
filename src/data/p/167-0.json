@@ -105,91 +105,72 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 34
-    },
-    {
-      "move": 40
-    },
-    {
-      "move": 42
-    },
-    {
-      "move": 71
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 81
-    },
-    {
-      "move": 91
-    },
-    {
+      "index": 7,
       "move": 92
     },
     {
-      "move": 94
-    },
-    {
-      "move": 97
-    },
-    {
-      "move": 103
-    },
-    {
-      "move": 141
-    },
-    {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
-      "move": 188
+      "index": 28,
+      "move": 91
     },
     {
-      "move": 202
+      "index": 33,
+      "move": 34
     },
     {
+      "index": 35,
       "move": 203
     },
     {
-      "move": 224
+      "index": 42,
+      "move": 202
     },
     {
+      "index": 45,
       "move": 282
     },
     {
-      "move": 390
+      "index": 47,
+      "move": 97
     },
     {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 77,
       "move": 398
     },
     {
+      "index": 81,
       "move": 404
     },
     {
-      "move": 405
+      "index": 85,
+      "move": 164
     },
     {
-      "move": 425
+      "index": 89,
+      "move": 390
     },
     {
+      "index": 101,
       "move": 527
-    },
-    {
-      "move": 564
-    },
-    {
-      "move": 611
-    },
-    {
-      "move": 679
     }
   ],
   "description": "在用又细又结实的丝布满陷阱后，就会一直等着猎物落网。"

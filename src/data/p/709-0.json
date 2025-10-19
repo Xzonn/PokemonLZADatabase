@@ -77,103 +77,100 @@
   ],
   "movesTM": [
     {
-      "move": 33
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 73
-    },
-    {
-      "move": 74
-    },
-    {
-      "move": 76
-    },
-    {
-      "move": 89
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 94
-    },
-    {
-      "move": 109
-    },
-    {
-      "move": 115
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 174
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 202
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 219
-    },
-    {
-      "move": 247
-    },
-    {
-      "move": 261
-    },
-    {
-      "move": 345
-    },
-    {
+      "index": 6,
       "move": 347
     },
     {
-      "move": 377
+      "index": 12,
+      "move": 157
     },
     {
-      "move": 398
+      "index": 17,
+      "move": 182
     },
     {
-      "move": 399
-    },
-    {
-      "move": 404
-    },
-    {
-      "move": 411
-    },
-    {
+      "index": 26,
       "move": 412
     },
     {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 55,
       "move": 416
     },
     {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 61,
       "move": 421
     },
     {
-      "move": 452
+      "index": 63,
+      "move": 94
     },
     {
-      "move": 532
+      "index": 64,
+      "move": 76
     },
     {
-      "move": 566
+      "index": 69,
+      "move": 89
     },
     {
-      "move": 571
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 102,
+      "move": 411
     }
   ],
   "description": "用根茎代替神经操纵森林里的树木。对住在它身体里的宝可梦很亲切。"

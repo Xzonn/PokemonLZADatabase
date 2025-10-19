@@ -115,85 +115,80 @@
   ],
   "movesTM": [
     {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 36
-    },
-    {
-      "move": 38
-    },
-    {
+      "index": 5,
       "move": 46
     },
     {
-      "move": 89
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 103
-    },
-    {
-      "move": 106
-    },
-    {
+      "index": 12,
       "move": 157
     },
     {
-      "move": 164
-    },
-    {
+      "index": 17,
       "move": 182
     },
     {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
       "move": 203
     },
     {
-      "move": 231
-    },
-    {
-      "move": 232
-    },
-    {
+      "index": 36,
       "move": 317
     },
     {
-      "move": 319
-    },
-    {
-      "move": 334
-    },
-    {
-      "move": 341
-    },
-    {
-      "move": 414
-    },
-    {
-      "move": 421
-    },
-    {
-      "move": 442
-    },
-    {
+      "index": 37,
       "move": 446
     },
     {
-      "move": 457
+      "index": 46,
+      "move": 341
     },
     {
-      "move": 484
+      "index": 52,
+      "move": 414
     },
     {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 78,
       "move": 523
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
     }
   ],
   "description": "进化的时候，会先让覆盖全身的钢铁盔甲一次脱落，然后再长出一副新的盔甲。"

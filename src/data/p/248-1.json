@@ -102,166 +102,188 @@
   ],
   "movesTM": [
     {
-      "move": 7
-    },
-    {
-      "move": 8
-    },
-    {
-      "move": 9
-    },
-    {
+      "index": 1,
       "move": 29
     },
     {
-      "move": 33
-    },
-    {
-      "move": 34
-    },
-    {
-      "move": 38
-    },
-    {
-      "move": 43
-    },
-    {
-      "move": 44
-    },
-    {
-      "move": 46
-    },
-    {
-      "move": 53
-    },
-    {
-      "move": 56
-    },
-    {
-      "move": 58
-    },
-    {
-      "move": 59
-    },
-    {
-      "move": 63
-    },
-    {
-      "move": 85
-    },
-    {
-      "move": 86
-    },
-    {
-      "move": 87
-    },
-    {
-      "move": 88
-    },
-    {
-      "move": 89
-    },
-    {
-      "move": 91
-    },
-    {
-      "move": 103
-    },
-    {
-      "move": 126
-    },
-    {
-      "move": 157
-    },
-    {
-      "move": 164
-    },
-    {
-      "move": 174
-    },
-    {
-      "move": 182
-    },
-    {
-      "move": 200
-    },
-    {
-      "move": 203
-    },
-    {
-      "move": 242
-    },
-    {
-      "move": 269
-    },
-    {
-      "move": 280
-    },
-    {
-      "move": 282
-    },
-    {
-      "move": 317
-    },
-    {
-      "move": 328
-    },
-    {
-      "move": 332
-    },
-    {
-      "move": 334
-    },
-    {
+      "index": 2,
       "move": 337
     },
     {
-      "move": 341
+      "index": 5,
+      "move": 46
     },
     {
-      "move": 350
+      "index": 8,
+      "move": 86
     },
     {
-      "move": 399
+      "index": 10,
+      "move": 280
     },
     {
-      "move": 406
+      "index": 12,
+      "move": 157
     },
     {
-      "move": 408
+      "index": 13,
+      "move": 58
     },
     {
-      "move": 414
-    },
-    {
-      "move": 416
-    },
-    {
-      "move": 421
-    },
-    {
-      "move": 422
-    },
-    {
-      "move": 423
-    },
-    {
+      "index": 14,
       "move": 424
     },
     {
-      "move": 442
+      "index": 15,
+      "move": 423
     },
     {
-      "move": 444
+      "index": 17,
+      "move": 182
     },
     {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
       "move": 446
     },
     {
-      "move": 484
+      "index": 38,
+      "move": 126
     },
     {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 78,
       "move": 523
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 96,
+      "move": 56
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 106,
+      "move": 87
     }
   ],
   "description": "因超级进化的影响，它变得更加粗暴了。不清楚它是否还会听从训练家的命令。"
