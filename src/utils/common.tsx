@@ -36,7 +36,7 @@ export const DescriptionsCommonProps: Partial<DescriptionsProps> = {
 };
 
 export const PaginationConfig: TablePaginationConfig = {
-  pageSize: 100,
+  defaultPageSize: 100,
   showSizeChanger: true,
   pageSizeOptions: ["100", "200", "500", "1000"],
 };
