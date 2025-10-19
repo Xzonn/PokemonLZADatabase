@@ -3,7 +3,7 @@ import {
   DefaultTitle,
   DescriptionsCommonProps,
   getPokemonFullId,
-  getPokemonFullName,
+  getPokemonFullNameFriendly,
   renderMoveLevel,
   renderTypes,
 } from "../../utils";
@@ -90,7 +90,7 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
 
 const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
   useEffect(() => {
-    document.title = `宝可梦：${getPokemonFullName(pokemon)} - ${DefaultTitle}`;
+    document.title = `${getPokemonFullNameFriendly(pokemon)} - ${DefaultTitle}`;
   }, [pokemon]);
 
   const { data: pokemonFull = null, loading } = useRequest(

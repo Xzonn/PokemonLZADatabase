@@ -45,7 +45,7 @@ const getDescriptions = (move: Move): DescriptionsProps["items"] => [
 
 const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
   useEffect(() => {
-    document.title = `招式：${move.name} - ${DefaultTitle}`;
+    document.title = `${move.name} - ${DefaultTitle}`;
   }, [move]);
 
   const { data: moveFull = null, loading } = useRequest(

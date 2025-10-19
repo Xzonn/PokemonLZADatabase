@@ -52,7 +52,7 @@ const columnsWithStats: TableColumnsType<Pokemon> = [
       })),
       {
         title: "总和",
-        key: "baseTotal",
+        dataIndex: "baseTotal",
         sorter: (a: Pokemon, b: Pokemon) => a.baseTotal - b.baseTotal,
       },
     ],
