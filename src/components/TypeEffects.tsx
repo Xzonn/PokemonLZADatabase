@@ -1,4 +1,5 @@
 import { Descriptions, DescriptionsProps } from "antd";
+
 import { EPokemonType, PokemonType } from "../types";
 import { DescriptionsCommonProps, calculateEffects, renderType } from "../utils";
 

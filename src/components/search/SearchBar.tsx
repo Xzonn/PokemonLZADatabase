@@ -1,13 +1,15 @@
-import React, { useState } from "react";
-import { Input } from "antd";
-import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
-import { getPokemonFullId } from "../../utils";
-import { SearchResult } from "../../types";
+import { CloseOutlined, SearchOutlined } from "@ant-design/icons";
 import { useDebounceFn } from "ahooks";
-import { PokemonData } from "../../data/pokemon";
-import { MoveData } from "../../data/move";
-import SearchPokemon from "./SearchPokemon";
+import { Input } from "antd";
+import React, { useState } from "react";
+
 import SearchMove from "./SearchMove";
+import SearchPokemon from "./SearchPokemon";
+
+import { MoveData } from "@/data/move";
+import { PokemonData } from "@/data/pokemon";
+import { SearchResult } from "@/types";
+import { getPokemonFullId } from "@/utils";
 
 const searchAll = (keyword: string): SearchResult => {
   if (!keyword.trim()) {

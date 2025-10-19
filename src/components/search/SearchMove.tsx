@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Move } from "../../types";
-import { renderCategory, renderType } from "../../utils";
+
+import { Move } from "@/types";
+import { renderCategory, renderType } from "@/utils";
 
 const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ result, onClick }) => (
   <Link

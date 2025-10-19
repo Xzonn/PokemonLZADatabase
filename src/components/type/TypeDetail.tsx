@@ -1,11 +1,13 @@
 import React, { useEffect, useMemo } from "react";
-import { DefaultTitle, renderType } from "../../utils";
-import { PokemonData } from "../../data/pokemon";
-import { PokemonType } from "../../types";
-import PokemonTable from "../pokemon/PokemonTable";
-import { MoveData } from "../../data/move";
-import { MoveTable } from "../move";
+
 import TypeEffectiveness from "../TypeEffects";
+import { MoveTable } from "../move";
+import PokemonTable from "../pokemon/PokemonTable";
+
+import { MoveData } from "@/data/move";
+import { PokemonData } from "@/data/pokemon";
+import { PokemonType } from "@/types";
+import { DefaultTitle, renderType } from "@/utils";
 
 const TypeDetail: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
   useEffect(() => {

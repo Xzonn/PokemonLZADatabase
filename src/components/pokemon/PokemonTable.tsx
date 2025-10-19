@@ -1,8 +1,10 @@
-import { useMemo } from "react";
-import { Pokemon, PokemonType } from "../../types";
 import { Table, TableColumnsType } from "antd";
-import { PaginationConfig, PokemonTypeFilters, renderTypes, TableCommonProps } from "../../utils";
+import { useMemo } from "react";
+
 import PokemonCell from "./PokemonCell";
+
+import { Pokemon, PokemonType } from "@/types";
+import { PaginationConfig, PokemonTypeFilters, TableCommonProps, renderTypes } from "@/utils";
 
 const columns: TableColumnsType<Pokemon> = [
   {

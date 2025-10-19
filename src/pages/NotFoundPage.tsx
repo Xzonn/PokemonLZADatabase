@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import PokemonIcon from "../components/pokemon/PokemonIcon";
 import { PokemonDataById } from "../data/pokemon";
 import { DefaultTitle } from "../utils";

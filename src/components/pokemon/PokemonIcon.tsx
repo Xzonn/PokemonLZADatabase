@@ -1,4 +1,4 @@
-import { Pokemon } from "../../types";
+import { Pokemon } from "@/types";
 
 const PokemonIcon: React.FC<{ pokemon: Pokemon; size?: number; shiny?: boolean; className?: string }> = ({
   pokemon,

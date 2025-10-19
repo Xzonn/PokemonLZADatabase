@@ -19,7 +19,9 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint src/ --fix",
+    "format": "prettier --write ."
   },
   "browserslist": {
     "production": [
@@ -34,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "@types/css-modules": "^1.0.5",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@types/react-router-dom": "^5.3.3",
@@ -41,7 +44,11 @@
     "@typescript-eslint/parser": "^8.46.1",
     "@vitejs/plugin-react": "^5.0.4",
     "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
     "vite": "^7.1.10",
     "vite-plugin-eslint": "^1.8.1"
   }

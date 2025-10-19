@@ -1,6 +1,7 @@
-import { EPokemonType, EMoveCategory, MoveCategory } from "../types";
-import { ColumnFilterItem } from "antd/es/table/interface";
 import { DescriptionsProps, TablePaginationConfig, TableProps } from "antd";
+import { ColumnFilterItem } from "antd/es/table/interface";
+
+import { EMoveCategory, EPokemonType, MoveCategory } from "../types";
 
 export const DefaultTitle = "宝可梦传说 Z-A 数据库";
 

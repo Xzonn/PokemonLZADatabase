@@ -1,15 +1,17 @@
-import { useMemo } from "react";
-import { Move } from "../../types";
 import { Table, TableColumnsType } from "antd";
+import { useMemo } from "react";
+
 import Link from "../Link";
+
+import { Move } from "@/types";
 import {
   MoveCategoryFilters,
   PaginationConfig,
   PokemonTypeFilters,
+  TableCommonProps,
   renderCategory,
   renderType,
-  TableCommonProps,
-} from "../../utils";
+} from "@/utils";
 
 const columns: TableColumnsType<Move> = [
   {

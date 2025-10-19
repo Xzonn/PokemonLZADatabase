@@ -9,8 +9,9 @@
 
 /** 通用 */
 * {
-  font-family: Nunito, MiSans, "HarmonyOS Sans", "Source Han Sans CN", "Source Han Sans SC", "Noto Sans SC", system-ui,
-    sans-serif, serif;
+  font-family:
+    Nunito, MiSans, "HarmonyOS Sans", "Source Han Sans CN", "Source Han Sans SC", "Noto Sans SC", system-ui, sans-serif,
+    serif;
 }
 
 .ant-descriptions-view {

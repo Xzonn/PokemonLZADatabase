@@ -182,7 +182,9 @@ export const calculateEffects = (types: PokemonType[], isAttack = false): Record
 
   for (const inputType of types) {
     for (const targetType of EPokemonType) {
-      const effect = isAttack ? effectTable[inputType]?.[targetType] ?? 1 : effectTable[targetType]?.[inputType] ?? 1;
+      const effect = isAttack
+        ? (effectTable[inputType]?.[targetType] ?? 1)
+        : (effectTable[targetType]?.[inputType] ?? 1);
       effects[targetType] *= effect;
     }
   }

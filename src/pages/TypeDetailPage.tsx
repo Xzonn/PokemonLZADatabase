@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+
 import NotFoundPage from "./NotFoundPage";
 import TypeDetail from "../components/type/TypeDetail";
 import { EPokemonType, PokemonType } from "../types";

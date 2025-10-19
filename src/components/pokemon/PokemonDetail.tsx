@@ -1,4 +1,17 @@
+import { useRequest } from "ahooks";
+import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { useEffect, useMemo } from "react";
+
+import PokemonEvolutionTable from "./PokemonEvolutionTable";
+import PokemonTable from "./PokemonTable";
+import StatBar from "../StatBar";
+import PokemonIcon from "./PokemonIcon";
+import TypeEffectiveness from "../TypeEffects";
+import MoveTable from "../move/MoveTable";
+
+import { MoveDataById } from "@/data/move";
+import { PokemonData } from "@/data/pokemon";
+import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
 import {
   DefaultTitle,
   DescriptionsCommonProps,
@@ -6,18 +19,7 @@ import {
   getPokemonFullNameFriendly,
   renderMoveLevel,
   renderTypes,
-} from "../../utils";
-import StatBar from "../StatBar";
-import { useRequest } from "ahooks";
-import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "../../types";
-import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
-import { MoveDataById } from "../../data/move";
-import PokemonIcon from "./PokemonIcon";
-import TypeEffectiveness from "../TypeEffects";
-import MoveTable from "../move/MoveTable";
-import PokemonTable from "./PokemonTable";
-import { PokemonData } from "../../data/pokemon";
-import PokemonEvolutionTable from "./PokemonEvolutionTable";
+} from "@/utils";
 
 enum ExpGrowth {
   "较快" = 0,
@@ -95,7 +97,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
 
   const { data: pokemonFull = null, loading } = useRequest(
     async () => {
-      const realData = await import(`../../data/p/${getPokemonFullId(pokemon)}.json`).then((mod) => mod.default);
+      const realData = await import(`@/data/p/${getPokemonFullId(pokemon)}.json`).then((mod) => mod.default);
       return realData as PokemonFull;
     },
     {

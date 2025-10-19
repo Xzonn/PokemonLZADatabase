@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Pokemon } from "../../types";
-import { getPokemonFullName, renderTypes } from "../../utils";
+
 import PokemonIcon from "../pokemon/PokemonIcon";
+
+import { Pokemon } from "@/types";
+import { getPokemonFullName, renderTypes } from "@/utils";
 
 const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> = ({ result, onClick }) => (
   <Link

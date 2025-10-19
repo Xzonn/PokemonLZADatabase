@@ -1,10 +1,12 @@
-import React, { useEffect, useMemo } from "react";
-import { DefaultTitle, DescriptionsCommonProps, renderCategory, renderMoveLevel, renderType } from "../../utils";
-import { PokemonDataById } from "../../data/pokemon";
-import { Move, MoveFull, Pokemon, PokemonLevelUp } from "../../types";
 import { useRequest } from "ahooks";
-import PokemonTable from "../pokemon/PokemonTable";
 import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
+import React, { useEffect, useMemo } from "react";
+
+import PokemonTable from "../pokemon/PokemonTable";
+
+import { PokemonDataById } from "@/data/pokemon";
+import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
+import { DefaultTitle, DescriptionsCommonProps, renderCategory, renderMoveLevel, renderType } from "@/utils";
 
 const columnsLevelUp: TableColumnsType<Pokemon & PokemonLevelUp> = [
   {
@@ -50,9 +52,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
 
   const { data: moveFull = null, loading } = useRequest(
     async () => {
-      const realData = await import(`../../data/m/${move.id.toString().padStart(3, "0")}.json`).then(
-        (mod) => mod.default,
-      );
+      const realData = await import(`@/data/m/${move.id.toString().padStart(3, "0")}.json`).then((mod) => mod.default);
       return realData as MoveFull;
     },
     {

@@ -1,8 +1,10 @@
-import { Pokemon } from "../../types";
-import { getPokemonFullName } from "../../utils";
+import React from "react";
+
 import Link from "../Link";
 import PokemonIcon from "./PokemonIcon";
-import React from "react";
+
+import { Pokemon } from "@/types";
+import { getPokemonFullName } from "@/utils";
 
 const PokemonCell: React.FC<{ pokemon?: Pokemon }> = ({ pokemon }) =>
   pokemon ? (

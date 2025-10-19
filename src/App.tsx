@@ -1,13 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 
+import { Footer } from "./components";
+import ScrollToTop from "./components/ScrollToTop";
+import SearchBar from "./components/search/SearchBar";
 import HomePage from "./pages/HomePage";
-import PokemonDetailPage from "./pages/PokemonDetailPage";
 import MoveDetailPage from "./pages/MoveDetailPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import SearchBar from "./components/search/SearchBar";
-import ScrollToTop from "./components/ScrollToTop";
-import { Footer } from "./components";
+import PokemonDetailPage from "./pages/PokemonDetailPage";
 import TypeDetailPage from "./pages/TypeDetailPage";
 
 const App: React.FC = () => {
