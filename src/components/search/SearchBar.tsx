@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { Input } from "antd";
 import { SearchOutlined, CloseOutlined } from "@ant-design/icons";
-import { getPokemonFullId, getPokemonFullName, getTypeColor, renderType, renderTypes } from "../utils";
-import { SearchResult } from "../types";
+import { getPokemonFullId } from "../../utils";
+import { SearchResult } from "../../types";
 import { useDebounceFn } from "ahooks";
-import { Link } from "react-router-dom";
-import { PokemonData } from "../data/pokemon";
-import { MoveData } from "../data/move";
+import { PokemonData } from "../../data/pokemon";
+import { MoveData } from "../../data/move";
+import SearchPokemon from "./SearchPokemon";
+import SearchMove from "./SearchMove";
 
 const searchAll = (keyword: string): SearchResult => {
   if (!keyword.trim()) {
@@ -52,38 +53,18 @@ const renderSearchResult = (result: SearchResult | undefined, onClick: () => voi
   return (
     <div key="results">
       {result.pokemon.map((pokemon) => (
-        <Link
+        <SearchPokemon
           key={`pokemon-${getPokemonFullId(pokemon)}`}
-          to={`/p/${getPokemonFullName(pokemon)}`}
+          result={pokemon}
           onClick={onClick}
-          className="flex items-center p-3 hover:bg-gray-50 border-b border-gray-100 cursor-pointer"
-        >
-          <div className="flex-1">
-            <div className="font-semibold text-gray-900">{getPokemonFullName(pokemon)}</div>
-            <div className="text-sm text-gray-500">{pokemon.english}</div>
-            <div className="flex space-x-1 mt-1">{renderTypes(pokemon.types)}</div>
-          </div>
-        </Link>
+        />
       ))}
       {result.moves.map((move) => (
-        <Link
+        <SearchMove
           key={`move-${move.id}`}
-          to={`/m/${move.name}`}
+          result={move}
           onClick={onClick}
-          className="flex items-center p-3 hover:bg-gray-50 border-b border-gray-100 cursor-pointer"
-        >
-          <div className={`w-12 h-12 rounded-full mr-3 flex items-center justify-center ${getTypeColor(move.type)}`}>
-            <i className="fa fa-magic text-white text-xl"></i>
-          </div>
-          <div className="flex-1">
-            <div className="font-semibold text-gray-900">{move.name}</div>
-            <div className="text-sm text-gray-500">{move.english}</div>
-            <div className="flex items-center space-x-2 mt-1">
-              {renderType(move.type)}
-              <span className="text-xs px-2 py-1 bg-gray-100 text-gray-600 rounded">{move.category}</span>
-            </div>
-          </div>
-        </Link>
+        />
       ))}
     </div>
   );

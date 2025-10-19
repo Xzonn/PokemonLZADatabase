@@ -5,8 +5,9 @@ import HomePage from "./pages/HomePage";
 import PokemonDetailPage from "./pages/PokemonDetailPage";
 import MoveDetailPage from "./pages/MoveDetailPage";
 import NotFoundPage from "./pages/NotFoundPage";
-import SearchBar from "./components/SearchBar";
+import SearchBar from "./components/search/SearchBar";
 import ScrollToTop from "./components/ScrollToTop";
+import { Footer } from "./components";
 
 const App: React.FC = () => {
   return (
@@ -57,20 +58,7 @@ const App: React.FC = () => {
         </main>
 
         {/* 页脚 */}
-        <footer>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-gray-400">
-              <p>
-                除非另有声明，本网站内容采用
-                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享</a>
-                授权。
-              </p>
-              <p>
-                <a href="https://beian.miit.gov.cn/">京ICP备20005737号</a>
-              </p>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </Router>
   );

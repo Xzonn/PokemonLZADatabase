@@ -2,7 +2,7 @@
 
 import React from "react";
 import { PokemonData } from "../data/pokemon";
-import PokemonTable from "../components/PokemonTable";
+import PokemonTable from "../components/pokemon/PokemonTable";
 
 const HomePage: React.FC = () => {
   return (

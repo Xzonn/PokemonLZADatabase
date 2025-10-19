@@ -5,31 +5,32 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 滚动条样式 */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+@import "@fontsource/nunito/index.css";
+
+/** 通用 */
+* {
+  font-family: Nunito, MiSans, "HarmonyOS Sans", "Source Han Sans CN", "Source Han Sans SC", "Noto Sans SC", system-ui,
+    sans-serif, serif;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 4px;
+.ant-descriptions-view {
+  overflow-x: auto;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #a1a1a1;
-}
-
+/** 宝可梦小图标 */
 .icon-pokemon {
   display: block;
-  margin: 0 auto;
   flex: 0 0 auto;
   background-image: url("/public/assets/images/pokemon.webp");
+}
+
+.icon-pokemon-shiny {
+  background-image: url("/public/assets/images/pokemon-shiny.webp");
+}
+
+.pokemon-form {
+  font-size: 0.8em;
+  @apply text-gray-500;
 }
 
 .cell-pokemon {
@@ -37,13 +38,194 @@
   align-items: center;
   gap: 1em;
   white-space: nowrap;
+}
 
-  .icon-pokemon {
-    margin: 0;
+/** 属性 */
+.badge-type,
+.badge-category {
+  display: inline-block;
+  color: white;
+  border-radius: 0.5em;
+  font-weight: 600;
+  width: 4em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.badge-type + .badge-type {
+  margin-left: 0.5em;
+}
+
+.bg-一般 {
+  background-color: #9fa19f !important;
+}
+
+.bg-格斗 {
+  background-color: #ff8000 !important;
+}
+
+.bg-飞行 {
+  background-color: #81b9ef !important;
+}
+
+.bg-毒 {
+  background-color: #9141cb !important;
+}
+
+.bg-地面 {
+  background-color: #915121 !important;
+}
+
+.bg-岩石 {
+  background-color: #afa981 !important;
+}
+
+.bg-虫 {
+  background-color: #91a119 !important;
+}
+
+.bg-幽灵 {
+  background-color: #704170 !important;
+}
+
+.bg-钢 {
+  background-color: #60a1b8 !important;
+}
+
+.bg-火 {
+  background-color: #e62829 !important;
+}
+
+.bg-水 {
+  background-color: #2980ef !important;
+}
+
+.bg-草 {
+  background-color: #3fa129 !important;
+}
+
+.bg-电 {
+  background-color: #fac000 !important;
+}
+
+.bg-超能力 {
+  background-color: #ef4179 !important;
+}
+
+.bg-冰 {
+  background-color: #3fd8ff !important;
+}
+
+.bg-龙 {
+  background-color: #5060e1 !important;
+}
+
+.bg-恶 {
+  background-color: #50413f !important;
+}
+
+.bg-妖精 {
+  background-color: #ef70ef !important;
+}
+
+.bg-物理 {
+  background-color: #ee7700 !important;
+}
+
+.bg-特殊 {
+  background-color: #7799dd !important;
+}
+
+.bg-变化 {
+  background-color: #acacac !important;
+}
+
+.table-effect,
+.table-effect th {
+  text-align: center !important;
+}
+
+.effect-quadruple {
+  color: #a00;
+  font-weight: 700;
+}
+
+.effect-double {
+  color: #e00;
+}
+
+.effect-half {
+  color: #00e;
+}
+
+.effect-quarter {
+  color: #00a;
+  font-weight: 100;
+}
+
+.effect-0 {
+  color: #aaa;
+  font-weight: 100;
+}
+
+/** 搜索框 */
+.search-item {
+  @apply border-b;
+
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  padding: 8px;
+
+  &:last-child {
+    border-bottom: none;
   }
 
-  .pokemon-form {
+  &:hover {
+    @apply bg-gray-50;
+  }
+}
+
+.search-item-pokemon {
+  gap: 8px;
+
+  .pokemon-name-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .pokemon-name {
+    font-weight: 600;
+  }
+
+  .badge-type {
     font-size: 0.8em;
-    color: #6b7280; /* Tailwind CSS gray-500 */
+  }
+
+  .badge-type + .badge-type {
+    margin-left: 0;
+  }
+}
+
+.search-item-move {
+  gap: 8px;
+
+  .move-name-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .move-name {
+    font-weight: 600;
+  }
+
+  .badge-type {
+    font-size: 0.8em;
   }
 }

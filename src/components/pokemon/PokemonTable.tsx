@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import { Pokemon, PokemonType } from "../types";
+import { Pokemon, PokemonType } from "../../types";
 import { Table, TableColumnsType, TablePaginationConfig } from "antd";
-import { Link } from "react-router-dom";
-import { getPokemonFullName, PokemonTypeFilters, renderTypes } from "../utils";
+import Link from "../Link";
+import { getPokemonFullName, PokemonTypeFilters, renderTypes, TableCommonProps } from "../../utils";
 import PokemonIcon from "./PokemonIcon";
 
 const columns: TableColumnsType<Pokemon> = [
@@ -12,7 +12,7 @@ const columns: TableColumnsType<Pokemon> = [
     render: (name, row) => (
       <Link
         to={`/p/${getPokemonFullName(row)}`}
-        className="cell-pokemon text-blue-600 hover:underline"
+        className="cell-pokemon"
       >
         <PokemonIcon pokemon={row} />
         <div>
@@ -71,12 +71,13 @@ const paginationConfig: TablePaginationConfig = {
 };
 
 interface IPokemonTableProps<T = undefined> {
+  loading?: boolean;
   data?: (Pokemon & T)[];
   extraColumns?: TableColumnsType<Pokemon & T>;
   showStats?: boolean;
 }
 
-const PokemonTable = <T,>({ data, showStats, extraColumns }: IPokemonTableProps<T>) => {
+const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IPokemonTableProps<T>) => {
   const fullColumns = useMemo(
     () => [...((showStats ? columnsWithStats : columns) as TableColumnsType<Pokemon & T>), ...(extraColumns || [])],
     [extraColumns, showStats],
@@ -84,11 +85,8 @@ const PokemonTable = <T,>({ data, showStats, extraColumns }: IPokemonTableProps<
 
   return (
     <Table
-      scroll={{
-        scrollToFirstRowOnChange: true,
-        x: true,
-      }}
-      sticky={{ offsetHeader: 0 }}
+      {...(TableCommonProps as any)}
+      loading={loading}
       columns={fullColumns}
       dataSource={data}
       pagination={paginationConfig}

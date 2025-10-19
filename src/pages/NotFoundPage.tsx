@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PokemonIcon from "../components/PokemonIcon";
-import { PokemonData, PokemonDataById } from "../data/pokemon";
+import PokemonIcon from "../components/pokemon/PokemonIcon";
+import { PokemonDataById } from "../data/pokemon";
 
 const NotFoundPage: React.FC = () => {
   return (
-    <div className="text-center py-20">
+    <div
+      key="not-found"
+      className="text-center py-20"
+    >
       <div className="bg-red-100 rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-6">
         <PokemonIcon pokemon={PokemonDataById["718-4"]} />
       </div>

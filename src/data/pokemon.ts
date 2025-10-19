@@ -1,6 +1,10 @@
 import { Pokemon, PokemonForm, PokemonType } from "../types";
 import { getPokemonFullId, getPokemonFullName } from "../utils";
 
+const HiddenPokemonForm: PokemonForm[] = [
+  "658-1", // 小智版甲贺忍蛙,
+];
+
 const tsv = `
 编号	全国图鉴编号	图鉴编号	形态编号	中文名	日文名	英文名	形态名	属性1	属性2	HP	攻击	防御	特攻	特防	速度	X	Y
 1	001	148	0	妙蛙种子	フシギダネ	Bulbasaur		草	毒	45	49	49	65	65	45	1	0
@@ -233,9 +237,9 @@ const tsv = `
 655	655	219	1	妖火红狐	マフォクシー	Delphox	超级妖火红狐	火	超能力	75	69	72	159	125	134	15	12
 656	656	209	0	呱呱泡蛙	ケロマツ	Froakie		水	水	41	56	40	62	44	71	16	12
 657	657	210	0	呱头蛙	ゲコガシラ	Frogadier		水	水	54	63	52	83	56	97	17	12
-658	658	211	0	甲贺忍蛙	ゲッコウガ	Greninja		水	恶	72	95	67	103	71	122	0	0
+658	658	211	0	甲贺忍蛙	ゲッコウガ	Greninja		水	恶	72	95	67	103	71	122	18	12
 658	658	211	1	甲贺忍蛙	ゲッコウガ	Greninja		水	恶	72	95	67	103	71	122	18	12
-658	658	211	3	甲贺忍蛙	ゲッコウガ	Greninja	超级甲贺忍蛙	水	恶	72	125	77	133	81	142	0	0
+658	658	211	3	甲贺忍蛙	ゲッコウガ	Greninja	超级甲贺忍蛙	水	恶	72	125	77	133	81	142	19	12
 659	659	013	0	掘掘兔	ホルビー	Bunnelby		一般	一般	38	36	38	32	36	57	0	13
 660	660	014	0	掘地兔	ホルード	Diggersby		一般	地面	85	56	77	50	77	78	1	13
 661	661	010	0	小箭雀	ヤヤコマ	Fletchling		一般	飞行	45	50	43	40	38	62	2	13
@@ -412,25 +416,28 @@ const tsv = `
 
 const header = tsv[0].split("\t");
 
-export const PokemonData = tsv.slice(1).map((line) => {
-  const parts = line.split("\t");
-  const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
-  const item: Pokemon = {
-    id: parseInt(dict["编号"], 10),
-    national: parseInt(dict["全国图鉴编号"], 10),
-    dex: parseInt(dict["图鉴编号"], 10),
-    form: parseInt(dict["形态编号"], 10),
-    name: dict["中文名"],
-    japanese: dict["日文名"],
-    english: dict["英文名"],
-    formName: dict["形态名"],
-    types: [dict["属性1"] as PokemonType, dict["属性2"] as PokemonType],
-    base: ["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat) => parseInt(dict[stat], 10)),
-    x: parseInt(dict["X"], 10),
-    y: parseInt(dict["Y"], 10),
-  };
-  return item;
-});
+export const PokemonData = tsv
+  .slice(1)
+  .map((line) => {
+    const parts = line.split("\t");
+    const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
+    const item: Pokemon = {
+      id: parseInt(dict["编号"], 10),
+      national: parseInt(dict["全国图鉴编号"], 10),
+      dex: parseInt(dict["图鉴编号"], 10),
+      form: parseInt(dict["形态编号"], 10),
+      name: dict["中文名"],
+      japanese: dict["日文名"],
+      english: dict["英文名"],
+      formName: dict["形态名"],
+      types: [dict["属性1"] as PokemonType, dict["属性2"] as PokemonType],
+      base: ["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat) => parseInt(dict[stat], 10)),
+      x: parseInt(dict["X"], 10),
+      y: parseInt(dict["Y"], 10),
+    };
+    return item;
+  })
+  .filter((pokemon) => !HiddenPokemonForm.includes(getPokemonFullId(pokemon)));
 export const PokemonDataByName: Record<string, Pokemon> = Object.fromEntries(
   PokemonData.map((pokemon) => [getPokemonFullName(pokemon), pokemon]),
 );
