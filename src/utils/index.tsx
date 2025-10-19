@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { Pokemon, PokemonType, PokemonForm, EPokemonType, EMoveCategory, MoveCategory } from "../types";
 import { ColumnFilterItem } from "antd/es/table/interface";
 import { DescriptionsProps, TableProps } from "antd";
