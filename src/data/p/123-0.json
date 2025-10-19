@@ -22,15 +22,15 @@
       "level": 0,
       "method": 6,
       "argument": 233,
-      "target": 212,
-      "form": 0
+      "previous": "123-0",
+      "target": "212-0"
     },
     {
       "level": 0,
       "method": 61,
       "argument": 0,
-      "target": 900,
-      "form": 0
+      "previous": "123-0",
+      "target": "900-0"
     }
   ],
   "movesLevelUp": [

@@ -1,8 +1,15 @@
 import { useMemo } from "react";
 import { Move } from "../../types";
-import { Table, TableColumnsType, TablePaginationConfig } from "antd";
+import { Table, TableColumnsType } from "antd";
 import Link from "../Link";
-import { MoveCategoryFilters, PokemonTypeFilters, renderCategory, renderType, TableCommonProps } from "../../utils";
+import {
+  MoveCategoryFilters,
+  PaginationConfig,
+  PokemonTypeFilters,
+  renderCategory,
+  renderType,
+  TableCommonProps,
+} from "../../utils";
 
 const columns: TableColumnsType<Move> = [
   {
@@ -50,12 +57,6 @@ const columns: TableColumnsType<Move> = [
   },
 ];
 
-const paginationConfig: TablePaginationConfig = {
-  pageSize: 100,
-  showSizeChanger: true,
-  pageSizeOptions: ["100", "200", "500", "1000"],
-};
-
 interface IMoveTableProps<T = undefined> {
   loading?: boolean;
   data?: (Move & T)[];
@@ -71,7 +72,7 @@ const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<
       loading={loading}
       columns={fullColumns}
       dataSource={data}
-      pagination={paginationConfig}
+      pagination={(data?.length || 0) > 100 ? PaginationConfig : false}
     />
   );
 };

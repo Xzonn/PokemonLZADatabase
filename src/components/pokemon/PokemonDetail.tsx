@@ -13,10 +13,11 @@ import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "../../types";
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import { MoveDataById } from "../../data/move";
 import PokemonIcon from "./PokemonIcon";
-import TypeEffectiveness from "../TypeEffectiveness";
+import TypeEffectiveness from "../TypeEffects";
 import MoveTable from "../move/MoveTable";
 import PokemonTable from "./PokemonTable";
 import { PokemonData } from "../../data/pokemon";
+import PokemonEvolutionTable from "./PokemonEvolutionTable";
 
 enum ExpGrowth {
   "较快" = 0,
@@ -160,10 +161,10 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
         </Spin>
         <h3>属性相克</h3>
         <TypeEffectiveness types={pokemon.types} />
-        {pokemonFull?.evolutions ? (
+        {pokemonFull?.evolutions?.length ? (
           <>
-            {/* <h3>进化</h3>
-            <pre>{JSON.stringify(pokemonFull.evolutions, null, 2)}</pre> */}
+            <h3>进化</h3>
+            <PokemonEvolutionTable data={pokemonFull.evolutions} />
           </>
         ) : null}
         {allForms.length > 1 ? (
@@ -176,7 +177,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
 
       <div className="px-8 py-6 bg-gray-50">
         <h2>能力值</h2>
-        <div className="text-center mb-4">总和：{pokemon.base.reduce((a, b) => a + b, 0)}</div>
+        <div className="text-center mb-4">总和：{pokemon.baseTotal}</div>
         <div className="max-w-3xl mx-auto space-y-4">
           {["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat, index) => (
             <StatBar

@@ -1,6 +1,6 @@
 export { default as Link } from "./Link";
 export { default as StatBar } from "./StatBar";
-export { default as TypeEffectiveness } from "./TypeEffectiveness";
+export { default as TypeEffectiveness } from "./TypeEffects";
 
 export * from "./pokemon";
 export * from "./move";

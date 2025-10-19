@@ -31,8 +31,8 @@ export interface Evolution {
   level: number;
   method: number;
   argument: number;
-  target: number;
-  form: number;
+  previous: PokemonForm;
+  target: PokemonForm;
 }
 
 export interface MoveLevelUp {
@@ -57,6 +57,7 @@ export interface Pokemon {
   formName: string;
   types: [PokemonType, PokemonType];
   base: number[];
+  baseTotal: number;
   x: number;
   y: number;
 }

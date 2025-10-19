@@ -1,7 +1,6 @@
 import { Descriptions, DescriptionsProps } from "antd";
 import { EPokemonType, PokemonType } from "../types";
-import { calculateEffects } from "../utils/typeEffectiveness";
-import { DescriptionsCommonProps, renderType } from "../utils";
+import { DescriptionsCommonProps, calculateEffects, renderType } from "../utils";
 
 const effectivenessMap: Record<number, string> = {
   0: "effect-0",

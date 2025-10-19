@@ -421,6 +421,7 @@ export const PokemonData = tsv
   .map((line) => {
     const parts = line.split("\t");
     const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
+    const base = ["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat) => parseInt(dict[stat], 10));
     const item: Pokemon = {
       id: parseInt(dict["编号"], 10),
       national: parseInt(dict["全国图鉴编号"], 10),
@@ -431,7 +432,8 @@ export const PokemonData = tsv
       english: dict["英文名"],
       formName: dict["形态名"],
       types: [dict["属性1"] as PokemonType, dict["属性2"] as PokemonType],
-      base: ["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat) => parseInt(dict[stat], 10)),
+      base: base,
+      baseTotal: base.reduce((a, b) => a + b, 0),
       x: parseInt(dict["X"], 10),
       y: parseInt(dict["Y"], 10),
     };

@@ -5,7 +5,7 @@ import { PokemonType } from "../../types";
 import PokemonTable from "../pokemon/PokemonTable";
 import { MoveData } from "../../data/move";
 import { MoveTable } from "../move";
-import TypeEffectiveness from "../TypeEffectiveness";
+import TypeEffectiveness from "../TypeEffects";
 
 const TypeDetail: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
   useEffect(() => {

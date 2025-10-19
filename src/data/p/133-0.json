@@ -22,57 +22,57 @@
       "level": 0,
       "method": 8,
       "argument": 6,
-      "target": 470,
-      "form": 0
+      "previous": "133-0",
+      "target": "470-0"
     },
     {
       "level": 0,
       "method": 8,
       "argument": 52,
-      "target": 471,
-      "form": 0
+      "previous": "133-0",
+      "target": "471-0"
     },
     {
       "level": 0,
       "method": 8,
       "argument": 4,
-      "target": 135,
-      "form": 0
+      "previous": "133-0",
+      "target": "135-0"
     },
     {
       "level": 0,
       "method": 8,
       "argument": 5,
-      "target": 134,
-      "form": 0
+      "previous": "133-0",
+      "target": "134-0"
     },
     {
       "level": 0,
       "method": 8,
       "argument": 3,
-      "target": 136,
-      "form": 0
+      "previous": "133-0",
+      "target": "136-0"
     },
     {
       "level": 0,
       "method": 29,
       "argument": 17,
-      "target": 700,
-      "form": 0
+      "previous": "133-0",
+      "target": "700-0"
     },
     {
       "level": 0,
       "method": 2,
       "argument": 0,
-      "target": 196,
-      "form": 0
+      "previous": "133-0",
+      "target": "196-0"
     },
     {
       "level": 0,
       "method": 3,
       "argument": 0,
-      "target": 197,
-      "form": 0
+      "previous": "133-0",
+      "target": "197-0"
     }
   ],
   "movesLevelUp": [

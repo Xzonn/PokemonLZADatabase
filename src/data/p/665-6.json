@@ -22,8 +22,8 @@
       "level": 12,
       "method": 4,
       "argument": 0,
-      "target": 666,
-      "form": 6
+      "previous": "665-6",
+      "target": "666-6"
     }
   ],
   "movesLevelUp": [
