@@ -178,9 +178,10 @@ const effectTable: EffectTable = {
 };
 
 export const calculateEffects = (types: PokemonType[], isAttack = false): Record<PokemonType, number> => {
+  const typesSet = new Set(types);
   const effects = Object.fromEntries(EPokemonType.map((type) => [type, 1])) as Record<PokemonType, number>;
 
-  for (const inputType of types) {
+  for (const inputType of typesSet) {
     for (const targetType of EPokemonType) {
       const effect = isAttack
         ? (effectTable[inputType]?.[targetType] ?? 1)
