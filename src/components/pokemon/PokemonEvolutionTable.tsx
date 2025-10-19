@@ -35,8 +35,9 @@ interface IPokemonEvolutionTableProps {
 }
 
 const PokemonEvolutionTable: React.FC<IPokemonEvolutionTableProps> = ({ data }) => (
-  <Table
+  <Table<Evolution>
     {...(TableCommonProps as any)}
+    rowKey={(_, index) => index}
     columns={columns}
     dataSource={data}
     pagination={false}

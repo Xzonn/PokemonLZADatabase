@@ -69,8 +69,9 @@ const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<
   const fullColumns = useMemo(() => [...(extraColumns || []), ...columns], [extraColumns]);
 
   return (
-    <Table
+    <Table<Move & T>
       {...(TableCommonProps as any)}
+      rowKey={(row) => row.id}
       loading={loading}
       columns={fullColumns}
       dataSource={data}

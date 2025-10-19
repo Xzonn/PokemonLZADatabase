@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import PokemonCell from "./PokemonCell";
 
 import { Pokemon, PokemonType } from "@/types";
-import { PaginationConfig, PokemonTypeFilters, TableCommonProps, renderTypes } from "@/utils";
+import { PaginationConfig, PokemonTypeFilters, TableCommonProps, getPokemonFullId, renderTypes } from "@/utils";
 
 const columns: TableColumnsType<Pokemon> = [
   {
@@ -75,8 +75,9 @@ const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IP
   );
 
   return (
-    <Table
+    <Table<Pokemon & T>
       {...(TableCommonProps as any)}
+      rowKey={(row) => getPokemonFullId(row)}
       loading={loading}
       columns={fullColumns}
       dataSource={data}
