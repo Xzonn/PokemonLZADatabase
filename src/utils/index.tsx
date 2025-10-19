@@ -5,15 +5,15 @@ import { DescriptionsProps, TableProps } from "antd";
 
 export const DefaultTitle = "宝可梦传说 Z-A 数据库";
 
-export const renderType = (type: PokemonType): ReactNode => <span className={`badge-type bg-${type}`}>{type}</span>;
+export const renderType = (type: PokemonType) => <span className={`badge-type bg-${type}`}>{type}</span>;
 
-export const renderCategory = (category: MoveCategory): ReactNode => (
+export const renderCategory = (category: MoveCategory) => (
   <span className={`badge-category bg-${category}`}>{category}</span>
 );
 
-export const renderTypes = (types: [PokemonType, PokemonType]): ReactNode => {
-  return types[0] === types[1] ? renderType(types[0]) : types.map((type) => renderType(type));
-};
+export const renderTypes = (types: [PokemonType, PokemonType]) => (
+  <span className="badges">{(types[0] === types[1] ? [types[0]] : types).map((type) => renderType(type))}</span>
+);
 
 export const getPokemonFullName = (pokemon: Pokemon): string => {
   return pokemon.form > 0 ? `${pokemon.name}-${pokemon.form}` : pokemon.name;

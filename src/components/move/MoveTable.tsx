@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { Move } from "../../types";
 import { Table, TableColumnsType, TablePaginationConfig } from "antd";
-import { Link } from "react-router-dom";
+import Link from "../Link";
 import { MoveCategoryFilters, PokemonTypeFilters, renderCategory, renderType, TableCommonProps } from "../../utils";
 
 const columns: TableColumnsType<Move> = [
@@ -11,7 +11,7 @@ const columns: TableColumnsType<Move> = [
     render: (_, record) => (
       <Link
         to={`/m/${record.name}`}
-        className="text-blue-600 whitespace-nowrap"
+        className="text-blue-600"
       >
         {record.name}
       </Link>

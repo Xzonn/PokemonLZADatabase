@@ -14,7 +14,6 @@ const App: React.FC = () => {
     <Router>
       <ScrollToTop />
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-        {/* 导航栏 */}
         <nav className="bg-white shadow-lg border-b-4 border-primary">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
@@ -27,7 +26,6 @@ const App: React.FC = () => {
                 </Link>
               </div>
 
-              {/* 搜索框 */}
               <div className="flex-1 max-w-lg mx-8">
                 <SearchBar />
               </div>

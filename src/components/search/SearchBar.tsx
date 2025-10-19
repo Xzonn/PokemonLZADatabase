@@ -103,7 +103,7 @@ const SearchBar: React.FC = () => {
   return (
     <div className="relative">
       <Input
-        placeholder="搜索宝可梦或招式..."
+        placeholder="搜索"
         value={searchKeyword}
         onChange={handleSearch}
         prefix={<SearchOutlined className="text-gray-400" />}

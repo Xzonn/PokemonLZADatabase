@@ -13,7 +13,7 @@ const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {
     // render plain text when target equals current URL
     return (
       <span
-        className={className}
+        className={cn("whitespace-nowrap", className)}
         aria-current="page"
       >
         {children}
@@ -25,7 +25,7 @@ const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {
   return (
     <RouterLink
       to={to}
-      className={cn("text-blue-600", className)}
+      className={cn("text-blue-600", "whitespace-nowrap", className)}
       {...rest}
     >
       {children}

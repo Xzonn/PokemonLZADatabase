@@ -52,8 +52,10 @@
   white-space: nowrap;
 }
 
-.badge-type + .badge-type {
-  margin-left: 0.5em;
+.badges {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
 }
 
 .bg-一般 {
