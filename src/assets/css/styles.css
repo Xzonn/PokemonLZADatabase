@@ -1,11 +1,11 @@
+@import "@fontsource/nunito/index.css";
+
 @layer tailwind-base, antd;
 @layer tailwind-base {
   @tailwind base;
 }
 @tailwind components;
 @tailwind utilities;
-
-@import "@fontsource/nunito/index.css";
 
 /** 通用 */
 * {
@@ -33,11 +33,11 @@ h3 {
 .icon-pokemon {
   display: block;
   flex: 0 0 auto;
-  background-image: url("/public/assets/images/pokemon.webp");
+  background-image: url("../images/pokemon.webp");
 }
 
 .icon-pokemon-shiny {
-  background-image: url("/public/assets/images/pokemon-shiny.webp");
+  background-image: url("../images/pokemon-shiny.webp");
 }
 
 .pokemon-form {

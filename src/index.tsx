@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles.css";
+import "./assets/css/styles.css";
 import App from "./App";
 import { ConfigProvider } from "antd";
 import zhCN from "antd/locale/zh_CN";
