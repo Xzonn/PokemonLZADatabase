@@ -17,7 +17,7 @@ const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> = ({ res
     <div>
       <div className="pokemon-name-line">
         <div className="pokemon-name">{result.name}</div>
-        {renderTypes(result.types)}
+        {renderTypes(result.types, false)}
       </div>
       <div className="pokemon-form">{result.formName}</div>
     </div>

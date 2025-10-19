@@ -13,7 +13,7 @@ const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ result, o
       <div className="move-name-line">
         <div className="move-name">{result.name}</div>
         <span className="badges">
-          {renderType(result.type)}
+          {renderType(result.type, false)}
           {renderCategory(result.category)}
         </span>
       </div>
