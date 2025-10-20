@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
     <loc>https://za.xzonn.top/sitemap/sitemap-move.xml</loc>
-  </url>
-  <url>
+  </sitemap>
+  <sitemap>
     <loc>https://za.xzonn.top/sitemap/sitemap-pokemon.xml</loc>
-  </url>
-</urlset>
+  </sitemap>
+</sitemapindex>
