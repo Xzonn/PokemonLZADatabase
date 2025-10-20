@@ -1,6 +1,6 @@
 import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
-import React, { useEffect, useMemo } from "react";
+import React, { Fragment, useEffect, useMemo } from "react";
 
 import PokemonTable from "../pokemon/PokemonTable";
 
@@ -85,10 +85,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
   );
 
   return (
-    <div
-      key="move"
-      className="bg-white rounded-2xl shadow-xl overflow-hidden"
-    >
+    <Fragment key="move">
       <div className="pt-12 text-center">
         <h1>{move.name}</h1>
         <div className="flex justify-center space-x-2 mb-6 text-xl text-gray-600">
@@ -123,7 +120,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
           </>
         ) : null}
       </div>
-    </div>
+    </Fragment>
   );
 };
 

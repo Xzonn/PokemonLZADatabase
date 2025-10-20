@@ -30,6 +30,10 @@ h3 {
   @apply text-xl font-semibold text-gray-800 my-4;
 }
 
+main {
+  @apply flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-8;
+}
+
 /** 宝可梦小图标 */
 .icon-pokemon {
   display: block;

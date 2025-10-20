@@ -1,20 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
-import { Footer } from "./components";
+import Routes from "./Routes";
+import { Footer, Sidebar } from "./components";
 import ScrollToTop from "./components/ScrollToTop";
 import SearchBar from "./components/search/SearchBar";
-import HomePage from "./pages/HomePage";
-import MoveDetailPage from "./pages/MoveDetailPage";
-import NotFoundPage from "./pages/NotFoundPage";
-import PokemonDetailPage from "./pages/PokemonDetailPage";
-import TypeDetailPage from "./pages/TypeDetailPage";
-
 const App: React.FC = () => {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 via-white to-purple-50">
         <nav className="bg-white shadow-lg border-b-4 border-primary">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
@@ -34,33 +29,15 @@ const App: React.FC = () => {
           </div>
         </nav>
 
-        {/* 主要内容区域 */}
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <Routes>
-            <Route
-              path="/"
-              element={<HomePage />}
-            />
-            <Route
-              path="/p/:name"
-              element={<PokemonDetailPage />}
-            />
-            <Route
-              path="/m/:name"
-              element={<MoveDetailPage />}
-            />
-            <Route
-              path="/t/:name"
-              element={<TypeDetailPage />}
-            />
-            <Route
-              path="*"
-              element={<NotFoundPage />}
-            />
-          </Routes>
-        </main>
-
-        {/* 页脚 */}
+        <div className="md:flex relative flex-1">
+          <Sidebar />
+          <main className="flex-1 px-4 sm:px-6 lg:px-8 py-8">
+            <div className="bg-white rounded-2xl shadow-xl">
+              <Routes />
+            </div>
+          </main>
+          {/* <TableOfContents /> */}
+        </div>
         <Footer />
       </div>
     </Router>

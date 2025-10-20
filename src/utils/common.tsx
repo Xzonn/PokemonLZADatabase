@@ -32,7 +32,7 @@ export const TableCommonProps: Partial<TableProps> = {
 export const DescriptionsCommonProps: Partial<DescriptionsProps> = {
   size: "small",
   bordered: true,
-  column: { xs: 1, sm: 1, md: 3, lg: 3, xl: 3, xxl: 3 },
+  column: { xs: 1, sm: 1, md: 1, lg: 3, xl: 3, xxl: 3 },
 };
 
 export const PaginationConfig: TablePaginationConfig = {

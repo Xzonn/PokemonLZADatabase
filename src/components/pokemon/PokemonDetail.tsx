@@ -1,6 +1,6 @@
 import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
-import React, { useEffect, useMemo } from "react";
+import React, { Fragment, useEffect, useMemo } from "react";
 
 import PokemonEvolutionTable from "./PokemonEvolutionTable";
 import PokemonTable from "./PokemonTable";
@@ -129,10 +129,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
   );
 
   return (
-    <div
-      key="pokemon"
-      className="bg-white rounded-2xl shadow-xl overflow-hidden"
-    >
+    <Fragment key="pokemon">
       <div className="pt-12 text-center">
         <div className="flex gap-8 align-center justify-center mb-4">
           <PokemonIcon
@@ -206,7 +203,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
           data={movesTM}
         />
       </div>
-    </div>
+    </Fragment>
   );
 };
 
