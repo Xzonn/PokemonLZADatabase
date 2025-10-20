@@ -1,23 +1,47 @@
-import { Pokemon } from "@/types";
+import cn from "classnames";
+import React from "react";
 
-const PokemonIcon: React.FC<{ pokemon: Pokemon; size?: number; shiny?: boolean; className?: string }> = ({
+import Link from "../Link";
+
+import { Pokemon } from "@/types";
+import { getPokemonFullName } from "@/utils";
+
+export interface IPokemonIconProps {
+  pokemon: Pokemon;
+  size?: number;
+  shiny?: boolean;
+  className?: string;
+  link?: boolean;
+}
+
+const PokemonIcon: React.FC<IPokemonIconProps> = ({
   pokemon,
   size = 64,
   shiny = false,
   className = "",
+  link = false,
 }) => {
   const { x, y } = pokemon;
 
-  return (
+  const style: React.CSSProperties = {
+    width: size,
+    height: size,
+    backgroundSize: `${size * 20}px auto`,
+    backgroundPosition: `-${x * size}px -${y * size}px`,
+  };
+  const combinedClassName = cn("icon-pokemon", shiny ? "icon-pokemon-shiny" : "", className || "");
+
+  return link ? (
+    <Link
+      to={`/p/${getPokemonFullName(pokemon)}`}
+      className={combinedClassName}
+      style={style}
+    />
+  ) : (
     <div
-      className={`icon-pokemon ${shiny ? "icon-pokemon-shiny" : ""} ${className || ""}`}
-      style={{
-        width: size,
-        height: size,
-        backgroundSize: `${size * 20}px auto`,
-        backgroundPosition: `-${x * size}px -${y * size}px`,
-      }}
-    ></div>
+      className={combinedClassName}
+      style={style}
+    />
   );
 };
 

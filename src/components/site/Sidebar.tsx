@@ -1,4 +1,4 @@
-import { HomeOutlined, ThunderboltOutlined, UnorderedListOutlined } from "@ant-design/icons";
+import { HomeOutlined, ThunderboltOutlined, UnorderedListOutlined, UserSwitchOutlined } from "@ant-design/icons";
 import { Drawer } from "antd";
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -11,6 +11,7 @@ const Sidebar: React.FC = () => {
     { path: "/", label: "首页", icon: <HomeOutlined /> },
     // { path: "/宝可梦一览", label: "宝可梦一览", icon: <UnorderedListOutlined /> },
     { path: "/招式一览", label: "招式一览", icon: <ThunderboltOutlined /> },
+    { path: "/训练家一览", label: "训练家一览", icon: <UserSwitchOutlined /> },
   ];
 
   const isActive = (path: string) => {

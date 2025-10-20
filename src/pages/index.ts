@@ -10,5 +10,8 @@ export { default as PokemonDetailPage } from "./PokemonDetailPage";
 export { default as MoveDetailPage } from "./MoveDetailPage";
 export { default as MoveListPage } from "./MoveListPage";
 
+// 训练家
+export { default as TrainerListPage } from "./TrainerListPage";
+
 // 属性
 export { default as TypeDetailPage } from "./TypeDetailPage";

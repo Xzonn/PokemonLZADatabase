@@ -6,7 +6,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import PokemonDetailPage from "./pages/PokemonDetailPage";
 import TypeDetailPage from "./pages/TypeDetailPage";
 
-import { MoveListPage, PokemonListPage } from "@/pages";
+import { MoveListPage, PokemonListPage, TrainerListPage } from "@/pages";
 
 const Routes = () => (
   <ReactRoutes>
@@ -25,6 +25,10 @@ const Routes = () => (
     <Route
       path="/招式一览"
       element={<MoveListPage />}
+    />
+    <Route
+      path="/训练家一览"
+      element={<TrainerListPage />}
     />
     <Route
       path="/p/:name"

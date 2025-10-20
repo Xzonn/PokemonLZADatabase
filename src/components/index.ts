@@ -4,5 +4,6 @@ export { default as TypeEffectiveness } from "./TypeEffects";
 
 export * from "./pokemon";
 export * from "./move";
+export * from "./trainer";
 export * from "./search";
 export * from "./site";
