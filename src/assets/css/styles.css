@@ -44,7 +44,7 @@ p {
 }
 
 .block {
-  @apply px-4 py-4;
+  @apply px-2 py-4 md:px-4 lg:px-6 lg:py-6;
 
   &:first-child {
     @apply text-center;

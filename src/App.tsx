@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
-import Routes from "./Routes";
-import { Footer, Sidebar } from "./components";
-import ScrollToTop from "./components/ScrollToTop";
-import SearchBar from "./components/search/SearchBar";
+import Routes from "@/Routes";
+import { Footer, ScrollToTop, SearchBar, Sidebar } from "@/components";
+
 const App: React.FC = () => {
   return (
     <Router>

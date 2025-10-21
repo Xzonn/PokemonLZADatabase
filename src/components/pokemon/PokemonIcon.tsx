@@ -1,7 +1,7 @@
 import cn from "classnames";
 import React from "react";
 
-import Link from "../Link";
+import { Link } from "../Link";
 
 import { Pokemon } from "@/types";
 import { getPokemonFullName } from "@/utils";
@@ -14,7 +14,7 @@ export interface IPokemonIconProps {
   link?: boolean;
 }
 
-const PokemonIcon: React.FC<IPokemonIconProps> = ({
+export const PokemonIcon: React.FC<IPokemonIconProps> = ({
   pokemon,
   size = 64,
   shiny = false,
@@ -44,5 +44,3 @@ const PokemonIcon: React.FC<IPokemonIconProps> = ({
     />
   );
 };
-
-export default PokemonIcon;

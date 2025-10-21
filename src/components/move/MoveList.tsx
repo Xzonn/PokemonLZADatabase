@@ -1,7 +1,7 @@
 import { TableColumnsType } from "antd";
 import React, { Fragment } from "react";
 
-import MoveTable from "./MoveTable";
+import { MoveTable } from "./MoveTable";
 
 import { MoveData } from "@/data";
 import { Move } from "@/types";
@@ -14,21 +14,17 @@ const columns: TableColumnsType<Move> = [
   },
 ];
 
-const MoveList: React.FC = () => (
+export const MoveList: React.FC = () => (
   <Fragment key="pokemon-list">
-    <div className="text-center px-8 py-8">
-      <div className="mb-12">
-        <h1>招式一览</h1>
-      </div>
+    <div className="block">
+      <h1>招式一览</h1>
+    </div>
 
-      <div>
-        <MoveTable
-          data={MoveData}
-          extraColumns={columns}
-        />
-      </div>
+    <div className="block">
+      <MoveTable
+        data={MoveData}
+        extraColumns={columns}
+      />
     </div>
   </Fragment>
 );
-
-export default MoveList;

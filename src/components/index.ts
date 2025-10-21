@@ -1,9 +1,11 @@
-export { default as Link } from "./Link";
-export { default as StatBar } from "./StatBar";
-export { default as TypeEffectiveness } from "./TypeEffects";
+export * from "./Link";
+export * from "./StatBar";
+export * from "./ScrollToTop";
+export * from "./TypeEffects";
 
 export * from "./pokemon";
 export * from "./move";
+export * from "./type";
 export * from "./trainer";
 export * from "./search";
 export * from "./site";

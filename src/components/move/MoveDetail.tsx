@@ -2,7 +2,7 @@ import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 
-import PokemonTable from "../pokemon/PokemonTable";
+import { PokemonTable } from "../pokemon/PokemonTable";
 
 import { PokemonDataById } from "@/data/pokemon";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
@@ -45,7 +45,7 @@ const getDescriptions = (move: Move): DescriptionsProps["items"] => [
   },
 ];
 
-const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
+export const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
   useEffect(() => {
     document.title = `${move.name} - ${DefaultTitle}`;
   }, [move]);
@@ -86,7 +86,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
 
   return (
     <Fragment key="move">
-      <div className="pt-12 text-center">
+      <div className="block">
         <h1>{move.name}</h1>
         <div className="flex justify-center space-x-2 mb-6 text-xl text-gray-600">
           <div lang="ja">{move.japanese}</div>
@@ -94,7 +94,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
         </div>
       </div>
 
-      <div className="px-8 py-8">
+      <div className="block">
         <h3>基本信息</h3>
         <Descriptions
           items={getDescriptions(move)}
@@ -102,7 +102,7 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
         />
       </div>
 
-      <div className="px-8 py-8">
+      <div className="block">
         <h2>可学习的宝可梦</h2>
         <h3>等级提升</h3>
         <PokemonTable<PokemonLevelUp>
@@ -123,5 +123,3 @@ const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
     </Fragment>
   );
 };
-
-export default MoveDetail;

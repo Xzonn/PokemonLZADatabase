@@ -3,8 +3,8 @@ import { useDebounceFn } from "ahooks";
 import { Input } from "antd";
 import React, { useState } from "react";
 
-import SearchMove from "./SearchMove";
-import SearchPokemon from "./SearchPokemon";
+import { SearchMove } from "./SearchMove";
+import { SearchPokemon } from "./SearchPokemon";
 
 import { MoveData } from "@/data/move";
 import { PokemonData } from "@/data/pokemon";
@@ -72,7 +72,7 @@ const renderSearchResult = (result: SearchResult | undefined, onClick: () => voi
   );
 };
 
-const SearchBar: React.FC = () => {
+export const SearchBar: React.FC = () => {
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchResult, setSearchResult] = useState<SearchResult>();
   const [showSearchResults, setShowSearchResults] = useState(false);
@@ -129,5 +129,3 @@ const SearchBar: React.FC = () => {
     </div>
   );
 };
-
-export default SearchBar;

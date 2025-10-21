@@ -1,4 +1,4 @@
-import PokemonIcon from "../pokemon/PokemonIcon";
+import { PokemonIcon } from "../pokemon/PokemonIcon";
 
 import { PokemonDataByName } from "@/data";
 import { TrainerPokemon } from "@/types";

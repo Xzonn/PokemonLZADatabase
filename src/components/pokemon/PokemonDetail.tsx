@@ -2,12 +2,12 @@ import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 
-import PokemonEvolutionTable from "./PokemonEvolutionTable";
-import PokemonTable from "./PokemonTable";
-import StatBar from "../StatBar";
-import PokemonIcon from "./PokemonIcon";
-import TypeEffectiveness from "../TypeEffects";
-import MoveTable from "../move/MoveTable";
+import { PokemonEvolutionTable } from "./PokemonEvolutionTable";
+import { PokemonTable } from "./PokemonTable";
+import { StatBar } from "../StatBar";
+import { PokemonIcon } from "./PokemonIcon";
+import { TypeEffectiveness } from "../TypeEffects";
+import { MoveTable } from "../move/MoveTable";
 
 import { MoveDataById } from "@/data/move";
 import { PokemonData } from "@/data/pokemon";
@@ -90,7 +90,7 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
   },
 ];
 
-const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
+export const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
   useEffect(() => {
     document.title = `${getPokemonFullNameFriendly(pokemon)} - ${DefaultTitle}`;
   }, [pokemon]);
@@ -130,7 +130,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
 
   return (
     <Fragment key="pokemon">
-      <div className="pt-12 text-center">
+      <div className="block">
         <div className="flex gap-8 align-center justify-center mb-4">
           <PokemonIcon
             pokemon={pokemon}
@@ -150,7 +150,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
         {pokemon.formName ? <div className="text-xl text-gray-600 mb-4">{pokemon.formName}</div> : null}
       </div>
 
-      <div className="px-8 py-8">
+      <div className="block">
         <h3>基本信息</h3>
         <Spin spinning={loading}>
           <Descriptions
@@ -174,7 +174,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
         ) : null}
       </div>
 
-      <div className="px-8 py-6 bg-gray-50">
+      <div className="block">
         <h2>能力值</h2>
         <div className="text-center mb-4">总和：{pokemon.baseTotal}</div>
         <div className="max-w-3xl mx-auto space-y-4">
@@ -188,7 +188,7 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
         </div>
       </div>
 
-      <div className="px-8 py-8">
+      <div className="block">
         <h2>可学习的招式</h2>
         <h3>等级提升</h3>
         <MoveTable<MoveLevelUp>
@@ -206,5 +206,3 @@ const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
     </Fragment>
   );
 };
-
-export default PokemonDetail;

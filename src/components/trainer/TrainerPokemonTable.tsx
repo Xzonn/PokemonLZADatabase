@@ -1,7 +1,7 @@
 import { Table, TableColumnsType } from "antd";
 
 import { MoveLink } from "../move/MoveLink";
-import PokemonCell from "../pokemon/PokemonCell";
+import { PokemonCell } from "../pokemon/PokemonCell";
 
 import { MoveDataByName, PokemonDataByName } from "@/data";
 import { TrainerPokemon, TrainerPokemonMove } from "@/types";

@@ -1,5 +1,3 @@
-// src/components/StatBar.tsx
-
 import React from "react";
 
 interface StatBarProps {
@@ -8,7 +6,7 @@ interface StatBarProps {
   maxValue?: number;
 }
 
-const StatBar: React.FC<StatBarProps> = ({ name, value, maxValue = 255 }) => {
+export const StatBar: React.FC<StatBarProps> = ({ name, value, maxValue = 255 }) => {
   const percentage = Math.min((value / maxValue) * 100, 100);
 
   return (
@@ -26,5 +24,3 @@ const StatBar: React.FC<StatBarProps> = ({ name, value, maxValue = 255 }) => {
     </div>
   );
 };
-
-export default StatBar;

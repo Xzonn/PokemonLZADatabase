@@ -9,7 +9,7 @@ import { Drawer } from "antd";
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const Sidebar: React.FC = () => {
+export const Sidebar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
@@ -84,5 +84,3 @@ const Sidebar: React.FC = () => {
     </>
   );
 };
-
-export default Sidebar;

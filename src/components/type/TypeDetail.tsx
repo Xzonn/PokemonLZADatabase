@@ -1,15 +1,15 @@
-import React, { useEffect, useMemo } from "react";
+import React, { Fragment, useEffect, useMemo } from "react";
 
-import TypeEffectiveness from "../TypeEffects";
+import { TypeEffectiveness } from "../TypeEffects";
 import { MoveTable } from "../move";
-import PokemonTable from "../pokemon/PokemonTable";
+import { PokemonTable } from "../pokemon/PokemonTable";
 
 import { MoveData } from "@/data/move";
 import { PokemonData } from "@/data/pokemon";
 import { PokemonType } from "@/types";
 import { DefaultTitle, renderType } from "@/utils";
 
-const TypeDetail: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
+export const TypeDetail: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
   useEffect(() => {
     document.title = `属性：${typeName} - ${DefaultTitle}`;
   }, [typeName]);
@@ -18,15 +18,12 @@ const TypeDetail: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
   const allMoves = useMemo(() => MoveData.filter((m) => m.type === typeName), [typeName]);
 
   return (
-    <div
-      key="move"
-      className="bg-white rounded-2xl shadow-xl overflow-hidden"
-    >
-      <div className="pt-12 text-center">
+    <Fragment key="move">
+      <div className="block">
         <h1>{renderType(typeName)}</h1>
       </div>
 
-      <div className="px-8 py-8">
+      <div className="block">
         <h2>属性相克</h2>
         <h3>{typeName}属性招式攻击其他属性宝可梦</h3>
         <TypeEffectiveness
@@ -37,17 +34,15 @@ const TypeDetail: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
         <TypeEffectiveness types={[typeName]} />
       </div>
 
-      <div className="px-8 py-8 bg-gray-50">
+      <div className="block">
         <h2>此属性的宝可梦</h2>
         <PokemonTable data={allForms} />
       </div>
 
-      <div className="px-8 py-8">
+      <div className="block">
         <h2>此属性的招式</h2>
         <MoveTable data={allMoves} />
       </div>
-    </div>
+    </Fragment>
   );
 };
-
-export default TypeDetail;

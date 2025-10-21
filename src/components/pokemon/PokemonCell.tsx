@@ -1,12 +1,12 @@
 import React from "react";
 
-import Link from "../Link";
-import PokemonIcon from "./PokemonIcon";
+import { Link } from "../Link";
+import { PokemonIcon } from "./PokemonIcon";
 
 import { Pokemon } from "@/types";
 import { getPokemonFullName } from "@/utils";
 
-const PokemonCell: React.FC<{ pokemon?: Pokemon }> = ({ pokemon }) =>
+export const PokemonCell: React.FC<{ pokemon?: Pokemon }> = ({ pokemon }) =>
   pokemon ? (
     <Link
       to={`/p/${getPokemonFullName(pokemon)}`}
@@ -19,5 +19,3 @@ const PokemonCell: React.FC<{ pokemon?: Pokemon }> = ({ pokemon }) =>
       </div>
     </Link>
   ) : null;
-
-export default PokemonCell;

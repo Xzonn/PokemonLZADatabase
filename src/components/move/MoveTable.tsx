@@ -1,7 +1,7 @@
 import { Table, TableColumnsType } from "antd";
 import { useMemo } from "react";
 
-import Link from "../Link";
+import { Link } from "../Link";
 
 import { Move } from "@/types";
 import {
@@ -65,8 +65,10 @@ interface IMoveTableProps<T = undefined> {
   extraColumns?: TableColumnsType<Move & T>;
 }
 
-const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<T>) => {
-  const fullColumns = useMemo(() => [...(extraColumns || []), ...columns], [extraColumns]);
+export const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<T>) => {
+  const fullColumns = useMemo(() => [...(extraColumns || []), ...columns], [extraColumns]) as TableColumnsType<
+    Move & T
+  >;
 
   return (
     <Table<Move & T>
@@ -79,5 +81,3 @@ const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<
     />
   );
 };
-
-export default MoveTable;

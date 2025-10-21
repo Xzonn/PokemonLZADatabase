@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import { PokemonDataById } from "../data/pokemon";
-import { DefaultTitle } from "../utils";
-
 import { PokemonIcon } from "@/components";
+import { PokemonDataById } from "@/data/pokemon";
+import { DefaultTitle } from "@/utils";
 
 const NotFoundPage: React.FC = () => {
   useEffect(() => {

@@ -1,4 +1,4 @@
-export { default as MoveDetail } from "./MoveDetail";
-export { default as MoveTable } from "./MoveTable";
-export { default as MoveList } from "./MoveList";
+export * from "./MoveDetail";
+export * from "./MoveTable";
+export * from "./MoveList";
 export * from "./MoveLink";

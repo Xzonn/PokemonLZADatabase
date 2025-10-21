@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import PokemonIcon from "../pokemon/PokemonIcon";
+import { PokemonIcon } from "../pokemon/PokemonIcon";
 
 import { Pokemon } from "@/types";
 import { getPokemonFullName, renderTypes } from "@/utils";
 
-const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> = ({ result, onClick }) => (
+export const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> = ({ result, onClick }) => (
   <Link
     to={`/p/${getPokemonFullName(result)}`}
     onClick={onClick}

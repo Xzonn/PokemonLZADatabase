@@ -8,7 +8,7 @@ interface TocItem {
   level: number;
 }
 
-const TableOfContents: React.FC = () => {
+export const TableOfContents: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [tocItems, setTocItems] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>("");
@@ -115,5 +115,3 @@ const TableOfContents: React.FC = () => {
     </>
   );
 };
-
-export default TableOfContents;

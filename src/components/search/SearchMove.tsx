@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Move } from "@/types";
 import { renderCategory, renderType } from "@/utils";
 
-const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ result, onClick }) => (
+export const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ result, onClick }) => (
   <Link
     to={`/m/${result.name}`}
     onClick={onClick}
@@ -21,5 +21,3 @@ const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ result, o
     </div>
   </Link>
 );
-
-export default SearchMove;

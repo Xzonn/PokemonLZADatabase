@@ -2,7 +2,7 @@ import cn from "classnames";
 import React from "react";
 import { Link as RouterLink, LinkProps, useLocation, useResolvedPath } from "react-router-dom";
 
-const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {
+export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {
   const location = useLocation();
   const resolved = useResolvedPath(to);
 

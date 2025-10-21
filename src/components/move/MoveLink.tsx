@@ -1,6 +1,6 @@
 import { Popover } from "antd";
 
-import Link from "../Link";
+import { Link } from "../Link";
 
 import { Move } from "@/types";
 import { renderCategory, renderType } from "@/utils";

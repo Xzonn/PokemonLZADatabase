@@ -1,7 +1,7 @@
 import { Table, TableColumnsType } from "antd";
 import React from "react";
 
-import PokemonCell from "./PokemonCell";
+import { PokemonCell } from "./PokemonCell";
 
 import { PokemonDataById } from "@/data/pokemon";
 import { Evolution } from "@/types";
@@ -34,13 +34,12 @@ interface IPokemonEvolutionTableProps {
   data?: Evolution[];
 }
 
-const PokemonEvolutionTable: React.FC<IPokemonEvolutionTableProps> = ({ data }) => (
+export const PokemonEvolutionTable: React.FC<IPokemonEvolutionTableProps> = ({ data }) => (
   <Table<Evolution>
     {...TableCommonProps}
-    rowKey={(_, index) => index}
+    rowKey={(_, index) => index || ""}
     columns={columns}
     dataSource={data}
     pagination={false}
   />
 );
-export default PokemonEvolutionTable;

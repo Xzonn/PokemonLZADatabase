@@ -1,6 +1,6 @@
-export { default as PokemonDetail } from "./PokemonDetail";
-export { default as PokemonIcon } from "./PokemonIcon";
-export { default as PokemonTable } from "./PokemonTable";
-export { default as PokemonEvolutionTable } from "./PokemonEvolutionTable";
-export { default as PokemonCell } from "./PokemonCell";
-export { default as PokemonList } from "./PokemonList";
+export * from "./PokemonDetail";
+export * from "./PokemonIcon";
+export * from "./PokemonTable";
+export * from "./PokemonEvolutionTable";
+export * from "./PokemonCell";
+export * from "./PokemonList";

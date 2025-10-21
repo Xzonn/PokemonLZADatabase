@@ -1,7 +1,7 @@
 import { Table, TableColumnsType } from "antd";
 import { useMemo } from "react";
 
-import PokemonCell from "./PokemonCell";
+import { PokemonCell } from "./PokemonCell";
 
 import { Pokemon, PokemonType } from "@/types";
 import { PaginationConfig, PokemonTypeFilters, TableCommonProps, getPokemonFullId, renderTypes } from "@/utils";
@@ -68,7 +68,7 @@ interface IPokemonTableProps<T = undefined> {
   showStats?: boolean;
 }
 
-const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IPokemonTableProps<T>) => {
+export const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IPokemonTableProps<T>) => {
   const fullColumns = useMemo(
     () => [...((showStats ? columnsWithStats : columns) as TableColumnsType<Pokemon & T>), ...(extraColumns || [])],
     [extraColumns, showStats],
@@ -85,5 +85,3 @@ const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IP
     />
   );
 };
-
-export default PokemonTable;

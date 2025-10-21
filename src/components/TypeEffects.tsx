@@ -16,7 +16,10 @@ const renderEffectiveness = (effectiveness: number) => (
   <span className={effectivenessMap[effectiveness]}>{effectiveness}</span>
 );
 
-const TypeEffectiveness: React.FC<{ types: PokemonType[]; isAttack?: boolean }> = ({ types, isAttack = false }) => {
+export const TypeEffectiveness: React.FC<{ types: PokemonType[]; isAttack?: boolean }> = ({
+  types,
+  isAttack = false,
+}) => {
   const effectiveness = calculateEffects(types, isAttack);
   const items: DescriptionsProps["items"] = EPokemonType.map((type) => ({
     label: renderType(type),
@@ -34,5 +37,3 @@ const TypeEffectiveness: React.FC<{ types: PokemonType[]; isAttack?: boolean }> 
     />
   );
 };
-
-export default TypeEffectiveness;
