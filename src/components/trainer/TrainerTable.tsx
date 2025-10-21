@@ -5,7 +5,7 @@ import Link from "../Link";
 import PokemonCell from "../pokemon/PokemonCell";
 import PokemonIcon from "../pokemon/PokemonIcon";
 
-import { MoveData, MoveDataByName, PokemonDataByName } from "@/data";
+import { MoveDataByName, PokemonDataByName } from "@/data";
 import { Move, TrainerBase, TrainerNormal, TrainerPokemon, TrainerPokemonMove, TrainerRoyal } from "@/types";
 import { PaginationConfig, TableCommonProps, renderCategory, renderType } from "@/utils";
 
@@ -24,9 +24,9 @@ const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({ pokemo
   ) : null;
 };
 
-const MoveLink: React.FC<{ move: Move }> = ({ move }) => (
+const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus = false }) => (
   <Popover
-    title={move.name}
+    title={`${move.name}${plus ? "（可强化）" : ""}`}
     content={
       <div className="flex flex-col gap-2">
         <div className="flex flex-row items-center gap-2">
@@ -39,7 +39,10 @@ const MoveLink: React.FC<{ move: Move }> = ({ move }) => (
       </div>
     }
   >
-    <Link to={`/m/${move.name}`}>{move.name}</Link>
+    <Link to={`/m/${move.name}`}>
+      {move.name}
+      {plus ? <sup className="font-bold">+</sup> : ""}
+    </Link>
   </Popover>
 );
 
@@ -74,6 +77,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
           <MoveLink
             key={move.name}
             move={MoveDataByName[move.name]}
+            plus={move.plus}
           />
         ))}
       </div>
