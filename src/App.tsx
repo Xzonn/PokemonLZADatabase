@@ -31,8 +31,8 @@ const App: React.FC = () => {
 
         <div className="md:flex relative flex-1">
           <Sidebar />
-          <main className="flex-1 px-4 sm:px-6 lg:px-8 py-8">
-            <div className="bg-white rounded-2xl shadow-xl">
+          <main className="flex-1 p-0 sm:px-2 lg:px-4 sm:py-8">
+            <div className="bg-white sm:rounded-2xl sm:shadow-xl">
               <Routes />
             </div>
           </main>

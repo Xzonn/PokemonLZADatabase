@@ -7,13 +7,13 @@ import PokemonIcon from "../pokemon/PokemonIcon";
 
 import { MoveDataByName, PokemonDataByName } from "@/data";
 import { Move, TrainerBase, TrainerNormal, TrainerPokemon, TrainerPokemonMove, TrainerRoyal } from "@/types";
-import { PaginationConfig, TableCommonProps, renderCategory, renderType } from "@/utils";
+import { PaginationConfig, TableCommonProps, renderCategory, renderType, renderTypes } from "@/utils";
 
 const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({ pokemon: p }) => {
   const pokemon = PokemonDataByName[p.name];
 
   return pokemon ? (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center w-[72px]">
       <PokemonIcon
         pokemon={pokemon}
         link
@@ -26,16 +26,25 @@ const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({ pokemo
 
 const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus = false }) => (
   <Popover
-    title={`${move.name}${plus ? "（可强化）" : ""}`}
+    className="flex-1 md:basis-1/2"
+    placement="topLeft"
+    title={
+      <div className="flex flex-row items-center gap-2">
+        <div>
+          {move.name}
+          {plus ? "（可强化）" : ""}
+        </div>
+        {renderType(move.type)}
+        {renderCategory(move.category)}
+      </div>
+    }
     content={
       <div className="flex flex-col gap-2">
         <div className="flex flex-row items-center gap-2">
-          {renderType(move.type)}
-          {renderCategory(move.category)}
+          <div className="basis-1/2">威力：{move.category === "变化" ? "—" : move.power || "—"}</div>
+          <div className="basis-1/2">等待时间：{move.wait}</div>
         </div>
-        <div>威力：{move.category === "变化" ? "—" : move.power || "—"}</div>
-        <div>等待时间：{move.wait}</div>
-        <div>{move.description}</div>
+        <div className="max-w-sm">{move.description}</div>
       </div>
     }
   >
@@ -59,20 +68,26 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
   {
     title: "宝可梦",
     dataIndex: "name",
-    width: 150,
+    width: 120,
     render: (name: string) => <PokemonCell pokemon={PokemonDataByName[name]} />,
+  },
+  {
+    title: "属性",
+    key: "types",
+    width: 80,
+    render: (_, row) => renderTypes(PokemonDataByName[row.name].types),
   },
   {
     title: "等级",
     dataIndex: "level",
-    width: 80,
+    width: 40,
   },
   {
     title: "招式",
     dataIndex: "moves",
     width: 160,
     render: (moves: TrainerPokemonMove[]) => (
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap gap-y-2">
         {moves.map((move) => (
           <MoveLink
             key={move.name}
@@ -97,15 +112,17 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "其他",
     key: "other",
     width: 160,
-    render: (_, row) =>
-      [
+    render: (_, row) => {
+      const result = [
         row.shiny ? "异色" : "",
         row.item ? `道具：${row.item}` : "",
         row.ivs ? `个体值：${row.ivs.map((iv) => iv.toString()).join(" / ")}` : "",
         row.evs ? `基础点数：${row.evs.map((ev) => ev.toString()).join(" / ")}` : "",
       ]
         .filter(Boolean)
-        .map((item) => <div key={item}>{item}</div>),
+        .map((item) => <div key={item}>{item}</div>);
+      return result.length ? result : "—";
+    },
   },
 ];
 
