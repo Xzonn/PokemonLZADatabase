@@ -8,7 +8,7 @@ import {
   NotFoundPage,
   PokemonDetailPage,
   PokemonListPage,
-  RoyalListPage,
+  RoyaleListPage,
   TrainerListPage,
   TypeDetailPage,
 } from "@/pages";
@@ -37,7 +37,7 @@ const Routes = () => (
     />
     <Route
       path="/ＺＡ登峰战"
-      element={<RoyalListPage />}
+      element={<RoyaleListPage />}
     />
     <Route
       path="/p/:name"

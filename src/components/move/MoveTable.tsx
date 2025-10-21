@@ -70,7 +70,7 @@ const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<
 
   return (
     <Table<Move & T>
-      {...(TableCommonProps as any)}
+      {...TableCommonProps}
       rowKey={(row) => row.id}
       loading={loading}
       columns={fullColumns}

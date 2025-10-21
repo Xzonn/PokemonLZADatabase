@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 
-import { RoyalList } from "@/components";
+import { RoyaleList } from "@/components";
 import { DefaultTitle } from "@/utils";
 
-const RoyalListPage: React.FC = () => {
+const RoyaleListPage: React.FC = () => {
   useEffect(() => {
     document.title = `ＺＡ登峰战 - ${DefaultTitle}`;
   }, []);
 
-  return <RoyalList />;
+  return <RoyaleList />;
 };
 
-export default RoyalListPage;
+export default RoyaleListPage;

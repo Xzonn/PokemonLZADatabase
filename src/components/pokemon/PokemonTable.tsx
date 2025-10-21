@@ -76,7 +76,7 @@ const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IP
 
   return (
     <Table<Pokemon & T>
-      {...(TableCommonProps as any)}
+      {...TableCommonProps}
       rowKey={(row) => getPokemonFullId(row)}
       loading={loading}
       columns={fullColumns}

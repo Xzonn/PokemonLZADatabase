@@ -12,7 +12,7 @@ export { default as MoveListPage } from "./MoveListPage";
 
 // 训练家
 export { default as TrainerListPage } from "./TrainerListPage";
-export { default as RoyalListPage } from "./RoyalListPage";
+export { default as RoyaleListPage } from "./RoyaleListPage";
 
 // 属性
 export { default as TypeDetailPage } from "./TypeDetailPage";

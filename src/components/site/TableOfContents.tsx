@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { MenuOutlined, CloseOutlined } from "@ant-design/icons";
 
 interface TocItem {
   id: string;

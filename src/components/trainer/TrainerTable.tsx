@@ -1,154 +1,17 @@
-import { Popover, Table, TableColumnsType } from "antd";
+import { Table, TableColumnsType } from "antd";
 import { useMemo } from "react";
 
-import Link from "../Link";
-import PokemonCell from "../pokemon/PokemonCell";
-import PokemonIcon from "../pokemon/PokemonIcon";
+import { TrainerPokemonComponent } from "./TrainerPokemonComponent";
+import { TrainerPokemonTable } from "./TrainerPokemonTable";
 
-import { MoveDataByName, PokemonDataByName } from "@/data";
-import { Move, TrainerBase, TrainerNormal, TrainerPokemon, TrainerPokemonMove, TrainerRoyal } from "@/types";
-import { PaginationConfig, TableCommonProps, renderCategory, renderType, renderTypes } from "@/utils";
+import { TrainerBase, TrainerNormal, TrainerPokemon, TrainerRoyale } from "@/types";
+import { PaginationConfig, TableCommonProps } from "@/utils";
 
-const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({ pokemon: p }) => {
-  const pokemon = PokemonDataByName[p.name];
-
-  return pokemon ? (
-    <div className="flex flex-col items-center w-[72px]">
-      <PokemonIcon
-        pokemon={pokemon}
-        link
-      />
-      <div>{pokemon.name}</div>
-      <div>Lv. {p.level}</div>
-    </div>
-  ) : null;
-};
-
-const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus = false }) => (
-  <Popover
-    className="flex-1 md:basis-1/2"
-    placement="topLeft"
-    title={
-      <div className="flex flex-row items-center gap-2">
-        <div>
-          {move.name}
-          {plus ? "（可强化）" : ""}
-        </div>
-        {renderType(move.type)}
-        {renderCategory(move.category)}
-      </div>
-    }
-    content={
-      <div className="flex flex-col gap-2">
-        <div className="flex flex-row items-center gap-2">
-          <div className="basis-1/2">威力：{move.category === "变化" ? "—" : move.power || "—"}</div>
-          <div className="basis-1/2">等待时间：{move.wait}</div>
-        </div>
-        <div className="max-w-sm">{move.description}</div>
-      </div>
-    }
-  >
-    <Link to={`/m/${move.name}`}>
-      {move.name}
-      {plus ? <sup className="font-bold">+</sup> : ""}
-    </Link>
-  </Popover>
-);
-
-const TrainerPokemonTable: React.FC<{ pokemon: TrainerPokemon[] }> = ({ pokemon }) => (
-  <Table<TrainerPokemon>
-    rowKey={(row, index) => `${row.name}-${index}`}
-    columns={pokemonColumns}
-    dataSource={pokemon}
-    pagination={false}
-  />
-);
-
-const pokemonColumns: TableColumnsType<TrainerPokemon> = [
-  {
-    title: "宝可梦",
-    dataIndex: "name",
-    width: 120,
-    render: (name: string) => <PokemonCell pokemon={PokemonDataByName[name]} />,
-  },
-  {
-    title: "属性",
-    key: "types",
-    width: 80,
-    render: (_, row) => renderTypes(PokemonDataByName[row.name].types),
-  },
-  {
-    title: "等级",
-    dataIndex: "level",
-    width: 40,
-  },
-  {
-    title: "招式",
-    dataIndex: "moves",
-    width: 160,
-    render: (moves: TrainerPokemonMove[]) => (
-      <div className="flex flex-wrap gap-y-2">
-        {moves.map((move) => (
-          <MoveLink
-            key={move.name}
-            move={MoveDataByName[move.name]}
-            plus={move.plus}
-          />
-        ))}
-      </div>
-    ),
-  },
-  {
-    title: "精灵球",
-    dataIndex: "ball",
-    width: 80,
-  },
-  {
-    title: "性格",
-    dataIndex: "nature",
-    width: 80,
-  },
-  {
-    title: "其他",
-    key: "other",
-    width: 160,
-    render: (_, row) => {
-      const result = [
-        row.shiny ? "异色" : "",
-        row.item ? `道具：${row.item}` : "",
-        row.ivs ? `个体值：${row.ivs.map((iv) => iv.toString()).join(" / ")}` : "",
-        row.evs ? `基础点数：${row.evs.map((ev) => ev.toString()).join(" / ")}` : "",
-      ]
-        .filter(Boolean)
-        .map((item) => <div key={item}>{item}</div>);
-      return result.length ? result : "—";
-    },
-  },
-];
-
-const getColumns = (
-  data: TrainerBase[] | undefined,
-  isRoyal: boolean,
-): TableColumnsType<TrainerNormal | TrainerRoyal> => {
-  const ranks = isRoyal ? Array.from(new Set(data?.map((item) => (item as TrainerRoyal).rank ?? "") || [])) : [];
+const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<TrainerNormal | TrainerRoyale> => {
   const trtypes = Array.from(new Set(data?.map((item) => item.trtype) || []));
   const trnames = Array.from(new Set(data?.map((item) => item.trname) || []));
 
   return [
-    ...(isRoyal
-      ? [
-          {
-            title: "等级",
-            dataIndex: "rank",
-            width: 80,
-            filters: ranks.filter(Boolean).map((type) => ({
-              text: type,
-              value: type,
-            })),
-            onFilter: (value: any, record: any) => (record as TrainerRoyal).rank === value,
-          },
-        ]
-      : []),
     {
       title: "训练家类型",
       dataIndex: "trtype",
@@ -171,16 +34,6 @@ const getColumns = (
       onFilter: (value, record) => record.trname === value,
       filterSearch: true,
     },
-    ...(isRoyal
-      ? []
-      : [
-          {
-            title: "奖金",
-            dataIndex: "prize",
-            width: 100,
-            render: (prize: number) => `$${prize.toLocaleString("zh-CN")}`,
-          },
-        ]),
     {
       title: "宝可梦",
       dataIndex: "pokemon",
@@ -199,21 +52,56 @@ const getColumns = (
   ];
 };
 
-interface ITrainerTableProps {
-  isRoyal?: boolean;
+const getNormalColumns = (data: TrainerNormal[] | undefined): TableColumnsType<TrainerNormal> => {
+  const commonColumns = getCommonColumns(data) as TableColumnsType<TrainerNormal>;
+
+  return [
+    ...commonColumns.slice(0, 2),
+    {
+      title: "奖金",
+      dataIndex: "prize",
+      width: 100,
+      render: (prize: number) => `$${prize.toLocaleString("zh-CN")}`,
+    },
+    commonColumns[2],
+  ];
+};
+
+const getRoyaleColumns = (data: TrainerRoyale[] | undefined): TableColumnsType<TrainerRoyale> => {
+  const commonColumns = getCommonColumns(data) as TableColumnsType<TrainerRoyale>;
+  const ranks = Array.from(new Set(data?.map((item) => item.rank ?? "") || []));
+
+  return [
+    {
+      title: "等级",
+      dataIndex: "rank",
+      width: 80,
+      filters: ranks.filter(Boolean).map((type) => ({
+        text: type,
+        value: type,
+      })),
+      onFilter: (value: any, record: any) => (record as TrainerRoyale).rank === value,
+    },
+    ...commonColumns,
+  ];
+};
+
+interface ITrainerTableProps<T = TrainerBase> {
+  isRoyale?: boolean;
   loading?: boolean;
-  data?: TrainerBase[];
+  data?: T[];
 }
 
-const TrainerTable: React.FC<ITrainerTableProps> = ({ isRoyal = false, loading = false, data }) => {
-  const columns = useMemo(() => getColumns(data, isRoyal), [data, isRoyal]);
+export const NormalTrainerTable: React.FC<ITrainerTableProps<TrainerNormal>> = ({ loading = false, data }) => {
+  const columns = useMemo(() => getNormalColumns(data), [data]);
+
   return (
-    <Table<TrainerBase>
-      {...(TableCommonProps as any)}
+    <Table<TrainerNormal>
+      {...TableCommonProps}
       expandable={{
         expandedRowRender: (record) => <TrainerPokemonTable pokemon={record.pokemon} />,
       }}
-      rowKey={(row, index) => `${row.trtype}-${row.trname}-${index}`}
+      rowKey="id"
       loading={loading}
       columns={columns}
       dataSource={data}
@@ -222,4 +110,20 @@ const TrainerTable: React.FC<ITrainerTableProps> = ({ isRoyal = false, loading =
   );
 };
 
-export default TrainerTable;
+export const RoyaleTrainerTable: React.FC<ITrainerTableProps<TrainerRoyale>> = ({ loading = false, data }) => {
+  const columns = useMemo(() => getRoyaleColumns(data), [data]);
+
+  return (
+    <Table<TrainerRoyale>
+      {...TableCommonProps}
+      expandable={{
+        expandedRowRender: (record) => <TrainerPokemonTable pokemon={record.pokemon} />,
+      }}
+      rowKey="id"
+      loading={loading}
+      columns={columns}
+      dataSource={data}
+      pagination={PaginationConfig}
+    />
+  );
+};

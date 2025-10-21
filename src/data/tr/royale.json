@@ -1,5 +1,6 @@
 [
   {
+    "id": "za_rank_b_01",
     "trtype": "富家少爷",
     "trname": "安索尼",
     "rank": "B",
@@ -47,6 +48,7 @@
     ]
   },
   {
+    "id": "za_rank_b_02",
     "trtype": "宝可梦收藏家",
     "trname": "俊树",
     "rank": "B",
@@ -94,6 +96,7 @@
     ]
   },
   {
+    "id": "za_rank_b_03",
     "trtype": "工人",
     "trname": "金雄",
     "rank": "B",
@@ -141,6 +144,7 @@
     ]
   },
   {
+    "id": "za_rank_b_04",
     "trtype": "长袖和服少女",
     "trname": "麻衣子",
     "rank": "B",
@@ -188,6 +192,7 @@
     ]
   },
   {
+    "id": "za_rank_b_05",
     "trtype": "灵异迷",
     "trname": "桐子",
     "rank": "B",
@@ -235,6 +240,7 @@
     ]
   },
   {
+    "id": "za_rank_b_06",
     "trtype": "精英训练家",
     "trname": "弗雷德里克",
     "rank": "B",
@@ -302,6 +308,7 @@
     ]
   },
   {
+    "id": "za_rank_b_07",
     "trtype": "资深训练家",
     "trname": "萝莎",
     "rank": "B",
@@ -369,6 +376,7 @@
     ]
   },
   {
+    "id": "za_rank_b_08",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "奈央",
     "rank": "B",
@@ -437,6 +445,7 @@
     ]
   },
   {
+    "id": "za_rank_b_09",
     "trtype": "资深训练家",
     "trname": "凯萨琳",
     "rank": "B",
@@ -505,6 +514,7 @@
     ]
   },
   {
+    "id": "za_rank_b_10",
     "trtype": "资深训练家",
     "trname": "纱友里",
     "rank": "B",
@@ -573,6 +583,7 @@
     ]
   },
   {
+    "id": "za_rank_b_11",
     "trtype": "学童",
     "trname": "宏武",
     "rank": "B",
@@ -620,6 +631,7 @@
     ]
   },
   {
+    "id": "za_rank_b_12",
     "trtype": "学童",
     "trname": "玛露",
     "rank": "B",
@@ -667,6 +679,7 @@
     ]
   },
   {
+    "id": "za_rank_b_13",
     "trtype": "游客",
     "trname": "亚古拉",
     "rank": "B",
@@ -714,6 +727,7 @@
     ]
   },
   {
+    "id": "za_rank_b_14",
     "trtype": "游客",
     "trname": "洋琪",
     "rank": "B",
@@ -761,6 +775,7 @@
     ]
   },
   {
+    "id": "za_rank_b_15",
     "trtype": "快递员",
     "trname": "迦纳尔",
     "rank": "B",
@@ -808,6 +823,7 @@
     ]
   },
   {
+    "id": "za_rank_b_16",
     "trtype": "背包客",
     "trname": "友穗",
     "rank": "B",
@@ -855,6 +871,7 @@
     ]
   },
   {
+    "id": "za_rank_b_17",
     "trtype": "灵异迷",
     "trname": "纱依子",
     "rank": "B",
@@ -902,6 +919,7 @@
     ]
   },
   {
+    "id": "za_rank_b_18",
     "trtype": "正义社",
     "trname": "蒲江",
     "rank": "B",
@@ -949,6 +967,7 @@
     ]
   },
   {
+    "id": "za_rank_b_19",
     "trtype": "警察",
     "trname": "圭佑",
     "rank": "B",
@@ -996,6 +1015,7 @@
     ]
   },
   {
+    "id": "za_rank_b_20",
     "trtype": "女服务生",
     "trname": "娜娜",
     "rank": "B",
@@ -1043,6 +1063,7 @@
     ]
   },
   {
+    "id": "za_rank_b_21",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": "B",
@@ -1090,6 +1111,7 @@
     ]
   },
   {
+    "id": "za_rank_b_22",
     "trtype": "ＯＬ",
     "trname": "悟聪",
     "rank": "B",
@@ -1137,6 +1159,7 @@
     ]
   },
   {
+    "id": "za_rank_b_23",
     "trtype": "ＯＬ",
     "trname": "凯莉",
     "rank": "B",
@@ -1184,6 +1207,7 @@
     ]
   },
   {
+    "id": "za_rank_b_24",
     "trtype": "ＭＳＢＣ",
     "trname": "祈菈儿",
     "rank": "B",
@@ -1251,6 +1275,7 @@
     ]
   },
   {
+    "id": "za_rank_b_25",
     "trtype": "司机",
     "trname": "玛丘斯",
     "rank": "B",
@@ -1298,6 +1323,7 @@
     ]
   },
   {
+    "id": "za_rank_b_26",
     "trtype": "服务生",
     "trname": "弗洛伊",
     "rank": "B",
@@ -1345,6 +1371,7 @@
     ]
   },
   {
+    "id": "za_rank_b_27",
     "trtype": "背包客",
     "trname": "晋丞",
     "rank": "B",
@@ -1392,6 +1419,7 @@
     ]
   },
   {
+    "id": "za_rank_b_28",
     "trtype": "快递员",
     "trname": "桃代",
     "rank": "B",
@@ -1439,6 +1467,7 @@
     ]
   },
   {
+    "id": "za_rank_b_29",
     "trtype": "服务生",
     "trname": "兰丸",
     "rank": "B",
@@ -1486,6 +1515,7 @@
     ]
   },
   {
+    "id": "za_rank_b_30",
     "trtype": "新星训练家",
     "trname": "皮埃尔",
     "rank": "B",
@@ -1553,6 +1583,7 @@
     ]
   },
   {
+    "id": "za_rank_b_31",
     "trtype": "长袖和服少女",
     "trname": "华莲",
     "rank": "B",
@@ -1600,6 +1631,7 @@
     ]
   },
   {
+    "id": "za_rank_b_32",
     "trtype": "艺术家",
     "trname": "伊织",
     "rank": "B",
@@ -1647,6 +1679,7 @@
     ]
   },
   {
+    "id": "za_rank_b_33",
     "trtype": "警察",
     "trname": "实里",
     "rank": "B",
@@ -1694,6 +1727,7 @@
     ]
   },
   {
+    "id": "za_rank_b_34",
     "trtype": "对战少女",
     "trname": "晶晶",
     "rank": "B",
@@ -1762,6 +1796,7 @@
     ]
   },
   {
+    "id": "za_rank_b_35",
     "trtype": "宝可梦收藏家",
     "trname": "修史",
     "rank": "B",
@@ -1830,6 +1865,7 @@
     ]
   },
   {
+    "id": "za_rank_b_36",
     "trtype": "来电伍",
     "trname": "希典",
     "rank": "B",
@@ -1877,6 +1913,7 @@
     ]
   },
   {
+    "id": "za_rank_b_37",
     "trtype": "正义社",
     "trname": "可心",
     "rank": "B",
@@ -1924,6 +1961,7 @@
     ]
   },
   {
+    "id": "za_rank_b_38",
     "trtype": "ＭＳＢＣ",
     "trname": "历奇",
     "rank": "B",
@@ -1991,6 +2029,7 @@
     ]
   },
   {
+    "id": "za_rank_c_01",
     "trtype": "学童",
     "trname": "莉莉卡",
     "rank": "C",
@@ -2038,6 +2077,7 @@
     ]
   },
   {
+    "id": "za_rank_c_02",
     "trtype": "ＯＬ",
     "trname": "荣太",
     "rank": "C",
@@ -2085,6 +2125,7 @@
     ]
   },
   {
+    "id": "za_rank_c_03",
     "trtype": "宝可梦收藏家",
     "trname": "库奥",
     "rank": "C",
@@ -2132,6 +2173,7 @@
     ]
   },
   {
+    "id": "za_rank_c_04",
     "trtype": "新星训练家",
     "trname": "翔一",
     "rank": "C",
@@ -2199,6 +2241,7 @@
     ]
   },
   {
+    "id": "za_rank_c_05",
     "trtype": "游客",
     "trname": "纯子",
     "rank": "C",
@@ -2246,6 +2289,7 @@
     ]
   },
   {
+    "id": "za_rank_c_06",
     "trtype": "慢跑者",
     "trname": "塞尔丘",
     "rank": "C",
@@ -2293,6 +2337,7 @@
     ]
   },
   {
+    "id": "za_rank_c_07",
     "trtype": "快递员",
     "trname": "美智子",
     "rank": "C",
@@ -2340,6 +2385,7 @@
     ]
   },
   {
+    "id": "za_rank_c_08",
     "trtype": "快递员",
     "trname": "卡穆洛",
     "rank": "C",
@@ -2387,6 +2433,7 @@
     ]
   },
   {
+    "id": "za_rank_c_09",
     "trtype": "女服务生",
     "trname": "美里",
     "rank": "C",
@@ -2434,6 +2481,7 @@
     ]
   },
   {
+    "id": "za_rank_c_10",
     "trtype": "游客",
     "trname": "晴美",
     "rank": "C",
@@ -2481,6 +2529,7 @@
     ]
   },
   {
+    "id": "za_rank_c_11",
     "trtype": "警察",
     "trname": "岚士",
     "rank": "C",
@@ -2528,6 +2577,7 @@
     ]
   },
   {
+    "id": "za_rank_c_12",
     "trtype": "对战少女",
     "trname": "岚子",
     "rank": "C",
@@ -2575,6 +2625,7 @@
     ]
   },
   {
+    "id": "za_rank_c_13",
     "trtype": "艺术家",
     "trname": "藤子",
     "rank": "C",
@@ -2622,6 +2673,7 @@
     ]
   },
   {
+    "id": "za_rank_c_14",
     "trtype": "千金小姐",
     "trname": "雪乃",
     "rank": "C",
@@ -2669,6 +2721,7 @@
     ]
   },
   {
+    "id": "za_rank_c_15",
     "trtype": "精英训练家",
     "trname": "亚雷克西",
     "rank": "C",
@@ -2736,6 +2789,7 @@
     ]
   },
   {
+    "id": "za_rank_c_16",
     "trtype": "来电伍",
     "trname": "千那",
     "rank": "C",
@@ -2783,6 +2837,7 @@
     ]
   },
   {
+    "id": "za_rank_c_17",
     "trtype": "正义社",
     "trname": "瓦莱黎",
     "rank": "C",
@@ -2830,6 +2885,7 @@
     ]
   },
   {
+    "id": "za_rank_c_18",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": "C",
@@ -2877,6 +2933,7 @@
     ]
   },
   {
+    "id": "za_rank_c_19",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": "C",
@@ -2924,6 +2981,7 @@
     ]
   },
   {
+    "id": "za_rank_c_20",
     "trtype": "ＭＳＢＣ",
     "trname": "泰阳",
     "rank": "C",
@@ -2991,6 +3049,7 @@
     ]
   },
   {
+    "id": "za_rank_c_21",
     "trtype": "ＭＳＢＣ",
     "trname": "美海",
     "rank": "C",
@@ -3058,6 +3117,7 @@
     ]
   },
   {
+    "id": "za_rank_d_01",
     "trtype": "学童",
     "trname": "健太",
     "rank": "D",
@@ -3105,6 +3165,7 @@
     ]
   },
   {
+    "id": "za_rank_d_02",
     "trtype": "服务生",
     "trname": "后津",
     "rank": "D",
@@ -3152,6 +3213,7 @@
     ]
   },
   {
+    "id": "za_rank_d_03",
     "trtype": "游客",
     "trname": "真悟",
     "rank": "D",
@@ -3199,6 +3261,7 @@
     ]
   },
   {
+    "id": "za_rank_d_04",
     "trtype": "慢跑者",
     "trname": "希拉",
     "rank": "D",
@@ -3246,6 +3309,7 @@
     ]
   },
   {
+    "id": "za_rank_d_05",
     "trtype": "快递员",
     "trname": "艾尔莎",
     "rank": "D",
@@ -3293,6 +3357,7 @@
     ]
   },
   {
+    "id": "za_rank_d_06",
     "trtype": "司机",
     "trname": "荷黑",
     "rank": "D",
@@ -3340,6 +3405,7 @@
     ]
   },
   {
+    "id": "za_rank_d_07",
     "trtype": "宝可梦收藏家",
     "trname": "源也",
     "rank": "D",
@@ -3387,6 +3453,7 @@
     ]
   },
   {
+    "id": "za_rank_d_08",
     "trtype": "背包客",
     "trname": "真宵",
     "rank": "D",
@@ -3434,6 +3501,7 @@
     ]
   },
   {
+    "id": "za_rank_d_09",
     "trtype": "工人",
     "trname": "金治",
     "rank": "D",
@@ -3481,6 +3549,7 @@
     ]
   },
   {
+    "id": "za_rank_d_10",
     "trtype": "警察",
     "trname": "美沙希",
     "rank": "D",
@@ -3528,6 +3597,7 @@
     ]
   },
   {
+    "id": "za_rank_d_11",
     "trtype": "灵异迷",
     "trname": "科莱特",
     "rank": "D",
@@ -3575,6 +3645,7 @@
     ]
   },
   {
+    "id": "za_rank_d_12",
     "trtype": "对战少女",
     "trname": "莉莉可",
     "rank": "D",
@@ -3622,6 +3693,7 @@
     ]
   },
   {
+    "id": "za_rank_d_13",
     "trtype": "长袖和服少女",
     "trname": "汐音",
     "rank": "D",
@@ -3669,6 +3741,7 @@
     ]
   },
   {
+    "id": "za_rank_d_14",
     "trtype": "富家少爷",
     "trname": "利欧",
     "rank": "D",
@@ -3716,6 +3789,7 @@
     ]
   },
   {
+    "id": "za_rank_d_15",
     "trtype": "精英训练家",
     "trname": "明日香",
     "rank": "D",
@@ -3783,6 +3857,7 @@
     ]
   },
   {
+    "id": "za_rank_d_16",
     "trtype": "来电伍",
     "trname": "太志",
     "rank": "D",
@@ -3830,6 +3905,7 @@
     ]
   },
   {
+    "id": "za_rank_d_17",
     "trtype": "正义社",
     "trname": "居荷",
     "rank": "D",
@@ -3877,6 +3953,7 @@
     ]
   },
   {
+    "id": "za_rank_d_18",
     "trtype": "正义社",
     "trname": "爱菜",
     "rank": "D",
@@ -3924,6 +4001,7 @@
     ]
   },
   {
+    "id": "za_rank_d_19",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": "D",
@@ -3971,6 +4049,7 @@
     ]
   },
   {
+    "id": "za_rank_d_20",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": "D",
@@ -4018,6 +4097,7 @@
     ]
   },
   {
+    "id": "za_rank_e_01",
     "trtype": "ＯＬ",
     "trname": "库克诺",
     "rank": "E",
@@ -4065,6 +4145,7 @@
     ]
   },
   {
+    "id": "za_rank_e_02",
     "trtype": "灵异迷",
     "trname": "克蕾露",
     "rank": "E",
@@ -4112,6 +4193,7 @@
     ]
   },
   {
+    "id": "za_rank_e_03",
     "trtype": "慢跑者",
     "trname": "麻雅",
     "rank": "E",
@@ -4159,6 +4241,7 @@
     ]
   },
   {
+    "id": "za_rank_e_04",
     "trtype": "司机",
     "trname": "尤莉",
     "rank": "E",
@@ -4206,6 +4289,7 @@
     ]
   },
   {
+    "id": "za_rank_e_05",
     "trtype": "千金小姐",
     "trname": "秋穗",
     "rank": "E",
@@ -4253,6 +4337,7 @@
     ]
   },
   {
+    "id": "za_rank_e_06",
     "trtype": "工人",
     "trname": "典久",
     "rank": "E",
@@ -4300,6 +4385,7 @@
     ]
   },
   {
+    "id": "za_rank_e_07",
     "trtype": "服务生",
     "trname": "唯人",
     "rank": "E",
@@ -4347,6 +4433,7 @@
     ]
   },
   {
+    "id": "za_rank_e_08",
     "trtype": "游客",
     "trname": "君惠",
     "rank": "E",
@@ -4394,6 +4481,7 @@
     ]
   },
   {
+    "id": "za_rank_e_09",
     "trtype": "艺术家",
     "trname": "莉丽",
     "rank": "E",
@@ -4441,6 +4529,7 @@
     ]
   },
   {
+    "id": "za_rank_e_10",
     "trtype": "快递员",
     "trname": "孝人",
     "rank": "E",
@@ -4488,6 +4577,7 @@
     ]
   },
   {
+    "id": "za_rank_e_11",
     "trtype": "宝可梦收藏家",
     "trname": "多米奥",
     "rank": "E",
@@ -4535,6 +4625,7 @@
     ]
   },
   {
+    "id": "za_rank_e_12",
     "trtype": "背包客",
     "trname": "克蕾亚",
     "rank": "E",
@@ -4582,6 +4673,7 @@
     ]
   },
   {
+    "id": "za_rank_e_13",
     "trtype": "灵异迷",
     "trname": "希实",
     "rank": "E",
@@ -4629,6 +4721,7 @@
     ]
   },
   {
+    "id": "za_rank_e_14",
     "trtype": "长袖和服少女",
     "trname": "桐华",
     "rank": "E",
@@ -4676,6 +4769,7 @@
     ]
   },
   {
+    "id": "za_rank_e_15",
     "trtype": "精英训练家",
     "trname": "杰斯坦",
     "rank": "E",
@@ -4743,6 +4837,7 @@
     ]
   },
   {
+    "id": "za_rank_e_16",
     "trtype": "来电伍",
     "trname": "欧席",
     "rank": "E",
@@ -4790,6 +4885,7 @@
     ]
   },
   {
+    "id": "za_rank_e_17",
     "trtype": "来电伍",
     "trname": "熙集",
     "rank": "E",
@@ -4837,6 +4933,7 @@
     ]
   },
   {
+    "id": "za_rank_e_18",
     "trtype": "正义社",
     "trname": "蓝木",
     "rank": "E",
@@ -4884,6 +4981,7 @@
     ]
   },
   {
+    "id": "za_rank_e_19",
     "trtype": "正义社",
     "trname": "梦子",
     "rank": "E",
@@ -4931,6 +5029,7 @@
     ]
   },
   {
+    "id": "za_rank_f_01",
     "trtype": "学童",
     "trname": "多尼",
     "rank": "F",
@@ -4978,6 +5077,7 @@
     ]
   },
   {
+    "id": "za_rank_f_02",
     "trtype": "学童",
     "trname": "诺艾美",
     "rank": "F",
@@ -5025,6 +5125,7 @@
     ]
   },
   {
+    "id": "za_rank_f_03",
     "trtype": "快递员",
     "trname": "桃次郎",
     "rank": "F",
@@ -5069,6 +5170,7 @@
     ]
   },
   {
+    "id": "za_rank_f_04",
     "trtype": "服务生",
     "trname": "树也",
     "rank": "F",
@@ -5116,6 +5218,7 @@
     ]
   },
   {
+    "id": "za_rank_f_05",
     "trtype": "女服务生",
     "trname": "千春",
     "rank": "F",
@@ -5163,6 +5266,7 @@
     ]
   },
   {
+    "id": "za_rank_f_06",
     "trtype": "ＯＬ",
     "trname": "特鲁娃",
     "rank": "F",
@@ -5210,6 +5314,7 @@
     ]
   },
   {
+    "id": "za_rank_f_07",
     "trtype": "灵异迷",
     "trname": "小祈",
     "rank": "F",
@@ -5257,6 +5362,7 @@
     ]
   },
   {
+    "id": "za_rank_f_08",
     "trtype": "对战少女",
     "trname": "玛莉恩",
     "rank": "F",
@@ -5304,6 +5410,7 @@
     ]
   },
   {
+    "id": "za_rank_f_09",
     "trtype": "工人",
     "trname": "长德",
     "rank": "F",
@@ -5351,6 +5458,7 @@
     ]
   },
   {
+    "id": "za_rank_f_10",
     "trtype": "游客",
     "trname": "真纪子",
     "rank": "F",
@@ -5398,6 +5506,7 @@
     ]
   },
   {
+    "id": "za_rank_f_11",
     "trtype": "背包客",
     "trname": "达米安",
     "rank": "F",
@@ -5445,6 +5554,7 @@
     ]
   },
   {
+    "id": "za_rank_f_12",
     "trtype": "新星训练家",
     "trname": "真守",
     "rank": "F",
@@ -5512,6 +5622,7 @@
     ]
   },
   {
+    "id": "za_rank_f_13",
     "trtype": "宝可梦收藏家",
     "trname": "塔姆",
     "rank": "F",
@@ -5559,6 +5670,7 @@
     ]
   },
   {
+    "id": "za_rank_f_14",
     "trtype": "富家少爷",
     "trname": "光次",
     "rank": "F",
@@ -5606,6 +5718,7 @@
     ]
   },
   {
+    "id": "za_rank_f_15",
     "trtype": "精英训练家",
     "trname": "仁美",
     "rank": "F",
@@ -5673,6 +5786,7 @@
     ]
   },
   {
+    "id": "za_rank_f_16",
     "trtype": "来电伍",
     "trname": "方斯",
     "rank": "F",
@@ -5720,6 +5834,7 @@
     ]
   },
   {
+    "id": "za_rank_f_17",
     "trtype": "来电伍",
     "trname": "温井",
     "rank": "F",
@@ -5764,6 +5879,7 @@
     ]
   },
   {
+    "id": "za_rank_g_01",
     "trtype": "ＯＬ",
     "trname": "拓郎",
     "rank": "G",
@@ -5811,6 +5927,7 @@
     ]
   },
   {
+    "id": "za_rank_g_02",
     "trtype": "ＯＬ",
     "trname": "花奏",
     "rank": "G",
@@ -5858,6 +5975,7 @@
     ]
   },
   {
+    "id": "za_rank_g_03",
     "trtype": "背包客",
     "trname": "久直",
     "rank": "G",
@@ -5905,6 +6023,7 @@
     ]
   },
   {
+    "id": "za_rank_g_04",
     "trtype": "背包客",
     "trname": "爱里",
     "rank": "G",
@@ -5952,6 +6071,7 @@
     ]
   },
   {
+    "id": "za_rank_g_05",
     "trtype": "对战少女",
     "trname": "真琴",
     "rank": "G",
@@ -5999,6 +6119,7 @@
     ]
   },
   {
+    "id": "za_rank_g_06",
     "trtype": "工人",
     "trname": "正彦",
     "rank": "G",
@@ -6046,6 +6167,7 @@
     ]
   },
   {
+    "id": "za_rank_g_07",
     "trtype": "工人",
     "trname": "杰路姆",
     "rank": "G",
@@ -6093,6 +6215,7 @@
     ]
   },
   {
+    "id": "za_rank_g_08",
     "trtype": "慢跑者",
     "trname": "隆生",
     "rank": "G",
@@ -6140,6 +6263,7 @@
     ]
   },
   {
+    "id": "za_rank_g_09",
     "trtype": "慢跑者",
     "trname": "风花",
     "rank": "G",
@@ -6187,6 +6311,7 @@
     ]
   },
   {
+    "id": "za_rank_g_10",
     "trtype": "司机",
     "trname": "亚齐姆",
     "rank": "G",
@@ -6234,6 +6359,7 @@
     ]
   },
   {
+    "id": "za_rank_g_11",
     "trtype": "快递员",
     "trname": "美星",
     "rank": "G",
@@ -6281,6 +6407,7 @@
     ]
   },
   {
+    "id": "za_rank_g_12",
     "trtype": "艺术家",
     "trname": "千寻",
     "rank": "G",
@@ -6328,6 +6455,7 @@
     ]
   },
   {
+    "id": "za_rank_g_13",
     "trtype": "宝可梦收藏家",
     "trname": "小集",
     "rank": "G",
@@ -6372,6 +6500,7 @@
     ]
   },
   {
+    "id": "za_rank_g_14",
     "trtype": "长袖和服少女",
     "trname": "小纺",
     "rank": "G",
@@ -6419,6 +6548,7 @@
     ]
   },
   {
+    "id": "za_rank_g_15",
     "trtype": "灵异迷",
     "trname": "乔杰特",
     "rank": "G",
@@ -6466,6 +6596,7 @@
     ]
   },
   {
+    "id": "za_rank_g_16",
     "trtype": "新星训练家",
     "trname": "时雄",
     "rank": "G",
@@ -6533,6 +6664,7 @@
     ]
   },
   {
+    "id": "za_rank_g_17",
     "trtype": "千金小姐",
     "trname": "小碧",
     "rank": "G",
@@ -6580,6 +6712,7 @@
     ]
   },
   {
+    "id": "za_rank_g_18",
     "trtype": "精英训练家",
     "trname": "崔斯坦",
     "rank": "G",
@@ -6647,6 +6780,7 @@
     ]
   },
   {
+    "id": "za_rank_g_19",
     "trtype": "精英训练家",
     "trname": "弥生",
     "rank": "G",
@@ -6714,6 +6848,7 @@
     ]
   },
   {
+    "id": "za_rank_g_20",
     "trtype": "新星训练家",
     "trname": "悟朗",
     "rank": "G",
@@ -6781,6 +6916,7 @@
     ]
   },
   {
+    "id": "za_rank_g_21",
     "trtype": "富家少爷",
     "trname": "大智",
     "rank": "G",
@@ -6828,6 +6964,7 @@
     ]
   },
   {
+    "id": "za_rank_g_22",
     "trtype": "精英训练家",
     "trname": "慎一郎",
     "rank": "G",
@@ -6895,6 +7032,7 @@
     ]
   },
   {
+    "id": "za_rank_g_23",
     "trtype": "精英训练家",
     "trname": "翔子",
     "rank": "G",
@@ -6962,6 +7100,7 @@
     ]
   },
   {
+    "id": "za_rank_g_24",
     "trtype": "新星训练家",
     "trname": "玛空",
     "rank": "G",
@@ -7029,6 +7168,7 @@
     ]
   },
   {
+    "id": "za_rank_g_25",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "伊雅丝",
     "rank": "G",
@@ -7096,6 +7236,7 @@
     ]
   },
   {
+    "id": "za_rank_g_26",
     "trtype": "精英训练家",
     "trname": "平河",
     "rank": "G",
@@ -7163,6 +7304,7 @@
     ]
   },
   {
+    "id": "za_rank_g_27",
     "trtype": "精英训练家",
     "trname": "惠美",
     "rank": "G",
@@ -7230,6 +7372,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_01",
     "trtype": "慢跑者",
     "trname": "保罗",
     "rank": null,
@@ -7277,6 +7420,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_02",
     "trtype": "游客",
     "trname": "洋琪",
     "rank": null,
@@ -7324,6 +7468,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_03",
     "trtype": "对战少女",
     "trname": "莉莉可",
     "rank": null,
@@ -7371,6 +7516,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_04",
     "trtype": "ＯＬ",
     "trname": "凯莉",
     "rank": null,
@@ -7418,6 +7564,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_05",
     "trtype": "背包客",
     "trname": "晋丞",
     "rank": null,
@@ -7465,6 +7612,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_06",
     "trtype": "背包客",
     "trname": "芽衣",
     "rank": null,
@@ -7512,6 +7660,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_07",
     "trtype": "工人",
     "trname": "典久",
     "rank": null,
@@ -7559,6 +7708,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_08",
     "trtype": "工人",
     "trname": "大地",
     "rank": null,
@@ -7606,6 +7756,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_09",
     "trtype": "学童",
     "trname": "千美",
     "rank": null,
@@ -7653,6 +7804,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_10",
     "trtype": "ＯＬ",
     "trname": "敦也",
     "rank": null,
@@ -7700,6 +7852,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_11",
     "trtype": "灵异迷",
     "trname": "乔杰特",
     "rank": null,
@@ -7748,6 +7901,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_12",
     "trtype": "背包客",
     "trname": "达米安",
     "rank": null,
@@ -7796,6 +7950,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_13",
     "trtype": "慢跑者",
     "trname": "俊介",
     "rank": null,
@@ -7843,6 +7998,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_14",
     "trtype": "慢跑者",
     "trname": "卡丽妮",
     "rank": null,
@@ -7890,6 +8046,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_15",
     "trtype": "游客",
     "trname": "亚古拉",
     "rank": null,
@@ -7958,6 +8115,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_16",
     "trtype": "长袖和服少女",
     "trname": "麻衣子",
     "rank": null,
@@ -8005,6 +8163,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_17",
     "trtype": "司机",
     "trname": "亚齐姆",
     "rank": null,
@@ -8052,6 +8211,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_18",
     "trtype": "司机",
     "trname": "尤莉",
     "rank": null,
@@ -8099,6 +8259,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_19",
     "trtype": "学童",
     "trname": "克勤",
     "rank": null,
@@ -8146,6 +8307,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_20",
     "trtype": "ＯＬ",
     "trname": "琉美",
     "rank": null,
@@ -8193,6 +8355,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_21",
     "trtype": "ＯＬ",
     "trname": "匠恩",
     "rank": null,
@@ -8260,6 +8423,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_22",
     "trtype": "游客",
     "trname": "真纪子",
     "rank": null,
@@ -8307,6 +8471,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_23",
     "trtype": "艺术家",
     "trname": "莉丽",
     "rank": null,
@@ -8375,6 +8540,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_24",
     "trtype": "背包客",
     "trname": "真宵",
     "rank": null,
@@ -8422,6 +8588,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_25",
     "trtype": "新星训练家",
     "trname": "真守",
     "rank": null,
@@ -8469,6 +8636,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_26",
     "trtype": "ＯＬ",
     "trname": "莉卡",
     "rank": null,
@@ -8516,6 +8684,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_27",
     "trtype": "长袖和服少女",
     "trname": "汐音",
     "rank": null,
@@ -8563,6 +8732,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_28",
     "trtype": "资深训练家",
     "trname": "凯萨琳",
     "rank": null,
@@ -8631,6 +8801,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_29",
     "trtype": "宝可梦收藏家",
     "trname": "尚恩",
     "rank": null,
@@ -8678,6 +8849,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_30",
     "trtype": "宝可梦收藏家",
     "trname": "源也",
     "rank": null,
@@ -8725,6 +8897,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_31",
     "trtype": "宝可梦收藏家",
     "trname": "修史",
     "rank": null,
@@ -8793,6 +8966,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_32",
     "trtype": "快递员",
     "trname": "桃代",
     "rank": null,
@@ -8840,6 +9014,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_33",
     "trtype": "快递员",
     "trname": "罗塞尼",
     "rank": null,
@@ -8887,6 +9062,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_34",
     "trtype": "快递员",
     "trname": "美星",
     "rank": null,
@@ -8934,6 +9110,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "伊雅丝",
     "rank": null,
@@ -9001,6 +9178,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_36",
     "trtype": "女服务生",
     "trname": "布妮吉特",
     "rank": null,
@@ -9068,6 +9246,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_37",
     "trtype": "服务生",
     "trname": "弗洛伊",
     "rank": null,
@@ -9115,6 +9294,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_38",
     "trtype": "富家少爷",
     "trname": "大智",
     "rank": null,
@@ -9162,6 +9342,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_39",
     "trtype": "富家少爷",
     "trname": "利欧",
     "rank": null,
@@ -9209,6 +9390,7 @@
     ]
   },
   {
+    "id": "za_rank_inf1_40",
     "trtype": "千金小姐",
     "trname": "雪乃",
     "rank": null,
@@ -9256,6 +9438,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_01",
     "trtype": "精英训练家",
     "trname": "时也",
     "rank": null,
@@ -9323,6 +9506,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_02",
     "trtype": "精英训练家",
     "trname": "翔子",
     "rank": null,
@@ -9390,6 +9574,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_03",
     "trtype": "警察",
     "trname": "美沙希",
     "rank": null,
@@ -9437,6 +9622,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_04",
     "trtype": "正义社",
     "trname": "爱菜",
     "rank": null,
@@ -9484,6 +9670,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_05",
     "trtype": "艺术家",
     "trname": "伊织",
     "rank": null,
@@ -9531,6 +9718,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_06",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -9578,6 +9766,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_07",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -9625,6 +9814,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_08",
     "trtype": "正义社",
     "trname": "瓦莱黎",
     "rank": null,
@@ -9672,6 +9862,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_09",
     "trtype": "学童",
     "trname": "宏武",
     "rank": null,
@@ -9719,6 +9910,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_10",
     "trtype": "来电伍",
     "trname": "希典",
     "rank": null,
@@ -9766,6 +9958,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_11",
     "trtype": "司机",
     "trname": "玛丘斯",
     "rank": null,
@@ -9813,6 +10006,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_12",
     "trtype": "来电伍",
     "trname": "种罗",
     "rank": null,
@@ -9860,6 +10054,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_13",
     "trtype": "新星训练家",
     "trname": "悟朗",
     "rank": null,
@@ -9907,6 +10102,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_14",
     "trtype": "精英训练家",
     "trname": "杰斯坦",
     "rank": null,
@@ -9975,6 +10171,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_15",
     "trtype": "精英训练家",
     "trname": "仁美",
     "rank": null,
@@ -10042,6 +10239,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_16",
     "trtype": "警察",
     "trname": "圭佑",
     "rank": null,
@@ -10089,6 +10287,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_17",
     "trtype": "警察",
     "trname": "艾蜜莉",
     "rank": null,
@@ -10157,6 +10356,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_18",
     "trtype": "长袖和服少女",
     "trname": "华莲",
     "rank": null,
@@ -10204,6 +10404,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_19",
     "trtype": "灵异迷",
     "trname": "小祈",
     "rank": null,
@@ -10251,6 +10452,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_20",
     "trtype": "学童",
     "trname": "诺艾美",
     "rank": null,
@@ -10318,6 +10520,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_21",
     "trtype": "资深训练家",
     "trname": "萝莎",
     "rank": null,
@@ -10385,6 +10588,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_22",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -10432,6 +10636,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_23",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -10479,6 +10684,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_24",
     "trtype": "来电伍",
     "trname": "方斯",
     "rank": null,
@@ -10546,6 +10752,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_25",
     "trtype": "正义社",
     "trname": "蓝木",
     "rank": null,
@@ -10593,6 +10800,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_26",
     "trtype": "正义社",
     "trname": "可心",
     "rank": null,
@@ -10640,6 +10848,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_27",
     "trtype": "资深训练家",
     "trname": "纱友里",
     "rank": null,
@@ -10708,6 +10917,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_28",
     "trtype": "对战少女",
     "trname": "晶晶",
     "rank": null,
@@ -10776,6 +10986,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_29",
     "trtype": "宝可梦收藏家",
     "trname": "库奥",
     "rank": null,
@@ -10823,6 +11034,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_30",
     "trtype": "宝可梦收藏家",
     "trname": "义雄",
     "rank": null,
@@ -10890,6 +11102,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_31",
     "trtype": "宝可梦收藏家",
     "trname": "悠作",
     "rank": null,
@@ -10937,6 +11150,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_32",
     "trtype": "快递员",
     "trname": "艾尔莎",
     "rank": null,
@@ -10984,6 +11198,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_33",
     "trtype": "快递员",
     "trname": "桃次郎",
     "rank": null,
@@ -11031,6 +11246,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_34",
     "trtype": "快递员",
     "trname": "马赛尔",
     "rank": null,
@@ -11078,6 +11294,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "奈央",
     "rank": null,
@@ -11146,6 +11363,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_36",
     "trtype": "新闪焰队",
     "trname": "布顿",
     "rank": null,
@@ -11213,6 +11431,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_37",
     "trtype": "新闪焰队",
     "trname": "布娇",
     "rank": null,
@@ -11281,6 +11500,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_38",
     "trtype": "ＭＳＢＣ",
     "trname": "祈菈儿",
     "rank": null,
@@ -11348,6 +11568,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_39",
     "trtype": "ＭＳＢＣ",
     "trname": "西诺瓦",
     "rank": null,
@@ -11395,6 +11616,7 @@
     ]
   },
   {
+    "id": "za_rank_inf2_40",
     "trtype": "ＭＳＢＣ",
     "trname": "美美",
     "rank": null,
@@ -11462,6 +11684,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_01",
     "trtype": "慢跑者",
     "trname": "保罗",
     "rank": null,
@@ -11509,6 +11732,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_02",
     "trtype": "游客",
     "trname": "洋琪",
     "rank": null,
@@ -11556,6 +11780,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_03",
     "trtype": "对战少女",
     "trname": "莉莉可",
     "rank": null,
@@ -11603,6 +11828,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_04",
     "trtype": "ＯＬ",
     "trname": "凯莉",
     "rank": null,
@@ -11650,6 +11876,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_05",
     "trtype": "背包客",
     "trname": "晋丞",
     "rank": null,
@@ -11697,6 +11924,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_06",
     "trtype": "背包客",
     "trname": "芽衣",
     "rank": null,
@@ -11744,6 +11972,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_07",
     "trtype": "工人",
     "trname": "典久",
     "rank": null,
@@ -11791,6 +12020,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_08",
     "trtype": "工人",
     "trname": "大地",
     "rank": null,
@@ -11838,6 +12068,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_09",
     "trtype": "学童",
     "trname": "千美",
     "rank": null,
@@ -11885,6 +12116,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_10",
     "trtype": "ＯＬ",
     "trname": "敦也",
     "rank": null,
@@ -11932,6 +12164,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_11",
     "trtype": "灵异迷",
     "trname": "乔杰特",
     "rank": null,
@@ -11980,6 +12213,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_12",
     "trtype": "背包客",
     "trname": "达米安",
     "rank": null,
@@ -12028,6 +12262,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_13",
     "trtype": "慢跑者",
     "trname": "俊介",
     "rank": null,
@@ -12075,6 +12310,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_14",
     "trtype": "慢跑者",
     "trname": "卡丽妮",
     "rank": null,
@@ -12122,6 +12358,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_15",
     "trtype": "游客",
     "trname": "亚古拉",
     "rank": null,
@@ -12190,6 +12427,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_16",
     "trtype": "长袖和服少女",
     "trname": "麻衣子",
     "rank": null,
@@ -12237,6 +12475,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_17",
     "trtype": "司机",
     "trname": "亚齐姆",
     "rank": null,
@@ -12284,6 +12523,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_18",
     "trtype": "司机",
     "trname": "尤莉",
     "rank": null,
@@ -12331,6 +12571,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_19",
     "trtype": "学童",
     "trname": "克勤",
     "rank": null,
@@ -12378,6 +12619,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_20",
     "trtype": "ＯＬ",
     "trname": "琉美",
     "rank": null,
@@ -12425,6 +12667,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_21",
     "trtype": "ＯＬ",
     "trname": "匠恩",
     "rank": null,
@@ -12492,6 +12735,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_22",
     "trtype": "游客",
     "trname": "真纪子",
     "rank": null,
@@ -12539,6 +12783,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_23",
     "trtype": "艺术家",
     "trname": "莉丽",
     "rank": null,
@@ -12607,6 +12852,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_24",
     "trtype": "背包客",
     "trname": "真宵",
     "rank": null,
@@ -12654,6 +12900,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_25",
     "trtype": "新星训练家",
     "trname": "真守",
     "rank": null,
@@ -12701,6 +12948,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_26",
     "trtype": "ＯＬ",
     "trname": "莉卡",
     "rank": null,
@@ -12748,6 +12996,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_27",
     "trtype": "长袖和服少女",
     "trname": "汐音",
     "rank": null,
@@ -12795,6 +13044,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_28",
     "trtype": "资深训练家",
     "trname": "凯萨琳",
     "rank": null,
@@ -12863,6 +13113,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_29",
     "trtype": "宝可梦收藏家",
     "trname": "尚恩",
     "rank": null,
@@ -12910,6 +13161,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_30",
     "trtype": "宝可梦收藏家",
     "trname": "源也",
     "rank": null,
@@ -12957,6 +13209,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_31",
     "trtype": "宝可梦收藏家",
     "trname": "修史",
     "rank": null,
@@ -13025,6 +13278,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_32",
     "trtype": "快递员",
     "trname": "桃代",
     "rank": null,
@@ -13072,6 +13326,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_33",
     "trtype": "快递员",
     "trname": "罗塞尼",
     "rank": null,
@@ -13119,6 +13374,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_34",
     "trtype": "快递员",
     "trname": "美星",
     "rank": null,
@@ -13166,6 +13422,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "伊雅丝",
     "rank": null,
@@ -13233,6 +13490,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_36",
     "trtype": "女服务生",
     "trname": "布妮吉特",
     "rank": null,
@@ -13300,6 +13558,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_37",
     "trtype": "服务生",
     "trname": "弗洛伊",
     "rank": null,
@@ -13347,6 +13606,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_38",
     "trtype": "富家少爷",
     "trname": "大智",
     "rank": null,
@@ -13394,6 +13654,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_39",
     "trtype": "富家少爷",
     "trname": "利欧",
     "rank": null,
@@ -13441,6 +13702,7 @@
     ]
   },
   {
+    "id": "za_rank_inf3_40",
     "trtype": "千金小姐",
     "trname": "雪乃",
     "rank": null,
@@ -13488,6 +13750,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_01",
     "trtype": "精英训练家",
     "trname": "时也",
     "rank": null,
@@ -13555,6 +13818,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_02",
     "trtype": "精英训练家",
     "trname": "翔子",
     "rank": null,
@@ -13622,6 +13886,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_03",
     "trtype": "警察",
     "trname": "美沙希",
     "rank": null,
@@ -13669,6 +13934,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_04",
     "trtype": "正义社",
     "trname": "爱菜",
     "rank": null,
@@ -13716,6 +13982,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_05",
     "trtype": "艺术家",
     "trname": "伊织",
     "rank": null,
@@ -13763,6 +14030,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_06",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -13810,6 +14078,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_07",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -13857,6 +14126,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_08",
     "trtype": "正义社",
     "trname": "瓦莱黎",
     "rank": null,
@@ -13904,6 +14174,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_09",
     "trtype": "学童",
     "trname": "宏武",
     "rank": null,
@@ -13951,6 +14222,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_10",
     "trtype": "来电伍",
     "trname": "希典",
     "rank": null,
@@ -13998,6 +14270,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_11",
     "trtype": "司机",
     "trname": "玛丘斯",
     "rank": null,
@@ -14045,6 +14318,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_12",
     "trtype": "来电伍",
     "trname": "种罗",
     "rank": null,
@@ -14092,6 +14366,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_13",
     "trtype": "新星训练家",
     "trname": "悟朗",
     "rank": null,
@@ -14139,6 +14414,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_14",
     "trtype": "精英训练家",
     "trname": "杰斯坦",
     "rank": null,
@@ -14207,6 +14483,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_15",
     "trtype": "精英训练家",
     "trname": "仁美",
     "rank": null,
@@ -14274,6 +14551,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_16",
     "trtype": "警察",
     "trname": "圭佑",
     "rank": null,
@@ -14321,6 +14599,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_17",
     "trtype": "警察",
     "trname": "艾蜜莉",
     "rank": null,
@@ -14389,6 +14668,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_18",
     "trtype": "长袖和服少女",
     "trname": "华莲",
     "rank": null,
@@ -14436,6 +14716,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_19",
     "trtype": "灵异迷",
     "trname": "小祈",
     "rank": null,
@@ -14483,6 +14764,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_20",
     "trtype": "学童",
     "trname": "诺艾美",
     "rank": null,
@@ -14550,6 +14832,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_21",
     "trtype": "资深训练家",
     "trname": "萝莎",
     "rank": null,
@@ -14617,6 +14900,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_22",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -14664,6 +14948,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_23",
     "trtype": "锈蚀组",
     "trname": "手下",
     "rank": null,
@@ -14711,6 +14996,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_24",
     "trtype": "来电伍",
     "trname": "方斯",
     "rank": null,
@@ -14778,6 +15064,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_25",
     "trtype": "正义社",
     "trname": "蓝木",
     "rank": null,
@@ -14825,6 +15112,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_26",
     "trtype": "正义社",
     "trname": "可心",
     "rank": null,
@@ -14872,6 +15160,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_27",
     "trtype": "资深训练家",
     "trname": "纱友里",
     "rank": null,
@@ -14940,6 +15229,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_28",
     "trtype": "对战少女",
     "trname": "晶晶",
     "rank": null,
@@ -15008,6 +15298,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_29",
     "trtype": "宝可梦收藏家",
     "trname": "库奥",
     "rank": null,
@@ -15055,6 +15346,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_30",
     "trtype": "宝可梦收藏家",
     "trname": "义雄",
     "rank": null,
@@ -15122,6 +15414,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_31",
     "trtype": "宝可梦收藏家",
     "trname": "悠作",
     "rank": null,
@@ -15169,6 +15462,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_32",
     "trtype": "快递员",
     "trname": "艾尔莎",
     "rank": null,
@@ -15216,6 +15510,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_33",
     "trtype": "快递员",
     "trname": "桃次郎",
     "rank": null,
@@ -15263,6 +15558,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_34",
     "trtype": "快递员",
     "trname": "马赛尔",
     "rank": null,
@@ -15310,6 +15606,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "奈央",
     "rank": null,
@@ -15378,6 +15675,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_36",
     "trtype": "新闪焰队",
     "trname": "布顿",
     "rank": null,
@@ -15445,6 +15743,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_37",
     "trtype": "新闪焰队",
     "trname": "布娇",
     "rank": null,
@@ -15513,6 +15812,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_38",
     "trtype": "ＭＳＢＣ",
     "trname": "祈菈儿",
     "rank": null,
@@ -15580,6 +15880,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_39",
     "trtype": "ＭＳＢＣ",
     "trname": "西诺瓦",
     "rank": null,
@@ -15627,6 +15928,7 @@
     ]
   },
   {
+    "id": "za_rank_inf4_40",
     "trtype": "ＭＳＢＣ",
     "trname": "美美",
     "rank": null,
@@ -15694,6 +15996,7 @@
     ]
   },
   {
+    "id": "za_rank_u_01",
     "trtype": "服务生",
     "trname": "辉实",
     "rank": "U",
@@ -15741,6 +16044,7 @@
     ]
   },
   {
+    "id": "za_rank_u_02",
     "trtype": "宝可梦收藏家",
     "trname": "悦司",
     "rank": "U",
@@ -15788,6 +16092,7 @@
     ]
   },
   {
+    "id": "za_rank_u_03",
     "trtype": "快递员",
     "trname": "笛迪",
     "rank": "U",
@@ -15835,6 +16140,7 @@
     ]
   },
   {
+    "id": "za_rank_u_04",
     "trtype": "ＯＬ",
     "trname": "敦也",
     "rank": "U",
@@ -15882,6 +16188,7 @@
     ]
   },
   {
+    "id": "za_rank_u_05",
     "trtype": "慢跑者",
     "trname": "梅尔萝",
     "rank": "U",
@@ -15929,6 +16236,7 @@
     ]
   },
   {
+    "id": "za_rank_u_06",
     "trtype": "背包客",
     "trname": "芽衣",
     "rank": "U",
@@ -15976,6 +16284,7 @@
     ]
   },
   {
+    "id": "za_rank_u_07",
     "trtype": "游客",
     "trname": "明莉",
     "rank": "U",
@@ -16023,6 +16332,7 @@
     ]
   },
   {
+    "id": "za_rank_u_08",
     "trtype": "千金小姐",
     "trname": "丽华",
     "rank": "U",
@@ -16070,6 +16380,7 @@
     ]
   },
   {
+    "id": "za_rank_u_09",
     "trtype": "艺术家",
     "trname": "亚津沙",
     "rank": "U",
@@ -16117,6 +16428,7 @@
     ]
   },
   {
+    "id": "za_rank_u_10",
     "trtype": "精英训练家",
     "trname": "时也",
     "rank": "U",
@@ -16184,6 +16496,7 @@
     ]
   },
   {
+    "id": "za_rank_v_01",
     "trtype": "学童",
     "trname": "阿尔诺",
     "rank": "V",
@@ -16231,6 +16544,7 @@
     ]
   },
   {
+    "id": "za_rank_v_02",
     "trtype": "女服务生",
     "trname": "安娜",
     "rank": "V",
@@ -16278,6 +16592,7 @@
     ]
   },
   {
+    "id": "za_rank_v_03",
     "trtype": "ＯＬ",
     "trname": "晓都",
     "rank": "V",
@@ -16325,6 +16640,7 @@
     ]
   },
   {
+    "id": "za_rank_v_04",
     "trtype": "游客",
     "trname": "道隆",
     "rank": "V",
@@ -16372,6 +16688,7 @@
     ]
   },
   {
+    "id": "za_rank_v_05",
     "trtype": "工人",
     "trname": "大地",
     "rank": "V",
@@ -16419,6 +16736,7 @@
     ]
   },
   {
+    "id": "za_rank_v_06",
     "trtype": "背包客",
     "trname": "满雄",
     "rank": "V",
@@ -16466,6 +16784,7 @@
     ]
   },
   {
+    "id": "za_rank_v_07",
     "trtype": "快递员",
     "trname": "罗塞尼",
     "rank": "V",
@@ -16513,6 +16832,7 @@
     ]
   },
   {
+    "id": "za_rank_v_08",
     "trtype": "警察",
     "trname": "美玲",
     "rank": "V",
@@ -16560,6 +16880,7 @@
     ]
   },
   {
+    "id": "za_rank_v_09",
     "trtype": "宝可梦收藏家",
     "trname": "元树",
     "rank": "V",
@@ -16607,6 +16928,7 @@
     ]
   },
   {
+    "id": "za_rank_v_10",
     "trtype": "千金小姐",
     "trname": "志帆美",
     "rank": "V",
@@ -16654,6 +16976,7 @@
     ]
   },
   {
+    "id": "za_rank_w_01",
     "trtype": "慢跑者",
     "trname": "俊介",
     "rank": "W",
@@ -16701,6 +17024,7 @@
     ]
   },
   {
+    "id": "za_rank_w_02",
     "trtype": "慢跑者",
     "trname": "亚由美",
     "rank": "W",
@@ -16748,6 +17072,7 @@
     ]
   },
   {
+    "id": "za_rank_w_03",
     "trtype": "新星训练家",
     "trname": "尼克洛",
     "rank": "W",
@@ -16815,6 +17140,7 @@
     ]
   },
   {
+    "id": "za_rank_w_04",
     "trtype": "工人",
     "trname": "刚史",
     "rank": "W",
@@ -16862,6 +17188,7 @@
     ]
   },
   {
+    "id": "za_rank_w_05",
     "trtype": "快递员",
     "trname": "凛子",
     "rank": "W",
@@ -16909,6 +17236,7 @@
     ]
   },
   {
+    "id": "za_rank_w_06",
     "trtype": "女服务生",
     "trname": "佩琇",
     "rank": "W",
@@ -16956,6 +17284,7 @@
     ]
   },
   {
+    "id": "za_rank_w_07",
     "trtype": "新星训练家",
     "trname": "尼斯",
     "rank": "W",
@@ -17023,6 +17352,7 @@
     ]
   },
   {
+    "id": "za_rank_w_08",
     "trtype": "服务生",
     "trname": "席蒙",
     "rank": "W",
@@ -17070,6 +17400,7 @@
     ]
   },
   {
+    "id": "za_rank_w_09",
     "trtype": "千金小姐",
     "trname": "由衣",
     "rank": "W",
@@ -17137,6 +17468,7 @@
     ]
   },
   {
+    "id": "za_rank_w_10",
     "trtype": "宝可梦收藏家",
     "trname": "义雄",
     "rank": "W",
@@ -17184,6 +17516,7 @@
     ]
   },
   {
+    "id": "za_rank_w_11",
     "trtype": "慢跑者",
     "trname": "美雨",
     "rank": "W",
@@ -17231,6 +17564,7 @@
     ]
   },
   {
+    "id": "za_rank_w_12",
     "trtype": "新星训练家",
     "trname": "拓海",
     "rank": "W",
@@ -17298,6 +17632,7 @@
     ]
   },
   {
+    "id": "za_rank_x_01",
     "trtype": "ＯＬ",
     "trname": "卫太郎",
     "rank": "X",
@@ -17345,6 +17680,7 @@
     ]
   },
   {
+    "id": "za_rank_x_02",
     "trtype": "ＯＬ",
     "trname": "琉美",
     "rank": "X",
@@ -17392,6 +17728,7 @@
     ]
   },
   {
+    "id": "za_rank_x_03",
     "trtype": "慢跑者",
     "trname": "捷朗",
     "rank": "X",
@@ -17439,6 +17776,7 @@
     ]
   },
   {
+    "id": "za_rank_x_04",
     "trtype": "慢跑者",
     "trname": "席梦妮",
     "rank": "X",
@@ -17486,6 +17824,7 @@
     ]
   },
   {
+    "id": "za_rank_x_05",
     "trtype": "工人",
     "trname": "小翊",
     "rank": "X",
@@ -17533,6 +17872,7 @@
     ]
   },
   {
+    "id": "za_rank_x_06",
     "trtype": "慢跑者",
     "trname": "阿驱",
     "rank": "X",
@@ -17580,6 +17920,7 @@
     ]
   },
   {
+    "id": "za_rank_x_07",
     "trtype": "慢跑者",
     "trname": "卡丽妮",
     "rank": "X",
@@ -17627,6 +17968,7 @@
     ]
   },
   {
+    "id": "za_rank_x_08",
     "trtype": "游客",
     "trname": "史蒂芬",
     "rank": "X",
@@ -17674,6 +18016,7 @@
     ]
   },
   {
+    "id": "za_rank_x_09",
     "trtype": "游客",
     "trname": "慎二",
     "rank": "X",
@@ -17721,6 +18064,7 @@
     ]
   },
   {
+    "id": "za_rank_x_10",
     "trtype": "宝可梦收藏家",
     "trname": "尚恩",
     "rank": "X",
@@ -17762,6 +18106,7 @@
     ]
   },
   {
+    "id": "za_rank_x_11",
     "trtype": "游客",
     "trname": "亚美",
     "rank": "X",
@@ -17809,6 +18154,7 @@
     ]
   },
   {
+    "id": "za_rank_x_12",
     "trtype": "背包客",
     "trname": "拓尔",
     "rank": "X",
@@ -17856,6 +18202,7 @@
     ]
   },
   {
+    "id": "za_rank_x_13",
     "trtype": "背包客",
     "trname": "艾玛",
     "rank": "X",
@@ -17903,6 +18250,7 @@
     ]
   },
   {
+    "id": "za_rank_x_14",
     "trtype": "ＯＬ",
     "trname": "秋基",
     "rank": "X",
@@ -17970,6 +18318,7 @@
     ]
   },
   {
+    "id": "za_rank_x_15",
     "trtype": "ＯＬ",
     "trname": "裕子",
     "rank": "X",
@@ -18017,6 +18366,7 @@
     ]
   },
   {
+    "id": "za_rank_x_16",
     "trtype": "服务生",
     "trname": "敦史",
     "rank": "X",
@@ -18052,6 +18402,7 @@
     ]
   },
   {
+    "id": "za_rank_x_17",
     "trtype": "ＯＬ",
     "trname": "光范",
     "rank": "X",
@@ -18099,6 +18450,7 @@
     ]
   },
   {
+    "id": "za_rank_x_18",
     "trtype": "ＯＬ",
     "trname": "花奈",
     "rank": "X",
@@ -18146,6 +18498,7 @@
     ]
   },
   {
+    "id": "za_rank_x_19",
     "trtype": "慢跑者",
     "trname": "保罗",
     "rank": "X",
@@ -18193,6 +18546,7 @@
     ]
   },
   {
+    "id": "za_rank_x_20",
     "trtype": "快递员",
     "trname": "马赛尔",
     "rank": "X",
@@ -18240,6 +18594,7 @@
     ]
   },
   {
+    "id": "za_rank_x_21",
     "trtype": "游客",
     "trname": "派翠西亚",
     "rank": "X",
@@ -18287,6 +18642,7 @@
     ]
   },
   {
+    "id": "za_rank_x_22",
     "trtype": "富家少爷",
     "trname": "理查",
     "rank": "X",
@@ -18334,6 +18690,7 @@
     ]
   },
   {
+    "id": "za_rank_x_23",
     "trtype": "背包客",
     "trname": "美空",
     "rank": "X",
@@ -18381,6 +18738,7 @@
     ]
   },
   {
+    "id": "za_rank_y_01",
     "trtype": "学童",
     "trname": "克勤",
     "rank": "Y",
@@ -18428,6 +18786,7 @@
     ]
   },
   {
+    "id": "za_rank_y_02",
     "trtype": "宝可梦收藏家",
     "trname": "悠作",
     "rank": "Y",
@@ -18475,6 +18834,7 @@
     ]
   },
   {
+    "id": "za_rank_y_03",
     "trtype": "学童",
     "trname": "敦子",
     "rank": "Y",
@@ -18516,6 +18876,7 @@
     ]
   },
   {
+    "id": "za_rank_y_04",
     "trtype": "快递员",
     "trname": "千早",
     "rank": "Y",
@@ -18560,6 +18921,7 @@
     ]
   },
   {
+    "id": "za_rank_y_05",
     "trtype": "ＯＬ",
     "trname": "雄二",
     "rank": "Y",
@@ -18607,6 +18969,7 @@
     ]
   },
   {
+    "id": "za_rank_y_06",
     "trtype": "ＯＬ",
     "trname": "久美",
     "rank": "Y",
@@ -18654,6 +19017,7 @@
     ]
   },
   {
+    "id": "za_rank_y_07",
     "trtype": "游客",
     "trname": "爱实",
     "rank": "Y",
@@ -18701,6 +19065,7 @@
     ]
   },
   {
+    "id": "za_rank_y_08",
     "trtype": "学童",
     "trname": "千美",
     "rank": "Y",
@@ -18748,6 +19113,7 @@
     ]
   },
   {
+    "id": "za_rank_y_09",
     "trtype": "服务生",
     "trname": "正崇",
     "rank": "Y",
@@ -18795,6 +19161,7 @@
     ]
   },
   {
+    "id": "za_rank_y_10",
     "trtype": "千金小姐",
     "trname": "娟香",
     "rank": "Y",
@@ -18842,6 +19209,7 @@
     ]
   },
   {
+    "id": "za_rank_z_01",
     "trtype": "ＯＬ",
     "trname": "匠恩",
     "rank": "Z",
@@ -18863,6 +19231,7 @@
     ]
   },
   {
+    "id": "za_rank_z_02",
     "trtype": "ＯＬ",
     "trname": "莉卡",
     "rank": "Z",
@@ -18884,6 +19253,7 @@
     ]
   },
   {
+    "id": "za_rank_z_03",
     "trtype": "背包客",
     "trname": "丹尼尔",
     "rank": "Z",
@@ -18919,6 +19289,7 @@
     ]
   },
   {
+    "id": "za_rank_z_04",
     "trtype": "学童",
     "trname": "美季子",
     "rank": "Z",
@@ -18960,6 +19331,7 @@
     ]
   },
   {
+    "id": "za_rank_z_05",
     "trtype": "慢跑者",
     "trname": "佑人",
     "rank": "Z",
@@ -18998,6 +19370,7 @@
     ]
   },
   {
+    "id": "za_rank_z_strong_01",
     "trtype": "警察",
     "trname": "艾蜜莉",
     "rank": "X",

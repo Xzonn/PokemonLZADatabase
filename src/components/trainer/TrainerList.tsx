@@ -1,11 +1,11 @@
 import { useRequest } from "ahooks";
 import React, { Fragment } from "react";
 
-import TrainerTable from "./TrainerTable";
+import { NormalTrainerTable } from "./TrainerTable";
 
 import { TrainerNormal } from "@/types";
 
-const TrainerList: React.FC = () => {
+export const TrainerList: React.FC = () => {
   const { data = null, loading } = useRequest(
     async () => {
       const realData = await import(`@/data/tr/normal.json`).then((mod) => mod.default);
@@ -18,21 +18,17 @@ const TrainerList: React.FC = () => {
 
   return (
     <Fragment key="pokemon-list">
-      <div className="text-center px-8 py-8">
-        <div className="mb-12">
-          <h1>训练家一览</h1>
-        </div>
+      <div className="block">
+        <h1>训练家一览</h1>
+      </div>
 
-        <div>
-          <p className="text-sm text-slate-500 mb-4">点击每行的“＋”可以查看宝可梦详情。</p>
-          <TrainerTable
-            loading={loading}
-            data={data || []}
-          />
-        </div>
+      <div className="block">
+        <p>点击每行的“＋”可以查看宝可梦详情。</p>
+        <NormalTrainerTable
+          loading={loading}
+          data={data || []}
+        />
       </div>
     </Fragment>
   );
 };
-
-export default TrainerList;

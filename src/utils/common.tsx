@@ -19,7 +19,7 @@ export const MoveCategoryFilters: ColumnFilterItem[] = EMoveCategory.map((catego
   value: category,
 }));
 
-export const TableCommonProps: Partial<TableProps> = {
+export const TableCommonProps: Partial<TableProps<any>> = {
   scroll: {
     scrollToFirstRowOnChange: true,
     x: true,

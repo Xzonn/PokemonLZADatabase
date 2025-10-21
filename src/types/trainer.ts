@@ -16,6 +16,7 @@ export interface TrainerPokemon {
 }
 
 export interface TrainerBase {
+  id: string;
   trtype: string;
   trname: string;
   pokemon: TrainerPokemon[];
@@ -25,6 +26,6 @@ export interface TrainerNormal extends TrainerBase {
   prize: number;
 }
 
-export interface TrainerRoyal extends TrainerBase {
+export interface TrainerRoyale extends TrainerBase {
   rank: string | null;
 }

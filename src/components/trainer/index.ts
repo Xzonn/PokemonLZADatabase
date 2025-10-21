@@ -1,3 +1,6 @@
-export { default as TrainerTable } from "./TrainerTable";
-export { default as TrainerList } from "./TrainerList";
-export { default as RoyalList } from "./RoyalList";
+export * from "./TrainerTable";
+export * from "./TrainerPokemonComponent";
+export * from "./TrainerPokemonTable";
+
+export * from "./TrainerList";
+export * from "./RoyaleList";

@@ -35,6 +35,26 @@ main {
   @apply flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-8;
 }
 
+p {
+  @apply indent-[2em] text-sm text-slate-500 mb-4;
+}
+
+.ant-table-wrapper {
+  @apply my-4;
+}
+
+.block {
+  @apply px-4 py-4;
+
+  &:first-child {
+    @apply text-center;
+  }
+
+  &:nth-child(odd):not(:first-child) {
+    @apply bg-gray-50;
+  }
+}
+
 /** 宝可梦小图标 */
 .icon-pokemon {
   display: block;
