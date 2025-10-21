@@ -18,7 +18,6 @@ export interface TrainerPokemon {
 export interface TrainerBase {
   trtype: string;
   trname: string;
-  trname_2?: string;
   pokemon: TrainerPokemon[];
 }
 

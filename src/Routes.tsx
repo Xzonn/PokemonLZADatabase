@@ -1,12 +1,17 @@
 import { Route, Routes as ReactRoutes } from "react-router-dom";
 
 // import HomePage from "./pages/HomePage";
-import MoveDetailPage from "./pages/MoveDetailPage";
-import NotFoundPage from "./pages/NotFoundPage";
-import PokemonDetailPage from "./pages/PokemonDetailPage";
-import TypeDetailPage from "./pages/TypeDetailPage";
 
-import { MoveListPage, PokemonListPage, TrainerListPage } from "@/pages";
+import {
+  MoveDetailPage,
+  MoveListPage,
+  NotFoundPage,
+  PokemonDetailPage,
+  PokemonListPage,
+  RoyalListPage,
+  TrainerListPage,
+  TypeDetailPage,
+} from "@/pages";
 
 const Routes = () => (
   <ReactRoutes>
@@ -29,6 +34,10 @@ const Routes = () => (
     <Route
       path="/训练家一览"
       element={<TrainerListPage />}
+    />
+    <Route
+      path="/ＺＡ登峰战"
+      element={<RoyalListPage />}
     />
     <Route
       path="/p/:name"
