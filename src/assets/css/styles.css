@@ -1,4 +1,5 @@
 @import "@fontsource/nunito/index.css";
+@import "./fonts.css";
 
 @layer tailwind-base, antd;
 @layer tailwind-base {
@@ -10,8 +11,8 @@
 /** 通用 */
 * {
   font-family:
-    Nunito, MiSans, "HarmonyOS Sans", "Source Han Sans CN", "Source Han Sans SC", "Noto Sans SC", system-ui, sans-serif,
-    serif;
+    "Pokemon Dollar", Nunito, MiSans, "HarmonyOS Sans", "Source Han Sans CN", "Source Han Sans SC", "Noto Sans SC",
+    system-ui, sans-serif, serif;
 }
 
 .ant-descriptions-view {

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Pokemon Dollar";
+  unicode-range: U+24, U+E300;
+  src:
+    url("../fonts/pokemon_dollar.woff2") format("woff2"),
+    url("../fonts/pokemon_dollar.woff") format("woff"),
+    url("../fonts/pokemon_dollar.ttf") format("truetype");
+}

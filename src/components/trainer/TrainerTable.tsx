@@ -178,7 +178,7 @@ const getColumns = (
             title: "奖金",
             dataIndex: "prize",
             width: 100,
-            render: (prize: number) => `$${prize}`,
+            render: (prize: number) => `$${prize.toLocaleString("zh-CN")}`,
           },
         ]),
     {
