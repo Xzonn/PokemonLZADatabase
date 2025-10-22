@@ -3,7 +3,7 @@ import React from "react";
 
 import { PokemonCell } from "./PokemonCell";
 
-import { PokemonDataById } from "@/data/pokemon";
+import { PokemonDataById } from "@/data";
 import { Evolution } from "@/types";
 import { TableCommonProps, getEvolutionCondition } from "@/utils";
 

@@ -9,8 +9,7 @@ import { PokemonIcon } from "./PokemonIcon";
 import { TypeEffectiveness } from "../TypeEffects";
 import { MoveTable } from "../move/MoveTable";
 
-import { MoveDataById } from "@/data/move";
-import { PokemonData } from "@/data/pokemon";
+import { MoveDataById, PokemonData } from "@/data";
 import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
 import {
   DefaultTitle,

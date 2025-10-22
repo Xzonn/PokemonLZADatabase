@@ -12,6 +12,7 @@ export interface IPokemonIconProps {
   shiny?: boolean;
   className?: string;
   link?: boolean;
+  children?: React.ReactNode;
 }
 
 export const PokemonIcon: React.FC<IPokemonIconProps> = ({
@@ -20,6 +21,7 @@ export const PokemonIcon: React.FC<IPokemonIconProps> = ({
   shiny = false,
   className = "",
   link = false,
+  children,
 }) => {
   const { x, y } = pokemon;
 
@@ -36,11 +38,15 @@ export const PokemonIcon: React.FC<IPokemonIconProps> = ({
       to={`/p/${getPokemonFullName(pokemon)}`}
       className={combinedClassName}
       style={style}
-    />
+    >
+      {children}
+    </Link>
   ) : (
     <div
       className={combinedClassName}
       style={style}
-    />
+    >
+      {children}
+    </div>
   );
 };

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import { PokemonTable } from "@/components";
-import { PokemonData } from "@/data/pokemon";
+import { PokemonData } from "@/data";
 import { DefaultTitle } from "@/utils";
 
 const HomePage: React.FC = () => {

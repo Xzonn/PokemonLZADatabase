@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
 
 import { PokemonDetail } from "@/components";
-import { PokemonDataByName } from "@/data/pokemon";
+import { PokemonDataByName } from "@/data";
 
 const PokemonDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();

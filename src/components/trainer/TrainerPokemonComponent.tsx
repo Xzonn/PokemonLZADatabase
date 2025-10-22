@@ -1,6 +1,7 @@
+import { ItemIcon } from "../item";
 import { PokemonIcon } from "../pokemon/PokemonIcon";
 
-import { PokemonDataByName } from "@/data";
+import { ItemDataByName, PokemonDataByName } from "@/data";
 import { TrainerPokemon } from "@/types";
 
 export const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({ pokemon: p }) => {
@@ -11,7 +12,14 @@ export const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({
       <PokemonIcon
         pokemon={pokemon}
         link
-      />
+      >
+        {p.item ? (
+          <ItemIcon
+            item={ItemDataByName[p.item]}
+            link={false}
+          />
+        ) : null}
+      </PokemonIcon>
       <div>{pokemon.name}</div>
       <div>Lv. {p.level}</div>
     </div>

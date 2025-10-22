@@ -32,5 +32,3 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
     </RouterLink>
   );
 };
-
-export default Link;

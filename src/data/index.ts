@@ -1,2 +1,3 @@
 export * from "./pokemon";
-export * from "./move";
+export * from "./moves";
+export * from "./items";

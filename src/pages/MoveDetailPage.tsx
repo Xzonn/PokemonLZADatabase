@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
 
 import { MoveDetail } from "@/components";
-import { MoveDataByName } from "@/data/move";
+import { MoveDataByName } from "@/data";
 
 const MoveDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();

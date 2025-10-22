@@ -1,4 +1,4 @@
-import raw from "./move.txt?raw";
+import raw from "./moves.txt?raw";
 
 import { Move, MoveCategory, PokemonType } from "@/types";
 

@@ -1,4 +1,4 @@
-import { EPokemonType, Evolution, Pokemon, PokemonForm } from "../types";
+import { EPokemonType, Evolution, Pokemon, PokemonForm } from "@/types";
 
 export const getPokemonFullName = (pokemon: Pokemon): string => {
   return pokemon.form > 0 ? `${pokemon.name}-${pokemon.form}` : pokemon.name;

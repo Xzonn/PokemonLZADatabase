@@ -4,8 +4,7 @@ import { TypeEffectiveness } from "../TypeEffects";
 import { MoveTable } from "../move";
 import { PokemonTable } from "../pokemon/PokemonTable";
 
-import { MoveData } from "@/data/move";
-import { PokemonData } from "@/data/pokemon";
+import { MoveData, PokemonData } from "@/data";
 import { PokemonType } from "@/types";
 import { DefaultTitle, renderType } from "@/utils";
 

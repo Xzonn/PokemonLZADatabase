@@ -1,9 +1,10 @@
 import { Table, TableColumnsType } from "antd";
 
+import { ItemIcon } from "../item/ItemIcon";
 import { MoveLink } from "../move/MoveLink";
 import { PokemonCell } from "../pokemon/PokemonCell";
 
-import { MoveDataByName, PokemonDataByName } from "@/data";
+import { ItemDataByName, MoveDataByName, PokemonDataByName } from "@/data";
 import { TrainerPokemon, TrainerPokemonMove } from "@/types";
 import { TableCommonProps, renderTypes } from "@/utils";
 
@@ -26,6 +27,12 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     width: 40,
   },
   {
+    title: "道具",
+    dataIndex: "item",
+    width: 20,
+    render: (item: string) => (item ? <ItemIcon item={ItemDataByName[item]} /> : "—"),
+  },
+  {
     title: "招式",
     dataIndex: "moves",
     width: 160,
@@ -40,11 +47,6 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
         ))}
       </div>
     ),
-  },
-  {
-    title: "精灵球",
-    dataIndex: "ball",
-    width: 80,
   },
   {
     title: "性格",

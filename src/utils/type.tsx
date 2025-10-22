@@ -1,19 +1,20 @@
-import Link from "../components/Link";
-import { EPokemonType, PokemonType } from "../types";
+import { TypeIcon, TypeIcons } from "@/components/type/TypeIcon";
+import { EPokemonType, PokemonType } from "@/types";
 
-export const renderType = (type: PokemonType, link = true) =>
-  link ? (
-    <Link
-      to={`/t/${type}`}
-      className={`badge-type bg-${type}`}
-    >
-      {type}
-    </Link>
-  ) : (
-    <span className={`badge-type bg-${type}`}>{type}</span>
-  );
+/** @deprecated */
+export const renderType = (type: PokemonType, link = true) => (
+  <TypeIcon
+    type={type}
+    link={link}
+  />
+);
+
+/** @deprecated */
 export const renderTypes = (types: [PokemonType, PokemonType], link = true) => (
-  <span className="badges">{(types[0] === types[1] ? [types[0]] : types).map((type) => renderType(type, link))}</span>
+  <TypeIcons
+    types={types}
+    link={link}
+  />
 );
 
 type EffectTable = Partial<Record<PokemonType, Partial<Record<PokemonType, number>>>>;

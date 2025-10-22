@@ -4,7 +4,7 @@ import React, { Fragment, useEffect, useMemo } from "react";
 
 import { PokemonTable } from "../pokemon/PokemonTable";
 
-import { PokemonDataById } from "@/data/pokemon";
+import { PokemonDataById } from "@/data";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
 import { DefaultTitle, DescriptionsCommonProps, renderCategory, renderMoveLevel, renderType } from "@/utils";
 

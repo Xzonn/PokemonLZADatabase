@@ -3,8 +3,10 @@ import { useMemo } from "react";
 
 import { TrainerPokemonComponent } from "./TrainerPokemonComponent";
 import { TrainerPokemonTable } from "./TrainerPokemonTable";
+import { ItemIcon } from "../item";
 
-import { TrainerBase, TrainerNormal, TrainerPokemon, TrainerRoyale } from "@/types";
+import { ItemDataByName } from "@/data";
+import { TrainerBase, TrainerNormal, TrainerRoyale } from "@/types";
 import { PaginationConfig, TableCommonProps } from "@/utils";
 
 const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<TrainerNormal | TrainerRoyale> => {
@@ -27,6 +29,19 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
       title: "名字",
       dataIndex: "trname",
       width: 250,
+      render: (trname, row) => (
+        <div>
+          {trname}
+          <div className="flex flex-row mt-2">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <ItemIcon
+                key={i}
+                item={ItemDataByName[row.pokemon[i]?.ball || "无"]}
+              />
+            ))}
+          </div>
+        </div>
+      ),
       filters: trnames.map((name) => ({
         text: name,
         value: name,
@@ -38,7 +53,7 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
       title: "宝可梦",
       dataIndex: "pokemon",
       width: 500,
-      render: (pokemon: TrainerPokemon[]) => (
+      render: (pokemon: []) => (
         <div className="flex text-center gap-4 flex-wrap">
           {pokemon.map((p, i) => (
             <TrainerPokemonComponent

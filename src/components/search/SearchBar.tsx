@@ -6,8 +6,7 @@ import React, { useState } from "react";
 import { SearchMove } from "./SearchMove";
 import { SearchPokemon } from "./SearchPokemon";
 
-import { MoveData } from "@/data/move";
-import { PokemonData } from "@/data/pokemon";
+import { MoveData, PokemonData } from "@/data";
 import { SearchResult } from "@/types";
 import { getPokemonFullId } from "@/utils";
 

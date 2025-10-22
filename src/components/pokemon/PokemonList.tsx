@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 
 import { PokemonTable } from "./PokemonTable";
 
-import { PokemonData } from "@/data/pokemon";
+import { PokemonData } from "@/data";
 
 export const PokemonList: React.FC = () => (
   <Fragment key="pokemon-list">

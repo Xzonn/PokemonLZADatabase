@@ -56,14 +56,24 @@ p {
 }
 
 /** 宝可梦小图标 */
-.icon-pokemon {
-  display: block;
+.icon-pokemon,
+.icon-item {
+  display: flex;
   flex: 0 0 auto;
+  align-items: end;
+  justify-content: end;
+}
+
+.icon-pokemon {
   background-image: url("../images/pokemon.webp");
 }
 
 .icon-pokemon-shiny {
   background-image: url("../images/pokemon-shiny.webp");
+}
+
+.icon-item {
+  background-image: url("../images/items.webp");
 }
 
 .pokemon-form {
