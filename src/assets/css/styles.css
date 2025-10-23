@@ -15,6 +15,13 @@
     system-ui, sans-serif, serif;
 }
 
+body {
+  background-image: url("../images/background.svg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 356px auto;
+}
+
 .ant-descriptions-view {
   overflow-x: auto;
 }
@@ -114,6 +121,7 @@ a.badge-type {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 0.5em;
+  width: min-content;
 }
 
 .bg-一般 {

@@ -162,7 +162,10 @@ export const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =>
         {pokemonFull?.evolutions?.length ? (
           <>
             <h3>进化</h3>
-            <PokemonEvolutionTable data={pokemonFull.evolutions} />
+            <PokemonEvolutionTable
+              loading={loading}
+              data={pokemonFull.evolutions}
+            />
           </>
         ) : null}
         {allForms.length > 1 ? (

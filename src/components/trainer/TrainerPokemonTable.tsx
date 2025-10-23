@@ -1,12 +1,14 @@
-import { Table, TableColumnsType } from "antd";
+import { Popover, Table, TableColumnsType } from "antd";
 
+import { TypeEffectiveness } from "../TypeEffects";
 import { ItemIcon } from "../item/ItemIcon";
 import { MoveLink } from "../move/MoveLink";
 import { PokemonCell } from "../pokemon/PokemonCell";
+import { TypeIcons } from "../type";
 
 import { ItemDataByName, MoveDataByName, PokemonDataByName } from "@/data";
 import { TrainerPokemon, TrainerPokemonMove } from "@/types";
-import { TableCommonProps, renderTypes } from "@/utils";
+import { TableCommonProps } from "@/utils";
 
 const pokemonColumns: TableColumnsType<TrainerPokemon> = [
   {
@@ -19,7 +21,16 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "属性",
     key: "types",
     width: 80,
-    render: (_, row) => renderTypes(PokemonDataByName[row.name].types),
+    render: (_, row) => (
+      <Popover
+        title="属性相克"
+        content={<TypeEffectiveness types={PokemonDataByName[row.name].types} />}
+      >
+        <>
+          <TypeIcons types={PokemonDataByName[row.name].types} />
+        </>
+      </Popover>
+    ),
   },
   {
     title: "等级",

@@ -31,13 +31,15 @@ const columns: TableColumnsType<Evolution> = [
 ];
 
 interface IPokemonEvolutionTableProps {
+  loading?: boolean;
   data?: Evolution[];
 }
 
-export const PokemonEvolutionTable: React.FC<IPokemonEvolutionTableProps> = ({ data }) => (
+export const PokemonEvolutionTable: React.FC<IPokemonEvolutionTableProps> = ({ loading, data }) => (
   <Table<Evolution>
     {...TableCommonProps}
     rowKey={(_, index) => index || ""}
+    loading={loading}
     columns={columns}
     dataSource={data}
     pagination={false}
