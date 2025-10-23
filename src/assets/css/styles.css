@@ -44,6 +44,10 @@ main {
 
 p {
   @apply indent-[2em] text-sm text-slate-500 mb-4;
+
+  &:last-child {
+    @apply mb-0;
+  }
 }
 
 .ant-table-wrapper {
