@@ -3,6 +3,7 @@ import cn from "classnames";
 
 import { Link } from "../Link";
 
+import { ItemDataByName } from "@/data";
 import { Item } from "@/types";
 
 export interface IItemIconProps {
@@ -13,7 +14,8 @@ export interface IItemIconProps {
 }
 
 export const ItemIcon: React.FC<IItemIconProps> = ({ item, size = 20, className = "", link = false }) => {
-  const { x, y } = item;
+  const realItem = item ?? ItemDataByName["无"];
+  const { x, y } = realItem;
 
   const style: React.CSSProperties = {
     width: size,
@@ -22,12 +24,12 @@ export const ItemIcon: React.FC<IItemIconProps> = ({ item, size = 20, className 
     backgroundPosition: `-${x * size}px -${y * size}px`,
   };
   const combinedClassName = cn("icon-item", className || "");
-  const name = item.name === "无" ? "" : item.name;
+  const name = realItem.name === "无" ? "" : realItem.name;
 
   return link && name ? (
     <Tooltip title={name}>
       <Link
-        to={`/i/${item.name}`}
+        to={`/i/${realItem.name}`}
         className={combinedClassName}
         style={style}
       />

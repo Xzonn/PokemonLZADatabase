@@ -8,5 +8,7 @@ export * from "./move";
 export * from "./item";
 export * from "./type";
 export * from "./trainer";
+export * from "./research";
+
 export * from "./search";
 export * from "./site";

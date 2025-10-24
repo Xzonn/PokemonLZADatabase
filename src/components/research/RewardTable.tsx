@@ -1,0 +1,52 @@
+import { Table, TableColumnType } from "antd";
+
+import { Link } from "../Link";
+import { ItemIcon } from "../item";
+
+import { ItemDataByName } from "@/data";
+import { ResearchReward } from "@/types";
+import { TableCommonProps } from "@/utils";
+
+const columns: TableColumnType<ResearchReward>[] = [
+  {
+    title: "等级",
+    dataIndex: "level",
+  },
+  {
+    title: "道具",
+    dataIndex: "item",
+    render: (item, row) => (
+      <div className="flex items-center gap-x-2">
+        <ItemIcon item={ItemDataByName[item]} />
+        <div>
+          {item}
+          {row.move ? (
+            <>
+              （<Link to={`/m/${row.move}`}>{row.move}</Link>）
+            </>
+          ) : (
+            ""
+          )}
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "数量",
+    dataIndex: "count",
+  },
+];
+
+export const ResearchRewardTable: React.FC<{ loading?: boolean; data?: ResearchReward[] }> = ({
+  loading = false,
+  data,
+}) => (
+  <Table<ResearchReward>
+    {...TableCommonProps}
+    rowKey="index"
+    loading={loading}
+    columns={columns}
+    dataSource={data}
+    pagination={false}
+  />
+);

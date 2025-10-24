@@ -1,13 +1,12 @@
 import { Route, Routes as ReactRoutes } from "react-router-dom";
 
-// import HomePage from "./pages/HomePage";
-
 import {
   MoveDetailPage,
   MoveListPage,
   NotFoundPage,
   PokemonDetailPage,
   PokemonListPage,
+  ResearchListPage,
   RoyaleListPage,
   TrainerListPage,
   TypeDetailPage,
@@ -38,6 +37,10 @@ const Routes = () => (
     <Route
       path="/ＺＡ登峰战"
       element={<RoyaleListPage />}
+    />
+    <Route
+      path="/茉蜜姬调查"
+      element={<ResearchListPage />}
     />
     <Route
       path="/p/:name"
