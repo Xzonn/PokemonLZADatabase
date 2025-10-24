@@ -1,17 +1,12 @@
-import { Table, TableColumnsType, TablePaginationConfig } from "antd";
+import { Popover, Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
 import { Link } from "../Link";
+import { TypeEffectiveness } from "../TypeEffects";
+import { TypeIcon } from "../type";
 
 import { Move } from "@/types";
-import {
-  MoveCategoryFilters,
-  PaginationConfig,
-  PokemonTypeFilters,
-  TableCommonProps,
-  renderCategory,
-  renderType,
-} from "@/utils";
+import { MoveCategoryFilters, PaginationConfig, PokemonTypeFilters, TableCommonProps, renderCategory } from "@/utils";
 
 const columns: TableColumnsType<Move> = [
   {
@@ -29,7 +24,21 @@ const columns: TableColumnsType<Move> = [
   {
     title: "属性",
     dataIndex: "type",
-    render: (type) => renderType(type),
+    render: (type) => (
+      <Popover
+        title="属性相克"
+        content={
+          <TypeEffectiveness
+            types={[type]}
+            isAttack
+          />
+        }
+      >
+        <>
+          <TypeIcon type={type} />
+        </>
+      </Popover>
+    ),
     filters: PokemonTypeFilters,
     onFilter: (value, record) => record.type === value,
   },
