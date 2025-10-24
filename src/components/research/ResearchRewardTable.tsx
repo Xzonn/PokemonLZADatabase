@@ -1,7 +1,6 @@
 import { Table, TableColumnType } from "antd";
 
-import { Link } from "../Link";
-import { ItemIcon } from "../item";
+import { ItemCell } from "../item/ItemCell";
 
 import { ItemDataByName } from "@/data";
 import { ResearchReward } from "@/types";
@@ -15,21 +14,7 @@ const columns: TableColumnType<ResearchReward>[] = [
   {
     title: "道具",
     dataIndex: "item",
-    render: (item, row) => (
-      <div className="flex items-center gap-x-2">
-        <ItemIcon item={ItemDataByName[item]} />
-        <div>
-          {item}
-          {row.move ? (
-            <>
-              （<Link to={`/m/${row.move}`}>{row.move}</Link>）
-            </>
-          ) : (
-            ""
-          )}
-        </div>
-      </div>
-    ),
+    render: (item) => <ItemCell item={ItemDataByName[item]} />,
   },
   {
     title: "数量",

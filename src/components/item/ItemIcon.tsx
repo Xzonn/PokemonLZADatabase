@@ -7,13 +7,13 @@ import { ItemDataByName } from "@/data";
 import { Item } from "@/types";
 
 export interface IItemIconProps {
-  item: Item;
+  item?: Item;
   size?: number;
   className?: string;
   link?: boolean;
 }
 
-export const ItemIcon: React.FC<IItemIconProps> = ({ item, size = 20, className = "", link = false }) => {
+export const ItemIconWithoutTooltip: React.FC<IItemIconProps> = ({ item, size = 20, className = "", link = false }) => {
   const realItem = item ?? ItemDataByName["无"];
   const { x, y } = realItem;
 
@@ -27,19 +27,30 @@ export const ItemIcon: React.FC<IItemIconProps> = ({ item, size = 20, className 
   const name = realItem.name === "无" ? "" : realItem.name;
 
   return link && name ? (
+    <Link
+      to={`/i/${realItem.name}`}
+      className={combinedClassName}
+      style={style}
+    />
+  ) : (
+    <div
+      className={combinedClassName}
+      style={style}
+    />
+  );
+};
+
+export const ItemIcon: React.FC<IItemIconProps> = (props) => {
+  const { item } = props;
+  const name = item?.name === "无" ? "" : item?.name;
+
+  return name ? (
     <Tooltip title={name}>
-      <Link
-        to={`/i/${realItem.name}`}
-        className={combinedClassName}
-        style={style}
-      />
+      <>
+        <ItemIconWithoutTooltip {...props} />
+      </>
     </Tooltip>
   ) : (
-    <Tooltip title={name}>
-      <div
-        className={combinedClassName}
-        style={style}
-      />
-    </Tooltip>
+    <ItemIconWithoutTooltip {...props} />
   );
 };

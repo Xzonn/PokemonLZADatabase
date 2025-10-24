@@ -13,6 +13,7 @@ export const ItemData = lines.slice(1).map((line) => {
     name: dict["中文名"],
     x: parseInt(dict["X"], 10),
     y: parseInt(dict["Y"], 10),
+    move: dict["招式"] || null,
   };
   return item;
 });

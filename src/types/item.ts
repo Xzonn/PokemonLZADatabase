@@ -3,4 +3,5 @@ export interface Item {
   name: string;
   x: number;
   y: number;
+  move: string | null;
 }

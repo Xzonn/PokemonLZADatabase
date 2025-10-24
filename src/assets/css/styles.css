@@ -83,10 +83,6 @@ p {
   background-image: url("../images/pokemon-shiny.webp");
 }
 
-.icon-item {
-  background-image: url("../images/items.webp");
-}
-
 .pokemon-form {
   font-size: 0.8em;
   @apply text-gray-500;
@@ -238,6 +234,15 @@ a.badge-type {
 .effect-0 {
   color: #aaa;
   font-weight: 100;
+}
+
+/** 道具 */
+.icon-item {
+  background-image: url("../images/items.webp");
+}
+
+.cell-item {
+  @apply flex items-center gap-2 whitespace-nowrap;
 }
 
 /** 搜索框 */

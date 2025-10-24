@@ -1,8 +1,8 @@
 import { useRequest } from "ahooks";
 import React, { Fragment } from "react";
 
+import { ResearchRewardTable } from "./ResearchRewardTable";
 import { ResearchTable } from "./ResearchTable";
-import { ResearchRewardTable } from "./RewardTable";
 
 export const ResearchList: React.FC = () => {
   const { data = null, loading } = useRequest(
