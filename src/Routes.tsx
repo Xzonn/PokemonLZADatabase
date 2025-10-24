@@ -8,6 +8,7 @@ import {
   PokemonListPage,
   ResearchListPage,
   RoyaleListPage,
+  TMListPage,
   TrainerListPage,
   TypeDetailPage,
 } from "@/pages";
@@ -41,6 +42,10 @@ const Routes = () => (
     <Route
       path="/茉蜜姬调查"
       element={<ResearchListPage />}
+    />
+    <Route
+      path="/招式学习器一览"
+      element={<TMListPage />}
     />
     <Route
       path="/p/:name"

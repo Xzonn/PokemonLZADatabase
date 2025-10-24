@@ -1,4 +1,4 @@
-import { DescriptionsProps, TablePaginationConfig, TableProps } from "antd";
+import { DescriptionsProps, TablePaginationConfig, TableProps, message } from "antd";
 import { ColumnFilterItem } from "antd/es/table/interface";
 
 import { EMoveCategory, EPokemonType, MoveCategory } from "@/types";
@@ -50,4 +50,8 @@ export const renderMoveLevel = (level: number): string => {
     default:
       return level.toString();
   }
+};
+
+export const onUseRequestError = (error: any) => {
+  message.error(`数据加载失败: ${error?.message || error}`);
 };

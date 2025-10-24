@@ -4,6 +4,8 @@ import React, { Fragment } from "react";
 import { ResearchRewardTable } from "./ResearchRewardTable";
 import { ResearchTable } from "./ResearchTable";
 
+import { onUseRequestError } from "@/utils";
+
 export const ResearchList: React.FC = () => {
   const { data = null, loading } = useRequest(
     async () => {
@@ -11,7 +13,7 @@ export const ResearchList: React.FC = () => {
       return realData;
     },
     {
-      onError: () => null,
+      onError: onUseRequestError,
     },
   );
 

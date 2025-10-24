@@ -4,6 +4,7 @@ import React, { Fragment } from "react";
 import { NormalTrainerTable } from "./TrainerTable";
 
 import { TrainerNormal } from "@/types";
+import { onUseRequestError } from "@/utils";
 
 export const TrainerList: React.FC = () => {
   const { data = null, loading } = useRequest(
@@ -12,7 +13,7 @@ export const TrainerList: React.FC = () => {
       return realData as TrainerNormal[];
     },
     {
-      onError: () => null,
+      onError: onUseRequestError,
     },
   );
 

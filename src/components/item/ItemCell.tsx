@@ -21,3 +21,11 @@ export const ItemCell: React.FC<{ item?: Item }> = ({ item }) =>
       </div>
     </div>
   ) : null;
+
+export const TMCell: React.FC<{ item?: Item }> = ({ item }) =>
+  item ? (
+    <div className="cell-item">
+      <ItemIconWithoutTooltip item={item} />
+      <div className="item-name">{item.name}</div>
+    </div>
+  ) : null;

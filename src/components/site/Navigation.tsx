@@ -1,4 +1,5 @@
 import {
+  BulbOutlined,
   FileSearchOutlined,
   HomeOutlined,
   SortDescendingOutlined,
@@ -17,6 +18,7 @@ const navItems = [
   // { path: "/宝可梦一览", label: "宝可梦一览", icon: <UnorderedListOutlined /> },
   { path: "/招式一览", label: "招式一览", icon: <ThunderboltOutlined /> },
   { path: "/训练家一览", label: "训练家一览", icon: <UserSwitchOutlined /> },
+  { path: "/招式学习器一览", label: "招式学习器一览", icon: <BulbOutlined /> },
   { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: <SortDescendingOutlined /> },
   { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: <FileSearchOutlined /> },
 ];

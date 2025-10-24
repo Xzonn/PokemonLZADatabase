@@ -10,12 +10,15 @@ export { default as PokemonDetailPage } from "./PokemonDetailPage";
 export { default as MoveDetailPage } from "./MoveDetailPage";
 export { default as MoveListPage } from "./MoveListPage";
 
+// 属性
+export { default as TypeDetailPage } from "./TypeDetailPage";
+
+// 招式学习器
+export { default as TMListPage } from "./TMListPage";
+
 // 训练家
 export { default as TrainerListPage } from "./TrainerListPage";
 export { default as RoyaleListPage } from "./RoyaleListPage";
 
 // 调查
 export { default as ResearchListPage } from "./ResearchListPage";
-
-// 属性
-export { default as TypeDetailPage } from "./TypeDetailPage";

@@ -1,4 +1,4 @@
-import { Table, TableColumnsType } from "antd";
+import { Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
 import { PokemonCell } from "./PokemonCell";
@@ -66,9 +66,16 @@ interface IPokemonTableProps<T = undefined> {
   data?: (Pokemon & T)[];
   extraColumns?: TableColumnsType<Pokemon & T>;
   showStats?: boolean;
+  pagination?: false | TablePaginationConfig;
 }
 
-export const PokemonTable = <T,>({ loading = false, data, showStats, extraColumns }: IPokemonTableProps<T>) => {
+export const PokemonTable = <T,>({
+  loading = false,
+  data,
+  showStats,
+  extraColumns,
+  pagination,
+}: IPokemonTableProps<T>) => {
   const fullColumns = useMemo(
     () => [...((showStats ? columnsWithStats : columns) as TableColumnsType<Pokemon & T>), ...(extraColumns || [])],
     [extraColumns, showStats],
@@ -81,7 +88,7 @@ export const PokemonTable = <T,>({ loading = false, data, showStats, extraColumn
       loading={loading}
       columns={fullColumns}
       dataSource={data}
-      pagination={(data?.length || 0) > 100 ? PaginationConfig : false}
+      pagination={pagination ?? (loading || (data?.length || 0) > 100 ? PaginationConfig : false)}
     />
   );
 };

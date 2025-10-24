@@ -1,9 +1,11 @@
 import { useLocalStorageState } from "ahooks";
 
+import { onUseRequestError } from "@/utils";
+
 export const Notice: React.FC = () => {
   const [show] = useLocalStorageState("notice-lza-database", {
     defaultValue: true,
-    onError: () => null,
+    onError: onUseRequestError,
   });
 
   return show ? (

@@ -16,6 +16,7 @@ import {
   DescriptionsCommonProps,
   getPokemonFullId,
   getPokemonFullNameFriendly,
+  onUseRequestError,
   renderMoveLevel,
   renderTypes,
 } from "@/utils";
@@ -101,7 +102,7 @@ export const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =>
     },
     {
       refreshDeps: [pokemon],
-      onError: () => null,
+      onError: onUseRequestError,
     },
   );
 
@@ -191,14 +192,16 @@ export const PokemonDetail: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =>
       </div>
 
       <div className="block">
-        <h2>可学习的招式</h2>
-        <h3>等级提升</h3>
+        <h2>等级提升</h2>
         <MoveTable<MoveLevelUp>
           extraColumns={columnsLevelUp}
           loading={loading}
           data={movesLevelUp}
         />
-        <h3>招式学习器</h3>
+      </div>
+
+      <div className="block">
+        <h2>招式学习器</h2>
         <MoveTable
           extraColumns={columnsTM}
           loading={loading}

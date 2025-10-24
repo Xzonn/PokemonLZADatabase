@@ -1,4 +1,4 @@
-import { Table, TableColumnsType } from "antd";
+import { Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
 import { Link } from "../Link";
@@ -63,9 +63,10 @@ interface IMoveTableProps<T = undefined> {
   loading?: boolean;
   data?: (Move & T)[];
   extraColumns?: TableColumnsType<Move & T>;
+  pagination?: false | TablePaginationConfig;
 }
 
-export const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTableProps<T>) => {
+export const MoveTable = <T,>({ loading = false, data, extraColumns, pagination }: IMoveTableProps<T>) => {
   const fullColumns = useMemo(() => [...(extraColumns || []), ...columns], [extraColumns]) as TableColumnsType<
     Move & T
   >;
@@ -77,7 +78,7 @@ export const MoveTable = <T,>({ loading = false, data, extraColumns }: IMoveTabl
       loading={loading}
       columns={fullColumns}
       dataSource={data}
-      pagination={(data?.length || 0) > 100 ? PaginationConfig : false}
+      pagination={pagination ?? (loading || (data?.length || 0) > 100 ? PaginationConfig : false)}
     />
   );
 };

@@ -5,6 +5,7 @@ import { NormalTrainerTable, RoyaleTrainerTable } from "./TrainerTable";
 
 import royalePromotion from "@/data/tr/royale-promotion.txt?raw";
 import { TrainerNormal, TrainerRoyale } from "@/types";
+import { onUseRequestError } from "@/utils";
 
 export const RoyaleList: React.FC = () => {
   const { data: royaleData = null, loading: royaleLoading } = useRequest(
@@ -13,7 +14,7 @@ export const RoyaleList: React.FC = () => {
       return realData as TrainerRoyale[];
     },
     {
-      onError: () => null,
+      onError: onUseRequestError,
     },
   );
 
@@ -23,7 +24,7 @@ export const RoyaleList: React.FC = () => {
       return realData as TrainerNormal[];
     },
     {
-      onError: () => null,
+      onError: onUseRequestError,
     },
   );
   const idList = royalePromotion.split("\n").filter(Boolean);

@@ -3,10 +3,12 @@ import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 
 import { PokemonTable } from "../pokemon/PokemonTable";
+import { TMDetail } from "../tm/TMDetail";
+import { TypeIcon } from "../type";
 
 import { PokemonDataById } from "@/data";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
-import { DefaultTitle, DescriptionsCommonProps, renderCategory, renderMoveLevel, renderType } from "@/utils";
+import { DefaultTitle, DescriptionsCommonProps, onUseRequestError, renderCategory, renderMoveLevel } from "@/utils";
 
 const columnsLevelUp: TableColumnsType<Pokemon & PokemonLevelUp> = [
   {
@@ -21,7 +23,7 @@ const getDescriptions = (move: Move): DescriptionsProps["items"] => [
   {
     key: "type",
     label: "属性",
-    children: renderType(move.type),
+    children: <TypeIcon type={move.type} />,
   },
   {
     key: "category",
@@ -57,7 +59,7 @@ export const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
     },
     {
       refreshDeps: [move],
-      onError: () => null,
+      onError: onUseRequestError,
     },
   );
 
@@ -103,23 +105,23 @@ export const MoveDetail: React.FC<{ data: Move }> = ({ data: move }) => {
       </div>
 
       <div className="block">
-        <h2>可学习的宝可梦</h2>
-        <h3>等级提升</h3>
+        <h2>等级提升</h2>
         <PokemonTable<PokemonLevelUp>
           loading={loading}
           data={pokemonLevelUp}
           extraColumns={columnsLevelUp}
         />
-        {(pokemonTM?.length || 0) > 0 ? (
-          <>
-            <h3>招式学习器</h3>
-            <PokemonTable
-              loading={loading}
-              data={pokemonTM}
-            />
-          </>
-        ) : null}
       </div>
+      {(pokemonTM?.length || 0) > 0 ? (
+        <div className="block">
+          <h2>招式学习器</h2>
+          <TMDetail move={move.name} />
+          <PokemonTable
+            loading={loading}
+            data={pokemonTM}
+          />
+        </div>
+      ) : null}
     </Fragment>
   );
 };
