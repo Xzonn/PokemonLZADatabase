@@ -32,6 +32,10 @@ const Routes = () => (
       element={<MoveListPage />}
     />
     <Route
+      path="/招式学习器一览"
+      element={<TMListPage />}
+    />
+    <Route
       path="/训练家一览"
       element={<TrainerListPage />}
     />
@@ -42,10 +46,6 @@ const Routes = () => (
     <Route
       path="/茉蜜姬调查"
       element={<ResearchListPage />}
-    />
-    <Route
-      path="/招式学习器一览"
-      element={<TMListPage />}
     />
     <Route
       path="/p/:name"

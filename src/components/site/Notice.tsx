@@ -5,7 +5,10 @@ import { onUseRequestError } from "@/utils";
 export const Notice: React.FC = () => {
   const [show] = useLocalStorageState("notice-lza-database", {
     defaultValue: true,
-    onError: onUseRequestError,
+    onError: (error) => {
+      onUseRequestError(error);
+      localStorage.removeItem("notice-lza-database");
+    },
   });
 
   return show ? (
