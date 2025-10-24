@@ -82,20 +82,23 @@ const getNormalColumns = (data: TrainerNormal[] | undefined): TableColumnsType<T
   ];
 };
 
+const RANKS = Array.from("ZYXWVUGFEDCB∞");
+
 const getRoyaleColumns = (data: TrainerRoyale[] | undefined): TableColumnsType<TrainerRoyale> => {
   const commonColumns = getCommonColumns(data) as TableColumnsType<TrainerRoyale>;
-  const ranks = Array.from(new Set(data?.map((item) => item.rank ?? "") || []));
 
   return [
     {
       title: "等级",
       dataIndex: "rank",
       width: 80,
-      filters: ranks.filter(Boolean).map((type) => ({
+      filters: RANKS.map((type) => ({
         text: type,
         value: type,
       })),
       onFilter: (value: any, record: any) => (record as TrainerRoyale).rank === value,
+      defaultSortOrder: "ascend",
+      sorter: (a, b) => RANKS.indexOf(a.rank) - RANKS.indexOf(b.rank),
     },
     ...commonColumns,
   ];

@@ -7375,7 +7375,7 @@
     "id": "za_rank_inf1_01",
     "trtype": "慢跑者",
     "trname": "保罗",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "宝石海星",
@@ -7423,7 +7423,7 @@
     "id": "za_rank_inf1_02",
     "trtype": "游客",
     "trname": "洋琪",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "盔甲鸟",
@@ -7471,7 +7471,7 @@
     "id": "za_rank_inf1_03",
     "trtype": "对战少女",
     "trname": "莉莉可",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "列阵兵",
@@ -7519,7 +7519,7 @@
     "id": "za_rank_inf1_04",
     "trtype": "ＯＬ",
     "trname": "凯莉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "罗丝雷朵",
@@ -7567,7 +7567,7 @@
     "id": "za_rank_inf1_05",
     "trtype": "背包客",
     "trname": "晋丞",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "河马兽",
@@ -7615,7 +7615,7 @@
     "id": "za_rank_inf1_06",
     "trtype": "背包客",
     "trname": "芽衣",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "龙头地鼠",
@@ -7663,7 +7663,7 @@
     "id": "za_rank_inf1_07",
     "trtype": "工人",
     "trname": "典久",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大钢蛇",
@@ -7711,7 +7711,7 @@
     "id": "za_rank_inf1_08",
     "trtype": "工人",
     "trname": "大地",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "怪力",
@@ -7759,7 +7759,7 @@
     "id": "za_rank_inf1_09",
     "trtype": "学童",
     "trname": "千美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "掘地兔",
@@ -7807,7 +7807,7 @@
     "id": "za_rank_inf1_10",
     "trtype": "ＯＬ",
     "trname": "敦也",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "头巾混混",
@@ -7855,7 +7855,7 @@
     "id": "za_rank_inf1_11",
     "trtype": "灵异迷",
     "trname": "乔杰特",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "耿鬼",
@@ -7904,7 +7904,7 @@
     "id": "za_rank_inf1_12",
     "trtype": "背包客",
     "trname": "达米安",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "冰鬼护",
@@ -7953,7 +7953,7 @@
     "id": "za_rank_inf1_13",
     "trtype": "慢跑者",
     "trname": "俊介",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "黑鲁加",
@@ -8001,7 +8001,7 @@
     "id": "za_rank_inf1_14",
     "trtype": "慢跑者",
     "trname": "卡丽妮",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "火炎狮",
@@ -8049,7 +8049,7 @@
     "id": "za_rank_inf1_15",
     "trtype": "游客",
     "trname": "亚古拉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "喷火驼",
@@ -8118,7 +8118,7 @@
     "id": "za_rank_inf1_16",
     "trtype": "长袖和服少女",
     "trname": "麻衣子",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "胖甜妮",
@@ -8166,7 +8166,7 @@
     "id": "za_rank_inf1_17",
     "trtype": "司机",
     "trname": "亚齐姆",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "流氓鳄",
@@ -8214,7 +8214,7 @@
     "id": "za_rank_inf1_18",
     "trtype": "司机",
     "trname": "尤莉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "胡地",
@@ -8262,7 +8262,7 @@
     "id": "za_rank_inf1_19",
     "trtype": "学童",
     "trname": "克勤",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "阿利多斯",
@@ -8310,7 +8310,7 @@
     "id": "za_rank_inf1_20",
     "trtype": "ＯＬ",
     "trname": "琉美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷丘",
@@ -8358,7 +8358,7 @@
     "id": "za_rank_inf1_21",
     "trtype": "ＯＬ",
     "trname": "匠恩",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大针蜂",
@@ -8426,7 +8426,7 @@
     "id": "za_rank_inf1_22",
     "trtype": "游客",
     "trname": "真纪子",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "凯罗斯",
@@ -8474,7 +8474,7 @@
     "id": "za_rank_inf1_23",
     "trtype": "艺术家",
     "trname": "莉丽",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "双倍多多冰",
@@ -8543,7 +8543,7 @@
     "id": "za_rank_inf1_24",
     "trtype": "背包客",
     "trname": "真宵",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "光电伞蜥",
@@ -8591,7 +8591,7 @@
     "id": "za_rank_inf1_25",
     "trtype": "新星训练家",
     "trname": "真守",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "喷火龙",
@@ -8639,7 +8639,7 @@
     "id": "za_rank_inf1_26",
     "trtype": "ＯＬ",
     "trname": "莉卡",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "咚咚鼠",
@@ -8687,7 +8687,7 @@
     "id": "za_rank_inf1_27",
     "trtype": "长袖和服少女",
     "trname": "汐音",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "花洁夫人-1",
@@ -8735,7 +8735,7 @@
     "id": "za_rank_inf1_28",
     "trtype": "资深训练家",
     "trname": "凯萨琳",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "呆壳兽",
@@ -8804,7 +8804,7 @@
     "id": "za_rank_inf1_29",
     "trtype": "宝可梦收藏家",
     "trname": "尚恩",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "沙奈朵",
@@ -8852,7 +8852,7 @@
     "id": "za_rank_inf1_30",
     "trtype": "宝可梦收藏家",
     "trname": "源也",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "灰尘山",
@@ -8900,7 +8900,7 @@
     "id": "za_rank_inf1_31",
     "trtype": "宝可梦收藏家",
     "trname": "修史",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "冰雪巨龙",
@@ -8969,7 +8969,7 @@
     "id": "za_rank_inf1_32",
     "trtype": "快递员",
     "trname": "桃代",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "信使鸟",
@@ -9017,7 +9017,7 @@
     "id": "za_rank_inf1_33",
     "trtype": "快递员",
     "trname": "罗塞尼",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大比鸟",
@@ -9065,7 +9065,7 @@
     "id": "za_rank_inf1_34",
     "trtype": "快递员",
     "trname": "美星",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "坐骑山羊",
@@ -9113,7 +9113,7 @@
     "id": "za_rank_inf1_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "伊雅丝",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "差不多娃娃",
@@ -9181,7 +9181,7 @@
     "id": "za_rank_inf1_36",
     "trtype": "女服务生",
     "trname": "布妮吉特",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "掘地兔",
@@ -9249,7 +9249,7 @@
     "id": "za_rank_inf1_37",
     "trtype": "服务生",
     "trname": "弗洛伊",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "冷水猿",
@@ -9297,7 +9297,7 @@
     "id": "za_rank_inf1_38",
     "trtype": "富家少爷",
     "trname": "大智",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷电兽",
@@ -9345,7 +9345,7 @@
     "id": "za_rank_inf1_39",
     "trtype": "富家少爷",
     "trname": "利欧",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "坚盾剑怪",
@@ -9393,7 +9393,7 @@
     "id": "za_rank_inf1_40",
     "trtype": "千金小姐",
     "trname": "雪乃",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "长耳兔",
@@ -9441,7 +9441,7 @@
     "id": "za_rank_inf2_01",
     "trtype": "精英训练家",
     "trname": "时也",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "小碎钻",
@@ -9509,7 +9509,7 @@
     "id": "za_rank_inf2_02",
     "trtype": "精英训练家",
     "trname": "翔子",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大嘴娃",
@@ -9577,7 +9577,7 @@
     "id": "za_rank_inf2_03",
     "trtype": "警察",
     "trname": "美沙希",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "摔角鹰人",
@@ -9625,7 +9625,7 @@
     "id": "za_rank_inf2_04",
     "trtype": "正义社",
     "trname": "爱菜",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "南瓜怪人",
@@ -9673,7 +9673,7 @@
     "id": "za_rank_inf2_05",
     "trtype": "艺术家",
     "trname": "伊织",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "毒藻龙",
@@ -9721,7 +9721,7 @@
     "id": "za_rank_inf2_06",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "波士可多拉",
@@ -9769,7 +9769,7 @@
     "id": "za_rank_inf2_07",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "阿柏怪",
@@ -9817,7 +9817,7 @@
     "id": "za_rank_inf2_08",
     "trtype": "正义社",
     "trname": "瓦莱黎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "赫拉克罗斯",
@@ -9865,7 +9865,7 @@
     "id": "za_rank_inf2_09",
     "trtype": "学童",
     "trname": "宏武",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "飞天螳螂",
@@ -9913,7 +9913,7 @@
     "id": "za_rank_inf2_10",
     "trtype": "来电伍",
     "trname": "希典",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "泥巴鱼",
@@ -9961,7 +9961,7 @@
     "id": "za_rank_inf2_11",
     "trtype": "司机",
     "trname": "玛丘斯",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "七夕青鸟",
@@ -10009,7 +10009,7 @@
     "id": "za_rank_inf2_12",
     "trtype": "来电伍",
     "trname": "种罗",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "麻麻鳗鱼王",
@@ -10057,7 +10057,7 @@
     "id": "za_rank_inf2_13",
     "trtype": "新星训练家",
     "trname": "悟朗",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "妙蛙花",
@@ -10105,7 +10105,7 @@
     "id": "za_rank_inf2_14",
     "trtype": "精英训练家",
     "trname": "杰斯坦",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "龟足巨铠",
@@ -10174,7 +10174,7 @@
     "id": "za_rank_inf2_15",
     "trtype": "精英训练家",
     "trname": "仁美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "水箭龟",
@@ -10242,7 +10242,7 @@
     "id": "za_rank_inf2_16",
     "trtype": "警察",
     "trname": "圭佑",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "路卡利欧",
@@ -10290,7 +10290,7 @@
     "id": "za_rank_inf2_17",
     "trtype": "警察",
     "trname": "艾蜜莉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大比鸟",
@@ -10359,7 +10359,7 @@
     "id": "za_rank_inf2_18",
     "trtype": "长袖和服少女",
     "trname": "华莲",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "钥圈儿",
@@ -10407,7 +10407,7 @@
     "id": "za_rank_inf2_19",
     "trtype": "灵异迷",
     "trname": "小祈",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "朽木妖",
@@ -10455,7 +10455,7 @@
     "id": "za_rank_inf2_20",
     "trtype": "学童",
     "trname": "诺艾美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "布里卡隆",
@@ -10523,7 +10523,7 @@
     "id": "za_rank_inf2_21",
     "trtype": "资深训练家",
     "trname": "萝莎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "甲贺忍蛙",
@@ -10591,7 +10591,7 @@
     "id": "za_rank_inf2_22",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "巨钳螳螂",
@@ -10639,7 +10639,7 @@
     "id": "za_rank_inf2_23",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大食花",
@@ -10687,7 +10687,7 @@
     "id": "za_rank_inf2_24",
     "trtype": "来电伍",
     "trname": "方斯",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "喷火驼",
@@ -10755,7 +10755,7 @@
     "id": "za_rank_inf2_25",
     "trtype": "正义社",
     "trname": "蓝木",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "恰雷姆",
@@ -10803,7 +10803,7 @@
     "id": "za_rank_inf2_26",
     "trtype": "正义社",
     "trname": "可心",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雪妖女",
@@ -10851,7 +10851,7 @@
     "id": "za_rank_inf2_27",
     "trtype": "资深训练家",
     "trname": "纱友里",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "袋兽",
@@ -10920,7 +10920,7 @@
     "id": "za_rank_inf2_28",
     "trtype": "对战少女",
     "trname": "晶晶",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "艾路雷朵",
@@ -10989,7 +10989,7 @@
     "id": "za_rank_inf2_29",
     "trtype": "宝可梦收藏家",
     "trname": "库奥",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "超能妙喵",
@@ -11037,7 +11037,7 @@
     "id": "za_rank_inf2_30",
     "trtype": "宝可梦收藏家",
     "trname": "义雄",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "水伊布",
@@ -11105,7 +11105,7 @@
     "id": "za_rank_inf2_31",
     "trtype": "宝可梦收藏家",
     "trname": "悠作",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷丘",
@@ -11153,7 +11153,7 @@
     "id": "za_rank_inf2_32",
     "trtype": "快递员",
     "trname": "艾尔莎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "巨金怪",
@@ -11201,7 +11201,7 @@
     "id": "za_rank_inf2_33",
     "trtype": "快递员",
     "trname": "桃次郎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷电兽",
@@ -11249,7 +11249,7 @@
     "id": "za_rank_inf2_34",
     "trtype": "快递员",
     "trname": "马赛尔",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "电龙",
@@ -11297,7 +11297,7 @@
     "id": "za_rank_inf2_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "奈央",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "音波龙",
@@ -11366,7 +11366,7 @@
     "id": "za_rank_inf2_36",
     "trtype": "新闪焰队",
     "trname": "布顿",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "头巾混混",
@@ -11434,7 +11434,7 @@
     "id": "za_rank_inf2_37",
     "trtype": "新闪焰队",
     "trname": "布娇",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "烈箭鹰",
@@ -11503,7 +11503,7 @@
     "id": "za_rank_inf2_38",
     "trtype": "ＭＳＢＣ",
     "trname": "祈菈儿",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "皮可西",
@@ -11571,7 +11571,7 @@
     "id": "za_rank_inf2_39",
     "trtype": "ＭＳＢＣ",
     "trname": "西诺瓦",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "快龙",
@@ -11619,7 +11619,7 @@
     "id": "za_rank_inf2_40",
     "trtype": "ＭＳＢＣ",
     "trname": "美美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "芳香精",
@@ -11687,7 +11687,7 @@
     "id": "za_rank_inf3_01",
     "trtype": "慢跑者",
     "trname": "保罗",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "宝石海星",
@@ -11735,7 +11735,7 @@
     "id": "za_rank_inf3_02",
     "trtype": "游客",
     "trname": "洋琪",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "盔甲鸟",
@@ -11783,7 +11783,7 @@
     "id": "za_rank_inf3_03",
     "trtype": "对战少女",
     "trname": "莉莉可",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "列阵兵",
@@ -11831,7 +11831,7 @@
     "id": "za_rank_inf3_04",
     "trtype": "ＯＬ",
     "trname": "凯莉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "罗丝雷朵",
@@ -11879,7 +11879,7 @@
     "id": "za_rank_inf3_05",
     "trtype": "背包客",
     "trname": "晋丞",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "河马兽",
@@ -11927,7 +11927,7 @@
     "id": "za_rank_inf3_06",
     "trtype": "背包客",
     "trname": "芽衣",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "龙头地鼠",
@@ -11975,7 +11975,7 @@
     "id": "za_rank_inf3_07",
     "trtype": "工人",
     "trname": "典久",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大钢蛇",
@@ -12023,7 +12023,7 @@
     "id": "za_rank_inf3_08",
     "trtype": "工人",
     "trname": "大地",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "怪力",
@@ -12071,7 +12071,7 @@
     "id": "za_rank_inf3_09",
     "trtype": "学童",
     "trname": "千美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "掘地兔",
@@ -12119,7 +12119,7 @@
     "id": "za_rank_inf3_10",
     "trtype": "ＯＬ",
     "trname": "敦也",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "头巾混混",
@@ -12167,7 +12167,7 @@
     "id": "za_rank_inf3_11",
     "trtype": "灵异迷",
     "trname": "乔杰特",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "耿鬼",
@@ -12216,7 +12216,7 @@
     "id": "za_rank_inf3_12",
     "trtype": "背包客",
     "trname": "达米安",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "冰鬼护",
@@ -12265,7 +12265,7 @@
     "id": "za_rank_inf3_13",
     "trtype": "慢跑者",
     "trname": "俊介",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "黑鲁加",
@@ -12313,7 +12313,7 @@
     "id": "za_rank_inf3_14",
     "trtype": "慢跑者",
     "trname": "卡丽妮",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "火炎狮",
@@ -12361,7 +12361,7 @@
     "id": "za_rank_inf3_15",
     "trtype": "游客",
     "trname": "亚古拉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "喷火驼",
@@ -12430,7 +12430,7 @@
     "id": "za_rank_inf3_16",
     "trtype": "长袖和服少女",
     "trname": "麻衣子",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "胖甜妮",
@@ -12478,7 +12478,7 @@
     "id": "za_rank_inf3_17",
     "trtype": "司机",
     "trname": "亚齐姆",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "流氓鳄",
@@ -12526,7 +12526,7 @@
     "id": "za_rank_inf3_18",
     "trtype": "司机",
     "trname": "尤莉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "胡地",
@@ -12574,7 +12574,7 @@
     "id": "za_rank_inf3_19",
     "trtype": "学童",
     "trname": "克勤",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "阿利多斯",
@@ -12622,7 +12622,7 @@
     "id": "za_rank_inf3_20",
     "trtype": "ＯＬ",
     "trname": "琉美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷丘",
@@ -12670,7 +12670,7 @@
     "id": "za_rank_inf3_21",
     "trtype": "ＯＬ",
     "trname": "匠恩",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大针蜂",
@@ -12738,7 +12738,7 @@
     "id": "za_rank_inf3_22",
     "trtype": "游客",
     "trname": "真纪子",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "凯罗斯",
@@ -12786,7 +12786,7 @@
     "id": "za_rank_inf3_23",
     "trtype": "艺术家",
     "trname": "莉丽",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "双倍多多冰",
@@ -12855,7 +12855,7 @@
     "id": "za_rank_inf3_24",
     "trtype": "背包客",
     "trname": "真宵",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "光电伞蜥",
@@ -12903,7 +12903,7 @@
     "id": "za_rank_inf3_25",
     "trtype": "新星训练家",
     "trname": "真守",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "喷火龙",
@@ -12951,7 +12951,7 @@
     "id": "za_rank_inf3_26",
     "trtype": "ＯＬ",
     "trname": "莉卡",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "咚咚鼠",
@@ -12999,7 +12999,7 @@
     "id": "za_rank_inf3_27",
     "trtype": "长袖和服少女",
     "trname": "汐音",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "花洁夫人-1",
@@ -13047,7 +13047,7 @@
     "id": "za_rank_inf3_28",
     "trtype": "资深训练家",
     "trname": "凯萨琳",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "呆壳兽",
@@ -13116,7 +13116,7 @@
     "id": "za_rank_inf3_29",
     "trtype": "宝可梦收藏家",
     "trname": "尚恩",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "沙奈朵",
@@ -13164,7 +13164,7 @@
     "id": "za_rank_inf3_30",
     "trtype": "宝可梦收藏家",
     "trname": "源也",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "灰尘山",
@@ -13212,7 +13212,7 @@
     "id": "za_rank_inf3_31",
     "trtype": "宝可梦收藏家",
     "trname": "修史",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "冰雪巨龙",
@@ -13281,7 +13281,7 @@
     "id": "za_rank_inf3_32",
     "trtype": "快递员",
     "trname": "桃代",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "信使鸟",
@@ -13329,7 +13329,7 @@
     "id": "za_rank_inf3_33",
     "trtype": "快递员",
     "trname": "罗塞尼",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大比鸟",
@@ -13377,7 +13377,7 @@
     "id": "za_rank_inf3_34",
     "trtype": "快递员",
     "trname": "美星",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "坐骑山羊",
@@ -13425,7 +13425,7 @@
     "id": "za_rank_inf3_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "伊雅丝",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "差不多娃娃",
@@ -13493,7 +13493,7 @@
     "id": "za_rank_inf3_36",
     "trtype": "女服务生",
     "trname": "布妮吉特",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "掘地兔",
@@ -13561,7 +13561,7 @@
     "id": "za_rank_inf3_37",
     "trtype": "服务生",
     "trname": "弗洛伊",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "冷水猿",
@@ -13609,7 +13609,7 @@
     "id": "za_rank_inf3_38",
     "trtype": "富家少爷",
     "trname": "大智",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷电兽",
@@ -13657,7 +13657,7 @@
     "id": "za_rank_inf3_39",
     "trtype": "富家少爷",
     "trname": "利欧",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "坚盾剑怪",
@@ -13705,7 +13705,7 @@
     "id": "za_rank_inf3_40",
     "trtype": "千金小姐",
     "trname": "雪乃",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "长耳兔",
@@ -13753,7 +13753,7 @@
     "id": "za_rank_inf4_01",
     "trtype": "精英训练家",
     "trname": "时也",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "小碎钻",
@@ -13821,7 +13821,7 @@
     "id": "za_rank_inf4_02",
     "trtype": "精英训练家",
     "trname": "翔子",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大嘴娃",
@@ -13889,7 +13889,7 @@
     "id": "za_rank_inf4_03",
     "trtype": "警察",
     "trname": "美沙希",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "摔角鹰人",
@@ -13937,7 +13937,7 @@
     "id": "za_rank_inf4_04",
     "trtype": "正义社",
     "trname": "爱菜",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "南瓜怪人",
@@ -13985,7 +13985,7 @@
     "id": "za_rank_inf4_05",
     "trtype": "艺术家",
     "trname": "伊织",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "毒藻龙",
@@ -14033,7 +14033,7 @@
     "id": "za_rank_inf4_06",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "波士可多拉",
@@ -14081,7 +14081,7 @@
     "id": "za_rank_inf4_07",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "阿柏怪",
@@ -14129,7 +14129,7 @@
     "id": "za_rank_inf4_08",
     "trtype": "正义社",
     "trname": "瓦莱黎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "赫拉克罗斯",
@@ -14177,7 +14177,7 @@
     "id": "za_rank_inf4_09",
     "trtype": "学童",
     "trname": "宏武",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "飞天螳螂",
@@ -14225,7 +14225,7 @@
     "id": "za_rank_inf4_10",
     "trtype": "来电伍",
     "trname": "希典",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "泥巴鱼",
@@ -14273,7 +14273,7 @@
     "id": "za_rank_inf4_11",
     "trtype": "司机",
     "trname": "玛丘斯",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "七夕青鸟",
@@ -14321,7 +14321,7 @@
     "id": "za_rank_inf4_12",
     "trtype": "来电伍",
     "trname": "种罗",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "麻麻鳗鱼王",
@@ -14369,7 +14369,7 @@
     "id": "za_rank_inf4_13",
     "trtype": "新星训练家",
     "trname": "悟朗",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "妙蛙花",
@@ -14417,7 +14417,7 @@
     "id": "za_rank_inf4_14",
     "trtype": "精英训练家",
     "trname": "杰斯坦",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "龟足巨铠",
@@ -14486,7 +14486,7 @@
     "id": "za_rank_inf4_15",
     "trtype": "精英训练家",
     "trname": "仁美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "水箭龟",
@@ -14554,7 +14554,7 @@
     "id": "za_rank_inf4_16",
     "trtype": "警察",
     "trname": "圭佑",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "路卡利欧",
@@ -14602,7 +14602,7 @@
     "id": "za_rank_inf4_17",
     "trtype": "警察",
     "trname": "艾蜜莉",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大比鸟",
@@ -14671,7 +14671,7 @@
     "id": "za_rank_inf4_18",
     "trtype": "长袖和服少女",
     "trname": "华莲",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "钥圈儿",
@@ -14719,7 +14719,7 @@
     "id": "za_rank_inf4_19",
     "trtype": "灵异迷",
     "trname": "小祈",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "朽木妖",
@@ -14767,7 +14767,7 @@
     "id": "za_rank_inf4_20",
     "trtype": "学童",
     "trname": "诺艾美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "布里卡隆",
@@ -14835,7 +14835,7 @@
     "id": "za_rank_inf4_21",
     "trtype": "资深训练家",
     "trname": "萝莎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "甲贺忍蛙",
@@ -14903,7 +14903,7 @@
     "id": "za_rank_inf4_22",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "巨钳螳螂",
@@ -14951,7 +14951,7 @@
     "id": "za_rank_inf4_23",
     "trtype": "锈蚀组",
     "trname": "手下",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "大食花",
@@ -14999,7 +14999,7 @@
     "id": "za_rank_inf4_24",
     "trtype": "来电伍",
     "trname": "方斯",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "喷火驼",
@@ -15067,7 +15067,7 @@
     "id": "za_rank_inf4_25",
     "trtype": "正义社",
     "trname": "蓝木",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "恰雷姆",
@@ -15115,7 +15115,7 @@
     "id": "za_rank_inf4_26",
     "trtype": "正义社",
     "trname": "可心",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雪妖女",
@@ -15163,7 +15163,7 @@
     "id": "za_rank_inf4_27",
     "trtype": "资深训练家",
     "trname": "纱友里",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "袋兽",
@@ -15232,7 +15232,7 @@
     "id": "za_rank_inf4_28",
     "trtype": "对战少女",
     "trname": "晶晶",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "艾路雷朵",
@@ -15301,7 +15301,7 @@
     "id": "za_rank_inf4_29",
     "trtype": "宝可梦收藏家",
     "trname": "库奥",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "超能妙喵",
@@ -15349,7 +15349,7 @@
     "id": "za_rank_inf4_30",
     "trtype": "宝可梦收藏家",
     "trname": "义雄",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "水伊布",
@@ -15417,7 +15417,7 @@
     "id": "za_rank_inf4_31",
     "trtype": "宝可梦收藏家",
     "trname": "悠作",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷丘",
@@ -15465,7 +15465,7 @@
     "id": "za_rank_inf4_32",
     "trtype": "快递员",
     "trname": "艾尔莎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "巨金怪",
@@ -15513,7 +15513,7 @@
     "id": "za_rank_inf4_33",
     "trtype": "快递员",
     "trname": "桃次郎",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "雷电兽",
@@ -15561,7 +15561,7 @@
     "id": "za_rank_inf4_34",
     "trtype": "快递员",
     "trname": "马赛尔",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "电龙",
@@ -15609,7 +15609,7 @@
     "id": "za_rank_inf4_35",
     "trtype": "宝可梦中心前台姐姐",
     "trname": "奈央",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "音波龙",
@@ -15678,7 +15678,7 @@
     "id": "za_rank_inf4_36",
     "trtype": "新闪焰队",
     "trname": "布顿",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "头巾混混",
@@ -15746,7 +15746,7 @@
     "id": "za_rank_inf4_37",
     "trtype": "新闪焰队",
     "trname": "布娇",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "烈箭鹰",
@@ -15815,7 +15815,7 @@
     "id": "za_rank_inf4_38",
     "trtype": "ＭＳＢＣ",
     "trname": "祈菈儿",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "皮可西",
@@ -15883,7 +15883,7 @@
     "id": "za_rank_inf4_39",
     "trtype": "ＭＳＢＣ",
     "trname": "西诺瓦",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "快龙",
@@ -15931,7 +15931,7 @@
     "id": "za_rank_inf4_40",
     "trtype": "ＭＳＢＣ",
     "trname": "美美",
-    "rank": null,
+    "rank": "∞",
     "pokemon": [
       {
         "name": "芳香精",

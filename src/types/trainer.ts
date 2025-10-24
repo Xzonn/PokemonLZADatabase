@@ -27,5 +27,5 @@ export interface TrainerNormal extends TrainerBase {
 }
 
 export interface TrainerRoyale extends TrainerBase {
-  rank: string | null;
+  rank: string;
 }
