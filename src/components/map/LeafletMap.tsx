@@ -25,7 +25,6 @@ export class LeafletMap extends Component {
         L.latLng(-imageHeight / (1 << maxZoom), imageWidth / (1 << maxZoom)),
       ),
       maxBoundsViscosity: 0.5,
-      // @ts-ignore
       fullscreenControl: true,
     }).setView(L.latLng(-imageHeight / (1 << maxZoom) / 2, imageWidth / (1 << maxZoom) / 2), 0);
 
