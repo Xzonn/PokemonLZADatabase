@@ -23,5 +23,8 @@ export { default as RoyaleListPage } from "./RoyaleListPage";
 // 调查
 export { default as ResearchListPage } from "./ResearchListPage";
 
+// 任务
+export { default as SideMissionListPage } from "./SideMissionListPage";
+
 // 地图
 export { default as MapPage } from "./MapPage";

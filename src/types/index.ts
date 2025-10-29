@@ -5,4 +5,5 @@ export * from "./item";
 export * from "./trainer";
 export * from "./tm";
 export * from "./research";
+export * from "./mission";
 export * from "./other";

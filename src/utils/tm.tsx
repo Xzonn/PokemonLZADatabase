@@ -11,7 +11,11 @@ export const getTMMethod = (tm: TM): ReactNode => {
       </>
     );
   } else if (tm.sideMission) {
-    return <>副任务 {tm.sideMission}</>;
+    return (
+      <>
+        <Link to="/副任务一览">副任务</Link> #{tm.sideMission.toString().padStart(3, "0")}
+      </>
+    );
   } else if (tm.location) {
     return tm.location;
   }

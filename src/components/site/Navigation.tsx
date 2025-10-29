@@ -1,5 +1,6 @@
 import {
   BulbOutlined,
+  FileExclamationOutlined,
   FileSearchOutlined,
   // GlobalOutlined,
   HomeOutlined,
@@ -23,6 +24,7 @@ const navItems = [
   { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: <SortDescendingOutlined /> },
   { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: <FileSearchOutlined /> },
   // { path: "/密阿雷地图", label: "密阿雷地图", icon: <GlobalOutlined /> },
+  { path: "/副任务一览", label: "副任务一览", icon: <FileExclamationOutlined /> },
 ];
 
 export const Navigation: React.FC<{ onClick?: () => void }> = ({ onClick }) => {

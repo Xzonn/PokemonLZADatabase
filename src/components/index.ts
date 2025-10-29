@@ -10,6 +10,7 @@ export * from "./type";
 export * from "./tm";
 export * from "./trainer";
 export * from "./research";
+export * from "./mission";
 
 export * from "./map";
 

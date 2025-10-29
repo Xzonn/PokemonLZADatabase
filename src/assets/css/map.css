@@ -7,3 +7,8 @@
   max-width: 100%;
   margin: 0 auto;
 }
+
+.icon-side-mission {
+  background-image: url("../images/side-mission.png");
+  background-size: 100% auto;
+}
