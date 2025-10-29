@@ -22,3 +22,6 @@ export { default as RoyaleListPage } from "./RoyaleListPage";
 
 // 调查
 export { default as ResearchListPage } from "./ResearchListPage";
+
+// 地图
+export { default as MapPage } from "./MapPage";

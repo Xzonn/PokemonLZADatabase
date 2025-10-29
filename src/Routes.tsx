@@ -1,6 +1,7 @@
 import { Route, Routes as ReactRoutes } from "react-router-dom";
 
 import {
+  MapPage,
   MoveDetailPage,
   MoveListPage,
   NotFoundPage,
@@ -46,6 +47,10 @@ const Routes = () => (
     <Route
       path="/茉蜜姬调查"
       element={<ResearchListPage />}
+    />
+    <Route
+      path="/密阿雷地图"
+      element={<MapPage />}
     />
     <Route
       path="/p/:name"

@@ -1,5 +1,6 @@
 @import "@fontsource/nunito/index.css";
 @import "./fonts.css";
+@import "./map.css";
 
 @layer tailwind-base, antd;
 @layer tailwind-base {

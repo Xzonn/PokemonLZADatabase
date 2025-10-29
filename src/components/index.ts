@@ -11,5 +11,7 @@ export * from "./tm";
 export * from "./trainer";
 export * from "./research";
 
+export * from "./map";
+
 export * from "./search";
 export * from "./site";
