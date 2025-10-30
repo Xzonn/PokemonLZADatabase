@@ -1,12 +1,38 @@
 import { useRequest } from "ahooks";
 import { Button } from "antd";
-import L, { divIcon } from "leaflet";
-import { FC, Fragment, useMemo, useState } from "react";
+import { divIcon } from "leaflet";
+import { FC, Fragment, useState } from "react";
+import { Marker, Popup, useMap } from "react-leaflet";
 
-import { LeafletMap } from "../map";
+import { Map } from "../map";
 import { SideMissionTable } from "./SideMissionTable";
 
-import { onUseRequestError } from "@/utils";
+import { SideMission } from "@/types";
+import { MAP_CENTER, getCoord, onUseRequestError } from "@/utils";
+
+const SideMissionMapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
+  const map = useMap();
+
+  if (data?.length === 1) {
+    const mission = data[0];
+    map.setView(getCoord([mission.x, mission.y]), 2);
+  } else {
+    map.setView(getCoord(MAP_CENTER), 0);
+  }
+
+  return data?.map((mission) => (
+    <Marker
+      key={mission.index}
+      position={getCoord([mission.x, mission.y])}
+      icon={divIcon({
+        className: "icon-side-mission",
+        iconSize: [24, 24],
+      })}
+    >
+      <Popup>{`#${mission.index.toString().padStart(3, "0")} ${mission.name}`}</Popup>
+    </Marker>
+  ));
+};
 
 export const SideMissionList: FC = () => {
   const { data = null, loading } = useRequest(
@@ -20,40 +46,6 @@ export const SideMissionList: FC = () => {
   );
 
   const [active, setActive] = useState<number | null>(null);
-
-  const { layers, center, zoom } = useMemo(() => {
-    const layer = L.featureGroup();
-    const filteredData = active !== null ? data?.filter((mission) => mission.index === active) : data;
-
-    filteredData?.forEach((mission) => {
-      const marker = L.marker(L.latLng(-mission.y / 8, mission.x / 8), {
-        icon: divIcon({
-          className: "icon-side-mission",
-          iconSize: [24, 24],
-        }),
-      }).bindTooltip(`#${mission.index.toString().padStart(3, "0")} ${mission.name}`, {
-        direction: "top",
-        offset: [0, -10],
-      });
-      marker.addTo(layer);
-    });
-    const layers = {
-      sideMission: {
-        group: layer,
-        name: "副任务",
-        show: true,
-      },
-    };
-    const center =
-      filteredData?.length === 1 ? ([filteredData[0].x / 8, filteredData[0].y / 8] as [number, number]) : undefined;
-    const zoom = filteredData?.length === 1 ? 2 : undefined;
-
-    return {
-      layers,
-      center,
-      zoom,
-    };
-  }, [data, active]);
 
   return (
     <Fragment key="side-mission-list">
@@ -71,12 +63,21 @@ export const SideMissionList: FC = () => {
             重置筛选
           </Button>
         </div>
-        <LeafletMap
-          loading={loading}
-          layers={layers}
-          center={center}
-          zoom={zoom}
-        />
+        <Map loading={loading}>
+          {data ? (
+            <SideMissionMapLayer data={active !== null ? data.filter((mission) => mission.index === active) : data} />
+          ) : null}
+        </Map>
+        <p className="text-center indent-0">
+          地点坐标参考自：
+          <a
+            href="https://www.serebii.net/pokearth/lumiosecity/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Serebii.net
+          </a>
+        </p>
       </div>
 
       <div className="block">

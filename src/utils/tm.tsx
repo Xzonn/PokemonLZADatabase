@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import { Link } from "@/components/Link";
 import { TM } from "@/types";
 
-export const getTMMethod = (tm: TM): ReactNode => {
+export const getTMMethod = (tm: TM, onClick?: () => void): ReactNode => {
   if (tm.researchLevel) {
     return (
       <>
@@ -17,7 +17,16 @@ export const getTMMethod = (tm: TM): ReactNode => {
       </>
     );
   } else if (tm.location) {
-    return tm.location;
+    return (
+      <>
+        <Link
+          to={onClick ? "" : "/招式学习器一览"}
+          onClick={onClick}
+        >
+          {tm.location}
+        </Link>
+      </>
+    );
   }
   return "—";
 };

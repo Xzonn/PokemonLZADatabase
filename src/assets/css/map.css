@@ -1,11 +1,18 @@
 @import "leaflet/dist/leaflet.css";
 @import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
 
+@tailwind utilities;
+
 .map {
-  width: 512px;
-  height: 512px;
-  max-width: 100%;
-  margin: 0 auto;
+  @apply w-[512px] h-[512px] max-w-full mx-auto my-2;
+}
+
+.leaflet-control-container {
+  user-select: none;
+}
+
+svg.leaflet-attribution-flag {
+  display: none !important;
 }
 
 .icon-side-mission {

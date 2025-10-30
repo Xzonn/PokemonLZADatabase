@@ -7,6 +7,9 @@ export interface TM {
   researchLevel: number | null;
   sideMission: number | null;
   location: string | null;
+  x: number | null;
+  y: number | null;
+  z: number | null;
 }
 
 export interface TMMove extends TM, Move {

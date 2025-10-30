@@ -6,4 +6,5 @@ export * from "./trainer";
 export * from "./tm";
 export * from "./research";
 export * from "./mission";
+export * from "./map";
 export * from "./other";
