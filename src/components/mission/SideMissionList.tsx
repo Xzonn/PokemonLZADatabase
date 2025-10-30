@@ -1,4 +1,5 @@
 import { useRequest } from "ahooks";
+import { Button } from "antd";
 import L, { divIcon } from "leaflet";
 import { FC, Fragment, useMemo, useState } from "react";
 
@@ -20,7 +21,7 @@ export const SideMissionList: FC = () => {
 
   const [active, setActive] = useState<number | null>(null);
 
-  const layers = useMemo(() => {
+  const { layers, center, zoom } = useMemo(() => {
     const layer = L.featureGroup();
     const filteredData = active !== null ? data?.filter((mission) => mission.index === active) : data;
 
@@ -43,8 +44,15 @@ export const SideMissionList: FC = () => {
         show: true,
       },
     };
+    const center =
+      filteredData?.length === 1 ? ([filteredData[0].x / 8, filteredData[0].y / 8] as [number, number]) : undefined;
+    const zoom = filteredData?.length === 1 ? 2 : undefined;
 
-    return layers;
+    return {
+      layers,
+      center,
+      zoom,
+    };
   }, [data, active]);
 
   return (
@@ -54,10 +62,20 @@ export const SideMissionList: FC = () => {
       </div>
 
       <div className="block">
-        <h2>地图</h2>
+        <h2 id="地图">地图</h2>
+        <div className="flex justify-center mb-2">
+          <Button
+            onClick={() => setActive(null)}
+            disabled={loading || active === null}
+          >
+            重置筛选
+          </Button>
+        </div>
         <LeafletMap
           loading={loading}
           layers={layers}
+          center={center}
+          zoom={zoom}
         />
       </div>
 

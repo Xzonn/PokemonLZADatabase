@@ -17,15 +17,22 @@ interface LayerInfo {
 }
 type Layers = Record<string, LayerInfo>;
 
-export class LeafletMap extends Component<{ loading?: boolean; layers?: Layers }> {
+export interface LeafletMapProps {
+  loading?: boolean;
+  layers?: Layers;
+  center?: [number, number];
+  zoom?: number;
+}
+
+export class LeafletMap extends Component<LeafletMapProps> {
   mapContainer = createRef<HTMLDivElement>();
   mapInstance: L.Map | null = null;
   boundary: [number, number] = [0, 0];
 
   componentDidMount() {
     const { imageWidth, imageHeight, tileSize, maxZoom } = MAP_CONFIG;
-    const { layers = {} } = this.props;
     const [boundaryWidth, boundaryHeight] = [imageWidth / (1 << maxZoom), imageHeight / (1 << maxZoom)];
+    const { layers = {}, center = [boundaryWidth / 2, boundaryHeight / 2], zoom = 0 } = this.props;
     this.boundary = [boundaryWidth, boundaryHeight];
 
     this.mapInstance = L.map(this.mapContainer.current!, {
@@ -35,7 +42,7 @@ export class LeafletMap extends Component<{ loading?: boolean; layers?: Layers }
       maxBounds: new L.LatLngBounds(L.latLng(0, 0), L.latLng(-boundaryHeight, boundaryWidth)),
       maxBoundsViscosity: 0.5,
       fullscreenControl: true,
-    }).setView(L.latLng(-boundaryHeight / 2, boundaryWidth / 2), 0);
+    }).setView(L.latLng(-center[1], center[0]), zoom);
 
     L.tileLayer("{path}", {
       path: function ({ x, y, z }: { x: number; y: number; z: number }) {
@@ -55,20 +62,29 @@ export class LeafletMap extends Component<{ loading?: boolean; layers?: Layers }
       });
   }
 
-  componentDidUpdate(prevProps: Readonly<{ layers: Layers }>): void {
-    const { layers = {} } = this.props;
+  componentDidUpdate(prevProps: Readonly<LeafletMapProps>): void {
+    const { layers = {}, center = [this.boundary[0] / 2, this.boundary[1] / 2], zoom = 0 } = this.props;
     if (this.mapInstance) {
-      const { layers: prevLayers = {} } = prevProps;
-      Object.values(prevLayers)
-        .filter((layer) => layer.show)
-        .forEach((layer) => {
-          layer.group.removeFrom(this.mapInstance!);
-        });
-      Object.values(layers)
-        .filter((layer) => layer.show)
-        .forEach((layer) => {
-          layer.group.addTo(this.mapInstance!);
-        });
+      const {
+        layers: prevLayers = {},
+        center: prevCenter = [this.boundary[0] / 2, this.boundary[1] / 2],
+        zoom: prevZoom = 0,
+      } = prevProps;
+      if (!Object.is(prevLayers, layers)) {
+        Object.values(prevLayers)
+          .filter((layer) => layer.show)
+          .forEach((layer) => {
+            layer.group.removeFrom(this.mapInstance!);
+          });
+        Object.values(layers)
+          .filter((layer) => layer.show)
+          .forEach((layer) => {
+            layer.group.addTo(this.mapInstance!);
+          });
+      }
+      if (center.some((item, index) => item !== prevCenter[index]) || zoom !== prevZoom) {
+        this.mapInstance.setView(L.latLng(-center[1], center[0]), zoom);
+      }
     }
   }
 

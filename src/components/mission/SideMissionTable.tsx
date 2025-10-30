@@ -1,8 +1,8 @@
 import { Table, TableColumnType } from "antd";
-import { Link } from "react-router-dom";
 
 import { ItemCell } from "../item/ItemCell";
 
+import { Link } from "@/components";
 import { ItemDataByName } from "@/data";
 import { SideMission } from "@/types";
 import { TableCommonProps } from "@/utils";
@@ -17,7 +17,13 @@ const getColumns = (setActive: (index: number | null) => void): TableColumnType<
     dataIndex: "name",
     render: (name, row) => (
       <Link
-        onClick={() => setActive(row.index)}
+        onClick={() => {
+          setActive(row.index);
+          document.querySelector("#地图")?.scrollIntoView({
+            block: "start",
+            behavior: "smooth",
+          });
+        }}
         to={""}
       >
         {name}
@@ -38,9 +44,9 @@ const getColumns = (setActive: (index: number | null) => void): TableColumnType<
     dataIndex: "items",
     render: (items: { item: string; number: number }[]) => (
       <div className="flex flex-col gap-2">
-        {items.map((item) => (
+        {items.map((item, index) => (
           <div
-            key={item.item}
+            key={index}
             className="flex items-center gap-2"
           >
             <ItemCell item={ItemDataByName[item.item]} />

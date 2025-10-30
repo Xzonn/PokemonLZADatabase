@@ -13,7 +13,7 @@ export interface IItemIconProps {
   link?: boolean;
 }
 
-export const ItemIconWithoutTooltip: React.FC<IItemIconProps> = ({ item, size = 20, className = "", link = false }) => {
+export const ItemIconWithoutTooltip: React.FC<IItemIconProps> = ({ item, size = 22, className = "", link = false }) => {
   const realItem = item ?? ItemDataByName["无"];
   const { x, y } = realItem;
 
