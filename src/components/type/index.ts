@@ -1,2 +1,1 @@
-export * from "./TypeDetail";
-export * from "./TypeIcon";
+export * from "./TypeEffects";

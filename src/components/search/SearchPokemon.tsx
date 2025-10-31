@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { PokemonIcon } from "../pokemon/PokemonIcon";
 
 import { Pokemon } from "@/types";
-import { getPokemonFullName, renderTypes } from "@/utils";
+import { TypeIcons, getPokemonFullName } from "@/utils";
 
 export const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> = ({ result, onClick }) => (
   <Link
@@ -19,7 +19,10 @@ export const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> =
     <div>
       <div className="pokemon-name-line">
         <div className="pokemon-name">{result.name}</div>
-        {renderTypes(result.types, false)}
+        <TypeIcons
+          types={result.types}
+          link={false}
+        />
       </div>
       <div className="pokemon-form">{result.formName}</div>
     </div>

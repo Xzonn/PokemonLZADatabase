@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 
-import { Link } from "@/components/Link";
+import { Link } from "./components";
+
 import { TM } from "@/types";
 
 export const getTMMethod = (tm: TM, onClick?: () => void): ReactNode => {

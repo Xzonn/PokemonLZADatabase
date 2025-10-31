@@ -2,11 +2,11 @@ import React, { useEffect } from "react";
 
 import { PokemonTable } from "@/components";
 import { PokemonData } from "@/data";
-import { DefaultTitle } from "@/utils";
+import { DEFAULT_TITLE } from "@/utils";
 
 const HomePage: React.FC = () => {
   useEffect(() => {
-    document.title = `宝可梦一览 - ${DefaultTitle}`;
+    document.title = `宝可梦一览 - ${DEFAULT_TITLE}`;
   }, []);
 
   return (

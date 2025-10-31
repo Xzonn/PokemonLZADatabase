@@ -1,10 +1,9 @@
 import React from "react";
 
-import { Link } from "../Link";
 import { PokemonIcon } from "./PokemonIcon";
 
 import { Pokemon } from "@/types";
-import { getPokemonFullName } from "@/utils";
+import { Link, getPokemonFullName } from "@/utils";
 
 export const PokemonCell: React.FC<{ pokemon?: Pokemon }> = ({ pokemon }) =>
   pokemon ? (

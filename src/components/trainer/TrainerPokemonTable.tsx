@@ -1,14 +1,13 @@
 import { Popover, Table, TableColumnsType } from "antd";
 
-import { TypeEffectiveness } from "../TypeEffects";
 import { ItemIcon } from "../item/ItemIcon";
 import { MoveLink } from "../move/MoveLink";
 import { PokemonCell } from "../pokemon/PokemonCell";
-import { TypeIcons } from "../type";
+import { TypeEffects } from "../type/TypeEffects";
 
 import { ItemDataByName, MoveDataByName, PokemonDataByName } from "@/data";
 import { TrainerPokemon, TrainerPokemonMove } from "@/types";
-import { TableCommonProps } from "@/utils";
+import { TableCommonProps, TypeIcons } from "@/utils";
 
 const pokemonColumns: TableColumnsType<TrainerPokemon> = [
   {
@@ -24,7 +23,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     render: (_, row) => (
       <Popover
         title="属性相克"
-        content={<TypeEffectiveness types={PokemonDataByName[row.name].types} />}
+        content={<TypeEffects types={PokemonDataByName[row.name].types} />}
       >
         <>
           <TypeIcons types={PokemonDataByName[row.name].types} />

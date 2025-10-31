@@ -1,7 +1,7 @@
 import { Descriptions, DescriptionsProps } from "antd";
 
-import { EPokemonType, PokemonType } from "../types";
-import { DescriptionsCommonProps, calculateEffects, renderType } from "../utils";
+import { EPokemonType, PokemonType } from "@/types";
+import { DescriptionsCommonProps, TypeIcon, calculateEffects } from "@/utils";
 
 const effectivenessMap: Record<number, string> = {
   0: "effect-0",
@@ -16,13 +16,10 @@ const renderEffectiveness = (effectiveness: number) => (
   <span className={effectivenessMap[effectiveness]}>{effectiveness}</span>
 );
 
-export const TypeEffectiveness: React.FC<{ types: PokemonType[]; isAttack?: boolean }> = ({
-  types,
-  isAttack = false,
-}) => {
+export const TypeEffects: React.FC<{ types: PokemonType[]; isAttack?: boolean }> = ({ types, isAttack = false }) => {
   const effectiveness = calculateEffects(types, isAttack);
   const items: DescriptionsProps["items"] = EPokemonType.map((type) => ({
-    label: renderType(type),
+    label: <TypeIcon type={type} />,
     key: type,
     children: renderEffectiveness(effectiveness[type]),
   }));

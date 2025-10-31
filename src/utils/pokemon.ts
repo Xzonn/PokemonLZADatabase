@@ -71,7 +71,7 @@ export const getEvolutionCondition = (evolution: Evolution): string => {
     case 27:
       return "雪山附近、等级提升";
     case 28:
-      return "倒置主机、等级提升";
+      return "倒置主机、在宝可梦列表中选择“进化”";
     case 29:
       return `友好度158以上、习得${EPokemonType[evolution.argument]}属性招式、等级提升`;
     case 30:

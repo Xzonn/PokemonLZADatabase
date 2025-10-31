@@ -1,14 +1,40 @@
-import React, { useEffect } from "react";
+import { useRequest } from "ahooks";
+import React, { Fragment, useEffect } from "react";
 
-import { TrainerList } from "@/components";
-import { DefaultTitle } from "@/utils";
+import { NormalTrainerTable } from "@/components";
+import { TrainerNormal } from "@/types";
+import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
 
 const TrainerListPage: React.FC = () => {
   useEffect(() => {
-    document.title = `训练家一览 - ${DefaultTitle}`;
+    document.title = `训练家一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  return <TrainerList />;
+  const { data = null, loading } = useRequest(
+    async () => {
+      const realData = await import(`@/data/tr/normal.json`).then((mod) => mod.default);
+      return realData as TrainerNormal[];
+    },
+    {
+      onError: onUseRequestError,
+    },
+  );
+
+  return (
+    <Fragment key="pokemon-list">
+      <div className="block">
+        <h1>训练家一览</h1>
+      </div>
+
+      <div className="block">
+        <p>点击每行的“＋”可以查看宝可梦详情。</p>
+        <NormalTrainerTable
+          loading={loading}
+          data={data || []}
+        />
+      </div>
+    </Fragment>
+  );
 };
 
 export default TrainerListPage;

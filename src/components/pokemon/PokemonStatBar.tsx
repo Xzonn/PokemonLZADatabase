@@ -6,7 +6,7 @@ interface StatBarProps {
   maxValue?: number;
 }
 
-export const StatBar: React.FC<StatBarProps> = ({ name, value, maxValue = 255 }) => {
+export const PokemonStatBar: React.FC<StatBarProps> = ({ name, value, maxValue = 255 }) => {
   const percentage = Math.min((value / maxValue) * 100, 100);
 
   return (

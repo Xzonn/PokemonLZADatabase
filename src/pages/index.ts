@@ -25,6 +25,3 @@ export { default as ResearchListPage } from "./ResearchListPage";
 
 // 任务
 export { default as SideMissionListPage } from "./SideMissionListPage";
-
-// 地图
-export { default as MapPage } from "./MapPage";

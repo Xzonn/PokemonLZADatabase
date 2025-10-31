@@ -3,7 +3,7 @@ import { ColumnFilterItem } from "antd/es/table/interface";
 
 import { EMoveCategory, EPokemonType, MoveCategory } from "@/types";
 
-export const DefaultTitle = "宝可梦传说 Z-A 数据库";
+export const DEFAULT_TITLE = "宝可梦传说 Z-A 数据库";
 
 export const renderCategory = (category: MoveCategory) => (
   <span className={`badge-category bg-${category}`}>{category}</span>
@@ -45,6 +45,8 @@ export const renderMoveLevel = (level: number): string => {
   switch (level) {
     case 1:
       return "—";
+    case -2:
+      return "回忆";
     case -3:
       return "进化";
     default:

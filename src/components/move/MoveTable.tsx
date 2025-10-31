@@ -1,12 +1,18 @@
 import { Popover, Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
-import { Link } from "../Link";
-import { TypeEffectiveness } from "../TypeEffects";
-import { TypeIcon } from "../type";
+import { TypeEffects } from "../type/TypeEffects";
 
 import { Move } from "@/types";
-import { MoveCategoryFilters, PaginationConfig, PokemonTypeFilters, TableCommonProps, renderCategory } from "@/utils";
+import {
+  Link,
+  MoveCategoryFilters,
+  PaginationConfig,
+  PokemonTypeFilters,
+  TableCommonProps,
+  TypeIcon,
+  renderCategory,
+} from "@/utils";
 
 const columns: TableColumnsType<Move> = [
   {
@@ -28,7 +34,7 @@ const columns: TableColumnsType<Move> = [
       <Popover
         title="属性相克"
         content={
-          <TypeEffectiveness
+          <TypeEffects
             types={[type]}
             isAttack
           />

@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { PokemonCell } from "./PokemonCell";
 
 import { Pokemon, PokemonType } from "@/types";
-import { PaginationConfig, PokemonTypeFilters, TableCommonProps, getPokemonFullId, renderTypes } from "@/utils";
+import { PaginationConfig, PokemonTypeFilters, TableCommonProps, TypeIcons, getPokemonFullId } from "@/utils";
 
 const columns: TableColumnsType<Pokemon> = [
   {
@@ -34,7 +34,7 @@ const columns: TableColumnsType<Pokemon> = [
   {
     title: "属性",
     dataIndex: "types",
-    render: (types) => renderTypes(types),
+    render: (types) => <TypeIcons types={types} />,
     filters: PokemonTypeFilters,
     onFilter: (value, record) => record.types.includes(value as PokemonType),
   },

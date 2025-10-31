@@ -13,7 +13,7 @@ import cn from "classnames";
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-import { Link } from "../Link";
+import { Link } from "@/utils";
 
 const navItems = [
   { path: "/", label: "首页", icon: <HomeOutlined /> },

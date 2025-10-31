@@ -1,1 +1,2 @@
-export * from "./ResearchList";
+export * from "./ResearchRewardTable";
+export * from "./ResearchTable";

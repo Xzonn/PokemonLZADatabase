@@ -1,4 +1,5 @@
-import { Link } from "@/components/Link";
+import { Link } from "./Link";
+
 import { PokemonType } from "@/types";
 
 export const TypeIcon: React.FC<{ type: PokemonType; link?: boolean }> = ({ type, link = true }) =>

@@ -1,1 +1,1 @@
-export * from "./SideMissionList";
+export * from "./SideMissionTable";

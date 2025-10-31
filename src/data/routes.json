@@ -1,0 +1,13 @@
+{
+  "/": "PokemonListPage",
+  "/招式一览": "MoveListPage",
+  "/招式学习器一览": "TMListPage",
+  "/训练家一览": "TrainerListPage",
+  "/ＺＡ登峰战": "RoyaleListPage",
+  "/茉蜜姬调查": "ResearchListPage",
+  "/副任务一览": "SideMissionListPage",
+  "/p/:name": "PokemonDetailPage",
+  "/m/:name": "MoveDetailPage",
+  "/t/:name": "TypeDetailPage",
+  "*": "NotFoundPage"
+}

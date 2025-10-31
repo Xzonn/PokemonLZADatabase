@@ -2,10 +2,9 @@ import { Table, TableColumnType } from "antd";
 
 import { ItemCell } from "../item/ItemCell";
 
-import { Link } from "@/components";
 import { ItemDataByName } from "@/data";
 import { SideMission } from "@/types";
-import { TableCommonProps } from "@/utils";
+import { Link, TableCommonProps } from "@/utils";
 
 const getColumns = (setActive: (index: number | null) => void): TableColumnType<SideMission>[] => [
   {

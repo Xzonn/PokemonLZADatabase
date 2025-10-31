@@ -1,16 +1,143 @@
-import React from "react";
+import { useRequest } from "ahooks";
+import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
+import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
 import NotFoundPage from "./NotFoundPage";
 
-import { MoveDetail } from "@/components";
-import { MoveDataByName } from "@/data";
+import { PokemonTable, TMDetail } from "@/components";
+import { MoveDataByName, PokemonDataById } from "@/data";
+import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
+import {
+  DEFAULT_TITLE,
+  DescriptionsCommonProps,
+  TypeIcon,
+  onUseRequestError,
+  renderCategory,
+  renderMoveLevel,
+} from "@/utils";
+
+const columnsLevelUp: TableColumnsType<Pokemon & PokemonLevelUp> = [
+  {
+    title: "等级",
+    dataIndex: "level",
+    render: renderMoveLevel,
+    sorter: (a, b) => a.level - b.level,
+  },
+];
+
+const getDescriptions = (move: Move): DescriptionsProps["items"] => [
+  {
+    key: "type",
+    label: "属性",
+    children: <TypeIcon type={move.type} />,
+  },
+  {
+    key: "category",
+    label: "分类",
+    children: renderCategory(move.category),
+  },
+  {
+    key: "power",
+    label: "威力",
+    children: move.category === "变化" ? "—" : move.power || "—",
+  },
+  {
+    key: "wait",
+    label: "等待时间",
+    children: move.wait || "—",
+  },
+  {
+    key: "description",
+    label: "招式描述",
+    children: move.description,
+  },
+];
+
+const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
+  useEffect(() => {
+    document.title = `${move.name} - ${DEFAULT_TITLE}`;
+  }, [move]);
+
+  const { data: moveFull = null, loading } = useRequest(
+    async () => {
+      const realData = await import(`@/data/m/${move.id.toString().padStart(3, "0")}.json`).then((mod) => mod.default);
+      return realData as MoveFull;
+    },
+    {
+      refreshDeps: [move],
+      onError: onUseRequestError,
+    },
+  );
+
+  const pokemonLevelUp = useMemo(
+    () =>
+      moveFull?.pokemonLevelUp
+        .filter((pokemon) => PokemonDataById[pokemon.fullId])
+        .map((pokemon) => ({
+          ...pokemon,
+          ...PokemonDataById[pokemon.fullId],
+        }))
+        .filter(Boolean),
+    [moveFull],
+  );
+  const pokemonTM = useMemo(
+    () =>
+      moveFull?.pokemonTM
+        .filter((pokemon) => PokemonDataById[pokemon.fullId])
+        .map((pokemon) => ({
+          ...pokemon,
+          ...PokemonDataById[pokemon.fullId],
+        }))
+        .filter(Boolean),
+    [moveFull],
+  );
+
+  return (
+    <Fragment key="move">
+      <div className="block">
+        <h1>{move.name}</h1>
+        <div className="flex justify-center space-x-2 mb-6 text-xl text-gray-600">
+          <div lang="ja">{move.japanese}</div>
+          <div>{move.english}</div>
+        </div>
+      </div>
+
+      <div className="block">
+        <h3>基本信息</h3>
+        <Descriptions
+          items={getDescriptions(move)}
+          {...DescriptionsCommonProps}
+        />
+      </div>
+
+      <div className="block">
+        <h2>等级提升</h2>
+        <PokemonTable<PokemonLevelUp>
+          loading={loading}
+          data={pokemonLevelUp}
+          extraColumns={columnsLevelUp}
+        />
+      </div>
+      {(pokemonTM?.length || 0) > 0 ? (
+        <div className="block">
+          <h2>招式学习器</h2>
+          <TMDetail move={move.name} />
+          <PokemonTable
+            loading={loading}
+            data={pokemonTM}
+          />
+        </div>
+      ) : null}
+    </Fragment>
+  );
+};
 
 const MoveDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   const move = MoveDataByName[name || ""];
 
-  return move ? <MoveDetail data={move} /> : <NotFoundPage />;
+  return move ? <MoveDetailPageCore data={move} /> : <NotFoundPage />;
 };
 
 export default MoveDetailPage;

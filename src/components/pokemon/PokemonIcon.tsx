@@ -1,10 +1,8 @@
 import cn from "classnames";
 import React from "react";
 
-import { Link } from "../Link";
-
 import { Pokemon } from "@/types";
-import { getPokemonFullName } from "@/utils";
+import { Link, getPokemonFullName } from "@/utils";
 
 export interface IPokemonIconProps {
   pokemon: Pokemon;

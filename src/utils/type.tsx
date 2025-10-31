@@ -1,4 +1,5 @@
-import { TypeIcon, TypeIcons } from "@/components/type/TypeIcon";
+import { TypeIcon, TypeIcons } from "./components";
+
 import { EPokemonType, PokemonType } from "@/types";
 
 /** @deprecated */

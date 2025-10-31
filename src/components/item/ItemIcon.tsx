@@ -1,10 +1,9 @@
 import { Tooltip } from "antd";
 import cn from "classnames";
 
-import { Link } from "../Link";
-
 import { ItemDataByName } from "@/data";
 import { Item } from "@/types";
+import { Link } from "@/utils";
 
 export interface IItemIconProps {
   item?: Item;
