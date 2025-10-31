@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Routes from "@/Routes";
-import { Footer, Header, Notice, ScrollToTop, Sidebar } from "@/components";
+import { Footer, Header, Notice, ScrollToTop, Sidebar, TableOfContents } from "@/components";
 
 const App: React.FC = () => (
   <Router>
@@ -12,7 +12,7 @@ const App: React.FC = () => (
     <Notice />
     <div className="md:flex relative flex-1">
       <Sidebar />
-      <main className="flex-1 p-0 sm:px-2 lg:px-4 sm:py-8">
+      <main className="flex-1 p-0 sm:px-2 lg:px-4 sm:py-8 lg:mr-64">
         <div className="bg-white sm:rounded-2xl sm:shadow-xl">
           <Routes />
           <div className="giscus block">
@@ -33,7 +33,7 @@ const App: React.FC = () => (
           </div>
         </div>
       </main>
-      {/* <TableOfContents /> */}
+      <TableOfContents />
     </div>
     <Footer />
   </Router>

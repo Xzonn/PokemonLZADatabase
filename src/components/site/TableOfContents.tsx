@@ -15,16 +15,24 @@ export const TableOfContents: React.FC = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // 扫描页面中的标题元素
-    const headings = document.querySelectorAll("h1, h2, h3, h4");
+    // 扫描页面中的 h2 标题元素
+    const headings = document.querySelectorAll("main h2");
     const items: TocItem[] = [];
 
     headings.forEach((heading) => {
+      // 如果没有 id，自动生成一个
+      if (!heading.id) {
+        const id = heading.textContent?.trim().replace(/\s+/g, "-") || "";
+        if (id) {
+          heading.id = id;
+        }
+      }
+
       if (heading.id) {
         items.push({
           id: heading.id,
           title: heading.textContent || "",
-          level: parseInt(heading.tagName.substring(1)),
+          level: 2,
         });
       }
     });
@@ -87,22 +95,19 @@ export const TableOfContents: React.FC = () => {
           fixed top-16 right-0 h-[calc(100vh-4rem)] w-64 bg-white shadow-lg z-40
           transform transition-transform duration-300 ease-in-out overflow-y-auto
           ${isOpen ? "translate-x-0" : "translate-x-full"}
-          lg:translate-x-0 lg:sticky lg:top-20
+          lg:translate-x-0 lg:sticky lg:top-20 lg:h-[calc(100vh-5rem)]
         `}
       >
         <nav className="p-4">
           <h3 className="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-4">目录</h3>
           <ul className="space-y-2">
             {tocItems.map((item) => (
-              <li
-                key={item.id}
-                style={{ paddingLeft: `${(item.level - 1) * 12}px` }}
-              >
+              <li key={item.id}>
                 <button
                   onClick={() => scrollToHeading(item.id)}
                   className={`
                     text-left w-full px-3 py-2 rounded-lg text-sm transition-colors
-                    ${activeId === item.id ? "bg-primary text-white font-semibold" : "text-gray-700 hover:bg-gray-100"}
+                    ${activeId === item.id ? "bg-blue-500 text-white font-semibold" : "text-gray-700 hover:bg-gray-100"}
                   `}
                 >
                   {item.title}
