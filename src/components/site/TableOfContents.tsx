@@ -18,14 +18,33 @@ export const TableOfContents: React.FC = () => {
     // 扫描页面中的 h2 标题元素
     const headings = document.querySelectorAll("main h2");
     const items: TocItem[] = [];
+    const usedIds = new Set<string>();
 
     headings.forEach((heading) => {
       // 如果没有 id，自动生成一个
       if (!heading.id) {
-        const id = heading.textContent?.trim().replace(/\s+/g, "-") || "";
-        if (id) {
-          heading.id = id;
+        // 清理文本内容，创建有效的 HTML ID
+        let id =
+          heading.textContent
+            ?.trim()
+            .toLowerCase()
+            .replace(/[^\w\u4e00-\u9fa5]+/g, "-") // 保留中文字符
+            .replace(/^-+|-+$/g, "") || "";
+
+        // 确保 ID 唯一
+        let uniqueId = id;
+        let counter = 1;
+        while (usedIds.has(uniqueId)) {
+          uniqueId = `${id}-${counter}`;
+          counter++;
         }
+
+        if (uniqueId) {
+          heading.id = uniqueId;
+          usedIds.add(uniqueId);
+        }
+      } else {
+        usedIds.add(heading.id);
       }
 
       if (heading.id) {
@@ -107,7 +126,7 @@ export const TableOfContents: React.FC = () => {
                   onClick={() => scrollToHeading(item.id)}
                   className={`
                     text-left w-full px-3 py-2 rounded-lg text-sm transition-colors
-                    ${activeId === item.id ? "bg-blue-500 text-white font-semibold" : "text-gray-700 hover:bg-gray-100"}
+                    ${activeId === item.id ? "bg-primary text-white font-semibold" : "text-gray-700 hover:bg-gray-100"}
                   `}
                 >
                   {item.title}
