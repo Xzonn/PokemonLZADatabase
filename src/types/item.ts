@@ -4,4 +4,5 @@ export interface Item {
   x: number;
   y: number;
   move: string | null;
+  page: string | null;
 }

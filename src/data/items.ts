@@ -14,6 +14,7 @@ export const ItemData = lines.slice(1).map((line) => {
     x: parseInt(dict["X"], 10),
     y: parseInt(dict["Y"], 10),
     move: dict["招式"] || null,
+    page: dict["页面"] || null,
   };
   return item;
 });
