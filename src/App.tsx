@@ -3,7 +3,7 @@ import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Routes from "@/Routes";
-import { Footer, Header, Notice, ScrollToTop, Sidebar } from "@/components";
+import { Footer, Header, Notice, ScrollToTop, Sidebar, TableOfContents } from "@/components";
 
 const App: React.FC = () => (
   <Router>
@@ -33,6 +33,7 @@ const App: React.FC = () => (
           </div>
         </div>
       </main>
+      <TableOfContents />
     </div>
     <Footer />
   </Router>
