@@ -137,15 +137,15 @@ export const TableOfContents: React.FC = () => {
 
   return (
     <>
-      {/* 桌面端：右侧吸顶目录 */}
-      <aside className="w-64 px-4 py-8 z-40 hidden xl:block">
+      {/* 桌面端：左侧吸顶目录，在导航栏下方 */}
+      <aside className="w-64 px-4 py-0 pb-8 z-40">
         <nav className="p-4 bg-white rounded-2xl shadow-xl sticky top-8">
           <TocContent />
         </nav>
       </aside>
 
       {/* 移动端：悬浮按钮和抽屉 */}
-      <div className="xl:hidden">
+      <div className="md:hidden fixed z-50">
         <FloatButton
           icon={<MenuOutlined />}
           type="primary"

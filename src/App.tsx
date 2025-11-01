@@ -11,7 +11,10 @@ const App: React.FC = () => (
     <Header />
     <Notice />
     <div className="md:flex relative flex-1">
-      <Sidebar />
+      <div className="hidden md:block">
+        <Sidebar />
+        <TableOfContents />
+      </div>
       <main className="flex-1 p-0 sm:px-2 lg:px-4 sm:py-8">
         <div className="bg-white sm:rounded-2xl sm:shadow-xl">
           <Routes />
@@ -33,7 +36,6 @@ const App: React.FC = () => (
           </div>
         </div>
       </main>
-      <TableOfContents />
     </div>
     <Footer />
   </Router>
