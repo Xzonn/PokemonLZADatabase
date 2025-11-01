@@ -1,5 +1,3 @@
-export * from "./ScrollToTop";
-
 export * from "./pokemon";
 export * from "./move";
 export * from "./item";

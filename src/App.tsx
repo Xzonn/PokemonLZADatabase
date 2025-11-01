@@ -1,48 +1,62 @@
 import Giscus from "@giscus/react";
-import React from "react";
+import { FC, useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import Routes from "@/Routes";
-import { Footer, Header, Notice, ScrollToTop, Sidebar, TableOfContents } from "@/components";
+import { BREAKPOINTS } from "./utils";
 
-const App: React.FC = () => (
-  <Router>
-    <ScrollToTop />
-    <Header />
-    <Notice />
-    <div className="md:flex relative flex-1">
-      <aside className="hidden md:flex md:flex-col">
-        <Sidebar />
-        <TableOfContents />
-      </aside>
-      <main className="flex-1 p-0 sm:px-2 lg:px-4 sm:py-8">
-        <div className="bg-white sm:rounded-2xl sm:shadow-xl">
-          <Routes />
-          <div className="giscus block">
-            <Giscus
-              host="https://giscus.xzonn.top"
-              repo="Xzonn/PokemonLZADatabase"
-              repoId="R_kgDOQE57vg"
-              category="General"
-              categoryId="DIC_kwDOQE57vs4Cw8Fx"
-              mapping="specific"
-              term={"评论区"}
-              reactions-enabled="1"
-              emit-metadata="0"
-              input-position="top"
-              theme="preferred_color_scheme"
-              lang="zh-CN"
-            />
-          </div>
+import Routes from "@/Routes";
+import { Footer, Header, Notice, ScrollToTop, Sidebar, TocObserver } from "@/components";
+
+const App: FC = () => {
+  const { md } = BREAKPOINTS;
+
+  const [sidebarShown, setSidebarShown] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setSidebarShown(window.innerWidth >= md);
+
+    window.addEventListener("resize", handleResize);
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [md]);
+
+  return (
+    <Router>
+      <TocObserver>
+        <ScrollToTop />
+        <Header showDrawer={!sidebarShown} />
+        <Notice />
+        <div className="md:flex relative flex-1">
+          {sidebarShown ? <Sidebar /> : null}
+          <main>
+            <div className="bg-white sm:rounded-2xl sm:shadow-xl">
+              <Routes />
+              <div className="giscus block">
+                <Giscus
+                  host="https://giscus.xzonn.top"
+                  repo="Xzonn/PokemonLZADatabase"
+                  repoId="R_kgDOQE57vg"
+                  category="General"
+                  categoryId="DIC_kwDOQE57vs4Cw8Fx"
+                  mapping="specific"
+                  term={"评论区"}
+                  reactions-enabled="1"
+                  emit-metadata="0"
+                  input-position="top"
+                  theme="preferred_color_scheme"
+                  lang="zh-CN"
+                />
+              </div>
+            </div>
+          </main>
         </div>
-      </main>
-      {/* Mobile TOC - Render outside of hidden aside */}
-      <div className="md:hidden">
-        <TableOfContents />
-      </div>
-    </div>
-    <Footer />
-  </Router>
-);
+      </TocObserver>
+      <Footer />
+    </Router>
+  );
+};
 
 export default App;
