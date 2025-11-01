@@ -137,32 +137,30 @@ export const TableOfContents: React.FC = () => {
 
   return (
     <>
-      {/* 桌面端：左侧吸顶目录，在导航栏下方 */}
-      <aside className="w-64 px-4 py-0 pb-8 z-40">
-        <nav className="p-4 bg-white rounded-2xl shadow-xl sticky top-8">
+      {/* Desktop TOC - visible on md and above, inside aside */}
+      <nav className="sticky top-8 w-64 px-4 py-0 mb-8">
+        <div className="p-4 bg-white rounded-2xl shadow-xl">
           <TocContent />
-        </nav>
-      </aside>
+        </div>
+      </nav>
 
-      {/* 移动端：悬浮按钮和抽屉 */}
-      <div className="md:hidden fixed z-50">
-        <FloatButton
-          icon={<MenuOutlined />}
-          type="primary"
-          style={{ right: 24, bottom: 24 }}
-          onClick={() => setShowDrawer(true)}
-          tooltip="目录"
-        />
-        <Drawer
-          title="目录"
-          placement="right"
-          open={showDrawer}
-          onClose={() => setShowDrawer(false)}
-          width={280}
-        >
-          <TocContent />
-        </Drawer>
-      </div>
+      {/* Mobile TOC - FloatButton and Drawer */}
+      <FloatButton
+        icon={<MenuOutlined />}
+        type="primary"
+        style={{ right: 24, bottom: 24 }}
+        onClick={() => setShowDrawer(true)}
+        tooltip="目录"
+      />
+      <Drawer
+        title="目录"
+        placement="right"
+        open={showDrawer}
+        onClose={() => setShowDrawer(false)}
+        width={280}
+      >
+        <TocContent />
+      </Drawer>
     </>
   );
 };
