@@ -1,46 +1,106 @@
 import { CloseOutlined, SearchOutlined } from "@ant-design/icons";
 import { useDebounceFn } from "ahooks";
 import { Input } from "antd";
-import React, { useState } from "react";
+import React, { FC, useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
+import { SearchItem } from "./SearchItem";
 import { SearchMove } from "./SearchMove";
 import { SearchPokemon } from "./SearchPokemon";
+import { SearchType } from "./SearchType";
+import { NAV_ITEMS as NAV_ITEMS_UNFILTERED } from "../site";
+import { SearchNavigation } from "./SearchNavigation";
 
-import { MoveData, PokemonData } from "@/data";
-import { SearchResult } from "@/types";
-import { getPokemonFullId } from "@/utils";
+import { ItemData, MoveData, PokemonData } from "@/data";
+import { EPokemonType, NavigationItem, SearchResult } from "@/types";
+import { filterPokemon, getPokemonFullId, halfToFull } from "@/utils";
 
-const searchAll = (keyword: string): SearchResult => {
+const LOCATION_PATHS = Array.from({ length: 20 }).map(
+  (_, i) =>
+    ({
+      path: `/z/${i + 1}`,
+      label: `${halfToFull((i + 1).toString())}号野生特区`,
+      icon: "zone",
+    }) as NavigationItem,
+);
+const NAV_ITEMS = [
+  ...LOCATION_PATHS,
+  ...NAV_ITEMS_UNFILTERED.filter((item) => item && !item.path.slice(1).includes("/")),
+];
+
+const searchAll = (keyword: string): SearchResult[] => {
   if (!keyword.trim()) {
-    return {
-      isEmpty: true,
-      pokemon: [],
-      moves: [],
-    };
+    return [];
   }
 
-  const pokemonResults = PokemonData.filter(
-    (pokemon) => pokemon.english.toLowerCase().includes(keyword.toLowerCase()) || pokemon.name.includes(keyword),
-  ).slice(0, 10);
+  const results: SearchResult[] = [];
 
-  const moveResults =
-    pokemonResults.length < 10
-      ? MoveData.filter(
-          (move) => move.english.toLowerCase().includes(keyword.toLowerCase()) || move.name.includes(keyword),
-        ).slice(0, 10 - pokemonResults.length)
-      : [];
+  PokemonData.filter(
+    (pokemon) =>
+      pokemon.english.toLowerCase().includes(keyword.toLowerCase()) ||
+      pokemon.name.includes(keyword) ||
+      pokemon.formName.includes(keyword),
+  )
+    .filter(filterPokemon)
+    .slice(0, 10)
+    .forEach((pokemon) =>
+      results.push({
+        type: "pokemon",
+        data: pokemon,
+      }),
+    );
 
-  return {
-    isEmpty: pokemonResults.length === 0 && moveResults.length === 0,
-    pokemon: pokemonResults,
-    moves: moveResults,
-  };
+  if (results.length < 10) {
+    MoveData.filter((move) => move.english.toLowerCase().includes(keyword.toLowerCase()) || move.name.includes(keyword))
+      .slice(0, 10 - results.length)
+      .forEach((move) =>
+        results.push({
+          type: "move",
+          data: move,
+        }),
+      );
+  }
+
+  if (results.length < 10) {
+    EPokemonType.filter((type) => type.includes(keyword))
+      .slice(0, 10 - results.length)
+      .forEach((type) =>
+        results.push({
+          type: "type",
+          data: type,
+        }),
+      );
+  }
+
+  if (results.length < 10) {
+    ItemData.filter((item) => item.name.includes(keyword))
+      .slice(0, 10 - results.length)
+      .forEach((item) =>
+        results.push({
+          type: "item",
+          data: item,
+        }),
+      );
+  }
+
+  if (results.length < 10) {
+    NAV_ITEMS.filter((item) => item.label.includes(keyword))
+      .slice(0, 10 - results.length)
+      .forEach((item) =>
+        results.push({
+          type: "navigation",
+          data: item,
+        }),
+      );
+  }
+
+  return results;
 };
 
-const renderSearchResult = (result: SearchResult | undefined, onClick: () => void) => {
-  const { isEmpty = true } = result || {};
+const renderSearchResult = (result: SearchResult[], onClick: () => void) => {
+  const { length } = result || {};
 
-  if (!result || isEmpty) {
+  if (!result || length === 0) {
     return (
       <div
         key="empty"
@@ -53,27 +113,66 @@ const renderSearchResult = (result: SearchResult | undefined, onClick: () => voi
 
   return (
     <div key="results">
-      {result.pokemon.map((pokemon) => (
-        <SearchPokemon
-          key={`pokemon-${getPokemonFullId(pokemon)}`}
-          result={pokemon}
-          onClick={onClick}
-        />
-      ))}
-      {result.moves.map((move) => (
-        <SearchMove
-          key={`move-${move.id}`}
-          result={move}
-          onClick={onClick}
-        />
-      ))}
+      {result.map((result) => {
+        const { type, data } = result;
+
+        switch (type) {
+          case "pokemon":
+            return (
+              <SearchPokemon
+                key={`pokemon-${getPokemonFullId(data)}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "move":
+            return (
+              <SearchMove
+                key={`move-${data.id}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "type":
+            return (
+              <SearchType
+                key={`type-${data}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "item":
+            return (
+              <SearchItem
+                key={`item-${data.id}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "navigation":
+            return (
+              <SearchNavigation
+                key={`navigation-${data.label}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          default:
+            return null;
+        }
+      })}
     </div>
   );
 };
 
-export const SearchBar: React.FC = () => {
+interface IProps {
+  onClick?: () => void;
+}
+
+export const SearchBar: FC<IProps> = ({ onClick }) => {
+  const location = useLocation();
   const [searchKeyword, setSearchKeyword] = useState("");
-  const [searchResult, setSearchResult] = useState<SearchResult>();
+  const [searchResult, setSearchResult] = useState<SearchResult[]>([]);
   const [showSearchResults, setShowSearchResults] = useState(false);
 
   const { run: debounceSearch } = useDebounceFn(
@@ -82,7 +181,7 @@ export const SearchBar: React.FC = () => {
       setSearchResult(result);
       setShowSearchResults(true);
     },
-    { wait: 300 },
+    { wait: 500 },
   );
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -100,6 +199,8 @@ export const SearchBar: React.FC = () => {
     setSearchKeyword("");
     setShowSearchResults(false);
   };
+
+  useEffect(handleClearSearch, [location.pathname]);
 
   return (
     <div className="relative">
@@ -121,8 +222,11 @@ export const SearchBar: React.FC = () => {
 
       {/* 搜索结果下拉框 */}
       {showSearchResults && (
-        <div className="absolute z-10 mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
-          {renderSearchResult(searchResult, handleClearSearch)}
+        <div className="absolute z-[500] mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
+          {renderSearchResult(searchResult, () => {
+            handleClearSearch();
+            onClick?.();
+          })}
         </div>
       )}
     </div>

@@ -2,9 +2,10 @@ import cn from "classnames";
 import React from "react";
 import { useLocation } from "react-router-dom";
 
+import { NavigationItem } from "@/types";
 import { Icon, Link } from "@/utils";
 
-const navItems = [
+export const NAV_ITEMS: NavigationItem[] = [
   { path: "/", label: "首页", icon: "pokedex" },
   // { path: "/宝可梦一览", label: "宝可梦一览", icon: <UnorderedListOutlined /> },
   { path: "/野生特区一览", label: "野生特区一览", icon: "map" },
@@ -34,7 +35,7 @@ export const Navigation: React.FC<INavigationProps> = ({ onClick }) => {
 
   return (
     <div className="nav-content">
-      {navItems.map((item) => (
+      {NAV_ITEMS.map((item) => (
         <Link
           key={item.path}
           to={item.path}

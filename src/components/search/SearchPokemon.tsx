@@ -28,5 +28,3 @@ export const SearchPokemon: React.FC<{ result: Pokemon; onClick: () => void }> =
     </div>
   </Link>
 );
-
-export default SearchPokemon;

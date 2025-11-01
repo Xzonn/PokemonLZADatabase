@@ -11,10 +11,10 @@ interface IIconProps {
   className?: string;
 }
 
-export const Icon: React.FC<IIconProps> = ({ name, style, className }) => (
+export const Icon: React.FC<IIconProps> = ({ name, size, style, className }) => (
   <span
     className={cn("icon", `icon-${name}`, className)}
-    style={style}
+    style={{ fontSize: size, ...style }}
   />
 );
 

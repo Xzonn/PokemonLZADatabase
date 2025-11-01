@@ -311,17 +311,10 @@ a.badge {
 
 /** 搜索框 */
 .search-item {
-  @apply border-b;
-
-  display: flex;
-  height: 72px;
-  align-items: center;
-  justify-content: start;
-  width: 100%;
-  padding: 8px;
+  @apply flex border-b h-[72px] items-center justify-start w-full p-2 gap-2;
 
   &:last-child {
-    border-bottom: none;
+    @apply border-b-0;
   }
 
   &:hover {
@@ -329,9 +322,11 @@ a.badge {
   }
 }
 
-.search-item-pokemon {
-  gap: 8px;
+.search-item-name {
+  @apply font-semibold;
+}
 
+.search-item-pokemon {
   .pokemon-name-line {
     display: flex;
     flex-direction: row;
@@ -353,8 +348,6 @@ a.badge {
 }
 
 .search-item-move {
-  gap: 8px;
-
   .move-name-line {
     display: flex;
     flex-direction: row;

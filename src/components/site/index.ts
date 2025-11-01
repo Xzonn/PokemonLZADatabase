@@ -5,3 +5,4 @@ export * from "./Footer";
 export * from "./TableOfContents";
 export * from "./ScrollToTop";
 export * from "./TocObserver";
+export * from "./Navigation";
