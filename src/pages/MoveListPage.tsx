@@ -20,7 +20,7 @@ const MoveListPage: React.FC = () => {
   }, []);
 
   return (
-    <Fragment key="pokemon-list">
+    <Fragment key="move-list">
       <div className="block">
         <h1>招式一览</h1>
       </div>

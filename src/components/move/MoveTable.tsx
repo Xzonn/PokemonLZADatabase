@@ -5,13 +5,13 @@ import { TypeEffects } from "../type/TypeEffects";
 
 import { Move } from "@/types";
 import {
+  CategoryIcon,
   Link,
   MoveCategoryFilters,
   PaginationConfig,
   PokemonTypeFilters,
   TableCommonProps,
   TypeIcon,
-  renderCategory,
 } from "@/utils";
 
 const columns: TableColumnsType<Move> = [
@@ -51,7 +51,7 @@ const columns: TableColumnsType<Move> = [
   {
     title: "分类",
     dataIndex: "category",
-    render: (category) => renderCategory(category),
+    render: (category) => <CategoryIcon category={category} />,
     filters: MoveCategoryFilters,
     onFilter: (value, record) => record.category === value,
   },

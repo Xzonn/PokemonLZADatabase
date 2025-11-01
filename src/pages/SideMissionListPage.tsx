@@ -23,11 +23,13 @@ const SideMissionMapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
       key={mission.index}
       position={getCoord([mission.x, mission.y])}
       icon={divIcon({
-        className: "icon-side-mission",
+        className: "icon icon-side-mission",
         iconSize: [24, 24],
       })}
     >
-      <Popup>{`#${mission.index.toString().padStart(3, "0")} ${mission.name}`}</Popup>
+      <Popup>
+        #{mission.index.toString().padStart(3, "0")} {mission.name}
+      </Popup>
     </Marker>
   ));
 };
@@ -64,7 +66,7 @@ const SideMissionListPage: React.FC = () => {
             <SideMissionMapLayer data={active !== null ? data.filter((mission) => mission.index === active) : data} />
           ) : null}
         </Map>
-        <p className="text-center indent-0">
+        <div className="map-note">
           地点坐标参考自：
           <a
             href="https://www.serebii.net/pokearth/lumiosecity/"
@@ -73,7 +75,7 @@ const SideMissionListPage: React.FC = () => {
           >
             Serebii.net
           </a>
-        </p>
+        </div>
       </div>
 
       <div className="block">

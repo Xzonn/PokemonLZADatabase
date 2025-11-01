@@ -9,11 +9,11 @@ import { PokemonTable, TMDetail } from "@/components";
 import { MoveDataByName, PokemonDataById } from "@/data";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
 import {
+  CategoryIcon,
   DEFAULT_TITLE,
   DescriptionsCommonProps,
   TypeIcon,
   onUseRequestError,
-  renderCategory,
   renderMoveLevel,
 } from "@/utils";
 
@@ -35,7 +35,7 @@ const getDescriptions = (move: Move): DescriptionsProps["items"] => [
   {
     key: "category",
     label: "分类",
-    children: renderCategory(move.category),
+    children: <CategoryIcon category={move.category} />,
   },
   {
     key: "power",

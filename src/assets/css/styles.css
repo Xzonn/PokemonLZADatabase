@@ -1,6 +1,7 @@
 @import "@fontsource/nunito/index.css";
 @import "./fonts.css";
 @import "./map.css";
+@import "./icon.css";
 
 @layer tailwind-base, antd;
 @layer tailwind-base {
@@ -141,18 +142,27 @@ main p {
 }
 
 /** 属性 */
-.badge-type,
-.badge-category {
-  display: inline-block;
+.badge {
+  @apply inline-flex items-center justify-center;
+  display: inline-flex;
+  flex-wrap: nowrap;
   color: #fff;
   border-radius: 0.5em;
   font-weight: 600;
-  width: 4em;
+  width: 5em;
   text-align: center;
   white-space: nowrap;
 }
 
-a.badge-type {
+.badge-icon {
+  scale: 1.5;
+}
+
+.badge-text {
+  @apply w-[3.5em] text-center;
+}
+
+a.badge {
   transition: opacity 0.2s;
 
   &:hover,
@@ -378,7 +388,7 @@ nav {
 }
 
 .nav-item {
-  @apply flex items-center gap-3 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100;
+  @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100;
 }
 
 .nav-item-active {
@@ -386,7 +396,7 @@ nav {
 }
 
 .nav-item-icon {
-  @apply text-xl;
+  @apply text-[32px] leading-[0];
 }
 
 .nav-toc {

@@ -7,7 +7,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 import { Map, MoveTable, TMCell } from "@/components";
 import { ItemDataByName } from "@/data";
 import { TMFull } from "@/types";
-import { DEFAULT_TITLE, MAP_CENTER, getCoord, getTMMethod, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getTMMethod, onUseRequestError } from "@/utils";
 
 const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMFull> => [
   {
@@ -41,17 +41,19 @@ const TMListMapLayer: FC<{ data: TMFull[] }> = ({ data }) => {
   }
 
   return data
-    ?.filter((mission) => mission.x !== null && mission.y !== null)
-    .map((mission) => (
+    ?.filter((tm) => tm.x !== null && tm.y !== null)
+    .map((tm) => (
       <Marker
-        key={mission.index}
-        position={getCoord([mission.x!, mission.y!])}
+        key={tm.index}
+        position={getCoord([tm.x!, tm.y!])}
         icon={divIcon({
-          className: "icon-side-mission",
+          className: `icon icon-tm-${tm.type}`,
           iconSize: [24, 24],
         })}
       >
-        <Popup>{`#${mission.index.toString().padStart(3, "0")} ${mission.name}`}</Popup>
+        <Popup>
+          No.{tm.index.toString().padStart(3, "0")} <Link to={`/m/${tm.name}`}>{tm.name}</Link>
+        </Popup>
       </Marker>
     ));
 };
@@ -90,7 +92,7 @@ const TMListPage: React.FC = () => {
             <TMListMapLayer data={active !== null ? data.filter((mission) => mission.index === active) : data} />
           ) : null}
         </Map>
-        <p className="text-center indent-0">
+        <div className="map-note">
           地点坐标参考自：
           <a
             href="https://www.serebii.net/pokearth/lumiosecity/"
@@ -99,7 +101,7 @@ const TMListPage: React.FC = () => {
           >
             Serebii.net
           </a>
-        </p>
+        </div>
       </div>
 
       <div className="block">

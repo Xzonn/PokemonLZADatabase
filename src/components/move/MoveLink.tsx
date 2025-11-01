@@ -1,8 +1,7 @@
 import { Popover } from "antd";
 
 import { Move } from "@/types";
-import { Link, TypeIcon } from "@/utils";
-import { renderCategory } from "@/utils";
+import { CategoryIcon, Icon, Link, TypeIcon } from "@/utils";
 
 export const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus = false }) => (
   <Popover
@@ -10,12 +9,15 @@ export const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus 
     placement="topLeft"
     title={
       <div className="flex flex-row items-center gap-2">
-        <div>
-          {move.name}
-          {plus ? "（可加强）" : ""}
-        </div>
+        <div>{move.name}</div>
+        {plus ? (
+          <Icon
+            name="plus-black"
+            className="scale-[1.5]"
+          />
+        ) : null}
         <TypeIcon type={move.type} />
-        {renderCategory(move.category)}
+        <CategoryIcon category={move.category} />
       </div>
     }
     content={
@@ -30,7 +32,7 @@ export const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus 
   >
     <Link to={`/m/${move.name}`}>
       {move.name}
-      {plus ? <sup className="font-bold">+</sup> : ""}
+      {plus ? <Icon name="plus" /> : ""}
     </Link>
   </Popover>
 );

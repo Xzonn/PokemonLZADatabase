@@ -7,20 +7,18 @@
   @apply w-[512px] h-[512px] max-w-full mx-auto my-2;
 }
 
+.map-note {
+  @apply text-center text-sm text-gray-500 mt-2;
+}
+
 .leaflet-control-container {
   user-select: none;
 }
 
+.leaflet-marker-icon {
+  @apply text-[24px] leading-[0];
+}
+
 svg.leaflet-attribution-flag {
   display: none !important;
-}
-
-.icon-side-mission {
-  background-image: url("../images/icon-side-mission.png");
-  background-size: 100% auto;
-}
-
-.icon-colorful-screw {
-  background-image: url("../images/icon-colorful-screw.png");
-  background-size: 100% auto;
 }

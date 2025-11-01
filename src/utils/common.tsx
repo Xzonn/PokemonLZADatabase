@@ -1,7 +1,7 @@
 import { DescriptionsProps, TablePaginationConfig, TableProps, message } from "antd";
 import { ColumnFilterItem } from "antd/es/table/interface";
 
-import { EMoveCategory, EPokemonType, MoveCategory } from "@/types";
+import { EMoveCategory, EPokemonType } from "@/types";
 
 export const BREAKPOINTS = {
   xs: 480,
@@ -13,10 +13,6 @@ export const BREAKPOINTS = {
 };
 
 export const DEFAULT_TITLE = "宝可梦传说 Z-A 数据库";
-
-export const renderCategory = (category: MoveCategory) => (
-  <span className={`badge-category bg-${category}`}>{category}</span>
-);
 
 export const PokemonTypeFilters: ColumnFilterItem[] = EPokemonType.map((type) => ({
   text: type,

@@ -40,7 +40,7 @@ const MapLayer: FC<{ data: Position[] }> = ({ data }) => {
       key={position.index}
       position={getCoord([position.x, position.y])}
       icon={divIcon({
-        className: `icon-colorful-screw`,
+        className: "icon icon-colorful-screw",
         iconSize: [24, 24],
       })}
     />
@@ -57,6 +57,16 @@ const Content: FC = () => {
         <Map>
           <MapLayer data={active !== null ? Positions.filter((mission) => mission.index === active) : Positions} />
         </Map>
+        <div className="map-note">
+          地点坐标参考自：
+          <a
+            href="https://www.serebii.net/pokearth/lumiosecity/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Serebii.net
+          </a>
+        </div>
       </div>
 
       <div className="block">

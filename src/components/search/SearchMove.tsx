@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { Move } from "@/types";
-import { TypeIcon, renderCategory } from "@/utils";
+import { CategoryIcon, TypeIcon } from "@/utils";
 
 export const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ result, onClick }) => (
   <Link
@@ -18,7 +18,7 @@ export const SearchMove: React.FC<{ result: Move; onClick: () => void }> = ({ re
             type={result.type}
             link={false}
           />
-          {renderCategory(result.category)}
+          <CategoryIcon category={result.category} />
         </span>
       </div>
     </div>
