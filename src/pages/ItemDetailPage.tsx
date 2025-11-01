@@ -83,6 +83,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         <Spin spinning={loadingFull}>
           <Descriptions
             {...DescriptionsCommonProps}
+            className="description-4"
             column={{ xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 4 }}
             items={getDescriptions(item, itemFull)}
           />

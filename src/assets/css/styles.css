@@ -27,6 +27,41 @@ body {
   overflow-x: auto;
 }
 
+th.ant-descriptions-item-label {
+  @apply w-[40%] lg:w-[15%];
+}
+
+td.ant-descriptions-item-content {
+  @apply w-[60%] lg:w-[18.3333333%];
+}
+
+.table-effect {
+  th.ant-descriptions-item-label,
+  td.ant-descriptions-item-content {
+    @apply w-[33.3333333%] lg:w-[16.6666666%] xl:w-[11.1111111%];
+  }
+}
+
+.description-4 {
+  th.ant-descriptions-item-label {
+    @apply lg:w-[20%] 2xl:w-[10%];
+  }
+
+  td.ant-descriptions-item-content {
+    @apply lg:w-[30%] 2xl:w-[15%];
+  }
+}
+
+.description-2 {
+  th.ant-descriptions-item-label {
+    @apply lg:w-[20%];
+  }
+
+  td.ant-descriptions-item-content {
+    @apply lg:w-[30%];
+  }
+}
+
 h1 {
   @apply text-4xl font-bold my-4 text-center;
 }
@@ -43,7 +78,7 @@ main {
   @apply flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-8;
 }
 
-p {
+main p {
   @apply indent-[2em] text-sm mb-4;
 
   &:last-child {
@@ -319,4 +354,29 @@ a.badge-type {
   .badge-category {
     font-size: 0.8em;
   }
+}
+
+/** 网站结构 */
+header {
+  @apply bg-white shadow-lg border-b-4 border-primary;
+}
+
+.notice {
+  @apply bg-white text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-sm text-gray-600 space-y-2;
+}
+
+aside {
+  @apply w-64 px-4 py-8 z-40 hidden md:block;
+}
+
+nav {
+  @apply p-4 bg-white rounded-2xl shadow-xl;
+}
+
+.toc {
+  @apply sticky top-8 mt-8;
+}
+
+footer {
+  @apply bg-white border-t-2 border-primary w-full mx-auto px-4 py-6 sm:px-6 lg:px-8 text-center text-sm text-gray-400 space-y-2;
 }

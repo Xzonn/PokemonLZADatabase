@@ -1,5 +1,6 @@
 import react from "@vitejs/plugin-react";
 import path from "path";
+import { visualizer } from "rollup-plugin-visualizer";
 import { defineConfig } from "vite";
 import eslint from "vite-plugin-eslint";
 
@@ -16,8 +17,14 @@ export default defineConfig({
     outDir: "build",
     rollupOptions: {
       output: {
-        chunkFileNames: "assets/js/[name]-[hash].js", // 非入口的JS chunk
-        entryFileNames: "assets/js/[name]-[hash].js", // 入口JS文件
+        manualChunks: {
+          leaflet: ["leaflet", "leaflet-fullscreen", "react-leaflet"],
+          react: ["react", "react-dom", "react-router-dom"],
+          antd: ["antd", "@ant-design/icons"],
+          ahooks: ["ahooks"],
+        },
+        chunkFileNames: "assets/js/[name]-[hash].js",
+        entryFileNames: "assets/js/[name]-[hash].js",
         assetFileNames: ({ names }) => {
           const name = names.at(-1).toLowerCase();
           if (/\.(webp|svg)$/.test(name ?? "")) {
@@ -34,5 +41,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [react(), eslint()],
+  plugins: [react(), eslint(), visualizer()],
 });
