@@ -1,13 +1,44 @@
 import { MenuOutlined } from "@ant-design/icons";
-import { Drawer } from "antd";
-import React, { useState } from "react";
+import { Drawer, Tabs, TabsProps } from "antd";
+import { FC, useContext, useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Navigation } from "./Navigation";
+import { TableOfContents } from "./TableOfContents";
+import { TocContext } from "./TocObserver";
 import { SearchBar } from "../search/SearchBar";
 
-export const Header: React.FC = () => {
+interface IHeaderProps {
+  showDrawer: boolean;
+}
+
+export const Header: FC<IHeaderProps> = ({ showDrawer }) => {
   const [show, setShow] = useState(false);
+  const { tocItems } = useContext(TocContext)!;
+
+  useEffect(() => {
+    setShow(false);
+  }, [showDrawer]);
+
+  const items: TabsProps["items"] = useMemo(
+    () => [
+      {
+        key: "nav-site",
+        label: "站内导航",
+        children: <Navigation onClick={() => setShow(false)} />,
+      },
+      ...(tocItems.length > 0
+        ? [
+            {
+              key: "nav-toc",
+              label: "目录",
+              children: <TableOfContents onClick={() => setShow(false)} />,
+            },
+          ]
+        : []),
+    ],
+    [tocItems.length],
+  );
 
   return (
     <>
@@ -45,6 +76,7 @@ export const Header: React.FC = () => {
         </div>
       </header>
       <Drawer
+        destroyOnHidden={true}
         open={show}
         onClose={() => setShow(false)}
         placement="top"
@@ -56,7 +88,7 @@ export const Header: React.FC = () => {
         }}
       >
         <SearchBar />
-        <Navigation onClick={() => setShow(false)} />
+        <Tabs items={items} />
       </Drawer>
     </>
   );

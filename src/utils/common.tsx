@@ -3,6 +3,15 @@ import { ColumnFilterItem } from "antd/es/table/interface";
 
 import { EMoveCategory, EPokemonType, MoveCategory } from "@/types";
 
+export const BREAKPOINTS = {
+  xs: 480,
+  sm: 640,
+  md: 768,
+  lg: 1024,
+  xl: 1280,
+  xxl: 1536,
+};
+
 export const DEFAULT_TITLE = "宝可梦传说 Z-A 数据库";
 
 export const renderCategory = (category: MoveCategory) => (

@@ -74,10 +74,6 @@ h3 {
   @apply text-xl font-semibold my-4;
 }
 
-main {
-  @apply flex-1 min-w-0 px-4 sm:px-6 lg:px-8 py-8;
-}
-
 main p {
   @apply indent-[2em] text-sm mb-4;
 
@@ -373,8 +369,32 @@ nav {
   @apply p-4 bg-white rounded-2xl shadow-xl;
 }
 
-.toc {
+.nav-title {
+  @apply text-center px-4 text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3;
+}
+
+.nav-content {
+  @apply flex flex-col gap-2;
+}
+
+.nav-item {
+  @apply flex items-center gap-3 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100;
+}
+
+.nav-item-active {
+  @apply bg-primary text-white font-semibold hover:bg-primary;
+}
+
+.nav-item-icon {
+  @apply text-xl;
+}
+
+.nav-toc {
   @apply sticky top-8 mt-8;
+}
+
+main {
+  @apply flex-1 min-w-0 p-0 sm:px-2 lg:px-4 sm:py-8;
 }
 
 footer {
