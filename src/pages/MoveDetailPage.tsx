@@ -47,11 +47,6 @@ const getDescriptions = (move: Move): DescriptionsProps["items"] => [
     label: "等待时间",
     children: move.wait || "—",
   },
-  {
-    key: "description",
-    label: "招式描述",
-    children: move.description,
-  },
 ];
 
 const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
@@ -60,10 +55,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
   }, [move]);
 
   const { data: moveFull = null, loading } = useRequest(
-    async () => {
-      const realData = await import(`@/data/m/${move.id.toString().padStart(3, "0")}.json`).then((mod) => mod.default);
-      return realData as MoveFull;
-    },
+    async () => (await import(`@/data/m/${move.id.toString().padStart(3, "0")}.json`)).default as MoveFull,
     {
       refreshDeps: [move],
       onError: onUseRequestError,
@@ -97,17 +89,19 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
     <Fragment key="move">
       <div className="block">
         <h1>{move.name}</h1>
-        <div className="flex justify-center space-x-2 mb-6 text-xl text-gray-600">
+        <div className="names">
           <div lang="ja">{move.japanese}</div>
           <div>{move.english}</div>
         </div>
+        <div className="description">{move?.description || "—"}</div>
       </div>
 
       <div className="block">
         <h3>基本信息</h3>
         <Descriptions
-          items={getDescriptions(move)}
           {...DescriptionsCommonProps}
+          column={{ xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 4 }}
+          items={getDescriptions(move)}
         />
       </div>
 

@@ -5,11 +5,11 @@ import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
 import { Map, MoveTable, TMCell } from "@/components";
-import { ItemDataByName, MoveDataByName } from "@/data";
-import { Move, TMMove } from "@/types";
+import { ItemDataByName } from "@/data";
+import { TMFull } from "@/types";
 import { DEFAULT_TITLE, MAP_CENTER, getCoord, getTMMethod, onUseRequestError } from "@/utils";
 
-const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMMove & Move> => [
+const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMFull> => [
   {
     title: "编号",
     dataIndex: "index",
@@ -30,7 +30,7 @@ const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMM
   },
 ];
 
-const TMListMapLayer: FC<{ data: TMMove[] }> = ({ data }) => {
+const TMListMapLayer: FC<{ data: TMFull[] }> = ({ data }) => {
   const map = useMap();
 
   if (data?.length === 1 && data[0].x !== null && data[0].y !== null) {
@@ -61,23 +61,10 @@ const TMListPage: React.FC = () => {
     document.title = `招式学习器一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(
-    async () => {
-      const tmData = await import(`@/data/tm`).then((mod) => mod.TMData);
-      return tmData.map((tm) => {
-        const { name: tmName, ...rest } = tm;
-        return {
-          tmName,
-          ...rest,
-          ...MoveDataByName[tm.move],
-        } as TMMove;
-      });
-    },
-    {
-      refreshDeps: [],
-      onError: onUseRequestError,
-    },
-  );
+  const { data = null, loading } = useRequest(async () => (await import(`@/data/tm`)).TMData, {
+    refreshDeps: [],
+    onError: onUseRequestError,
+  });
 
   const [active, setActive] = useState<number | null>(null);
   const columns = useMemo(() => getColumns(setActive), [setActive]);
@@ -117,7 +104,7 @@ const TMListPage: React.FC = () => {
 
       <div className="block">
         <h2>列表</h2>
-        <MoveTable<TMMove>
+        <MoveTable<TMFull>
           loading={loading}
           data={data || []}
           extraColumns={columns}

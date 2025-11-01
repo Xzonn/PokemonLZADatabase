@@ -3,7 +3,7 @@ import { Move } from "./move";
 export interface TM {
   index: number;
   name: string;
-  move: string;
+  tmName: string;
   researchLevel: number | null;
   sideMission: number | null;
   location: string | null;
@@ -12,6 +12,4 @@ export interface TM {
   z: number | null;
 }
 
-export interface TMMove extends TM, Move {
-  tmName: string;
-}
+export interface TMFull extends TM, Move {}

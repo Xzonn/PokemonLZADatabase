@@ -19,7 +19,7 @@ export const Map: FC<MapProps> = ({
   children,
   center = [MAP_CONFIG.imageWidth, MAP_CONFIG.imageHeight],
   zoom = 0,
-  loading,
+  loading = false,
 }) => {
   const { imageWidth, tileSize, maxZoom } = MAP_CONFIG;
 

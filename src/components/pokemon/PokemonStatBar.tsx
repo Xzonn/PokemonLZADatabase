@@ -19,7 +19,7 @@ export const PokemonStatBar: React.FC<StatBarProps> = ({ name, value, maxValue =
         <div
           className="bg-gradient-to-r from-green-400 to-green-600 h-3 rounded-full transition-all duration-1000 ease-out"
           style={{ width: `${percentage}%` }}
-        ></div>
+        />
       </div>
     </div>
   );

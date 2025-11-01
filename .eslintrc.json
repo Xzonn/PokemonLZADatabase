@@ -25,6 +25,14 @@
         "newlines-between": "always",
         "named": true
       }
+    ],
+    "arrow-body-style": "error",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "html": true,
+        "component": true
+      }
     ]
   },
   "ignorePatterns": ["node_modules/", "build/"]

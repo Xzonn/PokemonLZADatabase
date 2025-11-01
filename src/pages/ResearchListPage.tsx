@@ -9,15 +9,9 @@ const ResearchListPage: React.FC = () => {
     document.title = `茉蜜姬调查 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(
-    async () => {
-      const realData = await import(`@/data/research`);
-      return realData;
-    },
-    {
-      onError: onUseRequestError,
-    },
-  );
+  const { data = null, loading } = useRequest(async () => await import(`@/data/research`), {
+    onError: onUseRequestError,
+  });
 
   return (
     <Fragment key="research-list">

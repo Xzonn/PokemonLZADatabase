@@ -1,14 +1,29 @@
+import { useRequest } from "ahooks";
 import React, { Fragment, useEffect } from "react";
 
 import { ItemTable } from "@/components";
-import { ItemDetailData } from "@/data/i/detail";
-import { EItemPocket } from "@/types";
-import { DEFAULT_TITLE, Link } from "@/utils";
+import { EItemPocket, ItemPocket } from "@/types";
+import { DEFAULT_TITLE, Link, onUseRequestError } from "@/utils";
+
+const HEADERS = new Map<ItemPocket, string[]>([
+  ["道具", ["编号", "道具", "买入价格", "卖出价格", "超级碎片数量", "说明"]],
+  ["宝物", ["编号", "道具", "卖出价格", "说明"]],
+  ["重要物品", ["编号", "道具", "彩色螺丝数量", "说明"]],
+  ["超级石", ["编号", "道具", "买入价格", "超级碎片数量", "说明"]],
+]);
 
 const ItemListPage: React.FC = () => {
   useEffect(() => {
     document.title = `道具一览 - ${DEFAULT_TITLE}`;
   }, []);
+
+  const { data: itemFullData = null, loading } = useRequest(
+    async () => (await import(`@/data/i/detail`)).ItemFullData,
+    {
+      refreshDeps: [],
+      onError: onUseRequestError,
+    },
+  );
 
   return (
     <Fragment key="pokemon-list">
@@ -27,7 +42,11 @@ const ItemListPage: React.FC = () => {
               参见：<Link to="/招式学习器一览">招式学习器一览</Link>
             </div>
           ) : (
-            <ItemTable data={ItemDetailData.filter((item) => item.pocket === index)} />
+            <ItemTable
+              loading={loading}
+              headers={HEADERS.get(pocket)}
+              data={itemFullData?.filter((item) => item.pocket === index)}
+            />
           )}
         </div>
       ))}

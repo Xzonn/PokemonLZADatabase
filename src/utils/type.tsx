@@ -195,6 +195,4 @@ export const calculateEffects = (types: PokemonType[], isAttack = false): Record
   return effects;
 };
 
-export const getEffect = (attack: PokemonType, defense: PokemonType): number => {
-  return effectTable[attack]?.[defense] ?? 1;
-};
+export const getEffect = (attack: PokemonType, defense: PokemonType): number => effectTable[attack]?.[defense] ?? 1;

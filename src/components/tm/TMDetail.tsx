@@ -12,7 +12,7 @@ const getDescriptions = (tm?: TM): DescriptionsProps["items"] => [
   {
     key: "index",
     label: "编号",
-    children: tm ? <TMCell item={ItemDataByName[tm.name]} /> : "—",
+    children: tm ? <TMCell item={ItemDataByName[tm.tmName]} /> : "—",
   },
   {
     key: "method",
@@ -22,15 +22,10 @@ const getDescriptions = (tm?: TM): DescriptionsProps["items"] => [
 ];
 
 export const TMDetail: React.FC<{ move: string }> = ({ move }) => {
-  const { data = null, loading } = useRequest(
-    async () => {
-      return await import(`@/data/tm`).then((mod) => mod.TMDataByMove);
-    },
-    {
-      refreshDeps: [move],
-      onError: onUseRequestError,
-    },
-  );
+  const { data = null, loading } = useRequest(async () => (await import(`@/data/tm`)).TMDataByMove, {
+    refreshDeps: [move],
+    onError: onUseRequestError,
+  });
 
   return (
     <Fragment key="tm">
@@ -38,7 +33,6 @@ export const TMDetail: React.FC<{ move: string }> = ({ move }) => {
         <Descriptions
           {...DescriptionsCommonProps}
           items={getDescriptions(data?.[move])}
-          column={1}
         />
       </Spin>
     </Fragment>

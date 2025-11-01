@@ -28,15 +28,15 @@ body {
 }
 
 h1 {
-  @apply text-4xl font-bold text-gray-900 my-4 text-center;
+  @apply text-4xl font-bold my-4 text-center;
 }
 
 h2 {
-  @apply text-2xl font-bold text-gray-900 my-4 text-center;
+  @apply text-2xl font-bold my-4 text-center;
 }
 
 h3 {
-  @apply text-xl font-semibold text-gray-800 my-4;
+  @apply text-xl font-semibold my-4;
 }
 
 main {
@@ -44,7 +44,7 @@ main {
 }
 
 p {
-  @apply indent-[2em] text-sm text-slate-500 mb-4;
+  @apply indent-[2em] text-sm mb-4;
 
   &:last-child {
     @apply mb-0;
@@ -65,6 +65,19 @@ p {
   &:nth-child(odd):not(:first-child) {
     @apply bg-gray-50;
   }
+
+  & > :last-child,
+  & > .ant-spin-nested-loading > .ant-spin-container > :last-child {
+    @apply mb-0;
+  }
+}
+
+.names {
+  @apply flex justify-center space-x-2 mb-6 text-xl text-gray-500;
+}
+
+.description {
+  @apply mb-2 text-gray-700;
 }
 
 /** 宝可梦小图标 */

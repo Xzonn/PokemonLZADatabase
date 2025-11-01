@@ -37,15 +37,9 @@ const SideMissionListPage: React.FC = () => {
     document.title = `副任务一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(
-    async () => {
-      const realData = await import(`@/data/mission/side`);
-      return realData.SideMissionData;
-    },
-    {
-      onError: onUseRequestError,
-    },
-  );
+  const { data = null, loading } = useRequest(async () => (await import(`@/data/mission/side`)).SideMissionData, {
+    onError: onUseRequestError,
+  });
 
   const [active, setActive] = useState<number | null>(null);
 

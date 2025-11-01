@@ -1,16 +1,13 @@
 import { EPokemonType, Evolution, Pokemon, PokemonForm } from "@/types";
 
-export const getPokemonFullName = (pokemon: Pokemon): string => {
-  return pokemon.form > 0 ? `${pokemon.name}-${pokemon.form}` : pokemon.name;
-};
+export const getPokemonFullName = (pokemon: Pokemon): string =>
+  pokemon.form > 0 ? `${pokemon.name}-${pokemon.form}` : pokemon.name;
 
-export const getPokemonFullNameFriendly = (pokemon: Pokemon): string => {
-  return pokemon.formName ? `${pokemon.name}（${pokemon.formName}）` : pokemon.name;
-};
+export const getPokemonFullNameFriendly = (pokemon: Pokemon): string =>
+  pokemon.formName ? `${pokemon.name}（${pokemon.formName}）` : pokemon.name;
 
-export const getPokemonFullId = (pokemon: Pokemon): PokemonForm => {
-  return `${pokemon.id.toString().padStart(3, "0") as unknown as number}-${pokemon.form}`;
-};
+export const getPokemonFullId = (pokemon: Pokemon): PokemonForm =>
+  `${pokemon.id.toString().padStart(3, "0") as unknown as number}-${pokemon.form}`;
 
 export const getEvolutionCondition = (evolution: Evolution): string => {
   switch (evolution.method) {

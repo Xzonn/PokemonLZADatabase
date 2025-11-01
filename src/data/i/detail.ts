@@ -6,7 +6,7 @@ import { ItemDetail, ItemFull } from "@/types";
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");
 
-export const ItemDetailData = lines.slice(1).map((line) => {
+export const ItemFullData = lines.slice(1).map((line) => {
   const parts = line.split("\t");
   const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
   const itemDetail: ItemDetail = {
@@ -28,6 +28,6 @@ export const ItemDetailData = lines.slice(1).map((line) => {
   } as ItemFull;
 });
 
-export const ItemDetailDataById: Record<number, ItemDetail> = Object.fromEntries(
-  ItemDetailData.map((item) => [item.id, item]),
+export const ItemFullDataById: Record<number, ItemFull> = Object.fromEntries(
+  ItemFullData.map((item) => [item.id, item]),
 );

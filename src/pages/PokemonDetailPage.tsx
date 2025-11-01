@@ -79,12 +79,6 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
     label: "初始友好度",
     children: pokemonFull?.baseFriendship || "—",
   },
-  {
-    key: "description",
-    label: "图鉴描述",
-    children: pokemonFull?.description || "—",
-    span: 3,
-  },
 ];
 
 const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
@@ -93,10 +87,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
   }, [pokemon]);
 
   const { data: pokemonFull = null, loading } = useRequest(
-    async () => {
-      const realData = await import(`@/data/p/${getPokemonFullId(pokemon)}.json`).then((mod) => mod.default);
-      return realData as PokemonFull;
-    },
+    async () => (await import(`@/data/p/${getPokemonFullId(pokemon)}.json`)).default as PokemonFull,
     {
       refreshDeps: [pokemon],
       onError: onUseRequestError,
@@ -140,11 +131,14 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
           />
         </div>
         <h1>{pokemon.name}</h1>
-        <div className="flex justify-center space-x-2 my-4 text-xl text-gray-600">
+        <div className="names">
           <div lang="ja">{pokemon.japanese}</div>
           <div>{pokemon.english}</div>
         </div>
         {pokemon.formName ? <div className="text-xl text-gray-600 mb-4">{pokemon.formName}</div> : null}
+        <Spin spinning={loading}>
+          <div className="description">{pokemonFull?.description || "—"}</div>
+        </Spin>
       </div>
 
       <div className="block">
