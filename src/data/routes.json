@@ -9,6 +9,7 @@
   "/副任务一览": "SideMissionListPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
+  "/i/:name": "ItemDetailPage",
   "/t/:name": "TypeDetailPage",
   "*": "NotFoundPage"
 }

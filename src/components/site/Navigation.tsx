@@ -6,8 +6,10 @@ import {
   HomeOutlined,
   SortDescendingOutlined,
   ThunderboltOutlined,
+  ToolOutlined,
   // UnorderedListOutlined,
   UserSwitchOutlined,
+  WalletOutlined,
 } from "@ant-design/icons";
 import cn from "classnames";
 import React from "react";
@@ -19,12 +21,13 @@ const navItems = [
   { path: "/", label: "首页", icon: <HomeOutlined /> },
   // { path: "/宝可梦一览", label: "宝可梦一览", icon: <UnorderedListOutlined /> },
   { path: "/招式一览", label: "招式一览", icon: <ThunderboltOutlined /> },
+  { path: "/道具一览", label: "道具一览", icon: <WalletOutlined /> },
   { path: "/招式学习器一览", label: "招式学习器一览", icon: <BulbOutlined /> },
   { path: "/训练家一览", label: "训练家一览", icon: <UserSwitchOutlined /> },
   { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: <SortDescendingOutlined /> },
   { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: <FileSearchOutlined /> },
-  // { path: "/密阿雷地图", label: "密阿雷地图", icon: <GlobalOutlined /> },
   { path: "/副任务一览", label: "副任务一览", icon: <FileExclamationOutlined /> },
+  { path: "/i/彩色螺丝", label: "彩色螺丝", icon: <ToolOutlined /> },
 ];
 
 export const Navigation: React.FC<{ onClick?: () => void }> = ({ onClick }) => {

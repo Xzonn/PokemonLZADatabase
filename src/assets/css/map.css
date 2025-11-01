@@ -16,6 +16,11 @@ svg.leaflet-attribution-flag {
 }
 
 .icon-side-mission {
-  background-image: url("../images/side-mission.png");
+  background-image: url("../images/icon-side-mission.png");
+  background-size: 100% auto;
+}
+
+.icon-colorful-screw {
+  background-image: url("../images/icon-colorful-screw.png");
   background-size: 100% auto;
 }

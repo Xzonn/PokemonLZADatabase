@@ -26,3 +26,10 @@ export type PokemonType = (typeof EPokemonType)[number];
 export const EMoveCategory = ["物理", "特殊", "变化"] as const;
 
 export type MoveCategory = (typeof EMoveCategory)[number];
+
+export type Position = {
+  category?: string;
+  index: number;
+  x: number;
+  y: number;
+};

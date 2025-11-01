@@ -12,6 +12,7 @@ export { default as MoveListPage } from "./MoveListPage";
 
 // 道具
 export { default as ItemListPage } from "./ItemListPage";
+export { default as ItemDetailPage } from "./ItemDetailPage";
 
 // 属性
 export { default as TypeDetailPage } from "./TypeDetailPage";
