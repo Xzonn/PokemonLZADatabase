@@ -46,6 +46,7 @@ const ItemListPage: React.FC = () => {
               loading={loading}
               headers={HEADERS.get(pocket)}
               data={itemFullData?.filter((item) => item.pocket === index)}
+              pagination={false}
             />
           )}
         </div>

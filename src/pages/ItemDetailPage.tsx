@@ -94,8 +94,6 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
   );
 };
 
-const ITEM_WHITELIST = ["彩色螺丝"];
-
 const ItemDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   const item = ItemDataByName[name || ""];
@@ -109,7 +107,7 @@ const ItemDetailPage: React.FC = () => {
     );
   }
 
-  return item && ITEM_WHITELIST.includes(item.name) ? <ItemDetailPageCore data={item} /> : <NotFoundPage />;
+  return item ? <ItemDetailPageCore data={item} /> : <NotFoundPage />;
 };
 
 export default ItemDetailPage;
