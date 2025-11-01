@@ -1,6 +1,7 @@
 {
   "/": "PokemonListPage",
   "/招式一览": "MoveListPage",
+  "/道具一览": "ItemListPage",
   "/招式学习器一览": "TMListPage",
   "/训练家一览": "TrainerListPage",
   "/ＺＡ登峰战": "RoyaleListPage",

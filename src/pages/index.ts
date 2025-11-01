@@ -10,6 +10,9 @@ export { default as PokemonDetailPage } from "./PokemonDetailPage";
 export { default as MoveDetailPage } from "./MoveDetailPage";
 export { default as MoveListPage } from "./MoveListPage";
 
+// 道具
+export { default as ItemListPage } from "./ItemListPage";
+
 // 属性
 export { default as TypeDetailPage } from "./TypeDetailPage";
 

@@ -122,7 +122,6 @@ a.badge-type {
   display: inline-flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  width: min-content;
 }
 
 .bg-一般 {

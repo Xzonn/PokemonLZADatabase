@@ -15,10 +15,11 @@ export const ItemCell: React.FC<{ item?: Item }> = ({ item }) =>
             {item.name}（<Link to={`/m/${item.move}`}>{item.move}</Link>）
           </>
         ) : item.page ? (
-          <Link to={item.page}>{item.name}</Link>
-        ) : (
+          // <Link to={item.page}>{item.name}</Link>
           <>{item.name}</>
+        ) : (
           // <Link to={`/i/${item.name}`}>{item.name}</Link>
+          <>{item.name}</>
         )}
       </div>
     </div>
