@@ -33,6 +33,8 @@ export const TMDetail: React.FC<{ move: string }> = ({ move }) => {
         <Descriptions
           {...DescriptionsCommonProps}
           items={getDescriptions(data?.[move])}
+          className="description-2"
+          column={{ xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 2 }}
         />
       </Spin>
     </Fragment>

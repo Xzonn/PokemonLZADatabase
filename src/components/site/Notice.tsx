@@ -12,7 +12,7 @@ export const Notice: React.FC = () => {
   });
 
   return show ? (
-    <div className="bg-white text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4">
+    <div className="notice">
       <p>
         《宝可梦传说 Z-A》数据库开发中……感谢{" "}
         <a

@@ -11,7 +11,7 @@ export const Header: React.FC = () => {
 
   return (
     <>
-      <nav className="bg-white shadow-lg border-b-4 border-primary">
+      <header>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
             </div>
           </div>
         </div>
-      </nav>
+      </header>
       <Drawer
         open={show}
         onClose={() => setShow(false)}
