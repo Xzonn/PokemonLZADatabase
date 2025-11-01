@@ -1,19 +1,18 @@
 import cn from "classnames";
-import React from "react";
+import React, { FC, PropsWithChildren } from "react";
 
 import { Pokemon } from "@/types";
 import { Link, getPokemonFullName } from "@/utils";
 
-export interface IPokemonIconProps {
+export interface IPokemonIconProps extends PropsWithChildren {
   pokemon: Pokemon;
   size?: number;
   shiny?: boolean;
   className?: string;
   link?: boolean;
-  children?: React.ReactNode;
 }
 
-export const PokemonIcon: React.FC<IPokemonIconProps> = ({
+export const PokemonIcon: FC<IPokemonIconProps> = ({
   pokemon,
   size = 64,
   shiny = false,
@@ -48,3 +47,25 @@ export const PokemonIcon: React.FC<IPokemonIconProps> = ({
     </div>
   );
 };
+
+export const PokemonIconWithName: FC<IPokemonIconProps> = ({ pokemon, link, ...rest }) =>
+  link ? (
+    <Link
+      to={`/p/${getPokemonFullName(pokemon)}`}
+      className="flex flex-col items-center w-[72px]"
+    >
+      <PokemonIcon
+        pokemon={pokemon}
+        {...rest}
+      />
+      <div>{pokemon.name}</div>
+    </Link>
+  ) : (
+    <div className="flex flex-col items-center w-[72px]">
+      <PokemonIcon
+        pokemon={pokemon}
+        {...rest}
+      />
+      <div>{pokemon.name}</div>
+    </div>
+  );

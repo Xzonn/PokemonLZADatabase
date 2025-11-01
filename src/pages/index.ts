@@ -29,3 +29,7 @@ export { default as ResearchListPage } from "./ResearchListPage";
 
 // 任务
 export { default as SideMissionListPage } from "./SideMissionListPage";
+
+// 地区
+export { default as WildZoneListPage } from "./WildZoneListPage";
+export { default as WildZoneDetailPage } from "./WildZoneDetailPage";

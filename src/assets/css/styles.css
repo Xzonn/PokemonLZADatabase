@@ -63,6 +63,16 @@ td.ant-descriptions-item-content {
   }
 }
 
+.description-1 {
+  th.ant-descriptions-item-label {
+    @apply lg:w-[20%];
+  }
+
+  td.ant-descriptions-item-content {
+    @apply lg:w-[80%];
+  }
+}
+
 h1 {
   @apply text-4xl font-bold my-4 text-center;
 }

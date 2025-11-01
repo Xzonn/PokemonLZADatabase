@@ -5,7 +5,15 @@ import { useParams } from "react-router-dom";
 
 import NotFoundPage from "./NotFoundPage";
 
-import { MoveTable, PokemonEvolutionTable, PokemonIcon, PokemonStatBar, PokemonTable, TypeEffects } from "@/components";
+import {
+  MoveTable,
+  PokemonEvolutionTable,
+  PokemonIcon,
+  PokemonStatBar,
+  PokemonTable,
+  TypeEffects,
+  ZoneLink,
+} from "@/components";
 import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
 import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
 import {
@@ -78,6 +86,20 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
     key: "baseFriendship",
     label: "初始友好度",
     children: pokemonFull?.baseFriendship || "—",
+  },
+];
+
+const getLocationDescriptions = (locations: PokemonFull["locations"]): DescriptionsProps["items"] => [
+  {
+    key: "zones",
+    label: "野生特区",
+    children:
+      locations?.zones?.map((zone, index) => (
+        <>
+          {index === 0 ? null : "、"}
+          <ZoneLink id={zone} />
+        </>
+      )) || "—",
   },
 ];
 
@@ -164,6 +186,17 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
           <>
             <h3>全部形态</h3>
             <PokemonTable data={allForms} />
+          </>
+        ) : null}
+        {pokemonFull?.locations ? (
+          <>
+            <h3>出现地点</h3>
+            <Descriptions
+              {...DescriptionsCommonProps}
+              className="description-1"
+              column={{ xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }}
+              items={getLocationDescriptions(pokemonFull?.locations)}
+            />
           </>
         ) : null}
       </div>

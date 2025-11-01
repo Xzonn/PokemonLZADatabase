@@ -7,9 +7,11 @@
   "/ＺＡ登峰战": "RoyaleListPage",
   "/茉蜜姬调查": "ResearchListPage",
   "/副任务一览": "SideMissionListPage",
+  "/野生特区一览": "WildZoneListPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
   "/i/:name": "ItemDetailPage",
   "/t/:name": "TypeDetailPage",
+  "/z/:id": "WildZoneDetailPage",
   "*": "NotFoundPage"
 }

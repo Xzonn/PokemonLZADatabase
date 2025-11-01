@@ -62,3 +62,9 @@ export const renderMoveLevel = (level: number): string => {
 export const onUseRequestError = (error: any) => {
   message.error(`数据加载失败: ${error?.message || error}`);
 };
+
+export const halfToFull = (str: string): string =>
+  str.replace(/[!-~]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) + 0xfee0));
+
+export const fullToHalf = (str: string): string =>
+  str.replace(/[！-～]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0));

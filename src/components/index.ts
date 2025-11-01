@@ -8,6 +8,7 @@ export * from "./research";
 export * from "./mission";
 
 export * from "./map";
+export * from "./location";
 
 export * from "./search";
 export * from "./site";

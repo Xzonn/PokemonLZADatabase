@@ -148,7 +148,7 @@ export const getEvolutionCondition = (evolution: Evolution): string => {
 };
 
 export const filterPokemon = (pokemon: Pokemon): boolean => {
-  if ((pokemon.id === 664 || pokemon.id === 665) && pokemon.form !== 0) {
+  if ((pokemon.id === 664 || pokemon.id === 665) && pokemon.form !== 6) {
     return false;
   }
   return true;

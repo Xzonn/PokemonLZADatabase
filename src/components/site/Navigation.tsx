@@ -7,6 +7,7 @@ import { Icon, Link } from "@/utils";
 const navItems = [
   { path: "/", label: "首页", icon: "pokedex" },
   // { path: "/宝可梦一览", label: "宝可梦一览", icon: <UnorderedListOutlined /> },
+  { path: "/野生特区一览", label: "野生特区一览", icon: "map" },
   { path: "/招式一览", label: "招式一览", icon: "plus" },
   { path: "/道具一览", label: "道具一览", icon: "bag" },
   { path: "/招式学习器一览", label: "招式学习器一览", icon: "bag-招式学习器" },

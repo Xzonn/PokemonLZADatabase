@@ -19,6 +19,14 @@
   @apply text-[24px] leading-[0];
 }
 
+.leaflet-marker-icon.icon {
+  @apply inline-flex items-center justify-center text-white;
+
+  & > * {
+    @apply text-[14px];
+  }
+}
+
 svg.leaflet-attribution-flag {
   display: none !important;
 }
