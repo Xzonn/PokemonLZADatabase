@@ -149,3 +149,10 @@ export const getEvolutionCondition = (evolution: Evolution): string => {
       return `${evolution.method}：${evolution.argument}`;
   }
 };
+
+export const filterPokemon = (pokemon: Pokemon): boolean => {
+  if ((pokemon.id === 664 || pokemon.id === 665) && pokemon.form !== 0) {
+    return false;
+  }
+  return true;
+};

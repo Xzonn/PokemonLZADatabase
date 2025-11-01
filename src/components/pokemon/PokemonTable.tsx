@@ -4,7 +4,14 @@ import { useMemo } from "react";
 import { PokemonCell } from "./PokemonCell";
 
 import { Pokemon, PokemonType } from "@/types";
-import { PaginationConfig, PokemonTypeFilters, TableCommonProps, TypeIcons, getPokemonFullId } from "@/utils";
+import {
+  PaginationConfig,
+  PokemonTypeFilters,
+  TableCommonProps,
+  TypeIcons,
+  filterPokemon,
+  getPokemonFullId,
+} from "@/utils";
 
 const columns: TableColumnsType<Pokemon> = [
   {
@@ -81,13 +88,15 @@ export const PokemonTable = <T,>({
     [extraColumns, showStats],
   );
 
+  const filteredData = useMemo(() => data?.filter(filterPokemon), [data]);
+
   return (
     <Table<Pokemon & T>
       {...TableCommonProps}
       rowKey={(row) => getPokemonFullId(row)}
       loading={loading}
       columns={fullColumns}
-      dataSource={data}
+      dataSource={filteredData}
       pagination={pagination ?? (loading || (data?.length || 0) > 100 ? PaginationConfig : false)}
     />
   );
