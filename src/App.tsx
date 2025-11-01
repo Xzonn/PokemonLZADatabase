@@ -33,7 +33,6 @@ const App: React.FC = () => (
           </div>
         </div>
       </main>
-      {/* <TableOfContents /> */}
     </div>
     <Footer />
   </Router>
