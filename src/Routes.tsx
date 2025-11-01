@@ -6,7 +6,7 @@ import * as pages from "@/pages";
 const Routes = () => (
   <ReactRoutes>
     {Object.entries(routes).map(([key, value]) => {
-      const PageComponent = pages[value as keyof typeof pages];
+      const PageComponent = pages[value as keyof typeof pages] ?? pages.NotFoundPage;
       return (
         <Route
           key={key}
