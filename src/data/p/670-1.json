@@ -3,10 +3,20 @@
   "form": 1,
   "expGrowth": 0,
   "catchRate": 120,
-  "gender": [2, 0],
+  "gender": [
+    2,
+    0
+  ],
   "baseFriendship": 50,
   "evoStage": 2,
-  "evYield": [0, 0, 0, 0, 2, 0],
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
   "evolutions": [
     {
       "level": 0,
