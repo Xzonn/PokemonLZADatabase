@@ -62,7 +62,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
   return (
     <Fragment key="item">
       <div className="section">
-        <div className="flex gap-8 align-center justify-center mb-4">
+        <div className="header-icon">
           <ItemIconWithoutTooltip
             item={item}
             size={128}

@@ -7,7 +7,7 @@ import { ItemIcon } from "../item";
 
 import { ItemDataByName } from "@/data";
 import { TrainerBase, TrainerNormal, TrainerRoyale } from "@/types";
-import { Icon, PaginationConfig, TRNAME_WITH_ICONS, TRTYPE_WITH_ICONS, TableCommonProps } from "@/utils";
+import { Icon, Link, PaginationConfig, TRNAME_WITH_ICONS, TRTYPE_WITH_ICONS, TableCommonProps } from "@/utils";
 
 const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<TrainerNormal | TrainerRoyale> => {
   const trtypes = Array.from(new Set(data?.map((item) => item.trtype) || []));
@@ -48,7 +48,7 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
                 name={trname}
                 size={22}
               />
-              <span>{trname}</span>
+              <Link to={`/tr/${trname}`}>{trname}</Link>
             </span>
           ) : trname === "塔霓/盖伊" ? (
             <span className="icon-wrapper">
@@ -60,7 +60,9 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
                 name="盖伊"
                 size={22}
               />
-              <span>{trname}</span>
+              <div>
+                <Link to="/tr/塔霓">塔霓</Link>/<Link to="/tr/盖伊">盖伊</Link>
+              </div>
             </span>
           ) : (
             <span>{trname}</span>

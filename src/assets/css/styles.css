@@ -114,6 +114,10 @@ main p {
   }
 }
 
+.header-icon {
+  @apply flex gap-8 items-center justify-center mb-4;
+}
+
 .names {
   @apply flex justify-center space-x-2 mb-6 text-xl text-gray-500;
 }

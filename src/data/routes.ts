@@ -24,6 +24,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/m/:name": "MoveDetailPage",
   "/i/:name": "ItemDetailPage",
   "/t/:name": "TypeDetailPage",
+  "/tr/:name": "TrainerDetailPage",
   "/z/:id": "WildZoneDetailPage",
   "*": "NotFoundPage",
 };

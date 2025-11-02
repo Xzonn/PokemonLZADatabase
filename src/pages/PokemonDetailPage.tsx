@@ -141,7 +141,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
   return (
     <Fragment key="pokemon">
       <div className="section">
-        <div className="flex gap-8 align-center justify-center mb-4">
+        <div className="header-icon">
           <PokemonIcon
             pokemon={pokemon}
             size={128}
