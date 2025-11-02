@@ -6,7 +6,7 @@ import { TMCell } from "../item/ItemCell";
 
 import { ItemDataByName } from "@/data";
 import { TM } from "@/types";
-import { DescriptionsCommonProps, getTMMethod, onUseRequestError } from "@/utils";
+import { DescriptionsCommonProps2, getTMMethod, onUseRequestError } from "@/utils";
 
 const getDescriptions = (tm?: TM): DescriptionsProps["items"] => [
   {
@@ -31,10 +31,8 @@ export const TMDetail: React.FC<{ move: string }> = ({ move }) => {
     <Fragment key="tm">
       <Spin spinning={loading}>
         <Descriptions
-          {...DescriptionsCommonProps}
+          {...DescriptionsCommonProps2}
           items={getDescriptions(data?.[move])}
-          className="description-2"
-          column={{ xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 2 }}
         />
       </Spin>
     </Fragment>

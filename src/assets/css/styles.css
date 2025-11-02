@@ -126,6 +126,14 @@ main p {
   @apply mb-2 text-gray-700;
 }
 
+ul {
+  @apply list-disc pl-4 mb-4;
+
+  &:last-child {
+    @apply mb-0;
+  }
+}
+
 /** 通用 */
 .icon,
 .pokemon-icon,

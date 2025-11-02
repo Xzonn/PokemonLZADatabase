@@ -1,38 +1,8 @@
 import { useRequest } from "ahooks";
-import { Button } from "antd";
-import { divIcon } from "leaflet";
-import React, { FC, Fragment, useEffect, useState } from "react";
-import { Marker, Popup, useMap } from "react-leaflet";
+import React, { Fragment, useEffect, useState } from "react";
 
-import { Map, SideMissionTable } from "@/components";
-import { SideMission } from "@/types";
-import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, onUseRequestError } from "@/utils";
-
-const SideMissionMapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
-  const map = useMap();
-
-  if (data?.length === 1) {
-    const mission = data[0];
-    map.setView(getCoord([mission.x, mission.y]), 2);
-  } else {
-    map.setView(getCoord(MAP_CENTER), 0);
-  }
-
-  return data?.map((mission) => (
-    <Marker
-      key={mission.index}
-      position={getCoord([mission.x, mission.y])}
-      icon={divIcon({
-        className: "icon icon-side-mission",
-        iconSize: [24, 24],
-      })}
-    >
-      <Popup>
-        #{mission.index.toString().padStart(3, "0")} {mission.name}
-      </Popup>
-    </Marker>
-  ));
-};
+import { SideMissionMap, SideMissionTable } from "@/components";
+import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
 
 const SideMissionListPage: React.FC = () => {
   useEffect(() => {
@@ -53,23 +23,10 @@ const SideMissionListPage: React.FC = () => {
 
       <div className="section">
         <h2 id="地图">地图</h2>
-        <div className="flex justify-center mb-2">
-          <Button
-            onClick={() => setActive(null)}
-            disabled={loading || active === null}
-          >
-            重置筛选
-          </Button>
-        </div>
-        <Map loading={loading}>
-          {data ? (
-            <SideMissionMapLayer data={active !== null ? data.filter((mission) => mission.index === active) : data} />
-          ) : null}
-        </Map>
-        <div className="map-note">
-          地点坐标参考自：
-          <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
-        </div>
+        <SideMissionMap
+          active={active}
+          setActive={setActive}
+        />
       </div>
 
       <div className="section">
@@ -77,7 +34,6 @@ const SideMissionListPage: React.FC = () => {
         <SideMissionTable
           loading={loading}
           data={data || []}
-          setActive={setActive}
         />
       </div>
     </Fragment>

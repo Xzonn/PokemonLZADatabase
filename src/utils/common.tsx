@@ -40,6 +40,24 @@ export const DescriptionsCommonProps: Partial<DescriptionsProps> = {
   column: { xs: 1, sm: 1, md: 1, lg: 3, xl: 3, xxl: 3 },
 };
 
+export const DescriptionsCommonProps1: Partial<DescriptionsProps> = {
+  ...DescriptionsCommonProps,
+  className: "description-1",
+  column: { xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 },
+};
+
+export const DescriptionsCommonProps2: Partial<DescriptionsProps> = {
+  ...DescriptionsCommonProps,
+  className: "description-2",
+  column: { xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 2 },
+};
+
+export const DescriptionsCommonProps4: Partial<DescriptionsProps> = {
+  ...DescriptionsCommonProps,
+  className: "description-4",
+  column: { xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 4 },
+};
+
 export const PaginationConfig: TablePaginationConfig = {
   defaultPageSize: 100,
   showSizeChanger: true,

@@ -11,7 +11,7 @@ import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
 import {
   CategoryIcon,
   DEFAULT_TITLE,
-  DescriptionsCommonProps,
+  DescriptionsCommonProps4,
   TypeIcon,
   onUseRequestError,
   renderMoveLevel,
@@ -99,9 +99,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
       <div className="section">
         <h3>基本信息</h3>
         <Descriptions
-          {...DescriptionsCommonProps}
-          className="description-4"
-          column={{ xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 4 }}
+          {...DescriptionsCommonProps4}
           items={getDescriptions(move)}
         />
       </div>

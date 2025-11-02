@@ -8,7 +8,7 @@ import NotFoundPage from "./NotFoundPage";
 import { ItemIconWithoutTooltip } from "@/components";
 import { ItemDataByName } from "@/data";
 import { EItemPocket, Item, ItemFull } from "@/types";
-import { DEFAULT_TITLE, DescriptionsCommonProps, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, DescriptionsCommonProps4, onUseRequestError } from "@/utils";
 
 const getDescriptions = (item: Item, itemFull: ItemFull | null): DescriptionsProps["items"] => [
   {
@@ -82,9 +82,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         <h3>基本信息</h3>
         <Spin spinning={loadingFull}>
           <Descriptions
-            {...DescriptionsCommonProps}
-            className="description-4"
-            column={{ xs: 1, sm: 1, md: 1, lg: 2, xl: 2, xxl: 4 }}
+            {...DescriptionsCommonProps4}
             items={getDescriptions(item, itemFull)}
           />
         </Spin>

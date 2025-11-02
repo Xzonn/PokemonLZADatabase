@@ -25,8 +25,8 @@ const App: FC = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <TocObserver>
-        <ScrollToTop />
         <Header showDrawer={!sidebarShown} />
         <Notice />
         <div className="md:flex relative flex-1">

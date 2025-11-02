@@ -1,3 +1,5 @@
+import { FC, ReactNode } from "react";
+
 export interface SideMission {
   index: number;
   name: string;
@@ -10,5 +12,16 @@ export interface SideMission {
   x: number;
   y: number;
   z: number;
-  unlockCondition: string;
+  unlockCondition: ReactNode;
+}
+
+export interface SideMissionInformation extends Omit<SideMission, "x" | "y" | "z"> {
+  summary: string;
+  process: string[];
+  location: string;
+}
+
+export interface SideMissionFull {
+  information: SideMissionInformation;
+  default?: FC;
 }

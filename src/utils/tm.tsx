@@ -14,7 +14,9 @@ export const getTMMethod = (tm: TM, onClick?: () => void): ReactNode => {
   } else if (tm.sideMission) {
     return (
       <>
-        <Link to="/副任务一览">副任务</Link> #{tm.sideMission.toString().padStart(3, "0")}
+        <Link to={`/side/${tm.sideMission.toString().padStart(3, "0")}`}>
+          副任务 #{tm.sideMission.toString().padStart(3, "0")}
+        </Link>
       </>
     );
   } else if (tm.location) {

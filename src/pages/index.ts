@@ -30,6 +30,7 @@ export { default as ResearchListPage } from "./ResearchListPage";
 
 // 任务
 export { default as SideMissionListPage } from "./SideMissionListPage";
+export { default as SideMissionDetailPage } from "./SideMissionDetailPage";
 
 // 地区
 export { default as WildZoneListPage } from "./WildZoneListPage";

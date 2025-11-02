@@ -19,8 +19,6 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/ＺＡ登峰战": "RoyaleListPage",
   "/茉蜜姬调查": "ResearchListPage",
   "/副任务一览": "SideMissionListPage",
-  /** @deprecated */
-  "/野生特区一览": "WildZoneListPage",
   "/密阿雷地图": "AreaListPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
@@ -28,6 +26,9 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/t/:name": "TypeDetailPage",
   "/tr/:name": "TrainerDetailPage",
   "/area/:name": "AreaDetailPage",
+  "/side/:id": "SideMissionDetailPage",
+  /** @deprecated */
+  "/野生特区一览": "WildZoneListPage",
   /** @deprecated */
   "/z/:id": "WildZoneDetailPage",
   "*": "NotFoundPage",

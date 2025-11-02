@@ -10,6 +10,7 @@ import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
 import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
 import {
   DEFAULT_TITLE,
+  DescriptionsCommonProps1,
   DescriptionsCommonProps,
   Link,
   TypeIcons,
@@ -190,9 +191,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
           <>
             <h3>获取方式</h3>
             <Descriptions
-              {...DescriptionsCommonProps}
-              className="description-1"
-              column={{ xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }}
+              {...DescriptionsCommonProps1}
               items={getObtainDescriptions(pokemonFull?.obtains)}
             />
           </>
