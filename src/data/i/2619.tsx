@@ -6,7 +6,7 @@ import raw from "./2619-location.txt?raw";
 import { ItemFullData } from "./detail";
 
 import { ItemTable, Map } from "@/components";
-import { Position } from "@/types";
+import { PositionWithPoint } from "@/types";
 import { Link, MAP_CENTER, getCoord } from "@/utils";
 
 const lines = raw.trim().split("\n");
@@ -15,7 +15,8 @@ const header = lines[0].split("\t");
 export const Positions = lines.slice(1).map((line, index) => {
   const parts = line.split("\t");
   const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
-  const position: Position = {
+  const position: PositionWithPoint = {
+    name: `${index}`,
     index: index,
     x: parseInt(dict["X"], 10),
     y: parseInt(dict["Y"], 10),
@@ -25,7 +26,7 @@ export const Positions = lines.slice(1).map((line, index) => {
 
 const CANARI_PLUSHES = ItemFullData.filter((item) => item.priceColorfulScrew > 0);
 
-const MapLayer: FC<{ data: Position[] }> = ({ data }) => {
+const MapLayer: FC<{ data: PositionWithPoint[] }> = ({ data }) => {
   const map = useMap();
 
   if (data?.length === 1) {

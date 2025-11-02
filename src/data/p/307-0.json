@@ -203,9 +203,9 @@
     }
   ],
   "description": "１天只吃１个树果。会通过忍饥挨饿来磨砺己心。",
-  "locations": {
-    "zones": [
-      6
+  "obtains": {
+    "areas": [
+      "６号野生特区"
     ]
   }
 }

@@ -1,3 +1,3 @@
-export * from "./PokemonSpawnZoneTable";
+export * from "./PokemonSpawnTable";
 export * from "./PokemonMap";
 export * from "./ZoneLink";

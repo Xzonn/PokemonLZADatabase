@@ -5,20 +5,13 @@ import { useParams } from "react-router-dom";
 
 import NotFoundPage from "./NotFoundPage";
 
-import {
-  MoveTable,
-  PokemonEvolutionTable,
-  PokemonIcon,
-  PokemonStatBar,
-  PokemonTable,
-  TypeEffects,
-  ZoneLink,
-} from "@/components";
+import { MoveTable, PokemonEvolutionTable, PokemonIcon, PokemonStatBar, PokemonTable, TypeEffects } from "@/components";
 import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
 import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
 import {
   DEFAULT_TITLE,
   DescriptionsCommonProps,
+  Link,
   TypeIcons,
   getPokemonFullId,
   getPokemonFullNameFriendly,
@@ -89,15 +82,20 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
   },
 ];
 
-const getLocationDescriptions = (locations: PokemonFull["locations"]): DescriptionsProps["items"] => [
+const getObtainDescriptions = (obtains: PokemonFull["obtains"]): DescriptionsProps["items"] => [
   {
-    key: "zones",
-    label: "野生特区",
+    key: "areas",
+    label: "出现地点",
     children:
-      locations?.zones?.map((zone, index) => (
+      obtains?.areas?.map((area, index) => (
         <>
           {index === 0 ? null : "、"}
-          <ZoneLink id={zone} />
+          <Link
+            id={area}
+            to={`/area/${area}`}
+          >
+            {area}
+          </Link>
         </>
       )) || "—",
   },
@@ -188,14 +186,14 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
             <PokemonTable data={allForms} />
           </>
         ) : null}
-        {pokemonFull?.locations ? (
+        {pokemonFull?.obtains ? (
           <>
-            <h3>出现地点</h3>
+            <h3>获取方式</h3>
             <Descriptions
               {...DescriptionsCommonProps}
               className="description-1"
               column={{ xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }}
-              items={getLocationDescriptions(pokemonFull?.locations)}
+              items={getObtainDescriptions(pokemonFull?.obtains)}
             />
           </>
         ) : null}

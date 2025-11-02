@@ -34,3 +34,5 @@ export { default as SideMissionListPage } from "./SideMissionListPage";
 // 地区
 export { default as WildZoneListPage } from "./WildZoneListPage";
 export { default as WildZoneDetailPage } from "./WildZoneDetailPage";
+export { default as AreaDetailPage } from "./AreaDetailPage";
+export { default as AreaListPage } from "./AreaListPage";

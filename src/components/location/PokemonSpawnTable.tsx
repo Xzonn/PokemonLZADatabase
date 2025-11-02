@@ -3,10 +3,10 @@ import { useMemo } from "react";
 
 import { PokemonCell } from "../pokemon";
 
-import { PokemonSpawnZone, PokemonType } from "@/types";
+import { PokemonSpawn, PokemonType } from "@/types";
 import { PokemonTypeFilters, TableCommonProps, TypeIcons } from "@/utils";
 
-const columns: TableColumnsType<PokemonSpawnZone> = [
+const columns: TableColumnsType<PokemonSpawn> = [
   {
     title: "宝可梦",
     dataIndex: "pokemon",
@@ -47,7 +47,7 @@ const columns: TableColumnsType<PokemonSpawnZone> = [
   {
     title: "头目概率",
     dataIndex: "alphaRate",
-    render: (v) => `${v}%`,
+    render: (v) => (v !== 0 ? `${v}%` : "—"),
     onCell: () => ({ className: "text-nowrap" }),
   },
   {
@@ -60,13 +60,13 @@ const columns: TableColumnsType<PokemonSpawnZone> = [
 
 interface ITableProps<T = undefined> {
   loading?: boolean;
-  data?: (PokemonSpawnZone & T)[];
-  extraColumns?: TableColumnsType<PokemonSpawnZone & T>;
+  data?: (PokemonSpawn & T)[];
+  extraColumns?: TableColumnsType<PokemonSpawn & T>;
   headers?: string[];
   pagination?: false | TablePaginationConfig;
 }
 
-export const PokemonSpawnZoneTable = <T,>({
+export const PokemonSpawnTable = <T,>({
   loading = false,
   data,
   extraColumns = [],
@@ -74,17 +74,15 @@ export const PokemonSpawnZoneTable = <T,>({
   pagination,
 }: ITableProps<T>) => {
   const sortedColumns = useMemo(() => {
-    type ColumnType = TableColumnsType<PokemonSpawnZone & T>[number];
+    type ColumnType = TableColumnsType<PokemonSpawn & T>[number];
     const columnsByTitle = new Map<string, ColumnType>(
       [...columns, ...extraColumns].map((col) => [col.title, col] as [string, ColumnType]),
     );
-    return headers?.map((header) => columnsByTitle.get(header)).filter(Boolean) as TableColumnsType<
-      PokemonSpawnZone & T
-    >;
+    return headers?.map((header) => columnsByTitle.get(header)).filter(Boolean) as TableColumnsType<PokemonSpawn & T>;
   }, [headers, extraColumns]);
 
   return (
-    <Table<PokemonSpawnZone & T>
+    <Table<PokemonSpawn & T>
       {...TableCommonProps}
       rowKey={(row) => row.index}
       loading={loading}

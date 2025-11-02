@@ -12,3 +12,20 @@ export interface MapProps {
   zoom?: number;
   loading?: boolean;
 }
+
+interface PositionBasic {
+  name: string;
+  index: number;
+}
+
+export interface PositionWithPoint extends PositionBasic {
+  x: number;
+  y: number;
+}
+
+export interface PositionWithoutPoint extends PositionBasic {
+  x: null;
+  y: null;
+}
+
+export type Position = PositionWithPoint | PositionWithoutPoint;

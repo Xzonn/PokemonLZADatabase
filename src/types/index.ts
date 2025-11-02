@@ -7,5 +7,5 @@ export * from "./tm";
 export * from "./research";
 export * from "./mission";
 export * from "./map";
-export * from "./location";
+export * from "./area";
 export * from "./other";

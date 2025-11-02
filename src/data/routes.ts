@@ -19,12 +19,16 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/ＺＡ登峰战": "RoyaleListPage",
   "/茉蜜姬调查": "ResearchListPage",
   "/副任务一览": "SideMissionListPage",
+  /** @deprecated */
   "/野生特区一览": "WildZoneListPage",
+  "/密阿雷地图": "AreaListPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
   "/i/:name": "ItemDetailPage",
   "/t/:name": "TypeDetailPage",
   "/tr/:name": "TrainerDetailPage",
+  "/area/:name": "AreaDetailPage",
+  /** @deprecated */
   "/z/:id": "WildZoneDetailPage",
   "*": "NotFoundPage",
 };
@@ -32,7 +36,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
 export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/", label: "首页", icon: "pokedex" },
   { path: "/宝可梦一览", label: "宝可梦一览", icon: "bag-精灵球" },
-  { path: "/野生特区一览", label: "野生特区一览", icon: "map" },
+  { path: "/密阿雷地图", label: "密阿雷地图", icon: "map" },
   { path: "/招式一览", label: "招式一览", icon: "plus" },
   { path: "/道具一览", label: "道具一览", icon: "bag" },
   { path: "/招式学习器一览", label: "招式学习器一览", icon: "bag-招式学习器" },
@@ -66,7 +70,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
       {
         title: "收集相关",
         contents: [
-          { path: "/野生特区一览", label: "野生特区", icon: "zone" },
+          { path: "/密阿雷地图", label: "密阿雷地图", icon: "zone" },
           { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: "茉蜜姬" },
           { path: "/副任务一览", label: "副任务", icon: "side-mission" },
           { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "colorful-screw" },

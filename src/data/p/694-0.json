@@ -176,9 +176,9 @@
     }
   ],
   "description": "在头部两侧的褶边里，有沐浴阳光来发电的细胞。",
-  "locations": {
-    "zones": [
-      14
+  "obtains": {
+    "areas": [
+      "１４号野生特区"
     ]
   }
 }

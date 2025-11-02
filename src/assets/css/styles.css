@@ -426,7 +426,7 @@ footer {
   background-size: 100% auto;
 
   .home-navigation {
-    @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl aspect-[16/10];
+    @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl;
 
     h2 {
       @apply mt-10;
@@ -467,5 +467,9 @@ footer {
     .home-link-label {
       @apply text-lg font-semibold text-center;
     }
+  }
+
+  .giscus {
+    @apply hidden;
   }
 }

@@ -209,9 +209,9 @@
     }
   ],
   "description": "体内有着火袋，深吸气后会吐出１７００度的火焰。",
-  "locations": {
-    "zones": [
-      20
+  "obtains": {
+    "areas": [
+      "２０号野生特区"
     ]
   }
 }

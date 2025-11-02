@@ -246,9 +246,9 @@
     }
   ],
   "description": "它好像能通过将月光聚集在后背的翅膀上来浮在空中。",
-  "locations": {
-    "zones": [
-      19
+  "obtains": {
+    "areas": [
+      "１９号野生特区"
     ]
   }
 }

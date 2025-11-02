@@ -1,7 +1,7 @@
 import { PokemonForm } from "./common";
 import { Pokemon } from "./pokemon";
 
-export interface PokemonSpawnZone {
+export interface PokemonSpawn {
   index: number;
   form: PokemonForm;
   pokemon: Pokemon;
