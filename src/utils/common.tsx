@@ -60,7 +60,12 @@ export const renderMoveLevel = (level: number): string => {
 };
 
 export const onUseRequestError = (error: any) => {
-  message.error(`数据加载失败: ${error?.message || error}`);
+  const errorMessage = `${error?.message || error}`;
+  if (/Failed to fetch dynamically imported module: https?:\/\/[^/]+\/assets\//.test(errorMessage)) {
+    message.error("资源文件加载失败，请尝试刷新页面。");
+  } else {
+    message.error(`数据加载失败: ${errorMessage}`);
+  }
 };
 
 export const halfToFull = (str: string): string =>
