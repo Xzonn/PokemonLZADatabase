@@ -15,11 +15,11 @@ const ResearchListPage: React.FC = () => {
 
   return (
     <Fragment key="research-list">
-      <div className="block">
+      <div className="section">
         <h1>茉蜜姬调查</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>奖励</h2>
         <ResearchRewardTable
           loading={loading}
@@ -27,7 +27,7 @@ const ResearchListPage: React.FC = () => {
         />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>调查一览</h2>
         <ResearchTable
           loading={loading}

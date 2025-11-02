@@ -1,11 +1,7 @@
 /* This file is auto-generated. Do not edit directly. */
 
 .icon {
-  width: 1em;
-  height: 1em;
-  display: inline-block;
   background-image: url("../images/icon.webp");
-  background-repeat: no-repeat;
   background-size: 20em auto;
   background-position: -19em -10em;
 }
@@ -845,4 +841,3 @@
 .icon-sv-wiki {
   background-position: -8em -10em;
 }
-

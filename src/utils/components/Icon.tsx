@@ -24,14 +24,14 @@ export const TypeIcon: React.FC<{ type: PokemonType; link?: boolean }> = ({ type
       to={`/t/${type}`}
       className={`badge bg-${type}`}
     >
-      <span className={`badge-icon icon icon-${type}-white`} />
-      <span className="badge-text">{type}</span>
+      <div className={`badge-icon icon icon-${type}-white`} />
+      <div className="badge-text">{type}</div>
     </Link>
   ) : (
-    <span className={`badge bg-${type}`}>
-      <span className={`badge-icon icon icon-${type}-white`} />
-      <span className="badge-text">{type}</span>
-    </span>
+    <div className={`badge bg-${type}`}>
+      <div className={`badge-icon icon icon-${type}-white`} />
+      <div className="badge-text">{type}</div>
+    </div>
   );
 
 export const TypeIcons: React.FC<{ types: [PokemonType, PokemonType]; link?: boolean }> = ({ types, link = true }) => (
@@ -47,8 +47,8 @@ export const TypeIcons: React.FC<{ types: [PokemonType, PokemonType]; link?: boo
 );
 
 export const CategoryIcon: React.FC<{ category: MoveCategory }> = ({ category }) => (
-  <span className={`badge bg-${category}`}>
-    <span className={`badge-icon icon icon-${category}-white`} />
-    <span className="badge-text">{category}</span>
-  </span>
+  <div className={`badge bg-${category}`}>
+    <div className={`badge-icon icon icon-${category}-white`} />
+    <div className="badge-text">{category}</div>
+  </div>
 );

@@ -11,11 +11,11 @@ const PokemonListPage: React.FC = () => {
 
   return (
     <Fragment key="pokemon-list">
-      <div className="block">
+      <div className="section">
         <h1>宝可梦一览</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <PokemonTable
           data={PokemonData}
           showStats

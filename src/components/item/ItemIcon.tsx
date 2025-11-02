@@ -17,12 +17,10 @@ export const ItemIconWithoutTooltip: React.FC<IItemIconProps> = ({ item, size = 
   const { x, y } = realItem;
 
   const style: React.CSSProperties = {
-    width: size,
-    height: size,
-    backgroundSize: `${size * 20}px auto`,
-    backgroundPosition: `-${x * size}px -${y * size}px`,
+    fontSize: `${size}px`,
+    backgroundPosition: `-${x}em -${y}em`,
   };
-  const combinedClassName = cn("icon-item", className || "");
+  const combinedClassName = cn("item-icon", className || "");
   const name = realItem.name === "无" ? "" : realItem.name;
 
   return link && name ? (

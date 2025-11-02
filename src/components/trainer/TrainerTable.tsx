@@ -7,7 +7,7 @@ import { ItemIcon } from "../item";
 
 import { ItemDataByName } from "@/data";
 import { TrainerBase, TrainerNormal, TrainerRoyale } from "@/types";
-import { PaginationConfig, TableCommonProps } from "@/utils";
+import { Icon, PaginationConfig, TRNAME_WITH_ICONS, TRTYPE_WITH_ICONS, TableCommonProps } from "@/utils";
 
 const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<TrainerNormal | TrainerRoyale> => {
   const trtypes = Array.from(new Set(data?.map((item) => item.trtype) || []));
@@ -24,6 +24,17 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
       })),
       onFilter: (value, record) => record.trtype === value,
       filterSearch: true,
+      render: (trtype) => (
+        <span className="icon-wrapper">
+          {TRTYPE_WITH_ICONS.includes(trtype) && (
+            <Icon
+              name={trtype}
+              size={22}
+            />
+          )}
+          <span>{trtype}</span>
+        </span>
+      ),
     },
     {
       title: "名字",
@@ -31,7 +42,29 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
       width: 250,
       render: (trname, row) => (
         <div>
-          {trname}
+          {TRNAME_WITH_ICONS.includes(trname) ? (
+            <span className="icon-wrapper">
+              <Icon
+                name={trname}
+                size={22}
+              />
+              <span>{trname}</span>
+            </span>
+          ) : trname === "塔霓/盖伊" ? (
+            <span className="icon-wrapper">
+              <Icon
+                name="塔霓"
+                size={22}
+              />
+              <Icon
+                name="盖伊"
+                size={22}
+              />
+              <span>{trname}</span>
+            </span>
+          ) : (
+            <span>{trname}</span>
+          )}
           <div className="flex flex-row mt-2">
             {Array.from({ length: 6 }).map((_, i) => (
               <ItemIcon

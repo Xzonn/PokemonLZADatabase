@@ -140,7 +140,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
 
   return (
     <Fragment key="pokemon">
-      <div className="block">
+      <div className="section">
         <div className="flex gap-8 align-center justify-center mb-4">
           <PokemonIcon
             pokemon={pokemon}
@@ -163,7 +163,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         </Spin>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h3>基本信息</h3>
         <Spin spinning={loading}>
           <Descriptions
@@ -201,7 +201,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         ) : null}
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>能力值</h2>
         <div className="text-center mb-4">总和：{pokemon.baseTotal}</div>
         <div className="max-w-3xl mx-auto space-y-4">
@@ -215,7 +215,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         </div>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>等级提升</h2>
         <MoveTable<MoveLevelUp>
           extraColumns={columnsLevelUp}
@@ -224,7 +224,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>招式学习器</h2>
         <MoveTable
           extraColumns={columnsTM}

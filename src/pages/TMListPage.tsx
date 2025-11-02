@@ -73,11 +73,11 @@ const TMListPage: React.FC = () => {
 
   return (
     <Fragment key="tm-list">
-      <div className="block">
+      <div className="section">
         <h1>招式学习器一览</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2 id="地图">地图</h2>
         <div className="flex justify-center mb-2">
           <Button
@@ -98,7 +98,7 @@ const TMListPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>列表</h2>
         <MoveTable<TMFull>
           loading={loading}

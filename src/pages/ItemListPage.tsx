@@ -27,14 +27,14 @@ const ItemListPage: React.FC = () => {
 
   return (
     <Fragment key="pokemon-list">
-      <div className="block">
+      <div className="section">
         <h1>道具一览</h1>
       </div>
 
       {EItemPocket.map((pocket, index) => (
         <div
           key="pocket"
-          className="block"
+          className="section"
         >
           <h2>{pocket}</h2>
           {pocket === "招式学习器" ? (

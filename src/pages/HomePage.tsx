@@ -17,14 +17,14 @@ const HomePage: React.FC = () => {
 
   return (
     <Fragment key="pokemon-list">
-      <div className="block">
+      <div className="section">
         <div className="home-navigation">
           <h1 className="flex items-center justify-center">
             <Icon
               name="超Z队"
               size={48}
             />
-            <span>{DEFAULT_TITLE}</span>
+            <span className="flex-shrink">{DEFAULT_TITLE}</span>
             <Icon
               name="超Z队"
               size={48}

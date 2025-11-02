@@ -57,10 +57,10 @@ const WildZoneDetailPageCore: FC<IPageProps> = ({ id }) => {
 
   return (
     <Fragment key="wild-zone-list">
-      <div className="block">
+      <div className="section">
         <h1>{title}</h1>
       </div>
-      <div className="block">
+      <div className="section">
         <h2>地图</h2>
         <PokemonMap
           active={active}
@@ -68,7 +68,7 @@ const WildZoneDetailPageCore: FC<IPageProps> = ({ id }) => {
         />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>野生宝可梦</h2>
         <Spin spinning={loading}>
           <PokemonSpawnZoneTable data={pokemonData || []} />

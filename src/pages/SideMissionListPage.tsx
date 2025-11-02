@@ -47,11 +47,11 @@ const SideMissionListPage: React.FC = () => {
 
   return (
     <Fragment key="side-mission-list">
-      <div className="block">
+      <div className="section">
         <h1>副任务一览</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2 id="地图">地图</h2>
         <div className="flex justify-center mb-2">
           <Button
@@ -72,7 +72,7 @@ const SideMissionListPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>任务列表</h2>
         <SideMissionTable
           loading={loading}

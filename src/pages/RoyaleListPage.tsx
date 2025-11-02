@@ -29,11 +29,11 @@ const RoyaleListPage: React.FC = () => {
 
   return (
     <Fragment key="pokemon-list">
-      <div className="block">
+      <div className="section">
         <h1>ＺＡ登峰战</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>升级战的对手</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
@@ -42,7 +42,7 @@ const RoyaleListPage: React.FC = () => {
         />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>对战特区的对手</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <RoyaleTrainerTable

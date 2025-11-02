@@ -34,7 +34,7 @@ const App: FC = () => {
           <main>
             <div className="bg-white sm:rounded-2xl sm:shadow-xl">
               <Routes />
-              <div className="giscus block">
+              <div className="giscus section">
                 <Giscus
                   host="https://giscus.xzonn.top"
                   repo="Xzonn/PokemonLZADatabase"

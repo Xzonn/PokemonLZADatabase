@@ -45,7 +45,7 @@ const columns: TableColumnsType<ItemFull> = [
     sorter: (a, b) => a.priceColorfulScrew - b.priceColorfulScrew,
     render: (price) =>
       price > 0 ? (
-        <div className="cell-item">
+        <div className="icon-wrapper">
           <ItemIcon item={COLORFUL_SCREW} />
           <div className="item-name">{price}</div>
         </div>
@@ -59,7 +59,7 @@ const columns: TableColumnsType<ItemFull> = [
     sorter: (a, b) => a.priceMegaShard - b.priceMegaShard,
     render: (price) =>
       price > 0 ? (
-        <div className="cell-item">
+        <div className="icon-wrapper">
           <ItemIcon item={MEGA_SHARD} />
           <div className="item-name">{price}</div>
         </div>

@@ -18,13 +18,13 @@ const TypeDetailPageCore: React.FC<{ name: PokemonType }> = ({ name: typeName })
 
   return (
     <Fragment key="move">
-      <div className="block">
+      <div className="section">
         <h1>
           <TypeIcon type={typeName} />
         </h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>属性相克</h2>
         <h3>{typeName}属性招式攻击其他属性宝可梦</h3>
         <TypeEffects
@@ -35,12 +35,12 @@ const TypeDetailPageCore: React.FC<{ name: PokemonType }> = ({ name: typeName })
         <TypeEffects types={[typeName]} />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>此属性的宝可梦</h2>
         <PokemonTable data={allForms} />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>此属性的招式</h2>
         <MoveTable data={allMoves} />
       </div>

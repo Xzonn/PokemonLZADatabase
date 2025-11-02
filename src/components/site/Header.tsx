@@ -87,7 +87,7 @@ export const Header: FC<IHeaderProps> = ({ showDrawer }) => {
           wrapper: { height: "100%" },
         }}
       >
-        <SearchBar />
+        <SearchBar onClick={() => setShow(false)} />
         <Tabs items={items} />
       </Drawer>
     </>

@@ -97,7 +97,7 @@ main p {
   @apply my-4;
 }
 
-.block {
+.section {
   @apply px-2 py-4 md:px-4 lg:px-6 lg:py-6;
 
   &:first-child {
@@ -122,20 +122,29 @@ main p {
   @apply mb-2 text-gray-700;
 }
 
-/** 宝可梦小图标 */
-.icon-pokemon,
-.icon-item {
-  display: flex;
-  flex: 0 0 auto;
-  align-items: end;
-  justify-content: end;
+/** 通用 */
+.icon,
+.pokemon-icon,
+.pokemon-shiny-icon,
+.item-icon {
+  @apply flex items-end justify-end w-[1em] h-[1em] flex-shrink-0 bg-no-repeat;
+  background-size: 20em auto;
 }
 
-.icon-pokemon {
+.icon {
+  background-image: url("../images/icon.webp");
+}
+
+.icon-wrapper {
+  @apply flex items-center justify-start whitespace-nowrap gap-1;
+}
+
+/** 宝可梦 */
+.pokemon-icon {
   background-image: url("../images/pokemon.webp");
 }
 
-.icon-pokemon-shiny {
+.pokemon-shiny-icon {
   background-image: url("../images/pokemon-shiny.webp");
 }
 
@@ -151,17 +160,14 @@ main p {
   white-space: nowrap;
 }
 
+/** 道具 */
+.item-icon {
+  background-image: url("../images/items.webp");
+}
+
 /** 属性 */
 .badge {
-  @apply inline-flex items-center justify-center;
-  display: inline-flex;
-  flex-wrap: nowrap;
-  color: #fff;
-  border-radius: 0.5em;
-  font-weight: 600;
-  width: 5em;
-  text-align: center;
-  white-space: nowrap;
+  @apply flex items-center justify-center flex-nowrap text-white w-[5em] text-center whitespace-nowrap font-semibold rounded-[0.5em];
 }
 
 .badge-icon {
@@ -300,13 +306,9 @@ a.badge {
   font-weight: 100;
 }
 
-/** 道具 */
-.icon-item {
-  background-image: url("../images/items.webp");
-}
-
-.cell-item {
-  @apply flex items-center gap-2 whitespace-nowrap;
+/** 训练家 */
+.trainer-pokemon {
+  @apply flex flex-col items-center w-[72px];
 }
 
 /** 搜索框 */
@@ -415,10 +417,9 @@ footer {
 }
 
 .main-home > div {
+  @apply bg-[#08143b] bg-no-repeat bg-top;
   background-image: url("https://www.pokemon.co.jp/ex/legends_z-a/assets/img/toppage/keyvisual/visual@2x.webp");
   background-size: 100% auto;
-  background-position: top center;
-  background-repeat: no-repeat;
 
   .home-navigation {
     @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl aspect-[16/10];

@@ -42,16 +42,19 @@ const columns: TableColumnsType<PokemonSpawnZone> = [
     title: "通常等级",
     key: "level",
     render: (row) => (row.alphaRate !== 100 ? `${row.levelMin} - ${row.levelMax}` : "—"),
+    onCell: () => ({ className: "text-nowrap" }),
   },
   {
     title: "头目概率",
     dataIndex: "alphaRate",
     render: (v) => `${v}%`,
+    onCell: () => ({ className: "text-nowrap" }),
   },
   {
     title: "头目等级",
     key: "alphaLevel",
     render: (row) => (row.alphaRate !== 0 ? `${row.alphaLevelMin} - ${row.alphaLevelMax}` : "—"),
+    onCell: () => ({ className: "text-nowrap" }),
   },
 ];
 

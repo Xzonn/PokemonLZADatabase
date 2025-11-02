@@ -21,11 +21,11 @@ const MoveListPage: React.FC = () => {
 
   return (
     <Fragment key="move-list">
-      <div className="block">
+      <div className="section">
         <h1>招式一览</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <MoveTable
           data={MoveData}
           extraColumns={columns}

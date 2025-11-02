@@ -61,7 +61,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
 
   return (
     <Fragment key="item">
-      <div className="block">
+      <div className="section">
         <div className="flex gap-8 align-center justify-center mb-4">
           <ItemIconWithoutTooltip
             item={item}
@@ -78,7 +78,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         </Spin>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h3>基本信息</h3>
         <Spin spinning={loadingFull}>
           <Descriptions

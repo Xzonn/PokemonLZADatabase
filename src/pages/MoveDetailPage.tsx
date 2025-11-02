@@ -87,7 +87,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
 
   return (
     <Fragment key="move">
-      <div className="block">
+      <div className="section">
         <h1>{move.name}</h1>
         <div className="names">
           <div lang="ja">{move.japanese}</div>
@@ -96,7 +96,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
         <div className="description">{move?.description || "—"}</div>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h3>基本信息</h3>
         <Descriptions
           {...DescriptionsCommonProps}
@@ -106,7 +106,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
         />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>等级提升</h2>
         <PokemonTable<PokemonLevelUp>
           loading={loading}
@@ -115,7 +115,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
         />
       </div>
       {(pokemonTM?.length || 0) > 0 ? (
-        <div className="block">
+        <div className="section">
           <h2>招式学习器</h2>
           <TMDetail move={move.name} />
           <PokemonTable

@@ -19,11 +19,11 @@ const TrainerListPage: React.FC = () => {
 
   return (
     <Fragment key="pokemon-list">
-      <div className="block">
+      <div className="section">
         <h1>训练家一览</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
           loading={loading}

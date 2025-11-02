@@ -52,7 +52,7 @@ const Content: FC = () => {
 
   return (
     <>
-      <div className="block">
+      <div className="section">
         <h2>地图分布</h2>
         <Map>
           <MapLayer data={active !== null ? Positions.filter((mission) => mission.index === active) : Positions} />
@@ -63,7 +63,7 @@ const Content: FC = () => {
         </div>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>兑换方式</h2>
         <p>与木根工程门口旁的 NPC 对话，可以用彩色螺丝兑换卡娜莉玩偶。</p>
         <ItemTable

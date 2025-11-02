@@ -7,7 +7,7 @@ import { Link } from "@/utils";
 
 export const ItemCell: React.FC<{ item?: Item }> = ({ item }) =>
   item ? (
-    <div className="cell-item">
+    <div className="icon-wrapper">
       <ItemIconWithoutTooltip item={item} />
       <div className="item-name">
         {item.move ? (
@@ -25,7 +25,7 @@ export const ItemCell: React.FC<{ item?: Item }> = ({ item }) =>
 
 export const TMCell: React.FC<{ item?: Item }> = ({ item }) =>
   item ? (
-    <div className="cell-item">
+    <div className="icon-wrapper">
       <ItemIconWithoutTooltip item={item} />
       <div className="item-name">{item.name}</div>
     </div>

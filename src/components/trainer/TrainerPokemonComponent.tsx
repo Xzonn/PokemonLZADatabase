@@ -8,7 +8,7 @@ export const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({
   const pokemon = PokemonDataByName[p.name];
 
   return pokemon ? (
-    <div className="flex flex-col items-center w-[72px]">
+    <div className="trainer-pokemon">
       <PokemonIcon
         pokemon={pokemon}
         link

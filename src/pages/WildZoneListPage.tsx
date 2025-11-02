@@ -59,11 +59,11 @@ const WildZoneListPage: React.FC = () => {
 
   return (
     <Fragment key="wild-zone-list">
-      <div className="block">
+      <div className="section">
         <h1>野生特区一览</h1>
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>地图</h2>
         <PokemonMap
           active={active}
@@ -71,7 +71,7 @@ const WildZoneListPage: React.FC = () => {
         />
       </div>
 
-      <div className="block">
+      <div className="section">
         <h2>宝可梦列表</h2>
         <Table<IWildZoneOverview>
           dataSource={pokemonData || []}

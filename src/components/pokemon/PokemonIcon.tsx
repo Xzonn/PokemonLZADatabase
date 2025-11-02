@@ -23,12 +23,10 @@ export const PokemonIcon: FC<IPokemonIconProps> = ({
   const { x, y } = pokemon;
 
   const style: React.CSSProperties = {
-    width: size,
-    height: size,
-    backgroundSize: `${size * 20}px auto`,
-    backgroundPosition: `-${x * size}px -${y * size}px`,
+    fontSize: `${size}px`,
+    backgroundPosition: `-${x}em -${y}em`,
   };
-  const combinedClassName = cn("icon-pokemon", shiny ? "icon-pokemon-shiny" : "", className || "");
+  const combinedClassName = cn(shiny ? "pokemon-shiny-icon" : "pokemon-icon", className || "");
 
   return link ? (
     <Link
