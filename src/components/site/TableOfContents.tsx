@@ -22,16 +22,18 @@ export const TableOfContents: FC<ITableOfContentsProps> = ({ onClick }) => {
   return (
     <div className="nav-content">
       {tocItems.map((item) => (
-        <button
+        <a
+          href={`#${item.id}`}
           key={item.id}
-          onClick={() => {
+          onClick={(event) => {
+            event.preventDefault();
             handleClick(item.id);
             onClick?.();
           }}
           className={cn("nav-item", isActive(item.id) ? "nav-item-active" : "")}
         >
           {item.text}
-        </button>
+        </a>
       ))}
     </div>
   );

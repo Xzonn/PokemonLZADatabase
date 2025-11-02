@@ -24,8 +24,12 @@ const RoyaleListPage: React.FC = () => {
       onError: onUseRequestError,
     },
   );
-  const idList = royalePromotion.split("\n").filter(Boolean);
-  const filteredData = normalData?.filter((item) => idList.includes(item.id));
+  const promotionIdList = royalePromotion.split("\n").filter(Boolean);
+  const promotionData = normalData?.filter((item) => promotionIdList.includes(item.id));
+  const rewardData = normalData?.filter(
+    (item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong_"),
+  );
+  const rewardStrongData = normalData?.filter((item) => item.id.startsWith("za_inf_strong_"));
 
   return (
     <Fragment key="pokemon-list">
@@ -38,7 +42,25 @@ const RoyaleListPage: React.FC = () => {
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
           loading={normalLoading}
-          data={filteredData || []}
+          data={promotionData || []}
+        />
+      </div>
+
+      <div className="section">
+        <h2>报酬战的对手（第 20 场前）</h2>
+        <p>点击每行的“＋”可以查看宝可梦详情。</p>
+        <NormalTrainerTable
+          loading={normalLoading}
+          data={rewardData || []}
+        />
+      </div>
+
+      <div className="section">
+        <h2>报酬战的对手（第 20 场后）</h2>
+        <p>点击每行的“＋”可以查看宝可梦详情。</p>
+        <NormalTrainerTable
+          loading={normalLoading}
+          data={rewardStrongData || []}
         />
       </div>
 

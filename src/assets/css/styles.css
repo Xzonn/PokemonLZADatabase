@@ -397,7 +397,7 @@ nav {
 }
 
 .nav-item {
-  @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100;
+  @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100 text-left text-wrap;
 }
 
 .nav-item-active {

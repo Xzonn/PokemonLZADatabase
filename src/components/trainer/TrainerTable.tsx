@@ -64,6 +64,14 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
                 <Link to="/tr/塔霓">塔霓</Link>/<Link to="/tr/盖伊">盖伊</Link>
               </div>
             </span>
+          ) : trname === "Ｆ" ? (
+            <span className="icon-wrapper">
+              <Icon
+                name="弗拉达利"
+                size={22}
+              />
+              <Link to="/tr/弗拉达利">Ｆ</Link>
+            </span>
           ) : (
             <span>{trname}</span>
           )}

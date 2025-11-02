@@ -27,10 +27,15 @@ export const TocObserver: FC<PropsWithChildren> = ({ children }) => {
       if (!mainElement) return;
 
       const headings = mainElement.querySelectorAll("h2");
-      const items = Array.from(headings).map((heading, index) => {
+      const items = Array.from(headings).map((heading) => {
+        const text = heading.textContent || "";
+        let safeText = text.replace(/[\s#[\]/]+/g, "-").toLowerCase();
+        while (document.getElementById(safeText)) {
+          safeText += "-1";
+        }
         let id = heading.id;
         if (!id) {
-          id = `heading-${index}`;
+          id = safeText;
           heading.id = id;
         }
         return {
