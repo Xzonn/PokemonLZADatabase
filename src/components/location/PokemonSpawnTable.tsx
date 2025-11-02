@@ -1,10 +1,10 @@
 import { Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
-import { PokemonCell } from "../pokemon";
-
 import { PokemonSpawn, PokemonType } from "@/types";
 import { PokemonTypeFilters, TableCommonProps, TypeIcons } from "@/utils";
+
+import { PokemonCell } from "../pokemon";
 
 const columns: TableColumnsType<PokemonSpawn> = [
   {

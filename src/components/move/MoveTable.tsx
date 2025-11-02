@@ -1,8 +1,6 @@
 import { Popover, Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
-import { TypeEffects } from "../type/TypeEffects";
-
 import { Move } from "@/types";
 import {
   CategoryIcon,
@@ -13,6 +11,8 @@ import {
   TableCommonProps,
   TypeIcon,
 } from "@/utils";
+
+import { TypeEffects } from "../type/TypeEffects";
 
 const columns: TableColumnsType<Move> = [
   {
@@ -33,9 +33,7 @@ const columns: TableColumnsType<Move> = [
           />
         }
       >
-        <>
-          <TypeIcon type={type} />
-        </>
+        <TypeIcon type={type} />
       </Popover>
     ),
     filters: PokemonTypeFilters,

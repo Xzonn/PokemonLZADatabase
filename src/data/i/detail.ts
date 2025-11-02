@@ -1,7 +1,7 @@
+import { ItemDetail, ItemFull } from "@/types";
+
 import { ItemDataById } from "../items";
 import raw from "./detail.txt?raw";
-
-import { ItemDetail, ItemFull } from "@/types";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");

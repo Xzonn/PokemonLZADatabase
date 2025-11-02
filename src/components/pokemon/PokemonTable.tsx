@@ -1,8 +1,6 @@
 import { Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
-import { PokemonCell } from "./PokemonCell";
-
 import { Pokemon, PokemonType } from "@/types";
 import {
   PaginationConfig,
@@ -12,6 +10,8 @@ import {
   filterPokemon,
   getPokemonFullId,
 } from "@/utils";
+
+import { PokemonCell } from "./PokemonCell";
 
 const columns: TableColumnsType<Pokemon> = [
   {

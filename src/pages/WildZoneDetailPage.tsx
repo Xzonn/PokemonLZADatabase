@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { Navigate, useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { halfToFull } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 const AreaDetailPage: FC = () => {
   const { id } = useParams<{ id: string }>();

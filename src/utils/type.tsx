@@ -1,6 +1,6 @@
-import { TypeIcon, TypeIcons } from "./components";
-
 import { EPokemonType, PokemonType } from "@/types";
+
+import { TypeIcon, TypeIcons } from "./components";
 
 /** @deprecated */
 export const renderType = (type: PokemonType, link = true) => (

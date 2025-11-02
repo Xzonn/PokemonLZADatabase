@@ -18,7 +18,7 @@ const ItemListPage: React.FC = () => {
   }, []);
 
   const { data: itemFullData = null, loading } = useRequest(
-    async () => (await import(`@/data/i/detail`)).ItemFullData,
+    async () => (await import("@/data/i/detail")).ItemFullData,
     {
       refreshDeps: [],
       onError: onUseRequestError,

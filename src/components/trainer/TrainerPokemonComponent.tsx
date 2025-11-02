@@ -1,8 +1,8 @@
-import { ItemIcon } from "../item";
-import { PokemonIcon } from "../pokemon/PokemonIcon";
-
 import { ItemDataByName, PokemonDataByName } from "@/data";
 import { TrainerPokemon } from "@/types";
+
+import { ItemIcon } from "../item";
+import { PokemonIcon } from "../pokemon/PokemonIcon";
 
 export const TrainerPokemonComponent: React.FC<{ pokemon: TrainerPokemon }> = ({ pokemon: p }) => {
   const pokemon = PokemonDataByName[p.name];

@@ -63,7 +63,7 @@ const TMListPage: React.FC = () => {
     document.title = `招式学习器一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(async () => (await import(`@/data/tm`)).TMData, {
+  const { data = null, loading } = useRequest(async () => (await import("@/data/tm")).TMData, {
     refreshDeps: [],
     onError: onUseRequestError,
   });

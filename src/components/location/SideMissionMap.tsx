@@ -45,7 +45,7 @@ interface IProps {
 }
 
 export const SideMissionMap: FC<IProps> = ({ active, setActive }) => {
-  const { data = null, loading } = useRequest(async () => (await import(`@/data/mission/side`)).SideMissionData, {
+  const { data = null, loading } = useRequest(async () => (await import("@/data/mission/side")).SideMissionData, {
     onError: onUseRequestError,
   });
 

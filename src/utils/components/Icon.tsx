@@ -1,8 +1,8 @@
 import cn from "classnames";
 
-import { Link } from "./Link";
-
 import { MoveCategory, PokemonType } from "@/types";
+
+import { Link } from "./Link";
 
 interface IIconProps {
   name: string;

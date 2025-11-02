@@ -4,15 +4,15 @@ import { Input } from "antd";
 import React, { FC, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
+import { ItemData, MoveData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
+import { EPokemonType, NavigationItem, SearchResult } from "@/types";
+import { filterPokemon, getPokemonFullId, halfToFull } from "@/utils";
+
 import { SearchItem } from "./SearchItem";
 import { SearchMove } from "./SearchMove";
 import { SearchNavigation } from "./SearchNavigation";
 import { SearchPokemon } from "./SearchPokemon";
 import { SearchType } from "./SearchType";
-
-import { ItemData, MoveData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
-import { EPokemonType, NavigationItem, SearchResult } from "@/types";
-import { filterPokemon, getPokemonFullId, halfToFull } from "@/utils";
 
 const LOCATION_PATHS = Array.from({ length: 20 }).map(
   (_, i) =>
@@ -209,25 +209,25 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
         onChange={handleSearch}
         prefix={<SearchOutlined className="text-gray-400" />}
         suffix={
-          searchKeyword && (
+          searchKeyword ? (
             <CloseOutlined
               className="text-gray-400 cursor-pointer"
               onClick={handleClearSearch}
             />
-          )
+          ) : null
         }
         className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:ring-2 focus:ring-primary focus:border-transparent"
       />
 
       {/* 搜索结果下拉框 */}
-      {showSearchResults && (
+      {showSearchResults ? (
         <div className="absolute z-[500] mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
           {renderSearchResult(searchResult, () => {
             handleClearSearch();
             onClick?.();
           })}
         </div>
-      )}
+      ) : null}
     </div>
   );
 };

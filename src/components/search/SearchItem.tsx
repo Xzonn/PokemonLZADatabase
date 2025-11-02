@@ -1,9 +1,9 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 
-import { ItemIconWithoutTooltip } from "../item";
-
 import { Item } from "@/types";
+
+import { ItemIconWithoutTooltip } from "../item";
 
 interface IProps {
   result: Item;

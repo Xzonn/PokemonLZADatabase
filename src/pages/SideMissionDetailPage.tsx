@@ -3,11 +3,11 @@ import { Descriptions, DescriptionsProps, Spin } from "antd";
 import { FC, Fragment, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { ItemList, SideMissionMap } from "@/components";
 import { SideMissionFull, SideMissionInformation } from "@/types";
 import { DEFAULT_TITLE, DescriptionsCommonProps2, onUseRequestError } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 const getDescriptions = (data?: SideMissionInformation | null): DescriptionsProps["items"] => [
   {

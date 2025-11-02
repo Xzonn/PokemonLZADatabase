@@ -1,6 +1,6 @@
-import raw from "./moves.txt?raw";
-
 import { Move, MoveCategory, PokemonType } from "@/types";
+
+import raw from "./moves.txt?raw";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");

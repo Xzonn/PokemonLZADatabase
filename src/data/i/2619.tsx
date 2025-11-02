@@ -2,12 +2,12 @@ import { divIcon } from "leaflet";
 import { FC, useState } from "react";
 import { Marker, useMap } from "react-leaflet";
 
-import raw from "./2619-location.txt?raw";
-import { ItemFullData } from "./detail";
-
 import { ItemTable, Map } from "@/components";
 import { PositionWithPoint } from "@/types";
 import { Link, MAP_CENTER, getCoord } from "@/utils";
+
+import raw from "./2619-location.txt?raw";
+import { ItemFullData } from "./detail";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");
@@ -18,8 +18,8 @@ export const Positions = lines.slice(1).map((line, index) => {
   const position: PositionWithPoint = {
     name: `${index}`,
     index: index,
-    x: parseInt(dict["X"], 10),
-    y: parseInt(dict["Y"], 10),
+    x: parseInt(dict.X, 10),
+    y: parseInt(dict.Y, 10),
   };
   return position;
 });

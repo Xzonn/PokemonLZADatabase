@@ -2,10 +2,10 @@ import Giscus from "@giscus/react";
 import { FC, useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import { BREAKPOINTS } from "./utils";
-
 import Routes from "@/Routes";
 import { Footer, Header, Notice, ScrollToTop, Sidebar, TocObserver } from "@/components";
+
+import { BREAKPOINTS } from "./utils";
 
 const App: FC = () => {
   const { md } = BREAKPOINTS;
@@ -42,7 +42,7 @@ const App: FC = () => {
                   category="General"
                   categoryId="DIC_kwDOQE57vs4Cw8Fx"
                   mapping="specific"
-                  term={"评论区"}
+                  term="评论区"
                   reactions-enabled="1"
                   emit-metadata="0"
                   input-position="top"

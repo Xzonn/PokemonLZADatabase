@@ -1,8 +1,8 @@
 import { FC } from "react";
 
-import { ItemCell } from "./ItemCell";
-
 import { ItemDataByName } from "@/data";
+
+import { ItemCell } from "./ItemCell";
 
 interface IProps {
   items: {

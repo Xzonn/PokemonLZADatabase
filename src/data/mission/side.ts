@@ -1,6 +1,6 @@
-import raw from "./side.txt?raw";
-
 import { SideMission } from "@/types";
+
+import raw from "./side.txt?raw";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");
@@ -17,9 +17,9 @@ export const SideMissionData = lines.slice(1).map((line) => {
       const [item, number] = part.split("×");
       return { item, number: parseInt(number, 10) };
     }),
-    x: parseInt(dict["X"], 10),
-    y: parseInt(dict["Y"], 10),
-    z: parseInt(dict["Z"], 10),
+    x: parseInt(dict.X, 10),
+    y: parseInt(dict.Y, 10),
+    z: parseInt(dict.Z, 10),
     unlockCondition: dict["解锁条件"],
   };
   return item;

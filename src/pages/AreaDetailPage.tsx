@@ -3,13 +3,13 @@ import { Spin } from "antd";
 import { FC, Fragment, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { PokemonMap, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
 import { AreaNames } from "@/data/areas";
 import { PokemonForm, PokemonSpawn } from "@/types";
 import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 interface IPageProps {
   name: string;

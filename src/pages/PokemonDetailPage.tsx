@@ -3,8 +3,6 @@ import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { MoveTable, PokemonEvolutionTable, PokemonIcon, PokemonStatBar, PokemonTable, TypeEffects } from "@/components";
 import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
 import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
@@ -19,6 +17,8 @@ import {
   onUseRequestError,
   renderMoveLevel,
 } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 enum ExpGrowth {
   "较快" = 0,

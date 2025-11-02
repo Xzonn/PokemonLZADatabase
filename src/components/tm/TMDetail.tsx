@@ -2,11 +2,11 @@ import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin } from "antd";
 import { Fragment } from "react";
 
-import { TMCell } from "../item/ItemCell";
-
 import { ItemDataByName } from "@/data";
 import { TM } from "@/types";
 import { DescriptionsCommonProps2, getTMMethod, onUseRequestError } from "@/utils";
+
+import { TMCell } from "../item/ItemCell";
 
 const getDescriptions = (tm?: TM): DescriptionsProps["items"] => [
   {
@@ -22,7 +22,7 @@ const getDescriptions = (tm?: TM): DescriptionsProps["items"] => [
 ];
 
 export const TMDetail: React.FC<{ move: string }> = ({ move }) => {
-  const { data = null, loading } = useRequest(async () => (await import(`@/data/tm`)).TMDataByMove, {
+  const { data = null, loading } = useRequest(async () => (await import("@/data/tm")).TMDataByMove, {
     refreshDeps: [move],
     onError: onUseRequestError,
   });

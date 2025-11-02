@@ -2,11 +2,11 @@ import { useRequest } from "ahooks";
 import { FC, Fragment, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { NormalTrainerTable } from "@/components";
 import { TrainerNormal } from "@/types";
 import { DEFAULT_TITLE, Icon, TRNAME_WITH_ICONS, onUseRequestError } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 interface IProps {
   data: string;
@@ -29,7 +29,7 @@ const TrainerDetailPageCore: FC<IProps> = ({ data: name }) => {
 
   const { data = null, loading } = useRequest(
     async () =>
-      ((await import(`@/data/tr/normal.json`)).default as TrainerNormal[]).filter((tr) => trnameEqual(tr.trname, name)),
+      ((await import("@/data/tr/normal.json")).default as TrainerNormal[]).filter((tr) => trnameEqual(tr.trname, name)),
     {
       onError: onUseRequestError,
     },

@@ -3,12 +3,12 @@ import { Descriptions, DescriptionsProps, Spin } from "antd";
 import React, { Fragment, useEffect } from "react";
 import { Navigate, useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { ItemIconWithoutTooltip } from "@/components";
 import { ItemDataByName } from "@/data";
 import { EItemPocket, Item, ItemFull } from "@/types";
 import { DEFAULT_TITLE, DescriptionsCommonProps4, onUseRequestError } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 const getDescriptions = (item: Item, itemFull: ItemFull | null): DescriptionsProps["items"] => [
   {
@@ -24,12 +24,12 @@ const getDescriptions = (item: Item, itemFull: ItemFull | null): DescriptionsPro
   {
     key: "price",
     label: "买入价格",
-    children: itemFull !== null && itemFull.price ? `$${itemFull.price}` : "—",
+    children: itemFull?.price ? `$${itemFull.price}` : "—",
   },
   {
     key: "sellPrice",
     label: "卖出价格",
-    children: itemFull !== null && itemFull.price ? `$${itemFull.price / 2}` : "—",
+    children: itemFull?.price ? `$${itemFull.price / 2}` : "—",
   },
 ];
 
@@ -39,7 +39,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
   }, [item]);
 
   const { data: itemFull = null, loading: loadingFull } = useRequest(
-    async () => (await import(`@/data/i/detail`)).ItemFullDataById[item.id] || null,
+    async () => (await import("@/data/i/detail")).ItemFullDataById[item.id] || null,
     {
       refreshDeps: [item],
       onError: onUseRequestError,

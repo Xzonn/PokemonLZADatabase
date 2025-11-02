@@ -43,7 +43,7 @@ interface IProps {
 }
 
 export const PokemonMap: FC<IProps> = ({ active = null, setActive }) => {
-  const { data = null, loading } = useRequest(async () => (await import(`@/data/areas`)).AreaPositions, {
+  const { data = null, loading } = useRequest(async () => (await import("@/data/areas")).AreaPositions, {
     onError: onUseRequestError,
   });
 

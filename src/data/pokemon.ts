@@ -1,7 +1,7 @@
-import raw from "./pokemon.txt?raw";
-
 import { Pokemon, PokemonForm, PokemonType } from "@/types";
 import { getPokemonFullId, getPokemonFullName } from "@/utils";
+
+import raw from "./pokemon.txt?raw";
 
 const HiddenPokemonForm: PokemonForm[] = [
   "658-1", // 小智版甲贺忍蛙,
@@ -28,8 +28,8 @@ export const PokemonData = lines
       types: [dict["属性1"] as PokemonType, dict["属性2"] as PokemonType],
       base: base,
       baseTotal: base.reduce((a, b) => a + b, 0),
-      x: parseInt(dict["X"], 10),
-      y: parseInt(dict["Y"], 10),
+      x: parseInt(dict.X, 10),
+      y: parseInt(dict.Y, 10),
     };
     return item;
   })

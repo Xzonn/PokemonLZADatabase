@@ -1,9 +1,9 @@
 import { Table, TableColumnType } from "antd";
 
-import { ItemList } from "../item";
-
 import { SideMission } from "@/types";
 import { Link, TableCommonProps } from "@/utils";
+
+import { ItemList } from "../item";
 
 const columns: TableColumnType<SideMission>[] = [
   {

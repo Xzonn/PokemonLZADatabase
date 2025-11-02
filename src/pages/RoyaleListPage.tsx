@@ -12,14 +12,14 @@ const RoyaleListPage: React.FC = () => {
   }, []);
 
   const { data: royaleData = null, loading: royaleLoading } = useRequest(
-    async () => (await import(`@/data/tr/royale.json`)).default as TrainerRoyale[],
+    async () => (await import("@/data/tr/royale.json")).default as TrainerRoyale[],
     {
       onError: onUseRequestError,
     },
   );
 
   const { data: normalData = null, loading: normalLoading } = useRequest(
-    async () => (await import(`@/data/tr/normal.json`)).default as TrainerNormal[],
+    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
     {
       onError: onUseRequestError,
     },

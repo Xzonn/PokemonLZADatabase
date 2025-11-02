@@ -11,7 +11,7 @@ const TrainerListPage: React.FC = () => {
   }, []);
 
   const { data = null, loading } = useRequest(
-    async () => (await import(`@/data/tr/normal.json`)).default as TrainerNormal[],
+    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
     {
       onError: onUseRequestError,
     },

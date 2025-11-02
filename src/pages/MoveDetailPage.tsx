@@ -3,8 +3,6 @@ import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { PokemonTable, TMDetail } from "@/components";
 import { MoveDataByName, PokemonDataById } from "@/data";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
@@ -16,6 +14,8 @@ import {
   onUseRequestError,
   renderMoveLevel,
 } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 const columnsLevelUp: TableColumnsType<Pokemon & PokemonLevelUp> = [
   {

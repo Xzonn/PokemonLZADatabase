@@ -1,6 +1,6 @@
-import raw from "./reward.txt?raw";
-
 import { ResearchReward } from "@/types";
+
+import raw from "./reward.txt?raw";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");

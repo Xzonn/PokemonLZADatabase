@@ -1,6 +1,6 @@
-import raw from "./research.txt?raw";
-
 import { Research } from "@/types";
+
+import raw from "./research.txt?raw";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");

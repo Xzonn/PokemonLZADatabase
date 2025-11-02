@@ -1,13 +1,13 @@
 import { Table, TableColumnsType } from "antd";
 import { useMemo } from "react";
 
-import { TrainerPokemonComponent } from "./TrainerPokemonComponent";
-import { TrainerPokemonTable } from "./TrainerPokemonTable";
-import { ItemIcon } from "../item";
-
 import { ItemDataByName } from "@/data";
 import { TrainerBase, TrainerNormal, TrainerRoyale } from "@/types";
 import { Icon, Link, PaginationConfig, TRNAME_WITH_ICONS, TRTYPE_WITH_ICONS, TableCommonProps } from "@/utils";
+
+import { ItemIcon } from "../item";
+import { TrainerPokemonComponent } from "./TrainerPokemonComponent";
+import { TrainerPokemonTable } from "./TrainerPokemonTable";
 
 const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<TrainerNormal | TrainerRoyale> => {
   const trtypes = Array.from(new Set(data?.map((item) => item.trtype) || []));

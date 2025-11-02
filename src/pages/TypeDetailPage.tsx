@@ -1,12 +1,12 @@
 import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
-import NotFoundPage from "./NotFoundPage";
-
 import { MoveTable, PokemonTable, TypeEffects } from "@/components";
 import { MoveData, PokemonData } from "@/data";
 import { EPokemonType, PokemonType } from "@/types";
 import { DEFAULT_TITLE, TypeIcon } from "@/utils";
+
+import NotFoundPage from "./NotFoundPage";
 
 const TypeDetailPageCore: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
   useEffect(() => {

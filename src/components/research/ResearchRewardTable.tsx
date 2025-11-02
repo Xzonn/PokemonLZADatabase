@@ -1,10 +1,10 @@
 import { Table, TableColumnType } from "antd";
 
-import { ItemCell } from "../item/ItemCell";
-
 import { ItemDataByName } from "@/data";
 import { ResearchReward } from "@/types";
 import { TableCommonProps } from "@/utils";
+
+import { ItemCell } from "../item/ItemCell";
 
 const columns: TableColumnType<ResearchReward>[] = [
   {

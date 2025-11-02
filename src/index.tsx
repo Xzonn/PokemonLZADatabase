@@ -7,7 +7,7 @@ import "./assets/css/styles.css";
 import App from "./App";
 import { BREAKPOINTS } from "./utils";
 
-const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
+const root = ReactDOM.createRoot(document.getElementById("root")!);
 
 const { xs, sm, md, lg, xl, xxl } = BREAKPOINTS;
 

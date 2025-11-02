@@ -9,7 +9,7 @@ const ResearchListPage: React.FC = () => {
     document.title = `茉蜜姬调查 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(async () => await import(`@/data/research`), {
+  const { data = null, loading } = useRequest(async () => await import("@/data/research"), {
     onError: onUseRequestError,
   });
 

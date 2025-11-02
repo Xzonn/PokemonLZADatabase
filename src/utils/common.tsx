@@ -19,7 +19,7 @@ export const PokemonTypeFilters: ColumnFilterItem[] = EPokemonType.map((type) =>
   value: type,
 }));
 
-export const MoveCategoryFilters: ColumnFilterItem[] = EMoveCategory.map((category: any) => ({
+export const MoveCategoryFilters: ColumnFilterItem[] = EMoveCategory.map((category) => ({
   text: category,
   value: category,
 }));

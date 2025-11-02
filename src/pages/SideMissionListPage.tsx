@@ -9,7 +9,7 @@ const SideMissionListPage: React.FC = () => {
     document.title = `副任务一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(async () => (await import(`@/data/mission/side`)).SideMissionData, {
+  const { data = null, loading } = useRequest(async () => (await import("@/data/mission/side")).SideMissionData, {
     onError: onUseRequestError,
   });
 

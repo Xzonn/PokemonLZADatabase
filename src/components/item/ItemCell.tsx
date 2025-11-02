@@ -1,9 +1,9 @@
 import React from "react";
 
-import { ItemIconWithoutTooltip } from "./ItemIcon";
-
 import { Item } from "@/types";
 import { Link } from "@/utils";
+
+import { ItemIconWithoutTooltip } from "./ItemIcon";
 
 export const ItemCell: React.FC<{ item?: Item }> = ({ item }) =>
   item ? (

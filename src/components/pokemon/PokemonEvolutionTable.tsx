@@ -1,11 +1,11 @@
 import { Table, TableColumnsType } from "antd";
 import React from "react";
 
-import { PokemonCell } from "./PokemonCell";
-
 import { PokemonDataById } from "@/data";
 import { Evolution } from "@/types";
 import { TableCommonProps, getEvolutionCondition } from "@/utils";
+
+import { PokemonCell } from "./PokemonCell";
 
 const columns: TableColumnsType<Evolution> = [
   {

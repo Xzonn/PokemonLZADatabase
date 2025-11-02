@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
-import { Link } from "./components";
-
 import { TM } from "@/types";
+
+import { Link } from "./components";
 
 export const getTMMethod = (tm: TM, onClick?: () => void): ReactNode => {
   if (tm.researchLevel) {
@@ -13,22 +13,18 @@ export const getTMMethod = (tm: TM, onClick?: () => void): ReactNode => {
     );
   } else if (tm.sideMission) {
     return (
-      <>
-        <Link to={`/side/${tm.sideMission.toString().padStart(3, "0")}`}>
-          副任务 #{tm.sideMission.toString().padStart(3, "0")}
-        </Link>
-      </>
+      <Link to={`/side/${tm.sideMission.toString().padStart(3, "0")}`}>
+        副任务 #{tm.sideMission.toString().padStart(3, "0")}
+      </Link>
     );
   } else if (tm.location) {
     return (
-      <>
-        <Link
-          to={onClick ? "" : "/招式学习器一览"}
-          onClick={onClick}
-        >
-          {tm.location}
-        </Link>
-      </>
+      <Link
+        to={onClick ? "" : "/招式学习器一览"}
+        onClick={onClick}
+      >
+        {tm.location}
+      </Link>
     );
   }
   return "—";

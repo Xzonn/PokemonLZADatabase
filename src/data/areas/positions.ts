@@ -1,6 +1,6 @@
-import raw from "./positions.txt?raw";
-
 import { Position } from "@/types";
+
+import raw from "./positions.txt?raw";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");
@@ -11,8 +11,8 @@ export const AreaPositions = lines.slice(1).map((line) => {
   const position: Position = {
     name: dict["中文名"],
     index: parseInt(dict["编号"], 10),
-    x: dict["X"] ? parseInt(dict["X"], 10) : null,
-    y: dict["Y"] ? parseInt(dict["Y"], 10) : null,
+    x: dict.X ? parseInt(dict.X, 10) : null,
+    y: dict.Y ? parseInt(dict.Y, 10) : null,
   } as Position;
   return position;
 });
