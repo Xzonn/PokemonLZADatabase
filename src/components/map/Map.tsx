@@ -1,5 +1,6 @@
 import { Spin } from "antd";
 import L, { MapOptions } from "leaflet";
+import "leaflet-fullscreen";
 import { FC } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 

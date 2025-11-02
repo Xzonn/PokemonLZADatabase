@@ -17,12 +17,6 @@ importers:
       '@giscus/react':
         specifier: ^3.1.0
         version: 3.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@types/leaflet':
-        specifier: ^1.9.0
-        version: 1.9.21
-      '@types/leaflet-fullscreen':
-        specifier: ^1.0.10
-        version: 1.0.10
       ahooks:
         specifier: ^3.9.5
         version: 3.9.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -63,6 +57,12 @@ importers:
       '@types/css-modules':
         specifier: ^1.0.5
         version: 1.0.5
+      '@types/leaflet':
+        specifier: ^1.9.0
+        version: 1.9.21
+      '@types/leaflet-fullscreen':
+        specifier: ^1.0.10
+        version: 1.0.10
       '@types/react':
         specifier: ^18.2.0
         version: 18.3.26
