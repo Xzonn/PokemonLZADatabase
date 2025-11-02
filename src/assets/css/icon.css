@@ -5,7 +5,9 @@
   height: 1em;
   display: inline-block;
   background-image: url("../images/icon.webp");
+  background-repeat: no-repeat;
   background-size: 20em auto;
+  background-position: -19em -10em;
 }
 
 .icon-main-mission {
@@ -682,5 +684,165 @@
 
 .icon-side-plain-black {
   background-position: -8em -8em;
+}
+
+.icon-洛托姆图鉴 {
+  background-position: -9em -8em;
+}
+
+.icon-塔霓 {
+  background-position: -10em -8em;
+}
+
+.icon-盖伊 {
+  background-position: -11em -8em;
+}
+
+.icon-玳萝 {
+  background-position: -12em -8em;
+}
+
+.icon-琵鲁 {
+  background-position: -13em -8em;
+}
+
+.icon-古历 {
+  background-position: -14em -8em;
+}
+
+.icon-古丽兹 {
+  background-position: -15em -8em;
+}
+
+.icon-皙白 {
+  background-position: -16em -8em;
+}
+
+.icon-沐净 {
+  background-position: -17em -8em;
+}
+
+.icon-乌羽 {
+  background-position: -18em -8em;
+}
+
+.icon-吉普索 {
+  background-position: -19em -8em;
+}
+
+.icon-卡娜莉 {
+  background-position: 0 -9em;
+}
+
+.icon-塔拉刚 {
+  background-position: -1em -9em;
+}
+
+.icon-由紫 {
+  background-position: -2em -9em;
+}
+
+.icon-春紫 {
+  background-position: -3em -9em;
+}
+
+.icon-ＡＺ {
+  background-position: -4em -9em;
+}
+
+.icon-弗拉达利 {
+  background-position: -5em -9em;
+}
+
+.icon-玛琪艾儿 {
+  background-position: -6em -9em;
+}
+
+.icon-捷朵 {
+  background-position: -7em -9em;
+}
+
+.icon-马斯卡托 {
+  background-position: -8em -9em;
+}
+
+.icon-茉蜜姬 {
+  background-position: -9em -9em;
+}
+
+.icon-超Z队 {
+  background-position: -10em -9em;
+}
+
+.icon-新闪焰队 {
+  background-position: -11em -9em;
+}
+
+.icon-来电伍 {
+  background-position: -12em -9em;
+}
+
+.icon-ＭＳＢＣ {
+  background-position: -13em -9em;
+}
+
+.icon-锈蚀组 {
+  background-position: -14em -9em;
+}
+
+.icon-正义社 {
+  background-position: -15em -9em;
+}
+
+.icon-阔星公司 {
+  background-position: -16em -9em;
+}
+
+.icon-website-zh-hans {
+  background-position: -17em -9em;
+}
+
+.icon-website-zh-hant {
+  background-position: -18em -9em;
+}
+
+.icon-website-ja {
+  background-position: -19em -9em;
+}
+
+.icon-website-en {
+  background-position: 0 -10em;
+}
+
+.icon-52poke {
+  background-position: -1em -10em;
+}
+
+.icon-serebii {
+  background-position: -2em -10em;
+}
+
+.icon-gamewith {
+  background-position: -3em -10em;
+}
+
+.icon-mapgenie {
+  background-position: -4em -10em;
+}
+
+.icon-bilibili {
+  background-position: -5em -10em;
+}
+
+.icon-github {
+  background-position: -6em -10em;
+}
+
+.icon-afdian {
+  background-position: -7em -10em;
+}
+
+.icon-sv-wiki {
+  background-position: -8em -10em;
 }
 

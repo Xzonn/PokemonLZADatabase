@@ -6,6 +6,20 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
   const location = useLocation();
   const resolved = useResolvedPath(to);
 
+  if (to.toString().startsWith("https://")) {
+    return (
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href={to.toString()}
+        className={cn("whitespace-nowrap", className)}
+        {...rest}
+      >
+        {children}
+      </a>
+    );
+  }
+
   const target = resolved.pathname;
   const current = decodeURIComponent(location.pathname);
 
@@ -25,7 +39,7 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
   return (
     <RouterLink
       to={to}
-      className={cn("text-blue-600", "whitespace-nowrap", className)}
+      className={cn("whitespace-nowrap", className)}
       {...rest}
     >
       {children}

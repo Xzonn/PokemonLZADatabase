@@ -1,12 +1,12 @@
 import { Route, Routes as ReactRoutes } from "react-router-dom";
 
-import routes from "@/data/routes.json";
+import { GLOBAL_ROUTES } from "@/data";
 import * as pages from "@/pages";
 
 const Routes = () => (
   <ReactRoutes>
-    {Object.entries(routes).map(([key, value]) => {
-      const PageComponent = pages[value as keyof typeof pages] ?? pages.NotFoundPage;
+    {Object.entries(GLOBAL_ROUTES).map(([key, value]) => {
+      const PageComponent = pages[value] ?? pages.NotFoundPage;
       return (
         <Route
           key={key}

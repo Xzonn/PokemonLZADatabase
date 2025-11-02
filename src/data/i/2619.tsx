@@ -7,7 +7,7 @@ import { ItemFullData } from "./detail";
 
 import { ItemTable, Map } from "@/components";
 import { Position } from "@/types";
-import { MAP_CENTER, getCoord } from "@/utils";
+import { Link, MAP_CENTER, getCoord } from "@/utils";
 
 const lines = raw.trim().split("\n");
 const header = lines[0].split("\t");
@@ -59,13 +59,7 @@ const Content: FC = () => {
         </Map>
         <div className="map-note">
           地点坐标参考自：
-          <a
-            href="https://www.serebii.net/pokearth/lumiosecity/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Serebii.net
-          </a>
+          <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
         </div>
       </div>
 

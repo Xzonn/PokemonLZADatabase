@@ -6,12 +6,11 @@ import { useLocation } from "react-router-dom";
 
 import { SearchItem } from "./SearchItem";
 import { SearchMove } from "./SearchMove";
+import { SearchNavigation } from "./SearchNavigation";
 import { SearchPokemon } from "./SearchPokemon";
 import { SearchType } from "./SearchType";
-import { NAV_ITEMS as NAV_ITEMS_UNFILTERED } from "../site";
-import { SearchNavigation } from "./SearchNavigation";
 
-import { ItemData, MoveData, PokemonData } from "@/data";
+import { ItemData, MoveData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
 import { EPokemonType, NavigationItem, SearchResult } from "@/types";
 import { filterPokemon, getPokemonFullId, halfToFull } from "@/utils";
 
@@ -25,7 +24,7 @@ const LOCATION_PATHS = Array.from({ length: 20 }).map(
 );
 const NAV_ITEMS = [
   ...LOCATION_PATHS,
-  ...NAV_ITEMS_UNFILTERED.filter((item) => item && !item.path.slice(1).includes("/")),
+  ...NAVIGATION_ITEMS_UNFILTERED.filter((item) => item && !item.path.slice(1).includes("/")),
 ];
 
 const searchAll = (keyword: string): SearchResult[] => {

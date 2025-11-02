@@ -6,7 +6,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 
 import { Map, SideMissionTable } from "@/components";
 import { SideMission } from "@/types";
-import { DEFAULT_TITLE, MAP_CENTER, getCoord, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, onUseRequestError } from "@/utils";
 
 const SideMissionMapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
   const map = useMap();
@@ -68,13 +68,7 @@ const SideMissionListPage: React.FC = () => {
         </Map>
         <div className="map-note">
           地点坐标参考自：
-          <a
-            href="https://www.serebii.net/pokearth/lumiosecity/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Serebii.net
-          </a>
+          <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
         </div>
       </div>
 

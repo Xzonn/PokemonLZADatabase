@@ -18,14 +18,7 @@ const columns: TableColumnsType<Move> = [
   {
     title: "招式",
     dataIndex: "name",
-    render: (_, record) => (
-      <Link
-        to={`/m/${record.name}`}
-        className="text-blue-600"
-      >
-        {record.name}
-      </Link>
-    ),
+    render: (_, record) => <Link to={`/m/${record.name}`}>{record.name}</Link>,
   },
   {
     title: "属性",

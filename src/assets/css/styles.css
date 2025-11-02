@@ -413,3 +413,54 @@ main {
 footer {
   @apply bg-white border-t-2 border-primary w-full mx-auto px-4 py-6 sm:px-6 lg:px-8 text-center text-sm text-gray-400 space-y-2;
 }
+
+.main-home > div {
+  background-image: url("https://www.pokemon.co.jp/ex/legends_z-a/assets/img/toppage/keyvisual/visual@2x.webp");
+  background-size: 100% auto;
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  .home-navigation {
+    @apply bg-white/60 backdrop-blur-sm w-full px-6 py-4 rounded-2xl shadow-xl aspect-[16/10];
+
+    h2 {
+      @apply mt-10;
+    }
+  }
+
+  .home-links {
+    @apply grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4;
+
+    .home-link-card {
+      @apply transition-shadow;
+
+      &:hover {
+        @apply shadow-2xl;
+      }
+
+      .ant-card-head-title {
+        @apply text-xl font-semibold;
+      }
+
+      .ant-card-body {
+        @apply p-4 grid grid-flow-row grid-cols-2 gap-2;
+      }
+    }
+
+    .home-link-item {
+      @apply flex flex-col items-center justify-center gap-2 transition-transform;
+
+      &:hover {
+        @apply scale-[1.1];
+      }
+    }
+
+    .home-link-icon {
+      @apply text-[48px] leading-[0];
+    }
+
+    .home-link-label {
+      @apply text-lg font-semibold text-center;
+    }
+  }
+}
