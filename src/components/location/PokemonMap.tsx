@@ -38,12 +38,13 @@ const MapLayer: FC<{ data: Position[] }> = ({ data }) => {
 };
 
 interface IProps {
+  loading?: boolean;
   active?: string | null;
   setActive?: (name: string | null) => void;
 }
 
-export const PokemonMap: FC<IProps> = ({ active = null, setActive }) => {
-  const { data = null, loading } = useRequest(async () => (await import("@/data/areas")).AreaPositions, {
+export const PokemonMap: FC<IProps> = ({ active = null, setActive, loading: dataLoading }) => {
+  const { data = null, loading: mapLoading } = useRequest(async () => (await import("@/data/areas")).AreaPositions, {
     onError: onUseRequestError,
   });
 
@@ -53,13 +54,13 @@ export const PokemonMap: FC<IProps> = ({ active = null, setActive }) => {
         <div className="flex justify-center mb-2">
           <Button
             onClick={() => setActive(null)}
-            disabled={loading || active === null}
+            disabled={dataLoading || mapLoading || active === null}
           >
             重置筛选
           </Button>
         </div>
       ) : null}
-      <Map loading={loading}>
+      <Map loading={dataLoading || mapLoading}>
         {data ? <MapLayer data={active !== null ? data.filter((item) => item.name === active) : data} /> : null}
       </Map>
       <div className="map-note">

@@ -48,13 +48,27 @@ const columns: TableColumnsType<PokemonSpawn> = [
     title: "头目概率",
     dataIndex: "alphaRate",
     render: (v) => (v !== 0 ? `${v}%` : "—"),
-    onCell: () => ({ className: "text-nowrap" }),
   },
   {
     title: "头目等级",
     key: "alphaLevel",
     render: (row) => (row.alphaRate !== 0 ? `${row.alphaLevelMin} - ${row.alphaLevelMax}` : "—"),
     onCell: () => ({ className: "text-nowrap" }),
+  },
+  {
+    title: "稀有度",
+    dataIndex: "rarity",
+    render: (v) => (v !== 0 ? `${v}%` : "—"),
+  },
+  {
+    title: "时间",
+    dataIndex: "time",
+    render: (v) => v || "—",
+  },
+  {
+    title: "天气",
+    dataIndex: "weather",
+    render: (v) => v || "—",
   },
 ];
 

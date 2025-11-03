@@ -293,6 +293,10 @@ a.badge {
 .table-effect,
 .table-effect th {
   text-align: center !important;
+
+  .badge {
+    @apply mx-auto;
+  }
 }
 
 .effect-quadruple {

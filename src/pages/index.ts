@@ -37,3 +37,4 @@ export { default as WildZoneListPage } from "./WildZoneListPage";
 export { default as WildZoneDetailPage } from "./WildZoneDetailPage";
 export { default as AreaDetailPage } from "./AreaDetailPage";
 export { default as AreaListPage } from "./AreaListPage";
+export { default as SpawnListPage } from "./SpawnListPage";
