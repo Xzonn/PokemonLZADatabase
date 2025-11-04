@@ -30,7 +30,10 @@ export const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus 
       </div>
     }
   >
-    <Link to={`/m/${move.name}`}>
+    <Link
+      to={`/m/${move.name}`}
+      className="icon-wrapper"
+    >
       {move.name}
       {plus ? <Icon name="plus" /> : ""}
     </Link>
