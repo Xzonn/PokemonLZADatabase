@@ -1,4 +1,5 @@
 import { useLocalStorageState } from "ahooks";
+import { Alert } from "antd";
 
 import { Link, onUseRequestError } from "@/utils";
 
@@ -12,10 +13,15 @@ export const Notice: React.FC = () => {
   });
 
   return show ? (
-    <div className="notice">
-      <p>
-        数据正在逐步添加中，已支持互动地图，感谢 <Link to="https://github.com/kwsch/pkNX">pkNX</Link> 的开发者！
-      </p>
-    </div>
+    <Alert
+      className="notice"
+      message={
+        <>
+          <Link to="/宝可梦分布">宝可梦分布互动地图</Link>已更新筛选宝可梦功能，欢迎体验！
+        </>
+      }
+      type="success"
+      showIcon
+    />
   ) : null;
 };

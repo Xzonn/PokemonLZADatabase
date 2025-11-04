@@ -389,7 +389,7 @@ header {
 }
 
 .notice {
-  @apply bg-white text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-sm text-gray-600 space-y-2;
+  @apply text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-gray-600 space-y-2;
 }
 
 aside {
