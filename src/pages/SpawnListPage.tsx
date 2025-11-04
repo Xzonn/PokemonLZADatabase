@@ -1,7 +1,7 @@
-import { useRequest } from "ahooks";
+import { useLocalStorageState, useRequest } from "ahooks";
 import { Button, Spin, Switch } from "antd";
 import { divIcon } from "leaflet";
-import React, { FC, Fragment, useEffect, useMemo, useRef, useState } from "react";
+import React, { FC, Fragment, useEffect, useMemo, useRef } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
 import { Map as LumioseMap, PokemonIcon, PokemonSpawnTable } from "@/components";
@@ -77,7 +77,9 @@ const AreaListPage: React.FC = () => {
     document.title = `宝可梦分布 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const [filter, setFilter] = useState<IFilter>({});
+  const [filter, setFilter] = useLocalStorageState<IFilter>("za-spawn-filter", {
+    defaultValue: {},
+  });
 
   const mapRef = useRef<HTMLHeadingElement | null>(null);
   const pokemonRef = useRef<HTMLHeadingElement | null>(null);
@@ -181,7 +183,7 @@ const AreaListPage: React.FC = () => {
           }}
         />
       )),
-    [allPokemon, filter.pokemonForm],
+    [allPokemon, filter.pokemonForm, setFilter],
   );
 
   return (

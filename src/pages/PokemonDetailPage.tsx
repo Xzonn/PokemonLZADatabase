@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 
 import { MoveTable, PokemonEvolutionTable, PokemonIcon, PokemonStatBar, PokemonTable, TypeEffects } from "@/components";
 import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
-import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonFull } from "@/types";
+import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonForm, PokemonFull } from "@/types";
 import {
   DEFAULT_TITLE,
   DescriptionsCommonProps1,
@@ -83,7 +83,19 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
   },
 ];
 
-const getObtainDescriptions = (obtains: PokemonFull["obtains"]): DescriptionsProps["items"] => [
+const getObtainDescriptions = (obtains: PokemonFull["obtains"], form: PokemonForm): DescriptionsProps["items"] => [
+  {
+    key: "map",
+    label: "地图分布",
+    children: (
+      <Link
+        to="/宝可梦分布"
+        onClick={() => localStorage.setItem("za-spawn-filter", JSON.stringify({ pokemonForm: form }))}
+      >
+        查看地图分布
+      </Link>
+    ),
+  },
   {
     key: "areas",
     label: "出现地点",
@@ -192,7 +204,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
             <h3>获取方式</h3>
             <Descriptions
               {...DescriptionsCommonProps1}
-              items={getObtainDescriptions(pokemonFull?.obtains)}
+              items={getObtainDescriptions(pokemonFull?.obtains, getPokemonFullId(pokemon))}
             />
           </>
         ) : null}
