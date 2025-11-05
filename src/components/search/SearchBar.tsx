@@ -38,7 +38,8 @@ const searchAll = (keyword: string): SearchResult[] => {
     (pokemon) =>
       pokemon.english.toLowerCase().includes(keyword.toLowerCase()) ||
       pokemon.name.includes(keyword) ||
-      pokemon.formName.includes(keyword),
+      pokemon.formName.includes(keyword) ||
+      pokemon.national.toString().padStart(3, "0") === keyword,
   )
     .filter(filterPokemon)
     .slice(0, 10)
@@ -50,7 +51,12 @@ const searchAll = (keyword: string): SearchResult[] => {
     );
 
   if (results.length < 10) {
-    MoveData.filter((move) => move.english.toLowerCase().includes(keyword.toLowerCase()) || move.name.includes(keyword))
+    MoveData.filter(
+      (move) =>
+        move.english.toLowerCase().includes(keyword.toLowerCase()) ||
+        move.name.includes(keyword) ||
+        move.id.toString().padStart(3, "0") === keyword,
+    )
       .slice(0, 10 - results.length)
       .forEach((move) =>
         results.push({

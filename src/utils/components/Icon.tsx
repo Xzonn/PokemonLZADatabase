@@ -18,11 +18,17 @@ export const Icon: React.FC<IIconProps> = ({ name, size, style, className }) => 
   />
 );
 
-export const TypeIcon: React.FC<{ type: PokemonType; link?: boolean }> = ({ type, link = true }) =>
+interface ITypeIconProps {
+  type: PokemonType;
+  link?: boolean;
+  className?: string;
+}
+
+export const TypeIcon: React.FC<ITypeIconProps> = ({ type, link = true, className }) =>
   link ? (
     <Link
       to={`/t/${type}`}
-      className={`badge bg-${type}`}
+      className={cn(`badge bg-${type}`, className)}
     >
       <div className={`badge-icon icon icon-${type}-white`} />
       <div className="badge-text">{type}</div>

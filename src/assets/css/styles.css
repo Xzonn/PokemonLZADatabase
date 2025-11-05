@@ -141,6 +141,10 @@ ul {
 .item-icon {
   @apply flex items-end justify-end w-[1em] h-[1em] flex-shrink-0 bg-no-repeat;
   background-size: 20em auto;
+
+  &.icon-inline {
+    @apply inline-flex align-middle;
+  }
 }
 
 .icon {
@@ -149,6 +153,10 @@ ul {
 
 .icon-wrapper {
   @apply flex items-center justify-start whitespace-nowrap gap-1;
+}
+
+.badge.icon-inline {
+  @apply inline-flex align-middle;
 }
 
 /** 宝可梦 */

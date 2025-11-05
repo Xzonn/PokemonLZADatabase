@@ -19,11 +19,32 @@
   ],
   "evolutions": [
     {
+      "level": 40,
+      "method": 4,
+      "argument": 0,
+      "previous": "704-0",
+      "target": "705-0"
+    },
+    {
+      "level": 0,
+      "method": 61,
+      "argument": 1,
+      "previous": "704-0",
+      "target": "705-0"
+    },
+    {
       "level": 50,
       "method": 31,
       "argument": 0,
       "previous": "705-0",
       "target": "706-0"
+    },
+    {
+      "level": 50,
+      "method": 31,
+      "argument": 1,
+      "previous": "705-1",
+      "target": "706-1"
     }
   ],
   "movesLevelUp": [

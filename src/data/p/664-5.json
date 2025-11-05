@@ -24,6 +24,13 @@
       "argument": 0,
       "previous": "664-5",
       "target": "665-5"
+    },
+    {
+      "level": 12,
+      "method": 4,
+      "argument": 0,
+      "previous": "665-5",
+      "target": "666-5"
     }
   ],
   "movesLevelUp": [

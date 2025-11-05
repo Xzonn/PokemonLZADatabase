@@ -19,11 +19,74 @@
   ],
   "evolutions": [
     {
+      "level": 19,
+      "method": 4,
+      "argument": 0,
+      "previous": "669-0",
+      "target": "670-0"
+    },
+    {
+      "level": 19,
+      "method": 4,
+      "argument": 0,
+      "previous": "669-1",
+      "target": "670-1"
+    },
+    {
+      "level": 19,
+      "method": 4,
+      "argument": 0,
+      "previous": "669-2",
+      "target": "670-2"
+    },
+    {
+      "level": 19,
+      "method": 4,
+      "argument": 0,
+      "previous": "669-3",
+      "target": "670-3"
+    },
+    {
+      "level": 19,
+      "method": 4,
+      "argument": 0,
+      "previous": "669-4",
+      "target": "670-4"
+    },
+    {
       "level": 0,
       "method": 8,
       "argument": 7,
       "previous": "670-0",
       "target": "671-0"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 7,
+      "previous": "670-1",
+      "target": "671-1"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 7,
+      "previous": "670-2",
+      "target": "671-2"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 7,
+      "previous": "670-3",
+      "target": "671-3"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 7,
+      "previous": "670-4",
+      "target": "671-4"
     }
   ],
   "movesLevelUp": [

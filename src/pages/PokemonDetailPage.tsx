@@ -1,7 +1,7 @@
 import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 
 import { MoveTable, PokemonEvolutionTable, PokemonIcon, PokemonStatBar, PokemonTable, TypeEffects } from "@/components";
 import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
@@ -186,7 +186,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         <TypeEffects types={pokemon.types} />
         {pokemonFull?.evolutions?.length ? (
           <>
-            <h3>进化</h3>
+            <h3>进化链</h3>
             <PokemonEvolutionTable
               loading={loading}
               data={pokemonFull.evolutions}
@@ -247,6 +247,15 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
 
 const PokemonDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();
+  if (name?.endsWith("-0")) {
+    return (
+      <Navigate
+        to={`/p/${name.slice(0, -2)}`}
+        replace
+      />
+    );
+  }
+
   const pokemon = PokemonDataByName[name || ""];
 
   return pokemon ? <PokemonDetailPageCore data={pokemon} /> : <NotFoundPage />;

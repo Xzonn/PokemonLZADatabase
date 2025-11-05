@@ -24,6 +24,13 @@
       "argument": 0,
       "previous": "406-0",
       "target": "315-0"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 7,
+      "previous": "315-0",
+      "target": "407-0"
     }
   ],
   "movesLevelUp": [

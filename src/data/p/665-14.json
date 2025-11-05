@@ -19,6 +19,13 @@
   ],
   "evolutions": [
     {
+      "level": 9,
+      "method": 4,
+      "argument": 0,
+      "previous": "664-14",
+      "target": "665-14"
+    },
+    {
       "level": 12,
       "method": 4,
       "argument": 0,

@@ -17,7 +17,15 @@
     0,
     0
   ],
-  "evolutions": [],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 6,
+      "argument": 233,
+      "previous": "095-0",
+      "target": "208-0"
+    }
+  ],
   "movesLevelUp": [
     {
       "level": -3,
