@@ -19,7 +19,7 @@ const TypeDetailPageCore: React.FC<{ name: PokemonType }> = ({ name: typeName })
   return (
     <Fragment key="move">
       <div className="section">
-        <h1>
+        <h1 className="flex justify-center">
           <TypeIcon type={typeName} />
         </h1>
       </div>
