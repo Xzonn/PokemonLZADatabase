@@ -43,7 +43,9 @@ export const ItemIcon: React.FC<IItemIconProps> = (props) => {
 
   return name ? (
     <Tooltip title={name}>
-      <ItemIconWithoutTooltip {...props} />
+      <>
+        <ItemIconWithoutTooltip {...props} />
+      </>
     </Tooltip>
   ) : (
     <ItemIconWithoutTooltip {...props} />

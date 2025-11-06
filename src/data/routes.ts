@@ -21,6 +21,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/副任务一览": "SideMissionListPage",
   "/密阿雷地图": "AreaListPage",
   "/宝可梦分布": "SpawnListPage",
+  "/联网活动": "ActivityPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
   "/i/:name": "ItemDetailPage",
@@ -48,6 +49,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: "research" },
   { path: "/副任务一览", label: "副任务一览", icon: "side-plain" },
   { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "bag-重要物品" },
+  { path: "/联网活动", label: "联网活动", icon: "internet" },
 ];
 
 export const HOME_NAVIGATIONS: IHomepageNavigation = [

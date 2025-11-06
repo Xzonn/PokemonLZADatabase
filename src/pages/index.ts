@@ -38,3 +38,6 @@ export { default as WildZoneDetailPage } from "./WildZoneDetailPage";
 export { default as AreaDetailPage } from "./AreaDetailPage";
 export { default as AreaListPage } from "./AreaListPage";
 export { default as SpawnListPage } from "./SpawnListPage";
+
+// 其他
+export { default as ActivityPage } from "./ActivityPage";

@@ -85,6 +85,10 @@ h3 {
   @apply text-xl font-semibold my-4;
 }
 
+h4 {
+  @apply font-semibold my-2;
+}
+
 main p {
   @apply indent-[2em] text-sm mb-4;
 
