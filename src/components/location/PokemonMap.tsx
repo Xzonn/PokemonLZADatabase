@@ -1,12 +1,12 @@
-import { useRequest } from "ahooks";
 import { Button } from "antd";
 import { divIcon } from "leaflet";
 import { FC, Fragment } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
 import { Map } from "@/components";
+import { AreaPositions } from "@/data/areas";
 import { Position } from "@/types";
-import { Link, MAP_CENTER, getCoord, onUseRequestError } from "@/utils";
+import { Link, MAP_CENTER, getCoord } from "@/utils";
 
 const MapLayer: FC<{ data: Position[] }> = ({ data }) => {
   const map = useMap();
@@ -43,30 +43,24 @@ interface IProps {
   setActive?: (name: string | null) => void;
 }
 
-export const PokemonMap: FC<IProps> = ({ active = null, setActive, loading: dataLoading }) => {
-  const { data = null, loading: mapLoading } = useRequest(async () => (await import("@/data/areas")).AreaPositions, {
-    onError: onUseRequestError,
-  });
-
-  return (
-    <Fragment key="wild-zone-list">
-      {setActive ? (
-        <div className="flex justify-center mb-2">
-          <Button
-            onClick={() => setActive(null)}
-            disabled={dataLoading || mapLoading || active === null}
-          >
-            重置筛选
-          </Button>
-        </div>
-      ) : null}
-      <Map loading={dataLoading || mapLoading}>
-        {data ? <MapLayer data={active !== null ? data.filter((item) => item.name === active) : data} /> : null}
-      </Map>
-      <div className="map-note">
-        地点坐标参考自：
-        <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
+export const PokemonMap: FC<IProps> = ({ active = null, setActive, loading }) => (
+  <Fragment key="wild-zone-list">
+    {setActive ? (
+      <div className="flex justify-center mb-2">
+        <Button
+          onClick={() => setActive(null)}
+          disabled={loading || active === null}
+        >
+          重置筛选
+        </Button>
       </div>
-    </Fragment>
-  );
-};
+    ) : null}
+    <Map loading={loading}>
+      <MapLayer data={active !== null ? AreaPositions.filter((item) => item.name === active) : AreaPositions} />
+    </Map>
+    <div className="map-note">
+      地点坐标参考自：
+      <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
+    </div>
+  </Fragment>
+);

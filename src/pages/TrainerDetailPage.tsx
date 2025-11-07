@@ -1,10 +1,9 @@
-import { useRequest } from "ahooks";
 import { FC, Fragment, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 import { NormalTrainerTable } from "@/components";
 import { TrainerNormal } from "@/types";
-import { DEFAULT_TITLE, Icon, TRNAME_WITH_ICONS, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, Icon, TRNAME_WITH_ICONS, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -27,12 +26,8 @@ const TrainerDetailPageCore: FC<IProps> = ({ data: name }) => {
     document.title = `${name} - ${DEFAULT_TITLE}`;
   }, [name]);
 
-  const { data = null, loading } = useRequest(
-    async () =>
-      ((await import("@/data/tr/normal.json")).default as TrainerNormal[]).filter((tr) => trnameEqual(tr.trname, name)),
-    {
-      onError: onUseRequestError,
-    },
+  const [data, loading] = useImport(async () =>
+    ((await import("@/data/tr/normal.json")).default as TrainerNormal[]).filter((tr) => trnameEqual(tr.trname, name)),
   );
 
   return (

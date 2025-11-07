@@ -1,21 +1,15 @@
-import { useRequest } from "ahooks";
 import React, { Fragment, useEffect } from "react";
 
 import { NormalTrainerTable } from "@/components";
 import { TrainerNormal } from "@/types";
-import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, useImport } from "@/utils";
 
 const TrainerListPage: React.FC = () => {
   useEffect(() => {
     document.title = `训练家一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(
-    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
-    {
-      onError: onUseRequestError,
-    },
-  );
+  const [data, loading] = useImport(async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[]);
 
   return (
     <Fragment key="pokemon-list">

@@ -1,29 +1,22 @@
-import { useRequest } from "ahooks";
 import React, { Fragment, useEffect } from "react";
 
 import { NormalTrainerTable, RoyaleTrainerTable } from "@/components";
 import royalePromotion from "@/data/tr/royale-promotion.txt?raw";
 import { TrainerNormal, TrainerRoyale } from "@/types";
-import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, useImport } from "@/utils";
 
 const RoyaleListPage: React.FC = () => {
   useEffect(() => {
     document.title = `ＺＡ登峰战 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data: royaleData = null, loading: royaleLoading } = useRequest(
+  const [royaleData, royaleLoading] = useImport(
     async () => (await import("@/data/tr/royale.json")).default as TrainerRoyale[],
-    {
-      onError: onUseRequestError,
-    },
+  );
+  const [normalData, normalLoading] = useImport(
+    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
   );
 
-  const { data: normalData = null, loading: normalLoading } = useRequest(
-    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
-    {
-      onError: onUseRequestError,
-    },
-  );
   const promotionIdList = royalePromotion.split("\n").filter(Boolean);
   const promotionData = normalData?.filter((item) => promotionIdList.includes(item.id));
   const rewardData = normalData?.filter(

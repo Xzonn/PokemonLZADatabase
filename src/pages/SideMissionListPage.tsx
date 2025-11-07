@@ -1,17 +1,14 @@
-import { useRequest } from "ahooks";
 import React, { Fragment, useEffect, useState } from "react";
 
 import { SideMissionMap, SideMissionTable } from "@/components";
-import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, useImport } from "@/utils";
 
 const SideMissionListPage: React.FC = () => {
   useEffect(() => {
     document.title = `副任务一览 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(async () => (await import("@/data/mission/side")).SideMissionData, {
-    onError: onUseRequestError,
-  });
+  const [data, loading] = useImport(async () => (await import("@/data/mission/side")).SideMissionData);
 
   const [active, setActive] = useState<number | null>(null);
 

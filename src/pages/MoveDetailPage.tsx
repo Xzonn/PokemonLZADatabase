@@ -1,4 +1,3 @@
-import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
@@ -6,14 +5,7 @@ import { useParams } from "react-router-dom";
 import { PokemonTable, TMDetail } from "@/components";
 import { MoveDataByName, PokemonDataById } from "@/data";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
-import {
-  CategoryIcon,
-  DEFAULT_TITLE,
-  DescriptionsCommonProps4,
-  TypeIcon,
-  onUseRequestError,
-  renderMoveLevel,
-} from "@/utils";
+import { CategoryIcon, DEFAULT_TITLE, DescriptionsCommonProps4, TypeIcon, renderMoveLevel, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -54,12 +46,9 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
     document.title = `${move.name} - ${DEFAULT_TITLE}`;
   }, [move]);
 
-  const { data: moveFull = null, loading } = useRequest(
+  const [moveFull, loading] = useImport(
     async () => (await import(`@/data/m/${move.id.toString().padStart(3, "0")}.json`)).default as MoveFull,
-    {
-      refreshDeps: [move],
-      onError: onUseRequestError,
-    },
+    [move],
   );
 
   const pokemonLevelUp = useMemo(

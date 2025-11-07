@@ -1,17 +1,14 @@
-import { useRequest } from "ahooks";
 import React, { Fragment, useEffect } from "react";
 
 import { ResearchRewardTable, ResearchTable } from "@/components";
-import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, useImport } from "@/utils";
 
 const ResearchListPage: React.FC = () => {
   useEffect(() => {
     document.title = `茉蜜姬调查 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data = null, loading } = useRequest(async () => await import("@/data/research"), {
-    onError: onUseRequestError,
-  });
+  const [data, loading] = useImport(() => import("@/data/research"));
 
   return (
     <Fragment key="research-list">

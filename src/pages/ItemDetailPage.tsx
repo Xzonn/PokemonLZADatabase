@@ -1,16 +1,15 @@
-import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin } from "antd";
-import React, { Fragment, useEffect } from "react";
+import React, { FC, Fragment, useEffect } from "react";
 import { Navigate, useParams } from "react-router-dom";
 
 import { ItemIconWithoutTooltip } from "@/components";
 import { ItemDataByName } from "@/data";
 import { EItemPocket, Item, ItemFull } from "@/types";
-import { DEFAULT_TITLE, DescriptionsCommonProps4, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, DescriptionsCommonProps4, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
-const getDescriptions = (item: Item, itemFull: ItemFull | null): DescriptionsProps["items"] => [
+const getDescriptions = (item: Item, itemFull: ItemFull | undefined): DescriptionsProps["items"] => [
   {
     key: "id",
     label: "编号",
@@ -38,25 +37,11 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
     document.title = `${item.name} - ${DEFAULT_TITLE}`;
   }, [item]);
 
-  const { data: itemFull = null, loading: loadingFull } = useRequest(
-    async () => (await import("@/data/i/detail")).ItemFullDataById[item.id] || null,
-    {
-      refreshDeps: [item],
-      onError: onUseRequestError,
-    },
-  );
-
-  const { data: ItemContent = null } = useRequest(
-    async () => (await import(`@/data/i/${item.id.toString().padStart(4, "0")}.tsx`)).default || null,
-    {
-      refreshDeps: [item],
-      onError: (error) => {
-        if (error.message.includes("Unknown variable dynamic import")) {
-          return;
-        }
-        onUseRequestError(error);
-      },
-    },
+  const [itemFullData, loadingFull] = useImport(async () => (await import("@/data/i/detail")).ItemFullDataById);
+  const [ItemContent] = useImport(
+    async () => (await import(`@/data/i/${item.id.toString().padStart(4, "0")}.tsx`)).default as FC,
+    [item],
+    true,
   );
 
   return (
@@ -71,10 +56,10 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         <h1>{item.name}</h1>
         <Spin spinning={loadingFull}>
           <div className="names">
-            <div lang="ja">{itemFull?.japanese ?? "—"}</div>
-            <div>{itemFull?.english ?? "—"}</div>
+            <div lang="ja">{itemFullData?.[item.id].japanese ?? "—"}</div>
+            <div>{itemFullData?.[item.id].english ?? "—"}</div>
           </div>
-          <div className="description">{itemFull?.description ?? "—"}</div>
+          <div className="description">{itemFullData?.[item.id].description ?? "—"}</div>
         </Spin>
       </div>
 
@@ -83,7 +68,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         <Spin spinning={loadingFull}>
           <Descriptions
             {...DescriptionsCommonProps4}
-            items={getDescriptions(item, itemFull)}
+            items={getDescriptions(item, itemFullData?.[item.id])}
           />
         </Spin>
       </div>

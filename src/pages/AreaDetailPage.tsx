@@ -1,4 +1,3 @@
-import { useRequest } from "ahooks";
 import { Spin } from "antd";
 import { FC, Fragment, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -7,7 +6,7 @@ import { PokemonMap, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
 import { AreaNames } from "@/data/areas";
 import { PokemonForm, PokemonSpawn } from "@/types";
-import { DEFAULT_TITLE, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -20,11 +19,8 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
     document.title = `${name} - ${DEFAULT_TITLE}`;
   }, [name]);
 
-  const { data: raw = null, loading } = useRequest(
+  const [raw, loading] = useImport(
     async () => (await import(`@/data/areas/pokemon/${name}.txt?raw`)).default as string,
-    {
-      onError: onUseRequestError,
-    },
   );
 
   const pokemonData = useMemo(() => {

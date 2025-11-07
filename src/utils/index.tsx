@@ -3,6 +3,7 @@ export * from "./monitor";
 export * from "./components";
 
 export * from "./common";
+export * from "./hooks";
 export * from "./pokemon";
 export * from "./type";
 export * from "./tm";

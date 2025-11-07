@@ -1,4 +1,4 @@
-import { useLocalStorageState, useRequest } from "ahooks";
+import { useLocalStorageState } from "ahooks";
 import { Button, Spin, Switch } from "antd";
 import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useRef } from "react";
@@ -7,7 +7,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 import { Map as LumioseMap, PokemonIcon, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
 import { Pokemon, PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
-import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getPokemonFullId, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getPokemonFullId, useImport } from "@/utils";
 
 interface IMapLayerProps {
   data: SpawnPoint[];
@@ -84,10 +84,7 @@ const AreaListPage: React.FC = () => {
   const mapRef = useRef<HTMLHeadingElement | null>(null);
   const pokemonRef = useRef<HTMLHeadingElement | null>(null);
 
-  const { data: raw = null, loading } = useRequest(async () => (await import("@/data/areas/spawn.txt?raw")).default, {
-    refreshDeps: [],
-    onError: onUseRequestError,
-  });
+  const [raw, loading] = useImport(async () => (await import("@/data/areas/spawn.txt?raw")).default);
 
   const { spawnData = [], allPokemon = [] } = useMemo(() => {
     if (!raw) return {};

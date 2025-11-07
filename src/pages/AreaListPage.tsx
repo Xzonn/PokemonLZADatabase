@@ -1,4 +1,3 @@
-import { useRequest } from "ahooks";
 import { Table, TableColumnsType } from "antd";
 import React, { Fragment, useEffect } from "react";
 
@@ -6,7 +5,7 @@ import { PokemonIconWithName, PokemonMap } from "@/components";
 import { PokemonDataById } from "@/data";
 import { AreaNames } from "@/data/areas";
 import { Pokemon, PokemonForm } from "@/types";
-import { DEFAULT_TITLE, Link, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, Link, useImport } from "@/utils";
 
 interface IAreaOverview {
   name: string;
@@ -41,22 +40,16 @@ const AreaListPage: React.FC = () => {
     document.title = `密阿雷地图 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const { data: pokemonData = null, loading } = useRequest(
-    async () => {
-      const pokemonData = (await import("@/data/areas/pokemon.json")).default as Record<string, PokemonForm[]>;
-      return AreaNames.map(
-        (name) =>
-          ({
-            name,
-            pokemon: pokemonData[name]?.map((form) => PokemonDataById[form as PokemonForm]) || [],
-          }) as IAreaOverview,
-      );
-    },
-    {
-      refreshDeps: [],
-      onError: onUseRequestError,
-    },
-  );
+  const [data, loading] = useImport(async () => {
+    const pokemonData = (await import("@/data/areas/pokemon.json")).default as Record<string, PokemonForm[]>;
+    return AreaNames.map(
+      (name) =>
+        ({
+          name,
+          pokemon: pokemonData[name]?.map((form) => PokemonDataById[form as PokemonForm]) || [],
+        }) as IAreaOverview,
+    );
+  });
 
   return (
     <Fragment key="wild-zone-list">
@@ -72,7 +65,7 @@ const AreaListPage: React.FC = () => {
       <div className="section">
         <h2>宝可梦列表</h2>
         <Table<IAreaOverview>
-          dataSource={pokemonData || []}
+          dataSource={data || []}
           loading={loading}
           columns={columns}
           rowKey="index"

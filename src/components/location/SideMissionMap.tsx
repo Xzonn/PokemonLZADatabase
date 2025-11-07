@@ -1,4 +1,3 @@
-import { useRequest } from "ahooks";
 import { Button } from "antd";
 import { divIcon } from "leaflet";
 import { FC, Fragment } from "react";
@@ -6,7 +5,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 
 import { Map } from "@/components";
 import { SideMission } from "@/types";
-import { Link, MAP_CENTER, getCoord, onUseRequestError } from "@/utils";
+import { Link, MAP_CENTER, getCoord, useImport } from "@/utils";
 
 const MapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
   const map = useMap();
@@ -45,9 +44,7 @@ interface IProps {
 }
 
 export const SideMissionMap: FC<IProps> = ({ active, setActive }) => {
-  const { data = null, loading } = useRequest(async () => (await import("@/data/mission/side")).SideMissionData, {
-    onError: onUseRequestError,
-  });
+  const [data, loading] = useImport(async () => (await import("@/data/mission/side")).SideMissionData);
 
   return (
     <Fragment key="side-mission-map">

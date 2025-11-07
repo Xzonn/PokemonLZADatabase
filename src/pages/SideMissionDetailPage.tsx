@@ -1,11 +1,10 @@
-import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin } from "antd";
 import { FC, Fragment, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import { ItemList, SideMissionMap } from "@/components";
 import { SideMissionFull, SideMissionInformation } from "@/types";
-import { DEFAULT_TITLE, DescriptionsCommonProps2, onUseRequestError } from "@/utils";
+import { DEFAULT_TITLE, DescriptionsCommonProps2, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -57,13 +56,7 @@ const SideMissionDetailPageCore: FC<IProps> = ({ mission }) => {
     document.title = `副任务 ${mission} - ${DEFAULT_TITLE}`;
   }, [mission]);
 
-  const { data = null, loading } = useRequest(
-    async () => (await import(`@/data/mission/side/${mission}.tsx`)) as SideMissionFull,
-    {
-      refreshDeps: [mission],
-      onError: onUseRequestError,
-    },
-  );
+  const [data, loading] = useImport(() => import(`@/data/mission/side/${mission}.tsx`) as Promise<SideMissionFull>);
 
   const { information = null, default: Content } = data || {};
 

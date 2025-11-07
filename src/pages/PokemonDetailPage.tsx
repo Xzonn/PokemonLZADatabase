@@ -1,4 +1,3 @@
-import { useRequest } from "ahooks";
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { Navigate, useParams } from "react-router-dom";
@@ -14,8 +13,8 @@ import {
   TypeIcons,
   getPokemonFullId,
   getPokemonFullNameFriendly,
-  onUseRequestError,
   renderMoveLevel,
+  useImport,
 } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
@@ -119,12 +118,8 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
     document.title = `${getPokemonFullNameFriendly(pokemon)} - ${DEFAULT_TITLE}`;
   }, [pokemon]);
 
-  const { data: pokemonFull = null, loading } = useRequest(
+  const [pokemonFull, loading] = useImport(
     async () => (await import(`@/data/p/${getPokemonFullId(pokemon)}.json`)).default as PokemonFull,
-    {
-      refreshDeps: [pokemon],
-      onError: onUseRequestError,
-    },
   );
 
   const allForms = useMemo(() => PokemonData.filter((p) => p.id === pokemon.id), [pokemon]);
