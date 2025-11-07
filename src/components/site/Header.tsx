@@ -50,11 +50,7 @@ export const Header: FC<IHeaderProps> = ({ showDrawer }) => {
                 to="/"
                 className="flex items-center text-2xl font-bold text-primary"
               >
-                <img
-                  src="/team-mz.webp"
-                  alt="Logo"
-                  className="w-8 h-8 mr-2"
-                />
+                <span className="logo" />
                 Z-A 数据库
               </Link>
             </div>
