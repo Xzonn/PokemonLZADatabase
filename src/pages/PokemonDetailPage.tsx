@@ -120,6 +120,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
 
   const [pokemonFull, loading] = useImport(
     async () => (await import(`@/data/p/${getPokemonFullId(pokemon)}.json`)).default as PokemonFull,
+    [pokemon],
   );
 
   const allForms = useMemo(() => PokemonData.filter((p) => p.id === pokemon.id), [pokemon]);

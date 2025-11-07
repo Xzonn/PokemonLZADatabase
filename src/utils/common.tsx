@@ -91,3 +91,5 @@ export const halfToFull = (str: string): string =>
 
 export const fullToHalf = (str: string): string =>
   str.replace(/[！-～]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0));
+
+export const getSideMissionNumber = (id: number) => (id > 0 ? id.toString().padStart(3, "0") : `EX${-id}`);

@@ -26,9 +26,8 @@ const TrainerDetailPageCore: FC<IProps> = ({ data: name }) => {
     document.title = `${name} - ${DEFAULT_TITLE}`;
   }, [name]);
 
-  const [data, loading] = useImport(async () =>
-    ((await import("@/data/tr/normal.json")).default as TrainerNormal[]).filter((tr) => trnameEqual(tr.trname, name)),
-  );
+  const [data, loading] = useImport(async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[]);
+  const filteredData = data?.filter((tr) => trnameEqual(tr.trname, name)) || [];
 
   return (
     <Fragment key="pokemon-list">
@@ -46,7 +45,7 @@ const TrainerDetailPageCore: FC<IProps> = ({ data: name }) => {
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
           loading={loading}
-          data={data || []}
+          data={filteredData || []}
         />
       </div>
     </Fragment>

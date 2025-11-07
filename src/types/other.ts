@@ -30,4 +30,8 @@ export type SearchResult =
   | {
       type: "navigation";
       data: NavigationItem;
+    }
+  | {
+      type: "side";
+      data: number;
     };

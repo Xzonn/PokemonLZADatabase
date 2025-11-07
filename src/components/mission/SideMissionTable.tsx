@@ -1,7 +1,7 @@
 import { Table, TableColumnType } from "antd";
 
 import { SideMission } from "@/types";
-import { Link, TableCommonProps } from "@/utils";
+import { Link, TableCommonProps, getSideMissionNumber } from "@/utils";
 
 import { ItemList } from "../item";
 
@@ -9,14 +9,12 @@ const columns: TableColumnType<SideMission>[] = [
   {
     title: "编号",
     dataIndex: "index",
-    render: (index) => (index > 0 ? index.toString().padStart(3, "0") : `EX${-index}`),
+    render: getSideMissionNumber,
   },
   {
     title: "名字",
     dataIndex: "name",
-    render: (name, row) => (
-      <Link to={`/side/${row.index > 0 ? row.index.toString().padStart(3, "0") : `EX${-row.index}`}`}>{name}</Link>
-    ),
+    render: (name, row) => <Link to={`/side/${getSideMissionNumber(row.index)}`}>{name}</Link>,
   },
   {
     title: "委托人",

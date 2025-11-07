@@ -5,21 +5,23 @@ import React, { FC, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import { ItemData, MoveData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
+import { AreaNames } from "@/data/areas";
 import { EPokemonType, NavigationItem, SearchResult } from "@/types";
-import { filterPokemon, getPokemonFullId, halfToFull } from "@/utils";
+import { filterPokemon, getPokemonFullId } from "@/utils";
 
 import { SearchItem } from "./SearchItem";
 import { SearchMove } from "./SearchMove";
 import { SearchNavigation } from "./SearchNavigation";
 import { SearchPokemon } from "./SearchPokemon";
+import { SearchSideMission } from "./SearchSideMission";
 import { SearchType } from "./SearchType";
 
-const LOCATION_PATHS = Array.from({ length: 20 }).map(
-  (_, i) =>
+const LOCATION_PATHS = AreaNames.map(
+  (name) =>
     ({
-      path: `/z/${i + 1}`,
-      label: `${halfToFull((i + 1).toString())}号野生特区`,
-      icon: "zone",
+      path: `/area/${name}`,
+      label: name,
+      icon: name.includes("号野生特区") ? "zone" : "map",
     }) as NavigationItem,
 );
 const NAV_ITEMS = [
@@ -99,6 +101,26 @@ const searchAll = (keyword: string): SearchResult[] => {
       );
   }
 
+  if (results.length < 10 && !keyword.startsWith("0")) {
+    if (keyword.match(/^\d+$/)) {
+      const sideNumber = parseInt(keyword, 10);
+      if (sideNumber >= 1 && sideNumber <= 119) {
+        results.push({
+          type: "side",
+          data: sideNumber,
+        });
+      }
+    } else if (keyword.match(/^EX(\d)+$/i)) {
+      const sideNumber = parseInt(keyword.slice(2), 10);
+      if (sideNumber >= 1 && sideNumber <= 2) {
+        results.push({
+          type: "side",
+          data: -sideNumber,
+        });
+      }
+    }
+  }
+
   return results;
 };
 
@@ -158,6 +180,14 @@ const renderSearchResult = (result: SearchResult[], onClick: () => void) => {
             return (
               <SearchNavigation
                 key={`navigation-${data.label}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "side":
+            return (
+              <SearchSideMission
+                key={`side-${data}`}
                 result={data}
                 onClick={onClick}
               />

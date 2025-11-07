@@ -21,6 +21,7 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
 
   const [raw, loading] = useImport(
     async () => (await import(`@/data/areas/pokemon/${name}.txt?raw`)).default as string,
+    [name],
   );
 
   const pokemonData = useMemo(() => {

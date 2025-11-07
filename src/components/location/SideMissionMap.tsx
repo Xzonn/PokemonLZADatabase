@@ -5,7 +5,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 
 import { Map } from "@/components";
 import { SideMission } from "@/types";
-import { Link, MAP_CENTER, getCoord, useImport } from "@/utils";
+import { Link, MAP_CENTER, getCoord, getSideMissionNumber, useImport } from "@/utils";
 
 const MapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
   const map = useMap();
@@ -18,7 +18,7 @@ const MapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
   }
 
   return data?.map((mission) => {
-    const index = mission.index > 0 ? mission.index.toString().padStart(3, "0") : `EX${-mission.index}`;
+    const index = getSideMissionNumber(mission.index);
     return (
       <Marker
         key={mission.index}

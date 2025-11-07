@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 import { ItemList, SideMissionMap } from "@/components";
 import { SideMissionFull, SideMissionInformation } from "@/types";
-import { DEFAULT_TITLE, DescriptionsCommonProps2, useImport } from "@/utils";
+import { DEFAULT_TITLE, DescriptionsCommonProps2, getSideMissionNumber, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -12,7 +12,7 @@ const getDescriptions = (data?: SideMissionInformation | null): DescriptionsProp
   {
     key: "index",
     label: "编号",
-    children: (data?.index || 0) < 0 ? `EX${-data!.index}` : data?.index.toString().padStart(3, "0"),
+    children: getSideMissionNumber(data?.index || 0),
   },
   {
     key: "requester",
@@ -56,7 +56,10 @@ const SideMissionDetailPageCore: FC<IProps> = ({ mission }) => {
     document.title = `副任务 ${mission} - ${DEFAULT_TITLE}`;
   }, [mission]);
 
-  const [data, loading] = useImport(() => import(`@/data/mission/side/${mission}.tsx`) as Promise<SideMissionFull>);
+  const [data, loading] = useImport(
+    () => import(`@/data/mission/side/${mission}.tsx`) as Promise<SideMissionFull>,
+    [mission],
+  );
 
   const { information = null, default: Content } = data || {};
 
