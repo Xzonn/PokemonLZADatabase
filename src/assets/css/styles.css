@@ -17,6 +17,14 @@
     system-ui, sans-serif, serif;
 }
 
+#root {
+  @apply min-h-screen flex flex-col;
+
+  & > a {
+    @apply hidden;
+  }
+}
+
 body {
   background-image: url("../images/background.svg");
   background-attachment: fixed;
