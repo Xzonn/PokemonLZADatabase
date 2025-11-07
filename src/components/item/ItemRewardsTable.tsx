@@ -47,7 +47,7 @@ export const ItemRewardsTable = ({ loading = false, data, headers = ["道具", "
   return (
     <Table<IItemReward>
       {...TableCommonProps}
-      rowKey={(row) => row.item}
+      rowKey={(row) => `${row.item}-${row.quantity}`}
       loading={loading}
       columns={sortedColumns}
       dataSource={data}
