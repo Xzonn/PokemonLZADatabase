@@ -65,7 +65,8 @@ jobs:
         if: steps.cache-coscli.outputs.cache-hit != 'true'
         run: |
           mkdir -p ~/coscli
-          wget -O ~/coscli/coscli https://github.com/tencentyun/coscli/releases/download/v5.0.32/coscli-linux
+          wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 \
+            -O ~/coscli/coscli https://github.com/tencentyun/coscli/releases/download/v5.0.32/coscli-linux
           chmod +x ~/coscli/coscli
       
       # 10. Configure COSCLI
@@ -83,4 +84,4 @@ jobs:
         env:
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
         run: |
-          ~/coscli/coscli sync build/ cos://"$COS_BUCKET"/ -r
+          ~/coscli/coscli sync build/ cos://"$COS_BUCKET"/ -r --delete
