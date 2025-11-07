@@ -400,6 +400,11 @@ header {
   @apply bg-white shadow-lg border-b-4 border-primary;
 }
 
+.logo {
+  @apply inline-block w-8 h-8 mr-2 bg-no-repeat bg-center bg-contain;
+  background-image: url("../images/logo.webp");
+}
+
 .notice {
   @apply text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-gray-600 space-y-2;
 }
