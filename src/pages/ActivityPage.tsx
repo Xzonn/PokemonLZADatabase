@@ -1,46 +1,23 @@
-import { Card, Table, TableColumnsType } from "antd";
+import { Card } from "antd";
 import React, { FC, Fragment, useEffect } from "react";
 
-import { ItemCell, ItemIconWithoutTooltip, PokemonIcon } from "@/components";
+import { ItemIconWithoutTooltip, ItemRewardsTable, PokemonIcon } from "@/components";
 import { ItemDataByName, PokemonDataByName } from "@/data";
+import { IItemReward } from "@/types";
 import { DEFAULT_TITLE, Link } from "@/utils";
 
-interface IReward {
-  item: string;
-  quantity: number;
-  probability: number;
-}
-
 interface IInternetBattleRewardsTableProps {
-  random: IReward[];
-  guaranteed: IReward[];
+  random: IItemReward[];
+  guaranteed: IItemReward[];
 }
-
-const InternetBattleRewardsTableColumns: TableColumnsType<IReward> = [
-  {
-    title: "道具",
-    dataIndex: "item",
-    render: (item) => <ItemCell item={ItemDataByName[item]} />,
-  },
-  { title: "数量", dataIndex: "quantity" },
-  { title: "概率", dataIndex: "probability", render: (probability) => `${probability}%` },
-];
 
 const InternetBattleRewardsTable: FC<IInternetBattleRewardsTableProps> = ({ random, guaranteed }) => (
   <>
     <h4>固定奖励</h4>
-    <Table<IReward>
-      columns={InternetBattleRewardsTableColumns}
-      dataSource={guaranteed}
-      pagination={false}
-    />
+    <ItemRewardsTable data={guaranteed} />
 
     <h4>随机奖励</h4>
-    <Table<IReward>
-      columns={InternetBattleRewardsTableColumns}
-      dataSource={random}
-      pagination={false}
-    />
+    <ItemRewardsTable data={random} />
   </>
 );
 

@@ -25,3 +25,10 @@ export interface ItemDetail {
 }
 
 export interface ItemFull extends Item, ItemDetail {}
+
+export interface IItemReward {
+  item: string;
+  quantity: number;
+  probability?: number;
+  condition?: string;
+}
