@@ -58,7 +58,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/coscli
-          key: ${{ runner.os }}-coscli-v5.0.32
+          key: ${{ runner.os }}-coscli-v1.0.7
           restore-keys: |
             ${{ runner.os }}-coscli-
       
@@ -68,7 +68,7 @@ jobs:
         run: |
           mkdir -p ~/coscli
           wget --retry-connrefused --waitretry=1 --read-timeout=20 --timeout=15 -t 3 \
-            -O ~/coscli/coscli https://github.com/tencentyun/coscli/releases/download/v5.0.32/coscli-linux
+            -O ~/coscli/coscli https://github.com/tencentyun/coscli/releases/download/v1.0.7/coscli-v1.0.7-linux-amd64
           chmod +x ~/coscli/coscli
       
       # 10. Configure COSCLI

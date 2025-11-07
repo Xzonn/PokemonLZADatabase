@@ -53,6 +53,8 @@ COSCLI 是腾讯云对象存储的命令行工具，详细文档请参考：
 - [COSCLI 工具](https://cloud.tencent.com/document/product/436/63144)
 - [coscli sync 命令](https://cloud.tencent.com/document/product/436/63669)
 
+当前使用版本：**v1.0.7**
+
 ## 工作流文件
 
 工作流配置文件位于：`.github/workflows/build-deploy.yml`
