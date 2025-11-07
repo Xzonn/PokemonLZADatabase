@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - master
-      - copilot/add-github-actions-workflow
+    paths-ignore:
+      - .github/**/*
+      - .vscode/**/*
 
 jobs:
   build-and-deploy:
