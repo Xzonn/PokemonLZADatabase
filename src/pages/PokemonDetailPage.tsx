@@ -237,6 +237,16 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
           data={movesTM}
         />
       </div>
+
+      {pokemonFull?.movesAlpha ? (
+        <div className="section">
+          <h2>头目招式</h2>
+          <MoveTable
+            loading={loading}
+            data={[MoveDataById[pokemonFull.movesAlpha]]}
+          />
+        </div>
+      ) : null}
     </Fragment>
   );
 };

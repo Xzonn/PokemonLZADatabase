@@ -1,5 +1,4 @@
 {
-  "pokemonLevelUp": [],
   "pokemonTM": [
     {
       "fullId": "004-0"
@@ -144,6 +143,20 @@
     },
     {
       "fullId": "780-1"
+    }
+  ],
+  "pokemonAlpha": [
+    {
+      "fullId": "017-0"
+    },
+    {
+      "fullId": "018-0"
+    },
+    {
+      "fullId": "018-1"
+    },
+    {
+      "fullId": "715-0"
     }
   ]
 }

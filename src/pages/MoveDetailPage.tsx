@@ -63,14 +63,11 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
     [moveFull],
   );
   const pokemonTM = useMemo(
-    () =>
-      moveFull?.pokemonTM
-        .filter((pokemon) => PokemonDataById[pokemon.fullId])
-        .map((pokemon) => ({
-          ...pokemon,
-          ...PokemonDataById[pokemon.fullId],
-        }))
-        .filter(Boolean),
+    () => moveFull?.pokemonTM?.map((pokemon) => PokemonDataById[pokemon.fullId]).filter(Boolean) || [],
+    [moveFull],
+  );
+  const pokemonAlpha = useMemo(
+    () => moveFull?.pokemonAlpha?.map((pokemon) => PokemonDataById[pokemon.fullId]).filter(Boolean) || [],
     [moveFull],
   );
 
@@ -101,13 +98,24 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
           extraColumns={columnsLevelUp}
         />
       </div>
-      {(pokemonTM?.length || 0) > 0 ? (
+
+      {pokemonTM.length > 0 ? (
         <div className="section">
           <h2>招式学习器</h2>
           <TMDetail move={move.name} />
           <PokemonTable
             loading={loading}
             data={pokemonTM}
+          />
+        </div>
+      ) : null}
+
+      {pokemonAlpha.length > 0 ? (
+        <div className="section">
+          <h2>头目招式</h2>
+          <PokemonTable
+            loading={loading}
+            data={pokemonAlpha}
           />
         </div>
       ) : null}

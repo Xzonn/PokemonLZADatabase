@@ -45,6 +45,7 @@ export interface PokemonFull extends Pokemon {
   evolutions: Evolution[];
   movesLevelUp: MoveLevelUp[];
   movesTM: MoveTM[];
+  movesAlpha?: number;
   description: string;
   obtains?: {
     areas?: string[];

@@ -23,5 +23,6 @@ export interface Move {
 
 export interface MoveFull extends Move {
   pokemonLevelUp: PokemonLevelUp[];
-  pokemonTM: PokemonTM[];
+  pokemonTM?: PokemonTM[];
+  pokemonAlpha?: PokemonTM[];
 }
