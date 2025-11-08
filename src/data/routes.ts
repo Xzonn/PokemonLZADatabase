@@ -23,6 +23,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/密阿雷地图": "AreaListPage",
   "/宝可梦分布": "SpawnListPage",
   "/联网活动": "ActivityPage",
+  "/关于网站": "AboutPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
   "/i/:name": "ItemDetailPage",

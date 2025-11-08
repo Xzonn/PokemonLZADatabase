@@ -3,7 +3,7 @@ import { FC, useEffect, useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Routes from "@/Routes";
-import { Footer, Header, Notice, ScrollToTop, Sidebar, TocObserver } from "@/components";
+import { Footer, Header, ScrollToTop, Sidebar, TocObserver } from "@/components";
 
 import { BREAKPOINTS } from "./utils";
 
@@ -28,7 +28,7 @@ const App: FC = () => {
       <ScrollToTop />
       <TocObserver>
         <Header showDrawer={!sidebarShown} />
-        <Notice />
+        {/* <Notice /> */}
         <div className="md:flex relative flex-1">
           {sidebarShown ? <Sidebar /> : null}
           <main>

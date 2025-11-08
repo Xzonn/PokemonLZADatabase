@@ -36,6 +36,11 @@ a {
   @apply text-link no-underline transition-colors hover:text-link-light focus:text-link-light;
 }
 
+b,
+strong {
+  @apply font-semibold;
+}
+
 .ant-descriptions-view {
   overflow-x: auto;
 }
@@ -102,7 +107,7 @@ h4 {
 }
 
 main p {
-  @apply indent-[2em] text-sm mb-4 leading-[2];
+  @apply indent-[2em] mb-4 leading-[2];
 
   &:last-child {
     @apply mb-0;
@@ -471,6 +476,10 @@ main {
 
 footer {
   @apply bg-white border-t-2 border-primary w-full mx-auto px-4 py-6 sm:px-6 lg:px-8 text-center text-sm text-gray-400 space-y-2;
+
+  a {
+    @apply text-gray-400 hover:text-gray-600 focus:text-gray-600;
+  }
 }
 
 .main-home > div {
@@ -524,5 +533,13 @@ footer {
 
   .giscus {
     @apply hidden;
+  }
+}
+
+.ant-timeline {
+  @apply mx-4 mt-8;
+
+  .ant-timeline-item {
+    @apply text-[1rem];
   }
 }
