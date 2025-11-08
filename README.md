@@ -14,7 +14,7 @@
 - **UI 组件库**：Ant Design 5
 - **样式处理**：Tailwind CSS 4
 - **英文字体**：Nunito
-- **部署方式**：Vercel
+- **部署方式**：腾讯云（中国大陆）/ Vercel（其他区域）
 - **数据来源**：<https://github.com/projectpokemon/za-textport>
 
 ## 安装运行

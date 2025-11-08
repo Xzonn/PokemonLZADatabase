@@ -8,7 +8,7 @@ export const Footer: React.FC = () => (
       授权。
     </p>
     <p>
-      <a href="https://xzonn.top/">Xzonn 制作</a> - <Link to="/更新日志">更新日志</Link> -{" "}
+      <a href="https://xzonn.top/">Xzonn 制作</a> - <Link to="/关于网站">关于网站</Link> -{" "}
       <a href="https://space.bilibili.com/16114399">bilibili</a> - <a href="https://afdian.com/a/Xzonn">爱发电</a> -{" "}
       <a href="https://github.com/Xzonn/PokemonLZADatabase">GitHub</a>
     </p>

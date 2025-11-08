@@ -1,7 +1,7 @@
 // 通用页面
 export { default as HomePage } from "./HomePage";
 export { default as NotFoundPage } from "./NotFoundPage";
-export { default as ChangelogPage } from "./ChangelogPage";
+export { default as AboutPage } from "./AboutPage";
 
 // 宝可梦
 export { default as PokemonListPage } from "./PokemonListPage";
