@@ -70,6 +70,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/训练家一览", label: "全部训练家", icon: "money" },
           { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: "prize-medal" },
+          { path: "/联网活动", label: "联网活动", icon: "internet-black" },
         ],
       },
       {
