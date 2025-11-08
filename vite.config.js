@@ -18,8 +18,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          leaflet: ["leaflet", "leaflet-fullscreen"],
-          react: ["react", "react-dom", "react-router-dom", "react-leaflet"],
+          leaflet: ["leaflet", "leaflet-fullscreen", "react-leaflet"],
+          react: ["react", "react-dom", "react-router-dom"],
           antd: ["antd", "@ant-design/icons"],
           ahooks: ["ahooks"],
           aegis: ["aegis-web-sdk"],
