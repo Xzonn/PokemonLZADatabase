@@ -1,10 +1,13 @@
+import { useLocalStorageState } from "ahooks";
+import { Button, Popconfirm, Radio } from "antd";
+import cn from "classnames";
 import { divIcon } from "leaflet";
-import { FC, useState } from "react";
-import { Marker, useMap } from "react-leaflet";
+import { FC, useMemo } from "react";
+import { Marker, Popup } from "react-leaflet";
 
 import { ItemTable, Map } from "@/components";
 import { PositionWithPoint } from "@/types";
-import { Link, MAP_CENTER, getCoord } from "@/utils";
+import { Link, getCoord } from "@/utils";
 
 import raw from "./2619-location.txt?raw";
 import { ItemFullData } from "./detail";
@@ -26,37 +29,93 @@ export const Positions = lines.slice(1).map((line, index) => {
 
 const CANARI_PLUSHES = ItemFullData.filter((item) => item.priceColorfulScrew > 0);
 
-const MapLayer: FC<{ data: PositionWithPoint[] }> = ({ data }) => {
-  const map = useMap();
+interface IMapLayerProps {
+  data: PositionWithPoint[];
+  obtained: number[];
+  setObtained: (ids: number[]) => void;
+}
 
-  if (data?.length === 1) {
-    const position = data[0];
-    map.setView(getCoord([position.x, position.y]), 2);
-  } else {
-    map.setView(getCoord(MAP_CENTER), 0);
-  }
+const MapLayer: FC<IMapLayerProps> = ({ data, obtained, setObtained }) =>
+  data.map((position) => {
+    const isObtained = obtained.includes(position.index);
 
-  return data.map((position) => (
-    <Marker
-      key={position.index}
-      position={getCoord([position.x, position.y])}
-      icon={divIcon({
-        className: "icon icon-colorful-screw",
-        iconSize: [24, 24],
-      })}
-    />
-  ));
-};
+    return (
+      <Marker
+        key={position.index}
+        position={getCoord([position.x, position.y])}
+        icon={divIcon({
+          className: cn("icon icon-colorful-screw transition-[filter]", isObtained ? "grayscale" : "grayscale-0"),
+          iconSize: [24, 24],
+        })}
+      >
+        <Popup>
+          <Button
+            type="link"
+            onClick={
+              isObtained
+                ? () => setObtained(obtained.filter((id) => id !== position.index))
+                : () => setObtained([...obtained, position.index])
+            }
+          >
+            {isObtained ? "标记为未获得" : "标记为已获得"}
+          </Button>
+        </Popup>
+      </Marker>
+    );
+  });
+
+interface IFilter {
+  status: "all" | "obtained" | "unobtained";
+}
 
 const Content: FC = () => {
-  const [active] = useState<number | null>(null);
+  const [obtained, setObtained] = useLocalStorageState<number[]>("za-colorful-screw-obtained", {
+    defaultValue: [],
+  });
+  const [filter, setFilter] = useLocalStorageState<IFilter>("za-colorful-screw-filter", {
+    defaultValue: { status: "all" },
+  });
+  const filteredData = useMemo(
+    () =>
+      filter.status === "all"
+        ? Positions
+        : Positions.filter((item) =>
+            filter.status === "obtained" ? obtained.includes(item.index) : !obtained.includes(item.index),
+          ),
+    [filter, obtained],
+  );
 
   return (
     <>
       <div className="section">
         <h2>地图分布</h2>
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <Radio.Group
+            optionType="button"
+            value={filter.status}
+            onChange={(e) => setFilter({ status: e.target.value })}
+            options={[
+              { value: "all", label: "筛选全部" },
+              { value: "obtained", label: "仅看已获得" },
+              { value: "unobtained", label: "仅看未获得" },
+            ]}
+          />
+          <Popconfirm
+            title="确定要重置状态吗？"
+            onConfirm={() => {
+              setObtained([]);
+              setFilter({ status: "all" });
+            }}
+          >
+            <Button>重置状态</Button>
+          </Popconfirm>
+        </div>
         <Map>
-          <MapLayer data={active !== null ? Positions.filter((mission) => mission.index === active) : Positions} />
+          <MapLayer
+            data={filteredData}
+            obtained={obtained}
+            setObtained={setObtained}
+          />
         </Map>
         <div className="map-note">
           地点坐标参考自：
