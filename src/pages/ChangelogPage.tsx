@@ -3,60 +3,81 @@ import React, { Fragment, useEffect, useMemo } from "react";
 
 import { DEFAULT_TITLE } from "@/utils";
 
-interface Commit {
-  hash: string;
+interface ChangelogEntry {
   date: string;
-  message: string;
-  author: string;
+  changes: string[];
 }
 
-type CommitsByDate = Record<string, Commit[]>;
-
-const CHANGELOG_DATA: Commit[] = [
-  { hash: "10bf34f", date: "2025-11-08", message: "fix: 修复打包", author: "Xzonn" },
-  { hash: "3419bab", date: "2025-10-30", message: "feat: 添加副任务一览", author: "Xzonn" },
-  { hash: "84a3fea", date: "2025-10-29", message: "feat: 更新打包设置", author: "Xzonn" },
-  { hash: "30dd936", date: "2025-10-29", message: "fix: 匹配版本", author: "Xzonn" },
-  { hash: "8564d65", date: "2025-10-29", message: "feat: 密阿雷地图初稿", author: "Xzonn" },
-  { hash: "853c3c3", date: "2025-10-26", message: "feat: 添加 robots.txt", author: "Xzonn" },
-  { hash: "e0617ad", date: "2025-10-24", message: "feat: 优化招式列表", author: "Xzonn" },
-  { hash: "aef0cb0", date: "2025-10-24", message: "feat: 优化招式学习器", author: "Xzonn" },
-  { hash: "444f074", date: "2025-10-24", message: "feat: 添加招式学习器数据", author: "Xzonn" },
-  { hash: "ad01294", date: "2025-10-24", message: "feat: 更新道具", author: "Xzonn" },
-  { hash: "bb3d773", date: "2025-10-24", message: "feat: 添加茉蜜姬调查", author: "Xzonn" },
-  { hash: "47b96c1", date: "2025-10-24", message: "feat: 更新登峰战", author: "Xzonn" },
-  { hash: "77dc801", date: "2025-10-24", message: "feat: 更新页面布局", author: "Xzonn" },
-  { hash: "f653bdc", date: "2025-10-23", message: "feat: 优化显示", author: "Xzonn" },
-  { hash: "022bf32", date: "2025-10-22", message: "feat: 添加 Giscus", author: "Xzonn" },
-  { hash: "c83a086", date: "2025-10-22", message: "feat: 更新道具图标", author: "Xzonn" },
-  { hash: "41fac4a", date: "2025-10-22", message: "feat: 改进导入导出", author: "Xzonn" },
-  { hash: "f2189f0", date: "2025-10-21", message: "feat: 优化登峰战数据", author: "Xzonn" },
-  { hash: "c0380b6", date: "2025-10-21", message: "feat: 添加宝可元的符号", author: "Xzonn" },
-  { hash: "20caa9c", date: "2025-10-21", message: "feat: 添加 sitemap", author: "Xzonn" },
-  { hash: "cca04c2", date: "2025-10-21", message: "feat: 添加 LICENSE", author: "Xzonn" },
-  { hash: "ce1f6d4", date: "2025-10-21", message: "feat: 更新训练家列表布局", author: "Xzonn" },
-  { hash: "7234e59", date: "2025-10-21", message: "feat: 招式强化", author: "Xzonn" },
-  { hash: "0731d58", date: "2025-10-21", message: "feat: 拆分ＺＡ登峰战，优化训练家列表显示", author: "Xzonn" },
-  { hash: "b231f6b", date: "2025-10-21", message: "feat: 添加训练家数据", author: "Xzonn" },
-  { hash: "ff9037f", date: "2025-10-21", message: "feat: 拆分类型导出", author: "Xzonn" },
-  { hash: "857c45c", date: "2025-10-20", message: "feat: 添加侧边栏", author: "Xzonn" },
-  { hash: "64ae809", date: "2025-10-20", message: "feat: 添加 VS Code 配置", author: "Xzonn" },
-  { hash: "52090f0", date: "2025-10-20", message: "fix: 修复 sitemap", author: "Xzonn" },
-  { hash: "0ec72d7", date: "2025-10-19", message: "fix: 修复属性相克重复计算", author: "Xzonn" },
-  { hash: "f2ece89", date: "2025-10-19", message: "fix: 修复表格 key 不唯一的问题", author: "Xzonn" },
-  { hash: "e801077", date: "2025-10-19", message: "fix: 修复分页问题", author: "Xzonn" },
-  { hash: "9e801fe", date: "2025-10-19", message: "refactor: 更新 eslint 配置", author: "Xzonn" },
-  { hash: "7732dd2", date: "2025-10-19", message: "fix: 修复配置项", author: "Xzonn" },
-  { hash: "90967f1", date: "2025-10-19", message: "fix: 修复 sitemap", author: "Xzonn" },
-  { hash: "de0e5f0", date: "2025-10-19", message: "feat: 升级到 vite，创建 sitemap", author: "Xzonn" },
-  { hash: "4861958", date: "2025-10-19", message: "fix: 修复链接问题", author: "Xzonn" },
-  { hash: "d3ff371", date: "2025-10-19", message: "feat: 更新进化", author: "Xzonn" },
-  { hash: "9296288", date: "2025-10-19", message: "feat: 更新", author: "Xzonn" },
-  { hash: "a502744", date: "2025-10-19", message: "fix: 修复页面标题", author: "Xzonn" },
-  { hash: "af90a01", date: "2025-10-19", message: "feat: 更新", author: "Xzonn" },
-  { hash: "9bc8f6c", date: "2025-10-19", message: "feat: 更新", author: "Xzonn" },
-  { hash: "a983b5f", date: "2025-10-19", message: "feat: Update", author: "Xzonn" },
-  { hash: "5061887", date: "2025-10-19", message: "Initial version", author: "Xzonn" },
+const CHANGELOG_DATA: ChangelogEntry[] = [
+  {
+    date: "2025-11-08",
+    changes: ["修复网站打包配置问题"],
+  },
+  {
+    date: "2025-10-30",
+    changes: ["新增副任务一览页面，可以查看游戏中的所有副任务信息"],
+  },
+  {
+    date: "2025-10-29",
+    changes: ["新增密阿雷市地图功能，可以在地图上查看各个区域", "优化打包配置，提升网站加载速度", "更新版本信息"],
+  },
+  {
+    date: "2025-10-26",
+    changes: ["优化搜索引擎收录配置"],
+  },
+  {
+    date: "2025-10-24",
+    changes: [
+      "新增茉蜜姬调查页面，可以查看茉蜜姬调查相关内容",
+      "新增招式学习器一览页面，包含完整的招式学习器数据",
+      "优化招式列表页面显示效果",
+      "优化招式学习器页面显示效果",
+      "更新道具数据",
+      "更新ＺＡ登峰战相关数据",
+      "优化页面整体布局",
+    ],
+  },
+  {
+    date: "2025-10-23",
+    changes: ["优化页面显示效果"],
+  },
+  {
+    date: "2025-10-22",
+    changes: ["新增评论功能，可以在页面下方进行讨论交流", "更新道具图标，使用更清晰的图标", "改进数据导入导出功能"],
+  },
+  {
+    date: "2025-10-21",
+    changes: [
+      "新增训练家数据，可以查看游戏中所有训练家的信息",
+      "优化ＺＡ登峰战页面，拆分为独立页面并优化显示",
+      "优化训练家列表页面布局",
+      "新增招式强化相关信息",
+      "新增宝可元符号显示",
+      "优化网站地图配置",
+      "新增开源许可证信息",
+      "优化类型相关数据导出",
+    ],
+  },
+  {
+    date: "2025-10-20",
+    changes: ["新增侧边栏导航功能，方便快速访问各个页面", "优化网站地图", "优化开发环境配置"],
+  },
+  {
+    date: "2025-10-19",
+    changes: [
+      "网站正式上线！",
+      "升级到 Vite 构建工具，提升开发和构建速度",
+      "创建网站地图，方便搜索引擎收录",
+      "新增宝可梦进化信息",
+      "修复属性相克计算错误",
+      "修复表格显示问题",
+      "修复分页功能问题",
+      "修复页面标题显示",
+      "修复链接跳转问题",
+      "优化代码配置",
+      "更新网站内容",
+    ],
+  },
 ];
 
 const ChangelogPage: React.FC = () => {
@@ -64,18 +85,7 @@ const ChangelogPage: React.FC = () => {
     document.title = `更新日志 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const commitsByDate = useMemo(() => {
-    const grouped: CommitsByDate = {};
-    CHANGELOG_DATA.forEach((commit) => {
-      if (!grouped[commit.date]) {
-        grouped[commit.date] = [];
-      }
-      grouped[commit.date].push(commit);
-    });
-    return grouped;
-  }, []);
-
-  const sortedDates = useMemo(() => Object.keys(commitsByDate).sort((a, b) => b.localeCompare(a)), [commitsByDate]);
+  const sortedDates = useMemo(() => CHANGELOG_DATA.map((entry) => entry.date).sort((a, b) => b.localeCompare(a)), []);
 
   return (
     <Fragment key="changelog">
@@ -85,24 +95,24 @@ const ChangelogPage: React.FC = () => {
       </div>
 
       <div className="section">
-        {sortedDates.map((date) => (
-          <div
-            key={date}
-            className="mb-8"
-          >
-            <h2 className="text-xl font-bold mb-4">{date}</h2>
-            <Timeline
-              items={commitsByDate[date].map((commit) => ({
-                children: (
-                  <div>
-                    <span className="font-mono text-sm text-gray-500">{commit.hash}</span>
-                    <span className="ml-2">{commit.message}</span>
-                  </div>
-                ),
-              }))}
-            />
-          </div>
-        ))}
+        {sortedDates.map((date) => {
+          const entry = CHANGELOG_DATA.find((e) => e.date === date);
+          if (!entry) return null;
+
+          return (
+            <div
+              key={date}
+              className="mb-8"
+            >
+              <h2 className="text-xl font-bold mb-4">{date}</h2>
+              <Timeline
+                items={entry.changes.map((change) => ({
+                  children: <div>{change}</div>,
+                }))}
+              />
+            </div>
+          );
+        })}
       </div>
     </Fragment>
   );
