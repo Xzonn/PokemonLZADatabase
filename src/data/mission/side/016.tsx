@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 16,
+  internal: 11,
   name: "含羞苞品鉴会",
   requester: "源逸",
   summary: "一位老人搭话说有个含羞苞品鉴会。带着含羞苞去参加吧。",

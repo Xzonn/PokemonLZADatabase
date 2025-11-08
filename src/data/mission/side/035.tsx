@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 35,
+  internal: 96,
   name: "瑜伽大师的指引",
   requester: "明香",
   summary: "据说委托人的玛沙那好像很难集中注意力。找出传说中的瑜伽大师所在的地方，并请求大师指导吧。",

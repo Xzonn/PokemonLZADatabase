@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 59,
+  internal: 93,
   name: "摔角鹰人一雪前耻！",
   requester: "紫优",
   summary: "俯瞰城市的摔角鹰人正在寻求火热的对战。打一场能让摔角鹰人满意的宝可梦对战吧。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 91,
+  internal: 62,
   name: "抱歉，我用龙属性",
   requester: "古洛莉",
   summary: "深爱龙属性的ＭＳＢＣ成员发来了宝可梦对战的委托。活用属性相克来战斗吧。",

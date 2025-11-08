@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 52,
+  internal: 105,
   name: "硬邦邦的呆火驼",
   requester: "冬珠",
   summary: "委托人冻成冰坨的呆火驼需要救助。用威力强劲的火属性招式把冰融化来救出它吧。",

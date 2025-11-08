@@ -3,6 +3,7 @@ import { Link } from "@/utils";
 
 export const information: SideMissionInformation = {
   index: 44,
+  internal: 13,
   name: "迷你冰的雪真好闻",
   requester: "香琪",
   summary: "委托人表示，想用迷你冰的雪调制香水。到底能做出什么味道的香水呢？",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 114,
+  internal: 101,
   name: "盔甲鸟的羽毛",
   requester: "且凯",
   summary: "制作菜刀似乎需要盔甲鸟的羽毛当材料。在１７号野生特区或许能捡到。",

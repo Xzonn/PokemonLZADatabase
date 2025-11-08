@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 33,
+  internal: 24,
   name: "鲤鱼王比大小",
   requester: "岳齐",
   summary: "委托人炫耀自己捕捉的鲤鱼王尺寸很大。捕捉比ＸＬ尺寸还大的鲤鱼王来炫耀一番吧。",

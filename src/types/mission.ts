@@ -16,6 +16,7 @@ export interface SideMission {
 }
 
 export interface SideMissionInformation extends Omit<SideMission, "x" | "y" | "z"> {
+  internal: number;
   summary: string;
   process: string[];
   location: string;

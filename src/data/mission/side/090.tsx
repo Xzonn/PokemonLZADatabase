@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 90,
+  internal: 99,
   name: "雪妖女一定是……",
   requester: "？？？",
   summary: "有只雪妖女现身后一直盯着这边，好像在说“跟我来”一样。",

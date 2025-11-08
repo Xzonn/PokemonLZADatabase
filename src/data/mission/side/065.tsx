@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 65,
+  internal: 28,
   name: "某公寓的异常现象",
   requester: "恬娴",
   summary: "某座公寓似乎发生了灵异现象。委托人想让人帮忙确认屋顶传来的诡异声响。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 18,
+  internal: 16,
   name: "花椰猴、爆香猴、冷水猴茶",
   requester: "荣蓉",
   summary: "为了开发理想的茶，委托人想借用花椰猴、爆香猴、冷水猴这３只宝可梦的力量。把它们一起带过来吧。",

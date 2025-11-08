@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 112,
+  internal: 102,
   name: "粉香香和香气探究者",
   requester: "湘芬",
   summary: "粉香香散发的香气会根据它所吃的食物而改变。为了研究新的香气，委托人需要树果。",

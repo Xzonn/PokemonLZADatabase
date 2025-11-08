@@ -1,9 +1,9 @@
 import { Descriptions, DescriptionsProps, Spin } from "antd";
-import { FC, Fragment, useEffect, useState } from "react";
+import { FC, Fragment, useEffect, useMemo, useState } from "react";
 import { useParams } from "react-router-dom";
 
-import { ItemList, SideMissionMap } from "@/components";
-import { SideMissionFull, SideMissionInformation } from "@/types";
+import { ItemList, NormalTrainerTable, SideMissionMap } from "@/components";
+import { SideMissionFull, SideMissionInformation, TrainerNormal } from "@/types";
 import { DEFAULT_TITLE, DescriptionsCommonProps2, getSideMissionNumber, useImport } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
@@ -60,6 +60,17 @@ const SideMissionDetailPageCore: FC<IProps> = ({ mission }) => {
     () => import(`@/data/mission/side/${mission}.tsx`) as Promise<SideMissionFull>,
     [mission],
   );
+  const [trData, trLoading] = useImport(async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[]);
+
+  const trDataFiltered = useMemo(
+    () =>
+      data?.information.internal && trData?.length
+        ? trData?.filter((item) =>
+            item.id.startsWith(`Ev_sub_${data.information.internal.toString().padStart(3, "0")}_`),
+          ) || []
+        : [],
+    [data?.information.internal, trData],
+  );
 
   const { information = null, default: Content } = data || {};
 
@@ -96,6 +107,17 @@ const SideMissionDetailPageCore: FC<IProps> = ({ mission }) => {
           setActive={setActive}
         />
       </div>
+
+      {trDataFiltered?.length > 0 ? (
+        <div className="section">
+          <h2>相关训练家</h2>
+          <p>点击每行的“＋”可以查看宝可梦详情。</p>
+          <NormalTrainerTable
+            loading={trLoading || loading}
+            data={trDataFiltered || []}
+          />
+        </div>
+      ) : null}
 
       {Content ? <Content /> : null}
     </Fragment>

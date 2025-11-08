@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 109,
+  internal: 69,
   name: "擅长回复的宝可梦们",
   requester: "霍莉",
   summary: "说起回复宝可梦，就得提宝可梦中心的姐姐。她似乎在宝可梦对战中也擅长使用回复招式。",

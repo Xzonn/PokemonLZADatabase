@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 86,
+  internal: 91,
   name: "谁是搞乱庭院的犯人？",
   requester: "手下",
   summary: "锈蚀组事务所的院子里发现了一个大洞。为了洗清莫须有的嫌疑，找出真正的犯人吧。",

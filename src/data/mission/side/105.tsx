@@ -3,6 +3,7 @@ import { Link } from "@/utils";
 
 export const information: SideMissionInformation = {
   index: 105,
+  internal: 79,
   name: "《恶灵老树朽木妖》",
   requester: "导演",
   summary: "有位电影导演正在拍摄恐怖片。把要在重要场景登场的朽木妖借给他吧。",

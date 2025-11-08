@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 81,
+  internal: 103,
   name: "搬东西的顽皮熊猫",
   requester: "安黎",
   summary: "有个眼熟的训练家带着搭档顽皮熊猫似乎和客人起了争执。同心协力解决问题吧。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 3,
+  internal: 3,
   name: "墓地的勾魂眼",
   requester: "惠艺",
   summary: "委托人在墓地的某处遗失了珍贵的东西。在已经变成野生特区的墓地里找出遗失物吧。",

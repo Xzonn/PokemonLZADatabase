@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 21,
+  internal: 104,
   name: "美术馆的粉蝶蛹",
   requester: "皮亚柏",
   summary: "找出所有藏在美术馆不知何处的粉蝶蛹吧。似乎总数竟然多达１２只。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: -1,
+  internal: 119,
   name: "如宝石般的光芒",
   requester: "玛琪艾儿",
   summary: "喵茸见到（主角）带着的超级石后，捕捉到心灵感应并开始行动了。它是要去哪里呢？",

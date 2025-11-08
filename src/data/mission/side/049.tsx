@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 49,
+  internal: 50,
   name: "攻击回复两不误的战术",
   requester: "希曲",
   summary: "有的招式能减少对手的ＨＰ并回复自己的ＨＰ。和委托人对战，窥探这是怎样的一种战术吧。",

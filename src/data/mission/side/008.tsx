@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 8,
+  internal: 112,
   name: "为火狐狸提供帮助",
   requester: "淑芝",
   summary: "有只没精神的野生火狐狸，对食物无动于衷，带它去宝可梦中心也不管用。还有什么其他的办法吗……？",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 101,
+  internal: 67,
   name: "一贯强硬的钢属性",
   requester: "手下",
   summary: "锈蚀组的手下发起了对战的挑战。对手似乎对钢属性有着强烈的执着。",

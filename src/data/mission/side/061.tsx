@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 61,
+  internal: 54,
   name: "我看中的全息传送梯",
   requester: "手下",
   summary: "锈蚀组的手下看中的地方偏偏是全息传送梯。打赢对战并让他让开吧。",

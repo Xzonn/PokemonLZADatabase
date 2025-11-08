@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 113,
+  internal: 116,
   name: "冰岩怪上站冰宝",
   requester: "英映",
   summary: "委托人想让４只冰宝同时站在巨大的冰岩怪背上来拍照。为此需要ＸＬ尺寸的冰岩怪。",

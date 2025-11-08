@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 2,
+  internal: 1,
   name: "好想使用进化用的石头！",
   requester: "娇环",
   summary: "为了使用雷之石，委托人想要皮卡丘。她似乎愿意用赫拉克罗斯来交换。",

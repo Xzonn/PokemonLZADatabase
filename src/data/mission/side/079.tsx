@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 79,
+  internal: 48,
   name: "挥挥手指看运气",
   requester: "晖芷",
   summary: "使用“挥指”这招，就会不可预测地出现某种招式。是厉害的招式？还是奇怪的招式？听天由命的对战真是别有滋味。",

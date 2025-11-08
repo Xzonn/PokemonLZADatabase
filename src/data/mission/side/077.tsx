@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 77,
+  internal: 107,
   name: "绝对捉不到的大嘴娃",
   requester: "哉晖",
   summary: "据说有只大嘴娃不论用性能多好的球投多少次都绝对捉不到。",

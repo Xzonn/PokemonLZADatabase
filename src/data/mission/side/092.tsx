@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 92,
+  internal: 58,
   name: "４只铁哑铃",
   requester: "慈史",
   summary: "刚维修好的全息传送梯不知为何聚集了一些野生的铁哑铃……这样下去无法使用。",

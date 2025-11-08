@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 100,
+  internal: 100,
   name: "宝石海星连接宇宙",
   requester: "彤薰",
   summary: "受邀参加通过宝石海星的力量和宇宙交流的集会。拒绝也不太好，所以带着宝石海星前往集合地点吧。",

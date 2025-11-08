@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 22,
+  internal: 118,
   name: "茉蜜姬的请求",
   requester: "茉蜜姬",
   summary: "接到了茉蜜姬的电话，她想在宝可梦研究所见面。到底是什么事呢……？",

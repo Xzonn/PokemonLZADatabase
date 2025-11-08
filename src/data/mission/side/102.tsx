@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 102,
+  internal: 63,
   name: "用冰属性凉快一下",
   requester: "洁冰",
   summary: "冰属性的招式偶尔会把对手冻成冰坨。和洁冰派出的冰属性宝可梦对战时要千万留心。",

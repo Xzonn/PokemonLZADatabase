@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 104,
+  internal: 64,
   name: "我的眼里只有虫属性",
   requester: "三穗",
   summary: "精英训练家三穗在对战时只用自己最爱的虫属性宝可梦。兴趣是最好的老师，派出喜爱的宝可梦迎战吧。",

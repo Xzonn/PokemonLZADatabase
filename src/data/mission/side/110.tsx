@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 110,
+  internal: 70,
   name: "引向终焉的歌",
   requester: "湘颂",
   summary: "她突然低语的“３０秒”到底是什么意思？想知道这个秘密，就接受她发起的对战吧。",

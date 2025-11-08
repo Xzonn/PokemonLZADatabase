@@ -3,6 +3,7 @@ import { Link } from "@/utils";
 
 export const information: SideMissionInformation = {
   index: 119,
+  internal: 88,
   name: "超级由紫锦标赛Ｄ",
   requester: "春紫",
   summary: "著名的由紫锦标赛全新升级，重磅回归了！参赛者竟然只有由紫和（主角）二人！",

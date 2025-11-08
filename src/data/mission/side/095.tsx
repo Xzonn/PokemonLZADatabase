@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 95,
+  internal: 66,
   name: "幽灵属性的你诅我咒",
   requester: "昼舒",
   summary: "幽灵属性的弱点正是幽灵属性。因此，委托人想打一场幽灵属性之间一决高下的对战。",

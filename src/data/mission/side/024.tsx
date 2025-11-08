@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 24,
+  internal: 14,
   name: "好想和凯西一起玩",
   requester: "斐岳",
   summary: "委托人想要凯西当鬼抓人游戏的玩伴。他似乎愿意用利欧路来交换。",

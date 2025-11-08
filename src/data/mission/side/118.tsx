@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 118,
+  internal: 117,
   name: "再见了，耿鬼",
   requester: "阿步",
   summary: "委托人想一起寻找不见踪影的耿鬼。去拜托熟悉幽灵属性宝可梦的沐净帮忙吧。",

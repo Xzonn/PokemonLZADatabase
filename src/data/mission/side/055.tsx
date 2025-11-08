@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 55,
+  internal: 78,
   name: "《狰狞怪鱼利牙鱼》",
   requester: "导演",
   summary: "有位电影导演正在拍摄灾难片。把要在重要场景登场的利牙鱼借给他吧。",

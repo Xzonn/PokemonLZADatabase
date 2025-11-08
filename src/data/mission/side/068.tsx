@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 68,
+  internal: 42,
   name: "如何使用吃剩的东西",
   requester: "伊琉",
   summary: "让宝可梦携带“吃剩的东西”会发生什么呢……？让认真的女服务生展示一下她是如何对战的吧。",

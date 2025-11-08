@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 26,
+  internal: 22,
   name: "熊熊燃烧吧！小狮狮的火焰！",
   requester: "火立",
   summary: "餐厅美味的料理离不开小狮狮的火力。烹饪前来场对战，点燃它心中的烈火吧。",

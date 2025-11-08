@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 45,
+  internal: 51,
   name: "认真的维修员",
   requester: "寇可",
   summary: "认真的维修员寇可感到非常口渴。要是给他饮料的话，他是不是就能认真工作了？",

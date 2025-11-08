@@ -3,6 +3,7 @@ import { Link } from "@/utils";
 
 export const information: SideMissionInformation = {
   index: 103,
+  internal: 61,
   name: "挑战多丽米亚联盟",
   requester: "秀简",
   summary: "据说其实在密阿雷市有个多丽米亚联盟，联盟的四天王正在等待挑战。将４人全部打败，称霸联盟吧。",

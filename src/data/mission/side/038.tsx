@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 38,
+  internal: 19,
   name: "用变化招式占据上风！",
   requester: "友利",
   summary: "变化招式能强化自身或是妨碍对手。有两个变化招式的行家向你发起了宝可梦对战的挑战。",

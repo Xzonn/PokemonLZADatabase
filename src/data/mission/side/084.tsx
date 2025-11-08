@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 84,
+  internal: 47,
   name: "先发制人，使其畏缩！",
   requester: "梧卫",
   summary: "宝可梦陷入畏缩时，将会无法使出原本想使出的招式。梧卫擅长使用容易让对手畏缩的招式，和他对战吧。",

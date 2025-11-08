@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 17,
+  internal: 74,
   name: "异色的咩利羊……？",
   requester: "荣蓉",
   summary: "在１号野生特区看到了异色的咩利羊！……或者是眼花了？帮忙找出真相吧。",

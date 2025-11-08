@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 64,
+  internal: 40,
   name: "风雨无阻",
   requester: "雨臻",
   summary: "委托人的宝可梦们似乎一下雨就会拿出真本事来。为了见识它们的真本领，在下雨的时候来对战吧。",

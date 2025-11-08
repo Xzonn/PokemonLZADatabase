@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 30,
+  internal: 85,
   name: "好想亲眼看看超级喷火驼！",
   requester: "然彤",
   summary: "为了想出新点子，身为彩色隐形眼镜设计师的委托人想看超级喷火驼。在对战中让它超级进化吧。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 13,
+  internal: 98,
   name: "小木灵和喷泉",
   requester: "辉桦",
   summary: "有位艺术家正在画用来参赛的风景画。据说她在写生时出现了碍事的藤蔓痕迹。",

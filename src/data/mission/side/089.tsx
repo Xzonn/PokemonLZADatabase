@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 89,
+  internal: 115,
   name: "飞吧！追吧！电飞鼠！",
   requester: "达卫",
   summary: "出现了令人头疼的野生电飞鼠，它会偷走人类带的东西。用洛托姆滑翔追上它，拿回委托人的树果吧。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 97,
+  internal: 97,
   name: "让乱跑的车轮球停下！",
   requester: "菲苯",
   summary: "委托人想让疯狂乱跑的车轮球停下来。追上它并发起对战，全力制止它吧。",

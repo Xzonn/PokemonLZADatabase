@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 27,
+  internal: 30,
   name: "从化石里复活的宝可梦",
   requester: "余恒",
   summary: "从化石复原装置的研究员手里收下了钱。帮忙买一个颚之化石或鳍之化石回来吧。",

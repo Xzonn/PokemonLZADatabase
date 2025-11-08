@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 51,
+  internal: 90,
   name: "与花共舞的花叶蒂们",
   requester: "缤芬",
   summary: "为了想出新的发色，美发沙龙的姐姐想看５只花叶蒂一起战斗的样子。",

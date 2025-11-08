@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 94,
+  internal: 83,
   name: "对战全餐・三星",
   requester: "餐厅",
   summary: "请尽情享用鼎极餐馆的宝可梦对战全餐吧。中途回复是不符合用餐礼仪的。",

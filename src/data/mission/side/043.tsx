@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 43,
+  internal: 23,
   name: "麻烦无比的独角虫",
   requester: "达兴",
   summary: "头目独角虫大吃庭院的叶子，让人好头疼。赶走多少次，回来多少次，所以用球帮忙捕捉吧。",

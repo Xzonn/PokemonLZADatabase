@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 58,
+  internal: 38,
   name: "比起守住更想看穿",
   requester: "楚安",
   summary: "“守住”和“看穿”这两种招式都能让受到的伤害无效，但二者之间似乎有一点点不同。",

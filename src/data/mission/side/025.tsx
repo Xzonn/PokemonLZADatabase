@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 25,
+  internal: 26,
   name: "咖啡馆的顾客是破破袋",
   requester: "枫薇",
   summary: "野生的破破袋们聚集在友友乐咖啡馆。这样下去没办法做生意了！把它们带到别的地方去吧。",

@@ -3,6 +3,7 @@ import { Link } from "@/utils";
 
 export const information: SideMissionInformation = {
   index: 87,
+  internal: 33,
   name: "目标是出神入化的多丽米亚造型师",
   requester: "秀简",
   summary: "委托人想修剪出更多更多多丽米亚的造型。向她的搭档飞天螳螂展示招式，帮忙提升技术吧。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 80,
+  internal: 57,
   name: "火花四溅的领地之争",
   requester: "玺甸",
   summary: "电属性的宝可梦们在全息传送梯前争地盘争得火花四溅……真希望它们换个地方。",

@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 82,
+  internal: 110,
   name: "铁臂枪虾的水枪",
   requester: "庆理",
   summary: "委托人想用铁臂枪虾的水枪清除城市里的污泥痕迹来做生意。然而铁臂枪虾并没有干劲。",

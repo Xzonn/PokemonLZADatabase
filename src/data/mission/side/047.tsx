@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 47,
+  internal: 31,
   name: "目标是多丽米亚造型师",
   requester: "秀简",
   summary: "委托人想开一间为多丽米亚修剪体毛的宝可沙龙。向她的搭档飞天螳螂展示招式，帮忙提升技术吧。",

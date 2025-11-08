@@ -2,6 +2,7 @@ import { SideMissionInformation } from "@/types";
 
 export const information: SideMissionInformation = {
   index: 108,
+  internal: 72,
   name: "阿罗拉地区的雷丘",
   requester: "可莉萍",
   summary: "阿罗拉地区的雷丘似乎和其他地区样子不同。用自己的雷丘和委托人的阿罗拉地区的雷丘交换吧。",
