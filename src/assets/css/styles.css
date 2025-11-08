@@ -32,6 +32,10 @@ body {
   background-size: 356px auto;
 }
 
+a {
+  @apply text-link no-underline transition-colors hover:text-link-light focus:text-link-light;
+}
+
 .ant-descriptions-view {
   overflow-x: auto;
 }
@@ -98,7 +102,7 @@ h4 {
 }
 
 main p {
-  @apply indent-[2em] text-sm mb-4;
+  @apply indent-[2em] text-sm mb-4 leading-[2];
 
   &:last-child {
     @apply mb-0;
@@ -107,6 +111,16 @@ main p {
 
 .ant-table-wrapper {
   @apply my-4;
+}
+
+.table-fit {
+  .ant-table-content > table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: initial !important;
+    text-align: center !important;
+  }
 }
 
 .section {
@@ -433,12 +447,14 @@ nav {
   @apply flex flex-col gap-2;
 }
 
-.nav-item {
+.nav-item,
+a.nav-item {
   @apply flex items-center gap-2 px-4 py-2 rounded-lg transition-colors text-gray-700 bg-transparent hover:bg-gray-100 text-left text-wrap;
 }
 
-.nav-item-active {
-  @apply bg-primary text-white font-semibold hover:bg-primary;
+.nav-item-active,
+a.nav-item-active {
+  @apply bg-primary text-white font-semibold hover:bg-primary hover:text-white focus:text-white;
 }
 
 .nav-item-icon {

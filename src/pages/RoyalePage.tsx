@@ -1,18 +1,15 @@
 import React, { Fragment, useEffect } from "react";
 
-import { ItemRewardsTable, NormalTrainerTable, RoyaleTrainerTable } from "@/components";
+import { ItemRewardsTable, NormalTrainerTable } from "@/components";
 import royalePromotion from "@/data/tr/royale-promotion.txt?raw";
-import { TrainerNormal, TrainerRoyale } from "@/types";
-import { DEFAULT_TITLE, useImport } from "@/utils";
+import { TrainerNormal } from "@/types";
+import { DEFAULT_TITLE, Link, useImport } from "@/utils";
 
 const RoyaleListPage: React.FC = () => {
   useEffect(() => {
     document.title = `ＺＡ登峰战 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const [royaleData, royaleLoading] = useImport(
-    async () => (await import("@/data/tr/royale.json")).default as TrainerRoyale[],
-  );
   const [normalData, normalLoading] = useImport(
     async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
   );
@@ -28,6 +25,9 @@ const RoyaleListPage: React.FC = () => {
     <Fragment key="pokemon-list">
       <div className="section">
         <h1>ＺＡ登峰战</h1>
+        <div className="description">
+          关于对战特区中的对手，参见<Link to="/对战特区">对战特区</Link>。
+        </div>
       </div>
 
       <div className="section">
@@ -105,15 +105,6 @@ const RoyaleListPage: React.FC = () => {
             />
           </div>
         </div>
-      </div>
-
-      <div className="section">
-        <h2>对战特区的对手</h2>
-        <p>点击每行的“＋”可以查看宝可梦详情。</p>
-        <RoyaleTrainerTable
-          loading={royaleLoading}
-          data={royaleData || []}
-        />
       </div>
     </Fragment>
   );

@@ -16,7 +16,8 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/道具一览": "ItemListPage",
   "/招式学习器一览": "TMListPage",
   "/训练家一览": "TrainerListPage",
-  "/ＺＡ登峰战": "RoyaleListPage",
+  "/ＺＡ登峰战": "RoyalePage",
+  "/对战特区": "BattleZonePage",
   "/茉蜜姬调查": "ResearchListPage",
   "/副任务一览": "SideMissionListPage",
   "/密阿雷地图": "AreaListPage",
@@ -70,6 +71,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/训练家一览", label: "全部训练家", icon: "money" },
           { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: "prize-medal" },
+          // { path: "/对战特区", label: "对战特区", icon: "battle-zone" },
           { path: "/联网活动", label: "联网活动", icon: "internet-black" },
         ],
       },

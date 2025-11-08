@@ -34,12 +34,7 @@ const ActivityPage: React.FC = () => {
           注意：获取神秘礼物无需加入 Nintendo Switch Online（付费），连接对战需要加入 Nintendo Switch Online。
         </div>
         <div className="description">
-          <Link
-            className="text-blue-500 hover:text-blue-200 transition-colors"
-            to="https://plza-news.pokemon-home.com/sc/list"
-          >
-            游戏内活动新闻
-          </Link>
+          <Link to="https://plza-news.pokemon-home.com/sc/list">游戏内活动新闻</Link>
         </div>
       </div>
 

@@ -22,8 +22,9 @@ export { default as TMListPage } from "./TMListPage";
 
 // 训练家
 export { default as TrainerListPage } from "./TrainerListPage";
-export { default as RoyaleListPage } from "./RoyaleListPage";
 export { default as TrainerDetailPage } from "./TrainerDetailPage";
+export { default as RoyalePage } from "./RoyalePage";
+export { default as BattleZonePage } from "./BattleZonePage";
 
 // 调查
 export { default as ResearchListPage } from "./ResearchListPage";
