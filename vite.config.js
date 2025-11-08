@@ -18,10 +18,11 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          leaflet: ["leaflet", "leaflet-fullscreen", "react-leaflet"],
-          react: ["react", "react-dom", "react-router-dom"],
+          leaflet: ["leaflet", "leaflet-fullscreen"],
+          react: ["react", "react-dom", "react-router-dom", "react-leaflet"],
           antd: ["antd", "@ant-design/icons"],
           ahooks: ["ahooks"],
+          aegis: ["aegis-web-sdk"],
         },
         chunkFileNames: "assets/js/[name]-[hash].js",
         entryFileNames: "assets/js/[name]-[hash].js",
