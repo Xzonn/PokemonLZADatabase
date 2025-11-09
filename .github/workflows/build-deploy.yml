@@ -6,7 +6,6 @@ on:
       - master
       - test
     paths-ignore:
-      - .github/**/*
       - .vscode/**/*
 
 jobs:
