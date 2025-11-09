@@ -5,7 +5,6 @@ on:
     branches:
       - master
     paths-ignore:
-      - .github/**/*
       - .vscode/**/*
 
 jobs:
@@ -68,3 +67,35 @@ jobs:
           COS_BUCKET: ${{ secrets.COS_BUCKET }}
         run: |
           ~/coscli/coscli sync build/ cos://"$COS_BUCKET"/ -r --delete --force --secret-id "$COS_SECRET_ID" --secret-key "$COS_SECRET_KEY" --endpoint cos."$COS_REGION".myqcloud.com
+
+  refresh-cdn:
+    runs-on: ubuntu-latest
+    needs: build-and-deploy
+    permissions:
+      contents: read
+
+    steps:
+      # 1. Creat requirements.txt
+      - name: Create requirements.txt
+        run: echo "tccli" > requirements.txt
+
+      # 2. Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      # 3. Install TCCLI
+      - name: Install TCCLI
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Refresh CDN cache
+      - name: Refresh CDN cache
+        env:
+          TENCENTCLOUD_SECRET_ID: ${{ secrets.COS_SECRET_ID }}
+          TENCENTCLOUD_SECRET_KEY: ${{ secrets.COS_SECRET_KEY }}
+        run: |
+          tccli cdn PurgePathCache --cli-unfold-argument --Paths "https://${{ vars.TENCENTCLOUD_CDN_DOMAIN }}/" --FlushType flush
