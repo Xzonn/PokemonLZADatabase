@@ -1,10 +1,9 @@
 import { Spin } from "antd";
 import L, { MapOptions } from "leaflet";
 import "leaflet-fullscreen";
-import { FC } from "react";
+import { FC, PropsWithChildren } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 
-import { MapProps } from "@/types";
 import { MAP_CONFIG, getCoord } from "@/utils/map";
 
 const DEFAULT_OPTIONS: Partial<MapOptions> = {
@@ -16,7 +15,13 @@ const DEFAULT_OPTIONS: Partial<MapOptions> = {
   fullscreenControl: true,
 };
 
-export const Map: FC<MapProps> = ({
+interface IMapProps {
+  center?: [number, number];
+  zoom?: number;
+  loading?: boolean;
+}
+
+export const Map: FC<IMapProps & PropsWithChildren> = ({
   children,
   center = [MAP_CONFIG.imageWidth, MAP_CONFIG.imageHeight],
   zoom = 0,

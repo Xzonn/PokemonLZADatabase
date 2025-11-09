@@ -1,10 +1,10 @@
 import { Spin } from "antd";
-import { FC, Fragment, useEffect, useMemo, useState } from "react";
+import { FC, Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
-import { PokemonMap, PokemonSpawnTable } from "@/components";
+import { LumioseMap, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
-import { AreaNames } from "@/data/areas";
+import { AREA_NAMES } from "@/data/areas";
 import { PokemonForm, PokemonSpawn } from "@/types";
 import { DEFAULT_TITLE, useImport } from "@/utils";
 
@@ -23,6 +23,11 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
     async () => (await import(`@/data/areas/pokemon/${name}.txt?raw`)).default as string,
     [name],
   );
+  const [positions, positionsLoading] = useImport(
+    () => import("@/data/areas/positions").then((mod) => mod.AreaPositions),
+    [],
+  );
+  const index = useMemo(() => positions?.find((p) => p.link === `area/${name}`)?.index, [name, positions]);
 
   const pokemonData = useMemo(() => {
     if (!raw) return null;
@@ -46,11 +51,6 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
     });
   }, [raw]);
 
-  const [active, setActive] = useState<string | null>(name);
-  useEffect(() => {
-    setActive(name);
-  }, [name]);
-
   return (
     <Fragment key="wild-zone-list">
       <div className="section">
@@ -58,9 +58,9 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
       </div>
       <div className="section">
         <h2>地图</h2>
-        <PokemonMap
-          active={active}
-          setActive={setActive}
+        <LumioseMap
+          loading={positionsLoading}
+          filter={index !== undefined ? { index } : { layers: new Set(["pc", "zone", "cafe", "building"]) }}
         />
       </div>
 
@@ -77,7 +77,7 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
 const AreaDetailPage: FC = () => {
   const { name } = useParams<{ name: string }>();
 
-  return AreaNames.includes(name || "") ? <AreaDetailPageCore name={name!} /> : <NotFoundPage />;
+  return AREA_NAMES.includes(name || "") ? <AreaDetailPageCore name={name!} /> : <NotFoundPage />;
 };
 
 export default AreaDetailPage;

@@ -6,7 +6,7 @@ import { FC, useMemo } from "react";
 import { Marker, Popup } from "react-leaflet";
 
 import { ItemTable, Map } from "@/components";
-import { PositionWithPoint } from "@/types";
+import { IPositionWithPoint } from "@/types";
 import { Link, getCoord } from "@/utils";
 
 import raw from "./2619-location.txt?raw";
@@ -18,7 +18,7 @@ const header = lines[0].split("\t");
 export const Positions = lines.slice(1).map((line, index) => {
   const parts = line.split("\t");
   const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
-  const position: PositionWithPoint = {
+  const position: IPositionWithPoint = {
     name: `${index}`,
     index: index,
     x: parseInt(dict.X, 10),
@@ -30,7 +30,7 @@ export const Positions = lines.slice(1).map((line, index) => {
 const CANARI_PLUSHES = ItemFullData.filter((item) => item.priceColorfulScrew > 0);
 
 interface IMapLayerProps {
-  data: PositionWithPoint[];
+  data: IPositionWithPoint[];
   obtained: number[];
   setObtained: (ids: number[]) => void;
 }
@@ -89,7 +89,7 @@ const Content: FC = () => {
     <>
       <div className="section">
         <h2>地图分布</h2>
-        <div className="flex flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-wrap items-center justify-center gap-2">
           <Radio.Group
             optionType="button"
             value={filter.status}
@@ -101,7 +101,7 @@ const Content: FC = () => {
             ]}
           />
           <Popconfirm
-            title="确定要重置状态吗？"
+            title="确定要重置状态吗？所有的标记都会被删除。"
             onConfirm={() => {
               setObtained([]);
               setFilter({ status: "all" });

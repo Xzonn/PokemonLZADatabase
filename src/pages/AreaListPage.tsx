@@ -1,9 +1,9 @@
 import { Table, TableColumnsType } from "antd";
 import React, { Fragment, useEffect } from "react";
 
-import { PokemonIconWithName, PokemonMap } from "@/components";
+import { LumioseMap, PokemonIconWithName } from "@/components";
 import { PokemonDataById } from "@/data";
-import { AreaNames } from "@/data/areas";
+import { AREA_NAMES } from "@/data/areas";
 import { Pokemon, PokemonForm } from "@/types";
 import { DEFAULT_TITLE, Link, useImport } from "@/utils";
 
@@ -42,7 +42,7 @@ const AreaListPage: React.FC = () => {
 
   const [data, loading] = useImport(async () => {
     const pokemonData = (await import("@/data/areas/pokemon.json")).default as Record<string, PokemonForm[]>;
-    return AreaNames.map(
+    return AREA_NAMES.map(
       (name) =>
         ({
           name,
@@ -59,7 +59,7 @@ const AreaListPage: React.FC = () => {
 
       <div className="section">
         <h2>地图</h2>
-        <PokemonMap />
+        <LumioseMap filter={{ layers: new Set(["pc", "zone", "cafe", "building"]) }} />
       </div>
 
       <div className="section">

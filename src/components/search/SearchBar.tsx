@@ -5,7 +5,7 @@ import React, { FC, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
 import { ItemData, MoveData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
-import { AreaNames } from "@/data/areas";
+import { AREA_NAMES } from "@/data/areas";
 import { EPokemonType, NavigationItem, SearchResult } from "@/types";
 import { filterPokemon, getPokemonFullId } from "@/utils";
 
@@ -16,7 +16,7 @@ import { SearchPokemon } from "./SearchPokemon";
 import { SearchSideMission } from "./SearchSideMission";
 import { SearchType } from "./SearchType";
 
-const LOCATION_PATHS = AreaNames.map(
+const LOCATION_PATHS = AREA_NAMES.map(
   (name) =>
     ({
       path: `/area/${name}`,

@@ -1,31 +1,26 @@
-export interface LayerInfo {
-  name: string;
-  group: L.FeatureGroup;
-  show?: boolean;
-}
-
-export type Layers = Record<string, LayerInfo>;
-
-export interface MapProps {
-  children?: React.ReactNode;
-  center?: [number, number];
-  zoom?: number;
-  loading?: boolean;
-}
-
-interface PositionBasic {
+interface IPositionBasic {
   name: string;
   index: number;
 }
 
-export interface PositionWithPoint extends PositionBasic {
+export interface IPositionWithPoint extends IPositionBasic {
   x: number;
   y: number;
 }
 
-export interface PositionWithoutPoint extends PositionBasic {
+export interface IPositionWithoutPoint extends IPositionBasic {
   x: null;
   y: null;
 }
 
-export type Position = PositionWithPoint | PositionWithoutPoint;
+export type IPosition = IPositionWithPoint | IPositionWithoutPoint;
+
+export interface IMapPosition extends IPositionWithPoint {
+  link: string | null;
+  icon: string;
+}
+
+export interface IMapFilter {
+  layers?: Set<string>;
+  index?: number;
+}
