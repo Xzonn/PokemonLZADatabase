@@ -6,6 +6,7 @@ export { default as AboutPage } from "./AboutPage";
 // 宝可梦
 export { default as PokemonListPage } from "./PokemonListPage";
 export { default as PokemonDetailPage } from "./PokemonDetailPage";
+export { default as NatureListPage } from "./NatureListPage";
 
 // 招式
 export { default as MoveDetailPage } from "./MoveDetailPage";

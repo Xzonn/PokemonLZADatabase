@@ -1,4 +1,4 @@
-import { Descriptions, DescriptionsProps, Spin } from "antd";
+import { Descriptions, DescriptionsProps, Spin, Tooltip } from "antd";
 import React, { FC, Fragment, useEffect } from "react";
 import { Navigate, useParams } from "react-router-dom";
 
@@ -22,13 +22,20 @@ const getDescriptions = (item: Item, itemFull: ItemFull | undefined): Descriptio
   },
   {
     key: "price",
-    label: "买入价格",
-    children: itemFull?.price ? `$${itemFull.price}` : "—",
+    label: (
+      <Tooltip
+        title="买入价格按照卖出价格 ×2 计算，实际价格可能有所不同"
+        className="underline decoration-dashed"
+      >
+        买入价格
+      </Tooltip>
+    ),
+    children: itemFull?.price ? `$${itemFull.price.toLocaleString("zh-CN")}` : "—",
   },
   {
     key: "sellPrice",
     label: "卖出价格",
-    children: itemFull?.price ? `$${itemFull.price / 2}` : "—",
+    children: itemFull?.price ? `$${(itemFull.price / 2).toLocaleString("zh-CN")}` : "—",
   },
 ];
 

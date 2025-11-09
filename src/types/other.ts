@@ -1,4 +1,4 @@
-import { PokemonType } from "./common";
+import { PokemonType } from "./constants";
 import { Item } from "./item";
 import { Move } from "./move";
 import { Pokemon } from "./pokemon";

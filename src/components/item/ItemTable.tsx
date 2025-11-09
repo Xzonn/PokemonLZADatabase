@@ -30,14 +30,14 @@ const columns: TableColumnsType<ItemFull> = [
     title: "买入价格",
     dataIndex: "price",
     sorter: (a, b) => a.price - b.price,
-    render: (price) => (price > 0 ? `$${price}` : "—"),
+    render: (price: number) => (price > 0 ? `$${price.toLocaleString("zh-CN")}` : "—"),
   },
   {
     key: "sellPrice",
     title: "卖出价格",
     dataIndex: "price",
     sorter: (a, b) => a.price - b.price,
-    render: (price) => (price > 0 ? `$${price / 2}` : "—"),
+    render: (price: number) => (price > 0 ? `$${(price / 2).toLocaleString("zh-CN")}` : "—"),
   },
   {
     title: "彩色螺丝数量",

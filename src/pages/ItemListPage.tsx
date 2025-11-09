@@ -30,6 +30,14 @@ const ItemListPage: React.FC = () => {
           className="section"
         >
           <h2>{pocket}</h2>
+          {index === 0 ? (
+            <p>
+              说明：本页面中所有的买入价格按照卖出价格 ×2
+              计算，实际价格可能有所不同，仅供参考。例如，在薄荷摊购买的薄荷实际需要 $20,000。
+            </p>
+          ) : (
+            ""
+          )}
           {pocket === "招式学习器" ? (
             <div className="text-center">
               参见：<Link to="/招式学习器一览">招式学习器一览</Link>

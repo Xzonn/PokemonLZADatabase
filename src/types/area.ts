@@ -1,4 +1,4 @@
-import { PokemonForm } from "./common";
+import { PokemonForm } from "./constants";
 import { Pokemon } from "./pokemon";
 
 export interface PokemonSpawn {

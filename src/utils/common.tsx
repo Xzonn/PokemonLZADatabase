@@ -93,3 +93,14 @@ export const fullToHalf = (str: string): string =>
   str.replace(/[！-～]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0));
 
 export const getSideMissionNumber = (id: number) => (id > 0 ? id.toString().padStart(3, "0") : `EX${-id}`);
+
+export const parseTSV = <T,>(raw: string, handleDict: (dict: Record<string, string>) => T): T[] => {
+  const lines = raw.trim().split("\n");
+  const header = lines[0].split("\t");
+
+  return lines.slice(1).map((line) => {
+    const parts = line.split("\t");
+    const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
+    return handleDict(dict);
+  });
+};

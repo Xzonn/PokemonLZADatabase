@@ -1,5 +1,6 @@
-export * from "./common";
+export * from "./constants";
 export * from "./pokemon";
+export * from "./nature";
 export * from "./move";
 export * from "./item";
 export * from "./trainer";

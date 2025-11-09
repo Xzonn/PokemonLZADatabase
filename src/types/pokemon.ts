@@ -1,4 +1,4 @@
-import { PokemonForm, PokemonType } from "./common";
+import { PokemonForm, PokemonType } from "./constants";
 
 export interface Evolution {
   level: number;

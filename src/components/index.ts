@@ -1,4 +1,5 @@
 export * from "./pokemon";
+export * from "./nature";
 export * from "./move";
 export * from "./item";
 export * from "./type";

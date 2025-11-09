@@ -12,6 +12,7 @@ type IHomepageNavigation = {
 export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/": "HomePage",
   "/宝可梦一览": "PokemonListPage",
+  "/性格一览": "NatureListPage",
   "/招式一览": "MoveListPage",
   "/道具一览": "ItemListPage",
   "/招式学习器一览": "TMListPage",

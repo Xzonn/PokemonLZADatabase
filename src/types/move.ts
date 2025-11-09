@@ -1,4 +1,4 @@
-import { MoveCategory, PokemonForm, PokemonType } from "./common";
+import { MoveCategory, PokemonForm, PokemonType } from "./constants";
 
 export interface PokemonLevelUp {
   fullId: PokemonForm;

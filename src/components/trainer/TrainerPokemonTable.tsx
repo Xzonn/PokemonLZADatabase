@@ -1,11 +1,12 @@
 import { Popover, Table, TableColumnsType } from "antd";
 
 import { ItemDataByName, MoveDataByName, PokemonDataByName } from "@/data";
-import { TrainerPokemon, TrainerPokemonMove } from "@/types";
+import { Nature, TrainerPokemon, TrainerPokemonMove } from "@/types";
 import { TableCommonProps, TypeIcons } from "@/utils";
 
 import { ItemIcon } from "../item/ItemIcon";
 import { MoveLink } from "../move/MoveLink";
+import { NatureCell } from "../nature/NatureCell";
 import { PokemonCell } from "../pokemon/PokemonCell";
 import { TypeEffects } from "../type/TypeEffects";
 
@@ -60,6 +61,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "性格",
     dataIndex: "nature",
     width: 80,
+    render: (nature: Nature) => <NatureCell nature={nature} />,
   },
   {
     title: "其他",
