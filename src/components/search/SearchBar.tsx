@@ -102,7 +102,7 @@ const searchAll = (keyword: string): SearchResult[] => {
   }
 
   if (results.length < 10 && !keyword.startsWith("0")) {
-    if (keyword.match(/^\d+$/)) {
+    if (/^\d+$/.exec(keyword)) {
       const sideNumber = parseInt(keyword, 10);
       if (sideNumber >= 1 && sideNumber <= 119) {
         results.push({
@@ -110,7 +110,7 @@ const searchAll = (keyword: string): SearchResult[] => {
           data: sideNumber,
         });
       }
-    } else if (keyword.match(/^EX(\d)+$/i)) {
+    } else if (/^EX(\d)+$/i.exec(keyword)) {
       const sideNumber = parseInt(keyword.slice(2), 10);
       if (sideNumber >= 1 && sideNumber <= 2) {
         results.push({
