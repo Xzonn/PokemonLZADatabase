@@ -26,7 +26,7 @@ const ItemListPage: React.FC = () => {
 
       {EItemPocket.map((pocket, index) => (
         <div
-          key="pocket"
+          key={pocket}
           className="section"
         >
           <h2>{pocket}</h2>
