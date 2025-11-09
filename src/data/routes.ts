@@ -63,7 +63,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/宝可梦一览", label: "宝可梦", icon: "pokeball" },
           { path: "/招式一览", label: "招式", icon: "plus-black" },
-          { path: "/道具一览", label: "道具", icon: "passage" },
+          { path: "/道具一览", label: "道具", icon: "potion" },
           { path: "/招式学习器一览", label: "招式学习器", icon: "tm-妖精" },
         ],
       },
@@ -72,7 +72,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/训练家一览", label: "全部训练家", icon: "money" },
           { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: "prize-medal" },
-          // { path: "/对战特区", label: "对战特区", icon: "battle-zone" },
+          { path: "/对战特区", label: "对战特区", icon: "battle-zone" },
           { path: "/联网活动", label: "联网活动", icon: "internet-black" },
         ],
       },

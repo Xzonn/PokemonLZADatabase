@@ -1,8 +1,6 @@
 /* This file is auto-generated. Do not edit directly. */
 
 .icon {
-  background-image: url("../images/icon.webp");
-  background-size: 20em auto;
   background-position: -19em -10em;
 }
 
@@ -841,3 +839,32 @@
 .icon-sv-wiki {
   background-position: -8em -10em;
 }
+
+.icon-mega-shard {
+  background-position: -9em -10em;
+}
+
+.icon-battle-zone {
+  background-position: -10em -10em;
+}
+
+.icon-potion {
+  background-position: -11em -10em;
+}
+
+.icon-berry {
+  background-position: -12em -10em;
+}
+
+.icon-mint {
+  background-position: -13em -10em;
+}
+
+.icon-bench {
+  background-position: -14em -10em;
+}
+
+.icon-ladder {
+  background-position: -15em -10em;
+}
+
