@@ -4,10 +4,10 @@ import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useRef } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
-import { Map as LumioseMap, PokemonIcon, PokemonSpawnTable } from "@/components";
+import { LumioseMap, PokemonIcon, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
 import { Pokemon, PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
-import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getPokemonFullId, useImport } from "@/utils";
+import { DEFAULT_TITLE, MAP_CENTER, getCoord, getPokemonFullId, useImport } from "@/utils";
 
 interface IMapLayerProps {
   data: SpawnPoint[];
@@ -191,15 +191,21 @@ const AreaListPage: React.FC = () => {
 
       <div className="section">
         <h2 ref={mapRef}>地图</h2>
-        <div className="flex justify-center mb-2">
-          <Button
-            onClick={() => setFilter({})}
-            disabled={loading || !filtered}
-          >
-            重置筛选
-          </Button>
-        </div>
-        <LumioseMap loading={loading}>
+        <LumioseMap
+          filter={{}}
+          filterComponent={
+            <div className="flex justify-center mb-2">
+              <Button
+                onClick={() => setFilter({})}
+                disabled={loading || !filtered}
+              >
+                重置筛选
+              </Button>
+            </div>
+          }
+          showReset={false}
+          loading={loading}
+        >
           {filteredSpawnData ? (
             <MapLayer
               data={filteredSpawnData}
@@ -210,10 +216,6 @@ const AreaListPage: React.FC = () => {
             />
           ) : null}
         </LumioseMap>
-        <div className="map-note">
-          地点坐标参考自：
-          <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
-        </div>
       </div>
 
       <div className="section">

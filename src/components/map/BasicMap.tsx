@@ -15,13 +15,13 @@ const DEFAULT_OPTIONS: Partial<MapOptions> = {
   fullscreenControl: true,
 };
 
-interface IMapProps {
+interface IProps {
   center?: [number, number];
   zoom?: number;
   loading?: boolean;
 }
 
-export const Map: FC<IMapProps & PropsWithChildren> = ({
+export const BasicMap: FC<IProps & PropsWithChildren> = ({
   children,
   center = [MAP_CONFIG.imageWidth, MAP_CONFIG.imageHeight],
   zoom = 0,

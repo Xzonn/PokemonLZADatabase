@@ -5,9 +5,9 @@ import { divIcon } from "leaflet";
 import { FC, useMemo } from "react";
 import { Marker, Popup } from "react-leaflet";
 
-import { ItemTable, Map } from "@/components";
+import { ItemTable, LumioseMap } from "@/components";
 import { IPositionWithPoint } from "@/types";
-import { Link, getCoord } from "@/utils";
+import { getCoord } from "@/utils";
 
 import raw from "./2619-location.txt?raw";
 import { ItemFullData } from "./detail";
@@ -89,38 +89,42 @@ const Content: FC = () => {
     <>
       <div className="section">
         <h2>地图分布</h2>
-        <div className="flex flex-wrap items-center justify-center gap-2">
-          <Radio.Group
-            optionType="button"
-            value={filter.status}
-            onChange={(e) => setFilter({ status: e.target.value })}
-            options={[
-              { value: "all", label: "筛选全部" },
-              { value: "obtained", label: "仅看已获得" },
-              { value: "unobtained", label: "仅看未获得" },
-            ]}
-          />
-          <Popconfirm
-            title="确定要重置状态吗？所有的标记都会被删除。"
-            onConfirm={() => {
-              setObtained([]);
-              setFilter({ status: "all" });
-            }}
-          >
-            <Button>重置状态</Button>
-          </Popconfirm>
+        <div className="text-center mb-2">
+          已获得：{obtained.length}/{Positions.length}
         </div>
-        <Map>
+        <LumioseMap
+          filter={{}}
+          filterComponent={
+            <div className="flex flex-wrap items-center justify-center gap-2 mb-2">
+              <Radio.Group
+                optionType="button"
+                value={filter.status}
+                onChange={(e) => setFilter({ status: e.target.value })}
+                options={[
+                  { value: "all", label: "筛选全部" },
+                  { value: "obtained", label: "仅看已获得" },
+                  { value: "unobtained", label: "仅看未获得" },
+                ]}
+              />
+              <Popconfirm
+                title="确定要重置状态吗？所有的标记都会被删除。"
+                onConfirm={() => {
+                  setObtained([]);
+                  setFilter({ status: "all" });
+                }}
+              >
+                <Button>重置状态</Button>
+              </Popconfirm>
+            </div>
+          }
+          showReset={false}
+        >
           <MapLayer
             data={filteredData}
             obtained={obtained}
             setObtained={setObtained}
           />
-        </Map>
-        <div className="map-note">
-          地点坐标参考自：
-          <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
-        </div>
+        </LumioseMap>
       </div>
 
       <div className="section">

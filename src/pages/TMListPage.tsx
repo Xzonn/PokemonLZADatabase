@@ -3,7 +3,7 @@ import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
-import { Map, MoveTable, TMCell } from "@/components";
+import { LumioseMap, MoveTable, TMCell } from "@/components";
 import { ItemDataByName } from "@/data";
 import { TMFull } from "@/types";
 import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getTMMethod, useImport } from "@/utils";
@@ -75,23 +75,25 @@ const TMListPage: React.FC = () => {
 
       <div className="section">
         <h2 id="地图">地图</h2>
-        <div className="flex justify-center mb-2">
-          <Button
-            onClick={() => setActive(null)}
-            disabled={loading || active === null}
-          >
-            重置筛选
-          </Button>
-        </div>
-        <Map loading={loading}>
+        <LumioseMap
+          filter={{}}
+          filterComponent={
+            <div className="flex justify-center mb-2">
+              <Button
+                onClick={() => setActive(null)}
+                disabled={loading || active === null}
+              >
+                重置筛选
+              </Button>
+            </div>
+          }
+          showReset={false}
+          loading={loading}
+        >
           {data ? (
             <TMListMapLayer data={active !== null ? data.filter((mission) => mission.index === active) : data} />
           ) : null}
-        </Map>
-        <div className="map-note">
-          地点坐标参考自：
-          <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
-        </div>
+        </LumioseMap>
       </div>
 
       <div className="section">

@@ -2,12 +2,13 @@ import { useUpdateEffect } from "ahooks";
 import { Button, Switch } from "antd";
 import classNames from "classnames";
 import { divIcon } from "leaflet";
-import { FC, Fragment, useMemo, useState } from "react";
+import { FC, Fragment, PropsWithChildren, ReactNode, useMemo, useState } from "react";
 import { Marker, Popup } from "react-leaflet";
 
-import { Map } from "@/components";
 import { IMapFilter, IMapPosition } from "@/types";
 import { Icon, Link, MAP_CENTER, getCoord, useImport, useView } from "@/utils";
+
+import { BasicMap } from "./BasicMap";
 
 interface IMapLayerProps {
   data: IMapPosition[];
@@ -36,12 +37,6 @@ const MapLayer: FC<IMapLayerProps> = ({ data }) => {
     </Marker>
   ));
 };
-
-interface IProps {
-  loading?: boolean;
-  showReset?: boolean;
-  filter?: IMapFilter;
-}
 
 const LAYER_CONFIG = [
   {
@@ -97,7 +92,20 @@ const INITIAL_FILTER: IMapFilter = {
   layers: new Set(LAYER_CONFIG.map((layer) => layer.icon)),
 };
 
-export const LumioseMap: FC<IProps> = ({ filter: defaultFilter, loading, showReset = true }) => {
+interface IProps extends PropsWithChildren {
+  loading?: boolean;
+  showReset?: boolean;
+  filter?: IMapFilter;
+  filterComponent?: ReactNode;
+}
+
+export const LumioseMap: FC<IProps> = ({
+  filter: defaultFilter,
+  loading,
+  showReset = true,
+  filterComponent,
+  children,
+}) => {
   const [filter, setFilter] = useState<IMapFilter>(defaultFilter || INITIAL_FILTER);
   useUpdateEffect(() => setFilter(defaultFilter || INITIAL_FILTER), [defaultFilter]);
 
@@ -112,12 +120,12 @@ export const LumioseMap: FC<IProps> = ({ filter: defaultFilter, loading, showRes
         ? positions?.filter((item) => item.index === filter.index)
         : filter.layers
           ? positions?.filter((item) => filter.layers?.has(item.icon))
-          : positions,
+          : null,
     [filter, positions],
   );
 
   return (
-    <Fragment key="wild-zone-list">
+    <Fragment key="lumiose-map">
       <div className="flex flex-wrap items-center justify-center gap-2 mb-2">
         {LAYER_CONFIG.map((layer) => (
           <div
@@ -144,19 +152,21 @@ export const LumioseMap: FC<IProps> = ({ filter: defaultFilter, loading, showRes
           </div>
         ))}
       </div>
-      <div className="flex justify-center mb-2">
-        {showReset ? (
+      {filterComponent}
+      {showReset ? (
+        <div className="flex justify-center mb-2">
           <Button
             onClick={() => setFilter(defaultFilter || INITIAL_FILTER)}
             disabled={loading || positionsLoading || isFilterEqual(filter, defaultFilter || INITIAL_FILTER)}
           >
             回到初始状态
           </Button>
-        ) : null}
-      </div>
-      <Map loading={loading || positionsLoading}>
+        </div>
+      ) : null}
+      <BasicMap loading={loading || positionsLoading}>
         <MapLayer data={filteredPositions || []} />
-      </Map>
+        {children}
+      </BasicMap>
       <div className="map-note">
         地点坐标参考自：
         <Link to="https://www.serebii.net/pokearth/lumiosecity/">Serebii.net</Link>
