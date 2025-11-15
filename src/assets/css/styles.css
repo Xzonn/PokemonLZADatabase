@@ -32,10 +32,6 @@ body {
   background-size: 356px auto;
 }
 
-a {
-  @apply text-link no-underline transition-colors hover:text-link-light focus:text-link-light;
-}
-
 b,
 strong {
   @apply font-semibold;
@@ -184,6 +180,10 @@ ul {
 
 .icon-wrapper {
   @apply flex items-center justify-start whitespace-nowrap gap-1;
+}
+
+.icon-wrapper-inline {
+  @apply inline-flex items-center justify-start whitespace-nowrap align-middle;
 }
 
 .badge.icon-inline {
@@ -472,6 +472,10 @@ a.nav-item-active {
 
 main {
   @apply flex-1 min-w-0 p-0 sm:px-2 lg:px-4 sm:py-8;
+
+  a {
+    @apply text-link no-underline transition-colors hover:text-link-light focus:text-link-light;
+  }
 }
 
 footer {

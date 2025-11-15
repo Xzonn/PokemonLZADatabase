@@ -8,7 +8,6 @@ const HEADERS = new Map<ItemPocket, string[]>([
   ["道具", ["编号", "道具", "买入价格", "卖出价格", "超级碎片数量", "说明"]],
   ["宝物", ["编号", "道具", "卖出价格", "说明"]],
   ["重要物品", ["编号", "道具", "彩色螺丝数量", "说明"]],
-  ["超级石", ["编号", "道具", "买入价格", "超级碎片数量", "说明"]],
 ]);
 
 const ItemListPage: React.FC = () => {
@@ -41,6 +40,10 @@ const ItemListPage: React.FC = () => {
           {pocket === "招式学习器" ? (
             <div className="text-center">
               参见：<Link to="/招式学习器一览">招式学习器一览</Link>
+            </div>
+          ) : pocket === "超级石" ? (
+            <div className="text-center">
+              参见：<Link to="/超级进化一览">超级进化一览</Link>
             </div>
           ) : (
             <ItemTable

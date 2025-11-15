@@ -7,6 +7,7 @@ export { default as AboutPage } from "./AboutPage";
 export { default as PokemonListPage } from "./PokemonListPage";
 export { default as PokemonDetailPage } from "./PokemonDetailPage";
 export { default as NatureListPage } from "./NatureListPage";
+export { default as MegaEvolutionPage } from "./MegaEvolutionPage";
 
 // 招式
 export { default as MoveDetailPage } from "./MoveDetailPage";

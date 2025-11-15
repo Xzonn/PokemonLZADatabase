@@ -51,3 +51,10 @@ export interface PokemonFull extends Pokemon {
     areas?: string[];
   };
 }
+
+export interface MegaEvolution {
+  normal: PokemonForm;
+  mega: PokemonForm;
+  stone: string;
+  obtain: string;
+}

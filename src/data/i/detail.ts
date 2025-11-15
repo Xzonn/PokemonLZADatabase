@@ -31,3 +31,6 @@ export const ItemFullData = lines.slice(1).map((line) => {
 export const ItemFullDataById: Record<number, ItemFull> = Object.fromEntries(
   ItemFullData.map((item) => [item.id, item]),
 );
+export const ItemFullDataByName: Record<string, ItemFull> = Object.fromEntries(
+  ItemFullData.map((item) => [item.name, item]),
+);
