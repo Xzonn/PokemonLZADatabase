@@ -6,7 +6,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 import { LumioseMap, MoveTable, TMCell } from "@/components";
 import { ItemDataByName } from "@/data";
 import { TMFull } from "@/types";
-import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getTMMethod, useImport } from "@/utils";
+import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getTMMethod, useImport, useLoadingAnchor } from "@/utils";
 
 const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMFull> => [
   {
@@ -21,10 +21,7 @@ const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMF
     render: (_, row) =>
       getTMMethod(row, () => {
         setActive(row.index);
-        document.querySelector("#地图")?.scrollIntoView({
-          block: "start",
-          behavior: "smooth",
-        });
+        document.querySelector("#地图")?.scrollIntoView({ behavior: "smooth" });
       }),
   },
 ];
@@ -66,6 +63,8 @@ const TMListPage: React.FC = () => {
 
   const [active, setActive] = useState<number | null>(null);
   const columns = useMemo(() => getColumns(setActive), [setActive]);
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="tm-list">

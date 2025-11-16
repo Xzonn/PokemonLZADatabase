@@ -3,23 +3,21 @@ import React, { Fragment, useEffect } from "react";
 import { ItemRewardsTable, NormalTrainerTable } from "@/components";
 import royalePromotion from "@/data/tr/royale-promotion.txt?raw";
 import { TrainerNormal } from "@/types";
-import { DEFAULT_TITLE, Link, useImport } from "@/utils";
+import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 const RoyaleListPage: React.FC = () => {
   useEffect(() => {
     document.title = `ＺＡ登峰战 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const [normalData, normalLoading] = useImport(
-    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
-  );
+  const [data, loading] = useImport(async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[]);
 
   const promotionIdList = royalePromotion.split("\n").filter(Boolean);
-  const promotionData = normalData?.filter((item) => promotionIdList.includes(item.id));
-  const rewardData = normalData?.filter(
-    (item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong_"),
-  );
-  const rewardStrongData = normalData?.filter((item) => item.id.startsWith("za_inf_strong_"));
+  const promotionData = data?.filter((item) => promotionIdList.includes(item.id));
+  const rewardData = data?.filter((item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong_"));
+  const rewardStrongData = data?.filter((item) => item.id.startsWith("za_inf_strong_"));
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="pokemon-list">
@@ -34,7 +32,7 @@ const RoyaleListPage: React.FC = () => {
         <h2>升级战的对手</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={normalLoading}
+          loading={loading}
           data={promotionData || []}
         />
       </div>
@@ -43,7 +41,7 @@ const RoyaleListPage: React.FC = () => {
         <h2>报酬战的对手（第 20 场前）</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={normalLoading}
+          loading={loading}
           data={rewardData || []}
         />
       </div>
@@ -52,7 +50,7 @@ const RoyaleListPage: React.FC = () => {
         <h2>报酬战的对手（第 20 场后）</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={normalLoading}
+          loading={loading}
           data={rewardStrongData || []}
         />
       </div>

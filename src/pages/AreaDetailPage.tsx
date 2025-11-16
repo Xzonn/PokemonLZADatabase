@@ -6,7 +6,7 @@ import { LumioseMap, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
 import { AREA_NAMES } from "@/data/areas";
 import { PokemonForm, PokemonSpawn } from "@/types";
-import { DEFAULT_TITLE, useImport } from "@/utils";
+import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -50,6 +50,8 @@ const AreaDetailPageCore: FC<IPageProps> = ({ name }) => {
       return position;
     });
   }, [raw]);
+
+  useLoadingAnchor([loading, positionsLoading]);
 
   return (
     <Fragment key="wild-zone-list">

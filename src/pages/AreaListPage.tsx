@@ -5,7 +5,7 @@ import { LumioseMap, PokemonIconWithName } from "@/components";
 import { PokemonDataById } from "@/data";
 import { AREA_NAMES } from "@/data/areas";
 import { Pokemon, PokemonForm } from "@/types";
-import { DEFAULT_TITLE, Link, useImport } from "@/utils";
+import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 interface IAreaOverview {
   name: string;
@@ -50,6 +50,8 @@ const AreaListPage: React.FC = () => {
         }) as IAreaOverview,
     );
   });
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="wild-zone-list">

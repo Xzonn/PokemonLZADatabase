@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from "react";
 
 import { ItemMegaStoneTable, PokemonMegaEvolutionTable } from "@/components";
 import { PokemonDataById } from "@/data";
-import { DEFAULT_TITLE, useImport } from "@/utils";
+import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
 
 const MegaEvolutionPage: React.FC = () => {
   useEffect(() => {
@@ -18,6 +18,8 @@ const MegaEvolutionPage: React.FC = () => {
       stone: itemFullData[item.stone],
     }));
   });
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="pokemon-list">

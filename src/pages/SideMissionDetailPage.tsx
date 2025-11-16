@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 
 import { ItemList, NormalTrainerTable, SideMissionMap } from "@/components";
 import { SideMissionFull, SideMissionInformation, TrainerNormal } from "@/types";
-import { DEFAULT_TITLE, DescriptionsCommonProps2, getSideMissionNumber, useImport } from "@/utils";
+import { DEFAULT_TITLE, DescriptionsCommonProps2, getSideMissionNumber, useImport, useLoadingAnchor } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -78,6 +78,8 @@ const SideMissionDetailPageCore: FC<IProps> = ({ mission }) => {
   useEffect(() => {
     setActive(information?.index || null);
   }, [information]);
+
+  useLoadingAnchor([loading, trLoading]);
 
   return (
     <Fragment key="side-mission-detail">

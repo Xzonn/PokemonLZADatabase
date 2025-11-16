@@ -5,7 +5,7 @@ import { Navigate, useParams } from "react-router-dom";
 import { ItemIconWithoutTooltip } from "@/components";
 import { ItemDataByName } from "@/data";
 import { EItemPocket, Item, ItemFull } from "@/types";
-import { DEFAULT_TITLE, DescriptionsCommonProps4, useImport } from "@/utils";
+import { DEFAULT_TITLE, DescriptionsCommonProps4, useImport, useLoadingAnchor } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -45,11 +45,13 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
   }, [item]);
 
   const [itemFullData, loadingFull] = useImport(async () => (await import("@/data/i/detail")).ItemFullDataById);
-  const [ItemContent] = useImport(
+  const [ItemContent, loadingContent] = useImport(
     async () => (await import(`@/data/i/${item.id.toString().padStart(4, "0")}.tsx`)).default as FC,
     [item],
     true,
   );
+
+  useLoadingAnchor([loadingFull, loadingContent]);
 
   return (
     <Fragment key="item">

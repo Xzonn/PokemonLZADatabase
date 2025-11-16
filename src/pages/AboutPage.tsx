@@ -1,7 +1,7 @@
 import { Spin, Timeline } from "antd";
 import React, { Fragment, useEffect } from "react";
 
-import { DEFAULT_TITLE, useImport } from "@/utils";
+import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
 
 const AboutPage: React.FC = () => {
   useEffect(() => {
@@ -18,6 +18,8 @@ const AboutPage: React.FC = () => {
           .map((line) => line.replace(/^- /, "")),
       }))
     : [];
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="changelog">

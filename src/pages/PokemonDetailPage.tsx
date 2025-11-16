@@ -15,6 +15,7 @@ import {
   getPokemonFullNameFriendly,
   renderMoveLevel,
   useImport,
+  useLoadingAnchor,
 } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
@@ -144,6 +145,8 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         .filter(Boolean),
     [pokemonFull],
   );
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="pokemon">

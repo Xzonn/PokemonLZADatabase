@@ -2,6 +2,7 @@ import { useRequest } from "ahooks";
 import { message } from "antd";
 import { useState } from "react";
 import { useMap } from "react-leaflet";
+import { useLocation } from "react-router-dom";
 
 import { MAP_CENTER, getCoord } from "./map";
 import { aegis } from "./monitor";
@@ -55,4 +56,21 @@ export const useView = () => {
     }
   };
   return [view, updateView] as const;
+};
+
+export const useLoadingAnchor = (loading: boolean[]) => {
+  const [updated, setUpdated] = useState(false);
+  const finished = loading.every((item) => !item);
+  const { hash } = useLocation();
+  if (finished && !updated) {
+    setTimeout(() => {
+      if (hash) {
+        const element = document.querySelector(decodeURIComponent(hash));
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }, 0);
+    setUpdated(true);
+  }
 };

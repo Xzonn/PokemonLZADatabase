@@ -1,5 +1,6 @@
 import cn from "classnames";
 import { FC, useContext } from "react";
+import { useNavigate } from "react-router-dom";
 
 import { TocContext } from "./TocObserver";
 
@@ -11,12 +12,10 @@ export const TableOfContents: FC<ITableOfContentsProps> = ({ onClick }) => {
   const { tocItems, activeId } = useContext(TocContext)!;
 
   const isActive = (id: string) => activeId === id;
+  const navigate = useNavigate();
 
   const handleClick = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
+    navigate({ hash: id }, { replace: true });
   };
 
   return (

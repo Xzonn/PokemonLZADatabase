@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 
 import { SideMissionMap, SideMissionTable } from "@/components";
-import { DEFAULT_TITLE, useImport } from "@/utils";
+import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
 
 const SideMissionListPage: React.FC = () => {
   useEffect(() => {
@@ -11,6 +11,8 @@ const SideMissionListPage: React.FC = () => {
   const [data, loading] = useImport(async () => (await import("@/data/mission/side")).SideMissionData);
 
   const [active, setActive] = useState<number | null>(null);
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="side-mission-list">

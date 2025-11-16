@@ -2,7 +2,7 @@ import React, { Fragment, useEffect } from "react";
 
 import { ItemTable } from "@/components";
 import { EItemPocket, ItemPocket } from "@/types";
-import { DEFAULT_TITLE, Link, useImport } from "@/utils";
+import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 const HEADERS = new Map<ItemPocket, string[]>([
   ["道具", ["编号", "道具", "买入价格", "卖出价格", "超级碎片数量", "说明"]],
@@ -16,6 +16,8 @@ const ItemListPage: React.FC = () => {
   }, []);
 
   const [itemFullData, loading] = useImport(async () => (await import("@/data/i/detail")).ItemFullData);
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="pokemon-list">

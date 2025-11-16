@@ -12,7 +12,8 @@ export const ItemCell: React.FC<{ item?: Item }> = ({ item }) =>
       <div className="item-name">
         {item.move ? (
           <>
-            {item.name}（<Link to={`/m/${item.move}`}>{item.move}</Link>）
+            <Link to={`/m/${item.move}#招式学习器`}>{item.name}</Link>（<Link to={`/m/${item.move}`}>{item.move}</Link>
+            ）
           </>
         ) : item.page ? (
           <Link to={`/${item.page}`}>{item.name}</Link>

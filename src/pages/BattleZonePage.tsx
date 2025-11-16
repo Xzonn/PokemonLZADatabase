@@ -1,20 +1,40 @@
 import { Button, Table } from "antd";
-import React, { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect, useMemo } from "react";
+import { useNavigate } from "react-router-dom";
 
 import { ItemRewardsTable, RoyaleTrainerTable } from "@/components";
 import { TrainerRoyale } from "@/types";
-import { DEFAULT_TITLE, TableCommonProps, halfToFull, useImport } from "@/utils";
+import { DEFAULT_TITLE, TableCommonProps, halfToFull, useImport, useLoadingAnchor } from "@/utils";
+
+const RANKS = Array.from("ZYXWVUGFEDCB∞");
 
 const BattleZonePage: React.FC = () => {
   useEffect(() => {
     document.title = `对战特区 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const [royaleData, royaleLoading] = useImport(
-    async () => (await import("@/data/tr/royale.json")).default as TrainerRoyale[],
+  const [data, loading] = useImport(async () => (await import("@/data/tr/royale.json")).default as TrainerRoyale[]);
+  const sections = useMemo(
+    () =>
+      RANKS.map((rank) => (
+        <div
+          key={rank}
+          className="section"
+        >
+          <h2>{halfToFull(rank)}级</h2>
+          <p>点击每行的“＋”可以查看宝可梦详情。</p>
+          <RoyaleTrainerTable
+            loading={loading}
+            data={data?.filter((trainer) => trainer.rank === rank) || []}
+          />
+        </div>
+      )),
+    [data, loading],
   );
 
-  const RANKS = Array.from("ZYXWVUGFEDCB∞");
+  const navigate = useNavigate();
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="pokemon-list">
@@ -24,9 +44,7 @@ const BattleZonePage: React.FC = () => {
           {RANKS.map((rank) => (
             <Button
               key={rank}
-              onClick={() =>
-                document.getElementById(`${halfToFull(rank)}级`.toLowerCase())?.scrollIntoView({ behavior: "smooth" })
-              }
+              onClick={() => navigate({ hash: `#${halfToFull(rank)}级`.toLowerCase() }, { replace: true })}
             >
               {halfToFull(rank)}级
             </Button>
@@ -107,19 +125,7 @@ const BattleZonePage: React.FC = () => {
         </div>
       </div>
 
-      {RANKS.map((rank) => (
-        <div
-          key={rank}
-          className="section"
-        >
-          <h2>{halfToFull(rank)}级</h2>
-          <p>点击每行的“＋”可以查看宝可梦详情。</p>
-          <RoyaleTrainerTable
-            loading={royaleLoading}
-            data={royaleData?.filter((trainer) => trainer.rank === rank) || []}
-          />
-        </div>
-      ))}
+      {sections}
     </Fragment>
   );
 };

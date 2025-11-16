@@ -7,7 +7,7 @@ import { Marker, Popup, useMap } from "react-leaflet";
 import { LumioseMap, PokemonIcon, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
 import { Pokemon, PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
-import { DEFAULT_TITLE, MAP_CENTER, getCoord, getPokemonFullId, useImport } from "@/utils";
+import { DEFAULT_TITLE, MAP_CENTER, getCoord, getPokemonFullId, useImport, useLoadingAnchor } from "@/utils";
 
 interface IMapLayerProps {
   data: SpawnPoint[];
@@ -182,6 +182,8 @@ const AreaListPage: React.FC = () => {
       )),
     [allPokemon, filter.pokemonForm, setFilter],
   );
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="wild-zone-list">

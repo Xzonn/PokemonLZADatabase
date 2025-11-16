@@ -20,7 +20,7 @@ export const getTMMethod = (tm: TM, onClick?: () => void): ReactNode => {
   } else if (tm.location) {
     return (
       <Link
-        to={onClick ? "" : "/招式学习器一览"}
+        to={onClick ? "#地图" : "/招式学习器一览"}
         onClick={onClick}
       >
         {tm.location}

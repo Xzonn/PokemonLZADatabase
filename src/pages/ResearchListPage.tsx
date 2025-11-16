@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect } from "react";
 
 import { ResearchRewardTable, ResearchTable } from "@/components";
-import { DEFAULT_TITLE, useImport } from "@/utils";
+import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
 
 const ResearchListPage: React.FC = () => {
   useEffect(() => {
@@ -9,6 +9,8 @@ const ResearchListPage: React.FC = () => {
   }, []);
 
   const [data, loading] = useImport(() => import("@/data/research"));
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="research-list">

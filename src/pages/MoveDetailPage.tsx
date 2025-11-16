@@ -5,7 +5,15 @@ import { useParams } from "react-router-dom";
 import { PokemonTable, TMDetail } from "@/components";
 import { MoveDataByName, PokemonDataById } from "@/data";
 import { Move, MoveFull, Pokemon, PokemonLevelUp } from "@/types";
-import { CategoryIcon, DEFAULT_TITLE, DescriptionsCommonProps4, TypeIcon, renderMoveLevel, useImport } from "@/utils";
+import {
+  CategoryIcon,
+  DEFAULT_TITLE,
+  DescriptionsCommonProps4,
+  TypeIcon,
+  renderMoveLevel,
+  useImport,
+  useLoadingAnchor,
+} from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -70,6 +78,8 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
     () => moveFull?.pokemonAlpha?.map((pokemon) => PokemonDataById[pokemon.fullId]).filter(Boolean) || [],
     [moveFull],
   );
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="move">

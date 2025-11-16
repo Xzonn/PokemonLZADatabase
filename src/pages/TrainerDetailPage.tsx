@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import { NormalTrainerTable } from "@/components";
 import { TrainerNormal } from "@/types";
-import { DEFAULT_TITLE, Icon, TRNAME_WITH_ICONS, useImport } from "@/utils";
+import { DEFAULT_TITLE, Icon, TRNAME_WITH_ICONS, useImport, useLoadingAnchor } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -28,6 +28,8 @@ const TrainerDetailPageCore: FC<IProps> = ({ data: name }) => {
 
   const [data, loading] = useImport(async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[]);
   const filteredData = data?.filter((tr) => trnameEqual(tr.trname, name)) || [];
+
+  useLoadingAnchor([loading]);
 
   return (
     <Fragment key="pokemon-list">

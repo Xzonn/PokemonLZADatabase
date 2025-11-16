@@ -5,7 +5,7 @@ import { ItemTable, LumioseMap, NatureCell, SideMissionTable } from "@/component
 import { NatureData } from "@/data";
 import { ItemFullData } from "@/data/i/detail";
 import { EStat, Nature } from "@/types";
-import { DEFAULT_TITLE, TableCommonProps, useImport } from "@/utils";
+import { DEFAULT_TITLE, TableCommonProps, useImport, useLoadingAnchor } from "@/utils";
 
 const NatureListPage: FC = () => {
   useEffect(() => {
@@ -27,6 +27,8 @@ const NatureListPage: FC = () => {
       mission.items.some((it) => it.item.endsWith("薄荷")),
     ),
   );
+
+  useLoadingAnchor([sideMissionLoading]);
 
   return (
     <Fragment key="research-list">
