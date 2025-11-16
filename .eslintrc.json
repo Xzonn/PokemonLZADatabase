@@ -36,7 +36,7 @@
     ],
     "arrow-body-style": "error",
     "prefer-template": "error",
-    "quotes": "error",
+    "quotes": ["error", "double", { "avoidEscape": true }],
     "react/jsx-curly-brace-presence": [
       "error",
       {
