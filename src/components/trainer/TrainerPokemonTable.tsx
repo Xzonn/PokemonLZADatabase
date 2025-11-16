@@ -26,7 +26,9 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
         title="属性相克"
         content={<TypeEffects types={PokemonDataByName[row.name].types} />}
       >
-        <TypeIcons types={PokemonDataByName[row.name].types} />
+        <>
+          <TypeIcons types={PokemonDataByName[row.name].types} />
+        </>
       </Popover>
     ),
   },
