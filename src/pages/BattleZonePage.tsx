@@ -40,7 +40,7 @@ const BattleZonePage: React.FC = () => {
     <Fragment key="pokemon-list">
       <div className="section">
         <h1>对战特区</h1>
-        <div className="flex flex-wrap gap-2 items-center justify-center">
+        <div className="flex-container">
           {RANKS.map((rank) => (
             <Button
               key={rank}

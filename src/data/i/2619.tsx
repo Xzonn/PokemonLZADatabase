@@ -95,7 +95,7 @@ const Content: FC = () => {
         <LumioseMap
           filter={{}}
           filterComponent={
-            <div className="flex flex-wrap items-center justify-center gap-2 mb-2">
+            <div className="flex-container mb-2">
               <Radio.Group
                 optionType="button"
                 value={filter.status}

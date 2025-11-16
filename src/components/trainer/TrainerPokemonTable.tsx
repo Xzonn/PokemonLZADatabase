@@ -46,7 +46,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     dataIndex: "moves",
     width: 160,
     render: (moves: TrainerPokemonMove[]) => (
-      <div className="flex flex-wrap gap-y-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         {moves.map((move) => (
           <MoveLink
             key={move.name}

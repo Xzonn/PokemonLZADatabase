@@ -1,0 +1,227 @@
+[
+  {
+    "season": 1,
+    "url": "https://plza-news.pokemon-home.com/sc/page/1.html",
+    "startDate": "2025 年 10 月 16 日",
+    "endDate": "2025 年 11 月 5 日",
+    "promotionRewards": [
+      {
+        "levels": "Ｋ",
+        "items": [
+          {
+            "item": "甲贺忍蛙进化石",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "seasonRewards": [
+      {
+        "levels": "Ａ",
+        "items": [
+          {
+            "item": "竞赛球",
+            "quantity": 3
+          },
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 3
+          },
+          {
+            "item": "精通种子",
+            "quantity": 3
+          },
+          {
+            "item": "巨大金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｅ〜Ｂ",
+        "items": [
+          {
+            "item": "竞赛球",
+            "quantity": 2
+          },
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 2
+          },
+          {
+            "item": "精通种子",
+            "quantity": 2
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｋ〜Ｆ",
+        "items": [
+          {
+            "item": "银色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｒ〜Ｌ",
+        "items": [
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｓ以下",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": 2,
+    "url": "https://plza-news.pokemon-home.com/sc/page/5.html",
+    "startDate": "2025 年 11 月 6 日",
+    "endDate": "2025 年 11 月 26 日",
+    "promotionRewards": [
+      {
+        "levels": "Ｓ",
+        "items": [
+          {
+            "item": "妖火红狐进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｙ",
+        "items": [
+          {
+            "item": "甲贺忍蛙进化石",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "seasonRewards": [
+      {
+        "levels": "Ａ",
+        "items": [
+          {
+            "item": "梦境球",
+            "quantity": 3
+          },
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 3
+          },
+          {
+            "item": "精通种子",
+            "quantity": 3
+          },
+          {
+            "item": "巨大金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｅ〜Ｂ",
+        "items": [
+          {
+            "item": "梦境球",
+            "quantity": 2
+          },
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 2
+          },
+          {
+            "item": "精通种子",
+            "quantity": 2
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｋ〜Ｆ",
+        "items": [
+          {
+            "item": "银色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｒ〜Ｌ",
+        "items": [
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｓ以下",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+]

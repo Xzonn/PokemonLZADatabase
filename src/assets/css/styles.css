@@ -422,6 +422,15 @@ a.badge {
   }
 }
 
+/** 神秘礼物 */
+.activity-card-container {
+  @apply grid gap-4 lg:grid-cols-[repeat(auto-fit,_minmax(360px,_1fr))];
+}
+
+.flex-container {
+  @apply flex flex-wrap items-center justify-center gap-2;
+}
+
 /** 网站结构 */
 header {
   @apply bg-white shadow-lg border-b-4 border-primary;

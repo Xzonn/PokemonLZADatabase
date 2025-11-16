@@ -12,19 +12,23 @@ const RewardsTableColumns: TableColumnsType<IItemReward> = [
     title: "道具",
     dataIndex: "item",
     render: (item) => <ItemCell item={ItemDataByName[item]} />,
+    width: 120,
   },
   {
     title: "数量",
     dataIndex: "quantity",
+    width: 40,
   },
   {
     title: "概率",
     dataIndex: "probability",
     render: (probability) => `${probability}%`,
+    width: 40,
   },
   {
     title: "条件",
     dataIndex: "condition",
+    width: 160,
   },
 ];
 

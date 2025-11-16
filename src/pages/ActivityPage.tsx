@@ -1,10 +1,10 @@
-import { Card } from "antd";
-import React, { FC, Fragment, useEffect } from "react";
+import { Card, Spin } from "antd";
+import React, { FC, Fragment, useEffect, useMemo } from "react";
 
 import { ItemIconWithoutTooltip, ItemRewardsTable, PokemonIcon } from "@/components";
 import { ItemDataByName, PokemonDataByName } from "@/data";
 import { IItemReward } from "@/types";
-import { DEFAULT_TITLE, Link } from "@/utils";
+import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 interface IInternetBattleRewardsTableProps {
   random: IItemReward[];
@@ -26,6 +26,59 @@ const ActivityPage: React.FC = () => {
     document.title = `联网活动 - ${DEFAULT_TITLE}`;
   }, []);
 
+  const [data, loading] = useImport(() => import("@/data/activity"));
+  const seasonRewards = useMemo(
+    () =>
+      data?.SeasonRewardData.map((season) => (
+        <Card
+          key={season.season}
+          title={<Link to={season.url}>第 {season.season} 赛季</Link>}
+        >
+          <div className="flex-container">
+            {season.promotionRewards.map((reward) => (
+              <Fragment key={reward.levels}>
+                {reward.items.map((item) => (
+                  <ItemIconWithoutTooltip
+                    key={item.item}
+                    item={ItemDataByName[item.item]}
+                    size={64}
+                  />
+                ))}
+              </Fragment>
+            ))}
+          </div>
+          {season.promotionRewards.map((reward) => (
+            <div
+              key={reward.levels}
+              className="text-center"
+            >
+              {reward.levels}级别：
+              {reward.items.map((item) => (
+                <>
+                  <Link to={`/i/${item.item}`}>{item.item}</Link>×{item.quantity}
+                </>
+              ))}
+            </div>
+          ))}
+          <div>
+            <b>举办时间</b>：{season.startDate}～{season.endDate}
+          </div>
+          {season.seasonRewards.map((reward) => (
+            <div key={reward.levels}>
+              <h4>{reward.levels}</h4>
+              <ItemRewardsTable
+                data={reward.items}
+                headers={["道具", "数量"]}
+              />
+            </div>
+          ))}
+        </Card>
+      )),
+    [data],
+  );
+
+  useLoadingAnchor([loading]);
+
   return (
     <Fragment key="research-list">
       <div className="section">
@@ -40,9 +93,9 @@ const ActivityPage: React.FC = () => {
 
       <div className="section">
         <h2>神秘礼物</h2>
-        <div className="grid text-md gap-4 lg:grid-cols-[repeat(auto-fit,_minmax(360px,_1fr))]">
+        <div className="activity-card-container">
           <Card title="拥有沙奈朵进化石的拉鲁拉丝">
-            <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="flex-container">
               <PokemonIcon
                 pokemon={PokemonDataByName["拉鲁拉丝"]}
                 link
@@ -52,7 +105,7 @@ const ActivityPage: React.FC = () => {
                 size={64}
               />
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="flex-container">
               <div>
                 <Link to="/p/拉鲁拉丝">拉鲁拉丝</Link> Lv.6
               </div>
@@ -68,7 +121,7 @@ const ActivityPage: React.FC = () => {
             </div>
           </Card>
           <Card title="100 个精灵球">
-            <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="flex-container">
               <ItemIconWithoutTooltip
                 item={ItemDataByName["精灵球"]}
                 size={64}
@@ -88,7 +141,7 @@ const ActivityPage: React.FC = () => {
             </div>
           </Card>
           <Card title="精灵球豪华组合">
-            <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="flex-container">
               <ItemIconWithoutTooltip
                 item={ItemDataByName["速度球"]}
                 size={64}
@@ -106,7 +159,7 @@ const ActivityPage: React.FC = () => {
                 size={64}
               />
             </div>
-            <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="flex-container">
               <div>
                 <Link to="/i/速度球">速度球</Link>×3
               </div>
@@ -130,8 +183,8 @@ const ActivityPage: React.FC = () => {
               <b>序列号有效时间</b>：2025年10月16日～2026年3月10日
             </div>
           </Card>
-          <Card title="蒂安希进化石">
-            <div className="flex flex-wrap items-center justify-center gap-2">
+          <Card title="“如宝石般的光芒”">
+            <div className="flex-container">
               <ItemIconWithoutTooltip
                 item={ItemDataByName["蒂安希进化石"]}
                 size={64}
@@ -154,65 +207,8 @@ const ActivityPage: React.FC = () => {
       </div>
 
       <div className="section">
-        <h2>互联网对战</h2>
-
-        <h3>赛季奖励</h3>
-        <div className="grid text-md gap-4 lg:grid-cols-[repeat(auto-fit,_minmax(360px,_1fr))]">
-          <Card title="第 1 赛季">
-            <div className="flex flex-wrap items-center justify-center gap-2">
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["甲贺忍蛙进化石"]}
-                size={64}
-              />
-            </div>
-            <div className="flex flex-wrap items-center justify-center gap-2">
-              <div>
-                K 级别：<Link to="/i/甲贺忍蛙进化石">甲贺忍蛙进化石</Link>×1
-              </div>
-            </div>
-            <div>
-              <b>举办时间</b>：2025年10月16日～2026年11月15日
-            </div>
-            <div>
-              <b>其他奖励</b>：<Link to="https://plza-news.pokemon-home.com/sc/page/1.html">查看官网</Link>
-            </div>
-          </Card>
-          <Card title="第 2 赛季">
-            <div className="flex flex-wrap items-center justify-center gap-2">
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["甲贺忍蛙进化石"]}
-                size={64}
-              />
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["妖火红狐进化石"]}
-                size={64}
-              />
-            </div>
-            <div className="text-center">
-              Y 级别：<Link to="/i/甲贺忍蛙进化石">甲贺忍蛙进化石</Link>×1
-            </div>
-            <div className="text-center">
-              S 级别：<Link to="/i/妖火红狐进化石">妖火红狐进化石</Link>×1
-            </div>
-            <div>
-              <b>举办时间</b>：2025年11月6日～2026年11月26日
-            </div>
-            <div>
-              <b>其他奖励</b>：<Link to="https://plza-news.pokemon-home.com/sc/page/5.html">查看官网</Link>
-            </div>
-          </Card>
-          <Card title="第 4 赛季">
-            <div className="flex flex-wrap items-center justify-center gap-2">
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["无"]}
-                size={64}
-              />
-            </div>
-            <div className="text-center">戟脊龙进化石×1</div>
-          </Card>
-        </div>
-
-        <h3>对战奖励</h3>
+        <h2>对战报酬</h2>
+        <p>对战报酬是每次对战结束后都可以获得的报酬。自第 2 赛季起，报酬内容包含了特殊精灵球。</p>
         <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
           <Card title="第 1 名">
             <InternetBattleRewardsTable
@@ -289,6 +285,24 @@ const ActivityPage: React.FC = () => {
             />
           </Card>
         </div>
+      </div>
+
+      <div className="section">
+        <h2>赛季奖励</h2>
+        <Spin spinning={loading}>
+          <div className="activity-card-container">
+            {seasonRewards}
+            <Card title="第 4 赛季">
+              <div className="flex-container">
+                <ItemIconWithoutTooltip
+                  item={ItemDataByName["无"]}
+                  size={64}
+                />
+              </div>
+              <div className="text-center">戟脊龙进化石×1</div>
+            </Card>
+          </div>
+        </Spin>
       </div>
     </Fragment>
   );
