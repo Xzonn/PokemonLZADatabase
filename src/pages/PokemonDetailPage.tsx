@@ -29,6 +29,46 @@ enum ExpGrowth {
   "慢",
 }
 
+const Stat = ["HP", "攻击", "防御", "特攻", "特防", "速度"] as const;
+
+const renderGender = (gender: [number, number]): string => {
+  switch (gender[0]) {
+    case 0:
+      switch (gender[1]) {
+        case 12:
+          return "1 ♀ : 7 ♂";
+
+        case 25:
+          return "1 ♀ : 3 ♂";
+
+        case 50:
+          return "1 ♀ : 1 ♂";
+
+        case 75:
+          return "3 ♀ : 1 ♂";
+
+        case 88:
+          return "7 ♀ : 1 ♂";
+
+        default:
+          return "";
+      }
+
+    case 1:
+      return "全为 ♂";
+
+    case 2:
+      return "全为 ♀";
+
+    case 3:
+      return "无性别";
+
+    default:
+      break;
+  }
+  return `${gender[0]}, ${gender[1]}`;
+};
+
 const columnsLevelUp: TableColumnsType<MoveLevelUp & Move> = [
   {
     title: "等级",
@@ -80,6 +120,21 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
     key: "baseFriendship",
     label: "初始友好度",
     children: pokemonFull?.baseFriendship || "—",
+  },
+  {
+    key: "gender",
+    label: "性别比例",
+    children: pokemonFull?.gender ? renderGender(pokemonFull.gender) : "—",
+  },
+  {
+    key: "evYield",
+    label: "获得基础点数",
+    children:
+      pokemonFull?.evYield
+        .map((value, index) => [value, Stat[index]])
+        .filter(([value]) => value)
+        .map(([value, stat]) => `${stat} +${value}`)
+        .join("、") || "—",
   },
 ];
 
@@ -213,7 +268,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
         <h2>能力值</h2>
         <div className="text-center mb-4">总和：{pokemon.baseTotal}</div>
         <div className="max-w-3xl mx-auto space-y-4">
-          {["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat, index) => (
+          {Stat.map((stat, index) => (
             <PokemonStatBar
               key={stat}
               name={stat}

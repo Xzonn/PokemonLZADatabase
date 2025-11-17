@@ -12,8 +12,8 @@ export const PokemonStatBar: React.FC<StatBarProps> = ({ name, value, maxValue =
   return (
     <div className="space-y-2">
       <div className="flex justify-between items-center">
-        <span className="font-semibold text-gray-700">{name}</span>
-        <span className="text-gray-600">{value}</span>
+        <span className="font-semibold">{name}</span>
+        <span>{value}</span>
       </div>
       <div className="w-full bg-gray-200 rounded-full h-3">
         <div

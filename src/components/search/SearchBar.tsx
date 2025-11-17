@@ -30,7 +30,7 @@ const NAV_ITEMS = [
 ];
 
 const searchAll = (keyword: string): SearchResult[] => {
-  if (!keyword.trim()) {
+  if (!keyword) {
     return [];
   }
 
@@ -212,7 +212,7 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
 
   const { run: debounceSearch } = useDebounceFn(
     () => {
-      const result = searchAll(searchKeyword);
+      const result = searchAll(searchKeyword.trim());
       setSearchResult(result);
       setShowSearchResults(true);
     },
