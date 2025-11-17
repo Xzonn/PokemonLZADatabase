@@ -59,6 +59,12 @@ const HomePage: React.FC = () => {
               </div>
             </Fragment>
           ))}
+          <h2>使用说明</h2>
+          <iframe
+            className="bilibili-player"
+            src="//player.bilibili.com/player.html?bvid=BV1SqCdB2ECz&autoplay=1&muted=1"
+            allowFullScreen
+          />
         </div>
       </div>
     </Fragment>

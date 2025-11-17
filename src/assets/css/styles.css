@@ -556,3 +556,7 @@ footer {
     @apply text-[1rem];
   }
 }
+
+.bilibili-player {
+  @apply my-4 mx-auto w-full aspect-[16/9];
+}
