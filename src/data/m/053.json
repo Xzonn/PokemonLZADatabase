@@ -451,5 +451,31 @@
     {
       "fullId": "710-0"
     }
+  ],
+  "chargeFrame": 20,
+  "attackLoopFrame": 30,
+  "wazaRangeMin": 0.5,
+  "wazaRangeMax": 99,
+  "effectiveRange": 4,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 0,
+  "inflictValue": 4,
+  "inflictChance": 10,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
   ]
 }

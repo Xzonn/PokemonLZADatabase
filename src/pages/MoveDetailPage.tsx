@@ -1,4 +1,4 @@
-import { Descriptions, DescriptionsProps, TableColumnsType } from "antd";
+import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
@@ -26,7 +26,7 @@ const columnsLevelUp: TableColumnsType<Pokemon & PokemonLevelUp> = [
   },
 ];
 
-const getDescriptions = (move: Move): DescriptionsProps["items"] => [
+const getDescriptions = (move: Move & MoveFull): DescriptionsProps["items"] => [
   {
     key: "type",
     label: "属性",
@@ -47,6 +47,68 @@ const getDescriptions = (move: Move): DescriptionsProps["items"] => [
     label: "等待时间",
     children: move.wait || "—",
   },
+  {
+    key: "hitPer",
+    label: "命中率",
+    children: move.hitPer || "—",
+  },
+  {
+    key: "chargeFrame",
+    label: "蓄力时间",
+    children: move.chargeFrame || "—",
+  },
+  {
+    key: "attackLoopFrame",
+    label: "攻击循环时间",
+    children: move.attackLoopFrame || "—",
+  },
+  {
+    key: "effectTime",
+    label: "能力变化时间",
+    children: move.effectTime || "—",
+  },
+  {
+    key: "wazaRange",
+    label: "攻击范围",
+    children: move.wazaRangeMin
+      ? `${move.wazaRangeMin}${move.wazaRangeMax === move.wazaRangeMin ? "" : `~${move.wazaRangeMax}`}`
+      : "—",
+  },
+  {
+    key: "shootNum",
+    label: "次数",
+    children: move.minShootNum || "—",
+  },
+  {
+    key: "effectiveRange",
+    label: "有效范围",
+    children: move.effectiveRange !== 99 ? move.effectiveRange : "—",
+  },
+  {
+    key: "inflictChance",
+    label: "追加效果概率",
+    children: move.inflictChance ? `${move.inflictChance}%` : move.statAmps?.[2] ? `${move.statAmps?.[2]}%` : "—",
+  },
+  {
+    key: "critStage",
+    label: "击中要害率",
+    children: move.critStage ? `+${move.critStage}` : "—",
+  },
+  {
+    key: "flinch",
+    label: "畏缩概率",
+    children: move.flinch ? `${move.flinch}%` : "—",
+  },
+  {
+    key: "recoil",
+    label: "伤害比例",
+    children: move.recoil ? `${move.recoil}%` : "—",
+  },
+  {
+    key: "selfHeal",
+    label: "回复比例",
+    children: move.damageHeal ? `${move.damageHeal}%` : move.selfHeal ? `${move.selfHeal}%` : "—",
+  },
 ];
 
 const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
@@ -62,7 +124,7 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
   const pokemonLevelUp = useMemo(
     () =>
       moveFull?.pokemonLevelUp
-        .filter((pokemon) => PokemonDataById[pokemon.fullId])
+        ?.filter((pokemon) => PokemonDataById[pokemon.fullId])
         .map((pokemon) => ({
           ...pokemon,
           ...PokemonDataById[pokemon.fullId],
@@ -94,10 +156,15 @@ const MoveDetailPageCore: React.FC<{ data: Move }> = ({ data: move }) => {
 
       <div className="section">
         <h3>基本信息</h3>
-        <Descriptions
-          {...DescriptionsCommonProps4}
-          items={getDescriptions(move)}
-        />
+        <Spin spinning={loading}>
+          <Descriptions
+            {...DescriptionsCommonProps4}
+            items={getDescriptions({
+              ...move,
+              ...moveFull,
+            } as Move & MoveFull)}
+          />
+        </Spin>
       </div>
 
       <div className="section">

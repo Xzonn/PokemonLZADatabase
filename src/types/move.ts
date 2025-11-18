@@ -21,8 +21,24 @@ export interface Move {
   description: string;
 }
 
-export interface MoveFull extends Move {
-  pokemonLevelUp: PokemonLevelUp[];
+export interface MoveFull {
+  pokemonLevelUp?: PokemonLevelUp[];
   pokemonTM?: PokemonTM[];
   pokemonAlpha?: PokemonTM[];
+  chargeFrame: number;
+  attackLoopFrame: number;
+  wazaRangeMin: number;
+  wazaRangeMax: number;
+  effectiveRange: number;
+  minShootNum: number;
+  hitPer: number;
+  effectTime: number;
+  inflictValue: number;
+  inflictChance: number;
+  critStage: number;
+  flinch: number;
+  recoil: number;
+  selfHeal: number;
+  damageHeal: number;
+  statAmps: number[];
 }
