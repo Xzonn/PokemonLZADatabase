@@ -54,6 +54,8 @@ const TMListMapLayer: FC<{ data: TMFull[] }> = ({ data }) => {
     ));
 };
 
+const EMPTY_FILTER = {};
+
 const TMListPage: React.FC = () => {
   useEffect(() => {
     document.title = `招式学习器一览 - ${DEFAULT_TITLE}`;
@@ -75,7 +77,7 @@ const TMListPage: React.FC = () => {
       <div className="section">
         <h2 id="地图">地图</h2>
         <LumioseMap
-          filter={{}}
+          filter={EMPTY_FILTER}
           filterComponent={
             <div className="flex justify-center mb-2">
               <Button

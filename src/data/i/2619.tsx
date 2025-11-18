@@ -64,6 +64,8 @@ const MapLayer: FC<IMapLayerProps> = ({ data, obtained, setObtained }) =>
     );
   });
 
+const EMPTY_FILTER = {};
+
 interface IFilter {
   status: "all" | "obtained" | "unobtained";
 }
@@ -93,7 +95,7 @@ const Content: FC = () => {
           已获得：{obtained.length}/{Positions.length}
         </div>
         <LumioseMap
-          filter={{}}
+          filter={EMPTY_FILTER}
           filterComponent={
             <div className="flex-container mb-2">
               <Radio.Group

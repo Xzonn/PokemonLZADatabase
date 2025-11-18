@@ -39,6 +39,8 @@ const MapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
   });
 };
 
+const EMPTY_FILTER = {};
+
 interface IProps {
   active?: number | null;
   setActive?: (name: number | null) => void;
@@ -50,7 +52,7 @@ export const SideMissionMap: FC<IProps> = ({ active, setActive }) => {
   return (
     <Fragment key="side-mission-map">
       <LumioseMap
-        filter={{}}
+        filter={EMPTY_FILTER}
         filterComponent={
           setActive ? (
             <div className="flex justify-center mb-2">
