@@ -49,7 +49,7 @@ const MapLayer: FC<IMapLayerProps> = ({ data, obtained, setObtained }) =>
         })}
       >
         <Popup>
-          <div className="text-center">#{position.index}</div>
+          <div className="text-center">#{100 - position.index}</div>
           <Button
             className="block"
             type="link"
