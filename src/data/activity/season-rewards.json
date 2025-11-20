@@ -223,5 +223,131 @@
         ]
       }
     ]
+  },
+  {
+    "season": 3,
+    "url": "https://plza-news.pokemon-home.com/sc/page/6.html",
+    "startDate": "2025 年 11 月 27 日",
+    "endDate": "2025 年 12 月 18 日",
+    "promotionRewards": [
+      {
+        "levels": "Ｓ",
+        "items": [
+          {
+            "item": "布里卡隆进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｖ",
+        "items": [
+          {
+            "item": "妖火红狐进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｙ",
+        "items": [
+          {
+            "item": "甲贺忍蛙进化石",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "seasonRewards": [
+      {
+        "levels": "Ａ",
+        "items": [
+          {
+            "item": "狩猎球",
+            "quantity": 3
+          },
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 3
+          },
+          {
+            "item": "精通种子",
+            "quantity": 3
+          },
+          {
+            "item": "巨大金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｅ〜Ｂ",
+        "items": [
+          {
+            "item": "狩猎球",
+            "quantity": 2
+          },
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 2
+          },
+          {
+            "item": "精通种子",
+            "quantity": 2
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｋ〜Ｆ",
+        "items": [
+          {
+            "item": "银色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｒ〜Ｌ",
+        "items": [
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｓ以下",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
   }
 ]

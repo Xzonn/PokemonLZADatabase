@@ -46,12 +46,23 @@ const renderObtain = (row: MegaEvolutionFull): ReactNode => {
         </Link>
       );
     }
-    if (/赛季奖励|特典|神秘礼物/.test(line)) {
+    if (line.includes("赛季奖励")) {
       return (
         <Link
           className="block"
           key={index}
-          to="/联网活动"
+          to="/联网活动#赛季奖励"
+        >
+          {line}
+        </Link>
+      );
+    }
+    if (/特典|神秘礼物/.test(line)) {
+      return (
+        <Link
+          className="block"
+          key={index}
+          to="/联网活动#神秘礼物"
         >
           {line}
         </Link>
