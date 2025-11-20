@@ -49,7 +49,9 @@ const MapLayer: FC<IMapLayerProps> = ({ data, obtained, setObtained }) =>
         })}
       >
         <Popup>
+          <div className="text-center">#{position.index}</div>
           <Button
+            className="block"
             type="link"
             onClick={
               isObtained
@@ -131,11 +133,18 @@ const Content: FC = () => {
 
       <div className="section">
         <h2>兑换方式</h2>
-        <p>与木根工程门口旁的 NPC 对话，可以用彩色螺丝兑换卡娜莉玩偶。</p>
+        <p>
+          与木根工程门口旁的 NPC 对话，可以用彩色螺丝兑换卡娜莉玩偶。获得所有 100 个彩色螺丝后，再次与 NPC
+          对话，可以获得巨大卡娜莉玩偶，这个玩偶会放在旅馆Ｚ自己的房间里。
+        </p>
         <ItemTable
           headers={["编号", "道具", "彩色螺丝数量", "说明"]}
           data={CANARI_PLUSHES}
         />
+        <figure>
+          <img src="https://i0.hdslb.com/bfs/new_dyn/ce8780f658fc175bbeb39b961df0573a16114399.jpg" />
+          <figcaption>巨大卡娜莉玩偶</figcaption>
+        </figure>
       </div>
     </>
   );

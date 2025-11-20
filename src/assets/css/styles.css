@@ -161,6 +161,18 @@ ul {
   }
 }
 
+figure {
+  @apply border-gray-200 border-2 bg-gray-100 rounded-lg text-center p-2 mx-auto my-2 w-fit;
+
+  img {
+    @apply block max-w-full h-auto rounded-md w-[640px] m-auto;
+  }
+
+  figcaption {
+    @apply text-gray-500 text-sm mt-2;
+  }
+}
+
 /** 通用 */
 .icon,
 .pokemon-icon,
