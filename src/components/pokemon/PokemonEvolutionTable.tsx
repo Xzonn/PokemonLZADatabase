@@ -132,7 +132,16 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
         </>
       );
     case 30:
-      return `习得${EPokemonType[evolution.argument]}属性招式、等级提升`;
+      return (
+        <>
+          同行宝可梦中有
+          <TypeIcon
+            type="恶"
+            className="icon-inline"
+          />
+          属性宝可梦、等级提升
+        </>
+      );
     case 31:
       return "下雨天气、等级提升";
     case 32:
