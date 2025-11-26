@@ -3,7 +3,6 @@ import { FC, Fragment, useEffect, useMemo } from "react";
 
 import { ItemTable, LumioseMap, NatureCell, SideMissionTable } from "@/components";
 import { NatureData } from "@/data";
-import { ItemFullData } from "@/data/i/detail";
 import { EStat, Nature } from "@/types";
 import { DEFAULT_TITLE, TableCommonProps, useImport, useLoadingAnchor } from "@/utils";
 
@@ -20,7 +19,8 @@ const NatureListPage: FC = () => {
     [],
   );
 
-  const mints = useMemo(() => ItemFullData.filter((item) => item.name.endsWith("薄荷")), []);
+  const [itemFullData, loading] = useImport(async () => (await import("@/data/i/detail")).ItemFullData);
+  const mints = useMemo(() => itemFullData?.filter((item) => item.name.endsWith("薄荷")), [itemFullData]);
 
   const [sideMissionData, sideMissionLoading] = useImport(async () =>
     (await import("@/data/mission/side")).SideMissionData.filter((mission) =>
@@ -76,6 +76,7 @@ const NatureListPage: FC = () => {
           ]}
           headers={["编号", "道具", "买入价格", "卖出价格", "说明"]}
           data={mints}
+          loading={loading}
         />
       </div>
 
