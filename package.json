@@ -22,10 +22,11 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "vite build && npm run update-sitemaps",
     "serve": "vite preview",
     "lint": "eslint src/ --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "update-sitemaps": "node scripts/update-sitemaps.js"
   },
   "browserslist": {
     "production": [
