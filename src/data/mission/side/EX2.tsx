@@ -10,7 +10,7 @@ export const information: SideMissionInformation = {
   prize: 10000,
   items: [
     {
-      item: "经验糖果Ｌ",
+      item: "经验糖果ＸＬ",
       number: 1,
     },
   ],

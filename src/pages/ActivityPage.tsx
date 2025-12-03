@@ -203,6 +203,31 @@ const ActivityPage: React.FC = () => {
               <b>领取时间</b>：2025年11月6日～
             </div>
           </Card>
+          <Card title="“Ｍ项目”">
+            <div className="flex-container">
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["超梦进化石Ｘ"]}
+                size={64}
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["超梦进化石Ｙ"]}
+                size={64}
+              />
+            </div>
+            <div className="text-center">
+              <Link to="/i/超梦进化石Ｘ">超梦进化石Ｘ</Link>×1
+              <Link to="/i/超梦进化石Ｙ">超梦进化石Ｙ</Link>×1
+            </div>
+            <div className="text-center">
+              领取后解锁<Link to="/side/EX2">副任务EX2</Link>
+            </div>
+            <div>
+              <b>领取条件</b>：无
+            </div>
+            <div>
+              <b>领取时间</b>：2025年12月2日～
+            </div>
+          </Card>
         </div>
       </div>
 
