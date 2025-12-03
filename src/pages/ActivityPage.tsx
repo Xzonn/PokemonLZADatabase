@@ -214,9 +214,13 @@ const ActivityPage: React.FC = () => {
                 size={64}
               />
             </div>
-            <div className="text-center">
-              <Link to="/i/超梦进化石Ｘ">超梦进化石Ｘ</Link>×1
-              <Link to="/i/超梦进化石Ｙ">超梦进化石Ｙ</Link>×1
+            <div className="flex-container">
+              <div>
+                <Link to="/i/超梦进化石Ｘ">超梦进化石Ｘ</Link>×1
+              </div>
+              <div>
+                <Link to="/i/超梦进化石Ｙ">超梦进化石Ｙ</Link>×1
+              </div>
             </div>
             <div className="text-center">
               领取后解锁<Link to="/side/EX2">副任务EX2</Link>
