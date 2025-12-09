@@ -7,7 +7,7 @@ import { Icon, Link, TableCommonProps, getPokemonFullId } from "@/utils";
 import { ItemCell } from "./ItemCell";
 import { PokemonCell } from "../pokemon/PokemonCell";
 
-export interface MegaEvolutionFull {
+interface MegaEvolutionFull {
   normal: Pokemon;
   mega: Pokemon;
   stone: ItemDetail;

@@ -443,6 +443,11 @@ a.badge {
   @apply flex flex-wrap items-center justify-center gap-2;
 }
 
+.tag-new,
+.tag-now {
+  @apply bg-red-500 text-white font-bold rounded-full px-2 py-0.5 ml-2 text-xs;
+}
+
 /** 网站结构 */
 header {
   @apply bg-white shadow-lg border-b-4 border-primary;

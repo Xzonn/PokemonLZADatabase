@@ -1,7 +1,7 @@
 import { Card, Spin } from "antd";
 import React, { FC, Fragment, useEffect, useMemo } from "react";
 
-import { ItemIconWithoutTooltip, ItemRewardsTable, PokemonIcon } from "@/components";
+import { ItemIconWithoutTooltip, ItemRewardsTable, New, Now, PokemonIcon } from "@/components";
 import { ItemDataByName, PokemonDataByName } from "@/data";
 import { IItemReward } from "@/types";
 import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
@@ -21,18 +21,36 @@ const InternetBattleRewardsTable: FC<IInternetBattleRewardsTableProps> = ({ rand
   </>
 );
 
+const parseDate = (dateStr: string): Date => {
+  const [year, month, day] = dateStr.split("-").map(Number);
+  return new Date(year, month - 1, day);
+};
+
+const formatDate = (date: Date): string => {
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  const day = date.getDate();
+  return `${year} 年 ${month} 月 ${day} 日`;
+};
+
 const ActivityPage: React.FC = () => {
   useEffect(() => {
     document.title = `联网活动 - ${DEFAULT_TITLE}`;
   }, []);
 
   const [data, loading] = useImport(() => import("@/data/activity"));
+  const now = Date.now();
   const seasonRewards = useMemo(
     () =>
       data?.SeasonRewardData.map((season) => (
         <Card
           key={season.season}
-          title={<Link to={season.url}>第 {season.season} 赛季</Link>}
+          title={
+            <>
+              <Link to={season.url}>第 {season.season} 赛季</Link>
+              {now >= +parseDate(season.startDate) && now <= +parseDate(season.endDate) && <Now />}
+            </>
+          }
         >
           <div className="flex-container">
             {season.promotionRewards.map((reward) => (
@@ -61,7 +79,7 @@ const ActivityPage: React.FC = () => {
             </div>
           ))}
           <div>
-            <b>举办时间</b>：{season.startDate}～{season.endDate}
+            <b>举办时间</b>：{formatDate(parseDate(season.startDate))}～{formatDate(parseDate(season.endDate))}
           </div>
           {season.seasonRewards.map((reward) => (
             <div key={reward.levels}>
@@ -232,6 +250,76 @@ const ActivityPage: React.FC = () => {
               <b>领取时间</b>：2025年12月2日～
             </div>
           </Card>
+          <Card
+            title={
+              <>
+                PREPAR1NG
+                <New />
+              </>
+            }
+          >
+            <div className="flex-container">
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["活力块"]}
+                size={64}
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["全复药"]}
+                size={64}
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["高级球"]}
+                size={64}
+              />
+            </div>
+            <div className="flex-container">
+              <div>
+                <Link to="/i/活力块">活力块</Link>×5
+              </div>
+              <div>
+                <Link to="/i/全复药">全复药</Link>×10
+              </div>
+              <div>
+                <Link to="/i/高级球">高级球</Link>×10
+              </div>
+            </div>
+            <div>
+              <b>领取条件</b>：密语 PREPAR1NG
+            </div>
+            <div>
+              <b>领取时间</b>：2025年12月4日～2027年3月31日
+            </div>
+          </Card>
+          <Card
+            title={
+              <>
+                大型喷火龙（头目）
+                <New />
+              </>
+            }
+          >
+            <div className="flex-container">
+              <PokemonIcon
+                pokemon={PokemonDataByName["喷火龙"]}
+                link
+              />
+            </div>
+            <div className="flex-container">
+              <div>
+                <Link to="/p/喷火龙">喷火龙</Link> Lv.36
+              </div>
+            </div>
+            <div>
+              <b>招式</b>：<Link to="/m/日光束">日光束</Link> <Link to="/m/喷射火焰">喷射火焰</Link>{" "}
+              <Link to="/m/龙爪">龙爪</Link> <Link to="/m/空气之刃">空气之刃</Link>
+            </div>
+            <div>
+              <b>领取条件</b>：密语 B1G0006
+            </div>
+            <div>
+              <b>领取时间</b>：2025年12月9日～2026年1月19日
+            </div>
+          </Card>
         </div>
       </div>
 
@@ -329,6 +417,33 @@ const ActivityPage: React.FC = () => {
                 />
               </div>
               <div className="text-center">戟脊龙进化石×1</div>
+            </Card>
+            <Card title="第 5 赛季">
+              <div className="flex-container">
+                <ItemIconWithoutTooltip
+                  item={ItemDataByName["无"]}
+                  size={64}
+                />
+              </div>
+              <div className="text-center">蜥蜴王进化石×1</div>
+            </Card>
+            <Card title="第 6 赛季">
+              <div className="flex-container">
+                <ItemIconWithoutTooltip
+                  item={ItemDataByName["无"]}
+                  size={64}
+                />
+              </div>
+              <div className="text-center">巨沼怪进化石×1</div>
+            </Card>
+            <Card title="第 7 赛季">
+              <div className="flex-container">
+                <ItemIconWithoutTooltip
+                  item={ItemDataByName["无"]}
+                  size={64}
+                />
+              </div>
+              <div className="text-center">火焰鸡进化石×1</div>
             </Card>
           </div>
         </Spin>

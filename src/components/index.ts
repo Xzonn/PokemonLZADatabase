@@ -13,3 +13,5 @@ export * from "./location";
 
 export * from "./search";
 export * from "./site";
+
+export * from "./other";

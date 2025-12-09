@@ -6,7 +6,7 @@ import { PokemonTypeFilters, TableCommonProps, TypeIcons, getPokemonFullId } fro
 
 import { PokemonCell } from "./PokemonCell";
 
-export interface MegaEvolutionFull {
+interface MegaEvolutionFull {
   normal: Pokemon;
   mega: Pokemon;
   stone: Item;
