@@ -52,7 +52,7 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 8:
       return (
         <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || 0]}
+          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
           prefix="使用道具"
         />
       );
@@ -75,7 +75,7 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 17:
       return (
         <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || 0]}
+          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
           prefix="使用道具"
           suffix="、雄性"
         />
@@ -83,7 +83,7 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 18:
       return (
         <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || 0]}
+          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
           prefix="使用道具"
           suffix="、雌性"
         />
@@ -91,7 +91,7 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 19:
       return (
         <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || 0]}
+          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
           prefix="携带道具"
           suffix="、白天、等级提升"
         />
@@ -99,7 +99,7 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 20:
       return (
         <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || 0]}
+          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
           prefix="携带道具"
           suffix="、晚上、等级提升"
         />
