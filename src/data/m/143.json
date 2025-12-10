@@ -1,4 +1,96 @@
 {
+  "pokemonTM": [
+    {
+      "fullId": "017-0"
+    },
+    {
+      "fullId": "018-0"
+    },
+    {
+      "fullId": "018-1"
+    },
+    {
+      "fullId": "042-0"
+    },
+    {
+      "fullId": "083-0"
+    },
+    {
+      "fullId": "083-1"
+    },
+    {
+      "fullId": "142-0"
+    },
+    {
+      "fullId": "142-1"
+    },
+    {
+      "fullId": "169-0"
+    },
+    {
+      "fullId": "227-0"
+    },
+    {
+      "fullId": "227-1"
+    },
+    {
+      "fullId": "334-0"
+    },
+    {
+      "fullId": "334-1"
+    },
+    {
+      "fullId": "397-0"
+    },
+    {
+      "fullId": "398-0"
+    },
+    {
+      "fullId": "398-1"
+    },
+    {
+      "fullId": "663-0"
+    },
+    {
+      "fullId": "701-0"
+    },
+    {
+      "fullId": "701-1"
+    },
+    {
+      "fullId": "715-0"
+    },
+    {
+      "fullId": "717-0"
+    },
+    {
+      "fullId": "821-0"
+    },
+    {
+      "fullId": "822-0"
+    },
+    {
+      "fullId": "823-0"
+    },
+    {
+      "fullId": "865-0"
+    },
+    {
+      "fullId": "960-0"
+    },
+    {
+      "fullId": "960-1"
+    },
+    {
+      "fullId": "960-2"
+    },
+    {
+      "fullId": "960-3"
+    },
+    {
+      "fullId": "961-0"
+    }
+  ],
   "chargeFrame": 70,
   "attackLoopFrame": 30,
   "wazaRangeMin": 1,

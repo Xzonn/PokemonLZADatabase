@@ -21,6 +21,53 @@
       "level": 1
     }
   ],
+  "pokemonTM": [
+    {
+      "fullId": "035-0"
+    },
+    {
+      "fullId": "036-0"
+    },
+    {
+      "fullId": "036-1"
+    },
+    {
+      "fullId": "039-0"
+    },
+    {
+      "fullId": "040-0"
+    },
+    {
+      "fullId": "173-0"
+    },
+    {
+      "fullId": "174-0"
+    },
+    {
+      "fullId": "316-0"
+    },
+    {
+      "fullId": "317-0"
+    },
+    {
+      "fullId": "333-0"
+    },
+    {
+      "fullId": "334-0"
+    },
+    {
+      "fullId": "334-1"
+    },
+    {
+      "fullId": "648-0"
+    },
+    {
+      "fullId": "648-1"
+    },
+    {
+      "fullId": "876-1"
+    }
+  ],
   "chargeFrame": 30,
   "attackLoopFrame": 20,
   "wazaRangeMin": 0.5,

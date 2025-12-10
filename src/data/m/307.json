@@ -1,4 +1,33 @@
 {
+  "pokemonTM": [
+    {
+      "fullId": "006-0"
+    },
+    {
+      "fullId": "006-1"
+    },
+    {
+      "fullId": "006-2"
+    },
+    {
+      "fullId": "257-0"
+    },
+    {
+      "fullId": "257-1"
+    },
+    {
+      "fullId": "500-0"
+    },
+    {
+      "fullId": "500-1"
+    },
+    {
+      "fullId": "655-0"
+    },
+    {
+      "fullId": "655-1"
+    }
+  ],
   "chargeFrame": 35,
   "attackLoopFrame": 30,
   "wazaRangeMin": 1,
