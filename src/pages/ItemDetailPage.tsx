@@ -91,7 +91,7 @@ const ItemDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   const item = ItemDataByName[name || ""];
 
-  if (item.page && item.page !== `i/${name}`) {
+  if (item?.page && item.page !== `i/${name}`) {
     return (
       <Navigate
         to={`/${item.page}`}
