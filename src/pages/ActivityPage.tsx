@@ -39,61 +39,59 @@ const ActivityPage: React.FC = () => {
   }, []);
 
   const [data, loading] = useImport(() => import("@/data/activity"));
-  const now = Date.now();
-  const seasonRewards = useMemo(
-    () =>
-      data?.SeasonRewardData.map((season) => (
-        <Card
-          key={season.season}
-          title={
-            <>
-              <Link to={season.url}>第 {season.season} 赛季</Link>
-              {now >= +parseDate(season.startDate) && now <= +parseDate(season.endDate) && <Now />}
-            </>
-          }
-        >
-          <div className="flex-container">
-            {season.promotionRewards.map((reward) => (
-              <Fragment key={reward.levels}>
-                {reward.items.map((item) => (
-                  <ItemIconWithoutTooltip
-                    key={item.item}
-                    item={ItemDataByName[item.item]}
-                    size={64}
-                  />
-                ))}
-              </Fragment>
+  const seasonRewards = useMemo(() => {
+    const now = Date.now();
+    return data?.SeasonRewardData.map((season) => (
+      <Card
+        key={season.season}
+        title={
+          <>
+            <Link to={season.url}>第 {season.season} 赛季</Link>
+            {now >= +parseDate(season.startDate) && now <= +parseDate(season.endDate) && <Now />}
+          </>
+        }
+      >
+        <div className="flex-container">
+          {season.promotionRewards.map((reward) => (
+            <Fragment key={reward.levels}>
+              {reward.items.map((item) => (
+                <ItemIconWithoutTooltip
+                  key={item.item}
+                  item={ItemDataByName[item.item]}
+                  size={64}
+                />
+              ))}
+            </Fragment>
+          ))}
+        </div>
+        {season.promotionRewards.map((reward) => (
+          <div
+            key={reward.levels}
+            className="text-center"
+          >
+            {reward.levels}级别：
+            {reward.items.map((item) => (
+              <>
+                <Link to={`/i/${item.item}`}>{item.item}</Link>×{item.quantity}
+              </>
             ))}
           </div>
-          {season.promotionRewards.map((reward) => (
-            <div
-              key={reward.levels}
-              className="text-center"
-            >
-              {reward.levels}级别：
-              {reward.items.map((item) => (
-                <>
-                  <Link to={`/i/${item.item}`}>{item.item}</Link>×{item.quantity}
-                </>
-              ))}
-            </div>
-          ))}
-          <div>
-            <b>举办时间</b>：{formatDate(parseDate(season.startDate))}～{formatDate(parseDate(season.endDate))}
+        ))}
+        <div>
+          <b>举办时间</b>：{formatDate(parseDate(season.startDate))}～{formatDate(parseDate(season.endDate))}
+        </div>
+        {season.seasonRewards.map((reward) => (
+          <div key={reward.levels}>
+            <h4>{reward.levels}</h4>
+            <ItemRewardsTable
+              data={reward.items}
+              headers={["道具", "数量"]}
+            />
           </div>
-          {season.seasonRewards.map((reward) => (
-            <div key={reward.levels}>
-              <h4>{reward.levels}</h4>
-              <ItemRewardsTable
-                data={reward.items}
-                headers={["道具", "数量"]}
-              />
-            </div>
-          ))}
-        </Card>
-      )),
-    [data],
-  );
+        ))}
+      </Card>
+    ));
+  }, [data]);
 
   useLoadingAnchor([loading]);
 
@@ -412,7 +410,7 @@ const ActivityPage: React.FC = () => {
             <Card title="第 4 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
-                  item={ItemDataByName["无"]}
+                  item={ItemDataByName["戟脊龙进化石"]}
                   size={64}
                 />
               </div>
@@ -421,7 +419,7 @@ const ActivityPage: React.FC = () => {
             <Card title="第 5 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
-                  item={ItemDataByName["无"]}
+                  item={ItemDataByName["蜥蜴王进化石"]}
                   size={64}
                 />
               </div>
@@ -430,7 +428,7 @@ const ActivityPage: React.FC = () => {
             <Card title="第 6 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
-                  item={ItemDataByName["无"]}
+                  item={ItemDataByName["巨沼怪进化石"]}
                   size={64}
                 />
               </div>
@@ -439,7 +437,7 @@ const ActivityPage: React.FC = () => {
             <Card title="第 7 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
-                  item={ItemDataByName["无"]}
+                  item={ItemDataByName["火焰鸡进化石"]}
                   size={64}
                 />
               </div>

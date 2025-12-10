@@ -45,6 +45,18 @@
       "level": 24
     },
     {
+      "fullId": "122-0",
+      "level": 28
+    },
+    {
+      "fullId": "122-1",
+      "level": 28
+    },
+    {
+      "fullId": "137-0",
+      "level": 20
+    },
+    {
       "fullId": "150-0",
       "level": 12
     },
@@ -67,6 +79,10 @@
     {
       "fullId": "199-1",
       "level": 14
+    },
+    {
+      "fullId": "233-0",
+      "level": 20
     },
     {
       "fullId": "280-0",
@@ -105,12 +121,104 @@
       "level": 20
     },
     {
+      "fullId": "325-0",
+      "level": 14
+    },
+    {
+      "fullId": "326-0",
+      "level": 14
+    },
+    {
+      "fullId": "352-0",
+      "level": 18
+    },
+    {
+      "fullId": "358-0",
+      "level": -3
+    },
+    {
+      "fullId": "358-1",
+      "level": -3
+    },
+    {
+      "fullId": "380-0",
+      "level": 20
+    },
+    {
+      "fullId": "380-1",
+      "level": 20
+    },
+    {
+      "fullId": "381-0",
+      "level": 20
+    },
+    {
+      "fullId": "381-1",
+      "level": 20
+    },
+    {
+      "fullId": "439-0",
+      "level": 28
+    },
+    {
+      "fullId": "474-0",
+      "level": 20
+    },
+    {
       "fullId": "475-0",
       "level": 1
     },
     {
       "fullId": "475-1",
       "level": 1
+    },
+    {
+      "fullId": "479-0",
+      "level": 23
+    },
+    {
+      "fullId": "479-1",
+      "level": 23
+    },
+    {
+      "fullId": "479-2",
+      "level": 23
+    },
+    {
+      "fullId": "479-3",
+      "level": 23
+    },
+    {
+      "fullId": "479-4",
+      "level": 23
+    },
+    {
+      "fullId": "479-5",
+      "level": 23
+    },
+    {
+      "fullId": "491-0",
+      "level": 32
+    },
+    {
+      "fullId": "491-1",
+      "level": 32
+    },
+    {
+      "fullId": "517-0",
+      "level": 8
+    },
+    {
+      "fullId": "518-0",
+      "level": 8
+    },
+    {
+      "fullId": "648-0",
+      "level": 31
+    },
+    {
+      "fullId": "648-1",
+      "level": 31
     },
     {
       "fullId": "653-0",
@@ -221,6 +329,14 @@
       "level": 21
     },
     {
+      "fullId": "678-2",
+      "level": 21
+    },
+    {
+      "fullId": "678-3",
+      "level": 21
+    },
+    {
       "fullId": "682-0",
       "level": 24
     },
@@ -247,6 +363,38 @@
     {
       "fullId": "720-1",
       "level": 19
+    },
+    {
+      "fullId": "801-0",
+      "level": 30
+    },
+    {
+      "fullId": "801-1",
+      "level": 30
+    },
+    {
+      "fullId": "801-2",
+      "level": 30
+    },
+    {
+      "fullId": "801-3",
+      "level": 30
+    },
+    {
+      "fullId": "866-0",
+      "level": 28
+    },
+    {
+      "fullId": "876-0",
+      "level": 15
+    },
+    {
+      "fullId": "876-1",
+      "level": 15
+    },
+    {
+      "fullId": "1004-0",
+      "level": 20
     }
   ],
   "chargeFrame": 30,

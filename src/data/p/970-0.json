@@ -1,0 +1,174 @@
+{
+  "internal": 970,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 26,
+      "method": 4,
+      "argument": 0,
+      "previous": "970-0",
+      "target": "971-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 122
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 39
+    },
+    {
+      "level": 11,
+      "levelPlus": 14,
+      "move": 44
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 577
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 583
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 526
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 555
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 340
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 38
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 204
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 46
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 242
+    },
+    {
+      "level": 47,
+      "levelPlus": 50,
+      "move": 273
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 5,
+      "move": 46
+    },
+    {
+      "index": 14,
+      "move": 424
+    },
+    {
+      "index": 15,
+      "move": 423
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 103,
+      "move": 526
+    }
+  ],
+  "description": "会在自己体内培育酵母。自古以来便与人类共生，并带来丰富的饮食生活。",
+  "movesAlpha": 488
+}

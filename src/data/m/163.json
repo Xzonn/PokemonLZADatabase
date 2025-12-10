@@ -21,6 +21,26 @@
       "level": 24
     },
     {
+      "fullId": "052-0",
+      "level": 22
+    },
+    {
+      "fullId": "052-2",
+      "level": 22
+    },
+    {
+      "fullId": "053-0",
+      "level": 22
+    },
+    {
+      "fullId": "083-0",
+      "level": 30
+    },
+    {
+      "fullId": "083-1",
+      "level": 30
+    },
+    {
       "fullId": "123-0",
       "level": 24
     },
@@ -53,12 +73,52 @@
       "level": 24
     },
     {
+      "fullId": "252-0",
+      "level": 35
+    },
+    {
+      "fullId": "253-0",
+      "level": 35
+    },
+    {
+      "fullId": "254-0",
+      "level": 35
+    },
+    {
+      "fullId": "254-1",
+      "level": 35
+    },
+    {
+      "fullId": "255-0",
+      "level": 21
+    },
+    {
+      "fullId": "256-0",
+      "level": 21
+    },
+    {
+      "fullId": "257-0",
+      "level": 21
+    },
+    {
+      "fullId": "257-1",
+      "level": 21
+    },
+    {
       "fullId": "319-0",
       "level": -3
     },
     {
       "fullId": "319-1",
       "level": -3
+    },
+    {
+      "fullId": "335-0",
+      "level": 19
+    },
+    {
+      "fullId": "352-0",
+      "level": 25
     },
     {
       "fullId": "354-0",
@@ -74,6 +134,10 @@
     },
     {
       "fullId": "359-1",
+      "level": 23
+    },
+    {
+      "fullId": "359-2",
       "level": 23
     },
     {
@@ -93,12 +157,24 @@
       "level": 30
     },
     {
+      "fullId": "445-2",
+      "level": 30
+    },
+    {
       "fullId": "475-0",
       "level": -3
     },
     {
       "fullId": "475-1",
       "level": -3
+    },
+    {
+      "fullId": "509-0",
+      "level": 24
+    },
+    {
+      "fullId": "510-0",
+      "level": 24
     },
     {
       "fullId": "529-0",
@@ -111,6 +187,10 @@
     {
       "fullId": "530-1",
       "level": 24
+    },
+    {
+      "fullId": "615-0",
+      "level": 28
     },
     {
       "fullId": "674-0",
@@ -159,6 +239,62 @@
     {
       "fullId": "689-1",
       "level": 23
+    },
+    {
+      "fullId": "768-0",
+      "level": 28
+    },
+    {
+      "fullId": "768-1",
+      "level": 28
+    },
+    {
+      "fullId": "778-0",
+      "level": 28
+    },
+    {
+      "fullId": "778-1",
+      "level": 28
+    },
+    {
+      "fullId": "807-0",
+      "level": 24
+    },
+    {
+      "fullId": "807-1",
+      "level": 24
+    },
+    {
+      "fullId": "821-0",
+      "level": 36
+    },
+    {
+      "fullId": "822-0",
+      "level": 36
+    },
+    {
+      "fullId": "823-0",
+      "level": 36
+    },
+    {
+      "fullId": "863-0",
+      "level": 22
+    },
+    {
+      "fullId": "865-0",
+      "level": 30
+    },
+    {
+      "fullId": "900-0",
+      "level": 24
+    },
+    {
+      "fullId": "968-0",
+      "level": 21
+    },
+    {
+      "fullId": "969-0",
+      "level": 21
     }
   ],
   "chargeFrame": 10,

@@ -1,0 +1,241 @@
+{
+  "internal": 445,
+  "form": 2,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 24,
+      "method": 4,
+      "argument": 0,
+      "previous": "443-0",
+      "target": "444-0"
+    },
+    {
+      "level": 48,
+      "method": 4,
+      "argument": 0,
+      "previous": "444-0",
+      "target": "445-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 51,
+      "move": 242
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 328
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 225
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 523
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 44
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 163
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 337
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 91
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 36
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 407
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 2,
+      "move": 337
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 14,
+      "move": 424
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 54,
+      "move": 434
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 93,
+      "move": 200
+    }
+  ],
+  "description": "新的超级进化的样子。它会以音速四处飞行，用翅膀上骇人的爪子撕裂敌人。",
+  "movesAlpha": 398
+}

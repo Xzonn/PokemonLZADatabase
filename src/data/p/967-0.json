@@ -1,0 +1,220 @@
+{
+  "internal": 967,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 25,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 35,
+      "method": 4,
+      "argument": 0,
+      "previous": "966-0",
+      "target": "967-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 38,
+      "move": 390
+    },
+    {
+      "level": -3,
+      "levelPlus": 38,
+      "move": 800
+    },
+    {
+      "level": -3,
+      "levelPlus": 38,
+      "move": 866
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 88
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 596
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 491
+    },
+    {
+      "level": 11,
+      "levelPlus": 14,
+      "move": 246
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 109
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 446
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 350
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 120
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 157
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 408
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 151
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 482
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 153
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 7,
+      "move": 92
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 48,
+      "move": 120
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 100,
+      "move": 441
+    }
+  ],
+  "description": "绽放出大朵由毒成分构成的花。会与晶光芽们互相配合一起击退敌人。",
+  "movesAlpha": 412
+}

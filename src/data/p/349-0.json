@@ -1,0 +1,116 @@
+{
+  "internal": 349,
+  "form": 0,
+  "expGrowth": 1,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 16,
+      "argument": 170,
+      "previous": "349-0",
+      "target": "350-0"
+    },
+    {
+      "level": 0,
+      "method": 6,
+      "argument": 537,
+      "previous": "349-0",
+      "target": "350-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 150
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 33
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 41,
+      "move": 352
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 70,
+      "move": 250
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 105,
+      "move": 59
+    }
+  ],
+  "description": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。",
+  "movesAlpha": 58
+}

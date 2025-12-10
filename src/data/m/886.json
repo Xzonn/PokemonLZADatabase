@@ -1,0 +1,28 @@
+{
+  "chargeFrame": 20,
+  "attackLoopFrame": 20,
+  "wazaRangeMin": 0.5,
+  "wazaRangeMax": 99,
+  "effectiveRange": 25,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 8,
+  "inflictValue": 0,
+  "inflictChance": 0,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    1,
+    -1,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

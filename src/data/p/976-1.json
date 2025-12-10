@@ -1,0 +1,84 @@
+{
+  "internal": 976,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 54,
+      "argument": 999,
+      "previous": "976-0",
+      "target": "977-0"
+    },
+    {
+      "level": 0,
+      "method": 54,
+      "argument": 999,
+      "previous": "976-1",
+      "target": "977-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 109
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    }
+  ],
+  "description": "快要被人类或宝可梦发现时，会只留下硬币，让本体变透明来保护自己。",
+  "movesAlpha": 408
+}

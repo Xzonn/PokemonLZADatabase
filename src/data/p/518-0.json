@@ -1,0 +1,182 @@
+{
+  "internal": 518,
+  "form": 0,
+  "expGrowth": 4,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 2,
+      "previous": "517-0",
+      "target": "518-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 95
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 60
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 133
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 236
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 204
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 428
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 138
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 347
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 94
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 585
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 248
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 60,
+      "move": 248
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 97,
+      "move": 377
+    }
+  ],
+  "description": "会将吃掉的梦实体化。从额头漏出的烟雾会变成梦中出现之物的样子。",
+  "movesAlpha": 247
+}

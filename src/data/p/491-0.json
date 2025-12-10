@@ -1,0 +1,243 @@
+{
+  "internal": 491,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    1
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 109
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 425
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 693
+    },
+    {
+      "level": 11,
+      "levelPlus": 14,
+      "move": 98
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 555
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 95
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 60
+    },
+    {
+      "level": 47,
+      "levelPlus": 50,
+      "move": 104
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 248
+    },
+    {
+      "level": 57,
+      "levelPlus": 60,
+      "move": 114
+    },
+    {
+      "level": 66,
+      "levelPlus": 69,
+      "move": 464
+    },
+    {
+      "level": 70,
+      "levelPlus": 73,
+      "move": 566
+    },
+    {
+      "level": 75,
+      "levelPlus": 78,
+      "move": 417
+    },
+    {
+      "level": 84,
+      "levelPlus": 87,
+      "move": 138
+    },
+    {
+      "level": 93,
+      "levelPlus": 96,
+      "move": 399
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 60,
+      "move": 248
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "拥有诱使人们进入深度睡眠并做梦的能力。在朔月的夜晚活动。",
+  "movesAlpha": 182
+}

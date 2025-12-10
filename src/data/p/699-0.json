@@ -28,6 +28,11 @@
   ],
   "movesLevelUp": [
     {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 665
+    },
+    {
       "level": 1,
       "levelPlus": 10,
       "move": 33

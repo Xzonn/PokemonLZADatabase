@@ -1,0 +1,150 @@
+{
+  "internal": 938,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 190,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 8,
+      "argument": 3,
+      "previous": "938-0",
+      "target": "939-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 670
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 44
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 205
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 74
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 75
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 73
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 331
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 29
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 428
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 345
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 162
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 242
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 402
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 76
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 85,
+      "move": 164
+    }
+  ],
+  "description": "或许是受辣味成分影响，它的情绪起伏非常剧烈。若不满便会直接咬过去。",
+  "movesAlpha": 263
+}

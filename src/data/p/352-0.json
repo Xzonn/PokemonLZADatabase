@@ -1,0 +1,230 @@
+{
+  "internal": 352,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 200,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 122
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 160
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 164
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 425
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 880
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 282
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 60
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 157
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 163
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 446
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 421
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 103
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 176
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 438
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 99,
+      "move": 118
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "改变身体颜色，融入景色中，悄悄地靠近猎物。但腹部的花纹是不会消失的。",
+  "movesAlpha": 332
+}

@@ -1,0 +1,274 @@
+{
+  "internal": 381,
+  "form": 1,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    1,
+    0
+  ],
+  "baseFriendship": 90,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 295
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 526
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 239
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 105
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 93
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 60
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 225
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 273
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 352
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 428
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 406
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 396
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 595
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 94
+    },
+    {
+      "level": 65,
+      "levelPlus": 68,
+      "move": 403
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 2,
+      "move": 337
+    },
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 5,
+      "move": 46
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 9,
+      "move": 812
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 41,
+      "move": 352
+    },
+    {
+      "index": 43,
+      "move": 19
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 54,
+      "move": 434
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 60,
+      "move": 248
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 70,
+      "move": 250
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "飞行速度超过４马赫。拥有在宝可梦中顶级的空中战斗力。",
+  "movesAlpha": 182
+}

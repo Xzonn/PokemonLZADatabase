@@ -1,6 +1,10 @@
 {
   "pokemonLevelUp": [
     {
+      "fullId": "105-1",
+      "level": -3
+    },
+    {
       "fullId": "136-0",
       "level": 25
     },

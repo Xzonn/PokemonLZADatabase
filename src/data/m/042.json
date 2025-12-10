@@ -21,6 +21,14 @@
       "level": 27
     },
     {
+      "fullId": "211-0",
+      "level": 32
+    },
+    {
+      "fullId": "211-1",
+      "level": 32
+    },
+    {
       "fullId": "214-0",
       "level": 10
     },
@@ -67,6 +75,18 @@
     {
       "fullId": "652-1",
       "level": 18
+    },
+    {
+      "fullId": "768-0",
+      "level": 42
+    },
+    {
+      "fullId": "768-1",
+      "level": 42
+    },
+    {
+      "fullId": "904-0",
+      "level": 32
     }
   ],
   "chargeFrame": 20,

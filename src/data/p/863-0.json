@@ -1,0 +1,295 @@
+{
+  "internal": 863,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 28,
+      "method": 4,
+      "argument": 0,
+      "previous": "052-2",
+      "target": "863-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 31,
+      "move": 442
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 6
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 39
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 44
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 269
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 232
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 103
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 163
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 417
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 95
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 36
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 204
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 319
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 102
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 200
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 34,
+      "move": 400
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 41,
+      "move": 352
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 99,
+      "move": 118
+    },
+    {
+      "index": 100,
+      "move": 441
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 106,
+      "move": 87
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "战斗中的实力无与伦比，留下了无数的英勇事迹，但栖身之处却堆满垃圾。",
+  "movesAlpha": 583
+}

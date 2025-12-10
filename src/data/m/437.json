@@ -33,6 +33,22 @@
       "level": 56
     },
     {
+      "fullId": "252-0",
+      "level": 55
+    },
+    {
+      "fullId": "253-0",
+      "level": 55
+    },
+    {
+      "fullId": "254-0",
+      "level": 55
+    },
+    {
+      "fullId": "254-1",
+      "level": 55
+    },
+    {
       "fullId": "315-0",
       "level": 55
     },
@@ -57,12 +73,24 @@
       "level": 50
     },
     {
+      "fullId": "479-5",
+      "level": 1
+    },
+    {
       "fullId": "511-0",
       "level": 32
     },
     {
       "fullId": "512-0",
       "level": 32
+    },
+    {
+      "fullId": "590-0",
+      "level": 62
+    },
+    {
+      "fullId": "591-0",
+      "level": 62
     }
   ],
   "chargeFrame": 20,

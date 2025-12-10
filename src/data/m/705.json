@@ -1,0 +1,46 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "801-0",
+      "level": 80
+    },
+    {
+      "fullId": "801-1",
+      "level": 80
+    },
+    {
+      "fullId": "801-2",
+      "level": 80
+    },
+    {
+      "fullId": "801-3",
+      "level": 80
+    }
+  ],
+  "chargeFrame": 35,
+  "attackLoopFrame": 60,
+  "wazaRangeMin": 1,
+  "wazaRangeMax": 99,
+  "effectiveRange": 19,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 15,
+  "inflictValue": 0,
+  "inflictChance": 0,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    3,
+    -2,
+    100,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

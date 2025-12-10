@@ -1,0 +1,232 @@
+{
+  "internal": 740,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 60,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 39,
+      "argument": 0,
+      "previous": "739-0",
+      "target": "740-0"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 52,
+      "previous": "739-0",
+      "target": "740-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 8
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 249
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 43
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 61
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 182
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 36
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 280
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 339
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 183
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 665
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 334
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 223
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 4,
+      "move": 249
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 100,
+      "move": 441
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "被厚厚的冰所包覆的拳头只需要轻轻一挥，连钢筋混凝土都能粉碎。",
+  "movesAlpha": 89
+}

@@ -1,0 +1,150 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "039-0",
+      "level": 28
+    },
+    {
+      "fullId": "040-0",
+      "level": 28
+    },
+    {
+      "fullId": "052-2",
+      "level": 44
+    },
+    {
+      "fullId": "053-0",
+      "level": 44
+    },
+    {
+      "fullId": "053-1",
+      "level": 44
+    },
+    {
+      "fullId": "122-0",
+      "level": 32
+    },
+    {
+      "fullId": "122-1",
+      "level": 32
+    },
+    {
+      "fullId": "174-0",
+      "level": 28
+    },
+    {
+      "fullId": "439-0",
+      "level": 32
+    },
+    {
+      "fullId": "509-0",
+      "level": 1
+    },
+    {
+      "fullId": "510-0",
+      "level": 1
+    },
+    {
+      "fullId": "778-0",
+      "level": 24
+    },
+    {
+      "fullId": "778-1",
+      "level": 24
+    },
+    {
+      "fullId": "827-0",
+      "level": 26
+    },
+    {
+      "fullId": "828-0",
+      "level": 26
+    },
+    {
+      "fullId": "863-0",
+      "level": 44
+    },
+    {
+      "fullId": "866-0",
+      "level": 32
+    },
+    {
+      "fullId": "952-0",
+      "level": 34
+    },
+    {
+      "fullId": "952-1",
+      "level": 34
+    },
+    {
+      "fullId": "952-2",
+      "level": 34
+    },
+    {
+      "fullId": "952-3",
+      "level": 34
+    },
+    {
+      "fullId": "952-4",
+      "level": 34
+    },
+    {
+      "fullId": "952-5",
+      "level": 34
+    },
+    {
+      "fullId": "960-0",
+      "level": 27
+    },
+    {
+      "fullId": "960-1",
+      "level": 27
+    },
+    {
+      "fullId": "960-2",
+      "level": 27
+    },
+    {
+      "fullId": "960-3",
+      "level": 27
+    },
+    {
+      "fullId": "961-0",
+      "level": 1
+    },
+    {
+      "fullId": "968-0",
+      "level": 10
+    },
+    {
+      "fullId": "969-0",
+      "level": 10
+    }
+  ],
+  "chargeFrame": 10,
+  "attackLoopFrame": 30,
+  "wazaRangeMin": 1,
+  "wazaRangeMax": 99,
+  "effectiveRange": 99,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 0,
+  "inflictValue": 0,
+  "inflictChance": 0,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

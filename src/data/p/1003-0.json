@@ -1,0 +1,122 @@
+{
+  "internal": 1003,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 85,
+      "previous": "1003-0",
+      "target": "1004-0"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 86,
+      "previous": "1003-0",
+      "target": "1005-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 108
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 109
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 83
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 261
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 488
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 436
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 50,
+      "move": 315
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 72,
+      "move": 83
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 104,
+      "move": 394
+    }
+  ],
+  "description": "会使用操纵火焰的招式，自古以来就一直都是深受人类重视的宝可梦。",
+  "movesAlpha": 466
+}

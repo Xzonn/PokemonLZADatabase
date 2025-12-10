@@ -33,6 +33,22 @@
       "level": 12
     },
     {
+      "fullId": "252-0",
+      "level": 30
+    },
+    {
+      "fullId": "253-0",
+      "level": 30
+    },
+    {
+      "fullId": "254-0",
+      "level": 30
+    },
+    {
+      "fullId": "254-1",
+      "level": 30
+    },
+    {
       "fullId": "333-0",
       "level": 20
     },
@@ -61,6 +77,22 @@
       "level": 10
     },
     {
+      "fullId": "380-0",
+      "level": 25
+    },
+    {
+      "fullId": "380-1",
+      "level": 25
+    },
+    {
+      "fullId": "381-0",
+      "level": 25
+    },
+    {
+      "fullId": "381-1",
+      "level": 25
+    },
+    {
       "fullId": "443-0",
       "level": 12
     },
@@ -74,6 +106,10 @@
     },
     {
       "fullId": "445-1",
+      "level": 12
+    },
+    {
+      "fullId": "445-2",
       "level": 12
     },
     {
@@ -127,6 +163,22 @@
     {
       "fullId": "780-1",
       "level": 20
+    },
+    {
+      "fullId": "949-0",
+      "level": 12
+    },
+    {
+      "fullId": "950-0",
+      "level": 12
+    },
+    {
+      "fullId": "951-0",
+      "level": 12
+    },
+    {
+      "fullId": "951-1",
+      "level": 12
     }
   ],
   "chargeFrame": 20,

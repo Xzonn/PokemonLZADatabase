@@ -1,0 +1,207 @@
+{
+  "internal": 973,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 4,
+      "argument": 0,
+      "previous": "972-0",
+      "target": "973-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 122
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 555
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 204
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 44
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 46
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 29
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 116
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 269
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 207
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 340
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 242
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 679
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 38
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 200
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 4,
+      "move": 249
+    },
+    {
+      "index": 5,
+      "move": 46
+    },
+    {
+      "index": 14,
+      "move": 424
+    },
+    {
+      "index": 15,
+      "move": 423
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 95,
+      "move": 269
+    }
+  ],
+  "description": "拥有和外表不相称的好心肠。但如果家人受到对手威胁，则会无情地追击并了结对手。",
+  "movesAlpha": 583
+}

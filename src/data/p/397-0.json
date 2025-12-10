@@ -1,0 +1,167 @@
+{
+  "internal": 397,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 120,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [
+    {
+      "level": 14,
+      "method": 4,
+      "argument": 0,
+      "previous": "396-0",
+      "target": "397-0"
+    },
+    {
+      "level": 34,
+      "method": 4,
+      "argument": 0,
+      "previous": "397-0",
+      "target": "398-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 64
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 98
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 16
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 17
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 104
+    },
+    {
+      "level": 19,
+      "levelPlus": 22,
+      "move": 297
+    },
+    {
+      "level": 23,
+      "levelPlus": 26,
+      "move": 18
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 332
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 36
+    },
+    {
+      "level": 41,
+      "levelPlus": 44,
+      "move": 97
+    },
+    {
+      "level": 49,
+      "levelPlus": 52,
+      "move": 413
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 43,
+      "move": 19
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 79,
+      "move": 542
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 94,
+      "move": 18
+    },
+    {
+      "index": 103,
+      "move": 526
+    }
+  ],
+  "description": "栖息在森林和草原。如果遇到同类的团队，就会开始争夺领地。",
+  "movesAlpha": 257
+}

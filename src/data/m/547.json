@@ -1,0 +1,38 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "648-0",
+      "level": 50
+    },
+    {
+      "fullId": "648-1",
+      "level": 50
+    }
+  ],
+  "chargeFrame": 0,
+  "attackLoopFrame": 60,
+  "wazaRangeMin": 0.5,
+  "wazaRangeMax": 2,
+  "effectiveRange": 7,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 0,
+  "inflictValue": 2,
+  "inflictChance": 10,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

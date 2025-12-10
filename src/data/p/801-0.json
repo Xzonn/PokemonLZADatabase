@@ -1,0 +1,235 @@
+{
+  "internal": 801,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    3,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 319
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 574
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 205
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 577
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 334
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 451
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 598
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 60
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 161
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 443
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 473
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 442
+    },
+    {
+      "level": 66,
+      "levelPlus": 69,
+      "move": 396
+    },
+    {
+      "level": 72,
+      "levelPlus": 75,
+      "move": 430
+    },
+    {
+      "level": 80,
+      "levelPlus": 83,
+      "move": 705
+    },
+    {
+      "level": 84,
+      "levelPlus": 87,
+      "move": 192
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 48,
+      "move": 120
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 102,
+      "move": 411
+    }
+  ],
+  "description": "大约５００年前由科学家制作而成。被称为魂心的部分是它的本体。",
+  "movesAlpha": 182
+}

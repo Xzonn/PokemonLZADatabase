@@ -1,0 +1,230 @@
+{
+  "internal": 26,
+  "form": 2,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 1,
+      "argument": 0,
+      "previous": "172-0",
+      "target": "025-0"
+    },
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 4,
+      "previous": "025-0",
+      "target": "026-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 9
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 577
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 598
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 86
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 609
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 209
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 204
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 85
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 268
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 113
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 87
+    },
+    {
+      "level": 99,
+      "levelPlus": 100,
+      "move": 344
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
+      "move": 435
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "从双耳和分叉的尾巴发出５０００万伏特的电光，并以Ｘ字的样子飞翔。",
+  "movesAlpha": 583
+}

@@ -1,0 +1,206 @@
+{
+  "internal": 1002,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    2,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 24,
+      "method": 4,
+      "argument": 0,
+      "previous": "1000-0",
+      "target": "1001-0"
+    },
+    {
+      "level": 38,
+      "method": 4,
+      "argument": 0,
+      "previous": "1001-0",
+      "target": "1002-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 41,
+      "move": 452
+    },
+    {
+      "level": -3,
+      "levelPlus": 41,
+      "move": 665
+    },
+    {
+      "level": -3,
+      "levelPlus": 41,
+      "move": 893
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 584
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 232
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 88
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 249
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 577
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 103
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 693
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 313
+    },
+    {
+      "level": 31,
+      "levelPlus": 34,
+      "move": 430
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 583
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 282
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 484
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 4,
+      "move": 249
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 99,
+      "move": 118
+    }
+  ],
+  "description": "会把技术传授给自己率领的群体里的小锻匠，教它们如何把金属敲打成形。",
+  "movesAlpha": 444
+}

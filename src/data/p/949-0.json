@@ -1,0 +1,172 @@
+{
+  "internal": 949,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 35,
+      "method": 4,
+      "argument": 0,
+      "previous": "949-0",
+      "target": "950-0"
+    },
+    {
+      "level": 54,
+      "method": 4,
+      "argument": 0,
+      "previous": "950-0",
+      "target": "951-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 196
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 225
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 116
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 44
+    },
+    {
+      "level": 29,
+      "levelPlus": 32,
+      "move": 423
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 337
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 36
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 58
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 242
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 573
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 556
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 407
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 2,
+      "move": 337
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 15,
+      "move": 423
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 54,
+      "move": 434
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 105,
+      "move": 59
+    }
+  ],
+  "description": "背鳍能将火属性招式的热能转换为冰属性的能量并冻结空气。",
+  "movesAlpha": 91
+}

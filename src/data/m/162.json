@@ -39,6 +39,34 @@
     {
       "fullId": "715-0",
       "level": 32
+    },
+    {
+      "fullId": "877-0",
+      "level": 38
+    },
+    {
+      "fullId": "877-1",
+      "level": 38
+    },
+    {
+      "fullId": "938-0",
+      "level": 35
+    },
+    {
+      "fullId": "939-0",
+      "level": 35
+    },
+    {
+      "fullId": "939-1",
+      "level": 35
+    },
+    {
+      "fullId": "968-0",
+      "level": 18
+    },
+    {
+      "fullId": "969-0",
+      "level": 18
     }
   ],
   "chargeFrame": 20,

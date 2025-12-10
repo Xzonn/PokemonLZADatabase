@@ -20,6 +20,16 @@
   "evolutions": [],
   "movesLevelUp": [
     {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 555
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 566
+    },
+    {
       "level": 1,
       "levelPlus": 10,
       "move": 43
@@ -28,6 +38,16 @@
       "level": 1,
       "levelPlus": 10,
       "move": 98
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 109
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 425
     },
     {
       "level": 10,

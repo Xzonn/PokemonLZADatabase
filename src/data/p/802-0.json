@@ -1,0 +1,209 @@
+{
+  "internal": 802,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 7
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 8
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 9
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 425
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 612
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 325
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 183
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 693
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 396
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 530
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 409
+    },
+    {
+      "level": 64,
+      "levelPlus": 67,
+      "move": 566
+    },
+    {
+      "level": 72,
+      "levelPlus": 75,
+      "move": 712
+    },
+    {
+      "level": 80,
+      "levelPlus": 83,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "能潜入对方的影子，模仿对方的动作和力量。在模仿的过程中会变得比本尊更强。",
+  "movesAlpha": 182
+}

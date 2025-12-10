@@ -1,0 +1,46 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "137-0",
+      "level": 25
+    },
+    {
+      "fullId": "233-0",
+      "level": 25
+    },
+    {
+      "fullId": "352-0",
+      "level": 42
+    },
+    {
+      "fullId": "474-0",
+      "level": 25
+    }
+  ],
+  "chargeFrame": 15,
+  "attackLoopFrame": 25,
+  "wazaRangeMin": 0.5,
+  "wazaRangeMax": 3,
+  "effectiveRange": 99,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 0,
+  "inflictValue": 0,
+  "inflictChance": 0,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

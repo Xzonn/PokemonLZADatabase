@@ -1,0 +1,225 @@
+{
+  "internal": 336,
+  "form": 0,
+  "expGrowth": 2,
+  "catchRate": 90,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 122
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 103
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 555
+    },
+    {
+      "level": 19,
+      "levelPlus": 22,
+      "move": 137
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 305
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 784
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 400
+    },
+    {
+      "level": 31,
+      "levelPlus": 34,
+      "move": 398
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 114
+    },
+    {
+      "level": 39,
+      "levelPlus": 42,
+      "move": 242
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 188
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 441
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 7,
+      "move": 92
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 14,
+      "move": 424
+    },
+    {
+      "index": 15,
+      "move": 423
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 34,
+      "move": 400
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 100,
+      "move": 441
+    }
+  ],
+  "description": "会用渗出剧毒的锋利尾巴来对抗敏捷的猫鼬斩。",
+  "movesAlpha": 402
+}

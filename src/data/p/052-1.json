@@ -1,0 +1,261 @@
+{
+  "internal": 52,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 255,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "evolutions": [
+    {
+      "level": 28,
+      "method": 4,
+      "argument": 0,
+      "previous": "052-0",
+      "target": "053-0"
+    },
+    {
+      "level": 0,
+      "method": 1,
+      "argument": 0,
+      "previous": "052-1",
+      "target": "053-1"
+    },
+    {
+      "level": 28,
+      "method": 4,
+      "argument": 0,
+      "previous": "052-2",
+      "target": "863-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 6
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 39
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 555
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 575
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 44
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 269
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 232
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 103
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 400
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 417
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 95
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 36
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 204
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 313
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 583
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 34,
+      "move": 400
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 41,
+      "move": 352
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 99,
+      "move": 118
+    },
+    {
+      "index": 100,
+      "move": 441
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "浮躁、任性、耐不住性子。深受那些比起被别人照顾，更喜欢照顾别人的训练家欢迎。",
+  "movesAlpha": 332
+}

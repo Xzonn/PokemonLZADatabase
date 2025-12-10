@@ -1,0 +1,229 @@
+{
+  "internal": 233,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 6,
+      "argument": 252,
+      "previous": "137-0",
+      "target": "233-0"
+    },
+    {
+      "level": 0,
+      "method": 6,
+      "argument": 324,
+      "previous": "233-0",
+      "target": "474-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 109
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 160
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 268
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 598
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 84
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 60
+    },
+    {
+      "level": 25,
+      "levelPlus": 28,
+      "move": 176
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 97
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 105
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 435
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 319
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 120
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 192
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 63
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
+      "move": 435
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 48,
+      "move": 120
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "将行星的开发纳入视野，以当时的最新技术升级了多边兽。",
+  "movesAlpha": 94
+}

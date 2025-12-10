@@ -1,6 +1,14 @@
 {
   "pokemonLevelUp": [
     {
+      "fullId": "041-0",
+      "level": 30
+    },
+    {
+      "fullId": "042-0",
+      "level": 30
+    },
+    {
       "fullId": "092-0",
       "level": 1
     },
@@ -29,6 +37,22 @@
       "level": 8
     },
     {
+      "fullId": "122-0",
+      "level": 1
+    },
+    {
+      "fullId": "122-1",
+      "level": 1
+    },
+    {
+      "fullId": "137-0",
+      "level": 1
+    },
+    {
+      "fullId": "169-0",
+      "level": 30
+    },
+    {
       "fullId": "179-0",
       "level": 17
     },
@@ -47,6 +71,10 @@
     {
       "fullId": "197-0",
       "level": 20
+    },
+    {
+      "fullId": "233-0",
+      "level": 1
     },
     {
       "fullId": "280-0",
@@ -73,6 +101,14 @@
       "level": 22
     },
     {
+      "fullId": "325-0",
+      "level": 22
+    },
+    {
+      "fullId": "326-0",
+      "level": 22
+    },
+    {
       "fullId": "353-0",
       "level": 8
     },
@@ -83,6 +119,26 @@
     {
       "fullId": "354-1",
       "level": 8
+    },
+    {
+      "fullId": "359-0",
+      "level": 1
+    },
+    {
+      "fullId": "359-1",
+      "level": 1
+    },
+    {
+      "fullId": "359-2",
+      "level": 1
+    },
+    {
+      "fullId": "439-0",
+      "level": 1
+    },
+    {
+      "fullId": "474-0",
+      "level": 1
     },
     {
       "fullId": "475-0",
@@ -101,8 +157,52 @@
       "level": 15
     },
     {
+      "fullId": "479-0",
+      "level": 8
+    },
+    {
+      "fullId": "479-1",
+      "level": 8
+    },
+    {
+      "fullId": "479-2",
+      "level": 8
+    },
+    {
+      "fullId": "479-3",
+      "level": 8
+    },
+    {
+      "fullId": "479-4",
+      "level": 8
+    },
+    {
+      "fullId": "479-5",
+      "level": 8
+    },
+    {
+      "fullId": "491-0",
+      "level": 1
+    },
+    {
+      "fullId": "491-1",
+      "level": 1
+    },
+    {
       "fullId": "505-0",
       "level": -3
+    },
+    {
+      "fullId": "562-0",
+      "level": 8
+    },
+    {
+      "fullId": "562-1",
+      "level": 8
+    },
+    {
+      "fullId": "563-0",
+      "level": 8
     },
     {
       "fullId": "604-0",
@@ -127,6 +227,10 @@
     {
       "fullId": "609-1",
       "level": 12
+    },
+    {
+      "fullId": "615-0",
+      "level": 4
     },
     {
       "fullId": "708-0",
@@ -167,6 +271,50 @@
     {
       "fullId": "711-3",
       "level": 8
+    },
+    {
+      "fullId": "866-0",
+      "level": 1
+    },
+    {
+      "fullId": "867-0",
+      "level": 8
+    },
+    {
+      "fullId": "966-0",
+      "level": 14
+    },
+    {
+      "fullId": "967-0",
+      "level": 14
+    },
+    {
+      "fullId": "967-1",
+      "level": 14
+    },
+    {
+      "fullId": "976-0",
+      "level": 1
+    },
+    {
+      "fullId": "976-1",
+      "level": 1
+    },
+    {
+      "fullId": "977-0",
+      "level": 1
+    },
+    {
+      "fullId": "1003-0",
+      "level": 10
+    },
+    {
+      "fullId": "1004-0",
+      "level": 10
+    },
+    {
+      "fullId": "1005-0",
+      "level": 10
     }
   ],
   "chargeFrame": 20,

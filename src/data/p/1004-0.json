@@ -1,0 +1,214 @@
+{
+  "internal": 1004,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 25,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 20,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 8,
+      "argument": 85,
+      "previous": "1003-0",
+      "target": "1004-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 473
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 52
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 595
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 108
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 109
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 83
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 261
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 60
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 488
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 436
+    },
+    {
+      "level": 37,
+      "levelPlus": 40,
+      "move": 347
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 890
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 53
+    },
+    {
+      "level": 62,
+      "levelPlus": 65,
+      "move": 396
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 50,
+      "move": 315
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 60,
+      "move": 248
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 72,
+      "move": 83
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 104,
+      "move": 394
+    }
+  ],
+  "description": "它会对训练家宣誓忠诚，但为了锻炼超能力能量，会独自反复进行训练。",
+  "movesAlpha": 412
+}

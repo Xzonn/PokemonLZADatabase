@@ -1,0 +1,213 @@
+{
+  "internal": 939,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 8,
+      "argument": 3,
+      "previous": "938-0",
+      "target": "939-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 53
+    },
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 858
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 670
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 44
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 205
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 74
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 75
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 73
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 331
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 29
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 428
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 345
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 162
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 242
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 402
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 76
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 315
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 14,
+      "move": 424
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 50,
+      "move": 315
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 72,
+      "move": 83
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 104,
+      "move": 394
+    }
+  ],
+  "description": "超级进化后辣味更强了。会挥舞变得像领带的部分狠狠地殴打对手。",
+  "movesAlpha": 200
+}

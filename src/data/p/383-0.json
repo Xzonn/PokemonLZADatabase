@@ -1,0 +1,296 @@
+{
+  "internal": 383,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 246
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 328
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 341
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 436
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 414
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 339
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 350
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 83
+    },
+    {
+      "level": 34,
+      "levelPlus": 37,
+      "move": 89
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 484
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 444
+    },
+    {
+      "level": 45,
+      "levelPlus": 48,
+      "move": 90
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 619
+    },
+    {
+      "level": 62,
+      "levelPlus": 65,
+      "move": 223
+    },
+    {
+      "level": 68,
+      "levelPlus": 71,
+      "move": 126
+    },
+    {
+      "level": 75,
+      "levelPlus": 78,
+      "move": 535
+    },
+    {
+      "level": 81,
+      "levelPlus": 84,
+      "move": 76
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 2,
+      "move": 337
+    },
+    {
+      "index": 5,
+      "move": 46
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 14,
+      "move": 424
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 38,
+      "move": 126
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 50,
+      "move": 315
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 57,
+      "move": 261
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 62,
+      "move": 53
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 68,
+      "move": 257
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 72,
+      "move": 83
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "据说能用高温蒸发水分扩张大地。曾与盖欧卡激烈交战。",
+  "movesAlpha": 182
+}

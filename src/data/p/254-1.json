@@ -1,0 +1,273 @@
+{
+  "internal": 254,
+  "form": 1,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    12
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "evolutions": [
+    {
+      "level": 16,
+      "method": 4,
+      "argument": 0,
+      "previous": "252-0",
+      "target": "253-0"
+    },
+    {
+      "level": 36,
+      "method": 4,
+      "argument": 0,
+      "previous": "253-0",
+      "target": "254-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 880
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 404
+    },
+    {
+      "level": 3,
+      "levelPlus": 6,
+      "move": 670
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 98
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 71
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 197
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 73
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 202
+    },
+    {
+      "level": 27,
+      "levelPlus": 30,
+      "move": 104
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 225
+    },
+    {
+      "level": 33,
+      "levelPlus": 36,
+      "move": 412
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 163
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 348
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 103
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 407
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 235
+    },
+    {
+      "level": 55,
+      "levelPlus": 58,
+      "move": 437
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 2,
+      "move": 337
+    },
+    {
+      "index": 5,
+      "move": 46
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 34,
+      "move": 400
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 75,
+      "move": 406
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 103,
+      "move": 526
+    }
+  ],
+  "description": "会引爆背部积蓄了超级进化能量的种子，将尾巴的前端发射出去。",
+  "movesAlpha": 89
+}

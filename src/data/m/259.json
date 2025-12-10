@@ -1,0 +1,62 @@
+{
+  "pokemonLevelUp": [
+    {
+      "fullId": "509-0",
+      "level": 16
+    },
+    {
+      "fullId": "510-0",
+      "level": 16
+    },
+    {
+      "fullId": "877-0",
+      "level": 40
+    },
+    {
+      "fullId": "877-1",
+      "level": 40
+    },
+    {
+      "fullId": "960-0",
+      "level": 10
+    },
+    {
+      "fullId": "960-1",
+      "level": 10
+    },
+    {
+      "fullId": "960-2",
+      "level": 10
+    },
+    {
+      "fullId": "960-3",
+      "level": 10
+    }
+  ],
+  "chargeFrame": 30,
+  "attackLoopFrame": 20,
+  "wazaRangeMin": 0.5,
+  "wazaRangeMax": 5,
+  "effectiveRange": 99,
+  "minShootNum": 1,
+  "hitPer": 100,
+  "effectTime": 0,
+  "inflictValue": 12,
+  "inflictChance": 0,
+  "critStage": 0,
+  "flinch": 0,
+  "recoil": 0,
+  "selfHeal": 0,
+  "damageHeal": 0,
+  "statAmps": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "internal": 648,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 100,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 47
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 93
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 11,
+      "levelPlus": 14,
+      "move": 574
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 313
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 14
+    },
+    {
+      "level": 31,
+      "levelPlus": 34,
+      "move": 60
+    },
+    {
+      "level": 43,
+      "levelPlus": 46,
+      "move": 369
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 547
+    },
+    {
+      "level": 57,
+      "levelPlus": 60,
+      "move": 94
+    },
+    {
+      "level": 64,
+      "levelPlus": 67,
+      "move": 304
+    },
+    {
+      "level": 78,
+      "levelPlus": 81,
+      "move": 370
+    },
+    {
+      "level": 85,
+      "levelPlus": 88,
+      "move": 195
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 9,
+      "move": 812
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 99,
+      "move": 118
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 106,
+      "move": 87
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "用特殊的发声法唱出的旋律可以自由地操纵听者的情绪。",
+  "movesAlpha": 182
+}

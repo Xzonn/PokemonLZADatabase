@@ -1,0 +1,166 @@
+{
+  "internal": 876,
+  "form": 1,
+  "expGrowth": 4,
+  "catchRate": 30,
+  "gender": [
+    2,
+    0
+  ],
+  "baseFriendship": 140,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 577
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 574
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 345
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 60
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 236
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 161
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 94
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 273
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 347
+    },
+    {
+      "level": 52,
+      "levelPlus": 55,
+      "move": 585
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 60,
+      "move": 248
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 99,
+      "move": 118
+    }
+  ],
+  "description": "拥有高度智能的宝可梦。能通过伙伴间角与角的互碰来彼此交换信息。",
+  "movesAlpha": 409
+}

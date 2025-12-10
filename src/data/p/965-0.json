@@ -1,0 +1,240 @@
+{
+  "internal": 965,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 24,
+      "method": 4,
+      "argument": 0,
+      "previous": "963-0",
+      "target": "964-0"
+    },
+    {
+      "level": 38,
+      "method": 4,
+      "argument": 0,
+      "previous": "964-0",
+      "target": "965-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 41,
+      "move": 223
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 350
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 864
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 5,
+      "levelPlus": 8,
+      "move": 88
+    },
+    {
+      "level": 7,
+      "levelPlus": 10,
+      "move": 341
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 36
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 29
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 246
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 334
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 105
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 157
+    },
+    {
+      "level": 38,
+      "levelPlus": 41,
+      "move": 446
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 484
+    },
+    {
+      "level": 47,
+      "levelPlus": 50,
+      "move": 89
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 444
+    },
+    {
+      "level": 60,
+      "levelPlus": 63,
+      "move": 153
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 1,
+      "move": 29
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 19,
+      "move": 408
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 52,
+      "move": 414
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 65,
+      "move": 444
+    },
+    {
+      "index": 69,
+      "move": 89
+    },
+    {
+      "index": 78,
+      "move": 523
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 84,
+      "move": 430
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 91,
+      "move": 174
+    }
+  ],
+  "description": "从盐石巨灵身上采集的岩盐富含回复成分，对维持健康很有帮助。",
+  "movesAlpha": 8
+}

@@ -1,0 +1,219 @@
+{
+  "internal": 807,
+  "form": 0,
+  "expGrowth": 5,
+  "catchRate": 45,
+  "gender": [
+    3,
+    0
+  ],
+  "baseFriendship": 0,
+  "evoStage": 3,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3
+  ],
+  "evolutions": [],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 98
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 209
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 252
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 555
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 612
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 693
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 163
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 521
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 268
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 9
+    },
+    {
+      "level": 56,
+      "levelPlus": 59,
+      "move": 223
+    },
+    {
+      "level": 64,
+      "levelPlus": 67,
+      "move": 435
+    },
+    {
+      "level": 72,
+      "levelPlus": 75,
+      "move": 528
+    },
+    {
+      "level": 80,
+      "levelPlus": 83,
+      "move": 97
+    },
+    {
+      "level": 84,
+      "levelPlus": 87,
+      "move": 721
+    },
+    {
+      "level": 96,
+      "levelPlus": 99,
+      "move": 370
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 22,
+      "move": 332
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
+      "move": 435
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 87,
+      "move": 231
+    },
+    {
+      "index": 93,
+      "move": 200
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 106,
+      "move": 87
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "从手脚的肉球放电。当捷拉奥拉奔驰而过时，周围将充斥着电闪雷鸣。",
+  "movesAlpha": 182
+}

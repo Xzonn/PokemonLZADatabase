@@ -1,0 +1,234 @@
+{
+  "internal": 678,
+  "form": 2,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    1,
+    0
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "evolutions": [
+    {
+      "level": 25,
+      "method": 23,
+      "argument": 0,
+      "previous": "677-0",
+      "target": "678-0"
+    },
+    {
+      "level": 25,
+      "method": 34,
+      "argument": 0,
+      "previous": "677-0",
+      "target": "678-1"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 585
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 100
+    },
+    {
+      "level": 6,
+      "levelPlus": 9,
+      "move": 574
+    },
+    {
+      "level": 9,
+      "levelPlus": 12,
+      "move": 93
+    },
+    {
+      "level": 13,
+      "levelPlus": 16,
+      "move": 313
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 129
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 204
+    },
+    {
+      "level": 21,
+      "levelPlus": 24,
+      "move": 60
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 113
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 115
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 473
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 94
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 377
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 273
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 3,
+      "move": 473
+    },
+    {
+      "index": 6,
+      "move": 347
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 16,
+      "move": 113
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 20,
+      "move": 583
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 31,
+      "move": 115
+    },
+    {
+      "index": 32,
+      "move": 104
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 37,
+      "move": 446
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 51,
+      "move": 219
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 59,
+      "move": 428
+    },
+    {
+      "index": 63,
+      "move": 94
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 83,
+      "move": 417
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 97,
+      "move": 377
+    },
+    {
+      "index": 103,
+      "move": 526
+    }
+  ],
+  "description": "能凭借精神力量让万物膨胀或收缩。甚至能扭曲空间，压制敌人。",
+  "movesAlpha": 85
+}

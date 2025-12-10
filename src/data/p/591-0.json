@@ -1,0 +1,159 @@
+{
+  "internal": 591,
+  "form": 0,
+  "expGrowth": 0,
+  "catchRate": 75,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 39,
+      "method": 4,
+      "argument": 0,
+      "previous": "590-0",
+      "target": "591-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 71
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 74
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 78
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 205
+    },
+    {
+      "level": 14,
+      "levelPlus": 17,
+      "move": 345
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 235
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 390
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 202
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 92
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 76
+    },
+    {
+      "level": 54,
+      "levelPlus": 57,
+      "move": 147
+    },
+    {
+      "level": 62,
+      "levelPlus": 65,
+      "move": 437
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 7,
+      "move": 92
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 26,
+      "move": 412
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 40,
+      "move": 331
+    },
+    {
+      "index": 42,
+      "move": 202
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 64,
+      "move": 76
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 92,
+      "move": 605
+    },
+    {
+      "index": 97,
+      "move": 377
+    }
+  ],
+  "description": "显摆着精灵球状的菌伞引诱猎物靠近，但是被骗到的宝可梦很少。",
+  "movesAlpha": 416
+}

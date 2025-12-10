@@ -1,12 +1,24 @@
 {
   "pokemonLevelUp": [
     {
+      "fullId": "052-2",
+      "level": 40
+    },
+    {
+      "fullId": "137-0",
+      "level": 45
+    },
+    {
       "fullId": "227-0",
       "level": 42
     },
     {
       "fullId": "227-1",
       "level": 42
+    },
+    {
+      "fullId": "233-0",
+      "level": 45
     },
     {
       "fullId": "304-0",
@@ -25,12 +37,40 @@
       "level": 33
     },
     {
+      "fullId": "358-0",
+      "level": 29
+    },
+    {
+      "fullId": "358-1",
+      "level": 29
+    },
+    {
+      "fullId": "433-0",
+      "level": 29
+    },
+    {
       "fullId": "448-0",
       "level": 32
     },
     {
       "fullId": "448-1",
       "level": 32
+    },
+    {
+      "fullId": "448-2",
+      "level": 32
+    },
+    {
+      "fullId": "474-0",
+      "level": 45
+    },
+    {
+      "fullId": "485-0",
+      "level": 48
+    },
+    {
+      "fullId": "485-1",
+      "level": 48
     },
     {
       "fullId": "530-0",
@@ -43,6 +83,26 @@
     {
       "fullId": "618-1",
       "level": 20
+    },
+    {
+      "fullId": "649-0",
+      "level": 35
+    },
+    {
+      "fullId": "649-1",
+      "level": 35
+    },
+    {
+      "fullId": "649-2",
+      "level": 35
+    },
+    {
+      "fullId": "649-3",
+      "level": 35
+    },
+    {
+      "fullId": "649-4",
+      "level": 35
     },
     {
       "fullId": "679-0",
@@ -63,6 +123,42 @@
     {
       "fullId": "707-0",
       "level": 20
+    },
+    {
+      "fullId": "801-0",
+      "level": 1
+    },
+    {
+      "fullId": "801-1",
+      "level": 1
+    },
+    {
+      "fullId": "801-2",
+      "level": 1
+    },
+    {
+      "fullId": "801-3",
+      "level": 1
+    },
+    {
+      "fullId": "823-0",
+      "level": -3
+    },
+    {
+      "fullId": "849-0",
+      "level": -2
+    },
+    {
+      "fullId": "849-1",
+      "level": -2
+    },
+    {
+      "fullId": "863-0",
+      "level": 40
+    },
+    {
+      "fullId": "977-0",
+      "level": 23
     }
   ],
   "chargeFrame": 1,

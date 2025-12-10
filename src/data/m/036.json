@@ -17,6 +17,42 @@
       "level": 25
     },
     {
+      "fullId": "039-0",
+      "level": 20
+    },
+    {
+      "fullId": "040-0",
+      "level": 20
+    },
+    {
+      "fullId": "052-0",
+      "level": 34
+    },
+    {
+      "fullId": "052-1",
+      "level": 34
+    },
+    {
+      "fullId": "052-2",
+      "level": 34
+    },
+    {
+      "fullId": "053-0",
+      "level": 34
+    },
+    {
+      "fullId": "053-1",
+      "level": 34
+    },
+    {
+      "fullId": "056-0",
+      "level": 13
+    },
+    {
+      "fullId": "057-0",
+      "level": 13
+    },
+    {
       "fullId": "115-0",
       "level": 32
     },
@@ -81,6 +117,10 @@
       "level": 15
     },
     {
+      "fullId": "174-0",
+      "level": 20
+    },
+    {
       "fullId": "196-0",
       "level": -2
     },
@@ -107,6 +147,22 @@
     {
       "fullId": "229-1",
       "level": 24
+    },
+    {
+      "fullId": "258-0",
+      "level": 28
+    },
+    {
+      "fullId": "259-0",
+      "level": 28
+    },
+    {
+      "fullId": "260-0",
+      "level": 28
+    },
+    {
+      "fullId": "260-1",
+      "level": 28
     },
     {
       "fullId": "302-0",
@@ -145,6 +201,14 @@
       "level": 30
     },
     {
+      "fullId": "316-0",
+      "level": 14
+    },
+    {
+      "fullId": "317-0",
+      "level": 14
+    },
+    {
       "fullId": "318-0",
       "level": 40
     },
@@ -181,6 +245,14 @@
       "level": 37
     },
     {
+      "fullId": "358-0",
+      "level": 15
+    },
+    {
+      "fullId": "358-1",
+      "level": 15
+    },
+    {
       "fullId": "375-0",
       "level": 26
     },
@@ -191,6 +263,34 @@
     {
       "fullId": "376-1",
       "level": 26
+    },
+    {
+      "fullId": "382-0",
+      "level": 15
+    },
+    {
+      "fullId": "382-1",
+      "level": 15
+    },
+    {
+      "fullId": "396-0",
+      "level": 33
+    },
+    {
+      "fullId": "397-0",
+      "level": 33
+    },
+    {
+      "fullId": "398-0",
+      "level": 33
+    },
+    {
+      "fullId": "398-1",
+      "level": 33
+    },
+    {
+      "fullId": "433-0",
+      "level": 15
     },
     {
       "fullId": "443-0",
@@ -209,6 +309,10 @@
       "level": 54
     },
     {
+      "fullId": "445-2",
+      "level": 54
+    },
+    {
       "fullId": "449-0",
       "level": 28
     },
@@ -223,6 +327,14 @@
     {
       "fullId": "471-0",
       "level": -2
+    },
+    {
+      "fullId": "485-0",
+      "level": 24
+    },
+    {
+      "fullId": "485-1",
+      "level": 24
     },
     {
       "fullId": "498-0",
@@ -299,6 +411,26 @@
     {
       "fullId": "604-1",
       "level": 18
+    },
+    {
+      "fullId": "638-0",
+      "level": 20
+    },
+    {
+      "fullId": "639-0",
+      "level": 20
+    },
+    {
+      "fullId": "640-0",
+      "level": 20
+    },
+    {
+      "fullId": "647-0",
+      "level": 20
+    },
+    {
+      "fullId": "647-1",
+      "level": 20
     },
     {
       "fullId": "650-0",
@@ -439,6 +571,74 @@
     {
       "fullId": "721-0",
       "level": 33
+    },
+    {
+      "fullId": "739-0",
+      "level": 20
+    },
+    {
+      "fullId": "740-0",
+      "level": 20
+    },
+    {
+      "fullId": "740-1",
+      "level": 20
+    },
+    {
+      "fullId": "821-0",
+      "level": 14
+    },
+    {
+      "fullId": "822-0",
+      "level": 14
+    },
+    {
+      "fullId": "823-0",
+      "level": 14
+    },
+    {
+      "fullId": "863-0",
+      "level": 34
+    },
+    {
+      "fullId": "931-0",
+      "level": 18
+    },
+    {
+      "fullId": "949-0",
+      "level": 36
+    },
+    {
+      "fullId": "950-0",
+      "level": 36
+    },
+    {
+      "fullId": "951-0",
+      "level": 36
+    },
+    {
+      "fullId": "951-1",
+      "level": 36
+    },
+    {
+      "fullId": "953-0",
+      "level": 25
+    },
+    {
+      "fullId": "963-0",
+      "level": 12
+    },
+    {
+      "fullId": "964-0",
+      "level": 12
+    },
+    {
+      "fullId": "965-0",
+      "level": 12
+    },
+    {
+      "fullId": "1010-0",
+      "level": 13
     }
   ],
   "chargeFrame": 15,

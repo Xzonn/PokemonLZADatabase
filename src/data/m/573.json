@@ -1,6 +1,10 @@
 {
   "pokemonLevelUp": [
     {
+      "fullId": "122-1",
+      "level": 40
+    },
+    {
       "fullId": "225-0",
       "level": 37
     },
@@ -21,12 +25,36 @@
       "level": 1
     },
     {
+      "fullId": "615-0",
+      "level": 36
+    },
+    {
       "fullId": "698-0",
       "level": 36
     },
     {
       "fullId": "699-0",
       "level": 36
+    },
+    {
+      "fullId": "866-0",
+      "level": 40
+    },
+    {
+      "fullId": "949-0",
+      "level": 50
+    },
+    {
+      "fullId": "950-0",
+      "level": 50
+    },
+    {
+      "fullId": "951-0",
+      "level": 50
+    },
+    {
+      "fullId": "951-1",
+      "level": 50
     }
   ],
   "chargeFrame": 10,

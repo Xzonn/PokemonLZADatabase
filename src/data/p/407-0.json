@@ -40,6 +40,11 @@
       "move": 40
     },
     {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 866
+    },
+    {
       "level": 1,
       "levelPlus": 10,
       "move": 71

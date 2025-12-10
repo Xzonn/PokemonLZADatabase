@@ -1,0 +1,202 @@
+{
+  "internal": 853,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 21,
+      "argument": 269,
+      "previous": "852-0",
+      "target": "853-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 10,
+      "move": 753
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 249
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 612
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 418
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 197
+    },
+    {
+      "level": 18,
+      "levelPlus": 21,
+      "move": 183
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 509
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 280
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 339
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 282
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 458
+    },
+    {
+      "level": 35,
+      "levelPlus": 38,
+      "move": 269
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 370
+    },
+    {
+      "level": 53,
+      "levelPlus": 56,
+      "move": 576
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 4,
+      "move": 249
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 18,
+      "move": 612
+    },
+    {
+      "index": 24,
+      "move": 8
+    },
+    {
+      "index": 28,
+      "move": 91
+    },
+    {
+      "index": 33,
+      "move": 34
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 45,
+      "move": 282
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 70,
+      "move": 250
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 96,
+      "move": 56
+    },
+    {
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 103,
+      "move": 526
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "会用自豪的触手施展寝技压制对手。即便力量惊人的宝可梦也无法挣脱并逃走。",
+  "movesAlpha": 8
+}

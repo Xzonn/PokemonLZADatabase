@@ -1,0 +1,235 @@
+{
+  "internal": 211,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 1,
+  "evYield": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 0,
+      "method": 62,
+      "argument": 20,
+      "previous": "211-1",
+      "target": "904-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 33
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 40
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 44
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 106
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 55
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 61
+    },
+    {
+      "level": 15,
+      "levelPlus": 18,
+      "move": 114
+    },
+    {
+      "level": 17,
+      "levelPlus": 20,
+      "move": 453
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 191
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 839
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 398
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 42
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 390
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 92
+    },
+    {
+      "level": 46,
+      "levelPlus": 49,
+      "move": 242
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 441
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 7,
+      "move": 92
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 25,
+      "move": 242
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 41,
+      "move": 352
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 48,
+      "move": 120
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 56,
+      "move": 38
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 74,
+      "move": 247
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 91,
+      "move": 174
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 96,
+      "move": 56
+    },
+    {
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 100,
+      "move": 441
+    },
+    {
+      "index": 105,
+      "move": 59
+    }
+  ],
+  "description": "会食用有毒的矿石，并在体内储存毒素。被它刺到会受苦三天三夜。",
+  "movesAlpha": 127
+}

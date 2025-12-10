@@ -1,0 +1,251 @@
+{
+  "internal": 768,
+  "form": 1,
+  "expGrowth": 0,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 4,
+      "argument": 0,
+      "previous": "767-0",
+      "target": "768-0"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 33,
+      "move": 660
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 106
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 205
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 249
+    },
+    {
+      "level": 12,
+      "levelPlus": 15,
+      "move": 341
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 453
+    },
+    {
+      "level": 20,
+      "levelPlus": 23,
+      "move": 334
+    },
+    {
+      "level": 22,
+      "levelPlus": 25,
+      "move": 232
+    },
+    {
+      "level": 26,
+      "levelPlus": 29,
+      "move": 103
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 163
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 529
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 141
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 442
+    },
+    {
+      "level": 42,
+      "levelPlus": 45,
+      "move": 42
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 14
+    },
+    {
+      "level": 53,
+      "levelPlus": 56,
+      "move": 710
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 4,
+      "move": 249
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 11,
+      "move": 339
+    },
+    {
+      "index": 12,
+      "move": 157
+    },
+    {
+      "index": 13,
+      "move": 58
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 30,
+      "move": 14
+    },
+    {
+      "index": 34,
+      "move": 400
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 36,
+      "move": 317
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 46,
+      "move": 341
+    },
+    {
+      "index": 47,
+      "move": 97
+    },
+    {
+      "index": 49,
+      "move": 196
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 58,
+      "move": 442
+    },
+    {
+      "index": 61,
+      "move": 421
+    },
+    {
+      "index": 73,
+      "move": 57
+    },
+    {
+      "index": 76,
+      "move": 710
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 80,
+      "move": 334
+    },
+    {
+      "index": 81,
+      "move": 404
+    },
+    {
+      "index": 82,
+      "move": 369
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 88,
+      "move": 191
+    },
+    {
+      "index": 90,
+      "move": 399
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 98,
+      "move": 127
+    },
+    {
+      "index": 100,
+      "move": 441
+    },
+    {
+      "index": 102,
+      "move": 411
+    },
+    {
+      "index": 105,
+      "move": 59
+    },
+    {
+      "index": 107,
+      "move": 370
+    }
+  ],
+  "description": "用４根臂膀猛烈地攻击，将对手逼入绝境后，就会用隐藏的臂膀给予致命一击。",
+  "movesAlpha": 58
+}

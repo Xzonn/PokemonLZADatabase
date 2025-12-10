@@ -1,6 +1,30 @@
 {
   "pokemonLevelUp": [
     {
+      "fullId": "479-0",
+      "level": 15
+    },
+    {
+      "fullId": "479-1",
+      "level": 15
+    },
+    {
+      "fullId": "479-2",
+      "level": 15
+    },
+    {
+      "fullId": "479-3",
+      "level": 15
+    },
+    {
+      "fullId": "479-4",
+      "level": 15
+    },
+    {
+      "fullId": "479-5",
+      "level": 15
+    },
+    {
       "fullId": "694-0",
       "level": 20
     },
@@ -11,6 +35,10 @@
     {
       "fullId": "702-0",
       "level": 15
+    },
+    {
+      "fullId": "849-1",
+      "level": 50
     }
   ],
   "chargeFrame": 10,

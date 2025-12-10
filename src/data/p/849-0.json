@@ -1,0 +1,242 @@
+{
+  "internal": 849,
+  "form": 0,
+  "expGrowth": 3,
+  "catchRate": 45,
+  "gender": [
+    0,
+    50
+  ],
+  "baseFriendship": 50,
+  "evoStage": 2,
+  "evYield": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0
+  ],
+  "evolutions": [
+    {
+      "level": 30,
+      "method": 46,
+      "argument": 0,
+      "previous": "848-0",
+      "target": "849-0"
+    },
+    {
+      "level": 30,
+      "method": 47,
+      "argument": 0,
+      "previous": "848-0",
+      "target": "849-1"
+    }
+  ],
+  "movesLevelUp": [
+    {
+      "level": -3,
+      "levelPlus": 33,
+      "move": 209
+    },
+    {
+      "level": -3,
+      "levelPlus": 33,
+      "move": 482
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 84
+    },
+    {
+      "level": -2,
+      "levelPlus": 10,
+      "move": 319
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 43
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 45
+    },
+    {
+      "level": 1,
+      "levelPlus": 10,
+      "move": 609
+    },
+    {
+      "level": 4,
+      "levelPlus": 7,
+      "move": 268
+    },
+    {
+      "level": 8,
+      "levelPlus": 11,
+      "move": 555
+    },
+    {
+      "level": 10,
+      "levelPlus": 13,
+      "move": 491
+    },
+    {
+      "level": 16,
+      "levelPlus": 19,
+      "move": 269
+    },
+    {
+      "level": 24,
+      "levelPlus": 27,
+      "move": 103
+    },
+    {
+      "level": 28,
+      "levelPlus": 31,
+      "move": 207
+    },
+    {
+      "level": 30,
+      "levelPlus": 33,
+      "move": 435
+    },
+    {
+      "level": 32,
+      "levelPlus": 35,
+      "move": 92
+    },
+    {
+      "level": 36,
+      "levelPlus": 39,
+      "move": 598
+    },
+    {
+      "level": 40,
+      "levelPlus": 43,
+      "move": 398
+    },
+    {
+      "level": 44,
+      "levelPlus": 47,
+      "move": 786
+    },
+    {
+      "level": 48,
+      "levelPlus": 51,
+      "move": 586
+    },
+    {
+      "level": 50,
+      "levelPlus": 53,
+      "move": 192
+    }
+  ],
+  "movesTM": [
+    {
+      "index": 7,
+      "move": 92
+    },
+    {
+      "index": 8,
+      "move": 86
+    },
+    {
+      "index": 10,
+      "move": 280
+    },
+    {
+      "index": 17,
+      "move": 182
+    },
+    {
+      "index": 21,
+      "move": 422
+    },
+    {
+      "index": 23,
+      "move": 9
+    },
+    {
+      "index": 27,
+      "move": 129
+    },
+    {
+      "index": 29,
+      "move": 7
+    },
+    {
+      "index": 35,
+      "move": 203
+    },
+    {
+      "index": 39,
+      "move": 435
+    },
+    {
+      "index": 44,
+      "move": 63
+    },
+    {
+      "index": 53,
+      "move": 188
+    },
+    {
+      "index": 55,
+      "move": 416
+    },
+    {
+      "index": 66,
+      "move": 521
+    },
+    {
+      "index": 67,
+      "move": 85
+    },
+    {
+      "index": 71,
+      "move": 304
+    },
+    {
+      "index": 77,
+      "move": 398
+    },
+    {
+      "index": 85,
+      "move": 164
+    },
+    {
+      "index": 86,
+      "move": 528
+    },
+    {
+      "index": 89,
+      "move": 390
+    },
+    {
+      "index": 95,
+      "move": 269
+    },
+    {
+      "index": 99,
+      "move": 118
+    },
+    {
+      "index": 100,
+      "move": 441
+    },
+    {
+      "index": 101,
+      "move": 527
+    },
+    {
+      "index": 106,
+      "move": 87
+    }
+  ],
+  "description": "当它用力抓挠胸部的突起物来制造电力时，四周会响起如同吉他演奏般的声音。",
+  "movesAlpha": 443
+}
