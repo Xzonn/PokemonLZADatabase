@@ -24,7 +24,7 @@ export const MoveLink: React.FC<{ move: Move; plus?: boolean }> = ({ move, plus 
       <div className="flex flex-col gap-2">
         <div className="flex flex-row items-center gap-2">
           <div className="basis-1/2">威力：{move.category === "变化" ? "—" : move.power || "—"}</div>
-          <div className="basis-1/2">等待时间：{move.wait}</div>
+          <div className="basis-1/2">发动时间：{move.wait}</div>
         </div>
         <div className="max-w-sm">{move.description}</div>
       </div>

@@ -53,7 +53,7 @@ const columns: TableColumnsType<Move> = [
     sorter: (a, b) => a.power - b.power,
   },
   {
-    title: "等待时间",
+    title: "发动时间",
     dataIndex: "wait",
     sorter: (a, b) => a.wait - b.wait,
   },

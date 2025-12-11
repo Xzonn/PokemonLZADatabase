@@ -44,7 +44,7 @@ const getDescriptions = (move: Move & MoveFull): DescriptionsProps["items"] => [
   },
   {
     key: "wait",
-    label: "等待时间",
+    label: "发动时间",
     children: move.wait || "—",
   },
   {
