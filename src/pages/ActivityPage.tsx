@@ -1,9 +1,9 @@
 import { Card, Spin } from "antd";
-import React, { FC, Fragment, useEffect, useMemo } from "react";
+import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
 
 import { ItemIconWithoutTooltip, ItemRewardsTable, New, Now, PokemonIcon } from "@/components";
 import { ItemDataByName, PokemonDataByName } from "@/data";
-import { IItemReward } from "@/types";
+import { IItemReward, ISeasonReward } from "@/types";
 import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 interface IInternetBattleRewardsTableProps {
@@ -21,9 +21,11 @@ const InternetBattleRewardsTable: FC<IInternetBattleRewardsTableProps> = ({ rand
   </>
 );
 
-const parseDate = (dateStr: string): Date => {
-  const [year, month, day] = dateStr.split("-").map(Number);
-  return new Date(year, month - 1, day);
+const parseDate = (dateStr: string, timeStr = "00:00"): Date => {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr) || !/^\d{2}:\d{2}$/.test(timeStr)) {
+    throw new Error(`Invalid date string: ${dateStr}`);
+  }
+  return new Date(`${dateStr}T${timeStr}:00+0800`);
 };
 
 const formatDate = (date: Date): string => {
@@ -33,65 +35,80 @@ const formatDate = (date: Date): string => {
   return `${year} 年 ${month} 月 ${day} 日`;
 };
 
+const RewardCard: FC<{ season: ISeasonReward; rewardKey: "promotionRewards" | "seasonRewards" }> = ({
+  season,
+  rewardKey,
+}) => {
+  const [now] = useState(() => Date.now());
+  return (
+    <Card
+      title={
+        <>
+          <Link to={season.url}>第 {season.season} 赛季</Link>
+          {now >= +parseDate(season.startDate, "14:00") && now <= +parseDate(season.endDate, "10:00") && <Now />}
+        </>
+      }
+    >
+      <div className="flex-container">
+        {[
+          ...new Set(
+            season[rewardKey].flatMap((reward) =>
+              reward.items.filter((item) => /(?:球|进化石)$/.exec(item.item)).map((item) => item.item),
+            ),
+          ),
+        ].map((item) => (
+          <ItemIconWithoutTooltip
+            key={item}
+            item={ItemDataByName[item]}
+            size={64}
+          />
+        ))}
+      </div>
+      <div className="text-center">
+        {formatDate(parseDate(season.startDate, "14:00"))}～{formatDate(parseDate(season.endDate, "10:00"))}
+      </div>
+      {season[rewardKey].map((reward) => (
+        <div key={reward.levels}>
+          <h4>{reward.levels}</h4>
+          <ItemRewardsTable
+            data={reward.items}
+            headers={["道具", "数量"]}
+          />
+        </div>
+      ))}
+    </Card>
+  );
+};
+
 const ActivityPage: React.FC = () => {
   useEffect(() => {
     document.title = `联网活动 - ${DEFAULT_TITLE}`;
   }, []);
 
   const [data, loading] = useImport(() => import("@/data/activity"));
-  const seasonRewards = useMemo(() => {
-    const now = Date.now();
-    return data?.SeasonRewardData.map((season) => (
-      <Card
-        key={season.season}
-        title={
-          <>
-            <Link to={season.url}>第 {season.season} 赛季</Link>
-            {now >= +parseDate(season.startDate) && now <= +parseDate(season.endDate) && <Now />}
-          </>
-        }
-      >
-        <div className="flex-container">
-          {season.promotionRewards.map((reward) => (
-            <Fragment key={reward.levels}>
-              {reward.items.map((item) => (
-                <ItemIconWithoutTooltip
-                  key={item.item}
-                  item={ItemDataByName[item.item]}
-                  size={64}
-                />
-              ))}
-            </Fragment>
-          ))}
-        </div>
-        {season.promotionRewards.map((reward) => (
-          <div
-            key={reward.levels}
-            className="text-center"
-          >
-            {reward.levels}级别：
-            {reward.items.map((item) => (
-              <>
-                <Link to={`/i/${item.item}`}>{item.item}</Link>×{item.quantity}
-              </>
-            ))}
-          </div>
-        ))}
-        <div>
-          <b>举办时间</b>：{formatDate(parseDate(season.startDate))}～{formatDate(parseDate(season.endDate))}
-        </div>
-        {season.seasonRewards.map((reward) => (
-          <div key={reward.levels}>
-            <h4>{reward.levels}</h4>
-            <ItemRewardsTable
-              data={reward.items}
-              headers={["道具", "数量"]}
-            />
-          </div>
-        ))}
-      </Card>
-    ));
-  }, [data]);
+  const promotionRewards = useMemo(
+    () =>
+      data?.SeasonRewardData.map((season) => (
+        <RewardCard
+          key={season.season}
+          season={season}
+          rewardKey="promotionRewards"
+        />
+      )),
+    [data],
+  );
+
+  const seasonRewards = useMemo(
+    () =>
+      data?.SeasonRewardData.map((season) => (
+        <RewardCard
+          key={season.season}
+          season={season}
+          rewardKey="seasonRewards"
+        />
+      )),
+    [data],
+  );
 
   useLoadingAnchor([loading]);
 
@@ -403,19 +420,14 @@ const ActivityPage: React.FC = () => {
       </div>
 
       <div className="section">
-        <h2>赛季奖励</h2>
+        <h2>升级报酬</h2>
+        <p>
+          升级报酬是级别提升至下一级时可以获得的报酬，在级别提升后立即发放。自第 4
+          赛季起，赛季报酬中的特殊精灵球被移除，改为在升级报酬中发放。
+        </p>
         <Spin spinning={loading}>
           <div className="activity-card-container">
-            {seasonRewards}
-            <Card title="第 4 赛季">
-              <div className="flex-container">
-                <ItemIconWithoutTooltip
-                  item={ItemDataByName["戟脊龙进化石"]}
-                  size={64}
-                />
-              </div>
-              <div className="text-center">戟脊龙进化石×1</div>
-            </Card>
+            {promotionRewards}
             <Card title="第 5 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
@@ -423,7 +435,7 @@ const ActivityPage: React.FC = () => {
                   size={64}
                 />
               </div>
-              <div className="text-center">蜥蜴王进化石×1</div>
+              <div className="text-center">蜥蜴王进化石</div>
             </Card>
             <Card title="第 6 赛季">
               <div className="flex-container">
@@ -432,7 +444,7 @@ const ActivityPage: React.FC = () => {
                   size={64}
                 />
               </div>
-              <div className="text-center">巨沼怪进化石×1</div>
+              <div className="text-center">巨沼怪进化石</div>
             </Card>
             <Card title="第 7 赛季">
               <div className="flex-container">
@@ -441,9 +453,20 @@ const ActivityPage: React.FC = () => {
                   size={64}
                 />
               </div>
-              <div className="text-center">火焰鸡进化石×1</div>
+              <div className="text-center">火焰鸡进化石</div>
             </Card>
           </div>
+        </Spin>
+      </div>
+
+      <div className="section">
+        <h2>赛季报酬</h2>
+        <p>
+          赛季报酬是根据赛季结束时的所在级别可以获得的报酬，在赛季结束后发放。自第 4
+          赛季起，赛季报酬中的特殊精灵球被移除，改为在升级报酬中发放。
+        </p>
+        <Spin spinning={loading}>
+          <div className="activity-card-container">{seasonRewards}</div>
         </Spin>
       </div>
     </Fragment>

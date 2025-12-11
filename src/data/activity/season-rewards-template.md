@@ -45,7 +45,7 @@
       ]
     },
     {
-      "levels": "Ｆ〜Ｂ",
+      "levels": "Ｆ～Ｂ",
       "items": [
         {
           "item": "珍珠",
@@ -61,4 +61,4 @@
 }
 ```
 
-网页：https://plza-news.pokemon-home.com/sc/page/5.html
+网页：https://plza-news.pokemon-home.com/sc/page/16.html

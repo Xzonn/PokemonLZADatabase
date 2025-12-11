@@ -42,7 +42,7 @@
         ]
       },
       {
-        "levels": "Ｅ〜Ｂ",
+        "levels": "Ｅ～Ｂ",
         "items": [
           {
             "item": "竞赛球",
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "levels": "Ｋ〜Ｆ",
+        "levels": "Ｋ～Ｆ",
         "items": [
           {
             "item": "银色王冠",
@@ -84,7 +84,7 @@
         ]
       },
       {
-        "levels": "Ｒ〜Ｌ",
+        "levels": "Ｒ～Ｌ",
         "items": [
           {
             "item": "精通种子",
@@ -159,7 +159,7 @@
         ]
       },
       {
-        "levels": "Ｅ〜Ｂ",
+        "levels": "Ｅ～Ｂ",
         "items": [
           {
             "item": "梦境球",
@@ -184,7 +184,7 @@
         ]
       },
       {
-        "levels": "Ｋ〜Ｆ",
+        "levels": "Ｋ～Ｆ",
         "items": [
           {
             "item": "银色王冠",
@@ -201,7 +201,7 @@
         ]
       },
       {
-        "levels": "Ｒ〜Ｌ",
+        "levels": "Ｒ～Ｌ",
         "items": [
           {
             "item": "精通种子",
@@ -285,7 +285,7 @@
         ]
       },
       {
-        "levels": "Ｅ〜Ｂ",
+        "levels": "Ｅ～Ｂ",
         "items": [
           {
             "item": "狩猎球",
@@ -310,7 +310,7 @@
         ]
       },
       {
-        "levels": "Ｋ〜Ｆ",
+        "levels": "Ｋ～Ｆ",
         "items": [
           {
             "item": "银色王冠",
@@ -327,7 +327,318 @@
         ]
       },
       {
-        "levels": "Ｒ〜Ｌ",
+        "levels": "Ｒ～Ｌ",
+        "items": [
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｓ以下",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "season": 4,
+    "url": "https://plza-news.pokemon-home.com/sc/page/16.html",
+    "startDate": "2025-12-18",
+    "endDate": "2026-01-08",
+    "promotionRewards": [
+      {
+        "levels": "Ａ",
+        "items": [
+          {
+            "item": "究极球",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "levels": "Ｂ、Ｃ",
+        "items": [
+          {
+            "item": "究极球",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "levels": "Ｄ、Ｅ",
+        "items": [
+          {
+            "item": "究极球",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｆ、Ｇ、Ｈ",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 4
+          },
+          {
+            "item": "经验糖果Ｌ",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "levels": "Ｉ",
+        "items": [
+          {
+            "item": "究极球",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｊ、Ｋ、Ｌ",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 3
+          },
+          {
+            "item": "经验糖果Ｌ",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "levels": "Ｍ",
+        "items": [
+          {
+            "item": "究极球",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｎ",
+        "items": [
+          {
+            "item": "超级碎片",
+            "quantity": 200
+          }
+        ]
+      },
+      {
+        "levels": "Ｏ",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 2
+          },
+          {
+            "item": "经验糖果Ｌ",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "levels": "Ｐ",
+        "items": [
+          {
+            "item": "超级碎片",
+            "quantity": 200
+          }
+        ]
+      },
+      {
+        "levels": "Ｑ",
+        "items": [
+          {
+            "item": "金珠",
+            "quantity": 2
+          },
+          {
+            "item": "经验糖果Ｌ",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "levels": "Ｒ",
+        "items": [
+          {
+            "item": "超级碎片",
+            "quantity": 200
+          }
+        ]
+      },
+      {
+        "levels": "Ｓ",
+        "items": [
+          {
+            "item": "戟脊龙进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｔ",
+        "items": [
+          {
+            "item": "经验糖果Ｓ",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｕ",
+        "items": [
+          {
+            "item": "布里卡隆进化石",
+            "quantity": 1
+          },
+          {
+            "item": "经验糖果Ｓ",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｖ",
+        "items": [
+          {
+            "item": "经验糖果Ｓ",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｗ",
+        "items": [
+          {
+            "item": "妖火红狐进化石",
+            "quantity": 1
+          },
+          {
+            "item": "经验糖果Ｓ",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｘ",
+        "items": [
+          {
+            "item": "经验糖果Ｓ",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｙ",
+        "items": [
+          {
+            "item": "甲贺忍蛙进化石",
+            "quantity": 1
+          },
+          {
+            "item": "经验糖果ＸＳ",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "seasonRewards": [
+      {
+        "levels": "Ａ",
+        "items": [
+          {
+            "item": "金色王冠",
+            "quantity": 3
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 5
+          },
+          {
+            "item": "精通种子",
+            "quantity": 3
+          },
+          {
+            "item": "巨大金珠",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｂ～Ｅ",
+        "items": [
+          {
+            "item": "金色王冠",
+            "quantity": 2
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 3
+          },
+          {
+            "item": "精通种子",
+            "quantity": 2
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｆ～Ｉ",
+        "items": [
+          {
+            "item": "金色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "银色王冠",
+            "quantity": 2
+          },
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｊ～Ｍ",
+        "items": [
+          {
+            "item": "银色王冠",
+            "quantity": 1
+          },
+          {
+            "item": "精通种子",
+            "quantity": 1
+          },
+          {
+            "item": "金珠",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｎ～Ｒ",
         "items": [
           {
             "item": "精通种子",
