@@ -2,7 +2,7 @@ import { Table, TableColumnsType } from "antd";
 import React, { FC, ReactNode } from "react";
 
 import { ItemIconWithoutTooltip } from "@/components";
-import { ItemDataById, MoveDataById, PokemonDataById } from "@/data";
+import { ItemDataById, ItemDataByName, MoveDataById, PokemonDataById } from "@/data";
 import { EPokemonType, Evolution, Item } from "@/types";
 import { EvolutionItemMap, Link, TableCommonProps, TypeIcon } from "@/utils";
 
@@ -43,7 +43,7 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
       return (
         <EvolutionItem
           item={ItemDataById[evolution.argument]}
-          prefix="使用道具"
+          prefix="携带道具"
           suffix="、连接交换"
         />
       );
@@ -104,8 +104,14 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
           suffix="、晚上、等级提升"
         />
       );
-    case 21:
-      return `学会招式${MoveDataById[evolution.argument]?.name}`;
+    case 21: {
+      const move = MoveDataById[evolution.argument];
+      return (
+        <>
+          学会招式<Link to={`/m/${move?.name}`}>{move?.name}</Link>
+        </>
+      );
+    }
     case 22:
       return `队伍中有${PokemonDataById[`${evolution.argument}-0`]}、等级提升`;
     case 23:
@@ -167,9 +173,9 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 42:
       return "在究极之洞中、使用道具";
     case 43:
-      return `对战中击中要害${evolution.argument}次或以上、结束对战`;
+      return `对战中击中要害 ${evolution.argument} 次或以上、结束对战`;
     case 44:
-      return `受到至少${evolution.argument}伤害后、来到沙尘洼地岩门附近`;
+      return `受到至少 ${evolution.argument} 伤害后、来到翡绿区库流水路拱桥下方`;
     case 45:
       return "携带糖饰、主角原地旋转";
     case 46:
@@ -189,11 +195,21 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 53:
       return "等级提升、加密常数尾数 ≠ 00、自动进化";
     case 54:
-      return `收集索财灵的硬币达到${evolution.argument}个、等级提升`;
+      return (
+        <EvolutionItem
+          item={ItemDataByName["索财灵的硬币"]}
+          prefix="收集"
+          suffix={`达到 ${evolution.argument} 个、等级提升`}
+        />
+      );
     case 55:
       return `击败${evolution.argument}只携带头领凭证的劈斩司令`;
     case 56:
-      return `使用愤怒之拳达到${evolution.argument}次`;
+      return (
+        <>
+          使用招式<Link to="/m/愤怒之拳">愤怒之拳</Link>达到 {evolution.argument} 次
+        </>
+      );
     case 57:
       return `习得招式${evolution.argument}、加密常数尾数 = 00、等级提升`;
     case 58:
@@ -204,6 +220,12 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
       return `承受反作用力伤害${evolution.argument}以上、雌性`;
     case 61:
       return "洗翠地区";
+    case 62:
+      return (
+        <>
+          使用招式<Link to="/m/毒千针">毒千针</Link>达到 {evolution.argument} 次
+        </>
+      );
     case 90:
       return `满月、使用道具${evolution.argument}`;
     case 91:
