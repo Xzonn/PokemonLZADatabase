@@ -28,7 +28,13 @@ const columns: TableColumnsType<Pokemon> = [
         dataIndex: "dex",
         defaultSortOrder: "ascend",
         sorter: (a, b) => (a.dex || Infinity) - (b.dex || Infinity),
-        render: (dex) => (dex !== 0 ? dex.toString().padStart(3, "0") : "-"),
+        render: (dex) => (dex > 0 && dex <= 232 ? dex.toString().padStart(3, "0") : "—"),
+      },
+      {
+        title: "异次元",
+        dataIndex: "dexHyperspace",
+        sorter: (a, b) => (a.dexHyperspace || Infinity) - (b.dexHyperspace || Infinity),
+        render: (dexHyperspace) => (dexHyperspace > 0 ? dexHyperspace.toString().padStart(3, "0") : "—"),
       },
       {
         title: "全国",

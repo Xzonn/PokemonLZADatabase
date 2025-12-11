@@ -99,7 +99,12 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
   {
     key: "dex",
     label: "密阿雷图鉴",
-    children: pokemon.dex !== 0 ? pokemon.dex.toString().padStart(3, "0") : "—",
+    children: pokemon.dex > 0 && pokemon.dex <= 232 ? pokemon.dex.toString().padStart(3, "0") : "—",
+  },
+  {
+    key: "dexHyperspace",
+    label: "异次元图鉴",
+    children: pokemon.dexHyperspace > 0 ? pokemon.dexHyperspace.toString().padStart(3, "0") : "—",
   },
   {
     key: "types",

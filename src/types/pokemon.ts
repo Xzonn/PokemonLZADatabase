@@ -23,6 +23,7 @@ export interface Pokemon {
   id: number;
   national: number;
   dex: number;
+  dexHyperspace: number;
   form: number;
   name: string;
   japanese: string;

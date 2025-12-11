@@ -21,7 +21,14 @@ const columns: TableColumnsType<PokemonSpawn> = [
         key: "dex",
         defaultSortOrder: "ascend",
         sorter: (a, b) => (a.pokemon.dex || Infinity) - (b.pokemon.dex || Infinity),
-        render: (row) => (row.pokemon.dex !== 0 ? row.pokemon.dex.toString().padStart(3, "0") : "-"),
+        render: (row) =>
+          row.pokemon.dex > 0 && row.pokemon.dex <= 232 ? row.pokemon.dex.toString().padStart(3, "0") : "—",
+      },
+      {
+        title: "异次元",
+        key: "dexHyperspace",
+        sorter: (a, b) => (a.pokemon.dexHyperspace || Infinity) - (b.pokemon.dexHyperspace || Infinity),
+        render: (row) => (row.pokemon.dexHyperspace > 0 ? row.pokemon.dexHyperspace.toString().padStart(3, "0") : "—"),
       },
       {
         title: "全国",

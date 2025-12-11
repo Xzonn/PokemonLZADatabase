@@ -16,10 +16,12 @@ export const PokemonData = lines
     const parts = line.split("\t");
     const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
     const base = ["HP", "攻击", "防御", "特攻", "特防", "速度"].map((stat) => parseInt(dict[stat], 10));
+    const dex = parseInt(dict["图鉴编号"], 10);
     const item: Pokemon = {
       id: parseInt(dict["编号"], 10),
       national: parseInt(dict["全国图鉴编号"], 10),
-      dex: parseInt(dict["图鉴编号"], 10),
+      dex,
+      dexHyperspace: dex - 232,
       form: parseInt(dict["形态编号"], 10),
       name: dict["中文名"],
       japanese: dict["日文名"],
