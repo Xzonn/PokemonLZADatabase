@@ -1,11 +1,11 @@
 import { Table, TableColumnType } from "antd";
 
-import { SideMission } from "@/types";
+import { SideMissionSummary } from "@/types";
 import { Link, TableCommonProps, getSideMissionNumber } from "@/utils";
 
 import { ItemList } from "../item";
 
-const columns: TableColumnType<SideMission>[] = [
+const columns: TableColumnType<SideMissionSummary>[] = [
   {
     title: "编号",
     dataIndex: "index",
@@ -19,6 +19,7 @@ const columns: TableColumnType<SideMission>[] = [
   {
     title: "委托人",
     dataIndex: "requester",
+    render: (value: string) => value || "—",
   },
   {
     title: "奖金",
@@ -34,9 +35,9 @@ const columns: TableColumnType<SideMission>[] = [
 
 export const SideMissionTable: React.FC<{
   loading?: boolean;
-  data?: SideMission[];
+  data?: SideMissionSummary[];
 }> = ({ loading = false, data }) => (
-  <Table<SideMission>
+  <Table<SideMissionSummary>
     {...TableCommonProps}
     rowKey="index"
     loading={loading}

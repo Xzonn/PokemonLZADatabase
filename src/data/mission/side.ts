@@ -1,4 +1,4 @@
-import { SideMission } from "@/types";
+import { SideMissionSummary } from "@/types";
 
 import raw from "./side.txt?raw";
 
@@ -8,15 +8,19 @@ const header = lines[0].split("\t");
 export const SideMissionData = lines.slice(1).map((line) => {
   const parts = line.split("\t");
   const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
-  const item: SideMission = {
+  const prize = dict["奖金"];
+  const items = dict["道具"];
+  const item: SideMissionSummary = {
     index: parseInt(dict["编号"], 10),
     name: dict["中文名"],
     requester: dict["委托人"],
-    prize: parseInt(dict["奖金"], 10),
-    items: dict["道具"].split("|").map((part) => {
-      const [item, number] = part.split("×");
-      return { item, number: parseInt(number, 10) };
-    }),
+    prize: prize ? parseInt(prize, 10) : 0,
+    items: items
+      ? items.split("|").map((part) => {
+          const [item, number] = part.split("×");
+          return { item, number: parseInt(number, 10) };
+        })
+      : [],
     x: parseInt(dict.X, 10),
     y: parseInt(dict.Y, 10),
     z: parseInt(dict.Z, 10),

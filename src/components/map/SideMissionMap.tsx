@@ -3,12 +3,12 @@ import { divIcon } from "leaflet";
 import { FC, Fragment } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
-import { SideMission } from "@/types";
+import { SideMissionSummary } from "@/types";
 import { Link, MAP_CENTER, getCoord, getSideMissionNumber, useImport } from "@/utils";
 
 import { LumioseMap } from "../map/LumioseMap";
 
-const MapLayer: FC<{ data: SideMission[] }> = ({ data }) => {
+const MapLayer: FC<{ data: SideMissionSummary[] }> = ({ data }) => {
   const map = useMap();
 
   if (data?.length === 1) {
@@ -47,7 +47,9 @@ interface IProps {
 }
 
 export const SideMissionMap: FC<IProps> = ({ active, setActive }) => {
-  const [data, loading] = useImport(async () => (await import("@/data/mission/side")).SideMissionData);
+  const [data, loading] = useImport(async () =>
+    (await import("@/data/mission/side")).SideMissionData.filter((mission) => mission.x !== 0 || mission.y !== 0),
+  );
 
   return (
     <Fragment key="side-mission-map">
