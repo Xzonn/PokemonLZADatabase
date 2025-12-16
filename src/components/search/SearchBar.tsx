@@ -4,12 +4,22 @@ import { Input } from "antd";
 import React, { FC, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import { ItemData, MoveData, NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED, PokemonData } from "@/data";
+import {
+  HyperspaceMissionData,
+  ItemData,
+  MainMissionData,
+  MoveData,
+  NAVIGATION_ITEMS as NAVIGATION_ITEMS_UNFILTERED,
+  PokemonData,
+  SideMissionData,
+} from "@/data";
 import { AREA_NAMES } from "@/data/areas";
 import { EPokemonType, NavigationItem, SearchResult } from "@/types";
 import { filterPokemon, getPokemonFullId } from "@/utils";
 
+import { SearchHyperspaceMission } from "./SearchHyperspaceMission";
 import { SearchItem } from "./SearchItem";
+import { SearchMainMission } from "./SearchMainMission";
 import { SearchMove } from "./SearchMove";
 import { SearchNavigation } from "./SearchNavigation";
 import { SearchPokemon } from "./SearchPokemon";
@@ -29,19 +39,29 @@ const NAV_ITEMS = [
   ...NAVIGATION_ITEMS_UNFILTERED.filter((item) => item && !item.path.slice(1).includes("/")),
 ];
 
+const parseKeywordNumber = (keyword: string) => {
+  const number = parseInt(keyword, 10);
+  if (number < 0) return NaN;
+  return number;
+};
+
 const searchAll = (keyword: string): SearchResult[] => {
   if (!keyword) {
     return [];
   }
+  const keywordParsed = keyword.trim().toLowerCase();
+  const keywordNumber = parseKeywordNumber(keyword);
 
   const results: SearchResult[] = [];
 
   PokemonData.filter(
     (pokemon) =>
-      pokemon.english.toLowerCase().includes(keyword.toLowerCase()) ||
-      pokemon.name.includes(keyword) ||
-      pokemon.formName.includes(keyword) ||
-      pokemon.national.toString().padStart(3, "0") === keyword,
+      pokemon.english.toLowerCase().includes(keywordParsed) ||
+      pokemon.name.toLowerCase().includes(keywordParsed) ||
+      pokemon.formName.toLowerCase().includes(keywordParsed) ||
+      pokemon.national === keywordNumber ||
+      (keywordNumber <= 232 && pokemon.dex === keywordNumber) ||
+      pokemon.dexHyperspace === keywordNumber,
   )
     .filter(filterPokemon)
     .slice(0, 10)
@@ -55,9 +75,9 @@ const searchAll = (keyword: string): SearchResult[] => {
   if (results.length < 10) {
     MoveData.filter(
       (move) =>
-        move.english.toLowerCase().includes(keyword.toLowerCase()) ||
-        move.name.includes(keyword) ||
-        move.id.toString().padStart(3, "0") === keyword,
+        move.english.toLowerCase().includes(keywordParsed) ||
+        move.name.toLowerCase().includes(keywordParsed) ||
+        move.id === keywordNumber,
     )
       .slice(0, 10 - results.length)
       .forEach((move) =>
@@ -69,7 +89,7 @@ const searchAll = (keyword: string): SearchResult[] => {
   }
 
   if (results.length < 10) {
-    EPokemonType.filter((type) => type.includes(keyword))
+    EPokemonType.filter((type) => type.includes(keywordParsed))
       .slice(0, 10 - results.length)
       .forEach((type) =>
         results.push({
@@ -80,7 +100,7 @@ const searchAll = (keyword: string): SearchResult[] => {
   }
 
   if (results.length < 10) {
-    ItemData.filter((item) => item.name.includes(keyword))
+    ItemData.filter((item) => item.name.toLowerCase().includes(keywordParsed) || item.id === keywordNumber)
       .slice(0, 10 - results.length)
       .forEach((item) =>
         results.push({
@@ -91,7 +111,7 @@ const searchAll = (keyword: string): SearchResult[] => {
   }
 
   if (results.length < 10) {
-    NAV_ITEMS.filter((item) => item.label.includes(keyword))
+    NAV_ITEMS.filter((item) => item.label.includes(keywordParsed))
       .slice(0, 10 - results.length)
       .forEach((item) =>
         results.push({
@@ -101,24 +121,47 @@ const searchAll = (keyword: string): SearchResult[] => {
       );
   }
 
-  if (results.length < 10 && !keyword.startsWith("0")) {
-    if (/^\d+$/.exec(keyword)) {
-      const sideNumber = parseInt(keyword, 10);
-      if (sideNumber >= 1 && sideNumber <= 119) {
+  if (results.length < 10) {
+    MainMissionData.filter(
+      (mission) => mission.name.toLowerCase().includes(keywordParsed) || mission.index === keywordNumber,
+    )
+      .slice(0, 10 - results.length)
+      .forEach((mission) =>
+        results.push({
+          type: "main",
+          data: mission.index,
+        }),
+      );
+  }
+
+  if (results.length < 10) {
+    HyperspaceMissionData.filter(
+      (mission) => mission.name.toLowerCase().includes(keywordParsed) || mission.index === keywordNumber,
+    )
+      .slice(0, 10 - results.length)
+      .forEach((mission) =>
+        results.push({
+          type: "hyperspace",
+          data: mission.index,
+        }),
+      );
+  }
+
+  if (results.length < 10) {
+    const sideNumber = /^EX(\d)+$/i.exec(keyword) ? -parseInt(keyword.slice(2), 10) : NaN;
+    SideMissionData.filter(
+      (mission) =>
+        mission.name.toLowerCase().includes(keywordParsed) ||
+        mission.index === keywordNumber ||
+        mission.index === sideNumber,
+    )
+      .slice(0, 10 - results.length)
+      .forEach((mission) =>
         results.push({
           type: "side",
-          data: sideNumber,
-        });
-      }
-    } else if (/^EX(\d)+$/i.exec(keyword)) {
-      const sideNumber = parseInt(keyword.slice(2), 10);
-      if (sideNumber >= 1 && sideNumber <= 2) {
-        results.push({
-          type: "side",
-          data: -sideNumber,
-        });
-      }
-    }
+          data: mission.index,
+        }),
+      );
   }
 
   return results;
@@ -180,6 +223,22 @@ const renderSearchResult = (result: SearchResult[], onClick: () => void) => {
             return (
               <SearchNavigation
                 key={`navigation-${data.label}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "main":
+            return (
+              <SearchMainMission
+                key={`main-${data}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "hyperspace":
+            return (
+              <SearchHyperspaceMission
+                key={`hyperspace-${data}`}
                 result={data}
                 onClick={onClick}
               />

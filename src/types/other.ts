@@ -32,6 +32,14 @@ export type SearchResult =
       data: NavigationItem;
     }
   | {
+      type: "main";
+      data: number;
+    }
+  | {
+      type: "hyperspace";
+      data: number;
+    }
+  | {
       type: "side";
       data: number;
     };
