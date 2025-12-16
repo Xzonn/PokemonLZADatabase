@@ -1,6 +1,9 @@
 import { FC, ReactNode } from "react";
 
-export interface SideMissionSummary {
+export type MissionCategory = "主" | "副" | "异";
+
+export interface MissionSummary {
+  category: MissionCategory;
   index: number;
   name: string;
   requester: string;
@@ -9,21 +12,27 @@ export interface SideMissionSummary {
     item: string;
     number: number;
   }[];
+  pokemon: {
+    name: string;
+    level: number;
+  }[];
   x: number;
   y: number;
   z: number;
 }
 
-export interface SideMissionInformation {
+export interface MissionDetail {
   index: number;
   internal: number;
   summary: string;
   process: string[];
   location: string;
   unlockCondition: ReactNode;
+  bvid?: string;
+  cid?: string;
 }
 
-export interface SideMissionFull {
-  information: SideMissionInformation;
+export interface MissionFull {
+  information: MissionDetail;
   default?: FC;
 }

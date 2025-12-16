@@ -1,7 +1,7 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 import { Link } from "@/utils";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 62,
   internal: 32,
   summary: "委托人想修剪出更多多丽米亚的造型。向她的搭档飞天螳螂展示招式，帮忙提升技术吧。",

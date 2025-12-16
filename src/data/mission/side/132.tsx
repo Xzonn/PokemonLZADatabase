@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 132,
   internal: 172,
   summary: "我们是彼此命中注定的劲敌。红莲铠骑与苍炎刃鬼将赌上命运，在此较量！……来实现这场理想中的对战吧。",

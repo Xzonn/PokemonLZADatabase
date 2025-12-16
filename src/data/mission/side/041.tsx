@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 41,
   internal: 34,
   summary: "会在地面留下效果的招式似乎在坊间被称为陷阱。在宝可梦对战中体验陷阱那单纯却令人头疼的效果吧。",

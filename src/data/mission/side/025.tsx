@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 25,
   internal: 26,
   summary: "野生的破破袋们聚集在友友乐咖啡馆。这样下去没办法做生意了！把它们带到别的地方去吧。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 194,
   internal: 201,
   summary: "在打不开的精灵球中，封印着幻之宝可梦。与茉蜜姬合作将它从球中释放，再用新的球重新捕捉吧！",

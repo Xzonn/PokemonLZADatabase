@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 182,
   internal: 167,
   summary: "在异次元密阿雷，正义社的皙白与沐净再次向你发起了２ｖｓ２的挑战！和春紫共战，获得胜利吧！",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 180,
   internal: 182,
   summary: "委托人的宝可梦“花宝鼻”是个野丫头，总是一转眼就不见。将跑进６号野生特区的花宝鼻带回委托人身边吧。",

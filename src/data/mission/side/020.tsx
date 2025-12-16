@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 20,
   internal: 121,
   summary: "委托人制定了让宝可梦携带树果的作战计划。委托人似乎充满了自信，不知道实力究竟如何呢？",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 47,
   internal: 31,
   summary: "委托人想开一间为多丽米亚修剪体毛的宝可沙龙。向她的搭档飞天螳螂展示招式，帮忙提升技术吧。",

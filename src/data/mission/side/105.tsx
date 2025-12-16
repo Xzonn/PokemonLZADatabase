@@ -1,7 +1,7 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 import { Link } from "@/utils";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 105,
   internal: 79,
   summary: "有位电影导演正在拍摄恐怖片。把要在重要场景登场的朽木妖借给他吧。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 127,
   internal: 152,
   summary: "新员工魔尼尼在邮局首次工作。它要到桥的另一边的邮筒那里去收集信件。悄悄地照看它到最后吧。",

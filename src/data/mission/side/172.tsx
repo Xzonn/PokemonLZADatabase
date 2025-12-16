@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 172,
   internal: 171,
   summary: "你将以帮手的身份参加打击鬼部队和投摔鬼部队的团体战。选择要加入哪方阵营，并且取得胜利吧！",

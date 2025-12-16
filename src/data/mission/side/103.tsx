@@ -1,7 +1,7 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 import { Link } from "@/utils";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 103,
   internal: 61,
   summary: "据说其实在密阿雷市有个多丽米亚联盟，联盟的四天王正在等待挑战。将４人全部打败，称霸联盟吧。",

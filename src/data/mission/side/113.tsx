@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 113,
   internal: 116,
   summary: "委托人想让４只冰宝同时站在巨大的冰岩怪背上来拍照。为此需要ＸＬ尺寸的冰岩怪。",

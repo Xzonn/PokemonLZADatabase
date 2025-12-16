@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 48,
   internal: 75,
   summary: "委托人被丝缠成一团并且吊在了树上。到底为什么会变成这样……用招式击中来救他吧。",

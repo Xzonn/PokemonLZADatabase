@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 84,
   internal: 47,
   summary: "宝可梦陷入畏缩时，将会无法使出原本想使出的招式。梧卫擅长使用容易让对手畏缩的招式，和他对战吧。",

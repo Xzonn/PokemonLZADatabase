@@ -29,6 +29,7 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
       <span
         className={cn("whitespace-nowrap", className)}
         aria-current="page"
+        {...rest}
       >
         {children}
       </span>

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 45,
   internal: 51,
   summary: "认真的维修员寇可感到非常口渴。要是给他饮料的话，他是不是就能认真工作了？",

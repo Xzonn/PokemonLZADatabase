@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 79,
   internal: 48,
   summary: "使用“挥指”这招，就会不可预测地出现某种招式。是厉害的招式？还是奇怪的招式？听天由命的对战真是别有滋味。",

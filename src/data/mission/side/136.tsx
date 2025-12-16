@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 136,
   internal: 156,
   summary: "面包店的善布拜托你带狗仔包散步。与狗仔包一起沿着平时的散步路线走一圈吧。",

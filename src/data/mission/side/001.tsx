@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 1,
   internal: 2,
   summary: "委托人在野生特区外的巷子里目击到了巨大的掘掘兔。和委托人一起前往目击地点所在的巷子吧。",

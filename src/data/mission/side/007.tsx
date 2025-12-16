@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 7,
   internal: 111,
   summary: "野生的哈力栗竟大胆地对出租车发起了挑战。帮助因为无法开车而陷入困境的委托人吧。",

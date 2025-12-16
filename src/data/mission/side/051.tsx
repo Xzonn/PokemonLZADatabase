@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 51,
   internal: 90,
   summary: "为了想出新的发色，美发沙龙的姐姐想看５只花叶蒂一起战斗的样子。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 8,
   internal: 112,
   summary: "有只没精神的野生火狐狸，对食物无动于衷，带它去宝可梦中心也不管用。还有什么其他的办法吗……？",

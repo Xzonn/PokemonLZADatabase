@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 90,
   internal: 99,
   summary: "有只雪妖女现身后一直盯着这边，好像在说“跟我来”一样。",

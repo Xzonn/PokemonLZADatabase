@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 37,
   internal: 95,
   summary: "委托人自豪的小船前聚集了成群的龟脚脚，害得委托人无法上船。帮忙赶走它们吧。",

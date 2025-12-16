@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 195,
   internal: 199,
   summary: "在都市开发的工程中挖掘出了远古的机械结构宝可梦。为了让休眠中的玛机雅娜启动，收集大量的超级碎片吧。",

@@ -1,10 +1,12 @@
 import { Table } from "antd";
 import { FC, Fragment, useEffect, useMemo } from "react";
 
-import { ItemTable, LumioseMap, NatureCell, SideMissionTable } from "@/components";
-import { NatureData } from "@/data";
+import { ItemTable, LumioseMap, MissionTable, NatureCell } from "@/components";
+import { MissionData, NatureData } from "@/data";
 import { EStat, Nature } from "@/types";
-import { DEFAULT_TITLE, TableCommonProps, useImport, useLoadingAnchor } from "@/utils";
+import { DEFAULT_TITLE, TableCommonProps, useImport } from "@/utils";
+
+const filteredMissions = MissionData?.filter((mission) => mission.items.some((it) => it.item.endsWith("薄荷")));
 
 const NatureListPage: FC = () => {
   useEffect(() => {
@@ -21,14 +23,6 @@ const NatureListPage: FC = () => {
 
   const [itemFullData, loading] = useImport(async () => (await import("@/data/i/detail")).ItemFullData);
   const mints = useMemo(() => itemFullData?.filter((item) => item.name.endsWith("薄荷")), [itemFullData]);
-
-  const [sideMissionData, sideMissionLoading] = useImport(async () =>
-    (await import("@/data/mission/side")).SideMissionData.filter((mission) =>
-      mission.items.some((it) => it.item.endsWith("薄荷")),
-    ),
-  );
-
-  useLoadingAnchor([sideMissionLoading]);
 
   return (
     <Fragment key="research-list">
@@ -89,11 +83,8 @@ const NatureListPage: FC = () => {
       </div>
 
       <div className="section">
-        <h2>能够获取薄荷的副任务</h2>
-        <SideMissionTable
-          loading={sideMissionLoading}
-          data={sideMissionData || []}
-        />
+        <h2>相关任务</h2>
+        <MissionTable data={filteredMissions} />
       </div>
     </Fragment>
   );

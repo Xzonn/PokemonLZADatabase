@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 18,
   internal: 16,
   summary: "为了开发理想的茶，委托人想借用花椰猴、爆香猴、冷水猴这３只宝可梦的力量。把它们一起带过来吧。",

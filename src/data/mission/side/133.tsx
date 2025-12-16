@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 133,
   internal: 176,
   summary: "有传闻说如果只带１只携带了大葱的大葱鸭在夜路上行走，会遭到某人的袭击……把犯人引出来，好好教训一顿吧！",

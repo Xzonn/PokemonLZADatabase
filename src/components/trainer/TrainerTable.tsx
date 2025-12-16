@@ -6,8 +6,8 @@ import { TrainerBase, TrainerNormal, TrainerRoyale } from "@/types";
 import { Icon, Link, PaginationConfig, TRNAME_WITH_ICONS, TRTYPE_WITH_ICONS, TableCommonProps } from "@/utils";
 
 import { ItemIcon } from "../item";
-import { TrainerPokemonComponent } from "./TrainerPokemonComponent";
 import { TrainerPokemonTable } from "./TrainerPokemonTable";
+import { PokemonList } from "../pokemon";
 
 const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<TrainerNormal | TrainerRoyale> => {
   const trtypes = Array.from(new Set(data?.map((item) => item.trtype) || []));
@@ -96,16 +96,7 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
       title: "宝可梦",
       dataIndex: "pokemon",
       width: 500,
-      render: (pokemon: []) => (
-        <div className="flex text-center gap-4 flex-wrap">
-          {pokemon.map((p, i) => (
-            <TrainerPokemonComponent
-              key={i}
-              pokemon={p}
-            />
-          ))}
-        </div>
-      ),
+      render: (pokemon: []) => <PokemonList pokemon={pokemon} />,
     },
   ];
 };

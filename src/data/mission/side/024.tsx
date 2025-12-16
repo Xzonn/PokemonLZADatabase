@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 24,
   internal: 14,
   summary: "委托人想要凯西当鬼抓人游戏的玩伴。他似乎愿意用利欧路来交换。",

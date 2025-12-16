@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 120,
   internal: 122,
   summary: "带着胡帕的少女安馨儿有一个委托，内容是希望帮她制作甜甜圈。其中缘由究竟是……？",

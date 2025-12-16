@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 149,
   internal: 131,
   summary: "贰流餐馆正在策划一场有关超辣菜品的特别活动。使用狠辣椒的招式辣椒精华让这场活动获得圆满成功吧！",

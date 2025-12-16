@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 80,
   internal: 57,
   summary: "电属性的宝可梦们在全息传送梯前争地盘争得火花四溅……真希望它们换个地方。",

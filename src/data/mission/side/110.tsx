@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 110,
   internal: 70,
   summary: "她突然低语的“３０秒”到底是什么意思？想知道这个秘密，就接受她发起的对战吧。",

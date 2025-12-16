@@ -1,7 +1,7 @@
 import { DescriptionsProps, TablePaginationConfig, TableProps, message } from "antd";
 import { ColumnFilterItem } from "antd/es/table/interface";
 
-import { EMoveCategory, EPokemonType } from "@/types";
+import { EMoveCategory, EPokemonType, MissionCategory } from "@/types";
 
 export const BREAKPOINTS = {
   xs: 480,
@@ -92,7 +92,29 @@ export const halfToFull = (str: string): string =>
 export const fullToHalf = (str: string): string =>
   str.replace(/[！-～]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xfee0));
 
-export const getSideMissionNumber = (id: number) => (id > 0 ? id.toString().padStart(3, "0") : `EX${-id}`);
+export const getMissionIndex = (id: number) => (id > 0 ? id.toString().padStart(3, "0") : `EX${-id}`);
+
+export const getMissionCategory = (category: MissionCategory): string => {
+  switch (category) {
+    case "主":
+      return "主任务";
+    case "副":
+      return "副任务";
+    case "异":
+      return "异次元";
+  }
+};
+
+export const getMissionDirectory = (category: MissionCategory): string => {
+  switch (category) {
+    case "主":
+      return "main";
+    case "副":
+      return "side";
+    case "异":
+      return "hyperspace";
+  }
+};
 
 export const parseTSV = <T,>(raw: string, handleDict: (dict: Record<string, string>) => T): T[] => {
   const lines = raw.trim().split("\n");

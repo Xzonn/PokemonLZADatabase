@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 101,
   internal: 67,
   summary: "锈蚀组的手下发起了对战的挑战。对手似乎对钢属性有着强烈的执着。",

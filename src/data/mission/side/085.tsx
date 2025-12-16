@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 85,
   internal: 109,
   summary: "男孩说他妹妹去追野生的烛光灵没有回来。正要询问详细情况时，有只烛光灵注视着这里……",

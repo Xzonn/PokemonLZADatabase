@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 98,
   internal: 92,
   summary: "南瓜精的尺寸分类似乎根据品种有所不同。其中被称为“巨颗种”的特大尺寸正是委托人想要的。",

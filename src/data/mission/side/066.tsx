@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 66,
   internal: 76,
   summary: "有位警察需要借助怨影娃娃的力量来侦查。提供怨影娃娃，为密阿雷的和平做贡献吧。",

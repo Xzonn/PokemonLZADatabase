@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 13,
   internal: 98,
   summary: "有位艺术家正在画用来参赛的风景画。据说她在写生时出现了碍事的藤蔓痕迹。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 140,
   internal: 125,
   summary: "在异次元遇到的男人将一封信交付给了你。似乎这封信的收件人是艾特瓦鲁学校的校长……？",

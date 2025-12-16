@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 64,
   internal: 40,
   summary: "委托人的宝可梦们似乎一下雨就会拿出真本事来。为了见识它们的真本领，在下雨的时候来对战吧。",

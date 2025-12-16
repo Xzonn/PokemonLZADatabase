@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 179,
   internal: 179,
   summary: "据说委托人的宝可梦“噬沙堡爷”对自己的抗打能力很自豪。你也来挑战一下看看能否在３０秒内击败它吧。",

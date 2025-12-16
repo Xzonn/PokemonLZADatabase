@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 143,
   internal: 128,
   summary: "据说如果能战胜绯盈，就可以从她提供的３只样子不同的喵喵中选１只，当作特别的奖赏。",

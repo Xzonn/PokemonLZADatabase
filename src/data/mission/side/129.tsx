@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 129,
   internal: 138,
   summary: "艾谢卓正在撰写恋爱小说。他总觉得登场角色不够对味。于是便委托（主角）将宝可梦们带来供自己参考。",

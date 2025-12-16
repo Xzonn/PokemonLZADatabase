@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 178,
   internal: 158,
   summary: "下水道的管道好像被巨大的宝可梦堵住了。如果不救出宝可梦，水不但无法流动，还会溢出来。",

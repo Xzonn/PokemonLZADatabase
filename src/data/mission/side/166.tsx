@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 166,
   internal: 193,
   summary: "艺人莫方今天也在和搭档踏冰人偶特训表演。通过宝可梦对战尽情欣赏他们拿手的模仿艺术吧。",

@@ -1,1 +1,2 @@
-export * from "./SideMissionTable";
+export * from "./MissionTable";
+export * from "./MissionDetailComponent";

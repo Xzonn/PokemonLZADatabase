@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 42,
   internal: 5,
   summary: "委托人说她推的是妖精属性的宝可梦你也用自己推的宝可梦来迎战吧。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 52,
   internal: 105,
   summary: "委托人冻成冰坨的呆火驼需要救助。用威力强劲的火属性招式把冰融化来救出它吧。",

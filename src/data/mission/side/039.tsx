@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 39,
   internal: 18,
   summary: "伽勒尔地区的呆呆兽似乎和其他地区样子不同。用这里的呆呆兽交换委托人带的伽勒尔地区的呆呆兽吧。",

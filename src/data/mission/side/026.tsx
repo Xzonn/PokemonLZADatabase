@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 26,
   internal: 22,
   summary: "餐厅美味的料理离不开小狮狮的火力。烹饪前来场对战，点燃它心中的烈火吧。",

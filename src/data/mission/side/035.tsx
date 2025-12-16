@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 35,
   internal: 96,
   summary: "据说委托人的玛沙那好像很难集中注意力。找出传说中的瑜伽大师所在的地方，并请求大师指导吧。",

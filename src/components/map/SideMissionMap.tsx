@@ -3,12 +3,13 @@ import { divIcon } from "leaflet";
 import { FC, Fragment } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
-import { SideMissionSummary } from "@/types";
-import { Link, MAP_CENTER, getCoord, getSideMissionNumber, useImport } from "@/utils";
+import { SideMissionData } from "@/data";
+import { MissionSummary } from "@/types";
+import { Link, MAP_CENTER, getCoord, getMissionIndex } from "@/utils";
 
 import { LumioseMap } from "../map/LumioseMap";
 
-const MapLayer: FC<{ data: SideMissionSummary[] }> = ({ data }) => {
+const MapLayer: FC<{ data: MissionSummary[] }> = ({ data }) => {
   const map = useMap();
 
   if (data?.length === 1) {
@@ -19,7 +20,7 @@ const MapLayer: FC<{ data: SideMissionSummary[] }> = ({ data }) => {
   }
 
   return data?.map((mission) => {
-    const index = getSideMissionNumber(mission.index);
+    const index = getMissionIndex(mission.index);
     return (
       <Marker
         key={mission.index}
@@ -41,41 +42,42 @@ const MapLayer: FC<{ data: SideMissionSummary[] }> = ({ data }) => {
 
 const EMPTY_FILTER = {};
 
+const sideMissionDataWithPoints = SideMissionData.filter((mission) => mission.x !== 0 && mission.y !== 0);
+
 interface IProps {
   active?: number | null;
   setActive?: (name: number | null) => void;
 }
 
-export const SideMissionMap: FC<IProps> = ({ active, setActive }) => {
-  const [data, loading] = useImport(async () =>
-    (await import("@/data/mission/side")).SideMissionData.filter((mission) => mission.x !== 0 || mission.y !== 0),
-  );
-
-  return (
-    <Fragment key="side-mission-map">
-      <LumioseMap
-        filter={EMPTY_FILTER}
-        filterComponent={
-          setActive ? (
-            <div className="flex justify-center mb-2">
-              <Button
-                onClick={() => setActive(null)}
-                disabled={loading || active === null}
-              >
-                重置筛选
-              </Button>
-            </div>
-          ) : null
+export const SideMissionMap: FC<IProps> = ({ active, setActive }) => (
+  <Fragment key="side-mission-map">
+    <LumioseMap
+      filter={EMPTY_FILTER}
+      filterComponent={
+        setActive ? (
+          <div className="flex justify-center mb-2">
+            <Button
+              onClick={() => setActive(null)}
+              disabled={active === null}
+            >
+              重置筛选
+            </Button>
+          </div>
+        ) : null
+      }
+      showReset={false}
+    >
+      <MapLayer
+        data={
+          active !== null
+            ? sideMissionDataWithPoints.filter((mission) => mission.index === active)
+            : sideMissionDataWithPoints
         }
-        loading={loading}
-        showReset={false}
-      >
-        {data ? <MapLayer data={active !== null ? data.filter((mission) => mission.index === active) : data} /> : null}
-      </LumioseMap>
-      <div className="map-note">
-        副任务信息参考自：
-        <Link to="https://wiki.52poke.com/wiki/%E5%89%AF%E4%BB%BB%E5%8A%A1%EF%BC%88Z-A%EF%BC%89">神奇宝贝百科</Link>
-      </div>
-    </Fragment>
-  );
-};
+      />
+    </LumioseMap>
+    <div className="map-note">
+      副任务信息参考自：
+      <Link to="https://wiki.52poke.com/wiki/%E5%89%AF%E4%BB%BB%E5%8A%A1%EF%BC%88Z-A%EF%BC%89">神奇宝贝百科</Link>
+    </div>
+  </Fragment>
+);

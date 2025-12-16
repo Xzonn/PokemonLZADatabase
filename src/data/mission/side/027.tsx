@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 27,
   internal: 30,
   summary: "从化石复原装置的研究员手里收下了钱。帮忙买一个颚之化石或鳍之化石回来吧。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: -3,
   internal: 203,
   summary: "玛琪艾儿联系你，说在车站前发现了释放惊人能量的异次元扭洞。究竟是什么在等待你呢？",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 11,
   internal: 7,
   summary: "正以最强的铁壳蛹训练家为目标修行的少女前来挑战。通过对战看看她培育的铁壳蛹们的实力如何吧。",

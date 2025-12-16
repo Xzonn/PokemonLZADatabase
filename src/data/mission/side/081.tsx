@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 81,
   internal: 103,
   summary: "有个眼熟的训练家带着搭档顽皮熊猫似乎和客人起了争执。同心协力解决问题吧。",

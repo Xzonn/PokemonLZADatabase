@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 
-import { Icon, getSideMissionNumber } from "@/utils";
+import { Icon, getMissionIndex } from "@/utils";
 
 interface IProps {
   result: number;
@@ -10,7 +10,7 @@ interface IProps {
 
 export const SearchSideMission: FC<IProps> = ({ result, onClick }) => (
   <Link
-    to={`/side/${getSideMissionNumber(result)}`}
+    to={`/side/${getMissionIndex(result)}`}
     onClick={onClick}
     className="search-item"
   >
@@ -18,6 +18,6 @@ export const SearchSideMission: FC<IProps> = ({ result, onClick }) => (
       name="side-mission"
       size={40}
     />
-    <div className="search-item-name">副任务 {getSideMissionNumber(result)}</div>
+    <div className="search-item-name">副任务 {getMissionIndex(result)}</div>
   </Link>
 );

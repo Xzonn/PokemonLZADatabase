@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 83,
   internal: 68,
   summary: "独剑鞘状态不好，恢复活力的秘诀是让它和沙基拉斯对战……！？这到底是怎么一回事呢？",

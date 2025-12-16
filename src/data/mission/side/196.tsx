@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 196,
   internal: 202,
   summary: "刚发现惩戒之壶，就检测到了似乎与胡帕有关的异次元扭洞。这是偶然吗？还是……？",

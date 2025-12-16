@@ -1,7 +1,7 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 import { Link } from "@/utils";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 119,
   internal: 88,
   summary: "著名的由紫锦标赛全新升级，重磅回归了！参赛者竟然只有由紫和（主角）二人！",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 191,
   internal: 196,
   summary: "委托人愿意用在别处得不到的“卡带”来与超级碎片交换。据说收齐４种，他就会告诉你特别的事情。",

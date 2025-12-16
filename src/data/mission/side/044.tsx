@@ -1,7 +1,7 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 import { Link } from "@/utils";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 44,
   internal: 13,
   summary: "委托人表示，想用迷你冰的雪调制香水。到底能做出什么味道的香水呢？",

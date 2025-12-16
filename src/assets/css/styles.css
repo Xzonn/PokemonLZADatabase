@@ -61,8 +61,12 @@ td.ant-descriptions-item-content {
     @apply lg:w-[20%] 2xl:w-[10%];
   }
 
-  td.ant-descriptions-item-content {
+  td.ant-descriptions-item-content[colspan="1"] {
     @apply lg:w-[30%] 2xl:w-[15%];
+  }
+
+  td.ant-descriptions-item-content[colspan="3"] {
+    @apply lg:w-[80%] 2xl:w-[40%];
   }
 }
 

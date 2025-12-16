@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 150,
   internal: 174,
   summary: "蓝鸦从伽勒尔地区一路飞越海峡来到密阿雷市。它似乎正在寻找某个人，线索只有一条围巾。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 107,
   internal: 71,
   summary: "以皮卡丘为傲的训练家发来挑战，要求来一场用皮卡丘１打１，使出全力的实力大比拼。秀出最强的皮卡丘吧。",

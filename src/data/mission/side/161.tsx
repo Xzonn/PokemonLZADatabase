@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 161,
   internal: 175,
   summary: "委托人想帮凉脊龙交朋友，却无法开口与人搭话……去与１０号野生特区的训练家们搭话吧。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 2,
   internal: 1,
   summary: "为了使用雷之石，委托人想要皮卡丘。她似乎愿意用赫拉克罗斯来交换。",

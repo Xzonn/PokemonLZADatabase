@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 22,
   internal: 118,
   summary: "接到了茉蜜姬的电话，她想在宝可梦研究所见面。到底是什么事呢……？",

@@ -1,7 +1,7 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 import { Link } from "@/utils";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 116,
   internal: 106,
   summary: "女孩正要用零花钱购买鳍之化石。然而她哥哥却强烈推荐颚之化石。",

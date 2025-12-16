@@ -4,3 +4,4 @@ export * from "./PokemonEvolutionTable";
 export * from "./PokemonCell";
 export * from "./PokemonStatBar";
 export * from "./PokemonMegaEvolutionTable";
+export * from "./PokemonList";

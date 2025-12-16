@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 21,
   internal: 104,
   summary: "找出所有藏在美术馆不知何处的粉蝶蛹吧。似乎总数竟然多达１２只。",

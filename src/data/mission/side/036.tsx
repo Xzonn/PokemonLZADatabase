@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 36,
   internal: 20,
   summary: "有些宝可梦要跟它们足够亲密才会进化。和委托人用心培育的宝可梦们对战吧。",

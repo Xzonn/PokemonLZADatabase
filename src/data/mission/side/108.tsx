@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 108,
   internal: 72,
   summary: "阿罗拉地区的雷丘似乎和其他地区样子不同。用自己的雷丘和委托人的阿罗拉地区的雷丘交换吧。",

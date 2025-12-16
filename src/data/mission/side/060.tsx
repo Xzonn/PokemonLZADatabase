@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 60,
   internal: 82,
   summary: "请尽情享用贰流餐馆的宝可梦对战全餐吧。中途回复是不符合用餐礼仪的。",

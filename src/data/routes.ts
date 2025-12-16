@@ -21,7 +21,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/ＺＡ登峰战": "RoyalePage",
   "/对战特区": "BattleZonePage",
   "/茉蜜姬调查": "ResearchListPage",
-  "/副任务一览": "SideMissionListPage",
+  "/任务一览": "MissionListPage",
   "/密阿雷地图": "AreaListPage",
   "/宝可梦分布": "SpawnListPage",
   "/联网活动": "ActivityPage",
@@ -32,7 +32,11 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/t/:name": "TypeDetailPage",
   "/tr/:name": "TrainerDetailPage",
   "/area/:name": "AreaDetailPage",
+  "/main/:id": "MainMissionDetailPage",
+  "/hyperspace/:id": "HyperspaceMissionDetailPage",
   "/side/:id": "SideMissionDetailPage",
+  /** @deprecated */
+  "/副任务一览": "SideMissionListPage",
   /** @deprecated */
   "/野生特区一览": "WildZoneListPage",
   /** @deprecated */
@@ -52,7 +56,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/训练家一览", label: "训练家一览", icon: "battle" },
   { path: "/ＺＡ登峰战", label: "ＺＡ登峰战", icon: "royale" },
   { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: "research" },
-  { path: "/副任务一览", label: "副任务一览", icon: "side-plain" },
+  { path: "/任务一览", label: "任务一览", icon: "side-plain" },
   { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "bag-重要物品" },
   { path: "/联网活动", label: "联网活动", icon: "internet" },
 ];
@@ -84,7 +88,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/宝可梦分布", label: "宝可梦分布", icon: "zone" },
           { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: "茉蜜姬" },
-          { path: "/副任务一览", label: "副任务", icon: "side-mission" },
+          { path: "/任务一览", label: "任务一览", icon: "side-mission" },
           { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "colorful-screw" },
         ],
       },

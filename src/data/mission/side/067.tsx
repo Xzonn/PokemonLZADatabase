@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 67,
   internal: 29,
   summary: "委托人坚持认为使用仙子伊布的力量就能马上解决争执！一起仲裁周围所有的争执吧。",

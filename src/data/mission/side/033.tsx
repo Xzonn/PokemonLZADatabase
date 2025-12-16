@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 33,
   internal: 24,
   summary: "委托人炫耀自己捕捉的鲤鱼王尺寸很大。捕捉比ＸＬ尺寸还大的鲤鱼王来炫耀一番吧。",

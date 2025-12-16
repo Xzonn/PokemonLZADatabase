@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 23,
   internal: 55,
   summary: "地里面住了宝可梦，害得全息传送梯动不了了。虽然很过意不去，但还是请它搬走吧。",

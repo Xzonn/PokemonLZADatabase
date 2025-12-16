@@ -2,8 +2,8 @@ import { Descriptions, DescriptionsProps, Spin, Tooltip } from "antd";
 import React, { FC, Fragment, useEffect, useMemo } from "react";
 import { Navigate, useParams } from "react-router-dom";
 
-import { ItemIconWithoutTooltip, SideMissionTable } from "@/components";
-import { ItemDataByName } from "@/data";
+import { ItemIconWithoutTooltip, MissionTable } from "@/components";
+import { ItemDataByName, MissionData } from "@/data";
 import { EItemPocket, Item, ItemFull } from "@/types";
 import { DEFAULT_TITLE, DescriptionsCommonProps4, useImport, useLoadingAnchor } from "@/utils";
 
@@ -50,12 +50,9 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
     [item],
     true,
   );
-  const [sideMissionData, sideMissionLoading] = useImport(
-    async () => (await import("@/data/mission/side")).SideMissionData,
-  );
-  const filteredSideMissions = useMemo(
-    () => sideMissionData?.filter((mission) => mission.items.some((it) => it.item === item.name)),
-    [sideMissionData, item.name],
+  const filteredMissions = useMemo(
+    () => MissionData?.filter((mission) => mission.items.some((it) => it.item === item.name)),
+    [item.name],
   );
 
   useLoadingAnchor([loadingFull, loadingContent]);
@@ -89,13 +86,10 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         </Spin>
       </div>
 
-      {filteredSideMissions?.length ? (
+      {filteredMissions?.length ? (
         <div className="section">
-          <h2>相关副任务</h2>
-          <SideMissionTable
-            loading={sideMissionLoading}
-            data={filteredSideMissions || []}
-          />
+          <h2>相关任务</h2>
+          <MissionTable data={filteredMissions} />
         </div>
       ) : null}
 

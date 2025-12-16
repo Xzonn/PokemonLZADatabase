@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 165,
   internal: 180,
   summary: "有劫匪闯入了密阿雷美术馆！……你将扮演劫匪，参加上述设定的警卫训练。突破警备，直奔目标物品吧！",

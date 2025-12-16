@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 76,
   internal: 77,
   summary: "不知怎的就变成要教给校园里的孩子们关于超级进化的各种知识了。那么，开始上课吧。",

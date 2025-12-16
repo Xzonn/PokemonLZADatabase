@@ -2,8 +2,16 @@ import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { Navigate, useParams } from "react-router-dom";
 
-import { MoveTable, PokemonEvolutionTable, PokemonIcon, PokemonStatBar, PokemonTable, TypeEffects } from "@/components";
-import { MoveDataById, PokemonData, PokemonDataByName } from "@/data";
+import {
+  MissionTable,
+  MoveTable,
+  PokemonEvolutionTable,
+  PokemonIcon,
+  PokemonStatBar,
+  PokemonTable,
+  TypeEffects,
+} from "@/components";
+import { MissionData, MoveDataById, PokemonData, PokemonDataByName } from "@/data";
 import { Move, MoveLevelUp, MoveTM, Pokemon, PokemonForm, PokemonFull } from "@/types";
 import {
   DEFAULT_TITLE,
@@ -12,6 +20,7 @@ import {
   Link,
   TypeIcons,
   getPokemonFullId,
+  getPokemonFullName,
   getPokemonFullNameFriendly,
   renderMoveLevel,
   useImport,
@@ -206,6 +215,11 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
     [pokemonFull],
   );
 
+  const filteredMissions = useMemo(
+    () => MissionData?.filter((mission) => mission.pokemon.some((p) => p.name === getPokemonFullName(pokemon))),
+    [pokemon],
+  );
+
   useLoadingAnchor([loading]);
 
   return (
@@ -268,6 +282,13 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
           </>
         ) : null}
       </div>
+
+      {filteredMissions?.length ? (
+        <div className="section">
+          <h2>相关任务</h2>
+          <MissionTable data={filteredMissions} />
+        </div>
+      ) : null}
 
       <div className="section">
         <h2>能力值</h2>

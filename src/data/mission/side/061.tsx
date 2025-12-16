@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 61,
   internal: 54,
   summary: "锈蚀组的手下看中的地方偏偏是全息传送梯。打赢对战并让他让开吧。",

@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 65,
   internal: 28,
   summary: "某座公寓似乎发生了灵异现象。委托人想让人帮忙确认屋顶传来的诡异声响。",

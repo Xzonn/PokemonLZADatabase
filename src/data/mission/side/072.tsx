@@ -1,6 +1,6 @@
-import { SideMissionInformation } from "@/types";
+import { MissionDetail } from "@/types";
 
-export const information: SideMissionInformation = {
+export const information: MissionDetail = {
   index: 72,
   internal: 43,
   summary: "委托人和伽勒尔地区的泥巴鱼走散了。在１１号野生特区寻找拟态成球的泥巴鱼吧。",
