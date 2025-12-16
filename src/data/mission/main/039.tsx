@@ -13,4 +13,6 @@ export const information: MissionDetail = {
   ],
   location: "",
   unlockCondition: "",
+  bvid: "BV1pK4UzoEoF",
+  cid: "25931224954",
 };

@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 3,
@@ -11,6 +12,12 @@ export const information: MissionDetail = {
     "捕捉有失控超级进化反应的姆克鹰。",
     "用宝可梦的招式命中奖励球。",
   ],
-  location: "",
-  unlockCondition: "",
+  location: "锈蚀组事务所",
+  unlockCondition: (
+    <>
+      完成了<Link to="/hyperspace/002">异次元任务 002</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25931356806",
 };

@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 120,
@@ -12,6 +13,12 @@ export const information: MissionDetail = {
     "寻找安馨儿，在奇特的空间前行。",
     "前往安馨儿所在的地方。",
   ],
-  location: "",
-  unlockCondition: null,
+  location: "旅馆Z 顶楼",
+  unlockCondition: (
+    <>
+      完成了<Link to="/main/037">主任务 037</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25931354316",
 };
