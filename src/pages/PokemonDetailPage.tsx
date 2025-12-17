@@ -152,36 +152,74 @@ const getDescriptions = (pokemon: Pokemon, pokemonFull: PokemonFull | null): Des
   },
 ];
 
-const getObtainDescriptions = (obtains: PokemonFull["obtains"], form: PokemonForm): DescriptionsProps["items"] => [
-  {
-    key: "map",
-    label: "地图分布",
-    children: (
-      <Link
-        to="/宝可梦分布"
-        onClick={() => localStorage.setItem("za-spawn-filter", JSON.stringify({ pokemonForm: form }))}
-      >
-        查看地图分布
-      </Link>
-    ),
-  },
-  {
-    key: "areas",
-    label: "出现地点",
-    children:
-      obtains?.areas?.map((area, index) => (
-        <>
-          {index === 0 ? null : "、"}
-          <Link
-            id={area}
-            to={`/area/${area}`}
-          >
-            {area}
-          </Link>
-        </>
-      )) || "—",
-  },
-];
+const getObtainDescriptions = (obtains: PokemonFull["obtains"], form: PokemonForm): DescriptionsProps["items"] =>
+  [
+    obtains?.onMap
+      ? {
+          key: "map",
+          label: "地图分布",
+          children: (
+            <Link
+              to="/宝可梦分布"
+              onClick={() => localStorage.setItem("za-spawn-filter", JSON.stringify({ pokemonForm: form }))}
+            >
+              查看地图分布
+            </Link>
+          ),
+        }
+      : null,
+    obtains?.areas?.length
+      ? {
+          key: "areas",
+          label: "出现地点",
+          children:
+            obtains?.areas?.map((area, index) => (
+              <>
+                {index === 0 ? null : "、"}
+                <Link
+                  id={area}
+                  to={`/area/${area}`}
+                >
+                  {area}
+                </Link>
+              </>
+            )) || "—",
+        }
+      : null,
+    obtains?.hyperspace
+      ? {
+          key: "hyperspace",
+          label: "野生异次元",
+          children: Object.entries(obtains.hyperspace).map(([type, stars]) => (
+            <div key={type}>
+              <Link
+                to={`/h/${type}`}
+                onClick={() =>
+                  localStorage.setItem("za-hyperspace-spawn-filter", JSON.stringify({ pokemonForm: form }))
+                }
+              >
+                {type}属性
+              </Link>
+              ：
+              {Object.entries(stars).map(([star, indexes], index) => (
+                <span key={star}>
+                  {index === 0 ? null : "、"}
+                  <Link
+                    to={`/h/${type}#heading-${star}-星级`}
+                    onClick={() =>
+                      localStorage.setItem("za-hyperspace-spawn-filter", JSON.stringify({ pokemonForm: form }))
+                    }
+                  >
+                    {star} 星级
+                  </Link>
+                  （#{indexes.join("、#")}）
+                </span>
+              ))}
+            </div>
+          )),
+        }
+      : null,
+  ].filter(Boolean) as DescriptionsProps["items"];
 
 const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) => {
   useEffect(() => {

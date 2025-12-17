@@ -225,5 +225,16 @@
     }
   ],
   "description": "会把将它误认为是真正的棺材而接近的盗墓贼关在自己体内。",
-  "movesAlpha": 94
+  "movesAlpha": 94,
+  "obtains": {
+    "hyperspace": {
+      "幽灵": {
+        "4": [
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  }
 }

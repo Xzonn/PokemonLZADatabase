@@ -256,5 +256,16 @@
     }
   ],
   "description": "从盐石巨灵身上采集的岩盐富含回复成分，对维持健康很有帮助。",
-  "movesAlpha": 8
+  "movesAlpha": 8,
+  "obtains": {
+    "hyperspace": {
+      "岩石": {
+        "4": [
+          3,
+          4,
+          5
+        ]
+      }
+    }
+  }
 }

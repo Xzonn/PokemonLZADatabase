@@ -283,5 +283,14 @@
     }
   ],
   "description": "虽然有人认为它体内有着生成能量的永动机，但至今仍未得到证实。",
-  "movesAlpha": 7
+  "movesAlpha": 7,
+  "obtains": {
+    "hyperspace": {
+      "地面": {
+        "4": [
+          10
+        ]
+      }
+    }
+  }
 }

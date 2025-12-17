@@ -224,7 +224,17 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "超能力": {
+        "4": [
+          1,
+          6,
+          8
+        ]
+      }
+    }
   },
   "movesAlpha": 605
 }

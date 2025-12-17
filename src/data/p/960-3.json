@@ -202,5 +202,14 @@
     }
   ],
   "description": "它们是个体数最少，不喜欢争执的队。但紧急时刻勇猛果敢。",
-  "movesAlpha": 442
+  "movesAlpha": 442,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "1": [
+          10
+        ]
+      }
+    }
+  }
 }

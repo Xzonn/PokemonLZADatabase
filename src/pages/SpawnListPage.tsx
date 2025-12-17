@@ -4,10 +4,10 @@ import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useRef } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
-import { LumioseMap, PokemonIcon, PokemonSpawnTable } from "@/components";
+import { LumioseMap, PokemonFilterIcon, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
-import { Pokemon, PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
-import { DEFAULT_TITLE, MAP_CENTER, getCoord, getPokemonFullId, useImport, useLoadingAnchor } from "@/utils";
+import { EPokemonType, PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
+import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getPokemonFullId, useImport, useLoadingAnchor } from "@/utils";
 
 interface IMapLayerProps {
   data: SpawnPoint[];
@@ -49,28 +49,6 @@ interface IFilter {
   alphaOnly?: boolean;
   pokemonForm?: PokemonForm;
 }
-
-interface IPokmonFilterIconProps {
-  className?: string;
-  pokemon: Pokemon;
-  onClick: () => void;
-}
-const PokemonFilterIcon: FC<IPokmonFilterIconProps> = ({ pokemon: p, onClick, className }) => (
-  <Button
-    onClick={onClick}
-    type="link"
-    key={`${p.id}-${p.form}`}
-    className="flex flex-col items-center justify-start gap-0 w-[72px] h-[96px]"
-  >
-    <PokemonIcon
-      className={className}
-      pokemon={p}
-      size={48}
-    />
-    <div>{p.name}</div>
-    {p.formName ? <div className="text-gray-400 text-xs">{p.formName}</div> : null}
-  </Button>
-);
 
 const AreaListPage: React.FC = () => {
   useEffect(() => {
@@ -189,6 +167,22 @@ const AreaListPage: React.FC = () => {
     <Fragment key="wild-zone-list">
       <div className="section">
         <h1>宝可梦分布</h1>
+      </div>
+
+      <div className="section">
+        <h2>野生异次元</h2>
+        <div className="flex-container max-w-md mx-auto">
+          {EPokemonType.map((type) => (
+            <Link
+              className={`badge bg-${type}`}
+              key={type}
+              to={`/h/${type}`}
+            >
+              <div className={`badge-icon icon icon-${type}-white`} />
+              <div className="badge-text">{type}</div>
+            </Link>
+          ))}
+        </div>
       </div>
 
       <div className="section">

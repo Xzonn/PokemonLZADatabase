@@ -5,3 +5,4 @@ export * from "./PokemonCell";
 export * from "./PokemonStatBar";
 export * from "./PokemonMegaEvolutionTable";
 export * from "./PokemonList";
+export * from "./PokemonFilterIcon";

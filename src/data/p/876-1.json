@@ -190,5 +190,15 @@
     }
   ],
   "description": "拥有高度智能的宝可梦。能通过伙伴间角与角的互碰来彼此交换信息。",
-  "movesAlpha": 409
+  "movesAlpha": 409,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "3": [
+          7,
+          8
+        ]
+      }
+    }
+  }
 }

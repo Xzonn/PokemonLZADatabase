@@ -261,7 +261,19 @@
   "obtains": {
     "areas": [
       "９号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "超能力": {
+        "4": [
+          1,
+          2,
+          4,
+          7,
+          9
+        ]
+      }
+    }
   },
   "movesAlpha": 85
 }

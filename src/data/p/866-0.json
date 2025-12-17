@@ -352,5 +352,15 @@
     }
   ],
   "description": "滑稽的舞步是它的绝学。会趁着敌方大笑之际，施以零下２００度的冷气。",
-  "movesAlpha": 411
+  "movesAlpha": 411,
+  "obtains": {
+    "hyperspace": {
+      "冰": {
+        "4": [
+          8,
+          9
+        ]
+      }
+    }
+  }
 }

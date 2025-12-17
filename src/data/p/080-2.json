@@ -333,5 +333,14 @@
     }
   ],
   "description": "由于被大舌贝咬住时的刺激和体内的香料发生化学反应，而变成了毒属性。",
-  "movesAlpha": 53
+  "movesAlpha": 53,
+  "obtains": {
+    "hyperspace": {
+      "毒": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

@@ -202,5 +202,15 @@
     }
   ],
   "description": "个体数位居第二，仅次于绿色的队。非常敌视绿队。",
-  "movesAlpha": 442
+  "movesAlpha": 442,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "1": [
+          9,
+          10
+        ]
+      }
+    }
+  }
 }

@@ -204,5 +204,17 @@
     }
   ],
   "description": "为了争夺作为搭档的吃吼霸，米立龙之间会展开激烈的战斗。",
-  "movesAlpha": 58
+  "movesAlpha": 58,
+  "obtains": {
+    "hyperspace": {
+      "水": {
+        "4": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  }
 }

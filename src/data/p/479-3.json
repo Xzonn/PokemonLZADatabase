@@ -210,5 +210,14 @@
     }
   ],
   "description": "钻进由特殊马达驱动的电冰箱里的洛托姆。会吐出冷气战斗。",
-  "movesAlpha": 399
+  "movesAlpha": 399,
+  "obtains": {
+    "hyperspace": {
+      "电": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

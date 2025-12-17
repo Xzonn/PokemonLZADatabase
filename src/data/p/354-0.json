@@ -247,7 +247,17 @@
   "obtains": {
     "areas": [
       "１５号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "幽灵": {
+        "3": [
+          1,
+          2,
+          3
+        ]
+      }
+    }
   },
   "movesAlpha": 605
 }

@@ -211,5 +211,17 @@
     }
   ],
   "description": "在坚硬的壳中，细胞开始发生变化。壳会在进化的瞬间脱落。",
-  "movesAlpha": 421
+  "movesAlpha": 421,
+  "obtains": {
+    "hyperspace": {
+      "龙": {
+        "4": [
+          1,
+          2,
+          4,
+          7
+        ]
+      }
+    }
+  }
 }

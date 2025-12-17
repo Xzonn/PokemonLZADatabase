@@ -49,7 +49,9 @@ export interface PokemonFull extends Pokemon {
   movesAlpha?: number;
   description: string;
   obtains?: {
+    onMap?: boolean;
     areas?: string[];
+    hyperspace?: Record<PokemonType, Record<string, number[]>>;
   };
 }
 

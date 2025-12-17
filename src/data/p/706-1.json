@@ -311,5 +311,14 @@
     }
   ],
   "description": "一不高兴就会缩在壳里，如橡胶球一般跳来跳去，横扫树木，把山掏得千疮百孔。",
-  "movesAlpha": 59
+  "movesAlpha": 59,
+  "obtains": {
+    "hyperspace": {
+      "龙": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

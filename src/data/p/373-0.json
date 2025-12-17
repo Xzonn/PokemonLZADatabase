@@ -276,7 +276,8 @@
   "obtains": {
     "areas": [
       "１８号野生特区"
-    ]
+    ],
+    "onMap": true
   },
   "movesAlpha": 89
 }

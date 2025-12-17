@@ -14,8 +14,8 @@ export interface PokemonSpawn {
 
 export interface PokemonSpawnDetail extends PokemonSpawn {
   rarity: number;
-  time: "" | "日" | "夜";
-  weather: "" | "晴" | "阴";
+  time?: "" | "日" | "夜";
+  weather?: "" | "晴" | "阴";
 }
 
 export interface SpawnPoint {

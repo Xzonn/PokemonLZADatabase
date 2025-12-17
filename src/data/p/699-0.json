@@ -257,5 +257,14 @@
     }
   ],
   "description": "从身上的菱形结晶里放出零下１５０度的冷气，把敌人包住并冰封起来。",
-  "movesAlpha": 414
+  "movesAlpha": 414,
+  "obtains": {
+    "hyperspace": {
+      "岩石": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

@@ -238,5 +238,14 @@
     }
   ],
   "description": "会用自豪的触手施展寝技压制对手。即便力量惊人的宝可梦也无法挣脱并逃走。",
-  "movesAlpha": 8
+  "movesAlpha": 8,
+  "obtains": {
+    "hyperspace": {
+      "格斗": {
+        "4": [
+          10
+        ]
+      }
+    }
+  }
 }

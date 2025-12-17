@@ -279,5 +279,14 @@
     }
   ],
   "description": "虽然平时动作慢慢悠悠，但在扑咬猎物的时候，速度却快得无法看清。",
-  "movesAlpha": 337
+  "movesAlpha": 337,
+  "obtains": {
+    "hyperspace": {
+      "水": {
+        "4": [
+          2
+        ]
+      }
+    }
+  }
 }

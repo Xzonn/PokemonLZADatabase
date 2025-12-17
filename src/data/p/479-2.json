@@ -210,5 +210,14 @@
     }
   ],
   "description": "钻进由特殊马达驱动的洗衣机里的洛托姆。会放水威吓对手。",
-  "movesAlpha": 399
+  "movesAlpha": 399,
+  "obtains": {
+    "hyperspace": {
+      "电": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

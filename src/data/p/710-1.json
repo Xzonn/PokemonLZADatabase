@@ -200,5 +200,8 @@
     }
   ],
   "description": "配合自己身体的尺寸，将小孩小小的灵魂带往另一个世界的品种。",
-  "movesAlpha": 94
+  "movesAlpha": 94,
+  "obtains": {
+    "onMap": true
+  }
 }

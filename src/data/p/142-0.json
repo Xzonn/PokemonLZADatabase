@@ -236,5 +236,14 @@
     }
   ],
   "description": "从残留在琥珀中的恐龙遗传基因复活而来。会一边高声鸣叫一边飞行。",
-  "movesAlpha": 414
+  "movesAlpha": 414,
+  "obtains": {
+    "hyperspace": {
+      "岩石": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

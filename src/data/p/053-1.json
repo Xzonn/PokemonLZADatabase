@@ -312,5 +312,15 @@
     }
   ],
   "description": "圆脸是富贵的象征。体型丰满，大盘脸的猫老大会被认为是美丽的。",
-  "movesAlpha": 441
+  "movesAlpha": 441,
+  "obtains": {
+    "hyperspace": {
+      "恶": {
+        "4": [
+          9,
+          10
+        ]
+      }
+    }
+  }
 }

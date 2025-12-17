@@ -84,5 +84,14 @@
     }
   ],
   "description": "藏身在坚固的宝箱里。虽然拥有很高的防御力，但身体沉重，不擅长移动。",
-  "movesAlpha": 408
+  "movesAlpha": 408,
+  "obtains": {
+    "hyperspace": {
+      "幽灵": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

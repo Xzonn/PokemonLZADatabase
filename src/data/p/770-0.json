@@ -223,5 +223,15 @@
     }
   ],
   "description": "在城堡的下面埋藏着大量被吸干了精气者的骸骨。",
-  "movesAlpha": 412
+  "movesAlpha": 412,
+  "obtains": {
+    "hyperspace": {
+      "地面": {
+        "4": [
+          8,
+          9
+        ]
+      }
+    }
+  }
 }

@@ -194,5 +194,14 @@
     }
   ],
   "description": "这个怕寂寞的家伙，会用破布隐藏自己可怕的样子来接近人和其他宝可梦。",
-  "movesAlpha": 85
+  "movesAlpha": 85,
+  "obtains": {
+    "hyperspace": {
+      "幽灵": {
+        "3": [
+          2
+        ]
+      }
+    }
+  }
 }

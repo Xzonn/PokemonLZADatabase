@@ -256,5 +256,14 @@
     }
   ],
   "description": "强化得又粗又长的毒针能够自行针对会动的东西发起攻击。",
-  "movesAlpha": 56
+  "movesAlpha": 56,
+  "obtains": {
+    "hyperspace": {
+      "毒": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

@@ -219,7 +219,15 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "钢": {
+        "4": [
+          5
+        ]
+      }
+    }
   },
   "movesAlpha": 370
 }

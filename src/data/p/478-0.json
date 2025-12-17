@@ -278,7 +278,18 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "冰": {
+        "4": [
+          3,
+          4,
+          4,
+          9
+        ]
+      }
+    }
   },
   "movesAlpha": 85
 }

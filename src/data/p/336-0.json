@@ -253,5 +253,16 @@
     }
   ],
   "description": "会用渗出剧毒的锋利尾巴来对抗敏捷的猫鼬斩。",
-  "movesAlpha": 402
+  "movesAlpha": 402,
+  "obtains": {
+    "hyperspace": {
+      "毒": {
+        "3": [
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  }
 }

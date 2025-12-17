@@ -245,5 +245,15 @@
     }
   ],
   "description": "翅膀和脚的肌肉很发达，能抓着小的宝可梦轻轻松松地飞行。",
-  "movesAlpha": 411
+  "movesAlpha": 411,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "4": [
+          6,
+          7
+        ]
+      }
+    }
+  }
 }

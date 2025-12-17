@@ -203,5 +203,16 @@
     }
   ],
   "description": "使用冰的结晶形成的锁链绑住猎物，使其冻结到零下１００度。",
-  "movesAlpha": 246
+  "movesAlpha": 246,
+  "obtains": {
+    "hyperspace": {
+      "冰": {
+        "3": [
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  }
 }

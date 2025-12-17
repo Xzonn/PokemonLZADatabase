@@ -201,5 +201,14 @@
     }
   ],
   "description": "栖息于富含铁质的泥巴里，因此获得了结实坚固的钢铁身躯。",
-  "movesAlpha": 423
+  "movesAlpha": 423,
+  "obtains": {
+    "hyperspace": {
+      "地面": {
+        "4": [
+          10
+        ]
+      }
+    }
+  }
 }

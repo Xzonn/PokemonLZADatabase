@@ -229,5 +229,16 @@
     }
   ],
   "description": "５只一组一起努力练习。在练习中掉队的投摔鬼会扔掉带子离开团队。",
-  "movesAlpha": 8
+  "movesAlpha": 8,
+  "obtains": {
+    "hyperspace": {
+      "格斗": {
+        "3": [
+          5,
+          6,
+          7
+        ]
+      }
+    }
+  }
 }

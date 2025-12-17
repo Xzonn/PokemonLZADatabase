@@ -229,5 +229,16 @@
     }
   ],
   "description": "系紧带子后会很振奋，拳击的破坏力得到提升。如果打扰它修行就会发怒。",
-  "movesAlpha": 9
+  "movesAlpha": 9,
+  "obtains": {
+    "hyperspace": {
+      "格斗": {
+        "3": [
+          5,
+          8,
+          9
+        ]
+      }
+    }
+  }
 }

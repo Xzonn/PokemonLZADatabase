@@ -255,7 +255,19 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "格斗": {
+        "4": [
+          1,
+          2,
+          4,
+          7,
+          10
+        ]
+      }
+    }
   },
   "movesAlpha": 8
 }

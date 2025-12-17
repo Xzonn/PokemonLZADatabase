@@ -233,5 +233,14 @@
     }
   ],
   "description": "使用又粗又重的葱逐渐让身体得到锻炼。输赢全凭一击的破坏力。",
-  "movesAlpha": 398
+  "movesAlpha": 398,
+  "obtains": {
+    "hyperspace": {
+      "格斗": {
+        "3": [
+          10
+        ]
+      }
+    }
+  }
 }

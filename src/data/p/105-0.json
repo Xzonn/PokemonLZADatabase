@@ -257,5 +257,15 @@
     }
   ],
   "description": "会从不知哪里捡来骨头。传闻说在世上某处有着只属于嘎啦嘎啦的墓地。",
-  "movesAlpha": 444
+  "movesAlpha": 444,
+  "obtains": {
+    "hyperspace": {
+      "地面": {
+        "4": [
+          6,
+          7
+        ]
+      }
+    }
+  }
 }

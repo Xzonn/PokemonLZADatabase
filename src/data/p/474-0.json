@@ -257,5 +257,14 @@
     }
   ],
   "description": "为了在异次元空间行动而更新了程序，但是其怪异的举动却很惹人注目。",
-  "movesAlpha": 94
+  "movesAlpha": 94,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

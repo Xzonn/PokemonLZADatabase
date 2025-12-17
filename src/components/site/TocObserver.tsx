@@ -30,6 +30,9 @@ export const TocObserver: FC<PropsWithChildren> = ({ children }) => {
       const items = Array.from(headings).map((heading) => {
         const text = heading.textContent || "";
         let safeText = text.replace(/[\s#[\]/]+/g, "-").toLowerCase();
+        if (/^\d/.test(safeText)) {
+          safeText = `heading-${safeText}`;
+        }
         while (document.getElementById(safeText)) {
           safeText += "-1";
         }

@@ -268,7 +268,8 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true
   },
   "movesAlpha": 398
 }

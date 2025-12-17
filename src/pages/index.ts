@@ -48,6 +48,7 @@ export { default as SpawnListPage } from "./SpawnListPage";
 
 // 异次元
 export { default as DonutPage } from "./DonutPage";
+export { default as HyperspaceWildZoneDetailPage } from "./HyperspaceWildZoneDetailPage";
 
 // 其他
 export { default as ActivityPage } from "./ActivityPage";

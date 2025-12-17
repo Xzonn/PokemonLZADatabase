@@ -132,5 +132,14 @@
     }
   ],
   "description": "以样子寒酸而闻名。尽管数量非常多，但还是会聚居在一处。",
-  "movesAlpha": 58
+  "movesAlpha": 58,
+  "obtains": {
+    "hyperspace": {
+      "水": {
+        "2": [
+          10
+        ]
+      }
+    }
+  }
 }

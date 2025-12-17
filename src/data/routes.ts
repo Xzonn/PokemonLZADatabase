@@ -36,6 +36,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/main/:id": "MainMissionDetailPage",
   "/hyperspace/:id": "HyperspaceMissionDetailPage",
   "/side/:id": "SideMissionDetailPage",
+  "/h/:name": "HyperspaceWildZoneDetailPage",
   /** @deprecated */
   "/副任务一览": "SideMissionListPage",
   /** @deprecated */

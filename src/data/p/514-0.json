@@ -243,7 +243,19 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "火": {
+        "4": [
+          1,
+          3,
+          4,
+          6,
+          8
+        ]
+      }
+    }
   },
   "movesAlpha": 157
 }

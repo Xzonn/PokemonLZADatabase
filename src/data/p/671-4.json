@@ -256,5 +256,21 @@
     }
   ],
   "description": "白花的花洁夫人打造的花园由色彩缤纷的花草点缀，十分美丽动人。",
-  "movesAlpha": 94
+  "movesAlpha": 94,
+  "obtains": {
+    "onMap": true,
+    "hyperspace": {
+      "妖精": {
+        "3": [
+          3,
+          6,
+          8,
+          10
+        ],
+        "4": [
+          3
+        ]
+      }
+    }
+  }
 }

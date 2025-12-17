@@ -202,5 +202,14 @@
     }
   ],
   "description": "为了不被个体数多的队看不起，黄色的怒鹦哥变得越来越有攻击性。",
-  "movesAlpha": 442
+  "movesAlpha": 442,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "1": [
+          9
+        ]
+      }
+    }
+  }
 }

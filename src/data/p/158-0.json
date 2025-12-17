@@ -220,7 +220,18 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "水": {
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ]
+      }
+    }
   },
   "movesAlpha": 337
 }

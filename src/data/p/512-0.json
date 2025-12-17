@@ -235,7 +235,20 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "草": {
+        "4": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10
+        ]
+      }
+    }
   },
   "movesAlpha": 441
 }

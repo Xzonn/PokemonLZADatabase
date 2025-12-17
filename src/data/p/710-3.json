@@ -200,5 +200,8 @@
     }
   ],
   "description": "配合自己身体的尺寸，将巨大尺寸的灵魂带往另一个世界的品种。",
-  "movesAlpha": 157
+  "movesAlpha": 157,
+  "obtains": {
+    "onMap": true
+  }
 }

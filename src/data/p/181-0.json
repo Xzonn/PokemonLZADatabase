@@ -260,7 +260,19 @@
   "obtains": {
     "areas": [
       "１６号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "电": {
+        "4": [
+          2,
+          4,
+          5,
+          6,
+          10
+        ]
+      }
+    }
   },
   "movesAlpha": 605
 }

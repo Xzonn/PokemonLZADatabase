@@ -308,5 +308,17 @@
     }
   ],
   "description": "把死别母亲的灵魂变为火焰，今晚也将跳起吊慰伙伴的舞蹈。",
-  "movesAlpha": 59
+  "movesAlpha": 59,
+  "obtains": {
+    "hyperspace": {
+      "火": {
+        "4": [
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    }
+  }
 }

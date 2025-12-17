@@ -12,6 +12,7 @@ export * from "./map";
 export * from "./location";
 
 export * from "./donut";
+export * from "./hyperspace";
 
 export * from "./search";
 export * from "./site";

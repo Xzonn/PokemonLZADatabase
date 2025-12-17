@@ -245,5 +245,14 @@
     }
   ],
   "description": "将行星的开发纳入视野，以当时的最新技术升级了多边兽。",
-  "movesAlpha": 94
+  "movesAlpha": 94,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

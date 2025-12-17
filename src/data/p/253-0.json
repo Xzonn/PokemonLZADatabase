@@ -264,5 +264,17 @@
     }
   ],
   "description": "发达的大腿肌肉会产生出惊人的爆发力和弹跳力。",
-  "movesAlpha": 157
+  "movesAlpha": 157,
+  "obtains": {
+    "hyperspace": {
+      "草": {
+        "3": [
+          8
+        ],
+        "4": [
+          10
+        ]
+      }
+    }
+  }
 }

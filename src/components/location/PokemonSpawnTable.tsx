@@ -19,7 +19,6 @@ const columns: TableColumnsType<PokemonSpawn> = [
       {
         title: "密阿雷",
         key: "dex",
-        defaultSortOrder: "ascend",
         sorter: (a, b) => (a.pokemon.dex || Infinity) - (b.pokemon.dex || Infinity),
         render: (row) =>
           row.pokemon.dex > 0 && row.pokemon.dex <= 232 ? row.pokemon.dex.toString().padStart(3, "0") : "—",
@@ -79,31 +78,27 @@ const columns: TableColumnsType<PokemonSpawn> = [
   },
 ];
 
-interface ITableProps<T = undefined> {
+interface ITableProps {
   loading?: boolean;
-  data?: (PokemonSpawn & T)[];
-  extraColumns?: TableColumnsType<PokemonSpawn & T>;
+  data?: PokemonSpawn[];
   headers?: string[];
   pagination?: false | TablePaginationConfig;
 }
 
-export const PokemonSpawnTable = <T,>({
+export const PokemonSpawnTable = ({
   loading = false,
   data,
-  extraColumns = [],
   headers = ["宝可梦", "图鉴", "属性", "通常等级", "头目概率", "头目等级"],
   pagination,
-}: ITableProps<T>) => {
+}: ITableProps) => {
   const sortedColumns = useMemo(() => {
-    type ColumnType = TableColumnsType<PokemonSpawn & T>[number];
-    const columnsByTitle = new Map<string, ColumnType>(
-      [...columns, ...extraColumns].map((col) => [col.title, col] as [string, ColumnType]),
-    );
-    return headers?.map((header) => columnsByTitle.get(header)).filter(Boolean) as TableColumnsType<PokemonSpawn & T>;
-  }, [headers, extraColumns]);
+    type ColumnType = TableColumnsType<PokemonSpawn>[number];
+    const columnsByTitle = new Map<string, ColumnType>(columns.map((col) => [col.title, col] as [string, ColumnType]));
+    return headers?.map((header) => columnsByTitle.get(header)).filter(Boolean) as TableColumnsType<PokemonSpawn>;
+  }, [headers]);
 
   return (
-    <Table<PokemonSpawn & T>
+    <Table<PokemonSpawn>
       {...TableCommonProps}
       rowKey={(row) => row.index}
       loading={loading}

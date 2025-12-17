@@ -257,5 +257,20 @@
     }
   ],
   "description": "会用结实的颚咬碎岩石前进。有着即使是在漆黑的地下也能看清东西的眼睛。",
-  "movesAlpha": 89
+  "movesAlpha": 89,
+  "obtains": {
+    "onMap": true,
+    "hyperspace": {
+      "钢": {
+        "4": [
+          1,
+          2,
+          4,
+          6,
+          9,
+          10
+        ]
+      }
+    }
+  }
 }

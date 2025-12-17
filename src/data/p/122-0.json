@@ -326,5 +326,15 @@
     }
   ],
   "description": "从手指发出的神秘力量可以硬化周围的空气，制造出看不见的墙壁。",
-  "movesAlpha": 7
+  "movesAlpha": 7,
+  "obtains": {
+    "hyperspace": {
+      "超能力": {
+        "3": [
+          1,
+          4
+        ]
+      }
+    }
+  }
 }

@@ -309,7 +309,20 @@
   "obtains": {
     "areas": [
       "２０号野生特区"
-    ]
+    ],
+    "onMap": true,
+    "hyperspace": {
+      "妖精": {
+        "4": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          8
+        ]
+      }
+    }
   },
   "movesAlpha": 53
 }

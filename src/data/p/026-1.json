@@ -262,5 +262,15 @@
     }
   ],
   "description": "用念力操纵电力。乘在尾巴上，利用精神力量浮起，就这么移动。",
-  "movesAlpha": 583
+  "movesAlpha": 583,
+  "obtains": {
+    "hyperspace": {
+      "电": {
+        "4": [
+          1,
+          10
+        ]
+      }
+    }
+  }
 }

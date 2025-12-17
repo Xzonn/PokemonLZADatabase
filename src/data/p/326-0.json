@@ -289,5 +289,15 @@
     }
   ],
   "description": "能用黑珍珠增强自己的精神力量。会用神奇的舞步操纵对手的心。",
-  "movesAlpha": 605
+  "movesAlpha": 605,
+  "obtains": {
+    "hyperspace": {
+      "超能力": {
+        "4": [
+          6,
+          7
+        ]
+      }
+    }
+  }
 }

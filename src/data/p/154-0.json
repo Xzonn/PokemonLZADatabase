@@ -249,5 +249,14 @@
     }
   ],
   "description": "花瓣中散发出的气味里含有能够抚平好斗情绪的成分。",
-  "movesAlpha": 605
+  "movesAlpha": 605,
+  "obtains": {
+    "hyperspace": {
+      "草": {
+        "4": [
+          2
+        ]
+      }
+    }
+  }
 }

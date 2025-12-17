@@ -190,5 +190,15 @@
     }
   ],
   "description": "能通过自己的角去感受附近生物的情感。正面情绪是它的能量之源。",
-  "movesAlpha": 409
+  "movesAlpha": 409,
+  "obtains": {
+    "hyperspace": {
+      "一般": {
+        "3": [
+          7,
+          8
+        ]
+      }
+    }
+  }
 }

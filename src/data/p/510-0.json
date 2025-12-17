@@ -254,5 +254,16 @@
     }
   ],
   "description": "神出鬼没的宝可梦。它美丽的身姿和毛发吸引了许多训练家。",
-  "movesAlpha": 441
+  "movesAlpha": 441,
+  "obtains": {
+    "hyperspace": {
+      "恶": {
+        "3": [
+          2,
+          3,
+          4
+        ]
+      }
+    }
+  }
 }

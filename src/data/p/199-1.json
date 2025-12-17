@@ -355,5 +355,14 @@
     }
   ],
   "description": "受到进化的冲击和毒素的影响，大舌贝的智力飙升到了可以控制呆呆王的程度。",
-  "movesAlpha": 247
+  "movesAlpha": 247,
+  "obtains": {
+    "hyperspace": {
+      "毒": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }
