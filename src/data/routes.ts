@@ -94,6 +94,10 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
           { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "colorful-screw" },
         ],
       },
+      {
+        title: "DLC 相关",
+        contents: [{ path: "/甜甜圈", label: "甜甜圈", icon: "donut-shop" }],
+      },
     ],
   },
   {

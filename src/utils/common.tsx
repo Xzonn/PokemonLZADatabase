@@ -101,7 +101,7 @@ export const getMissionCategory = (category: MissionCategory): string => {
     case "副":
       return "副任务";
     case "异":
-      return "异次元";
+      return "异次元任务";
   }
 };
 

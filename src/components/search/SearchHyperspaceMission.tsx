@@ -16,7 +16,7 @@ export const SearchHyperspaceMission: FC<IProps> = ({ result, onClick }) => (
     className="search-item"
   >
     <Icon
-      name="main-mission"
+      name="hyperspace-mission"
       size={40}
     />
     <div className="search-item-name">

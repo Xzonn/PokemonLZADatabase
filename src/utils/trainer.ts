@@ -20,4 +20,5 @@ export const TRNAME_WITH_ICONS = [
   "捷朵",
   "马斯卡托",
   "茉蜜姬",
+  "可尔妮",
 ];
