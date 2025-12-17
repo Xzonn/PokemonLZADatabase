@@ -1,4 +1,4 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
 import { Pokemon } from "@/types";
 import { Link, getPokemonFullName } from "@/utils";
@@ -8,15 +8,19 @@ import { PokemonIcon } from "./PokemonIcon";
 interface IProps {
   pokemon?: Pokemon;
   level?: number;
+  shiny?: boolean;
 }
 
-export const PokemonCell: FC<IProps> = ({ pokemon, level }) =>
+export const PokemonCell: FC<IProps> = ({ pokemon, level, shiny = false }) =>
   pokemon ? (
     <Link
       to={`/p/${getPokemonFullName(pokemon)}`}
       className="cell-pokemon"
     >
-      <PokemonIcon pokemon={pokemon} />
+      <PokemonIcon
+        pokemon={pokemon}
+        shiny={shiny}
+      />
       <div>
         <div className="pokemon-name">
           {pokemon.name}

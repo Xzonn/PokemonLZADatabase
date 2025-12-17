@@ -14,8 +14,9 @@ const RoyaleListPage: React.FC = () => {
 
   const promotionIdList = royalePromotion.split("\n").filter(Boolean);
   const promotionData = data?.filter((item) => promotionIdList.includes(item.id));
-  const rewardData = data?.filter((item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong_"));
+  const rewardData = data?.filter((item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong"));
   const rewardStrongData = data?.filter((item) => item.id.startsWith("za_inf_strong_"));
+  const rewardStrongestData = data?.filter((item) => item.id.startsWith("za_inf_strongest_"));
 
   useLoadingAnchor([loading]);
 
@@ -52,6 +53,15 @@ const RoyaleListPage: React.FC = () => {
         <NormalTrainerTable
           loading={loading}
           data={rewardStrongData || []}
+        />
+      </div>
+
+      <div className="section">
+        <h2>报酬战的对手（完成《超次元爆涌》后）</h2>
+        <p>点击每行的“＋”可以查看宝可梦详情。</p>
+        <NormalTrainerTable
+          loading={loading}
+          data={rewardStrongestData || []}
         />
       </div>
 

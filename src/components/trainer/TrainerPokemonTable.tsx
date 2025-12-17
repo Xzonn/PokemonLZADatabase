@@ -2,7 +2,7 @@ import { Popover, Table, TableColumnsType } from "antd";
 
 import { ItemDataByName, MoveDataByName, PokemonDataByName } from "@/data";
 import { Nature, TrainerPokemon, TrainerPokemonMove } from "@/types";
-import { TableCommonProps, TypeIcons } from "@/utils";
+import { Link, TableCommonProps, TypeIcons } from "@/utils";
 
 import { ItemIcon } from "../item/ItemIcon";
 import { MoveLink } from "../move/MoveLink";
@@ -15,7 +15,12 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "宝可梦",
     dataIndex: "name",
     width: 120,
-    render: (name: string) => <PokemonCell pokemon={PokemonDataByName[name]} />,
+    render: (name: string, record: TrainerPokemon) => (
+      <PokemonCell
+        pokemon={PokemonDataByName[name]}
+        shiny={record.shiny}
+      />
+    ),
   },
   {
     title: "属性",
@@ -41,7 +46,15 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "道具",
     dataIndex: "item",
     width: 20,
-    render: (item: string) => (item ? <ItemIcon item={ItemDataByName[item]} /> : "—"),
+    render: (item: string) =>
+      item ? (
+        <ItemIcon
+          className="icon-inline"
+          item={ItemDataByName[item]}
+        />
+      ) : (
+        "—"
+      ),
   },
   {
     title: "招式",
@@ -72,12 +85,18 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     render: (_, row) => {
       const result = [
         row.shiny ? "异色" : "",
-        row.item ? `道具：${row.item}` : "",
+        row.item ? (
+          <>
+            道具：<Link to={`/i/${row.item}`}>{row.item}</Link>
+          </>
+        ) : (
+          ""
+        ),
         row.ivs ? `个体值：${row.ivs.map((iv) => iv.toString()).join(" / ")}` : "",
         row.evs ? `基础点数：${row.evs.map((ev) => ev.toString()).join(" / ")}` : "",
       ]
         .filter(Boolean)
-        .map((item) => <div key={item}>{item}</div>);
+        .map((item) => <div key={item.toString()}>{item}</div>);
       return result.length ? result : "—";
     },
   },
