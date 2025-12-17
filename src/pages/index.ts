@@ -46,5 +46,8 @@ export { default as AreaDetailPage } from "./AreaDetailPage";
 export { default as AreaListPage } from "./AreaListPage";
 export { default as SpawnListPage } from "./SpawnListPage";
 
+// 异次元
+export { default as DonutPage } from "./DonutPage";
+
 // 其他
 export { default as ActivityPage } from "./ActivityPage";

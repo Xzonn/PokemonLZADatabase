@@ -11,6 +11,8 @@ export * from "./mission";
 export * from "./map";
 export * from "./location";
 
+export * from "./donut";
+
 export * from "./search";
 export * from "./site";
 

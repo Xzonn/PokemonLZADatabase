@@ -25,6 +25,7 @@ export const GLOBAL_ROUTES: Record<string, keyof typeof pages> = {
   "/密阿雷地图": "AreaListPage",
   "/宝可梦分布": "SpawnListPage",
   "/联网活动": "ActivityPage",
+  "/甜甜圈": "DonutPage",
   "/关于网站": "AboutPage",
   "/p/:name": "PokemonDetailPage",
   "/m/:name": "MoveDetailPage",
@@ -58,6 +59,7 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/茉蜜姬调查", label: "茉蜜姬调查", icon: "research" },
   { path: "/任务一览", label: "任务一览", icon: "side-plain" },
   { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "bag-重要物品" },
+  { path: "/甜甜圈", label: "甜甜圈", icon: "donut" },
   { path: "/联网活动", label: "联网活动", icon: "internet" },
 ];
 

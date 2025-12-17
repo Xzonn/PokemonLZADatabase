@@ -10,4 +10,5 @@ export * from "./mission";
 export * from "./map";
 export * from "./area";
 export * from "./activity";
+export * from "./donut";
 export * from "./other";
