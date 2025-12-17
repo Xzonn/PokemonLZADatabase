@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 6,
@@ -12,5 +13,11 @@ export const information: MissionDetail = {
     "用宝可梦的招式命中奖励球。",
   ],
   location: "",
-  unlockCondition: "",
+  unlockCondition: (
+    <>
+      完成了<Link to="/hyperspace/005">异次元任务 005</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25931944974",
 };

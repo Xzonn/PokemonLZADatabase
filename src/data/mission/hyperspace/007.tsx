@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 7,
@@ -6,5 +7,11 @@ export const information: MissionDetail = {
   summary: "早餐时间已经过了，但琵鲁还是不想从房间里出来。头巾混混好像带来了什么信息，去房间里看看情况吧。",
   process: ["去旅馆Ｚ的２０３号客房看看琵鲁的情况。"],
   location: "",
-  unlockCondition: "",
+  unlockCondition: (
+    <>
+      完成了<Link to="/hyperspace/006">异次元任务 006</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25931945183",
 };

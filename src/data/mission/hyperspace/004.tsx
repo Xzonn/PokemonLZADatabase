@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 4,
@@ -12,5 +13,11 @@ export const information: MissionDetail = {
     "确认发出奇怪声响的作战会议室。",
   ],
   location: "",
-  unlockCondition: "",
+  unlockCondition: (
+    <>
+      完成了<Link to="/hyperspace/003">异次元任务 003</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25931945045",
 };
