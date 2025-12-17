@@ -15,7 +15,7 @@ import {
 } from "@/data";
 import { AREA_NAMES } from "@/data/areas";
 import { EPokemonType, NavigationItem, SearchResult } from "@/types";
-import { filterPokemon, getPokemonFullId } from "@/utils";
+import { TRNAME_WITH_ICONS, filterPokemon, getPokemonFullId } from "@/utils";
 
 import { SearchHyperspaceMission } from "./SearchHyperspaceMission";
 import { SearchItem } from "./SearchItem";
@@ -24,6 +24,7 @@ import { SearchMove } from "./SearchMove";
 import { SearchNavigation } from "./SearchNavigation";
 import { SearchPokemon } from "./SearchPokemon";
 import { SearchSideMission } from "./SearchSideMission";
+import { SearchTrainer } from "./SearchTrainer";
 import { SearchType } from "./SearchType";
 
 const LOCATION_PATHS = AREA_NAMES.map(
@@ -106,6 +107,17 @@ const searchAll = (keyword: string): SearchResult[] => {
         results.push({
           type: "item",
           data: item,
+        }),
+      );
+  }
+
+  if (results.length < 10) {
+    TRNAME_WITH_ICONS.filter((trainer) => trainer.toLowerCase().includes(keywordParsed))
+      .slice(0, 10 - results.length)
+      .forEach((trainer) =>
+        results.push({
+          type: "trainer",
+          data: trainer,
         }),
       );
   }
@@ -215,6 +227,14 @@ const renderSearchResult = (result: SearchResult[], onClick: () => void) => {
             return (
               <SearchItem
                 key={`item-${data.id}`}
+                result={data}
+                onClick={onClick}
+              />
+            );
+          case "trainer":
+            return (
+              <SearchTrainer
+                key={`trainer-${data}`}
                 result={data}
                 onClick={onClick}
               />

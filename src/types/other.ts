@@ -28,6 +28,10 @@ export type SearchResult =
       data: Item;
     }
   | {
+      type: "trainer";
+      data: string;
+    }
+  | {
       type: "navigation";
       data: NavigationItem;
     }
