@@ -25,11 +25,13 @@ const columns: TableColumnsType<IHyperspaceSpawn> = [
     title: "编号",
     dataIndex: "areaIndex",
     render: (v) => `#${v}`,
+    width: 80,
   },
   {
     title: "主要宝可梦",
     dataIndex: "focus",
     render: pokemonListRender,
+    width: 352,
   },
   {
     title: "其他宝可梦",
@@ -40,6 +42,7 @@ const columns: TableColumnsType<IHyperspaceSpawn> = [
       );
       return pokemonSet.length ? pokemonListRender(pokemonSet) : "—";
     },
+    minWidth: 352,
   },
 ];
 

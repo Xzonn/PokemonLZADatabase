@@ -6,7 +6,7 @@ import { useParams } from "react-router-dom";
 import { HyperspaceSpawnTable, PokemonFilterIcon } from "@/components";
 import { PokemonDataById } from "@/data";
 import { EPokemonType, PokemonForm, PokemonType } from "@/types";
-import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
+import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -42,6 +42,9 @@ const HyperspaceWildZoneDetailPageCore: React.FC<{ name: PokemonType }> = ({ nam
   const groupedData = Object.groupBy(filteredData, (item) => item.star);
 
   const pokemonIcons = useMemo(() => {
+    if (!allPokemon.length) {
+      return null;
+    }
     if (!allPokemon.includes(filter.pokemonForm!)) {
       setFilter({ pokemonForm: undefined });
     }
@@ -63,6 +66,22 @@ const HyperspaceWildZoneDetailPageCore: React.FC<{ name: PokemonType }> = ({ nam
     <Fragment key="hyperspace-wild-zone-detail">
       <div className="section">
         <h1 className="flex justify-center">野生异次元：{typeName}属性</h1>
+        <p className="description">所有宝可梦等级均为基础等级，实际等级会受到异次元空间的影响而提高。</p>
+      </div>
+
+      <div className="section">
+        <div className="flex-container max-w-md mx-auto">
+          {EPokemonType.map((type) => (
+            <Link
+              className={`badge bg-${type}`}
+              key={type}
+              to={`/h/${type}`}
+            >
+              <div className={`badge-icon icon icon-${type}-white`} />
+              <div className="badge-text">{type}</div>
+            </Link>
+          ))}
+        </div>
       </div>
 
       <div className="section">

@@ -948,15 +948,15 @@
   background-position: -15em -11em;
 }
 
-.icon-hyperspace-6 {
+.icon-hyperspace {
   background-position: -16em -11em;
 }
 
-.icon-hyperspace-6-white {
+.icon-hyperspace-white {
   background-position: -17em -11em;
 }
 
-.icon-hyperspace-6-black {
+.icon-hyperspace-black {
   background-position: -18em -11em;
 }
 
@@ -970,5 +970,9 @@
 
 .icon-hyperspace-plain-black {
   background-position: -1em -12em;
+}
+
+.icon-hoopa {
+  background-position: -2em -12em;
 }
 

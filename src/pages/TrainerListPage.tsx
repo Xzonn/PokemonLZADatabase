@@ -20,6 +20,9 @@ const TrainerListPage: React.FC = () => {
         <div className="description">
           关于对战特区中的对手，参见<Link to="/对战特区">对战特区</Link>。
         </div>
+        <div className="description">
+          关于对战异次元中的对手，参见<Link to="/对战异次元">对战异次元</Link>。
+        </div>
       </div>
 
       <div className="section">
