@@ -1,7 +1,7 @@
 import { Popover, Table, TableColumnsType } from "antd";
 
 import { ItemDataByName, MoveDataByName, PokemonDataByName } from "@/data";
-import { Nature, TrainerPokemon, TrainerPokemonMove } from "@/types";
+import { Nature, TrainerPokemon } from "@/types";
 import { Link, TableCommonProps, TypeIcons } from "@/utils";
 
 import { ItemIcon } from "../item/ItemIcon";
@@ -18,7 +18,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     render: (name: string, record: TrainerPokemon) => (
       <PokemonCell
         pokemon={PokemonDataByName[name]}
-        shiny={record.shiny}
+        shiny={Boolean(record.shiny)}
       />
     ),
   },
@@ -60,15 +60,22 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "招式",
     dataIndex: "moves",
     width: 160,
-    render: (moves: TrainerPokemonMove[]) => (
+    render: (moves: TrainerPokemon["moves"]) => (
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-        {moves.map((move) => (
-          <MoveLink
-            key={move.name}
-            move={MoveDataByName[move.name]}
-            plus={move.plus}
-          />
-        ))}
+        {moves.split("|").map((move) =>
+          move.endsWith("+") ? (
+            <MoveLink
+              key={move}
+              move={MoveDataByName[move.slice(0, -1)]}
+              plus
+            />
+          ) : (
+            <MoveLink
+              key={move}
+              move={MoveDataByName[move]}
+            />
+          ),
+        )}
       </div>
     ),
   },
@@ -76,7 +83,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     title: "性格",
     dataIndex: "nature",
     width: 80,
-    render: (nature: Nature) => <NatureCell nature={nature} />,
+    render: (nature: Nature | undefined) => <NatureCell nature={nature || "勤奋"} />,
   },
   {
     title: "其他",
@@ -85,6 +92,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     render: (_, row) => {
       const result = [
         row.shiny ? "异色" : "",
+        row.alpha ? "头目" : "",
         row.item ? (
           <>
             道具：<Link to={`/i/${row.item}`}>{row.item}</Link>
@@ -92,7 +100,11 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
         ) : (
           ""
         ),
-        row.ivs ? `个体值：${row.ivs.map((iv) => iv.toString()).join(" / ")}` : "",
+        row.ivs
+          ? `个体值：${Array.from({ length: 6 })
+              .map((_, i) => parseInt(row.ivs![i], 36))
+              .join(" / ")}`
+          : "",
         row.evs ? `基础点数：${row.evs.map((ev) => ev.toString()).join(" / ")}` : "",
       ]
         .filter(Boolean)

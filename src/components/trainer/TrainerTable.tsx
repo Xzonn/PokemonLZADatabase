@@ -79,7 +79,7 @@ const getCommonColumns = (data: TrainerBase[] | undefined): TableColumnsType<Tra
             {Array.from({ length: 6 }).map((_, i) => (
               <ItemIcon
                 key={i}
-                item={ItemDataByName[row.pokemon[i]?.ball || "无"]}
+                item={ItemDataByName[row.pokemon[i] ? `${row.pokemon[i].ball || "精灵"}球` : "无"]}
               />
             ))}
           </div>

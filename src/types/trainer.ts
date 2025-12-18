@@ -1,17 +1,13 @@
-export interface TrainerPokemonMove {
-  name: string;
-  plus?: boolean;
-}
-
 export interface TrainerPokemon {
   name: string;
   level: number;
-  nature: string;
-  ball: string;
-  moves: TrainerPokemonMove[];
+  nature?: string;
+  ball?: string;
+  moves: string;
   item?: string;
-  shiny?: boolean;
-  ivs?: number[];
+  shiny?: 1;
+  alpha?: 1;
+  ivs?: string;
   evs?: number[];
 }
 

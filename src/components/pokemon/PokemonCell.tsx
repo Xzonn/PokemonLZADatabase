@@ -9,6 +9,7 @@ interface IProps {
   pokemon?: Pokemon;
   level?: number;
   shiny?: boolean;
+  alpha?: boolean;
 }
 
 export const PokemonCell: FC<IProps> = ({ pokemon, level, shiny = false }) =>
