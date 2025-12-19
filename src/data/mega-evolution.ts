@@ -13,5 +13,6 @@ export const MegaEvolutionData = parseTSV<MegaEvolution>(raw, (dict) => {
     mega: `${index}-${megaForm}` as PokemonForm,
     stone: dict["超级石"],
     obtain: dict["超级石获取方式"],
+    missionIndex: dict["任务编号"] ? parseInt(dict["任务编号"], 10) : null,
   };
 });

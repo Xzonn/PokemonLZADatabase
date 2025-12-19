@@ -5,6 +5,7 @@ import { ItemDetail, Pokemon } from "@/types";
 import { Icon, Link, TableCommonProps, getPokemonFullId } from "@/utils";
 
 import { ItemCell } from "./ItemCell";
+import { MissionLink } from "../mission";
 import { PokemonCell } from "../pokemon/PokemonCell";
 
 interface MegaEvolutionFull {
@@ -12,31 +13,66 @@ interface MegaEvolutionFull {
   mega: Pokemon;
   stone: ItemDetail;
   obtain: string;
+  missionIndex: number | null;
 }
 
 const renderObtain = (row: MegaEvolutionFull): ReactNode => {
-  const { obtain, stone } = row;
+  const { obtain, stone, missionIndex } = row;
   return obtain.split("|").map((line, index) => {
-    if (line.includes("阔星公司")) {
+    if (line === "主任务") {
+      return (
+        <MissionLink
+          key={index}
+          category="主"
+          index={missionIndex!}
+        />
+      );
+    } else if (line === "异次元任务") {
+      return (
+        <MissionLink
+          key={index}
+          category="异"
+          index={missionIndex!}
+        />
+      );
+    } else if (line === "副任务") {
+      return (
+        <MissionLink
+          key={index}
+          category="副"
+          index={missionIndex!}
+        />
+      );
+    } else if (line === "阔星公司") {
       return (
         <div key={index}>
-          <Link to="/i/超级碎片#作用">阔星公司兑换</Link>
-          {line.replace(/阔星公司兑换/, "")}，
+          <Link to="/i/超级碎片#作用">阔星公司</Link>兑换
+          {missionIndex !== null ? (
+            <>
+              （完成
+              <MissionLink
+                key={index}
+                category="主"
+                index={missionIndex!}
+                showTitle={false}
+              />{" "}
+              后）
+            </>
+          ) : null}
+          ，
           <div className="icon-wrapper-inline">
             <Icon name="mega-shard" />
             {stone.priceMegaShard}
           </div>
         </div>
       );
-    }
-    if (line.includes("石头馆")) {
+    } else if (line.includes("石头馆")) {
       return (
         <div key={index}>
           {line}，${stone.price.toLocaleString("zh-CN")}
         </div>
       );
-    }
-    if (line.includes("ＺＡ登峰战")) {
+    } else if (line.includes("ＺＡ登峰战")) {
       return (
         <Link
           className="block"
@@ -46,8 +82,7 @@ const renderObtain = (row: MegaEvolutionFull): ReactNode => {
           {line}
         </Link>
       );
-    }
-    if (line.includes("赛季奖励")) {
+    } else if (line.includes("赛季奖励")) {
       return (
         <Link
           className="block"
@@ -57,8 +92,7 @@ const renderObtain = (row: MegaEvolutionFull): ReactNode => {
           {line}
         </Link>
       );
-    }
-    if (/特典|神秘礼物/.test(line)) {
+    } else if (/特典|神秘礼物/.test(line)) {
       return (
         <Link
           className="block"

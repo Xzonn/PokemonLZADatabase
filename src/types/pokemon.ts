@@ -60,4 +60,5 @@ export interface MegaEvolution {
   mega: PokemonForm;
   stone: string;
   obtain: string;
+  missionIndex: number | null;
 }
