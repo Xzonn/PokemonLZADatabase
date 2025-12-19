@@ -45,7 +45,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
   }, [item]);
 
   const [itemFullData, loadingFull] = useImport(async () => (await import("@/data/i/detail")).ItemFullDataById);
-  const [ItemContent, loadingContent] = useImport(
+  const [ItemContent, loadingContent, { error }] = useImport(
     async () => (await import(`@/data/i/${item.id.toString().padStart(4, "0")}.tsx`)).default as FC,
     [item],
     true,
@@ -93,7 +93,7 @@ const ItemDetailPageCore: React.FC<{ data: Item }> = ({ data: item }) => {
         </div>
       ) : null}
 
-      {ItemContent ? <ItemContent /> : null}
+      {!error && ItemContent ? <ItemContent /> : null}
     </Fragment>
   );
 };

@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export const EItemPocket = ["回复", "精灵球", "道具", "宝物", "重要物品", "树果", "招式学习器", "超级石"];
 
 export type ItemPocket = (typeof EItemPocket)[number];
@@ -24,7 +26,9 @@ export interface ItemDetail {
   sortIndex: number;
 }
 
-export interface ItemFull extends Item, ItemDetail {}
+export interface ItemFull extends Item, ItemDetail {
+  unlockCondition?: ReactNode;
+}
 
 export interface IItemReward {
   item: string;

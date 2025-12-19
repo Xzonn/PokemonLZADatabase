@@ -5,6 +5,7 @@ export interface TM {
   name: string;
   tmName: string;
   researchLevel: number | null;
+  mainMission: number | null;
   sideMission: number | null;
   location: string | null;
   x: number | null;

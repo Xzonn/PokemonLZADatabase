@@ -73,6 +73,11 @@ const columns: TableColumnsType<ItemFull> = [
     render: (description) => <div style={{ minWidth: 200 }}>{description}</div>,
     minWidth: 200,
   },
+  {
+    title: "解锁条件",
+    dataIndex: "unlockCondition",
+    render: (unlockCondition) => unlockCondition || "—",
+  },
 ];
 
 interface IItemTableProps<T = undefined> {

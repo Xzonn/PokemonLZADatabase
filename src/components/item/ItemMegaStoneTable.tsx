@@ -20,7 +20,8 @@ const renderObtain = (row: MegaEvolutionFull): ReactNode => {
     if (line.includes("阔星公司")) {
       return (
         <div key={index}>
-          {line}，
+          <Link to="/i/超级碎片#作用">阔星公司兑换</Link>
+          {line.replace(/阔星公司兑换/, "")}，
           <div className="icon-wrapper-inline">
             <Icon name="mega-shard" />
             {stone.priceMegaShard}

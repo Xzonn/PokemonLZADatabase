@@ -1,19 +1,16 @@
 import { TM, TMFull } from "@/types";
+import { parseTSV } from "@/utils";
 
-import { MoveDataByName } from "../moves";
+import { MoveDataByName } from "./moves";
 import raw from "./tm.txt?raw";
 
-const lines = raw.trim().split("\n");
-const header = lines[0].split("\t");
-
-export const TMData = lines.slice(1).map((line) => {
-  const parts = line.split("\t");
-  const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
+export const TMData = parseTSV<TMFull>(raw, (dict) => {
   const item: TM = {
     index: parseInt(dict["编号"], 10),
     tmName: dict["中文名"],
     name: dict["招式"],
     researchLevel: parseInt(dict["茉蜜姬调查等级"] ?? "", 10) || null,
+    mainMission: parseInt(dict["主任务"] ?? "", 10) || null,
     sideMission: parseInt(dict["副任务"] ?? "", 10) || null,
     location: dict["地点"] || null,
     x: dict.X ? parseInt(dict.X, 10) : null,

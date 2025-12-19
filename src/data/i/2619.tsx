@@ -7,25 +7,17 @@ import { Marker, Popup } from "react-leaflet";
 
 import { ItemTable, LumioseMap } from "@/components";
 import { IPositionWithPoint } from "@/types";
-import { getCoord } from "@/utils";
+import { getCoord, parseTSV } from "@/utils";
 
 import raw from "./2619-location.txt?raw";
 import { ItemFullData } from "./detail";
 
-const lines = raw.trim().split("\n");
-const header = lines[0].split("\t");
-
-export const Positions = lines.slice(1).map((line, index) => {
-  const parts = line.split("\t");
-  const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
-  const position: IPositionWithPoint = {
-    name: `${index}`,
-    index: index,
-    x: parseInt(dict.X, 10),
-    y: parseInt(dict.Y, 10),
-  };
-  return position;
-});
+const Positions = parseTSV<IPositionWithPoint>(raw, (dict, index) => ({
+  name: `${index}`,
+  index: index,
+  x: parseInt(dict.X, 10),
+  y: parseInt(dict.Y, 10),
+}));
 
 const CANARI_PLUSHES = ItemFullData.filter((item) => item.priceColorfulScrew > 0);
 

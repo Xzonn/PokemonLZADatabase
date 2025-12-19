@@ -131,6 +131,15 @@ main p {
 .section {
   @apply px-2 py-4 md:px-4 lg:px-6 lg:py-6;
 
+  & ul {
+    @apply pl-[2em];
+  }
+
+  & > p,
+  & > ul {
+    @apply text-sm;
+  }
+
   &:first-child {
     @apply text-center;
   }
