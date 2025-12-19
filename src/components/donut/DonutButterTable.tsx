@@ -1,10 +1,12 @@
 import { Table, TableColumnsType } from "antd";
 
-import { ItemDataByName } from "@/data";
+import { ItemDataByName, PokemonDataByName } from "@/data";
 import { IDonutButter } from "@/types";
 import { TableCommonProps } from "@/utils";
 
 import { ItemCell } from "../item";
+import { MissionLink } from "../mission";
+import { PokemonIconWithName } from "../pokemon";
 
 const columns: TableColumnsType<IDonutButter> = [
   {
@@ -15,6 +17,29 @@ const columns: TableColumnsType<IDonutButter> = [
   {
     title: "树果数量",
     dataIndex: "count",
+  },
+  {
+    title: "任务",
+    key: "mission",
+    render: (_, row: IDonutButter) => (
+      <MissionLink
+        category={row.missionCategory}
+        index={row.missionIndex}
+      />
+    ),
+  },
+  {
+    title: "对应宝可梦",
+    dataIndex: "pokemon",
+    render: (value: string) =>
+      value ? (
+        <PokemonIconWithName
+          pokemon={PokemonDataByName[value]}
+          link
+        />
+      ) : (
+        "—"
+      ),
   },
 ];
 

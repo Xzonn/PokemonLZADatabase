@@ -18,9 +18,9 @@ export const Notice: React.FC = () => {
       message={
         <div className="space-y-2">
           <div>
-            <Link to="/联网活动#神秘礼物">神秘礼物</Link>可领取“大型喷火龙（头目）”！密语：B1G0006
+            <Link to="/h/一般">野生异次元</Link>和<Link to="/对战异次元">对战异次元</Link>
+            的数据已添加！如遇到“资源文件加载失败”提示，请尝试刷新页面！
           </div>
-          <div>DLC《超次元爆涌》相关数据将逐步添加，如遇到“资源文件加载失败”提示，请尝试刷新页面！</div>
         </div>
       }
       type="info"

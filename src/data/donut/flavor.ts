@@ -1,17 +1,11 @@
 import { IDountFlavor } from "@/types";
+import { parseTSV } from "@/utils";
 
 import raw from "./flavor.txt?raw";
 
-const lines = raw.trim().split("\n");
-const header = lines[0].split("\t");
-
-export const DonutFlavors = lines.slice(1).map((line) => {
-  const parts = line.split("\t");
-  const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
-  const item: IDountFlavor = {
-    name: dict["中文名"],
-    flavor: dict["风味"],
-    effect: dict["说明"],
-  };
-  return item;
-});
+export const DonutFlavors = parseTSV<IDountFlavor>(raw, (dict) => ({
+  name: dict["中文名"],
+  flavor: dict["风味"],
+  effect: dict["说明"],
+  boosts: [dict["0"], dict["1"], dict["2"], dict["3"]],
+}));

@@ -10,3 +10,4 @@ export * from "./type";
 export * from "./tm";
 export * from "./trainer";
 export * from "./map";
+export * from "./mission";

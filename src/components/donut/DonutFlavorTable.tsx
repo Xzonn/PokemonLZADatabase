@@ -19,6 +19,28 @@ const columns: TableColumnsType<IDountFlavor> = [
     title: "效果说明",
     dataIndex: "effect",
   },
+  {
+    title: "具体效果",
+    key: "boosts",
+    children: [
+      {
+        title: "无",
+        dataIndex: ["boosts", 0],
+      },
+      {
+        title: "Lv.1",
+        dataIndex: ["boosts", 1],
+      },
+      {
+        title: "Lv.2",
+        dataIndex: ["boosts", 2],
+      },
+      {
+        title: "Lv.3",
+        dataIndex: ["boosts", 3],
+      },
+    ],
+  },
 ];
 
 interface IItemTableProps {
