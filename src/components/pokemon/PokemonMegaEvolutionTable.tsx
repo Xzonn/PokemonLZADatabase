@@ -44,7 +44,7 @@ const columns: TableColumnsType<MegaEvolutionFull> = [
         title: "异次元",
         key: "dexHyperspace",
         sorter: (a, b) => (a.normal.dexHyperspace || Infinity) - (b.normal.dexHyperspace || Infinity),
-        render: (row) => (row.normal.dexHyperspace > 0 ? row.normal.dexHyperspace.toString().padStart(3, "0") : "—"),
+        render: (row) => (row.normal.dexHyperspace <= 132 ? row.normal.dexHyperspace.toString().padStart(3, "0") : "—"),
       },
       {
         title: "全国",

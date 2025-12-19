@@ -34,7 +34,7 @@ const columns: TableColumnsType<Pokemon> = [
         title: "异次元",
         dataIndex: "dexHyperspace",
         sorter: (a, b) => (a.dexHyperspace || Infinity) - (b.dexHyperspace || Infinity),
-        render: (dexHyperspace) => (dexHyperspace > 0 ? dexHyperspace.toString().padStart(3, "0") : "—"),
+        render: (dexHyperspace) => (dexHyperspace <= 132 ? dexHyperspace.toString().padStart(3, "0") : "—"),
       },
       {
         title: "全国",

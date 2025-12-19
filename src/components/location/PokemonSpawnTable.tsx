@@ -27,7 +27,8 @@ const columns: TableColumnsType<PokemonSpawn> = [
         title: "异次元",
         key: "dexHyperspace",
         sorter: (a, b) => (a.pokemon.dexHyperspace || Infinity) - (b.pokemon.dexHyperspace || Infinity),
-        render: (row) => (row.pokemon.dexHyperspace > 0 ? row.pokemon.dexHyperspace.toString().padStart(3, "0") : "—"),
+        render: (row) =>
+          row.pokemon.dexHyperspace <= 132 ? row.pokemon.dexHyperspace.toString().padStart(3, "0") : "—",
       },
       {
         title: "全国",
