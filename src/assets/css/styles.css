@@ -244,6 +244,10 @@ figure {
 /** 属性 */
 .badge {
   @apply flex items-center justify-center flex-nowrap text-white w-[5em] text-center whitespace-nowrap font-semibold rounded-[0.5em];
+
+  &.badge-legendary {
+    width: calc(10em + 0.5rem);
+  }
 }
 
 .badge-icon {
@@ -252,6 +256,10 @@ figure {
 
 .badge-text {
   @apply w-[3.5em] text-center;
+
+  .badge-legendary & {
+    @apply w-auto;
+  }
 }
 
 a.badge {
@@ -352,6 +360,12 @@ a.badge {
 
 .bg-变化 {
   background-color: #acacac !important;
+}
+
+.bg-传说 {
+  background:
+    radial-gradient(circle at 50% 30%, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%),
+    linear-gradient(120deg, #ff6b6b 0%, #ffbe0b 17%, #38b000 34%, #3a86ff 51%, #8338ec 68%, #7209b7 85%, #ff6b6b 100%);
 }
 
 .table-effect,

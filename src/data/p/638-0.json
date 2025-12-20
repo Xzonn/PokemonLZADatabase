@@ -238,5 +238,14 @@
     }
   ],
   "description": "拥有钢铁的身体和心灵。只要瞪一眼，连粗暴的宝可梦也会俯首称臣。",
-  "movesAlpha": 182
+  "movesAlpha": 182,
+  "obtains": {
+    "hyperspace": {
+      "传说": {
+        "5": [
+          3
+        ]
+      }
+    }
+  }
 }

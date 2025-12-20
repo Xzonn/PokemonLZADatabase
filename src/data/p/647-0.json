@@ -279,5 +279,14 @@
     }
   ],
   "description": "会从蹄子里喷出水，从而在水面上滑行移动。用擅长的腿技战斗。",
-  "movesAlpha": 182
+  "movesAlpha": 182,
+  "obtains": {
+    "hyperspace": {
+      "传说": {
+        "5": [
+          6
+        ]
+      }
+    }
+  }
 }

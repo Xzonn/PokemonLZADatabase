@@ -51,7 +51,7 @@ export interface PokemonFull extends Pokemon {
   obtains?: {
     onMap?: boolean;
     areas?: string[];
-    hyperspace?: Record<PokemonType, Record<string, number[]>>;
+    hyperspace?: Record<PokemonType | "传说", Record<string, number[]>>;
   };
 }
 

@@ -290,5 +290,14 @@
     }
   ],
   "description": "通过心灵感应交流情感。用能令光发生折射的羽毛包裹身体来让自己隐形。",
-  "movesAlpha": 182
+  "movesAlpha": 182,
+  "obtains": {
+    "hyperspace": {
+      "传说": {
+        "5": [
+          1
+        ]
+      }
+    }
+  }
 }

@@ -4,10 +4,10 @@ import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useRef } from "react";
 import { Marker, Popup, useMap } from "react-leaflet";
 
-import { LumioseMap, PokemonFilterIcon, PokemonSpawnTable } from "@/components";
+import { HyperspaceWildZoneNavigation, LumioseMap, PokemonFilterIcon, PokemonSpawnTable } from "@/components";
 import { PokemonDataById } from "@/data";
-import { EPokemonType, PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
-import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getPokemonFullId, useImport, useLoadingAnchor } from "@/utils";
+import { PokemonForm, PokemonSpawnDetail, SpawnPoint } from "@/types";
+import { DEFAULT_TITLE, MAP_CENTER, getCoord, getPokemonFullId, useImport, useLoadingAnchor } from "@/utils";
 
 interface IMapLayerProps {
   data: SpawnPoint[];
@@ -171,18 +171,7 @@ const AreaListPage: React.FC = () => {
 
       <div className="section">
         <h2>野生异次元</h2>
-        <div className="flex-container max-w-md mx-auto">
-          {EPokemonType.map((type) => (
-            <Link
-              className={`badge bg-${type}`}
-              key={type}
-              to={`/h/${type}`}
-            >
-              <div className={`badge-icon icon icon-${type}-white`} />
-              <div className="badge-text">{type}</div>
-            </Link>
-          ))}
-        </div>
+        <HyperspaceWildZoneNavigation />
       </div>
 
       <div className="section">

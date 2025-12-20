@@ -239,5 +239,14 @@
     }
   ],
   "description": "拥有一击冲破巨大城墙的猛撞力。是传说中所描述的宝可梦。",
-  "movesAlpha": 182
+  "movesAlpha": 182,
+  "obtains": {
+    "hyperspace": {
+      "传说": {
+        "5": [
+          4
+        ]
+      }
+    }
+  }
 }

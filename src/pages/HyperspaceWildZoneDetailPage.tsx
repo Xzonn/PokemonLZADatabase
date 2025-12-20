@@ -1,12 +1,12 @@
 import { useLocalStorageState } from "ahooks";
 import { Button, Spin } from "antd";
-import React, { Fragment, useEffect, useMemo } from "react";
+import { FC, Fragment, useEffect, useMemo } from "react";
 import { useParams } from "react-router-dom";
 
-import { HyperspaceSpawnTable, PokemonFilterIcon } from "@/components";
+import { HyperspaceSpawnTable, HyperspaceWildZoneNavigation, PokemonFilterIcon } from "@/components";
 import { PokemonDataById } from "@/data";
 import { EPokemonType, PokemonForm, PokemonType } from "@/types";
-import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
+import { DEFAULT_TITLE, useImport, useLoadingAnchor } from "@/utils";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -14,9 +14,13 @@ interface IFilter {
   pokemonForm?: PokemonForm;
 }
 
-const HyperspaceWildZoneDetailPageCore: React.FC<{ name: PokemonType }> = ({ name: typeName }) => {
+interface IProps {
+  name: PokemonType | "传说";
+}
+
+const HyperspaceWildZoneDetailPageCore: FC<IProps> = ({ name: typeName }) => {
   useEffect(() => {
-    document.title = `野生异次元：${typeName}属性 - ${DEFAULT_TITLE}`;
+    document.title = `野生异次元：${typeName === "传说" ? "传说的宝可梦" : `${typeName}属性`} - ${DEFAULT_TITLE}`;
   }, [typeName]);
 
   const [data, loading] = useImport(() => import("@/data/hyperspace/spawn"));
@@ -65,23 +69,12 @@ const HyperspaceWildZoneDetailPageCore: React.FC<{ name: PokemonType }> = ({ nam
   return (
     <Fragment key="hyperspace-wild-zone-detail">
       <div className="section">
-        <h1 className="flex justify-center">野生异次元：{typeName}属性</h1>
+        <h1 className="flex justify-center">野生异次元：{typeName === "传说" ? "传说的宝可梦" : `${typeName}属性`}</h1>
         <p className="description">所有宝可梦等级均为基础等级，实际等级会受到异次元空间的影响而提高。</p>
       </div>
 
       <div className="section">
-        <div className="flex-container max-w-md mx-auto">
-          {EPokemonType.map((type) => (
-            <Link
-              className={`badge bg-${type}`}
-              key={type}
-              to={`/h/${type}`}
-            >
-              <div className={`badge-icon icon icon-${type}-white`} />
-              <div className="badge-text">{type}</div>
-            </Link>
-          ))}
-        </div>
+        <HyperspaceWildZoneNavigation />
       </div>
 
       <div className="section">
@@ -118,10 +111,10 @@ const HyperspaceWildZoneDetailPageCore: React.FC<{ name: PokemonType }> = ({ nam
   );
 };
 
-const HyperspaceWildZoneDetailPage: React.FC = () => {
+const HyperspaceWildZoneDetailPage: FC = () => {
   const { name } = useParams<{ name: string }>();
 
-  return EPokemonType.includes((name || "") as PokemonType) ? (
+  return name === "传说" || EPokemonType.includes((name || "") as PokemonType) ? (
     <HyperspaceWildZoneDetailPageCore name={name as PokemonType} />
   ) : (
     <NotFoundPage />

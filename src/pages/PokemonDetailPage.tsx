@@ -198,7 +198,7 @@ const getObtainDescriptions = (obtains: PokemonFull["obtains"], form: PokemonFor
                   localStorage.setItem("za-hyperspace-spawn-filter", JSON.stringify({ pokemonForm: form }))
                 }
               >
-                {type}属性
+                {type === "传说" ? "传说的宝可梦" : `${type}属性`}
               </Link>
               ：
               {Object.entries(stars).map(([star, indexes], index) => (
