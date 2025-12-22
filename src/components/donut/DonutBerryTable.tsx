@@ -45,6 +45,7 @@ const columns: TableColumnsType<IDonutBerry> = [
   {
     title: "增幅等级",
     dataIndex: "level",
+    render: (level: number) => `+${level}`,
     sorter: (a, b) => a.level - b.level,
   },
   {
