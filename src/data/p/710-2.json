@@ -202,6 +202,9 @@
   "description": "配合自己身体的尺寸，将大人大大的灵魂带往另一个世界的品种。",
   "movesAlpha": 399,
   "obtains": {
-    "onMap": true
+    "onMap": true,
+    "areas": [
+      "１５号野生特区"
+    ]
   }
 }

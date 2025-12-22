@@ -179,6 +179,7 @@ const getObtainDescriptions = (obtains: PokemonFull["obtains"], form: PokemonFor
                 <Link
                   id={area}
                   to={`/area/${area}`}
+                  onClick={() => localStorage.setItem("za-spawn-filter", JSON.stringify({ pokemonForm: form }))}
                 >
                   {area}
                 </Link>

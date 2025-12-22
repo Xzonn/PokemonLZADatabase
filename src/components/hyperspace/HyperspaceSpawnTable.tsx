@@ -2,7 +2,7 @@ import { Table, TableColumnsType } from "antd";
 import { FC } from "react";
 
 import { PokemonDataById } from "@/data";
-import { IHyperspaceSpawn, PokemonForm, PokemonSpawnDetail } from "@/types";
+import { IHyperspaceSpawn, IPokemonSpawnDetail, PokemonForm } from "@/types";
 import { TableCommonProps } from "@/utils";
 
 import { PokemonSpawnTable } from "../location/PokemonSpawnTable";
@@ -60,18 +60,16 @@ export const HyperspaceSpawnTable: FC<IProps> = ({ data, expand }) => (
         <PokemonSpawnTable
           headers={["宝可梦", "图鉴", "属性", "通常等级", "头目概率", "头目等级", "稀有度"]}
           data={row.pokemonRaw.split("|").map((p, index) => {
-            const [form, levelMinStr, levelMaxStr, alphaRateStr, alphaLevelMinStr, alphaLevelMaxStr, rarityStr] =
-              p.split("+");
+            const [form, levelMinStr, levelMaxStr, alphaRateStr, alphaLevelBoostStr, rarityStr] = p.split("+");
 
-            const item: PokemonSpawnDetail = {
+            const item: IPokemonSpawnDetail = {
               index,
               form: form as PokemonForm,
               pokemon: PokemonDataById[form as PokemonForm],
               levelMin: parseInt(levelMinStr, 10),
               levelMax: parseInt(levelMaxStr, 10),
               alphaRate: parseInt(alphaRateStr || "0", 10),
-              alphaLevelMin: parseInt(alphaLevelMinStr || "0", 10),
-              alphaLevelMax: parseInt(alphaLevelMaxStr || "0", 10),
+              alphaLevelBoost: parseInt(alphaLevelBoostStr || "0", 10),
               rarity: parseFloat(rarityStr || "0"),
             };
             return item;

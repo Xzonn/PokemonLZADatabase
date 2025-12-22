@@ -39,10 +39,11 @@ export const useImport = <T>(callback: () => Promise<T>, refreshDeps: any[] = []
 };
 
 interface IView {
-  center: [number, number];
-  zoom: number;
+  bounds?: [[number, number], [number, number]];
+  center?: [number, number];
+  zoom?: number;
 }
-export const useView = () => {
+export const useView = (imageSize = 4096) => {
   const map = useMap();
   const [view, setView] = useState<IView>({
     center: MAP_CENTER,
@@ -50,12 +51,50 @@ export const useView = () => {
   });
 
   const updateView = (newView: IView) => {
-    if (view.center[0] != newView.center[0] || view.center[1] != newView.center[1] || view.zoom !== newView.zoom) {
-      map.setView(getCoord(newView.center), newView.zoom);
+    if (
+      view.bounds?.[0][0] != newView.bounds?.[0][0] ||
+      view.bounds?.[0][1] != newView.bounds?.[0][1] ||
+      view.bounds?.[1][0] != newView.bounds?.[1][0] ||
+      view.bounds?.[1][1] != newView.bounds?.[1][1] ||
+      view.center?.[0] != newView.center?.[0] ||
+      view.center?.[1] != newView.center?.[1] ||
+      view.zoom !== newView.zoom
+    ) {
+      if (newView.bounds) {
+        map.fitBounds([getCoord(newView.bounds[0], imageSize), getCoord(newView.bounds[1], imageSize)]);
+      } else if (newView.center) {
+        map.setView(getCoord(newView.center, imageSize), newView.zoom);
+      } else {
+        map.setView(getCoord(MAP_CENTER, imageSize), newView.zoom);
+      }
       setView(newView);
     }
   };
   return [view, updateView] as const;
+};
+
+export const useViewBounds = (data: { x: number; y: number }[], imageSize = 4096) => {
+  const [, setView] = useView(imageSize);
+
+  if (data.length === 1) {
+    setView({ center: [data[0].x, data[0].y], zoom: 3 });
+  } else if (data?.length > 1) {
+    let [minX, minY, maxX, maxY] = [Infinity, Infinity, -Infinity, -Infinity];
+    data.forEach((item) => {
+      if (item.x < minX) minX = item.x;
+      if (item.y < minY) minY = item.y;
+      if (item.x > maxX) maxX = item.x;
+      if (item.y > maxY) maxY = item.y;
+    });
+    setView({
+      bounds: [
+        [minX, minY],
+        [maxX, maxY],
+      ],
+    });
+  } else {
+    setView({ center: MAP_CENTER, zoom: 0 });
+  }
 };
 
 export const useLoadingAnchor = (loading: boolean[]) => {

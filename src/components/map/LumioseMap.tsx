@@ -2,11 +2,11 @@ import { useUpdateEffect } from "ahooks";
 import { Button, Switch } from "antd";
 import classNames from "classnames";
 import { divIcon } from "leaflet";
-import { FC, Fragment, PropsWithChildren, ReactNode, useMemo, useState } from "react";
+import { FC, Fragment, useMemo, useState } from "react";
 import { Marker, Popup } from "react-leaflet";
 
-import { IMapFilter, IMapPosition } from "@/types";
-import { Icon, Link, MAP_CENTER, getCoord, useImport, useView } from "@/utils";
+import { IMapFilter, IMapPosition, IMapProps } from "@/types";
+import { Icon, Link, getCoord, useImport, useViewBounds } from "@/utils";
 
 import { BasicMap } from "./BasicMap";
 
@@ -15,13 +15,7 @@ interface IMapLayerProps {
 }
 
 const MapLayer: FC<IMapLayerProps> = ({ data }) => {
-  const [, setView] = useView();
-
-  if (data.length === 1) {
-    setView({ center: [data[0].x, data[0].y], zoom: 2 });
-  } else {
-    setView({ center: MAP_CENTER, zoom: 0 });
-  }
+  useViewBounds(data, 4096);
 
   return data.map((item) => (
     <Marker
@@ -92,17 +86,10 @@ const INITIAL_FILTER: IMapFilter = {
   layers: new Set(LAYER_CONFIG.map((layer) => layer.icon)),
 };
 
-interface IProps extends PropsWithChildren {
-  loading?: boolean;
-  showReset?: boolean;
-  filter?: IMapFilter;
-  filterComponent?: ReactNode;
-}
-
-export const LumioseMap: FC<IProps> = ({
-  filter: defaultFilter,
+export const LumioseMap: FC<IMapProps> = ({
   loading,
   showReset = true,
+  filter: defaultFilter,
   filterComponent,
   children,
 }) => {
@@ -163,7 +150,11 @@ export const LumioseMap: FC<IProps> = ({
           </Button>
         </div>
       ) : null}
-      <BasicMap loading={loading || positionsLoading}>
+      <BasicMap
+        mapKey="t1"
+        imageSize={4096}
+        loading={loading || positionsLoading}
+      >
         <MapLayer data={filteredPositions || []} />
         {children}
       </BasicMap>

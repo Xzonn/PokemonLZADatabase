@@ -7,6 +7,16 @@
   @apply w-[512px] h-[512px] max-w-full mx-auto my-2;
 }
 
+.map-t1 {
+  background-color: #738e94;
+}
+
+.map-t2,
+.map-t3,
+.map-t3_2 {
+  background-color: #060508;
+}
+
 .map-note {
   @apply text-center text-sm text-gray-500 mt-2;
 }

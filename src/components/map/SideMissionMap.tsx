@@ -1,23 +1,16 @@
 import { Button } from "antd";
 import { divIcon } from "leaflet";
 import { FC, Fragment } from "react";
-import { Marker, Popup, useMap } from "react-leaflet";
+import { Marker, Popup } from "react-leaflet";
 
 import { SideMissionData } from "@/data";
 import { MissionSummary } from "@/types";
-import { Link, MAP_CENTER, getCoord, getMissionIndex } from "@/utils";
+import { Link, getCoord, getMissionIndex, useViewBounds } from "@/utils";
 
 import { LumioseMap } from "../map/LumioseMap";
 
 const MapLayer: FC<{ data: MissionSummary[] }> = ({ data }) => {
-  const map = useMap();
-
-  if (data?.length === 1) {
-    const mission = data[0];
-    map.setView(getCoord([mission.x, mission.y]), 2);
-  } else {
-    map.setView(getCoord(MAP_CENTER), 0);
-  }
+  useViewBounds(data);
 
   return data?.map((mission) => {
     const index = getMissionIndex(mission.index);

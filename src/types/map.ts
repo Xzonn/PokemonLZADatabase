@@ -1,3 +1,5 @@
+import { PropsWithChildren, ReactNode } from "react";
+
 interface IPositionBasic {
   name: string;
   index: number;
@@ -23,4 +25,11 @@ export interface IMapPosition extends IPositionWithPoint {
 export interface IMapFilter {
   layers?: Set<string>;
   index?: number;
+}
+
+export interface IMapProps extends PropsWithChildren {
+  loading?: boolean;
+  showReset?: boolean;
+  filter?: IMapFilter;
+  filterComponent?: ReactNode;
 }

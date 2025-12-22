@@ -1,12 +1,12 @@
 import { Table, TableColumnsType, TablePaginationConfig } from "antd";
 import { useMemo } from "react";
 
-import { PokemonSpawn, PokemonType } from "@/types";
+import { IPokemonSpawn, PokemonType } from "@/types";
 import { PokemonTypeFilters, TableCommonProps, TypeIcons } from "@/utils";
 
 import { PokemonCell } from "../pokemon";
 
-const columns: TableColumnsType<PokemonSpawn> = [
+const columns: TableColumnsType<IPokemonSpawn> = [
   {
     title: "宝可梦",
     dataIndex: "pokemon",
@@ -59,7 +59,8 @@ const columns: TableColumnsType<PokemonSpawn> = [
   {
     title: "头目等级",
     key: "alphaLevel",
-    render: (row) => (row.alphaRate !== 0 ? `${row.alphaLevelMin} - ${row.alphaLevelMax}` : "—"),
+    render: (row) =>
+      row.alphaRate !== 0 ? `${row.levelMin + row.alphaLevelBoost} - ${row.levelMax + row.alphaLevelBoost}` : "—",
     onCell: () => ({ className: "text-nowrap" }),
   },
   {
@@ -81,7 +82,7 @@ const columns: TableColumnsType<PokemonSpawn> = [
 
 interface ITableProps {
   loading?: boolean;
-  data?: PokemonSpawn[];
+  data?: IPokemonSpawn[];
   headers?: string[];
   pagination?: false | TablePaginationConfig;
 }
@@ -89,17 +90,17 @@ interface ITableProps {
 export const PokemonSpawnTable = ({
   loading = false,
   data,
-  headers = ["宝可梦", "图鉴", "属性", "通常等级", "头目概率", "头目等级"],
+  headers = ["宝可梦", "图鉴", "属性", "通常等级", "头目概率", "头目等级", "稀有度", "时间", "天气"],
   pagination,
 }: ITableProps) => {
   const sortedColumns = useMemo(() => {
-    type ColumnType = TableColumnsType<PokemonSpawn>[number];
+    type ColumnType = TableColumnsType<IPokemonSpawn>[number];
     const columnsByTitle = new Map<string, ColumnType>(columns.map((col) => [col.title, col] as [string, ColumnType]));
-    return headers?.map((header) => columnsByTitle.get(header)).filter(Boolean) as TableColumnsType<PokemonSpawn>;
+    return headers?.map((header) => columnsByTitle.get(header)).filter(Boolean) as TableColumnsType<IPokemonSpawn>;
   }, [headers]);
 
   return (
-    <Table<PokemonSpawn>
+    <Table<IPokemonSpawn>
       {...TableCommonProps}
       rowKey={(row) => row.index}
       loading={loading}

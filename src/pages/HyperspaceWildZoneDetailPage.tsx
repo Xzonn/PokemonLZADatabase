@@ -88,7 +88,7 @@ const HyperspaceWildZoneDetailPageCore: FC<IProps> = ({ name: typeName }) => {
           </Button>
         </div>
         <Spin spinning={loading}>
-          <div className="grid text-md grid-cols-[repeat(auto-fit,_minmax(72px,_1fr))]">{pokemonIcons}</div>
+          <div className="grid text-md grid-cols-[repeat(auto-fit,_72px)]">{pokemonIcons}</div>
         </Spin>
       </div>
 

@@ -1,12 +1,12 @@
 import { Button, TableColumnsType } from "antd";
 import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
-import { Marker, Popup, useMap } from "react-leaflet";
+import { Marker, Popup } from "react-leaflet";
 
 import { LumioseMap, MoveTable, TMCell } from "@/components";
 import { ItemDataByName } from "@/data";
 import { TMFull } from "@/types";
-import { DEFAULT_TITLE, Link, MAP_CENTER, getCoord, getTMMethod, useImport, useLoadingAnchor } from "@/utils";
+import { DEFAULT_TITLE, Link, getCoord, getTMMethod, useImport, useLoadingAnchor, useViewBounds } from "@/utils";
 
 const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMFull> => [
   {
@@ -27,31 +27,24 @@ const getColumns = (setActive: (v: number | null) => void): TableColumnsType<TMF
 ];
 
 const TMListMapLayer: FC<{ data: TMFull[] }> = ({ data }) => {
-  const map = useMap();
+  const filteredData = data.filter((tm) => tm.x !== null && tm.y !== null);
 
-  if (data?.length === 1 && data[0].x !== null && data[0].y !== null) {
-    const mission = data[0];
-    map.setView(getCoord([mission.x!, mission.y!]), 2);
-  } else {
-    map.setView(getCoord(MAP_CENTER), 0);
-  }
+  useViewBounds(filteredData as { x: number; y: number }[]);
 
-  return data
-    ?.filter((tm) => tm.x !== null && tm.y !== null)
-    .map((tm) => (
-      <Marker
-        key={tm.index}
-        position={getCoord([tm.x!, tm.y!])}
-        icon={divIcon({
-          className: `icon icon-tm-${tm.type}`,
-          iconSize: [24, 24],
-        })}
-      >
-        <Popup>
-          No.{tm.index.toString().padStart(3, "0")} <Link to={`/m/${tm.name}`}>{tm.name}</Link>
-        </Popup>
-      </Marker>
-    ));
+  return filteredData.map((tm) => (
+    <Marker
+      key={tm.index}
+      position={getCoord([tm.x!, tm.y!])}
+      icon={divIcon({
+        className: `icon icon-tm-${tm.type}`,
+        iconSize: [24, 24],
+      })}
+    >
+      <Popup>
+        No.{tm.index.toString().padStart(3, "0")} <Link to={`/m/${tm.name}`}>{tm.name}</Link>
+      </Popup>
+    </Marker>
+  ));
 };
 
 const EMPTY_FILTER = {};
