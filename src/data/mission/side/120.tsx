@@ -1,5 +1,5 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
-import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 120,
@@ -16,7 +16,12 @@ export const information: MissionDetail = {
   location: "旅馆Z 顶楼",
   unlockCondition: (
     <>
-      完成了<Link to="/main/037">主任务 037</Link>
+      完成了“
+      <MissionLink
+        category="主"
+        index={37}
+      />
+      ”、购买了 DLC
     </>
   ),
   bvid: "BV1azqaBiEi2",

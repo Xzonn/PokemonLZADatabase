@@ -928,19 +928,19 @@
   background-position: -10em -11em;
 }
 
-.icon-hyperspace-1 {
+.icon-hyperspace-wild {
   background-position: -11em -11em;
 }
 
-.icon-hyperspace-2 {
+.icon-hyperspace-battle {
   background-position: -12em -11em;
 }
 
-.icon-hyperspace-3 {
+.icon-hyperspace-mission {
   background-position: -13em -11em;
 }
 
-.icon-hyperspace-4 {
+.icon-hyperspace-mega {
   background-position: -14em -11em;
 }
 
@@ -974,5 +974,33 @@
 
 .icon-hoopa {
   background-position: -2em -12em;
+}
+
+.icon-hyperspace-wild-plain {
+  background-position: -3em -12em;
+}
+
+.icon-hyperspace-wild-plain-white {
+  background-position: -4em -12em;
+}
+
+.icon-hyperspace-wild-plain-black {
+  background-position: -5em -12em;
+}
+
+.icon-hyperspace-battle-plain {
+  background-position: -6em -12em;
+}
+
+.icon-hyperspace-battle-plain-white {
+  background-position: -7em -12em;
+}
+
+.icon-hyperspace-battle-plain-black {
+  background-position: -8em -12em;
+}
+
+.icon-hyperspace-mission-black {
+  background-position: -9em -12em;
 }
 

@@ -8,4 +8,6 @@ export const information: MissionDetail = {
   process: ["与在异次元相遇的神秘兄妹对战。"],
   location: "",
   unlockCondition: null,
+  bvid: "BV1azqaBiEi2",
+  cid: "34914766803",
 };

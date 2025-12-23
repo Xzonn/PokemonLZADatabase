@@ -1,5 +1,5 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
-import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 103,
@@ -9,7 +9,14 @@ export const information: MissionDetail = {
   location: "琼黄６号街区 南东",
   unlockCondition: (
     <>
-      完成了<Link to="/side/087">副任务 087</Link>
+      完成“
+      <MissionLink
+        category="副"
+        index={87}
+      />
+      ”后
     </>
   ),
+  bvid: "BV1pK4UzoEoF",
+  cid: "34892546704",
 };

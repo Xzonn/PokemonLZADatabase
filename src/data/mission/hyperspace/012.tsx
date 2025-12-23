@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 12,
@@ -17,5 +18,11 @@ export const information: MissionDetail = {
     "捕捉传说的宝可梦烈空坐。",
   ],
   location: "",
-  unlockCondition: "",
+  unlockCondition: (
+    <>
+      完成了<Link to="/hyperspace/011">异次元任务 011</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34885534788",
 };

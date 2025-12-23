@@ -7,4 +7,6 @@ export const information: MissionDetail = {
   process: ["收集４种卡带，带给委托人看。", "使用任务的导航功能前往指定的地点。", "调查指定地点的异次元扭洞。"],
   location: "",
   unlockCondition: null,
+  bvid: "BV1azqaBiEi2",
+  cid: "34892614021",
 };

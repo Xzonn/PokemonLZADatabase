@@ -19,7 +19,7 @@ const MapLayer: FC<{ data: MissionSummary[] }> = ({ data }) => {
         key={mission.index}
         position={getCoord([mission.x, mission.y])}
         icon={divIcon({
-          className: "icon icon-side-mission",
+          className: `icon icon-${mission.isHyperspace ? "hyperspace-mission-black" : "side-mission"}`,
           iconSize: [24, 24],
         })}
       >

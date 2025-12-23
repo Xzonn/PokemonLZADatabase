@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -9,6 +10,17 @@ export const information: MissionDetail = {
     "与前往邮筒所在地的魔尼尼保持不近不远的距离，一边照看一边追踪它。",
     "不要跟丢前往邮筒所在地的魔尼尼。",
   ],
-  location: "",
-  unlockCondition: null,
+  location: "翡绿１号街区",
+  unlockCondition: (
+    <>
+      完成“
+      <MissionLink
+        category="副"
+        index={120}
+      />
+      ”后
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34892549894",
 };

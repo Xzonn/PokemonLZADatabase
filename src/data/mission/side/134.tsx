@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -5,6 +6,17 @@ export const information: MissionDetail = {
   internal: 184,
   summary: "有４只怒鹦哥在屋顶上吵架！实在是太吵了！秀出你的力量和胆量让它们安静！这事就拜托你了！！！！",
   process: ["向楼顶上的怒鹦哥它们挑衅。"],
-  location: "",
-  unlockCondition: null,
+  location: "翡绿３号街区南方",
+  unlockCondition: (
+    <>
+      完成“
+      <MissionLink
+        category="副"
+        index={120}
+      />
+      ”后
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34892612617",
 };

@@ -62,8 +62,8 @@ export const NAVIGATION_ITEMS: NavigationItem[] = [
   { path: "/任务一览", label: "任务一览", icon: "side-plain" },
   { path: "/i/彩色螺丝", label: "彩色螺丝", icon: "bag-重要物品" },
   { path: "/甜甜圈", label: "甜甜圈", icon: "donut" },
-  { path: "/h/一般", label: "野生异次元", icon: "hyperspace-plain" },
-  { path: "/对战异次元", label: "对战异次元", icon: "hyperspace" },
+  { path: "/h/一般", label: "野生异次元", icon: "hyperspace-wild-plain" },
+  { path: "/对战异次元", label: "对战异次元", icon: "hyperspace-battle-plain" },
   { path: "/联网活动", label: "联网活动", icon: "internet" },
 ];
 
@@ -103,7 +103,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         contents: [
           { path: "/甜甜圈", label: "甜甜圈", icon: "donut-shop" },
           { path: "/h/一般", label: "野生异次元", icon: "hoopa" },
-          { path: "/对战异次元", label: "对战异次元", icon: "hyperspace-2" },
+          { path: "/对战异次元", label: "对战异次元", icon: "hyperspace-battle" },
         ],
       },
     ],

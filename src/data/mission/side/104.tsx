@@ -7,4 +7,6 @@ export const information: MissionDetail = {
   process: ["在宝可梦对战中打赢委托人。"],
   location: "榴红７号街区 对战场中央",
   unlockCondition: null,
+  bvid: "BV1pK4UzoEoF",
+  cid: "34892154957",
 };

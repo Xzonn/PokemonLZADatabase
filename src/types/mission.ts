@@ -18,7 +18,7 @@ export interface MissionSummary {
   }[];
   x: number;
   y: number;
-  z: number;
+  isHyperspace: boolean;
 }
 
 export interface MissionDetail {

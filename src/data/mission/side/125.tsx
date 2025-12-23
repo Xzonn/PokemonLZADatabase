@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -5,6 +6,17 @@ export const information: MissionDetail = {
   internal: 189,
   summary: "委托人的雷伊布很急躁，它迫不及待地想快点对战！追上冲在前面的雷伊布，接受宝可梦对战的挑战吧。",
   process: ["在宝可梦对战中打赢委托人。"],
-  location: "",
-  unlockCondition: null,
+  location: "９号野生特区入口旁",
+  unlockCondition: (
+    <>
+      完成“
+      <MissionLink
+        category="副"
+        index={120}
+      />
+      ”后
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34914762837",
 };

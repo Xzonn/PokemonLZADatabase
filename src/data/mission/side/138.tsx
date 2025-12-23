@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -5,6 +6,17 @@ export const information: MissionDetail = {
   internal: 149,
   summary: "阿辉因为闪到腰而蜷缩着身子。用宝可梦的招式“蛸固”或许能让他的腰好起来。帮他解除这场命悬一线的危机吧！",
   process: ["向委托人使出宝可梦的招式蛸固。"],
-  location: "",
-  unlockCondition: null,
+  location: "１０号野生特区门口",
+  unlockCondition: (
+    <>
+      完成“
+      <MissionLink
+        category="副"
+        index={120}
+      />
+      ”后
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34914763865",
 };

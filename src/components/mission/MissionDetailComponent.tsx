@@ -1,7 +1,7 @@
 import { Descriptions, DescriptionsProps, Spin, Tooltip } from "antd";
 import { FC, Fragment, useEffect, useMemo, useState } from "react";
 
-import { ItemList, NormalTrainerTable, PokemonList, SideMissionMap } from "@/components";
+import { ItemList, NormalTrainerTable, PokemonList, PrevNext, SideMissionMap } from "@/components";
 import { MissionData } from "@/data";
 import { MissionCategory, MissionDetail, MissionFull, MissionSummary, TrainerNormal } from "@/types";
 import {
@@ -119,6 +119,96 @@ export const MissionDetailComponent: FC<IProps> = ({ category, mission }) => {
     [category, information, missionSummary],
   );
 
+  const { prev, next } = useMemo(() => {
+    switch (category) {
+      case "主": {
+        const missionNumber = parseInt(mission, 10);
+        const prev =
+          missionNumber > 1
+            ? {
+                link: `/main/${(missionNumber - 1).toString().padStart(3, "0")}`,
+                name: `主任务 ${(missionNumber - 1).toString().padStart(3, "0")}`,
+              }
+            : undefined;
+        const next =
+          missionNumber < 42
+            ? {
+                link: `/main/${(missionNumber + 1).toString().padStart(3, "0")}`,
+                name: `主任务 ${(missionNumber + 1).toString().padStart(3, "0")}`,
+              }
+            : {
+                link: "/hyperspace/001",
+                name: "异次元任务 001",
+              };
+        return { prev, next };
+      }
+      case "异": {
+        const missionNumber = parseInt(mission, 10);
+        const prev =
+          missionNumber > 1
+            ? {
+                link: `/hyperspace/${(missionNumber - 1).toString().padStart(3, "0")}`,
+                name: `异次元任务 ${(missionNumber - 1).toString().padStart(3, "0")}`,
+              }
+            : {
+                link: "/main/042",
+                name: "主任务 042",
+              };
+        const next =
+          missionNumber < 14
+            ? {
+                link: `/hyperspace/${(missionNumber + 1).toString().padStart(3, "0")}`,
+                name: `异次元任务 ${(missionNumber + 1).toString().padStart(3, "0")}`,
+              }
+            : undefined;
+        return { prev, next };
+      }
+      case "副": {
+        if (mission.startsWith("EX")) {
+          const exNumber = parseInt(mission.slice(2), 10);
+          const prev =
+            exNumber > 1
+              ? {
+                  link: `/side/EX${exNumber - 1}`,
+                  name: `副任务 EX${exNumber - 1}`,
+                }
+              : {
+                  link: "/side/200",
+                  name: "副任务 200",
+                };
+          const next =
+            exNumber < 3
+              ? {
+                  link: `/side/EX${exNumber + 1}`,
+                  name: `副任务 EX${exNumber + 1}`,
+                }
+              : undefined;
+          return { prev, next };
+        } else {
+          const missionNumber = parseInt(mission, 10);
+          const prev =
+            missionNumber > 1
+              ? {
+                  link: `/side/${(missionNumber - 1).toString().padStart(3, "0")}`,
+                  name: `副任务 ${(missionNumber - 1).toString().padStart(3, "0")}`,
+                }
+              : undefined;
+          const next =
+            missionNumber < 200
+              ? {
+                  link: `/side/${(missionNumber + 1).toString().padStart(3, "0")}`,
+                  name: `副任务 ${(missionNumber + 1).toString().padStart(3, "0")}`,
+                }
+              : {
+                  link: "/side/EX1",
+                  name: "副任务 EX1",
+                };
+          return { prev, next };
+        }
+      }
+    }
+  }, [category, mission]);
+
   useLoadingAnchor([loading, trLoading]);
 
   return (
@@ -130,6 +220,10 @@ export const MissionDetailComponent: FC<IProps> = ({ category, mission }) => {
           </h1>
           <div className="description">{information?.summary || "—"}</div>
         </Spin>
+        <PrevNext
+          prev={prev}
+          next={next}
+        />
       </div>
 
       <div className="section">

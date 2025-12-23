@@ -7,4 +7,6 @@ export const information: MissionDetail = {
   process: ["赶走聚集在全息传送梯的４只铁哑铃。"],
   location: "南侧大道 浦蓝４号街区西南的全息传送梯前",
   unlockCondition: null,
+  bvid: "BV1pK4UzoEoF",
+  cid: "34892154339",
 };

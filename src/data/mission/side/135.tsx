@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -5,6 +6,17 @@ export const information: MissionDetail = {
   internal: 187,
   summary: "卡拉卡拉孤零零地伫立着，竟然是在帮忙做街头问卷调查。不管怎么拒绝都推辞不了……只好认真地配合问卷调查了。",
   process: [],
-  location: "",
-  unlockCondition: null,
+  location: "牵绊咖啡馆旁边",
+  unlockCondition: (
+    <>
+      完成“
+      <MissionLink
+        category="副"
+        index={120}
+      />
+      ”后
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34892612916",
 };

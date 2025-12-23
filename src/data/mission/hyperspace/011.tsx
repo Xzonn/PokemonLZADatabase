@@ -1,4 +1,5 @@
 import { MissionDetail } from "@/types";
+import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 11,
@@ -14,5 +15,11 @@ export const information: MissionDetail = {
     "捕捉创造出异次元密阿雷的达克莱伊。",
   ],
   location: "",
-  unlockCondition: "",
+  unlockCondition: (
+    <>
+      完成了<Link to="/hyperspace/010">异次元任务 010</Link>
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "34848702846",
 };
