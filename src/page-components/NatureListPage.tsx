@@ -1,3 +1,5 @@
+"use client";
+
 import { Table } from "antd";
 import { FC, Fragment, useEffect, useMemo } from "react";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/utils";
 
 import { PokemonType } from "@/types";
 import { Icon } from "@/utils";

@@ -1,3 +1,5 @@
+"use client";
+
 import { Spin, Timeline } from "antd";
 import React, { Fragment, useEffect } from "react";
 

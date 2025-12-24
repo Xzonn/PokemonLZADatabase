@@ -1,4 +1,4 @@
-import * as pages from "@/pages";
+import * as pages from "@/page-components";
 import { NavigationItem } from "@/types";
 
 type IHomepageNavigation = {

@@ -1,3 +1,5 @@
+"use client";
+
 import { Descriptions, DescriptionsProps, Spin, Tooltip } from "antd";
 import { FC, Fragment, useEffect, useMemo, useState } from "react";
 

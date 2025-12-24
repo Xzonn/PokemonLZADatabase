@@ -1,3 +1,5 @@
+"use client";
+
 import { useUpdateEffect } from "ahooks";
 import { Button, Switch } from "antd";
 import classNames from "classnames";

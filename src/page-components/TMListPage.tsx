@@ -1,3 +1,5 @@
+"use client";
+
 import { Button, TableColumnsType } from "antd";
 import { divIcon } from "leaflet";
 import React, { FC, Fragment, useEffect, useMemo, useState } from "react";

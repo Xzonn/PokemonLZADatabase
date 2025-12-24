@@ -1,3 +1,5 @@
+"use client";
+
 import { FC } from "react";
 import { useParams } from "@/utils/ParamsProvider";
 
@@ -5,13 +7,13 @@ import { MissionDetailComponent } from "@/components";
 
 import NotFoundPage from "./NotFoundPage";
 
-const MainMissionDetailPage: FC = () => {
+const HyperspaceMissionDetailPage: FC = () => {
   const { id } = useParams<{ id: string }>();
   const missionId = parseInt(id || "", 10);
 
-  return missionId >= 1 && missionId <= 42 && id?.length === 3 ? (
+  return missionId >= 1 && missionId <= 14 && id?.length === 3 ? (
     <MissionDetailComponent
-      category="主"
+      category="异"
       mission={id}
     />
   ) : (
@@ -19,4 +21,4 @@ const MainMissionDetailPage: FC = () => {
   );
 };
 
-export default MainMissionDetailPage;
+export default HyperspaceMissionDetailPage;

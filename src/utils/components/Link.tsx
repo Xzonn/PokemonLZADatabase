@@ -7,7 +7,7 @@ import React from "react";
 
 export interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   to: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {

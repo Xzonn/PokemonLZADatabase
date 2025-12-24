@@ -1,3 +1,5 @@
+"use client";
+
 import { FC, Fragment, useEffect } from "react";
 
 import { DonutBerryTable, DonutButterTable, DonutFlavorTable } from "@/components";

@@ -1,14 +1,16 @@
-"use client";
-
 import { notFound } from "next/navigation";
-import React from "react";
 
 import PageWrapper from "@/components/site/PageWrapper";
 import { GLOBAL_ROUTES } from "@/data/routes";
-import * as pages from "@/pages";
+import * as pages from "@/page-components";
 import { ParamsProvider } from "@/utils/ParamsProvider";
 
-export default function Page({ params }: { params: { slug: string[] } }) {
+interface PageProps {
+  params: Promise<{ slug: string[] }>;
+}
+
+export default async function Page(props: PageProps) {
+  const params = await props.params;
   const slug = params.slug || [];
   const path = `/${slug.join("/")}`;
 

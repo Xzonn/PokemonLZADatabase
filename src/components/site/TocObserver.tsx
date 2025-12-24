@@ -1,3 +1,5 @@
+"use client";
+
 import { FC, PropsWithChildren, createContext, useEffect, useRef, useState } from "react";
 
 interface TocItem {

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { Fragment, useEffect } from "react";
 
 import { ItemMegaStoneTable, PokemonMegaEvolutionTable } from "@/components";

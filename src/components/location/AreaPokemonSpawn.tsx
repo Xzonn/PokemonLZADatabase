@@ -1,3 +1,5 @@
+"use client";
+
 import { useLocalStorageState } from "ahooks";
 import { Button, Spin, Switch } from "antd";
 import { divIcon } from "leaflet";

@@ -2,7 +2,7 @@
 
 import { useRequest } from "ahooks";
 import { message } from "antd";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useMap } from "react-leaflet";
 
 import { MAP_CENTER, getCoord } from "./map";
@@ -102,8 +102,8 @@ export const useLoadingAnchor = (loading: boolean[]) => {
   const [updated, setUpdated] = useState(false);
   const finished = loading.every((item) => !item);
 
-  if (finished && !updated) {
-    setTimeout(() => {
+  useEffect(() => {
+    if (finished && !updated) {
       const hash = window.location.hash;
       if (hash) {
         const element = document.querySelector(decodeURIComponent(hash));
@@ -111,7 +111,7 @@ export const useLoadingAnchor = (loading: boolean[]) => {
           element.scrollIntoView({ behavior: "smooth" });
         }
       }
-    }, 0);
-    setUpdated(true);
-  }
+      setUpdated(true);
+    }
+  }, [finished, updated]);
 };

@@ -1,3 +1,5 @@
+"use client";
+
 import { TableColumnsType } from "antd";
 import React, { Fragment, useEffect } from "react";
 

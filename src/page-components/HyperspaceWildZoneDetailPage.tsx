@@ -1,3 +1,5 @@
+"use client";
+
 import { useLocalStorageState } from "ahooks";
 import { Button, Spin } from "antd";
 import { FC, Fragment, useEffect, useMemo } from "react";

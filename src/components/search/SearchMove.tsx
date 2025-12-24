@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/utils";
 
 import { Move } from "@/types";
 import { CategoryIcon, Icon, TypeIcon } from "@/utils";

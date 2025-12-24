@@ -1,14 +1,15 @@
-import "@/assets/css/styles.css";
-import "@fontsource/nunito";
-
 import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ConfigProvider, ThemeConfig } from "antd";
 import zhCN from "antd/locale/zh_CN";
 import type { Metadata } from "next";
 import React from "react";
 
-import { Footer, Header, Notice, Sidebar, TocObserver } from "@/components";
+import ClientLayout from "./ClientLayout";
+import { Footer, TocObserver } from "@/components";
 import { BREAKPOINTS, DEFAULT_TITLE } from "@/utils";
+
+import "@/assets/css/styles.css";
+import "@fontsource/nunito";
 
 const { xs, sm, md, lg, xl, xxl } = BREAKPOINTS;
 
@@ -65,31 +66,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </AntdRegistry>
       </body>
     </html>
-  );
-}
-
-function ClientLayout({ children }: { children: React.ReactNode }) {
-  const [sidebarShown, setSidebarShown] = React.useState(false);
-
-  React.useEffect(() => {
-    const handleResize = () => setSidebarShown(window.innerWidth >= BREAKPOINTS.md);
-
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  return (
-    <>
-      <Header showDrawer={!sidebarShown} />
-      <Notice />
-      <div className="md:flex relative flex-1">
-        {sidebarShown ? <Sidebar /> : null}
-        <main>{children}</main>
-      </div>
-    </>
   );
 }

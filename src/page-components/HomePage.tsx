@@ -1,3 +1,5 @@
+"use client";
+
 import { Card } from "antd";
 import React, { Fragment, useEffect } from "react";
 

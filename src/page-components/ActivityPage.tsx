@@ -1,3 +1,5 @@
+"use client";
+
 import { Card, Spin } from "antd";
 import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
 

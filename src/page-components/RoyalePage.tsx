@@ -1,3 +1,5 @@
+"use client";
+
 import React, { Fragment, useEffect } from "react";
 
 import { ItemRewardsTable, NormalTrainerTable } from "@/components";

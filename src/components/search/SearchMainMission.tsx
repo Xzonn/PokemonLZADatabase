@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
+import { Link } from "@/utils";
 
 import { MainMissionData } from "@/data";
 import { Icon, getMissionIndex } from "@/utils";

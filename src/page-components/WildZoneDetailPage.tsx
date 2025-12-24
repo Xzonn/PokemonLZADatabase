@@ -1,7 +1,10 @@
+"use client";
+
+import { redirect } from "next/navigation";
 import { FC } from "react";
-import { Navigate, useParams } from "react-router-dom";
 
 import { halfToFull } from "@/utils";
+import { useParams } from "@/utils/ParamsProvider";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -9,14 +12,11 @@ const AreaDetailPage: FC = () => {
   const { id } = useParams<{ id: string }>();
   const zoneId = parseInt(id || "", 10);
 
-  return zoneId >= 1 && zoneId <= 20 ? (
-    <Navigate
-      to={`/area/${halfToFull(zoneId.toString())}号野生特区`}
-      replace
-    />
-  ) : (
-    <NotFoundPage />
-  );
+  if (zoneId >= 1 && zoneId <= 20) {
+    redirect(`/area/${halfToFull(zoneId.toString())}号野生特区`);
+  }
+
+  return <NotFoundPage />;
 };
 
 export default AreaDetailPage;

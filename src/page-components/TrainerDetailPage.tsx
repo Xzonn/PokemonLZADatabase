@@ -1,3 +1,5 @@
+"use client";
+
 import { FC, Fragment, useEffect } from "react";
 import { useParams } from "@/utils/ParamsProvider";
 

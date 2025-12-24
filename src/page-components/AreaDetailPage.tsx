@@ -1,3 +1,5 @@
+"use client";
+
 import { divIcon } from "leaflet";
 import { FC, Fragment, useEffect, useMemo } from "react";
 import { Marker, Popup } from "react-leaflet";

@@ -1,3 +1,5 @@
+"use client";
+
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
 import { useParams } from "@/utils/ParamsProvider";

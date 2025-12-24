@@ -1,7 +1,10 @@
+"use client";
+
 import { MenuOutlined } from "@ant-design/icons";
 import { Drawer, Tabs, TabsProps } from "antd";
 import { FC, useContext, useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+
+import { Link } from "@/utils";
 
 import { Navigation } from "./Navigation";
 import { TableOfContents } from "./TableOfContents";
