@@ -1,8 +1,9 @@
+"use client";
+
 import { useRequest } from "ahooks";
 import { message } from "antd";
 import { useState } from "react";
 import { useMap } from "react-leaflet";
-import { useLocation } from "react-router-dom";
 
 import { MAP_CENTER, getCoord } from "./map";
 import { aegis } from "./monitor";
@@ -100,9 +101,10 @@ export const useViewBounds = (data: { x: number; y: number }[], imageSize = 4096
 export const useLoadingAnchor = (loading: boolean[]) => {
   const [updated, setUpdated] = useState(false);
   const finished = loading.every((item) => !item);
-  const { hash } = useLocation();
+
   if (finished && !updated) {
     setTimeout(() => {
+      const hash = window.location.hash;
       if (hash) {
         const element = document.querySelector(decodeURIComponent(hash));
         if (element) {

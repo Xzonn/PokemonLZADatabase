@@ -1,12 +1,19 @@
+"use client";
+
 import cn from "classnames";
+import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
-import { Link as RouterLink, LinkProps, useLocation, useResolvedPath } from "react-router-dom";
+
+export interface LinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+  to: string;
+  children: React.ReactNode;
+}
 
 export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {
-  const location = useLocation();
-  const resolved = useResolvedPath(to);
+  const pathname = usePathname();
 
-  if (to.toString().startsWith("https://")) {
+  if (to.toString().startsWith("https://") || to.toString().startsWith("http://")) {
     return (
       <a
         target="_blank"
@@ -20,30 +27,21 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
     );
   }
 
-  const target = resolved.pathname;
-  const current = decodeURIComponent(location.pathname);
+  const current = decodeURIComponent(pathname);
 
-  if (target === current) {
+  if (to === current) {
     // render plain text when target equals current URL
     return (
-      <span
-        className={cn("whitespace-nowrap", className)}
-        aria-current="page"
-        {...rest}
-      >
+      <span className={cn("whitespace-nowrap", className)} aria-current="page" {...rest}>
         {children}
       </span>
     );
   }
 
-  // otherwise render a react-router Link
+  // otherwise render a Next.js Link
   return (
-    <RouterLink
-      to={to}
-      className={cn("whitespace-nowrap", className)}
-      {...rest}
-    >
+    <NextLink href={to} className={cn("whitespace-nowrap", className)} {...rest}>
       {children}
-    </RouterLink>
+    </NextLink>
   );
 };

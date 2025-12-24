@@ -1,11 +1,14 @@
+"use client";
+
 import { useUpdateEffect } from "ahooks";
-import { useLocation } from "react-router-dom";
+import { usePathname } from "next/navigation";
 
 export const ScrollToTop = () => {
-  const { pathname, hash } = useLocation();
+  const pathname = usePathname();
 
   useUpdateEffect(() => {
     setTimeout(() => {
+      const hash = window.location.hash;
       const element = hash ? document.querySelector(decodeURIComponent(hash)) : null;
       if (element) {
         element.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -17,7 +20,7 @@ export const ScrollToTop = () => {
         behavior: "smooth",
       });
     }, 0);
-  }, [pathname, hash]);
+  }, [pathname]);
 
   return null;
 };

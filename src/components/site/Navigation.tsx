@@ -1,6 +1,8 @@
+"use client";
+
 import cn from "classnames";
+import { usePathname } from "next/navigation";
 import React from "react";
-import { useLocation } from "react-router-dom";
 
 import { NAVIGATION_ITEMS } from "@/data";
 import { Icon, Link } from "@/utils";
@@ -10,13 +12,13 @@ interface INavigationProps {
 }
 
 export const Navigation: React.FC<INavigationProps> = ({ onClick }) => {
-  const location = useLocation();
+  const pathname = usePathname();
 
   const isActive = (path: string) => {
     if (path === "/") {
-      return location.pathname === "/";
+      return pathname === "/";
     }
-    return decodeURIComponent(location.pathname).startsWith(path);
+    return decodeURIComponent(pathname).startsWith(path);
   };
 
   return (

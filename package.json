@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
+    "@ant-design/nextjs-registry": "^1.3.0",
     "@fontsource/nunito": "^5.2.7",
     "@giscus/react": "^3.1.0",
     "aegis-web-sdk": "^1.41.10",
@@ -13,18 +14,18 @@
     "classnames": "^2.5.1",
     "leaflet": "^1.9.4",
     "leaflet-fullscreen": "^1.0.2",
+    "next": "16.1.1",
     "postcss": "^8.5.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
-    "react-router-dom": "^6.30.2",
     "tailwindcss": "^3.4.19"
   },
   "scripts": {
-    "start": "vite",
-    "build": "vite build && npm run update-sitemaps",
-    "serve": "vite preview",
-    "lint": "eslint src/ --fix",
+    "dev": "next dev",
+    "build": "next build && npm run update-sitemaps",
+    "start": "next start",
+    "lint": "next lint && eslint src/ --fix",
     "format": "prettier --write .",
     "update-sitemaps": "node scripts/update-sitemaps.js"
   },
@@ -41,16 +42,16 @@
     ]
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
     "@types/css-modules": "^1.0.5",
     "@types/leaflet": "^1.9.21",
     "@types/leaflet-fullscreen": "^1.0.10",
     "@types/react": "^18.3.27",
     "@types/react-dom": "^18.3.7",
-    "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^8.49.0",
     "@typescript-eslint/parser": "^8.49.0",
-    "@vitejs/plugin-react": "^5.1.2",
-    "eslint": "^8.57.1",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
@@ -60,9 +61,6 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-unused-imports": "^4.3.0",
     "prettier": "^3.7.4",
-    "rollup-plugin-visualizer": "^6.0.5",
-    "typescript": "^4.9.5",
-    "vite": "^7.2.7",
-    "vite-plugin-eslint": "^1.8.1"
+    "typescript": "^4.9.5"
   }
 }

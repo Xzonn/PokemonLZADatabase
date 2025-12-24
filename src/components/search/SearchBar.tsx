@@ -1,8 +1,10 @@
+"use client";
+
 import { CloseOutlined, SearchOutlined } from "@ant-design/icons";
 import { useDebounceFn } from "ahooks";
 import { Input } from "antd";
+import { usePathname } from "next/navigation";
 import React, { FC, useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
 
 import {
   HyperspaceMissionData,
@@ -284,7 +286,7 @@ interface IProps {
 }
 
 export const SearchBar: FC<IProps> = ({ onClick }) => {
-  const location = useLocation();
+  const pathname = usePathname();
   const [searchKeyword, setSearchKeyword] = useState("");
   const [searchResult, setSearchResult] = useState<SearchResult[]>([]);
   const [showSearchResults, setShowSearchResults] = useState(false);
@@ -314,7 +316,7 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
     setShowSearchResults(false);
   };
 
-  useEffect(handleClearSearch, [location.pathname]);
+  useEffect(handleClearSearch, [pathname]);
 
   return (
     <div className="relative">
