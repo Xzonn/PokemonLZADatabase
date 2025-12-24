@@ -1,11 +1,10 @@
-import { FC } from "react";
-import { Navigate } from "react-router-dom";
+"use client";
 
-const SideMissionListPage: FC = () => (
-  <Navigate
-    to="/任务一览"
-    replace
-  />
-);
+import { redirect } from "next/navigation";
+import { FC } from "react";
+
+const SideMissionListPage: FC = () => {
+  redirect("/任务一览");
+};
 
 export default SideMissionListPage;

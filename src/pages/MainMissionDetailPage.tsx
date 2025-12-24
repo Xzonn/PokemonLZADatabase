@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "@/utils/ParamsProvider";
 
 import { MissionDetailComponent } from "@/components";
 

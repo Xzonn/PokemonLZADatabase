@@ -1,9 +1,10 @@
+"use client";
+
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 
 import { PokemonIcon } from "@/components";
 import { PokemonDataById } from "@/data";
-import { DEFAULT_TITLE } from "@/utils";
+import { DEFAULT_TITLE, Link } from "@/utils";
 
 const NotFoundPage: React.FC = () => {
   useEffect(() => {

@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useMemo } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "@/utils/ParamsProvider";
 
 import { MoveTable, PokemonTable, TypeEffects } from "@/components";
 import { MoveData, PokemonData } from "@/data";

@@ -1,7 +1,7 @@
 import { divIcon } from "leaflet";
 import { FC, Fragment, useEffect, useMemo } from "react";
 import { Marker, Popup } from "react-leaflet";
-import { useParams } from "react-router-dom";
+import { useParams } from "@/utils/ParamsProvider";
 
 import { AreaPokemonSpawn, ItemCell, ItemRewardsTable, useGameMap } from "@/components";
 import { ItemDataByName } from "@/data";

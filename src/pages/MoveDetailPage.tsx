@@ -1,6 +1,6 @@
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "@/utils/ParamsProvider";
 
 import { PokemonTable, TMDetail } from "@/components";
 import { MoveDataByName, PokemonDataById } from "@/data";

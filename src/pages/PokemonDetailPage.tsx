@@ -1,6 +1,8 @@
+"use client";
+
 import { Descriptions, DescriptionsProps, Spin, TableColumnsType } from "antd";
+import { redirect } from "next/navigation";
 import React, { Fragment, useEffect, useMemo } from "react";
-import { Navigate, useParams } from "react-router-dom";
 
 import {
   MissionTable,
@@ -26,6 +28,7 @@ import {
   useImport,
   useLoadingAnchor,
 } from "@/utils";
+import { useParams } from "@/utils/ParamsProvider";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -377,12 +380,7 @@ const PokemonDetailPageCore: React.FC<{ data: Pokemon }> = ({ data: pokemon }) =
 const PokemonDetailPage: React.FC = () => {
   const { name } = useParams<{ name: string }>();
   if (name?.endsWith("-0")) {
-    return (
-      <Navigate
-        to={`/p/${name.slice(0, -2)}`}
-        replace
-      />
-    );
+    redirect(`/p/${name.slice(0, -2)}`);
   }
 
   const pokemon = PokemonDataByName[name || ""];

@@ -1,6 +1,7 @@
+"use client";
+
 import { Button, Table } from "antd";
 import React, { Fragment, useEffect, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
 
 import { ItemRewardsTable, RoyaleTrainerTable } from "@/components";
 import { TrainerRoyale } from "@/types";
@@ -32,8 +33,6 @@ const BattleZonePage: React.FC = () => {
     [data, loading],
   );
 
-  const navigate = useNavigate();
-
   useLoadingAnchor([loading]);
 
   return (
@@ -44,7 +43,9 @@ const BattleZonePage: React.FC = () => {
           {RANKS.map((rank) => (
             <Button
               key={rank}
-              onClick={() => navigate({ hash: `#${halfToFull(rank)}级`.toLowerCase() }, { replace: true })}
+              onClick={() => {
+                window.history.replaceState(null, "", `#${halfToFull(rank)}级`.toLowerCase());
+              }}
             >
               {halfToFull(rank)}级
             </Button>

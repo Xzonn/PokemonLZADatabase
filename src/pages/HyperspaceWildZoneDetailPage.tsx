@@ -1,7 +1,7 @@
 import { useLocalStorageState } from "ahooks";
 import { Button, Spin } from "antd";
 import { FC, Fragment, useEffect, useMemo } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "@/utils/ParamsProvider";
 
 import { HyperspaceSpawnTable, HyperspaceWildZoneNavigation, PokemonFilterIcon } from "@/components";
 import { PokemonDataById } from "@/data";

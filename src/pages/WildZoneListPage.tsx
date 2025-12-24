@@ -1,11 +1,10 @@
-import { FC } from "react";
-import { Navigate } from "react-router-dom";
+"use client";
 
-const WildZoneListPage: FC = () => (
-  <Navigate
-    to="/密阿雷地图"
-    replace
-  />
-);
+import { redirect } from "next/navigation";
+import { FC } from "react";
+
+const WildZoneListPage: FC = () => {
+  redirect("/密阿雷地图");
+};
 
 export default WildZoneListPage;

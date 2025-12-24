@@ -1,5 +1,5 @@
 import { FC, Fragment, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "@/utils/ParamsProvider";
 
 import { NormalTrainerTable } from "@/components";
 import { TrainerNormal } from "@/types";

@@ -1,6 +1,7 @@
+"use client";
+
 import { Button, Spin } from "antd";
 import { FC, Fragment, useEffect, useMemo } from "react";
-import { useNavigate } from "react-router-dom";
 
 import { RoyaleTrainerTable } from "@/components";
 import { TrainerRoyale } from "@/types";
@@ -32,8 +33,6 @@ const HyperspaceTrainerListPage: FC = () => {
     ));
   }, [data, loading]);
 
-  const navigate = useNavigate();
-
   useLoadingAnchor([loading]);
 
   return (
@@ -45,7 +44,9 @@ const HyperspaceTrainerListPage: FC = () => {
           {RANKS.map((rank) => (
             <Button
               key={rank}
-              onClick={() => navigate({ hash: `#heading-${rank}-星级`.toLowerCase() }, { replace: true })}
+              onClick={() => {
+                window.history.replaceState(null, "", `#heading-${rank}-星级`.toLowerCase());
+              }}
             >
               {rank} 星级
             </Button>

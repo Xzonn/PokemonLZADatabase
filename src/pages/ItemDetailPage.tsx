@@ -1,11 +1,14 @@
+"use client";
+
 import { Descriptions, DescriptionsProps, Spin, Tooltip } from "antd";
+import { redirect } from "next/navigation";
 import React, { FC, Fragment, useEffect, useMemo } from "react";
-import { Navigate, useParams } from "react-router-dom";
 
 import { ItemIconWithoutTooltip, MissionTable } from "@/components";
 import { ItemDataByName, MissionData } from "@/data";
 import { EItemPocket, Item, ItemFull } from "@/types";
 import { DEFAULT_TITLE, DescriptionsCommonProps4, useImport, useLoadingAnchor } from "@/utils";
+import { useParams } from "@/utils/ParamsProvider";
 
 import NotFoundPage from "./NotFoundPage";
 
@@ -103,12 +106,7 @@ const ItemDetailPage: React.FC = () => {
   const item = ItemDataByName[name || ""];
 
   if (item?.page && item.page !== `i/${name}`) {
-    return (
-      <Navigate
-        to={`/${item.page}`}
-        replace
-      />
-    );
+    redirect(`/${item.page}`);
   }
 
   return item ? <ItemDetailPageCore data={item} /> : <NotFoundPage />;
