@@ -69,7 +69,7 @@ const HyperspaceWildZoneDetailPageCore: FC<IProps> = ({ name: typeName }) => {
   return (
     <Fragment key="hyperspace-wild-zone-detail">
       <div className="section">
-        <h1 className="flex justify-center">野生异次元：{typeName === "传说" ? "传说的宝可梦" : `${typeName}属性`}</h1>
+        <h1>野生异次元：{typeName === "传说" ? "传说的宝可梦" : `${typeName}属性`}</h1>
         <p className="description">所有宝可梦等级均为基础等级，实际等级会受到异次元空间的影响而提高。</p>
       </div>
 
@@ -88,7 +88,7 @@ const HyperspaceWildZoneDetailPageCore: FC<IProps> = ({ name: typeName }) => {
           </Button>
         </div>
         <Spin spinning={loading}>
-          <div className="grid text-md grid-cols-[repeat(auto-fit,_72px)]">{pokemonIcons}</div>
+          <div className="grid text-md grid-cols-[repeat(auto-fit,_72px)] justify-center">{pokemonIcons}</div>
         </Spin>
       </div>
 

@@ -189,7 +189,7 @@ export const AreaPokemonSpawn: FC<IProps> = ({ location }) => {
             重置筛选
           </Button>
         </div>
-        <div className="grid text-md grid-cols-[repeat(auto-fit,_72px)]">{pokemonIcons}</div>
+        <div className="grid text-md grid-cols-[repeat(auto-fit,_72px)] justify-center">{pokemonIcons}</div>
       </div>
 
       <div className="section">
