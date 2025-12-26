@@ -1,8 +1,7 @@
-import cn from "classnames";
 import React from "react";
 import { Link as RouterLink, LinkProps, useLocation, useResolvedPath } from "react-router-dom";
 
-export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) => {
+export const Link: React.FC<LinkProps> = ({ to, children, ...rest }) => {
   const location = useLocation();
   const resolved = useResolvedPath(to);
 
@@ -12,7 +11,6 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
         target="_blank"
         rel="noopener noreferrer"
         href={to.toString()}
-        className={cn("whitespace-nowrap", className)}
         {...rest}
       >
         {children}
@@ -27,7 +25,6 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
     // render plain text when target equals current URL
     return (
       <span
-        className={cn("whitespace-nowrap", className)}
         aria-current="page"
         {...rest}
       >
@@ -40,7 +37,6 @@ export const Link: React.FC<LinkProps> = ({ to, children, className, ...rest }) 
   return (
     <RouterLink
       to={to}
-      className={cn("whitespace-nowrap", className)}
       {...rest}
     >
       {children}

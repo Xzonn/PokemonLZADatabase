@@ -71,6 +71,9 @@ export const Header: FC<IHeaderProps> = ({ showDrawer }) => {
           </div>
         </div>
       </header>
+      <div className="header-fake">
+        <div />
+      </div>
       <Drawer
         destroyOnHidden={true}
         open={show}

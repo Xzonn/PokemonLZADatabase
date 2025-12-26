@@ -2,30 +2,24 @@ import { Table, TableColumnType, TableColumnsType } from "antd";
 import { FC, useMemo } from "react";
 
 import { MissionSummary } from "@/types";
-import { Link, TableCommonProps, getMissionCategory, getMissionIndex } from "@/utils";
+import { TableCommonProps } from "@/utils";
 
 import { ItemList } from "../item";
 import { PokemonList } from "../pokemon";
+import { MissionLink } from "./MissionLink";
 
 const columns: TableColumnType<MissionSummary>[] = [
   {
-    title: "编号",
-    dataIndex: "index",
-    render: (index, row) => `${getMissionCategory(row.category)} ${getMissionIndex(index)}`,
-  },
-  {
     title: "名字",
     dataIndex: "name",
-    render: (name, row) => {
-      switch (row.category) {
-        case "主":
-          return <Link to={`/main/${getMissionIndex(row.index)}`}>{name}</Link>;
-        case "副":
-          return <Link to={`/side/${getMissionIndex(row.index)}`}>{name}</Link>;
-        case "异":
-          return <Link to={`/hyperspace/${getMissionIndex(row.index)}`}>{name}</Link>;
-      }
-    },
+    render: (_, row) => (
+      <div className="min-w-36">
+        <MissionLink
+          category={row.category}
+          index={row.index}
+        />
+      </div>
+    ),
   },
   {
     title: "委托人",

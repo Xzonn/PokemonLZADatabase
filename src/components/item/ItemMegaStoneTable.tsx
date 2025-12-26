@@ -132,12 +132,13 @@ const columns: TableColumnsType<MegaEvolutionFull> = [
   {
     title: "获取方式",
     key: "obtain",
-    render: renderObtain,
+    render: (row) => <div className="min-w-36">{renderObtain(row)}</div>,
+    minWidth: 160,
   },
   {
     title: "说明",
     key: "description",
-    render: (row: MegaEvolutionFull) => <div style={{ minWidth: 200 }}>{row.stone.description}</div>,
+    render: (row: MegaEvolutionFull) => <div className="min-w-48">{row.stone.description}</div>,
     minWidth: 200,
   },
 ];

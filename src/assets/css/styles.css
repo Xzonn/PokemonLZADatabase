@@ -477,7 +477,15 @@ a.badge {
 
 /** 网站结构 */
 header {
-  @apply bg-white shadow-lg border-b-4 border-primary;
+  @apply bg-white md:shadow-lg border-b-4 border-primary fixed top-0 left-0 w-full z-50;
+}
+
+.header-fake {
+  @apply border-b-4;
+
+  & > div {
+    @apply h-16;
+  }
 }
 
 .logo {
@@ -520,7 +528,7 @@ a.nav-item-active {
 }
 
 .nav-toc {
-  @apply sticky top-8 mt-8;
+  @apply sticky top-24 mt-8;
 }
 
 main {

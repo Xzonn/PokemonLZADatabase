@@ -17,7 +17,12 @@ export const NatureCell: FC<IProps> = ({ nature }) => (
     }
   >
     <>
-      <Link to="/性格一览">{nature}</Link>
+      <Link
+        to="/性格一览"
+        className="whitespace-nowrap"
+      >
+        {nature}
+      </Link>
     </>
   </Tooltip>
 );

@@ -60,7 +60,7 @@ const columns: TableColumnsType<Move> = [
   {
     title: "说明",
     dataIndex: "description",
-    render: (description) => <div style={{ minWidth: 200 }}>{description}</div>,
+    render: (description) => <div className="min-w-48">{description}</div>,
     minWidth: 200,
   },
 ];

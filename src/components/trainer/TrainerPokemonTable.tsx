@@ -61,7 +61,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
     dataIndex: "moves",
     width: 160,
     render: (moves: TrainerPokemon["moves"]) => (
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 min-w-16">
         {moves.split("|").map((move) =>
           move.endsWith("+") ? (
             <MoveLink
@@ -109,7 +109,7 @@ const pokemonColumns: TableColumnsType<TrainerPokemon> = [
       ]
         .filter(Boolean)
         .map((item) => <div key={item.toString()}>{item}</div>);
-      return result.length ? result : "—";
+      return result.length ? <div className="min-w-48">{result}</div> : "—";
     },
   },
 ];
