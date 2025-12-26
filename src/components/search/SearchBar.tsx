@@ -336,7 +336,7 @@ export const SearchBar: FC<IProps> = ({ onClick }) => {
 
       {/* 搜索结果下拉框 */}
       {showSearchResults ? (
-        <div className="absolute z-[500] mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
+        <div className="absolute z-[1200] mt-1 w-full bg-white rounded-lg shadow-lg border border-gray-200 max-h-96 overflow-y-auto">
           {renderSearchResult(searchResult, () => {
             handleClearSearch();
             onClick?.();
