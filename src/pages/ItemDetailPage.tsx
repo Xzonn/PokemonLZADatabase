@@ -123,7 +123,19 @@ const getDescriptions = (item: Item, itemFull: ItemFull | undefined): Descriptio
   {
     key: "pocket",
     label: "口袋",
-    children: itemFull !== null ? EItemPocket[itemFull?.pocket || 0] : "—",
+    children:
+      itemFull !== null
+        ? (() => {
+            const pocket = EItemPocket[itemFull?.pocket || 0];
+            const link =
+              pocket === "招式学习器"
+                ? "/招式学习器一览"
+                : pocket === "超级石"
+                  ? "/超级进化一览"
+                  : `/道具一览#${pocket}`;
+            return <Link to={link}>{pocket}</Link>;
+          })()
+        : "—",
   },
   {
     key: "price",

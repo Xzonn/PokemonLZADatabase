@@ -72,7 +72,7 @@ const getDescriptions = (
     {
       key: "process",
       label: "任务概要",
-      children: data?.process.length ? <ul>{data?.process.map((step) => <li key={step}>{step}</li>) || "—"}</ul> : "—",
+      children: data?.process.length ? <ul>{data?.process.map((step, i) => <li key={i}>{step}</li>) || "—"}</ul> : "—",
       span: 4,
     },
   ].filter((item) => item.span !== 0);
