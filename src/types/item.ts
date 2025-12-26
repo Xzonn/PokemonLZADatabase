@@ -24,6 +24,7 @@ export interface ItemDetail {
   priceColorfulScrew: number;
   pocket: number;
   sortIndex: number;
+  obtain: string[];
 }
 
 export interface ItemFull extends Item, ItemDetail {

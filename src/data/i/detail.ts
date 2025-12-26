@@ -1,14 +1,10 @@
 import { ItemDetail, ItemFull } from "@/types";
+import { parseTSV } from "@/utils";
 
 import { ItemDataById } from "../items";
 import raw from "./detail.txt?raw";
 
-const lines = raw.trim().split("\n");
-const header = lines[0].split("\t");
-
-export const ItemFullData = lines.slice(1).map((line) => {
-  const parts = line.split("\t");
-  const dict = Object.fromEntries(parts.map((part, i) => [header[i], part]));
+export const ItemFullData = parseTSV<ItemFull>(raw, (dict) => {
   const itemDetail: ItemDetail = {
     id: parseInt(dict["编号"], 10),
     name: dict["中文名"],
@@ -20,6 +16,7 @@ export const ItemFullData = lines.slice(1).map((line) => {
     priceColorfulScrew: parseInt(dict["彩色螺丝"] || "0", 10),
     pocket: parseInt(dict["口袋"], 10),
     sortIndex: parseInt(dict["排序编号"], 10),
+    obtain: dict["获取方式"] ? dict["获取方式"].split("|") : [],
   };
   const item = ItemDataById[itemDetail.id];
   return {

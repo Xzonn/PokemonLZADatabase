@@ -22,13 +22,14 @@ const RewardsTableColumns: TableColumnsType<IItemReward> = [
   {
     title: "概率",
     dataIndex: "probability",
-    render: (probability) => `${probability}%`,
+    render: (probability) => (probability ? `${probability}%` : "—"),
     width: 40,
   },
   {
     title: "条件",
     dataIndex: "condition",
     width: 160,
+    render: (condition) => condition || "—",
   },
 ];
 

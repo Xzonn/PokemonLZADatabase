@@ -1,3 +1,4 @@
+import { Spin } from "antd";
 import React, { Fragment, useEffect } from "react";
 
 import { ItemRewardsTable, NormalTrainerTable } from "@/components";
@@ -10,15 +11,20 @@ const RoyaleListPage: React.FC = () => {
     document.title = `ＺＡ登峰战 - ${DEFAULT_TITLE}`;
   }, []);
 
-  const [data, loading] = useImport(async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[]);
+  const [trainerData, trainerLoading] = useImport(
+    async () => (await import("@/data/tr/normal.json")).default as TrainerNormal[],
+  );
+  const [rewardData, rewardLoading] = useImport(async () => await import("@/data/i/obtain-reward-match"));
 
   const promotionIdList = royalePromotion.split("\n").filter(Boolean);
-  const promotionData = data?.filter((item) => promotionIdList.includes(item.id));
-  const rewardData = data?.filter((item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong"));
-  const rewardStrongData = data?.filter((item) => item.id.startsWith("za_inf_strong_"));
-  const rewardStrongestData = data?.filter((item) => item.id.startsWith("za_inf_strongest_"));
+  const promotionData = trainerData?.filter((item) => promotionIdList.includes(item.id));
+  const rewardTrainerData = trainerData?.filter(
+    (item) => item.id.startsWith("za_inf_") && !item.id.startsWith("za_inf_strong"),
+  );
+  const rewardStrongData = trainerData?.filter((item) => item.id.startsWith("za_inf_strong_"));
+  const rewardStrongestData = trainerData?.filter((item) => item.id.startsWith("za_inf_strongest_"));
 
-  useLoadingAnchor([loading]);
+  useLoadingAnchor([trainerLoading]);
 
   return (
     <Fragment key="pokemon-list">
@@ -33,7 +39,7 @@ const RoyaleListPage: React.FC = () => {
         <h2>升级战的对手</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={loading}
+          loading={trainerLoading}
           data={promotionData || []}
         />
       </div>
@@ -42,8 +48,8 @@ const RoyaleListPage: React.FC = () => {
         <h2>报酬战的对手（第 20 场前）</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={loading}
-          data={rewardData || []}
+          loading={trainerLoading}
+          data={rewardTrainerData || []}
         />
       </div>
 
@@ -51,7 +57,7 @@ const RoyaleListPage: React.FC = () => {
         <h2>报酬战的对手（第 20 场后）</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={loading}
+          loading={trainerLoading}
           data={rewardStrongData || []}
         />
       </div>
@@ -60,59 +66,28 @@ const RoyaleListPage: React.FC = () => {
         <h2>报酬战的对手（完成《超次元爆涌》后）</h2>
         <p>点击每行的“＋”可以查看宝可梦详情。</p>
         <NormalTrainerTable
-          loading={loading}
+          loading={trainerLoading}
           data={rewardStrongestData || []}
         />
       </div>
 
       <div className="section">
         <h2>报酬战的奖励</h2>
-        <div className="grid gap-4 lg:grid-cols-2">
-          <div>
-            <h3>固定奖励</h3>
-            <ItemRewardsTable
-              headers={["道具", "数量", "条件"]}
-              data={[
-                { item: "花叶蒂进化石", quantity: 1, condition: "第 15 场胜利" },
-                { item: "经验糖果Ｍ", quantity: 10, condition: "1~10 场胜利" },
-                { item: "经验糖果Ｍ", quantity: 15, condition: "11~20 场胜利" },
-                { item: "经验糖果Ｌ", quantity: 6, condition: "21~40 场胜利" },
-                { item: "经验糖果Ｌ", quantity: 7, condition: "41~60 场胜利" },
-                { item: "经验糖果Ｌ", quantity: 8, condition: "61~80 场胜利" },
-                { item: "经验糖果Ｌ", quantity: 9, condition: "81~100 场胜利" },
-                { item: "经验糖果Ｌ", quantity: 10, condition: "101 场胜利以上" },
-              ]}
-            />
+        <Spin spinning={rewardLoading}>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <div>
+              <h3>固定奖励</h3>
+              <ItemRewardsTable
+                headers={["道具", "数量", "条件"]}
+                data={rewardData?.ObtainDataRewardMatchGuaranteed}
+              />
+            </div>
+            <div>
+              <h3>随机奖励</h3>
+              <ItemRewardsTable data={rewardData?.ObtainDataRewardMatchRandom} />
+            </div>
           </div>
-          <div>
-            <h3>随机奖励</h3>
-            <ItemRewardsTable
-              data={[
-                { item: "巨大金珠", quantity: 1, probability: 13.79 },
-                { item: "ＨＰ增强剂", quantity: 5, probability: 6.9 },
-                { item: "攻击增强剂", quantity: 5, probability: 6.9 },
-                { item: "防御增强剂", quantity: 5, probability: 6.9 },
-                { item: "特攻增强剂", quantity: 5, probability: 6.9 },
-                { item: "特防增强剂", quantity: 5, probability: 6.9 },
-                { item: "速度增强剂", quantity: 5, probability: 6.9 },
-                { item: "银色王冠", quantity: 3, probability: 6.9 },
-                { item: "金色王冠", quantity: 1, probability: 3.45 },
-                { item: "王者之证", quantity: 1, probability: 3.45 },
-                { item: "泡沫奶油", quantity: 1, probability: 3.45 },
-                { item: "金属膜", quantity: 1, probability: 3.45 },
-                { item: "香袋", quantity: 1, probability: 3.45 },
-                { item: "等级球", quantity: 1, probability: 2.76 },
-                { item: "月亮球", quantity: 1, probability: 2.76 },
-                { item: "诱饵球", quantity: 1, probability: 2.76 },
-                { item: "友友球", quantity: 1, probability: 2.76 },
-                { item: "甜蜜球", quantity: 1, probability: 2.76 },
-                { item: "速度球", quantity: 1, probability: 2.76 },
-                { item: "沉重球", quantity: 1, probability: 2.76 },
-                { item: "大师球", quantity: 1, probability: 1.38 },
-              ]}
-            />
-          </div>
-        </div>
+        </Spin>
       </div>
     </Fragment>
   );

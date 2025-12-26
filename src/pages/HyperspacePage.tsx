@@ -1,12 +1,15 @@
+import { Card, Spin } from "antd";
 import { FC, Fragment, useEffect } from "react";
 
-import { HyperspaceWildZoneNavigation, MissionLink } from "@/components";
-import { DEFAULT_TITLE, Link } from "@/utils";
+import { HyperspaceWildZoneNavigation, ItemRewardsTable, MissionLink } from "@/components";
+import { DEFAULT_TITLE, Link, useImport } from "@/utils";
 
 const HyperspacePage: FC = () => {
   useEffect(() => {
     document.title = `异次元密阿雷 - ${DEFAULT_TITLE}`;
   }, []);
+
+  const [data, loading] = useImport(async () => import("@/data/i/obtain-hyperspace"));
 
   return (
     <Fragment key="hyperspace-page">
@@ -81,26 +84,181 @@ const HyperspacePage: FC = () => {
         </div>
       </div>
 
-      {/* <div className="section">
+      <div className="section">
         <h2>可以获取的道具</h2>
-        <h3>闪光道具</h3>
+        <Spin spinning={loading}>
+          <h3>闪闪发光的道具</h3>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card>
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSparkling} />
+            </Card>
+          </div>
 
-        <h3>小型精灵球</h3>
+          <h3>小型精灵球</h3>
+          <h4>通常</h4>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall5Standard} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall4Standard} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall3Standard} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall2Standard} />
+            </Card>
+            <Card title="1 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall1Standard} />
+            </Card>
+          </div>
+          <h4>道具力</h4>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall5Power} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall4Power} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall3Power} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall2Power} />
+            </Card>
+            <Card title="1 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceSmallBall1Power} />
+            </Card>
+          </div>
 
-        <h3>大型精灵球</h3>
+          <h3>大型精灵球</h3>
+          <h4>通常</h4>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall5Standard} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall4Standard} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall3Standard} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall2Standard} />
+            </Card>
+            <Card title="1 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall1Standard} />
+            </Card>
+          </div>
+          <h4>道具力</h4>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall5Power} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall4Power} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall3Power} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall2Power} />
+            </Card>
+            <Card title="1 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLargeBall1Power} />
+            </Card>
+          </div>
 
-        <h3>金色精灵球</h3>
+          <h3>金色精灵球</h3>
+          <h4>通常</h4>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="失控超级进化">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBallRogueStandard} />
+            </Card>
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall5Standard} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall4Standard} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall3Standard} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall2Standard} />
+            </Card>
+            <Card title="1 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall1Standard} />
+            </Card>
+          </div>
+          <h4>道具力</h4>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="失控超级进化">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBallRoguePower} />
+            </Card>
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall5Power} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceBonusBall4Power} />
+            </Card>
+          </div>
 
-        <h3>快递员</h3>
+          <h3>快递员</h3>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceCourier5} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceCourier4} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceCourier3} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceCourier2} />
+            </Card>
+          </div>
 
-        <h3>宝可梦收藏家</h3>
+          <h3>宝可梦收藏家</h3>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceCollector5} />
+            </Card>
+          </div>
 
-        <h3>富家少爷</h3>
+          <h3>富家少爷</h3>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceRichBoy5} />
+            </Card>
+          </div>
 
-        <h3>千金小姐</h3>
+          <h3>千金小姐</h3>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceLady5} />
+            </Card>
+          </div>
 
-        <h3>头目训练家</h3>
-      </div> */}
+          <h3>头目训练家</h3>
+          <div className="grid text-md gap-4 lg:grid-cols-2 2xl:grid-cols-4">
+            <Card title="5 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceAlphaTrainer5} />
+            </Card>
+            <Card title="4 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceAlphaTrainer4} />
+            </Card>
+            <Card title="3 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceAlphaTrainer3} />
+            </Card>
+            <Card title="2 星级">
+              <ItemRewardsTable data={data?.ObtainDataHyperspaceAlphaTrainer2} />
+            </Card>
+          </div>
+        </Spin>
+      </div>
     </Fragment>
   );
 };
