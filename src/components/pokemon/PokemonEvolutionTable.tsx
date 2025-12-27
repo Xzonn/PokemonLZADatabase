@@ -1,29 +1,12 @@
 import { Table, TableColumnsType } from "antd";
-import React, { FC, ReactNode } from "react";
+import React, { ReactNode } from "react";
 
-import { ItemIconWithoutTooltip } from "@/components";
-import { ItemDataById, ItemDataByName, MoveDataById, PokemonDataById } from "@/data";
-import { EPokemonType, Evolution, Item } from "@/types";
+import { ItemLink } from "@/components";
+import { MoveDataById, PokemonDataById } from "@/data";
+import { EPokemonType, Evolution } from "@/types";
 import { EvolutionItemMap, Link, TableCommonProps, TypeIcon } from "@/utils";
 
 import { PokemonCell } from "./PokemonCell";
-
-interface IEvolutionItemProps {
-  prefix?: string;
-  suffix?: string;
-  item: Item;
-}
-const EvolutionItem: FC<IEvolutionItemProps> = ({ prefix, suffix, item }) => (
-  <>
-    {prefix}
-    <ItemIconWithoutTooltip
-      item={item}
-      className="icon-inline"
-    />
-    <Link to={`/i/${item?.name}`}>{item?.name}</Link>
-    {suffix}
-  </>
-);
 
 const getEvolutionCondition = (evolution: Evolution): ReactNode => {
   switch (evolution.method) {
@@ -34,27 +17,27 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
     case 2:
       return "友好度 158 以上、白天、等级提升";
     case 3:
-      return "友好度 158 以上、晚上、等级提升";
+      return "友好度 158 以上、夜晚、等级提升";
     case 4:
       return "等级提升";
     case 5:
       return "连接交换";
     case 6:
       return (
-        <EvolutionItem
-          item={ItemDataById[evolution.argument]}
-          prefix="携带道具"
-          suffix="、连接交换"
-        />
+        <>
+          携带道具
+          <ItemLink id={evolution.argument} />
+          、连接交换
+        </>
       );
     case 7:
       return "盖盖虫与小嘴蜗连接交换";
     case 8:
       return (
-        <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
-          prefix="使用道具"
-        />
+        <>
+          使用道具
+          <ItemLink id={EvolutionItemMap.get(evolution.argument) || evolution.argument} />
+        </>
       );
     case 9:
       return "等级提升、攻击较高";
@@ -74,35 +57,35 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
       return "美丽度 170 以上";
     case 17:
       return (
-        <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
-          prefix="使用道具"
-          suffix="、雄性"
-        />
+        <>
+          使用道具
+          <ItemLink id={EvolutionItemMap.get(evolution.argument) || evolution.argument} />
+          、雄性
+        </>
       );
     case 18:
       return (
-        <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
-          prefix="使用道具"
-          suffix="、雌性"
-        />
+        <>
+          使用道具
+          <ItemLink id={EvolutionItemMap.get(evolution.argument) || evolution.argument} />
+          、雌性
+        </>
       );
     case 19:
       return (
-        <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
-          prefix="携带道具"
-          suffix="、白天、等级提升"
-        />
+        <>
+          携带道具
+          <ItemLink id={EvolutionItemMap.get(evolution.argument) || evolution.argument} />
+          、白天、等级提升
+        </>
       );
     case 20:
       return (
-        <EvolutionItem
-          item={ItemDataById[EvolutionItemMap.get(evolution.argument) || evolution.argument]}
-          prefix="携带道具"
-          suffix="、晚上、等级提升"
-        />
+        <>
+          携带道具
+          <ItemLink id={EvolutionItemMap.get(evolution.argument) || evolution.argument} />
+          、夜晚、等级提升
+        </>
       );
     case 21: {
       const move = MoveDataById[evolution.argument];
@@ -196,11 +179,11 @@ const getEvolutionCondition = (evolution: Evolution): ReactNode => {
       return "等级提升、加密常数尾数 ≠ 00、自动进化";
     case 54:
       return (
-        <EvolutionItem
-          item={ItemDataByName["索财灵的硬币"]}
-          prefix="收集"
-          suffix={`达到 ${evolution.argument} 个、等级提升`}
-        />
+        <>
+          收集
+          <ItemLink name="索财灵的硬币" />
+          达到 {evolution.argument} 个、等级提升
+        </>
       );
     case 55:
       return `击败${evolution.argument}只携带头领凭证的劈斩司令`;

@@ -1,5 +1,5 @@
+import { ItemLink } from "@/components";
 import { MissionDetail } from "@/types";
-import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: -2,
@@ -9,7 +9,8 @@ export const information: MissionDetail = {
   location: "弗拉达利研究所",
   unlockCondition: (
     <>
-      获得了<Link to="/i/超梦进化石Ｘ">超梦进化石Ｘ</Link>和<Link to="/i/超梦进化石Ｙ">超梦进化石Ｙ</Link>
+      获得了
+      <ItemLink name="超梦进化石Ｘ" />和<ItemLink name="超梦进化石Ｙ" />
     </>
   ),
   bvid: "BV1pK4UzoEoF",

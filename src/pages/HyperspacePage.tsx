@@ -1,7 +1,7 @@
 import { Card, Spin } from "antd";
 import { FC, Fragment, useEffect } from "react";
 
-import { HyperspaceWildZoneNavigation, ItemRewardsTable, MissionLink } from "@/components";
+import { HyperspaceWildZoneNavigation, ItemLink, ItemRewardsTable, MissionLink } from "@/components";
 import { DEFAULT_TITLE, Link, useImport } from "@/utils";
 
 const HyperspacePage: FC = () => {
@@ -46,7 +46,7 @@ const HyperspacePage: FC = () => {
           <li>特殊五星野生异次元：可以在这里遇到传说的宝可梦。地图上会显示为问号。</li>
           <li>
             对战异次元：类似于野生特区，会与随机生成的训练家进行对战。其中，一些强力的训练家会以红色的全息影像出现，他们被称为“头目训练家”，使用的宝可梦是头目宝可梦，获胜之后可以获得
-            <Link to="/i/银色王冠">银色王冠</Link>、<Link to="/i/金色王冠">金色王冠</Link>
+            <ItemLink name="银色王冠" />、<ItemLink name="金色王冠" />
             等奖励。与快递员样子的训练家对战后也可以获得奖励。
           </li>
           <li>失控超级进化：可以与失控超级进化的宝可梦重新对战。</li>
@@ -54,7 +54,7 @@ const HyperspacePage: FC = () => {
         </ul>
         <p>
           在野生异次元和对战异次元中，可能会出现发光的隐藏道具，通常可以拾取到
-          <Link to="/i/索财灵的硬币">索财灵的硬币</Link>
+          <ItemLink name="索财灵的硬币" />
           。此外，还有一些精灵球形状的物体，用宝可梦的招式攻击后可以获得异次元树果等奖励。如果完成了 3
           项调查任务，地图上还会出现 1
           个金色的精灵球，攻击后可以获得更好的奖励。可以遇到传说的宝可梦的特殊五星野生异次元中不会出现精灵球形状的物体。
