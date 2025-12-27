@@ -9,12 +9,12 @@ export const information: MissionDetail = {
   location: "宝可梦中心：冬日大道",
   unlockCondition: (
     <>
-      完成“
+      “
       <MissionLink
-        category="副"
-        index={120}
+        category="异"
+        index={3}
       />
-      ”后
+      ”在锈蚀组事务所听完了对话、在宝可梦中心设置过自己的生日
     </>
   ),
   bvid: "BV1azqaBiEi2",

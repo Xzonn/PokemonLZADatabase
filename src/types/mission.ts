@@ -30,6 +30,7 @@ export interface MissionDetail {
   unlockCondition: ReactNode;
   bvid?: string;
   cid?: string;
+  note?: ReactNode;
 }
 
 export interface MissionFull {

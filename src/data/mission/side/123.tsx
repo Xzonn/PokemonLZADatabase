@@ -9,12 +9,12 @@ export const information: MissionDetail = {
   location: "翡绿４号街区",
   unlockCondition: (
     <>
-      完成“
+      “
       <MissionLink
-        category="副"
-        index={120}
+        category="异"
+        index={1}
       />
-      ”后
+      ”初次探索了异次元密阿雷
     </>
   ),
   bvid: "BV1azqaBiEi2",

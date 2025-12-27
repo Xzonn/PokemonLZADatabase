@@ -9,12 +9,12 @@ export const information: MissionDetail = {
   location: "榴红６号街区",
   unlockCondition: (
     <>
-      完成“
+      接受了“
       <MissionLink
-        category="副"
-        index={120}
+        category="异"
+        index={1}
       />
-      ”后
+      ”
     </>
   ),
   bvid: "BV1azqaBiEi2",

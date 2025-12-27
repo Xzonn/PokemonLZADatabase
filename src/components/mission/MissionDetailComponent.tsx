@@ -75,6 +75,12 @@ const getDescriptions = (
       children: data?.process.length ? <ul>{data?.process.map((step, i) => <li key={i}>{step}</li>) || "—"}</ul> : "—",
       span: 4,
     },
+    {
+      key: "note",
+      label: "备注",
+      children: data?.note || "—",
+      span: data?.note ? 4 : 0,
+    },
   ].filter((item) => item.span !== 0);
 
 interface IProps {

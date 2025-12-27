@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -6,5 +7,16 @@ export const information: MissionDetail = {
   summary: "萨尔潘自豪地说他在密阿雷捉到了稀有的饭匙蛇，但他身边那只怎么看都是阿柏怪。给他看看真正的饭匙蛇吧。",
   process: ["将饭匙蛇带给委托人看。"],
   location: "",
-  unlockCondition: null,
+  unlockCondition: (
+    <>
+      “
+      <MissionLink
+        category="异"
+        index={8}
+      />
+      ”在锈蚀组事务所听完了对话
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25934240532",
 };

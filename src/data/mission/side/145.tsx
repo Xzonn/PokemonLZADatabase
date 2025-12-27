@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -12,6 +13,17 @@ export const information: MissionDetail = {
     "把委托人说的话转达给邻居。",
     "把邻居说的话转达给委托人。",
   ],
-  location: "",
-  unlockCondition: null,
+  location: "琼黄６号街区",
+  unlockCondition: (
+    <>
+      完成了“
+      <MissionLink
+        category="异"
+        index={3}
+      />
+      ”
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25934240306",
 };

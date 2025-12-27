@@ -9,7 +9,9 @@ export const information: MissionDetail = {
   location: "秀丽世大酒店",
   unlockCondition: (
     <>
-      在<Link to="/ＺＡ登峰战">ＺＡ登峰战</Link>的报酬战中胜利20场
+      在<Link to="/ＺＡ登峰战">ＺＡ登峰战</Link>的报酬战中胜利 20 场
     </>
   ),
+  bvid: "BV1pK4UzoEoF",
+  cid: "25935484154",
 };

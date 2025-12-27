@@ -1,3 +1,4 @@
+import { ItemLink, MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -10,6 +11,25 @@ export const information: MissionDetail = {
     "与异次元中的少女谈话。",
     "从异次元密阿雷逃出。",
   ],
-  location: "",
-  unlockCondition: null,
+  location: "榴红１号街区",
+  unlockCondition: (
+    <>
+      完成了“
+      <MissionLink
+        category="异"
+        index={12}
+      />
+      ”
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25935420522",
+  note: (
+    <ul>
+      <li>
+        本作中美录坦无法进化为美录梅塔，任务中美录坦可以用任意精灵球捕获，而美录梅塔是流程中自动获得的，必定为普通
+        <ItemLink name="精灵球" />。
+      </li>
+    </ul>
+  ),
 };

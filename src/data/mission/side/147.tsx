@@ -1,5 +1,5 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
-import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 147,
@@ -9,9 +9,14 @@ export const information: MissionDetail = {
   location: "旅馆Ｚ",
   unlockCondition: (
     <>
-      完成了<Link to="/hyperspace/005">异次元任务 005</Link>
+      接受了“
+      <MissionLink
+        category="异"
+        index={6}
+      />
+      ”
     </>
   ),
   bvid: "BV1azqaBiEi2",
-  cid: "25931945204",
+  cid: "34892613965",
 };

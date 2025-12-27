@@ -9,12 +9,12 @@ export const information: MissionDetail = {
   location: "１０号野生特区门口",
   unlockCondition: (
     <>
-      完成“
+      “
       <MissionLink
-        category="副"
-        index={120}
+        category="异"
+        index={3}
       />
-      ”后
+      ”在锈蚀组事务所听完了对话
     </>
   ),
   bvid: "BV1azqaBiEi2",

@@ -10,6 +10,8 @@ export const information: MissionDetail = {
     "与盖伊／塔霓打宝可梦对战。",
     "在旅馆Ｚ的楼顶上与盖伊／塔霓对话。",
   ],
-  location: "",
-  unlockCondition: null,
+  location: "旅馆Ｚ",
+  unlockCondition: <>完成了副任务 1-199</>,
+  bvid: "BV1azqaBiEi2",
+  cid: "25935420474",
 };

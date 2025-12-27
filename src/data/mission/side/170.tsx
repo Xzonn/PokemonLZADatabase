@@ -1,3 +1,4 @@
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
 
 export const information: MissionDetail = {
@@ -6,5 +7,16 @@ export const information: MissionDetail = {
   summary: "洛托姆这种宝可梦可以潜入家电与电子设备，让外观产生各种各样的变化。这次将一并隆重介绍！",
   process: ["在宝可梦对战中打赢委托人。"],
   location: "",
-  unlockCondition: null,
+  unlockCondition: (
+    <>
+      “
+      <MissionLink
+        category="异"
+        index={9}
+      />
+      ”击败了卡娜莉和皙白
+    </>
+  ),
+  bvid: "BV1azqaBiEi2",
+  cid: "25934894534",
 };

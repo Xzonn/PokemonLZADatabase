@@ -9,12 +9,12 @@ export const information: MissionDetail = {
   location: "南侧大道",
   unlockCondition: (
     <>
-      完成“
+      “
       <MissionLink
-        category="副"
-        index={120}
+        category="异"
+        index={1}
       />
-      ”后
+      ”初次击败了可尔妮
     </>
   ),
   bvid: "BV1azqaBiEi2",

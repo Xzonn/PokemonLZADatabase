@@ -9,17 +9,17 @@ export const information: MissionDetail = {
   location: "宫廷廊街 进入异次元扭洞",
   unlockCondition: (
     <>
-      完成“
+      “
+      <MissionLink
+        category="异"
+        index={3}
+      />
+      ”在锈蚀组事务所听完了对话、完成了“
       <MissionLink
         category="副"
         index={108}
       />
-      ”、“
-      <MissionLink
-        category="副"
-        index={120}
-      />
-      ”后
+      ”
     </>
   ),
   bvid: "BV1azqaBiEi2",
