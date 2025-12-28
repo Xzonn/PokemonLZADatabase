@@ -101,15 +101,17 @@ export const MissionDetailComponent: FC<IProps> = ({ category, mission }) => {
 
   const trDataFiltered = useMemo(() => {
     if (!trData?.length) return [];
-    if (category === "副" && data?.information.internal) {
+    if (data?.information.trainers) {
+      return trData.filter((item) => data.information.trainers?.includes(item.id));
+    } else if (category === "副" && data?.information.internal) {
       return trData.filter((item) =>
         item.id.startsWith(`Ev_sub_${data.information.internal.toString().padStart(3, "0")}_`),
       );
     }
     return [];
-  }, [category, data?.information.internal, trData]);
+  }, [category, data?.information, trData]);
 
-  const { information = null, default: Content } = data || {};
+  const { information = null, default: Content = null } = data || {};
   const missionSummary = useMemo(
     () => MissionData?.find((item) => item.index === information?.index && item.category === category),
     [category, information?.index],
@@ -242,6 +244,8 @@ export const MissionDetailComponent: FC<IProps> = ({ category, mission }) => {
         </Spin>
       </div>
 
+      {Content ? <Content /> : null}
+
       {category === "副" ? (
         <div className="section">
           <h2>地点</h2>
@@ -262,8 +266,6 @@ export const MissionDetailComponent: FC<IProps> = ({ category, mission }) => {
           />
         </div>
       ) : null}
-
-      {Content ? <Content /> : null}
 
       {information?.bvid && information?.cid ? (
         <div className="section">

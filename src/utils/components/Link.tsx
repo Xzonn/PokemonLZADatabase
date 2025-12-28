@@ -21,7 +21,7 @@ export const Link: React.FC<LinkProps> = ({ to, children, ...rest }) => {
   const target = resolved.pathname;
   const current = decodeURIComponent(location.pathname);
 
-  if (target === current) {
+  if (target === current && !resolved.hash) {
     // render plain text when target equals current URL
     return (
       <span

@@ -1,5 +1,7 @@
+import { FC } from "react";
+
+import { MissionLink } from "@/components";
 import { MissionDetail } from "@/types";
-import { Link } from "@/utils";
 
 export const information: MissionDetail = {
   index: 7,
@@ -9,9 +11,33 @@ export const information: MissionDetail = {
   location: "",
   unlockCondition: (
     <>
-      完成了<Link to="/hyperspace/006">异次元任务 006</Link>
+      完成了“
+      <MissionLink
+        category="异"
+        index={6}
+      />
+      ”
     </>
   ),
   bvid: "BV1azqaBiEi2",
   cid: "25931945183",
 };
+
+const Content: FC = () => (
+  <>
+    <div className="section">
+      <h2>任务流程</h2>
+      <p>前往２０３号客房。</p>
+      <p>
+        “
+        <MissionLink
+          category="异"
+          index={8}
+        />
+        ”开启。
+      </p>
+    </div>
+  </>
+);
+
+export default Content;

@@ -1,4 +1,5 @@
 export * from "./PokemonIcon";
+export * from "./PokemonLink";
 export * from "./PokemonTable";
 export * from "./PokemonEvolutionTable";
 export * from "./PokemonCell";

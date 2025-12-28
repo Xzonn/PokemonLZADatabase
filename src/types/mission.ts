@@ -31,6 +31,7 @@ export interface MissionDetail {
   bvid?: string;
   cid?: string;
   note?: ReactNode;
+  trainers?: string[];
 }
 
 export interface MissionFull {
