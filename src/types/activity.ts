@@ -1,6 +1,6 @@
 import { IItemReward } from "./item";
 
-interface ILevelReward {
+export interface ILevelReward {
   levels: string;
   items: IItemReward[];
 }

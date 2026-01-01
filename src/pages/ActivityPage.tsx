@@ -3,7 +3,7 @@ import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
 
 import { ItemIconWithoutTooltip, ItemRewardsTable, New, Now, PokemonIcon } from "@/components";
 import { ItemDataByName, PokemonDataByName } from "@/data";
-import { IItemReward, ISeasonReward } from "@/types";
+import { IItemReward, ILevelReward, ISeasonReward } from "@/types";
 import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
 
 interface IInternetBattleRewardsTableProps {
@@ -80,6 +80,20 @@ const RewardCard: FC<{ season: ISeasonReward; rewardKey: "promotionRewards" | "s
   );
 };
 
+const RewardCardLite: FC<{ season: string; rewards: ILevelReward[] }> = ({ season, rewards }) => (
+  <Card title={season}>
+    {rewards.map((reward) => (
+      <div key={reward.levels}>
+        <h4>{reward.levels}</h4>
+        <ItemRewardsTable
+          data={reward.items}
+          headers={["道具", "数量"]}
+        />
+      </div>
+    ))}
+  </Card>
+);
+
 const ActivityPage: React.FC = () => {
   useEffect(() => {
     document.title = `联网活动 - ${DEFAULT_TITLE}`;
@@ -100,7 +114,7 @@ const ActivityPage: React.FC = () => {
 
   const seasonRewards = useMemo(
     () =>
-      data?.SeasonRewardData.map((season) => (
+      data?.SeasonRewardData.filter((season) => season.seasonRewards.length > 0).map((season) => (
         <RewardCard
           key={season.season}
           season={season}
@@ -428,15 +442,6 @@ const ActivityPage: React.FC = () => {
         <Spin spinning={loading}>
           <div className="activity-card-container">
             {promotionRewards}
-            <Card title="第 5 赛季">
-              <div className="flex-container">
-                <ItemIconWithoutTooltip
-                  item={ItemDataByName["蜥蜴王进化石"]}
-                  size={64}
-                />
-              </div>
-              <div className="text-center">蜥蜴王进化石</div>
-            </Card>
             <Card title="第 6 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
@@ -465,9 +470,206 @@ const ActivityPage: React.FC = () => {
           赛季报酬是根据赛季结束时的所在级别可以获得的报酬，在赛季结束后发放。自第 4
           赛季起，赛季报酬中的特殊精灵球被移除，改为在升级报酬中发放。
         </p>
+        <h3>特殊精灵球</h3>
         <Spin spinning={loading}>
           <div className="activity-card-container">{seasonRewards}</div>
         </Spin>
+        <h3>固定奖励</h3>
+        <div className="activity-card-container">
+          <RewardCardLite
+            season="第 1～3 赛季"
+            rewards={[
+              {
+                levels: "Ａ",
+                items: [
+                  {
+                    item: "金色王冠",
+                    quantity: 1,
+                  },
+                  {
+                    item: "银色王冠",
+                    quantity: 3,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 3,
+                  },
+                  {
+                    item: "巨大金珠",
+                    quantity: 1,
+                  },
+                ],
+              },
+              {
+                levels: "Ｅ～Ｂ",
+                items: [
+                  {
+                    item: "金色王冠",
+                    quantity: 1,
+                  },
+                  {
+                    item: "银色王冠",
+                    quantity: 2,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 2,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                ],
+              },
+              {
+                levels: "Ｋ～Ｆ",
+                items: [
+                  {
+                    item: "银色王冠",
+                    quantity: 1,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 1,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                ],
+              },
+              {
+                levels: "Ｒ～Ｌ",
+                items: [
+                  {
+                    item: "精通种子",
+                    quantity: 1,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 1,
+                  },
+                ],
+              },
+              {
+                levels: "Ｓ以下",
+                items: [
+                  {
+                    item: "金珠",
+                    quantity: 1,
+                  },
+                ],
+              },
+            ]}
+          />
+          <RewardCardLite
+            season="第 4 赛季起"
+            rewards={[
+              {
+                levels: "Ａ",
+                items: [
+                  {
+                    item: "金色王冠",
+                    quantity: 3,
+                  },
+                  {
+                    item: "银色王冠",
+                    quantity: 5,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 3,
+                  },
+                  {
+                    item: "巨大金珠",
+                    quantity: 1,
+                  },
+                ],
+              },
+              {
+                levels: "Ｂ～Ｅ",
+                items: [
+                  {
+                    item: "金色王冠",
+                    quantity: 2,
+                  },
+                  {
+                    item: "银色王冠",
+                    quantity: 3,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 2,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                ],
+              },
+              {
+                levels: "Ｆ～Ｉ",
+                items: [
+                  {
+                    item: "金色王冠",
+                    quantity: 1,
+                  },
+                  {
+                    item: "银色王冠",
+                    quantity: 2,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 1,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                ],
+              },
+              {
+                levels: "Ｊ～Ｍ",
+                items: [
+                  {
+                    item: "银色王冠",
+                    quantity: 1,
+                  },
+                  {
+                    item: "精通种子",
+                    quantity: 1,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                ],
+              },
+              {
+                levels: "Ｎ～Ｒ",
+                items: [
+                  {
+                    item: "精通种子",
+                    quantity: 1,
+                  },
+                  {
+                    item: "金珠",
+                    quantity: 1,
+                  },
+                ],
+              },
+              {
+                levels: "Ｓ以下",
+                items: [
+                  {
+                    item: "金珠",
+                    quantity: 1,
+                  },
+                ],
+              },
+            ]}
+          />
+        </div>
       </div>
     </Fragment>
   );
