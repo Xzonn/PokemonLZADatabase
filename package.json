@@ -8,8 +8,8 @@
     "@giscus/react": "^3.1.0",
     "aegis-web-sdk": "^1.41.10",
     "ahooks": "^3.9.6",
-    "antd": "^5.29.1",
-    "autoprefixer": "^10.4.22",
+    "antd": "^5.29.3",
+    "autoprefixer": "^10.4.23",
     "classnames": "^2.5.1",
     "leaflet": "^1.9.4",
     "leaflet-fullscreen": "^1.0.2",
@@ -47,8 +47,8 @@
     "@types/react": "^18.3.27",
     "@types/react-dom": "^18.3.7",
     "@types/react-router-dom": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^8.49.0",
-    "@typescript-eslint/parser": "^8.49.0",
+    "@typescript-eslint/eslint-plugin": "^8.52.0",
+    "@typescript-eslint/parser": "^8.52.0",
     "@vitejs/plugin-react": "^5.1.2",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
@@ -62,7 +62,7 @@
     "prettier": "^3.7.4",
     "rollup-plugin-visualizer": "^6.0.5",
     "typescript": "^4.9.5",
-    "vite": "^7.2.7",
+    "vite": "^7.3.0",
     "vite-plugin-eslint": "^1.8.1"
   }
 }
