@@ -164,7 +164,7 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：无
             </div>
             <div>
-              <b>领取时间</b>：2025年10月16日～2026年2月28日
+              <b>领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
             </div>
           </Card>
           <Card title="100 个精灵球">
@@ -181,10 +181,10 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：序列号（购买下载版，邮件发送）
             </div>
             <div>
-              <b>序列号领取时间</b>：2025年10月16日～2026年2月28日
+              <b>序列号领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
             </div>
             <div>
-              <b>序列号有效时间</b>：2025年10月16日～2026年3月10日
+              <b>序列号有效时间</b>：2025 年 10 月 16 日～2026 年 3 月 10 日
             </div>
           </Card>
           <Card title="精灵球豪华组合">
@@ -224,10 +224,10 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：序列号（购买 DLC，邮件发送）
             </div>
             <div>
-              <b>序列号领取时间</b>：2025年10月16日～2026年2月28日
+              <b>序列号领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
             </div>
             <div>
-              <b>序列号有效时间</b>：2025年10月16日～2026年3月10日
+              <b>序列号有效时间</b>：2025 年 10 月 16 日～2026 年 3 月 10 日
             </div>
           </Card>
           <Card title="“如宝石般的光芒”">
@@ -247,7 +247,7 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：无
             </div>
             <div>
-              <b>领取时间</b>：2025年11月6日～
+              <b>领取时间</b>：2025 年 11 月 6 日～
             </div>
           </Card>
           <Card title="“Ｍ项目”">
@@ -276,7 +276,7 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：无
             </div>
             <div>
-              <b>领取时间</b>：2025年12月2日～
+              <b>领取时间</b>：2025 年 12 月 2 日～
             </div>
           </Card>
           <Card
@@ -316,17 +316,13 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：密语 PREPAR1NG
             </div>
             <div>
-              <b>领取时间</b>：2025年12月4日～2027年3月31日
+              <b>领取时间</b>：2025 年 12 月 4 日～2027 年 3 月 31 日
             </div>
           </Card>
-          <Card
-            title={
-              <>
-                大型喷火龙（头目）
-                <New />
-              </>
-            }
-          >
+        </div>
+        <h3>已结束</h3>
+        <div className="activity-card-container">
+          <Card title="大型喷火龙（头目）">
             <div className="flex-container">
               <PokemonIcon
                 pokemon={PokemonDataByName["喷火龙"]}
@@ -346,9 +342,12 @@ const ActivityPage: React.FC = () => {
               <b>领取条件</b>：密语 B1G0006
             </div>
             <div>
-              <b>领取时间</b>：2025年12月9日～2026年1月19日
+              <b>领取时间</b>：2025 年 12 月 9 日～2026 年 1 月 19 日
             </div>
           </Card>
+          <div />
+          <div />
+          <div />
         </div>
       </div>
 
@@ -442,15 +441,6 @@ const ActivityPage: React.FC = () => {
         <Spin spinning={loading}>
           <div className="activity-card-container">
             {promotionRewards}
-            <Card title="第 6 赛季">
-              <div className="flex-container">
-                <ItemIconWithoutTooltip
-                  item={ItemDataByName["巨沼怪进化石"]}
-                  size={64}
-                />
-              </div>
-              <div className="text-center">巨沼怪进化石</div>
-            </Card>
             <Card title="第 7 赛季">
               <div className="flex-container">
                 <ItemIconWithoutTooltip
@@ -462,6 +452,112 @@ const ActivityPage: React.FC = () => {
             </Card>
           </div>
         </Spin>
+        <h3>固定奖励</h3>
+        <div className="activity-card-container">
+          <RewardCardLite
+            season="第 4 赛季起"
+            rewards={[
+              {
+                levels: "Ｆ、Ｇ、Ｈ",
+                items: [
+                  {
+                    item: "金珠",
+                    quantity: 4,
+                  },
+                  {
+                    item: "经验糖果Ｌ",
+                    quantity: 5,
+                  },
+                ],
+              },
+              {
+                levels: "Ｊ、Ｋ、Ｌ",
+                items: [
+                  {
+                    item: "金珠",
+                    quantity: 3,
+                  },
+                  {
+                    item: "经验糖果Ｌ",
+                    quantity: 4,
+                  },
+                ],
+              },
+              {
+                levels: "Ｎ",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 200,
+                  },
+                ],
+              },
+              {
+                levels: "Ｏ",
+                items: [
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                  {
+                    item: "经验糖果Ｌ",
+                    quantity: 3,
+                  },
+                ],
+              },
+              {
+                levels: "Ｐ",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 200,
+                  },
+                ],
+              },
+              {
+                levels: "Ｑ",
+                items: [
+                  {
+                    item: "金珠",
+                    quantity: 2,
+                  },
+                  {
+                    item: "经验糖果Ｌ",
+                    quantity: 3,
+                  },
+                ],
+              },
+              {
+                levels: "Ｒ",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 200,
+                  },
+                ],
+              },
+              {
+                levels: "Ｔ到Ｘ",
+                items: [
+                  {
+                    item: "经验糖果Ｓ",
+                    quantity: 1,
+                  },
+                ],
+              },
+              {
+                levels: "Ｙ",
+                items: [
+                  {
+                    item: "经验糖果ＸＳ",
+                    quantity: 1,
+                  },
+                ],
+              },
+            ]}
+          />
+          <div />
+        </div>
       </div>
 
       <div className="section">

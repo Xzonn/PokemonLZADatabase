@@ -171,37 +171,11 @@
         ]
       },
       {
-        "levels": "Ｆ、Ｇ、Ｈ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 4
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 5
-          }
-        ]
-      },
-      {
         "levels": "Ｉ",
         "items": [
           {
             "item": "究极球",
             "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｊ、Ｋ、Ｌ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 3
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 4
           }
         ]
       },
@@ -215,72 +189,10 @@
         ]
       },
       {
-        "levels": "Ｎ",
-        "items": [
-          {
-            "item": "超级碎片",
-            "quantity": 200
-          }
-        ]
-      },
-      {
-        "levels": "Ｏ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 2
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "levels": "Ｐ",
-        "items": [
-          {
-            "item": "超级碎片",
-            "quantity": 200
-          }
-        ]
-      },
-      {
-        "levels": "Ｑ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 2
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "levels": "Ｒ",
-        "items": [
-          {
-            "item": "超级碎片",
-            "quantity": 200
-          }
-        ]
-      },
-      {
         "levels": "Ｓ",
         "items": [
           {
             "item": "戟脊龙进化石",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｔ",
-        "items": [
-          {
-            "item": "经验糖果Ｓ",
             "quantity": 1
           }
         ]
@@ -291,19 +203,6 @@
           {
             "item": "布里卡隆进化石",
             "quantity": 1
-          },
-          {
-            "item": "经验糖果Ｓ",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｖ",
-        "items": [
-          {
-            "item": "经验糖果Ｓ",
-            "quantity": 1
           }
         ]
       },
@@ -312,19 +211,6 @@
         "items": [
           {
             "item": "妖火红狐进化石",
-            "quantity": 1
-          },
-          {
-            "item": "经验糖果Ｓ",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｘ",
-        "items": [
-          {
-            "item": "经验糖果Ｓ",
             "quantity": 1
           }
         ]
@@ -335,10 +221,6 @@
           {
             "item": "甲贺忍蛙进化石",
             "quantity": 1
-          },
-          {
-            "item": "经验糖果ＸＳ",
-            "quantity": 1
           }
         ]
       }
@@ -347,8 +229,8 @@
   },
   {
     "season": 5,
-    "url": "https://plza-news.pokemon-home.com/sc/page/18.html",
-    "startDate": "2025-01-08",
+    "url": "https://plza-news.pokemon-home.com/sc/page/19.html",
+    "startDate": "2026-01-08",
     "endDate": "2026-01-29",
     "promotionRewards": [
       {
@@ -379,37 +261,11 @@
         ]
       },
       {
-        "levels": "Ｆ、Ｇ、Ｈ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 4
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 5
-          }
-        ]
-      },
-      {
         "levels": "Ｉ",
         "items": [
           {
             "item": "竞赛球",
             "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｊ、Ｋ、Ｌ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 3
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 4
           }
         ]
       },
@@ -423,81 +279,10 @@
         ]
       },
       {
-        "levels": "Ｎ",
-        "items": [
-          {
-            "item": "超级碎片",
-            "quantity": 200
-          }
-        ]
-      },
-      {
-        "levels": "Ｏ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 2
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "levels": "Ｐ",
-        "items": [
-          {
-            "item": "超级碎片",
-            "quantity": 200
-          }
-        ]
-      },
-      {
-        "levels": "Ｑ",
-        "items": [
-          {
-            "item": "金珠",
-            "quantity": 2
-          },
-          {
-            "item": "经验糖果Ｌ",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "levels": "Ｒ",
-        "items": [
-          {
-            "item": "超级碎片",
-            "quantity": 200
-          }
-        ]
-      },
-      {
         "levels": "Ｓ",
         "items": [
           {
             "item": "蜥蜴王进化石",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｔ",
-        "items": [
-          {
-            "item": "经验糖果Ｓ",
-            "quantity": 1
-          }
-        ]
-      },
-      {
-        "levels": "Ｕ",
-        "items": [
-          {
-            "item": "经验糖果Ｓ",
             "quantity": 1
           }
         ]
@@ -508,10 +293,6 @@
           {
             "item": "戟脊龙进化石",
             "quantity": 1
-          },
-          {
-            "item": "经验糖果Ｓ",
-            "quantity": 1
           }
         ]
       },
@@ -520,10 +301,6 @@
         "items": [
           {
             "item": "布里卡隆进化石",
-            "quantity": 1
-          },
-          {
-            "item": "经验糖果Ｓ",
             "quantity": 1
           }
         ]
@@ -534,10 +311,6 @@
           {
             "item": "妖火红狐进化石",
             "quantity": 1
-          },
-          {
-            "item": "经验糖果Ｓ",
-            "quantity": 1
           }
         ]
       },
@@ -547,9 +320,113 @@
           {
             "item": "甲贺忍蛙进化石",
             "quantity": 1
-          },
+          }
+        ]
+      }
+    ],
+    "seasonRewards": []
+  },
+  {
+    "season": 6,
+    "url": "https://plza-news.pokemon-home.com/sc/page/20.html",
+    "startDate": "2026-01-29",
+    "endDate": "2026-02-19",
+    "promotionRewards": [
+      {
+        "levels": "Ａ",
+        "items": [
           {
-            "item": "经验糖果ＸＳ",
+            "item": "梦境球",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "levels": "Ｂ、Ｃ",
+        "items": [
+          {
+            "item": "梦境球",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "levels": "Ｄ、Ｅ",
+        "items": [
+          {
+            "item": "梦境球",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "levels": "Ｉ",
+        "items": [
+          {
+            "item": "梦境球",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｍ",
+        "items": [
+          {
+            "item": "梦境球",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｓ",
+        "items": [
+          {
+            "item": "巨沼怪进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｕ",
+        "items": [
+          {
+            "item": "蜥蜴王进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｖ",
+        "items": [
+          {
+            "item": "戟脊龙进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｗ",
+        "items": [
+          {
+            "item": "布里卡隆进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｘ",
+        "items": [
+          {
+            "item": "妖火红狐进化石",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "levels": "Ｙ",
+        "items": [
+          {
+            "item": "甲贺忍蛙进化石",
             "quantity": 1
           }
         ]
