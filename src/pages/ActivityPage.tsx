@@ -439,18 +439,7 @@ const ActivityPage: React.FC = () => {
           赛季起，赛季报酬中的特殊精灵球被移除，改为在升级报酬中发放。
         </p>
         <Spin spinning={loading}>
-          <div className="activity-card-container">
-            {promotionRewards}
-            <Card title="第 7 赛季">
-              <div className="flex-container">
-                <ItemIconWithoutTooltip
-                  item={ItemDataByName["火焰鸡进化石"]}
-                  size={64}
-                />
-              </div>
-              <div className="text-center">火焰鸡进化石</div>
-            </Card>
-          </div>
+          <div className="activity-card-container">{promotionRewards}</div>
         </Spin>
         <h3>固定奖励</h3>
         <div className="activity-card-container">
