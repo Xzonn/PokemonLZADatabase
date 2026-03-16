@@ -1,7 +1,7 @@
 import { useLocalStorageState } from "ahooks";
 import { Alert } from "antd";
 
-import { Link, onUseRequestError } from "@/utils";
+import { Icon, Link, onUseRequestError } from "@/utils";
 
 export const Notice: React.FC = () => {
   const [show] = useLocalStorageState("notice-lza-database", {
@@ -18,8 +18,23 @@ export const Notice: React.FC = () => {
       message={
         <div className="space-y-2">
           <div>
-            <Link to="/h/一般">野生异次元</Link>和<Link to="/对战异次元">对战异次元</Link>
-            的数据已添加！如遇到“资源文件加载失败”提示，请尝试刷新页面！
+            <Icon
+              name="ditto"
+              className="icon-inline"
+              size={18}
+            />
+            <Link
+              to="https://pokopia.xzonn.top"
+              className="mx-2"
+              target="_blank"
+            >
+              欢迎查询 Pokopia 数据库
+            </Link>
+            <Icon
+              name="ditto"
+              className="icon-inline"
+              size={18}
+            />
           </div>
         </div>
       }

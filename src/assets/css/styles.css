@@ -148,6 +148,10 @@ main p {
     @apply bg-gray-50;
   }
 
+  &:last-child {
+    @apply sm:rounded-b-2xl;
+  }
+
   & > :last-child,
   & > .ant-spin-nested-loading > .ant-spin-container > :last-child {
     @apply mb-0;
@@ -494,11 +498,15 @@ header {
 }
 
 .notice {
-  @apply text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-gray-600 space-y-2;
+  @apply text-center sm:rounded-2xl sm:shadow-xl m-0 sm:mx-2 lg:mx-4 p-4 sm:mt-4 text-gray-600 space-y-2 border-purple-200 bg-purple-50;
+
+  .ant-alert-content {
+    --tw-space-y-reverse: 0.5 !important;
+  }
 }
 
 aside {
-  @apply w-64 px-4 py-8 z-40 hidden md:block;
+  @apply w-64 px-4 py-8 z-40 hidden md:flex flex-col gap-8;
 }
 
 nav {
@@ -506,7 +514,7 @@ nav {
 }
 
 .nav-title {
-  @apply text-center px-4 text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3;
+  @apply text-center px-4 text-sm font-semibold text-gray-400 uppercase tracking-wider;
 }
 
 .nav-content {
@@ -528,7 +536,7 @@ a.nav-item-active {
 }
 
 .nav-toc {
-  @apply sticky top-24 mt-8;
+  @apply sticky top-24;
 }
 
 main {

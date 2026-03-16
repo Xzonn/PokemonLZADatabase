@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.6.1",
+    "@ctrl/react-adsense": "^2.1.0",
     "@fontsource/nunito": "^5.2.7",
     "@giscus/react": "^3.1.0",
     "aegis-web-sdk": "^1.41.10",

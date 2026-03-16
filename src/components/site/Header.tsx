@@ -63,7 +63,7 @@ export const Header: FC<IHeaderProps> = ({ showDrawer }) => {
               <button
                 className="p-2 hover:bg-gray-50 transition-colors"
                 aria-label="切换菜单"
-                onClick={() => setShow(true)}
+                onClick={() => setShow((prev) => !prev)}
               >
                 <MenuOutlined className="text-xl" />
               </button>

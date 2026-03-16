@@ -1,7 +1,7 @@
 import { Card, Spin } from "antd";
 import React, { FC, Fragment, useEffect, useMemo, useState } from "react";
 
-import { ItemIconWithoutTooltip, ItemRewardsTable, New, Now, PokemonIcon } from "@/components";
+import { ItemIconWithoutTooltip, ItemRewardsTable, Now, PokemonIcon, PokemonLink } from "@/components";
 import { ItemDataByName, PokemonDataByName } from "@/data";
 import { IItemReward, ILevelReward, ISeasonReward } from "@/types";
 import { DEFAULT_TITLE, Link, useImport, useLoadingAnchor } from "@/utils";
@@ -141,95 +141,6 @@ const ActivityPage: React.FC = () => {
       <div className="section">
         <h2>神秘礼物</h2>
         <div className="activity-card-container">
-          <Card title="拥有沙奈朵进化石的拉鲁拉丝">
-            <div className="flex-container">
-              <PokemonIcon
-                pokemon={PokemonDataByName["拉鲁拉丝"]}
-                link
-              />
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["沙奈朵进化石"]}
-                size={64}
-              />
-            </div>
-            <div className="flex-container">
-              <div>
-                <Link to="/p/拉鲁拉丝">拉鲁拉丝</Link> Lv.6
-              </div>
-              <div>
-                <Link to="/i/沙奈朵进化石">沙奈朵进化石</Link>×1
-              </div>
-            </div>
-            <div>
-              <b>领取条件</b>：无
-            </div>
-            <div>
-              <b>领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
-            </div>
-          </Card>
-          <Card title="100 个精灵球">
-            <div className="flex-container">
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["精灵球"]}
-                size={64}
-              />
-            </div>
-            <div className="text-center">
-              <Link to="/i/精灵球">精灵球</Link>×100
-            </div>
-            <div>
-              <b>领取条件</b>：序列号（购买下载版，邮件发送）
-            </div>
-            <div>
-              <b>序列号领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
-            </div>
-            <div>
-              <b>序列号有效时间</b>：2025 年 10 月 16 日～2026 年 3 月 10 日
-            </div>
-          </Card>
-          <Card title="精灵球豪华组合">
-            <div className="flex-container">
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["速度球"]}
-                size={64}
-              />
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["诱饵球"]}
-                size={64}
-              />
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["等级球"]}
-                size={64}
-              />
-              <ItemIconWithoutTooltip
-                item={ItemDataByName["沉重球"]}
-                size={64}
-              />
-            </div>
-            <div className="flex-container">
-              <div>
-                <Link to="/i/速度球">速度球</Link>×3
-              </div>
-              <div>
-                <Link to="/i/诱饵球">诱饵球</Link>×3
-              </div>
-              <div>
-                <Link to="/i/等级球">等级球</Link>×3
-              </div>
-              <div>
-                <Link to="/i/沉重球">沉重球</Link>×3
-              </div>
-            </div>
-            <div>
-              <b>领取条件</b>：序列号（购买 DLC，邮件发送）
-            </div>
-            <div>
-              <b>序列号领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
-            </div>
-            <div>
-              <b>序列号有效时间</b>：2025 年 10 月 16 日～2026 年 3 月 10 日
-            </div>
-          </Card>
           <Card title="“如宝石般的光芒”">
             <div className="flex-container">
               <ItemIconWithoutTooltip
@@ -279,14 +190,7 @@ const ActivityPage: React.FC = () => {
               <b>领取时间</b>：2025 年 12 月 2 日～
             </div>
           </Card>
-          <Card
-            title={
-              <>
-                PREPAR1NG
-                <New />
-              </>
-            }
-          >
+          <Card title="PREPAR1NG">
             <div className="flex-container">
               <ItemIconWithoutTooltip
                 item={ItemDataByName["活力块"]}
@@ -319,9 +223,118 @@ const ActivityPage: React.FC = () => {
               <b>领取时间</b>：2025 年 12 月 4 日～2027 年 3 月 31 日
             </div>
           </Card>
+          <Card title="超级烈咬陆鲨Ｚ">
+            <div className="flex-container">
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["烈咬陆鲨进化石Ｚ"]}
+                size={64}
+              />
+            </div>
+            <div className="text-center">
+              领取后解锁
+              <PokemonLink pokemon={PokemonDataByName["烈咬陆鲨-2"]} />
+              的异次元扭洞
+            </div>
+            <div>
+              <b>领取条件</b>：无
+            </div>
+            <div>
+              <b>领取时间</b>：2026 年 2 月 27 日～
+            </div>
+          </Card>
+          <div />
         </div>
         <h3>已结束</h3>
         <div className="activity-card-container">
+          <Card title="拥有沙奈朵进化石的拉鲁拉丝">
+            <div className="flex-container">
+              <PokemonIcon
+                pokemon={PokemonDataByName["拉鲁拉丝"]}
+                link
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["沙奈朵进化石"]}
+                size={64}
+              />
+            </div>
+            <div className="flex-container">
+              <div>
+                <Link to="/p/拉鲁拉丝">拉鲁拉丝</Link> Lv.6
+              </div>
+              <div>
+                <Link to="/i/沙奈朵进化石">沙奈朵进化石</Link>×1
+              </div>
+            </div>
+            <div>
+              <b>领取条件</b>：无
+            </div>
+            <div>
+              <b>领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
+            </div>
+          </Card>
+          <Card title="精灵球豪华组合">
+            <div className="flex-container">
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["速度球"]}
+                size={64}
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["诱饵球"]}
+                size={64}
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["等级球"]}
+                size={64}
+              />
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["沉重球"]}
+                size={64}
+              />
+            </div>
+            <div className="flex-container">
+              <div>
+                <Link to="/i/速度球">速度球</Link>×3
+              </div>
+              <div>
+                <Link to="/i/诱饵球">诱饵球</Link>×3
+              </div>
+              <div>
+                <Link to="/i/等级球">等级球</Link>×3
+              </div>
+              <div>
+                <Link to="/i/沉重球">沉重球</Link>×3
+              </div>
+            </div>
+            <div>
+              <b>领取条件</b>：序列号（购买 DLC，邮件发送）
+            </div>
+            <div>
+              <b>序列号领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
+            </div>
+            <div>
+              <b>序列号有效时间</b>：2025 年 10 月 16 日～2026 年 3 月 10 日
+            </div>
+          </Card>
+          <Card title="100 个精灵球">
+            <div className="flex-container">
+              <ItemIconWithoutTooltip
+                item={ItemDataByName["精灵球"]}
+                size={64}
+              />
+            </div>
+            <div className="text-center">
+              <Link to="/i/精灵球">精灵球</Link>×100
+            </div>
+            <div>
+              <b>领取条件</b>：序列号（购买下载版，邮件发送）
+            </div>
+            <div>
+              <b>序列号领取时间</b>：2025 年 10 月 16 日～2026 年 2 月 28 日
+            </div>
+            <div>
+              <b>序列号有效时间</b>：2025 年 10 月 16 日～2026 年 3 月 10 日
+            </div>
+          </Card>
           <Card title="大型喷火龙（头目）">
             <div className="flex-container">
               <PokemonIcon
@@ -345,9 +358,6 @@ const ActivityPage: React.FC = () => {
               <b>领取时间</b>：2025 年 12 月 9 日～2026 年 1 月 19 日
             </div>
           </Card>
-          <div />
-          <div />
-          <div />
         </div>
       </div>
 
@@ -444,7 +454,7 @@ const ActivityPage: React.FC = () => {
         <h3>固定奖励</h3>
         <div className="activity-card-container">
           <RewardCardLite
-            season="第 4 赛季起"
+            season="第 4～7 赛季"
             rewards={[
               {
                 levels: "Ｆ、Ｇ、Ｈ",
@@ -648,7 +658,7 @@ const ActivityPage: React.FC = () => {
             ]}
           />
           <RewardCardLite
-            season="第 4 赛季起"
+            season="第 4～7 赛季"
             rewards={[
               {
                 levels: "Ａ",
@@ -749,6 +759,47 @@ const ActivityPage: React.FC = () => {
                   {
                     item: "金珠",
                     quantity: 1,
+                  },
+                ],
+              },
+            ]}
+          />
+          <RewardCardLite
+            season="第 8 赛季"
+            rewards={[
+              {
+                levels: "Ａ",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 300,
+                  },
+                ],
+              },
+              {
+                levels: "Ｂ～Ｅ",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 200,
+                  },
+                ],
+              },
+              {
+                levels: "Ｆ～Ｒ",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 100,
+                  },
+                ],
+              },
+              {
+                levels: "Ｓ以下",
+                items: [
+                  {
+                    item: "超级碎片",
+                    quantity: 50,
                   },
                 ],
               },
