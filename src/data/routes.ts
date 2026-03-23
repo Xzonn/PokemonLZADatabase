@@ -166,7 +166,7 @@ export const HOME_NAVIGATIONS: IHomepageNavigation = [
         title: "联系作者",
         contents: [
           { path: "https://space.bilibili.com/16114399", label: "Bilibili", icon: "bilibili" },
-          { path: "https://afdian.com/a/xzonn", label: "爱发电", icon: "afdian" },
+          { path: "https://ifdian.net/a/Xzonn", label: "爱发电", icon: "afdian" },
           // { path: "https://github.com/Xzonn/PokemonLZADatabase", label: "GitHub", icon: "github" },
           { path: "https://sv.xzonn.top/wiki/%E9%A6%96%E9%A1%B5", label: "朱·紫数据库", icon: "sv-wiki" },
           { path: "https://pokopia.xzonn.top/", label: "Pokopia 数据库", icon: "ditto" },
